@@ -86,14 +86,28 @@ def find_specialisation_packs():
             with open(readme, encoding="utf-8") as f:
                 text = f.read()
             fm, _ = parse_frontmatter(text)
+            # title: prefer "# Title" without a trailing "[SCAFFOLD ...]" marker; fall
+            # back to a plain "# Title" heading (populated packs have no marker).
             title_match = re.search(r"^#\s+(.+?)\s*\[", text, re.MULTILINE)
+            if not title_match:
+                title_match = re.search(r"^#\s+(.+?)\s*$", text, re.MULTILINE)
             title = title_match.group(1) if title_match else name
+            fm = fm or {}
+            status = fm.get("status", "placeholder")
             out.append({
                 "dir": name, "title": title,
-                "status": (fm or {}).get("status", "placeholder"),
-                "owner_input_needed": True,
+                "status": status,
+                "owner_input_needed": fm.get("owner_input_needed", "true") != "false",
             })
     return out
+
+
+def find_specialisation_pack_skill_source(pack_dir):
+    """A specialisation pack has no plugin.json, so it needs a synthetic pack
+    record for indexing purposes. Pack 'name' for these skills is the folder
+    name, prefixed so it's visually distinguishable from core-pack names in
+    skills_index.json."""
+    return {"dir": pack_dir, "name": f"specialisation-packs/{pack_dir}"}
 
 
 def main():
@@ -102,10 +116,9 @@ def main():
     skills = []
     errors = []
 
-    for pack in packs:
-        skills_dir = os.path.join(ROOT, pack["dir"], "skills")
+    def index_skills_dir(skills_dir, pack_name):
         if not os.path.isdir(skills_dir):
-            continue
+            return
         for skill_id in sorted(os.listdir(skills_dir)):
             skill_md = os.path.join(skills_dir, skill_id, "SKILL.md")
             if not os.path.exists(skill_md):
@@ -124,7 +137,7 @@ def main():
             prev = existing.get(skill_id, {})
             skills.append({
                 "id": skill_id,
-                "pack": pack["name"],
+                "pack": pack_name,
                 "title": prev.get("title", skill_id.replace("-", " ").title()),
                 "description": fm.get("description", ""),
                 "maturity": prev.get("maturity", "scaffold"),
@@ -134,13 +147,21 @@ def main():
                 "path": os.path.relpath(skill_md, ROOT),
             })
 
+    for pack in packs:
+        index_skills_dir(os.path.join(ROOT, pack["dir"], "skills"), pack["name"])
+
+    specialisation_packs = find_specialisation_packs()
+    for sp in specialisation_packs:
+        src = find_specialisation_pack_skill_source(sp["dir"])
+        index_skills_dir(os.path.join(ROOT, "specialisation-packs", sp["dir"], "skills"), src["name"])
+
     index = {
         "repo": "ai-business-designer-skills",
-        "version": "0.2.0",
+        "version": "0.3.0",
         "generated": "auto",
         "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
         "packs": [{"dir": p["dir"], "name": p["name"], "title": p["title"]} for p in packs],
-        "specialisation_packs": find_specialisation_packs(),
+        "specialisation_packs": specialisation_packs,
         "skills": skills,
     }
 

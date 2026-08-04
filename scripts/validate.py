@@ -40,6 +40,21 @@ def parse_frontmatter_keys(text, path):
     return keys
 
 
+def _check_skill_frontmatter(name, skill_id, skill_md):
+    if not os.path.exists(skill_md):
+        errors.append(f"pack '{name}': {skill_id}/ has no SKILL.md")
+        return
+    with open(skill_md, encoding="utf-8") as f:
+        text = f.read()
+    keys = parse_frontmatter_keys(text, skill_md)
+    extra = [k for k in keys if k not in ("name", "description")]
+    missing = [k for k in ("name", "description") if k not in keys]
+    if extra:
+        errors.append(f"{skill_md}: forbidden frontmatter keys {extra} (only name+description allowed)")
+    if missing:
+        errors.append(f"{skill_md}: missing required frontmatter keys {missing}")
+
+
 def check_packs():
     packs = []
     for name in sorted(os.listdir(ROOT)):
@@ -60,22 +75,35 @@ def check_packs():
             warnings.append(f"pack '{name}': no skills/ directory yet")
             continue
         for skill_id in sorted(os.listdir(skills_dir)):
-            skill_md = os.path.join(skills_dir, skill_id, "SKILL.md")
-            if not os.path.exists(skill_md):
-                errors.append(f"pack '{name}': {skill_id}/ has no SKILL.md")
-                continue
-            with open(skill_md, encoding="utf-8") as f:
-                text = f.read()
-            keys = parse_frontmatter_keys(text, skill_md)
-            extra = [k for k in keys if k not in ("name", "description")]
-            missing = [k for k in ("name", "description") if k not in keys]
-            if extra:
-                errors.append(f"{skill_md}: forbidden frontmatter keys {extra} (only name+description allowed)")
-            if missing:
-                errors.append(f"{skill_md}: missing required frontmatter keys {missing}")
-            if "[OWNER INPUT" not in text and "maturity: scaffold" not in text:
-                pass  # informational only — not every mature skill needs the marker
+            _check_skill_frontmatter(name, skill_id, os.path.join(skills_dir, skill_id, "SKILL.md"))
     return packs
+
+
+def check_specialisation_pack_skills():
+    """Specialisation packs (specialisation-packs/*/) don't have plugin.json and
+    aren't installable plugins in their own right, but once they have a non-empty
+    skills/ directory, the same frontmatter contract applies, and README.md +
+    CLAUDE.md become required (mirrors REQUIRED_PACK_FILES minus plugin.json)."""
+    base = os.path.join(ROOT, "specialisation-packs")
+    if not os.path.isdir(base):
+        return
+    for name in sorted(os.listdir(base)):
+        full = os.path.join(base, name)
+        if not os.path.isdir(full) or name.startswith("."):
+            continue
+        skills_dir = os.path.join(full, "skills")
+        has_skills = os.path.isdir(skills_dir) and any(
+            os.path.exists(os.path.join(skills_dir, s, "SKILL.md")) for s in os.listdir(skills_dir)
+        )
+        if not has_skills:
+            continue  # empty/placeholder specialisation pack — nothing to validate yet
+        pack_id = f"specialisation-packs/{name}"
+        if not os.path.exists(os.path.join(full, "README.md")):
+            errors.append(f"pack '{pack_id}': missing required file README.md")
+        if not os.path.exists(os.path.join(full, "CLAUDE.md")):
+            errors.append(f"pack '{pack_id}': missing required file CLAUDE.md (required once skills/ is populated)")
+        for skill_id in sorted(os.listdir(skills_dir)):
+            _check_skill_frontmatter(pack_id, skill_id, os.path.join(skills_dir, skill_id, "SKILL.md"))
 
 
 def check_marketplace(packs):
@@ -120,20 +148,29 @@ def check_skills_index():
 
     # orphan check: every SKILL.md on disk should be represented in the index
     indexed_ids = {s["id"] for s in idx.get("skills", [])}
-    for name in sorted(os.listdir(ROOT)):
-        full = os.path.join(ROOT, name)
-        if not os.path.isdir(full) or name in NON_PACK_DIRS or name.startswith("."):
-            continue
-        skills_dir = os.path.join(full, "skills")
+
+    def check_orphans_in(skills_dir):
         if not os.path.isdir(skills_dir):
-            continue
+            return
         for skill_id in os.listdir(skills_dir):
             if os.path.exists(os.path.join(skills_dir, skill_id, "SKILL.md")) and skill_id not in indexed_ids:
                 errors.append(f"skill '{skill_id}' on disk but missing from skills_index.json — run scripts/generate_index.py")
 
+    for name in sorted(os.listdir(ROOT)):
+        full = os.path.join(ROOT, name)
+        if not os.path.isdir(full) or name in NON_PACK_DIRS or name.startswith("."):
+            continue
+        check_orphans_in(os.path.join(full, "skills"))
+
+    spec_base = os.path.join(ROOT, "specialisation-packs")
+    if os.path.isdir(spec_base):
+        for name in sorted(os.listdir(spec_base)):
+            check_orphans_in(os.path.join(spec_base, name, "skills"))
+
 
 def main():
     packs = check_packs()
+    check_specialisation_pack_skills()
     check_marketplace(packs)
     check_skills_index()
 

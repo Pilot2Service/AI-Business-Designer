@@ -1,5 +1,22 @@
 # Changelog
 
+## 0.3.0 — 2026-08-04
+
+Ensimmäinen täysin täytetty erikoistumispakki — `specialisation-packs/research-commercialisation/`,
+konvertoitu omistajan (Tommi Järvinen) julkaisemasta *[redacted] Innovator's Guide to
+Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta:
+
+- 12 uutta skilliä (`maturity: validated`, `source_layer: owner`) — ensimmäiset
+  tässä repossa, jotka eivät ole `scaffold`-tasolla
+- `references/afca-framework.md`, `case-studies.md`, `terminology.md`, `sources.md`
+- Pakkikohtainen `CLAUDE.md` ja täysi `README.md` (placeholder poistettu)
+- `scripts/generate_index.py` ja `scripts/validate.py` laajennettu indeksoimaan ja
+  validoimaan myös `specialisation-packs/*/skills/`-sisältöä (ei vain top-level
+  plugin.json-pakkeja)
+- `marketplace.json`: `specialisation-research-commercialisation`-kuvaus päivitetty,
+  scaffold-merkintä poistettu
+- Yhteensä nyt 37 skilliä, 5 ydinpakkia + 1 täytetty erikoistumispakki
+
 ## 0.2.0 — 2026-08-04
 
 Rakennekorjaus `[redacted]/claude-for-legal-finland`-repon (tuotantokäytössä oleva

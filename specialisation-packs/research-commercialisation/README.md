@@ -1,38 +1,88 @@
 ---
-status: placeholder
-owner_input_needed: true
+status: validated
+owner_input_needed: false
 last_reviewed: 2026-08-04
 ---
 
-# Research Commercialisation [SCAFFOLD — täydennettävä]
+# Research Commercialisation
 
-Miten tutkimustulos tai IP muutetaan kaupallistettavaksi tuotteeksi/palveluksi: TRL-arviointi, IPR-strategia, spin-off-polut.
+Miten tutkimustulos tai IP muutetaan kaupallistettavaksi tuotteeksi, palveluksi tai
+yhtiöksi: mahdollisuuden tunnistamisesta IP-strategiaan, TTO-yhteistyöhön,
+rahoitukseen, tiiminrakennukseen ja perustajan valmiuden itsearviointiin.
 
 ## Tila
 
-Tämä erikoistumispakki on tyhjä runko. Sitä ei ole täytetty geneerisellä sisällöllä,
-koska se ei edustaisi todellista syväosaamistasi tällä alueella.
+Tämä pakki on rakennettu suoraan omistajan (Tommi Järvinen) julkaisemasta
+**[redacted] Innovator's Guide to Commercialisation** -käsikirjasta ([redacted], 2025,
+75 sivua) sekä sen AFCA-itsearviointityökalusta. Se ei ole tutkimustason scaffold
+vaan omistajan validoituun, n. 500 kaupallistamisprojektin kokemukseen perustuvaan
+menetelmään ankkuroitu sisältö — `source_layer: owner`, `maturity: validated`
+kaikilla skilleillä (ks. `../../skills_index.json`).
 
-## Ehdotettu rakenne (kun täydennät)
+## Skillit tässä pakissa
+
+| Skilli | Kuvaus |
+|---|---|
+| `research-opportunity-recognition` | Arvioi onko tutkimustuloksella todellista kaupallista potentiaalia — market pull vs. technology push. |
+| `spinout-vs-licensing-pathway` | Valitse kaupallistamisreitti: spin-out, lisensointi vai hybridi. |
+| `ip-disclosure-and-ownership-check` | Selvitä IP:n omistus ja tee oikea-aikainen keksintöilmoitus. |
+| `tto-engagement-strategy` | Käytä Technology Transfer Officea tehokkaasti, tunnista milloin tarvitaan lisätukea. |
+| `industry-specific-commercialisation-playbook` | Räätälöi strategia toimialan mukaan: life sciences, deep tech, ohjelmisto, impact. |
+| `funding-pathway-design` | Yhdistä dilutoimaton ja dilutoiva rahoitus, hallitse runwayta. |
+| `commercialisation-journey-roadmap` | Viiden vaiheen kokonaisroadmap: mahdollisuus → konsepti → validointi → strategia → toteutus. |
+| `founding-team-design-and-agreements` | Rakenna tasapainoinen perustajatiimi ja Founders' Agreement. |
+| `industry-partner-engagement` | Ota toimialakumppanit mukaan varhain. |
+| `academic-entrepreneur-role-choice` | Valitse oma rooli: täysipäiväinen perustaja, neuvonantaja vai osa-aikainen. |
+| `commercialisation-readiness-check` | Missio-, idea- ja valmiustesti ennen aloitusta. |
+| `founder-competence-self-assessment` | AFCA — 10 osa-alueen / 76 kohdan itsearviointi perustajan valmiudesta. |
+
+## Ankkurointi
+
+- [redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)
+- AFCA — Founder's Competence Assessment ([redacted]), synteesi EU:n
+  EntreComp- ja ResearchComp-kehyksistä
+- Käsikirjan omat lähteet: ks. `references/sources.md`
+
+## Skillien looginen kulku
 
 ```
-research-commercialisation/
-├── README.md              tämä tiedosto — päivitä status validoinnin myötä
-├── CLAUDE.md               (lisää kun ensimmäinen skilli on kirjoitettu)
-├── skills/                 erikoistumisalueen omat SKILL.md-tekniikat (name+description)
-│   └── <skill-id>/SKILL.md
-├── references/             omat mallipohjat, case-aineisto, lähteet
-└── cases/                  anonymisoidut/omat referenssitapaukset
+research-opportunity-recognition
+        │
+        ▼
+spinout-vs-licensing-pathway ──► ip-disclosure-and-ownership-check
+        │                               │
+        │                               ▼
+        │                       tto-engagement-strategy
+        │                               │
+        ▼                               ▼
+industry-specific-commercialisation-playbook ──► funding-pathway-design
+        │
+        ▼
+commercialisation-journey-roadmap
+        │
+        ▼
+founding-team-design-and-agreements ──► industry-partner-engagement
+        │
+        ▼
+academic-entrepreneur-role-choice
+        │
+        ▼
+commercialisation-readiness-check ──► founder-competence-self-assessment
 ```
 
-## Kysymyksiä, jotka auttavat aloittamaan täydentämisen
+Skillit on suunniteltu käytettäviksi myös itsenäisesti (ks.
+`../../meta/skill_design_principles.md` — independence-testi), mutta yllä oleva
+polku vastaa käsikirjan omaa etenemisjärjestystä ja sopii ensikertalaiselle.
 
-- Mitkä ovat 3–5 tekniikkaa/heuristiikkaa, joita käytät toistuvasti juuri tällä
-  erikoistumisalueella ja joita et löydä yleisistä business-kehyksistä?
-- Mitkä ovat tyypillisimmät virheet, joita näet muiden tekevän tällä alueella?
-- Onko sinulla 2–3 referenssitapausta (anonymisoituna), jotka havainnollistavat
-  tekniikkaa käytännössä?
+## Rakenne
 
-Kun ensimmäinen skilli on lisätty ja käytetty kerran oikeassa tilanteessa, päivitä
-`status: placeholder` → `status: scaffold`, ja seuraa samaa kypsyyspolkua kuin ydinpakeissa
-(ks. `../../meta/maturity_levels.md`).
+```
+CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
+skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
+references/                  terminologia, AFCA-data, case-studyt, lähteet
+cases/                       (varattu — tulevat omat, anonymisoidut projektitapaukset)
+```
+
+Katso `../../meta/maturity_levels.md` kypsyystasojen selityksille ja
+`../../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin
+sisältöä.

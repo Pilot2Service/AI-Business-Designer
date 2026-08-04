@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -46,8 +46,8 @@
     {
       "dir": "research-commercialisation",
       "title": "Research Commercialisation",
-      "status": "placeholder",
-      "owner_input_needed": true
+      "status": "validated",
+      "owner_input_needed": false
     }
   ],
   "skills": [
@@ -391,6 +391,179 @@
       ],
       "owner_input_needed": true,
       "path": "strategic-thinking/skills/systems-mapping/SKILL.md"
+    },
+    {
+      "id": "academic-entrepreneur-role-choice",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Academic Entrepreneur Role Choice",
+      "description": "Valitse oma rooli spin-outissa (täysipäiväinen perustaja, tieteellinen neuvonantaja, osa-aikainen) ja hallitse akateemisen uran ja yrittäjyyden yhteensovittamista.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Independent Review of University Spin-out Companies (UK)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/academic-entrepreneur-role-choice/SKILL.md"
+    },
+    {
+      "id": "commercialisation-journey-roadmap",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Commercialisation Journey Roadmap",
+      "description": "Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoinen roadmap, joka yhdistää vaiheportaat ketterään iterointiin.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "EIT Digital",
+        "Research to Business ([redacted]) -ohjelma"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/commercialisation-journey-roadmap/SKILL.md"
+    },
+    {
+      "id": "commercialisation-readiness-check",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Commercialisation Readiness Check",
+      "description": "Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis aloittamaan kaupallistamisen — oppimisnopeuden, ei täydellisyyden, näkökulmasta.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Eesley & Roberts (2012)",
+        "Christensen (1997)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/commercialisation-readiness-check/SKILL.md"
+    },
+    {
+      "id": "founder-competence-self-assessment",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Founder Competence Self Assessment",
+      "description": "Käy läpi jäsennelty 10 osa-alueen / 76 kohdan itsearviointi (AFCA) perustajan tai -tiimin valmiudesta akateemiseen spin-outiin tai tutkimuspohjaiseen startupiin.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "AFCA — Founder's Competence Assessment ([redacted])",
+        "EU EntreComp",
+        "EU ResearchComp"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/founder-competence-self-assessment/SKILL.md"
+    },
+    {
+      "id": "founding-team-design-and-agreements",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Founding Team Design And Agreements",
+      "description": "Rakenna tasapainoinen perustajatiimi ja sovi yhteispelin säännöt (Founders' Agreement) ennen kuin erimielisyydet syntyvät.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Colombo & Grilli (2005)",
+        "Choi et al. (2019)",
+        "Denoo et al. (2024)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/founding-team-design-and-agreements/SKILL.md"
+    },
+    {
+      "id": "funding-pathway-design",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Funding Pathway Design",
+      "description": "Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoituksen oikeassa järjestyksessä, ja hallitse runwayta.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "EIC Impact Report 2025"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/funding-pathway-design/SKILL.md"
+    },
+    {
+      "id": "industry-partner-engagement",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Industry Partner Engagement",
+      "description": "Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuote ja liiketoimintalogiikka pysyvät kiinni todellisuudessa.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Perkmann et al. (2013)",
+        "Robin & Schubert (2013)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/industry-partner-engagement/SKILL.md"
+    },
+    {
+      "id": "industry-specific-commercialisation-playbook",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Industry Specific Commercialisation Playbook",
+      "description": "Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life sciences, deep tech, ohjelmisto, yhteiskunnalliset/humanistiset innovaatiot.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/industry-specific-commercialisation-playbook/SKILL.md"
+    },
+    {
+      "id": "ip-disclosure-and-ownership-check",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Ip Disclosure And Ownership Check",
+      "description": "Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oikea-aikainen keksintöilmoitus ennen julkista paljastamista.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Bayh–Dole Act (1980)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/ip-disclosure-and-ownership-check/SKILL.md"
+    },
+    {
+      "id": "research-opportunity-recognition",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Research Opportunity Recognition",
+      "description": "Arvioi onko tutkimustuloksella todellista kaupallista potentiaalia ennen kaupallistamisstrategian rakentamista — erottaa technology push:in aidosta market pull:ista.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Kirzner (1973/1979) — entrepreneurial alertness"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/research-opportunity-recognition/SKILL.md"
+    },
+    {
+      "id": "spinout-vs-licensing-pathway",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Spinout Vs Licensing Pathway",
+      "description": "Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (equity-pohjainen), lisensointi (rojaltipohjainen) tai hybridi.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md"
+    },
+    {
+      "id": "tto-engagement-strategy",
+      "pack": "specialisation-packs/research-commercialisation",
+      "title": "Tto Engagement Strategy",
+      "description": "Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista milloin tarvitaan ulkopuolista tukea sen rinnalle.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Hewitt-Dundas et al. (2024)",
+        "Chen et al. (2024)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/research-commercialisation/skills/tto-engagement-strategy/SKILL.md"
     }
   ]
 }

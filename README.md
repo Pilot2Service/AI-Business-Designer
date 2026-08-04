@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.2.0 (scaffold) · **Tila:** perusrakenne, täydennettävä omalla osaamisella
+**Versio:** 0.3.0 · **Tila:** 5 ydinpakkia (scaffold) + 1 täytetty erikoistumispakki (`research-commercialisation`, validated)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -57,10 +57,10 @@ ai-business-designer-skills/
 ├── business-case-and-analysis/        [plugin] 6 skilliä
 ├── ai-strategy-and-governance/        [plugin] 5 skilliä
 ├── change-and-communication/          [plugin] 4 skilliä
-├── specialisation-packs/              omat erikoistumisalueet (täydennettävä)
-│   ├── ai-native-startup-design/
-│   ├── public-sector-pilot-scaling/
-│   └── research-commercialisation/
+├── specialisation-packs/              omat erikoistumisalueet
+│   ├── ai-native-startup-design/       [placeholder — täydennettävä]
+│   ├── public-sector-pilot-scaling/    [placeholder — täydennettävä]
+│   └── research-commercialisation/     [validated] 12 skilliä — ks. alla
 ├── templates/
 │   ├── skill-template/SKILL.md
 │   └── specialisation-pack-template/README.md
@@ -93,15 +93,18 @@ uuden skillin — älä muokkaa `skills_index.json`:ia käsin.
 
 ## Tila ja jatkokehitys
 
-Kaikki 25 ydinskilliä ovat `scaffold`-tasolla: rakenne, ankkurointi ja kysymysrunko on
-valmis, mutta omat heuristiikat, mallipohjat ja case-esimerkit puuttuvat vielä (merkitty
-`[OWNER INPUT — täydennettävä]` jokaisessa SKILL.md:ssä, ja kypsyys näkyy
-`skills_index.json`:ssa — ei enää frontmatterissa).
+Kaikki 25 ydinskilliä (5 ydinpakkia) ovat `scaffold`-tasolla: rakenne, ankkurointi ja
+kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja case-esimerkit
+puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa SKILL.md:ssä, ja
+kypsyys näkyy `skills_index.json`:ssa — ei enää frontmatterissa).
 
-`specialisation-packs/` sisältää kolme paikkaa varattuna erikoistumisalueille:
-`ai-native-startup-design`, `public-sector-pilot-scaling`, `research-commercialisation`.
-Nämä ovat tyhjiä runkoja odottamassa omaa syväosaamistasi — ei täytetty geneerisellä
-sisällöllä, koska se ei edustaisi todellista osaamistasi.
+`specialisation-packs/` sisältää kolme paikkaa erikoistumisalueille:
+`ai-native-startup-design` ja `public-sector-pilot-scaling` ovat yhä placeholdereita.
+**`research-commercialisation` on täytetty** — 12 skilliä, `maturity: validated`,
+`source_layer: owner`, konvertoitu suoraan omistajan julkaisemasta *[redacted] Innovator's
+Guide to Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta. Tämä on
+repon ensimmäinen esimerkki siitä, miltä täysin validoitu, ei-scaffold-tasoinen
+erikoistumispakki näyttää — ks. `specialisation-packs/research-commercialisation/README.md`.
 
 ## Lisenssi
 

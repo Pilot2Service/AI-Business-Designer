@@ -71,9 +71,9 @@
     },
     {
       "name": "specialisation-research-commercialisation",
-      "displayName": "[Scaffold] Research Commercialisation",
+      "displayName": "Research Commercialisation",
       "source": "./specialisation-packs/research-commercialisation",
-      "description": "[SCAFFOLD — täydennettävä omalla osaamisella] Research Commercialisation",
+      "description": "Tutkimuksen kaupallistaminen: mahdollisuuden tunnistamisesta spin-out/lisensointi-valintaan, IP:hen, TTO-yhteistyöhön, rahoitukseen ja tiiminrakennukseen. Ankkuroitu omistajan [redacted] Innovator's Guide to Commercialisation -käsikirjaan ja AFCA-itsearviointiin.",
       "author": {
         "name": "Pilot2service"
       }
