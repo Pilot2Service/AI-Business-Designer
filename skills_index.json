@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -298,6 +298,19 @@
       "path": "opportunity-recognition/skills/market-sizing-tam-sam-som/SKILL.md"
     },
     {
+      "id": "opportunity-brief-writing",
+      "pack": "opportunity-recognition",
+      "title": "Opportunity Brief Writing",
+      "description": "Kirjoittaa mahdollisuuden arvioinnin tulokset tiiviiksi 1-2-sivuiseksi Opportunity Brief -raportiksi, ymmärrettäväksi sekä tekniselle keksijälle että päätöksentekijälle.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)"
+      ],
+      "owner_input_needed": false,
+      "path": "opportunity-recognition/skills/opportunity-brief-writing/SKILL.md"
+    },
+    {
       "id": "opportunity-evaluation-and-judgment",
       "pack": "opportunity-recognition",
       "title": "Opportunity Evaluation & Judgment",
@@ -310,6 +323,39 @@
       ],
       "owner_input_needed": true,
       "path": "opportunity-recognition/skills/opportunity-evaluation-and-judgment/SKILL.md"
+    },
+    {
+      "id": "opportunity-intake-elicitation",
+      "pack": "opportunity-recognition",
+      "title": "Opportunity Intake Elicitation",
+      "description": "Kerää jäsennellysti riittävät lähtötiedot tunnistetusta mahdollisuudesta hyvin muotoilluilla kysymyksillä — myös silloin kun asiakas ei osaa itse jäsentää ideaansa liiketoiminnan kielelle.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)",
+        "[redacted] S1 — Opportunity Package -taustatutkimus (Mullins Seven Domains, Timmons, POEM, NABC)",
+        "Doug Richard's 10 questions (VC Cafe, 2012)",
+        "Opportunity Canvas (Jeff Patton)"
+      ],
+      "owner_input_needed": false,
+      "path": "opportunity-recognition/skills/opportunity-intake-elicitation/SKILL.md"
+    },
+    {
+      "id": "opportunity-value-assessment",
+      "pack": "opportunity-recognition",
+      "title": "Opportunity Value Assessment",
+      "description": "Sijoittaa tunnistetun mahdollisuuden houkuttelevuus × toteutettavuus -matriisiin ja arvioi sen seitsemästä kaupallistamisnäkökulmasta — omistajan oma, tuotteistettu arviointikehys.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)",
+        "[redacted] S1 — Opportunity Package -taustatutkimus (Mullins Seven Domains, Timmons, POEM, NABC)",
+        "Mullins' Seven Domains Model",
+        "Timmons-malli",
+        "POEM-matriisi"
+      ],
+      "owner_input_needed": false,
+      "path": "opportunity-recognition/skills/opportunity-value-assessment/SKILL.md"
     },
     {
       "id": "pattern-and-analogy-connector",

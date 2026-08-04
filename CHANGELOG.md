@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.4.0 — 2026-08-04
+
+Laajennus ydinpakkiin `opportunity-recognition/` omistajan (Tommi Järvinen)
+[redacted]-palvelun Opportunity Value Assessment -tuotteesta (sales page,
+input wizard, raporttipohja) ja sitä tukevasta S1-taustatutkimuksesta
+(Mullins Seven Domains, Timmons, POEM, NABC, Opportunity Canvas):
+
+- 3 uutta skilliä (`maturity: validated`, `source_layer: owner`):
+  `opportunity-intake-elicitation`, `opportunity-value-assessment`,
+  `opportunity-brief-writing` — pakin ensimmäiset ei-scaffold-skillit,
+  rinnakkain 5 alkuperäisen scaffold-skillin kanssa
+- `references/[redacted]-frameworks-review.md`, `intake-questions.md`,
+  `opportunity-brief-template.md`
+- Ristiinlinkitys: `opportunity-evaluation-and-judgment` (scaffold) →
+  `opportunity-value-assessment` (validated); `research-opportunity-recognition`
+  (research-commercialisation) ↔ `opportunity-value-assessment`
+- `CLAUDE.md` ja `README.md` päivitetty kuvaamaan sekoitettua kypsyystasoa
+  saman pakin sisällä
+- Yhteensä nyt 40 skilliä
+
 ## 0.3.0 — 2026-08-04
 
 Ensimmäinen täysin täytetty erikoistumispakki — `specialisation-packs/research-commercialisation/`,

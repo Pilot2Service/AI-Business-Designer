@@ -52,6 +52,9 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../market-sizing-tam-sam-som/SKILL.md` — Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti.
+- Omistajan validoitu, tuotteistettu versio tästä samasta tehtävästä:
+  `../opportunity-value-assessment/SKILL.md` — konkreettinen 2D-matriisi +
+  7-lenssi-arviointi, `maturity: validated`.
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 

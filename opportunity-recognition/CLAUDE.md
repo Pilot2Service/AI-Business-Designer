@@ -40,11 +40,21 @@ rakennat analyysin sen varaan. Älä jatka hiljaa väärän oletuksen pohjalta.
 
 ## Kypsyystaso näkyväksi
 
-Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
-`../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia, mutta omaa validoitua kokemusta ei vielä ole liitetty. Kun käytät
-tämän pakin skillejä, tee tämä näkyväksi äläkä esitä `[OWNER INPUT]`-osion puuttumista
-täydellisenä osaamisena.
+Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
+`../meta/maturity_levels.md`):
+
+- `market-and-signal-scanning`, `pattern-and-analogy-connector`,
+  `opportunity-evaluation-and-judgment`, `market-sizing-tam-sam-som`,
+  `competitive-and-five-forces-mapping` ovat `maturity: scaffold` — rakenne ja
+  ankkurointi ovat tutkimuspohjaisia, mutta omaa validoitua kokemusta ei vielä
+  ole liitetty.
+- `opportunity-intake-elicitation`, `opportunity-value-assessment` ja
+  `opportunity-brief-writing` ovat `maturity: validated`, `source_layer: owner`
+  — konvertoitu suoraan omistajan [redacted]-palvelun tuotteistetusta
+  Opportunity Value Assessment -metodologiasta.
+
+Kun käytät tämän pakin skillejä, tee kypsyystaso näkyväksi äläkä esitä
+scaffold-skillien `[OWNER INPUT]`-osion puuttumista täydellisenä osaamisena.
 
 ## Pakkikohtainen huomio
 
