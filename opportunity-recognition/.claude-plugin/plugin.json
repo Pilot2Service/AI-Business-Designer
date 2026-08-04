@@ -1,0 +1,9 @@
+{
+  "name": "opportunity-recognition",
+  "displayName": "Opportunity Recognition",
+  "description": "Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman).",
+  "version": "0.2.0",
+  "author": {
+    "name": "Pilot2service"
+  }
+}

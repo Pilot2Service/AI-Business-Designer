@@ -1,0 +1,9 @@
+{
+  "name": "business-case-and-analysis",
+  "displayName": "Business Case & Analysis",
+  "description": "Päätöksentekokelpoisten liiketoimintaperustelujen ja analyysien laadinta (BABOK, PMI).",
+  "version": "0.2.0",
+  "author": {
+    "name": "Pilot2service"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "strategic-thinking",
+  "displayName": "Strategic Thinking",
+  "description": "Systeeminen, hypoteesivetoinen strateginen ajattelu (Liedtka 1998, McKinsey MECE / issue tree).",
+  "version": "0.2.0",
+  "author": {
+    "name": "Pilot2service"
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "repo": "ai-business-designer-skills",
+  "version": "0.2.0",
+  "generated": "auto",
+  "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
+  "packs": [
+    {
+      "dir": "ai-strategy-and-governance",
+      "name": "ai-strategy-and-governance",
+      "title": "AI Strategy & Governance"
+    },
+    {
+      "dir": "business-case-and-analysis",
+      "name": "business-case-and-analysis",
+      "title": "Business Case & Analysis"
+    },
+    {
+      "dir": "change-and-communication",
+      "name": "change-and-communication",
+      "title": "Change & Communication"
+    },
+    {
+      "dir": "opportunity-recognition",
+      "name": "opportunity-recognition",
+      "title": "Opportunity Recognition"
+    },
+    {
+      "dir": "strategic-thinking",
+      "name": "strategic-thinking",
+      "title": "Strategic Thinking"
+    }
+  ],
+  "specialisation_packs": [
+    {
+      "dir": "ai-native-startup-design",
+      "title": "AI-Native Startup Design",
+      "status": "placeholder",
+      "owner_input_needed": true
+    },
+    {
+      "dir": "public-sector-pilot-scaling",
+      "title": "Public Sector Pilot Scaling",
+      "status": "placeholder",
+      "owner_input_needed": true
+    },
+    {
+      "dir": "research-commercialisation",
+      "title": "Research Commercialisation",
+      "status": "placeholder",
+      "owner_input_needed": true
+    }
+  ],
+  "skills": [
+    {
+      "id": "ai-capability-roadmap",
+      "pack": "ai-strategy-and-governance",
+      "title": "AI Capability Roadmap",
+      "description": "Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin nykytilasta tavoitetilaan. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Perplexity-tutkimus — roadmapit ja liiketoimintakyvykkyyskartat"
+      ],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-capability-roadmap/SKILL.md"
+    },
+    {
+      "id": "ai-opportunity-portfolio",
+      "pack": "ai-strategy-and-governance",
+      "title": "AI Opportunity Portfolio",
+      "description": "Tunnistaa ja priorisoi AI-käyttötapaukset liiketoiminta-arvon ja toteutettavuuden mukaan. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "LinkedIn Skills on the Rise 2026 — AI Business Strategy",
+        "Perplexity-tutkimus: Senior AI Business Designer (Solita/HP)"
+      ],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md"
+    },
+    {
+      "id": "ai-use-case-feasibility-and-poc-scoping",
+      "pack": "ai-strategy-and-governance",
+      "title": "AI Use Case Feasibility & PoC Scoping",
+      "description": "Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Perplexity-tutkimus — PoC-määrittely tuotannollistamiseen asti"
+      ],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md"
+    },
+    {
+      "id": "build-vs-buy-vs-partner-ai",
+      "pack": "ai-strategy-and-governance",
+      "title": "Build vs. Buy vs. Partner (AI)",
+      "description": "Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratkaisussa. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin"
+      ],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md"
+    },
+    {
+      "id": "responsible-ai-and-governance-check",
+      "pack": "ai-strategy-and-governance",
+      "title": "Responsible AI & Governance Check",
+      "description": "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus). Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "EU AI Act (asetus (EU) 2024/1689)",
+        "LinkedIn 2026 — Risk & Compliance Management"
+      ],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md"
+    },
+    {
+      "id": "assumption-and-evidence-audit",
+      "pack": "business-case-and-analysis",
+      "title": "Assumption & Evidence Audit",
+      "description": "Testaa oletukset ja tunnistaa evidenssiaukot ennen suosituksen lukitsemista. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "45ck — assumption-extractor / evidence-gap-review",
+        "WEF Future of Jobs 2025 — analytical thinking #1"
+      ],
+      "owner_input_needed": true,
+      "path": "business-case-and-analysis/skills/assumption-and-evidence-audit/SKILL.md"
+    },
+    {
+      "id": "business-case-builder",
+      "pack": "business-case-and-analysis",
+      "title": "Business Case Builder",
+      "description": "Rakentaa täyden business casen: ongelma, ratkaisu, talous (ROI/NPV/IRR), riskit, aikataulu, sidosryhmät, suositus. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "IIBA BABOK",
+        "PMI Business Analysis",
+        "w95/awesome-claude-corporate-skills — business-case-builder-rakenne"
+      ],
+      "owner_input_needed": true,
+      "path": "business-case-and-analysis/skills/business-case-builder/SKILL.md"
+    },
+    {
+      "id": "requirements-and-scope-framing",
+      "pack": "business-case-and-analysis",
+      "title": "Requirements & Scope Framing",
+      "description": "Rajaa ongelman ja vaatimukset selkeäksi, testattavaksi kokonaisuudeksi. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "BABOK — requirements",
+        "IEEE 830"
+      ],
+      "owner_input_needed": true,
+      "path": "business-case-and-analysis/skills/requirements-and-scope-framing/SKILL.md"
+    },
+    {
+      "id": "risk-matrix-and-mitigation",
+      "pack": "business-case-and-analysis",
+      "title": "Risk Matrix & Mitigation",
+      "description": "Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "ISO 31000",
+        "PMI riskienhallinta"
+      ],
+      "owner_input_needed": true,
+      "path": "business-case-and-analysis/skills/risk-matrix-and-mitigation/SKILL.md"
+    },
+    {
+      "id": "roi-npv-sensitivity-model",
+      "pack": "business-case-and-analysis",
+      "title": "ROI / NPV Sensitivity Model",
+      "description": "Laskee ROI:n, NPV:n ja IRR:n sekä herkkyysanalyysin eri skenaarioissa. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "w95 business-case-builder",
+        "aj-geddes — business-case-development"
+      ],
+      "owner_input_needed": true,
+      "path": "business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md"
+    },
+    {
+      "id": "stakeholder-analysis-and-raci",
+      "pack": "business-case-and-analysis",
+      "title": "Stakeholder Analysis & RACI",
+      "description": "Kartoittaa sidosryhmät valta/intressi-matriisilla ja määrittää vastuut RACI:lla. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "BABOK — stakeholder analysis",
+        "45ck — raci-matrix / power-interest-grid"
+      ],
+      "owner_input_needed": true,
+      "path": "business-case-and-analysis/skills/stakeholder-analysis-and-raci/SKILL.md"
+    },
+    {
+      "id": "benefits-realisation-tracking",
+      "pack": "change-and-communication",
+      "title": "Benefits Realisation Tracking",
+      "description": "Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Perplexity-tutkimus — hyötyjen realisointiraportit"
+      ],
+      "owner_input_needed": true,
+      "path": "change-and-communication/skills/benefits-realisation-tracking/SKILL.md"
+    },
+    {
+      "id": "executive-narrative-and-storyline",
+      "pack": "change-and-communication",
+      "title": "Executive Narrative & Storyline",
+      "description": "Kääntää analyysin johdon päätöksentekoa palvelevaksi tarinaksi ja storylineksi. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "McKinsey — storyline-ajattelu",
+        "IDEO / Fjord — Business Designer -storytelling-kompetenssi"
+      ],
+      "owner_input_needed": true,
+      "path": "change-and-communication/skills/executive-narrative-and-storyline/SKILL.md"
+    },
+    {
+      "id": "stakeholder-communication-plan",
+      "pack": "change-and-communication",
+      "title": "Stakeholder Communication Plan",
+      "description": "Rakentaa viestintäsuunnitelman eri sidosryhmille muutoksen aikana. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "LinkedIn Skills on the Rise 2026 — Executive & Stakeholder Communication"
+      ],
+      "owner_input_needed": true,
+      "path": "change-and-communication/skills/stakeholder-communication-plan/SKILL.md"
+    },
+    {
+      "id": "workshop-and-facilitation-design",
+      "pack": "change-and-communication",
+      "title": "Workshop & Facilitation Design",
+      "description": "Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Perplexity-tutkimus — työpajojen ja design-thinking-sessioiden vetäminen"
+      ],
+      "owner_input_needed": true,
+      "path": "change-and-communication/skills/workshop-and-facilitation-design/SKILL.md"
+    },
+    {
+      "id": "competitive-and-five-forces-mapping",
+      "pack": "opportunity-recognition",
+      "title": "Competitive & Five Forces Mapping",
+      "description": "Kartoittaa kilpailudynamiikan ja toimialan rakenteelliset voimat. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Porter's Five Forces"
+      ],
+      "owner_input_needed": true,
+      "path": "opportunity-recognition/skills/competitive-and-five-forces-mapping/SKILL.md"
+    },
+    {
+      "id": "market-and-signal-scanning",
+      "pack": "opportunity-recognition",
+      "title": "Market & Signal Scanning",
+      "description": "Systemaattinen ympäristön skannaus (markkina, teknologia, sääntely, kilpailu) mahdollisuuksien tunnistamiseksi. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Kirzner (1973/1979) — entrepreneurial alertness",
+        "PESTLE"
+      ],
+      "owner_input_needed": true,
+      "path": "opportunity-recognition/skills/market-and-signal-scanning/SKILL.md"
+    },
+    {
+      "id": "market-sizing-tam-sam-som",
+      "pack": "opportunity-recognition",
+      "title": "Market Sizing (TAM/SAM/SOM)",
+      "description": "Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "stratarts — market-opportunity-analyzer",
+        "Business Opportunity Scout (buYoung)"
+      ],
+      "owner_input_needed": true,
+      "path": "opportunity-recognition/skills/market-sizing-tam-sam-som/SKILL.md"
+    },
+    {
+      "id": "opportunity-evaluation-and-judgment",
+      "pack": "opportunity-recognition",
+      "title": "Opportunity Evaluation & Judgment",
+      "description": "Arvioi tunnistetun mahdollisuuden elinkelpoisuuden jäsennellysti ennen resurssien sitomista. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Tang, Kacmar & Busenitz — evaluation and judgment",
+        "SFIA — Business Situation Analysis"
+      ],
+      "owner_input_needed": true,
+      "path": "opportunity-recognition/skills/opportunity-evaluation-and-judgment/SKILL.md"
+    },
+    {
+      "id": "pattern-and-analogy-connector",
+      "pack": "opportunity-recognition",
+      "title": "Pattern & Analogy Connector",
+      "description": "Yhdistää irrallisia havaintoja mielekkääksi mahdollisuudeksi tunnistamalla analogioita eri toimialojen/tilanteiden välillä. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Tang, Kacmar & Busenitz — association and connection",
+        "Opportunity recognition as pattern recognition -kirjallisuus"
+      ],
+      "owner_input_needed": true,
+      "path": "opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md"
+    },
+    {
+      "id": "hypothesis-driven-strategy",
+      "pack": "strategic-thinking",
+      "title": "Hypothesis-Driven Strategy",
+      "description": "Jäsentää strategisen ongelman MECE-periaatteella ja issue tree -rakenteella, testaa hypoteeseja datalla. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "McKinsey — MECE / issue tree / hypoteesivetoinen ongelmanratkaisu",
+        "Liedtka (1998) — hypothesis-driven"
+      ],
+      "owner_input_needed": true,
+      "path": "strategic-thinking/skills/hypothesis-driven-strategy/SKILL.md"
+    },
+    {
+      "id": "scenario-and-foresight",
+      "pack": "strategic-thinking",
+      "title": "Scenario & Foresight Thinking",
+      "description": "Rakentaa vaihtoehtoisia tulevaisuusskenaarioita ja testaa strategian kestävyyttä niitä vasten. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Liedtka (1998) — thinking in time"
+      ],
+      "owner_input_needed": true,
+      "path": "strategic-thinking/skills/scenario-and-foresight/SKILL.md"
+    },
+    {
+      "id": "strategic-intent-framing",
+      "pack": "strategic-thinking",
+      "title": "Strategic Intent Framing",
+      "description": "Muotoilee kirkkaan strategisen tarkoituksen, joka fokusoi energian ja karsii häiriöt. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Liedtka (1998) — intent-focused"
+      ],
+      "owner_input_needed": true,
+      "path": "strategic-thinking/skills/strategic-intent-framing/SKILL.md"
+    },
+    {
+      "id": "strategic-options-evaluation",
+      "pack": "strategic-thinking",
+      "title": "Strategic Options Evaluation",
+      "description": "Vertailee strategisia vaihtoehtoja jäsennellysti (vaikutus/vaiva, riski, resurssit) päätöksenteon tueksi. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "McKinsey — structured problem solving",
+        "Liedtka (1998) — intelligent opportunism"
+      ],
+      "owner_input_needed": true,
+      "path": "strategic-thinking/skills/strategic-options-evaluation/SKILL.md"
+    },
+    {
+      "id": "systems-mapping",
+      "pack": "strategic-thinking",
+      "title": "Systems Mapping",
+      "description": "Kartoittaa arvonluonnin kokonaisjärjestelmän ja sen riippuvuudet ennen ratkaisun muotoilua. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Liedtka (1998) — systeeminäkökulma (systems perspective)"
+      ],
+      "owner_input_needed": true,
+      "path": "strategic-thinking/skills/systems-mapping/SKILL.md"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ai-business-designer-skills",
+  "description": "AI Business Designer -skills-pack: strateginen ajattelu, opportunity recognition, business case, AI-strategia ja muutosjohtaminen.",
+  "owner": {
+    "name": "Pilot2service"
+  },
+  "plugins": [
+    {
+      "name": "strategic-thinking",
+      "displayName": "Strategic Thinking",
+      "source": "./strategic-thinking",
+      "description": "Systeeminen, hypoteesivetoinen strateginen ajattelu (Liedtka 1998, McKinsey MECE / issue tree).",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "opportunity-recognition",
+      "displayName": "Opportunity Recognition",
+      "source": "./opportunity-recognition",
+      "description": "Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman).",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "business-case-and-analysis",
+      "displayName": "Business Case & Analysis",
+      "source": "./business-case-and-analysis",
+      "description": "Päätöksentekokelpoisten liiketoimintaperustelujen ja analyysien laadinta (BABOK, PMI).",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "ai-strategy-and-governance",
+      "displayName": "AI Strategy & Governance",
+      "source": "./ai-strategy-and-governance",
+      "description": "AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto liiketoiminnassa.",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "change-and-communication",
+      "displayName": "Change & Communication",
+      "source": "./change-and-communication",
+      "description": "Muutosjohtaminen, fasilitointi ja johdon viestintä epävarmuuden keskellä.",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "specialisation-ai-native-startup-design",
+      "displayName": "[Scaffold] AI-Native Startup Design",
+      "source": "./specialisation-packs/ai-native-startup-design",
+      "description": "[SCAFFOLD — täydennettävä omalla osaamisella] AI-Native Startup Design",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "specialisation-public-sector-pilot-scaling",
+      "displayName": "[Scaffold] Public Sector Pilot Scaling",
+      "source": "./specialisation-packs/public-sector-pilot-scaling",
+      "description": "[SCAFFOLD — täydennettävä omalla osaamisella] Public Sector Pilot Scaling",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
+      "name": "specialisation-research-commercialisation",
+      "displayName": "[Scaffold] Research Commercialisation",
+      "source": "./specialisation-packs/research-commercialisation",
+      "description": "[SCAFFOLD — täydennettävä omalla osaamisella] Research Commercialisation",
+      "author": {
+        "name": "Pilot2service"
+      }
+    }
+  ]
+}
