@@ -7,6 +7,7 @@ AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto 
 | Skilli | Kuvaus |
 |---|---|
 | `ai-opportunity-portfolio` | Tunnistaa ja priorisoi AI-käyttötapaukset liiketoiminta-arvon ja toteutettavuuden mukaan. |
+| `ai-native-business-model-canvas` | Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla Business Model Canvasilla. |
 | `ai-use-case-feasibility-and-poc-scoping` | Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen. |
 | `responsible-ai-and-governance-check` | Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus). |
 | `build-vs-buy-vs-partner-ai` | Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratkaisussa. |
@@ -24,6 +25,9 @@ ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 - Perplexity-tutkimus — roadmapit ja liiketoimintakyvykkyyskartat
 - Perplexity-tutkimus: Senior AI Business Designer (Solita/HP)
 - strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin
+- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
+  aikakaudella" (2026) — AI-soveltuvuuden triagi, data flywheel, AI-native
+  Business Model Canvas
 
 ## Rakenne
 

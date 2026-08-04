@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.5.0 — 2026-08-04
+
+Käyttäjän toimittaman tutkimusraportin ("AI Business Designer tekoälyn
+aikakaudella") pohjalta lisätty `ai-strategy-and-governance`-pakkiin:
+
+- `ai-opportunity-portfolio` rikastettu konkreettisella AI-soveltuvuuden
+  triagilla (ennustus/luokittelu/generointi + datan saatavuus), data
+  flywheel -tarkistuksella ja automaatio-vs-agenttisuus-erottelulla
+  (edelleen `maturity: scaffold`, `source_layer: research`)
+- Uusi skilli `ai-native-business-model-canvas` (`maturity: scaffold`) —
+  laajennettu, tekoälyspesifi Business Model Canvas (arvolupaus,
+  avainresurssit, kustannusrakenne, ekosysteemi)
+- Muu osa raportista (business case -rakennus, taitomatriisi) arvioitiin
+  toistavan jo olemassa olevaa sisältöä (`ai-opportunity-portfolio`,
+  `build-vs-buy-vs-partner-ai`, `ai-capability-roadmap`,
+  `responsible-ai-and-governance-check`, `meta/competency_map.md`) — ei lisätty
+  uudelleen
+- Yhteensä nyt 41 skilliä
+
 ## 0.4.0 — 2026-08-04
 
 Laajennus ydinpakkiin `opportunity-recognition/` omistajan (Tommi Järvinen)

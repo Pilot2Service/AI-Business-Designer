@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -63,6 +63,17 @@
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/ai-capability-roadmap/SKILL.md"
+    },
+    {
+      "id": "ai-native-business-model-canvas",
+      "pack": "ai-strategy-and-governance",
+      "title": "Ai Native Business Model Canvas",
+      "description": "Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla, tekoälyspesifillä Business Model Canvasilla. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-native-business-model-canvas/SKILL.md"
     },
     {
       "id": "ai-opportunity-portfolio",
