@@ -52,6 +52,15 @@
       }
     },
     {
+      "name": "business-design-frameworks",
+      "displayName": "Business Design Frameworks",
+      "source": "./business-design-frameworks",
+      "description": "Kasvava kokoelma liiketoiminnan, arvonluonnin ja asemoinnin jäsentämis- ja mallinnustapoja (kerrosmallit, arvoketjut, kategoriamallinnus, ja lisää myöhemmin).",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
       "name": "specialisation-ai-native-startup-design",
       "displayName": "[Scaffold] AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",

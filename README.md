@@ -57,6 +57,7 @@ ai-business-designer-skills/
 ├── business-case-and-analysis/        [plugin] 6 skilliä
 ├── ai-strategy-and-governance/        [plugin] 5 skilliä
 ├── change-and-communication/          [plugin] 4 skilliä
+├── business-design-frameworks/        [plugin] 3 skilliä — kasvava kokoelma, ks. alla
 ├── specialisation-packs/              omat erikoistumisalueet
 │   ├── ai-native-startup-design/       [placeholder — täydennettävä]
 │   ├── public-sector-pilot-scaling/    [placeholder — täydennettävä]
@@ -93,10 +94,17 @@ uuden skillin — älä muokkaa `skills_index.json`:ia käsin.
 
 ## Tila ja jatkokehitys
 
-Kaikki 25 ydinskilliä (5 ydinpakkia) ovat `scaffold`-tasolla: rakenne, ankkurointi ja
-kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja case-esimerkit
-puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa SKILL.md:ssä, ja
-kypsyys näkyy `skills_index.json`:ssa — ei enää frontmatterissa).
+Repossa on nyt 6 ydinpakkia (32 skilliä, joista 29 `scaffold`- ja 3 `validated`-tasolla)
+ja 3 erikoistumispaikkaa. Suurin osa ydinskilleistä on edelleen `scaffold`-tasolla:
+rakenne, ankkurointi ja kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja
+case-esimerkit puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa
+SKILL.md:ssä, ja kypsyys näkyy `skills_index.json`:ssa — ei enää frontmatterissa).
+Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma [redacted]-metodologia).
+
+Uusin ydinpakki, `business-design-frameworks/`, on tarkoituksella avoin ja kasvava
+kokoelma liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
+kategoriamallinnus) — sitä täydennetään jatkossa uusilla malleilla sitä mukaa kun
+niitä tunnistetaan.
 
 `specialisation-packs/` sisältää kolme paikkaa erikoistumisalueille:
 `ai-native-startup-design` ja `public-sector-pilot-scaling` ovat yhä placeholdereita.

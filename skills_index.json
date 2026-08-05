@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -13,6 +13,11 @@
       "dir": "business-case-and-analysis",
       "name": "business-case-and-analysis",
       "title": "Business Case & Analysis"
+    },
+    {
+      "dir": "business-design-frameworks",
+      "name": "business-design-frameworks",
+      "title": "Business Design Frameworks"
     },
     {
       "dir": "change-and-communication",
@@ -213,6 +218,39 @@
       ],
       "owner_input_needed": true,
       "path": "business-case-and-analysis/skills/stakeholder-analysis-and-raci/SKILL.md"
+    },
+    {
+      "id": "category-definition-and-modeling",
+      "pack": "business-design-frameworks",
+      "title": "Category Definition And Modeling",
+      "description": "Mallintaa tuotteen tai liiketoiminnan suhteessa markkinakategorioihin: assosioida olemassa olevaan kategoriaan, laajentaa/uudelleenmääritellä kategoriaa, tai arvioida kokonaan uuden kategorian luomista.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "business-design-frameworks/skills/category-definition-and-modeling/SKILL.md"
+    },
+    {
+      "id": "layer-based-business-structuring",
+      "pack": "business-design-frameworks",
+      "title": "Layer Based Business Structuring",
+      "description": "Jäsentää liiketoiminnan, palvelukonseptin tai liiketoimintamallin erillisiin toiminnallisiin kerroksiin (OSI-mallin kaltaisesti) infrastruktuurista brändiin, jotta voidaan päättää mitkä kerrokset toteutetaan itse ja mitkä kumppanien kautta.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "business-design-frameworks/skills/layer-based-business-structuring/SKILL.md"
+    },
+    {
+      "id": "value-chain-mapping",
+      "pack": "business-design-frameworks",
+      "title": "Value Chain Mapping",
+      "description": "Jäsentää liiketoiminnan toiminnot Porterin arvoketjumallin mukaisesti ydin- ja tukitoimintoihin, jotta nähdään mistä arvo ja marginaali syntyvät ja missä kilpailuetu voidaan rakentaa.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "business-design-frameworks/skills/value-chain-mapping/SKILL.md"
     },
     {
       "id": "benefits-realisation-tracking",

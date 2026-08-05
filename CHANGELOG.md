@@ -1,5 +1,23 @@
 # Changelog
 
+## 0.6.0 — 2026-08-05
+
+Uusi ydinpakki `business-design-frameworks/` — tarkoituksella avoin ja kasvava
+kokoelma liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
+kategoriamallinnus, ja lisää myöhemmin käyttäjän toimesta):
+
+- `layer-based-business-structuring` — OSI-mallin analoginen kerrosjäsennys,
+  ankkuroitu Hagel & Singer (1999) "Unbundling the Corporation" ja
+  Baldwin & Clark modulaarisuusteoriaan
+- `value-chain-mapping` — Porterin (1985) arvoketjumalli
+- `category-definition-and-modeling` — category design (Play Bigger,
+  Ramadan et al. 2016) ja Blue Ocean Strategy (Kim & Mauborgne 2005)
+- Kaikki `maturity: scaffold`, `source_layer: research` — ei vielä omaa
+  validoitua kokemusta, tarkoituksella rakennettu täydennettäväksi
+- Pakki on suunniteltu kasvamaan: README sisältää ohjeen uuden
+  jäsentämistavan lisäämiseksi
+- Yhteensä nyt 44 skilliä, 6 ydinpakkia + 1 täytetty erikoistumispakki
+
 ## 0.5.0 — 2026-08-04
 
 Käyttäjän toimittaman tutkimusraportin ("AI Business Designer tekoälyn

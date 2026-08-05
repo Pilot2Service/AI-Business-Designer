@@ -1,0 +1,9 @@
+{
+  "name": "business-design-frameworks",
+  "displayName": "Business Design Frameworks",
+  "description": "Kasvava kokoelma liiketoiminnan, arvonluonnin ja asemoinnin jäsentämis- ja mallinnustapoja (kerrosmallit, arvoketjut, kategoriamallinnus, ja lisää myöhemmin).",
+  "version": "0.1.0",
+  "author": {
+    "name": "Pilot2service"
+  }
+}
