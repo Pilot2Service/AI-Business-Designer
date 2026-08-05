@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -240,6 +240,20 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "business-design-frameworks/skills/layer-based-business-structuring/SKILL.md"
+    },
+    {
+      "id": "strategy-canvas-and-value-curve",
+      "pack": "business-design-frameworks",
+      "title": "Strategy Canvas And Value Curve",
+      "description": "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan [redacted] 360 -vertailutyökalua hyödyntäen.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "Kim & Mauborgne (2005) Blue Ocean Strategy — Strategy Canvas, Value Curve, Four Actions Framework/ERRC, Six Paths Framework",
+        "Omistajan [redacted] 360 Comparison Factors -vertailutyökalu (oma tuote)"
+      ],
+      "owner_input_needed": false,
+      "path": "business-design-frameworks/skills/strategy-canvas-and-value-curve/SKILL.md"
     },
     {
       "id": "value-chain-mapping",

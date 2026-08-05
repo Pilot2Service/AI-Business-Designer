@@ -12,16 +12,24 @@ sitä mukaa kun niitä tunnistetaan ja jalostetaan.
 | `layer-based-business-structuring` | Jäsentää liiketoiminnan kerroksiin (OSI-mallin kaltaisesti) infrastruktuurista brändiin — päättää mitkä kerrokset toteutetaan itse ja mitkä kumppanien kautta. |
 | `value-chain-mapping` | Jäsentää liiketoiminnan Porterin arvoketjumallin mukaisesti ydin- ja tukitoimintoihin — näkee mistä arvo ja marginaali syntyvät. |
 | `category-definition-and-modeling` | Mallintaa tuotteen tai liiketoiminnan suhteessa markkinakategorioihin: assosioituminen, laajentaminen vai kokonaan uuden kategorian luominen. |
+| `strategy-canvas-and-value-curve` | Jäsentää kilpailijat/vaihtoehdot yhteisillä kilpailutekijöillä (Blue Ocean Strategy Canvas), tunnistaa toimialan "peruskäyrän" ja etsii tapoja erottautua siitä ERRC-ruudukolla. |
 
-Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle
-(frontmatterissa ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
+`layer-based-business-structuring`, `value-chain-mapping` ja
+`category-definition-and-modeling` ovat `maturity: scaffold`;
+`strategy-canvas-and-value-curve` on `maturity: validated`,
+`source_layer: owner` (ankkuroitu omistajan [redacted] 360 Comparison Factors
+-työkaluun) — ks. `../skills_index.json` kypsyystilalle (frontmatterissa ei
+seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 
 ## Skillien looginen kulku
 
 ```
 layer-based-business-structuring ──┐
                                     ├──► category-definition-and-modeling
-value-chain-mapping ────────────────┘
+value-chain-mapping ────────────────┘              ▲
+                                                     │
+strategy-canvas-and-value-curve ────────────────────┘
+   (erottautuminen syötteenä kategoriapäätökselle)
 ```
 
 Kaikki kolme voidaan käyttää myös itsenäisesti (ks.
@@ -35,8 +43,10 @@ vaihtoehtoisia, osin täydentäviä linssejä samaan liiketoimintaan.
 - Baldwin & Clark (2000) — *Design Rules: The Power of Modularity*
 - Porter, M. (1985) — *Competitive Advantage*, arvoketjumalli
 - Ramadan, Peterson, Lochhead & Maney (2016) — *Play Bigger*, category design
-- Kim & Mauborgne (2005) — *Blue Ocean Strategy*
+- Kim & Mauborgne (2005) — *Blue Ocean Strategy* (Strategy Canvas, Value
+  Curve, Four Actions Framework/ERRC, Six Paths Framework)
 - Ries & Trout — positiointiteoria
+- Omistajan [redacted] 360 Comparison Factors -vertailutyökalu (oma tuote)
 
 ## Rakenne
 

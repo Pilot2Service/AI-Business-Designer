@@ -49,11 +49,19 @@ arvauksena esittäen niitä vahvistettuina. Kaksi hyväksyttyä tapaa:
 
 ## Kypsyystaso näkyväksi
 
-Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
-`../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia (klassisia liiketoiminnan viitekehyksiä), mutta omaa validoitua
-kokemusta ei vielä ole liitetty. Kun käytät tämän pakin skillejä, tee tämä näkyväksi
-äläkä esitä `[OWNER INPUT]`-osion puuttumista täydellisenä osaamisena.
+Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
+`../meta/maturity_levels.md`):
+
+- `layer-based-business-structuring`, `value-chain-mapping`,
+  `category-definition-and-modeling` ovat `maturity: scaffold` — rakenne ja
+  ankkurointi ovat tutkimuspohjaisia (klassisia liiketoiminnan
+  viitekehyksiä), mutta omaa validoitua kokemusta ei vielä ole liitetty.
+- `strategy-canvas-and-value-curve` on `maturity: validated`,
+  `source_layer: owner` — Blue Ocean Strategy -teoria yhdistettynä
+  omistajan tuotteistettuun [redacted] 360 Comparison Factors -vertailutyökaluun.
+
+Kun käytät tämän pakin skillejä, tee kypsyystaso näkyväksi äläkä esitä
+scaffold-skillien `[OWNER INPUT]`-osion puuttumista täydellisenä osaamisena.
 
 ## Pakkikohtainen huomio
 

@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.3.0 · **Tila:** 5 ydinpakkia (scaffold) + 1 täytetty erikoistumispakki (`research-commercialisation`, validated)
+**Versio:** 0.7.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 1 täytetty erikoistumispakki (`research-commercialisation`, validated)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -57,7 +57,7 @@ ai-business-designer-skills/
 ├── business-case-and-analysis/        [plugin] 6 skilliä
 ├── ai-strategy-and-governance/        [plugin] 5 skilliä
 ├── change-and-communication/          [plugin] 4 skilliä
-├── business-design-frameworks/        [plugin] 3 skilliä — kasvava kokoelma, ks. alla
+├── business-design-frameworks/        [plugin] 4 skilliä — kasvava kokoelma, ks. alla
 ├── specialisation-packs/              omat erikoistumisalueet
 │   ├── ai-native-startup-design/       [placeholder — täydennettävä]
 │   ├── public-sector-pilot-scaling/    [placeholder — täydennettävä]
@@ -94,17 +94,19 @@ uuden skillin — älä muokkaa `skills_index.json`:ia käsin.
 
 ## Tila ja jatkokehitys
 
-Repossa on nyt 6 ydinpakkia (32 skilliä, joista 29 `scaffold`- ja 3 `validated`-tasolla)
+Repossa on nyt 6 ydinpakkia (33 skilliä, joista 29 `scaffold`- ja 4 `validated`-tasolla)
 ja 3 erikoistumispaikkaa. Suurin osa ydinskilleistä on edelleen `scaffold`-tasolla:
 rakenne, ankkurointi ja kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja
 case-esimerkit puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa
 SKILL.md:ssä, ja kypsyys näkyy `skills_index.json`:ssa — ei enää frontmatterissa).
-Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma [redacted]-metodologia).
+Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma [redacted]-metodologia) ja
+`business-design-frameworks`-pakin `strategy-canvas-and-value-curve` (Blue Ocean
+Strategy + oma [redacted] 360 -vertailutyökalu).
 
 Uusin ydinpakki, `business-design-frameworks/`, on tarkoituksella avoin ja kasvava
 kokoelma liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
-kategoriamallinnus) — sitä täydennetään jatkossa uusilla malleilla sitä mukaa kun
-niitä tunnistetaan.
+kategoriamallinnus, strategiakartat/arvokäyrät) — sitä täydennetään jatkossa uusilla
+malleilla sitä mukaa kun niitä tunnistetaan.
 
 `specialisation-packs/` sisältää kolme paikkaa erikoistumisalueille:
 `ai-native-startup-design` ja `public-sector-pilot-scaling` ovat yhä placeholdereita.

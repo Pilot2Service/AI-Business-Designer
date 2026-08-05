@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.7.0 — 2026-08-05
+
+Uusi skilli `business-design-frameworks/skills/strategy-canvas-and-value-curve`
+— Blue Ocean Strategy -mallia mukaileva jäsentämistapa kilpailijoiden/
+vaihtoehtoisten ratkaisujen vertailuun:
+
+- Ankkuroitu Kim & Mauborgne (2005) *Blue Ocean Strategy* -teoriaan
+  (Strategy Canvas, Value Curve, Four Actions Framework/ERRC-ruudukko,
+  Six Paths Framework) sekä omistajan (Tommi Järvinen) tuotteistettuun
+  **[redacted] 360 Comparison Factors** -vertailutyökaluun (käyttäjän lataama
+  taulukko: 10 esimerkkitekijää, 0–2-asteikko, oma ratkaisu + 4
+  kilpailijaa)
+- `maturity: validated`, `source_layer: owner` — pakin ensimmäinen
+  ei-scaffold-skilli
+- Uusi `references/[redacted]-360-comparison-template.md` — mallipohja ja
+  käyttöohje, sisältää alkuperäisen esimerkkitäytön
+- Ristiinlinkitys pakin muihin skilleihin ja
+  `opportunity-recognition/skills/competitive-and-five-forces-mapping`
+  sekä `opportunity-value-assessment`
+- README ja CLAUDE.md päivitetty kuvaamaan pakin sekoitettua kypsyystasoa
+- Yhteensä nyt 45 skilliä
+
 ## 0.6.0 — 2026-08-05
 
 Uusi ydinpakki `business-design-frameworks/` — tarkoituksella avoin ja kasvava
