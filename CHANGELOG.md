@@ -1,5 +1,45 @@
 # Changelog
 
+## 0.10.0 — 2026-08-05
+
+Uusi erikoistumispakki `specialisation-packs/business-model-canvas/` (7 skilliä),
+rakennettu kahdesta omistajan (Tommi Järvinen) toimittamasta lähteestä:
+
+- [redacted]-alustan (firstkiss.co) 159 patternin koneluettava innovaatio-
+  kirjasto (`business-model-patterns.json`, ladattu 5.8.2026) — konvertoitu
+  täydeksi markdown-referenssiksi `references/bmc-innovation-pattern-library.md`
+- `[redacted]`-repo, omistajan oma kesken oleva "semanttinen kerros"
+  -projekti BMC-konsultointiasiantuntijuuden kaappaamiseksi. Repo jakautuu
+  asiantuntijakerrokseen (huhtikuun 2026 konsulttihaastattelu, `status:
+  accepted`) ja tutkimuskerrokseen (Jeffries/Williams/van der
+  Linden/Blank/Ash Maurya -synteesi, `status: template`)
+
+3 skilliä `maturity: validated`, `source_layer: owner` (asiantuntijakerroksesta):
+
+- `bmc-innovation-pattern-matching` — 3-5 yhteensopivan innovaatiopatternin
+  tunnistus 159 patternin kirjastosta asiantuntijan neliosaisella taksonomialla
+  (Financial/Operative/Value-based/Experience Model Innovations)
+- `bmc-canvas-clarity-and-iteration` — variointilogiikka, jumissa-olon
+  tunnistus, "selkeys > syvyys" -valmiuskriteeri
+- `bmc-antipattern-and-misunderstanding-correction` — 5 työtavan
+  antipatternia + 4 asiakkaan väärinkäsitystä BMC:n roolista
+
+4 skilliä `maturity: scaffold`, `source_layer: research` (tutkimuskerroksesta):
+
+- `bmc-session-facilitation-design` — session rakenne, aloituskohta,
+  täyttöjärjestys, evidenssin värikoodaus
+- `bmc-canvas-diagnostic-reading` — 6 diagnostista sääntöä (Hook Rule ym.)
+  + nelidimensioinen laaturubriikki
+- `bmc-tool-switching-decisions` — milloin siirtyä VPC:hen, Lean Canvasiin,
+  Mission Model Canvasiin tai taloudelliseen mallinnukseen
+- `bmc-client-language-translation` — asiakaslauseiden tulkinta + 3
+  käsiteväärinkäsitystä
+
+Lisäksi: `references/bmc-source-material-notes.md` (lähdeaineiston
+kaksikerroksinen tausta), pakkikohtainen `CLAUDE.md` (mixed-maturity-
+disclosure) ja `README.md`, `marketplace.json`-merkintä
+`specialisation-business-model-canvas`. Yhteensä nyt 61 skilliä.
+
 ## 0.9.0 — 2026-08-05
 
 Kattavuusaudit "AI Business Designer tekoälyn aikakaudella" -tutkimusraporttia

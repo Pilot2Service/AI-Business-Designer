@@ -70,6 +70,15 @@
       }
     },
     {
+      "name": "specialisation-business-model-canvas",
+      "displayName": "Business Model Canvas",
+      "source": "./specialisation-packs/business-model-canvas",
+      "description": "BMC-konsultointiosaaminen: 159 patternin innovaatiokirjasto ([redacted]), omistajan oma variointi-/selkeyslogiikka ja antipatternien tunnistus, sekä tutkimuspohjainen tuki session fasilitointiin, canvasin diagnostiikkaan, työkaluvalintaan ja asiakaspuheen tulkintaan.",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
       "name": "specialisation-public-sector-pilot-scaling",
       "displayName": "[Scaffold] Public Sector Pilot Scaling",
       "source": "./specialisation-packs/public-sector-pilot-scaling",

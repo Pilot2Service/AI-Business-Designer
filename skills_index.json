@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -41,6 +41,12 @@
       "title": "AI-Native Startup Design",
       "status": "validated",
       "owner_input_needed": false
+    },
+    {
+      "dir": "business-model-canvas",
+      "title": "Business Model Canvas",
+      "status": "validated",
+      "owner_input_needed": true
     },
     {
       "dir": "public-sector-pilot-scaling",
@@ -614,6 +620,93 @@
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/customer-vision-to-jtbd/SKILL.md"
+    },
+    {
+      "id": "bmc-antipattern-and-misunderstanding-correction",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Antipattern And Misunderstanding Correction",
+      "description": "Tunnistaa viisi BMC-työn asiantuntijan omaa antipatternia (mm. liikaa sisältöä per lohko, liian syvälle liian aikaisin, canvas strategia-asiakirjana) ja neljä yleisintä asiakkaan väärinkäsitystä BMC:n roolista, sekä tarjoaa suorat korjausliikkeet kumpaankin.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted]/30_domain_packs/bmc/antipatterns/bmc_antipatterns_expert.md (expert_interview 2026-04)",
+        "[redacted]/30_domain_packs/bmc/facilitation/bmc_client_misunderstandings.md (expert_interview 2026-04)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-antipattern-and-misunderstanding-correction/SKILL.md"
+    },
+    {
+      "id": "bmc-canvas-clarity-and-iteration",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Canvas Clarity And Iteration",
+      "description": "Ohjaa BMC-työn variointilogiikalla kohti selkeyttä syvyyden sijaan: rakentaa 2-3 vaihtoehtoista canvas-varianttia, tunnistaa milloin tiimi on jumissa yhdessä canvasissa, ja arvioi canvas-valmiuden asiantuntijan kolmen kriteerin mukaan.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted]/07_reasoning_model/reasoning_patterns/bmc_iteration_logic.md (expert_interview 2026-04)",
+        "[redacted]/12_quality_model/bmc_canvas_readiness.md (expert_interview 2026-04)",
+        "[redacted]/06_expertise_and_cognition/cognitive_signatures/bmc_cognitive_signature.md (expert_interview 2026-04)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-canvas-clarity-and-iteration/SKILL.md"
+    },
+    {
+      "id": "bmc-canvas-diagnostic-reading",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Canvas Diagnostic Reading",
+      "description": "Lukee valmiin BMC-canvasin diagnostisena instrumenttina kuudella tutkimuspohjaisella säännöllä (Hook Rule, arvo-kustannus-johdonmukaisuus, segmentin spesifisyys, evidenssiaste, puolustava canvas, puuttuva lohko) ja nelidimensioisella laaturubriikilla.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-canvas-diagnostic-reading/SKILL.md"
+    },
+    {
+      "id": "bmc-client-language-translation",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Client Language Translation",
+      "description": "Tulkitsee asiakkaan tyypillisiä BMC-lauseita ('meidän pitää päivittää liiketoimintamallimme', 'olemme jo tehneet BMC:n') strategisiksi signaaleiksi, ja korjaa kolme yleisintä käsiteväärinkäsitystä: arvolupaus ominaisuuslistana, asiakassegmentti demografiana, tulovirta hinnoitteluna.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-client-language-translation/SKILL.md"
+    },
+    {
+      "id": "bmc-innovation-pattern-matching",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Innovation Pattern Matching",
+      "description": "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin [redacted]-kirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations).",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted]/30_domain_packs/bmc/tools/bmc_innovation_patterns.md (expert_interview 2026-04)",
+        "[redacted] business-model-patterns.json (159 patterns, uploaded 2026-08-05)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-innovation-pattern-matching/SKILL.md"
+    },
+    {
+      "id": "bmc-session-facilitation-design",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Session Facilitation Design",
+      "description": "Suunnittelee BMC-työpajan rakenteen tutkimuspohjaisilla heuristiikoilla: aloituskohdan valinta, täyttöjärjestys, session pituus/tiimikoostumus, milloin canvas ei ole vielä valmis, evidenssin värikoodaus ja canvasin esittäminen sidosryhmille.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-session-facilitation-design/SKILL.md"
+    },
+    {
+      "id": "bmc-tool-switching-decisions",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Tool Switching Decisions",
+      "description": "Päättää milloin siirtyä BMC:stä toiseen työkaluun (Value Proposition Canvas, Lean Canvas, Mission Model Canvas, taloudellinen mallinnus, useampi rinnakkainen canvas) ja arvioi canvasin, hypoteesin ja segmentin laadun kolmella päätöskriteeristöllä ennen testausvaiheeseen siirtymistä.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-tool-switching-decisions/SKILL.md"
     },
     {
       "id": "academic-entrepreneur-role-choice",
