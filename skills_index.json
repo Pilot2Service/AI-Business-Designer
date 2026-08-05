@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -95,6 +95,17 @@
       "path": "ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md"
     },
     {
+      "id": "ai-output-curation-and-quality-control",
+      "pack": "ai-strategy-and-governance",
+      "title": "Ai Output Curation And Quality Control",
+      "description": "Suunnittelee laadunvalvonta- ja kuratointiprosessin AI:n tuottamalle sisällölle tai päätöksille — siirtymä 'tekijästä' 'kuraattoriksi': mikä tarkistetaan, kuka tarkistaa, ja millä kriteereillä ennen julkaisua tai käyttöä.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-output-curation-and-quality-control/SKILL.md"
+    },
+    {
       "id": "ai-use-case-feasibility-and-poc-scoping",
       "pack": "ai-strategy-and-governance",
       "title": "AI Use Case Feasibility & PoC Scoping",
@@ -133,6 +144,17 @@
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md"
+    },
+    {
+      "id": "shadow-ai-response-and-safe-adoption",
+      "pack": "ai-strategy-and-governance",
+      "title": "Shadow Ai Response And Safe Adoption",
+      "description": "Tunnistaa organisaatiossa jo tapahtuvan luvattoman/epävirallisen AI-työkalujen käytön (Shadow AI) ja korvaa sen turvallisilla, skaalautuvilla virallisilla ratkaisuilla, joille on laskettu selkeä ROI.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/shadow-ai-response-and-safe-adoption/SKILL.md"
     },
     {
       "id": "assumption-and-evidence-audit",
@@ -229,6 +251,17 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "business-design-frameworks/skills/category-definition-and-modeling/SKILL.md"
+    },
+    {
+      "id": "customer-journey-and-ai-touchpoint-mapping",
+      "pack": "business-design-frameworks",
+      "title": "Customer Journey And Ai Touchpoint Mapping",
+      "description": "Kartoittaa asiakkaan palvelupolun vaiheet ja kitkakohdat, ja sijoittaa AI:n palvelupolulle vain niihin kohtiin, joissa se tuottaa aidosti arvoa asiakkaalle — ei teknologia edellä.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "business-design-frameworks/skills/customer-journey-and-ai-touchpoint-mapping/SKILL.md"
     },
     {
       "id": "layer-based-business-structuring",
@@ -460,6 +493,17 @@
       ],
       "owner_input_needed": true,
       "path": "strategic-thinking/skills/scenario-and-foresight/SKILL.md"
+    },
+    {
+      "id": "second-and-third-order-effects-mapping",
+      "pack": "strategic-thinking",
+      "title": "Second And Third Order Effects Mapping",
+      "description": "Ennakoi strategisen päätöksen tai AI-ratkaisun toisen ja kolmannen kertaluvun vaikutuksia — miten se muuttaa asiakaskäyttäytymistä, kilpailukenttää ja omaa organisaatiota ajan myötä, suoran ensivaikutuksen lisäksi.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "strategic-thinking/skills/second-and-third-order-effects-mapping/SKILL.md"
     },
     {
       "id": "strategic-intent-framing",

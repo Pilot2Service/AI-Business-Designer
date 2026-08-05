@@ -13,9 +13,11 @@ sitä mukaa kun niitä tunnistetaan ja jalostetaan.
 | `value-chain-mapping` | Jäsentää liiketoiminnan Porterin arvoketjumallin mukaisesti ydin- ja tukitoimintoihin — näkee mistä arvo ja marginaali syntyvät. |
 | `category-definition-and-modeling` | Mallintaa tuotteen tai liiketoiminnan suhteessa markkinakategorioihin: assosioituminen, laajentaminen vai kokonaan uuden kategorian luominen. |
 | `strategy-canvas-and-value-curve` | Jäsentää kilpailijat/vaihtoehdot yhteisillä kilpailutekijöillä (Blue Ocean Strategy Canvas), tunnistaa toimialan "peruskäyrän" ja etsii tapoja erottautua siitä ERRC-ruudukolla. |
+| `customer-journey-and-ai-touchpoint-mapping` | Kartoittaa asiakkaan palvelupolun ja kitkakohdat, ja sijoittaa AI:n polulle vain sinne missä se tuottaa aidosti arvoa. |
 
-`layer-based-business-structuring`, `value-chain-mapping` ja
-`category-definition-and-modeling` ovat `maturity: scaffold`;
+`layer-based-business-structuring`, `value-chain-mapping`,
+`category-definition-and-modeling` ja
+`customer-journey-and-ai-touchpoint-mapping` ovat `maturity: scaffold`;
 `strategy-canvas-and-value-curve` on `maturity: validated`,
 `source_layer: owner` (ankkuroitu omistajan [redacted] 360 Comparison Factors
 -työkaluun) — ks. `../skills_index.json` kypsyystilalle (frontmatterissa ei
@@ -30,6 +32,10 @@ value-chain-mapping ────────────────┘         
                                                      │
 strategy-canvas-and-value-curve ────────────────────┘
    (erottautuminen syötteenä kategoriapäätökselle)
+
+customer-journey-and-ai-touchpoint-mapping
+   (täydentävä, asiakkaan ulkoa päin katsottu näkökulma —
+    voidaan käyttää yhdessä minkä tahansa yllä olevan kanssa)
 ```
 
 Kaikki kolme voidaan käyttää myös itsenäisesti (ks.

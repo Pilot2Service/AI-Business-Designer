@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.9.0 — 2026-08-05
+
+Kattavuusaudit "AI Business Designer tekoälyn aikakaudella" -tutkimusraporttia
+vasten (sama raportti kuin 0.5.0:ssa, nyt käyty läpi kokonaan grep+sisältö-
+tarkistuksella koko repoa vasten). 4 aitoa aukkoa tunnistettu ja täytetty
+(`maturity: scaffold`, `source_layer: research`):
+
+- `business-design-frameworks/customer-journey-and-ai-touchpoint-mapping`
+  — palvelupolkujen kartoitus ja AI:n sijoittelu kitkakohtiin arvoa
+  tuovalla tavalla
+- `strategic-thinking/second-and-third-order-effects-mapping` — päätöksen
+  toisen/kolmannen kertaluvun vaikutusten ennakointi (asiakaskäyttäytyminen,
+  kilpailijareaktiot)
+- `ai-strategy-and-governance/shadow-ai-response-and-safe-adoption` —
+  luvattoman AI-työkalujen käytön kartoitus ja turvallinen virallistaminen
+- `ai-strategy-and-governance/ai-output-curation-and-quality-control` —
+  AI-tuotosten laadunvalvonta, siirtymä tekijästä kuraattoriksi
+- Muu osa raportista vahvistettiin jo katetuksi: AI-mahdollisuuksien
+  tunnistus, AI-native Business Model Canvas, business case -rakennus,
+  vastuullinen AI, hypoteesivetoinen ajattelu, skenaariosuunnittelu,
+  fasilitointi, agenttinen tekoäly (ks. `ai-native-startup-design`-pakki)
+- Yhteensä nyt 54 skilliä
+
 ## 0.8.0 — 2026-08-05
 
 Toinen täysin täytetty erikoistumispakki — `specialisation-packs/ai-native-

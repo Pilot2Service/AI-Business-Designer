@@ -12,6 +12,8 @@ AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto 
 | `responsible-ai-and-governance-check` | Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus). |
 | `build-vs-buy-vs-partner-ai` | Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratkaisussa. |
 | `ai-capability-roadmap` | Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin nykytilasta tavoitetilaan. |
+| `shadow-ai-response-and-safe-adoption` | Tunnistaa luvattoman AI-työkalujen käytön (Shadow AI) ja korvaa sen turvallisella, ROI-perustellulla virallisella ratkaisulla. |
+| `ai-output-curation-and-quality-control` | Suunnittelee laadunvalvonta- ja kuratointiprosessin AI:n tuotoksille — siirtymä tekijästä kuraattoriksi. |
 
 Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle (frontmatterissa
 ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
@@ -27,7 +29,10 @@ ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 - strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin
 - Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
   aikakaudella" (2026) — AI-soveltuvuuden triagi, data flywheel, AI-native
-  Business Model Canvas
+  Business Model Canvas, Shadow AI, AI-tuotosten kuratointi ja
+  laadunvalvonta
+- Yleinen "Shadow IT" -kirjallisuus ja -käytäntö, laajennettuna
+  AI-työkalujen kontekstiin
 
 ## Rakenne
 
