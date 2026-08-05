@@ -1,5 +1,34 @@
 # Changelog
 
+## 0.8.0 — 2026-08-05
+
+Toinen täysin täytetty erikoistumispakki — `specialisation-packs/ai-native-
+startup-design/`, konvertoitu omistajan (Tommi Järvinen) fasilitoimasta
+**AI-native Business Design** -työpajasta pre-startup-perustajille
+([redacted]/firstkiss.co, pidetty 1.–2.6.2026, julkinen lähde
+github.com/Pilot2Service/AI-training-P6):
+
+- 5 uutta skilliä (`maturity: validated`, `source_layer: owner`):
+  `ai-native-opportunity-scan` (agenttinen/closed-loop-mahdollisuuksien
+  löytö ja priorisointi), `customer-vision-to-jtbd` (ICP/JTBD/Need
+  Themes/AI-advantage-pisteytys), `ai-buildable-prd-writing`
+  (rakennusagentille annettava PRD + tukidokumentit), `closed-loop-
+  process-and-human-oversight-design` (open/closed loop -mentaalimalli +
+  human-in/on/outside-the-loop), `ai-native-tool-stack-selection`
+  (12 työkalukategorian valintaheuristiikka)
+- `references/workshop-source.md`, `prompt-library.md` (työpajan
+  promptit suomennettuina), `tool-category-map.md` (aikaleimattu
+  työkalukategoriakartta, kesäkuu 2026)
+- Ristiinlinkitys `ai-strategy-and-governance`-pakin
+  `ai-opportunity-portfolio`- ja `responsible-ai-and-governance-check`
+  -skilleihin, `business-design-frameworks`-pakin
+  `value-chain-mapping`-skilliin, ja `opportunity-recognition`- sekä
+  `business-case-and-analysis`-pakkien vastaaviin skilleihin
+- Pakkikohtainen `CLAUDE.md` ja täysi `README.md` (placeholder poistettu)
+- `marketplace.json`: `specialisation-ai-native-startup-design`-kuvaus
+  päivitetty, scaffold-merkintä poistettu
+- Yhteensä nyt 50 skilliä, 6 ydinpakkia + 2 täytettyä erikoistumispakkia
+
 ## 0.7.0 — 2026-08-05
 
 Uusi skilli `business-design-frameworks/skills/strategy-canvas-and-value-curve`

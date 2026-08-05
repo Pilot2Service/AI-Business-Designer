@@ -62,9 +62,9 @@
     },
     {
       "name": "specialisation-ai-native-startup-design",
-      "displayName": "[Scaffold] AI-Native Startup Design",
+      "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",
-      "description": "[SCAFFOLD — täydennettävä omalla osaamisella] AI-Native Startup Design",
+      "description": "Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti: AI-mahdollisuuksien tunnistus, ICP/JTBD-asiakasymmärrys, rakennusagentille annettava PRD, closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta. Ankkuroitu omistajan pidettyyn AI-native Business Design -työpajaan.",
       "author": {
         "name": "Pilot2service"
       }

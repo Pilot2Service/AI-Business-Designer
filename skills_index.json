@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -39,8 +39,8 @@
     {
       "dir": "ai-native-startup-design",
       "title": "AI-Native Startup Design",
-      "status": "placeholder",
-      "owner_input_needed": true
+      "status": "validated",
+      "owner_input_needed": false
     },
     {
       "dir": "public-sector-pilot-scaling",
@@ -500,6 +500,76 @@
       ],
       "owner_input_needed": true,
       "path": "strategic-thinking/skills/systems-mapping/SKILL.md"
+    },
+    {
+      "id": "ai-buildable-prd-writing",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Ai Buildable Prd Writing",
+      "description": "Kirjoittaa PRD:n (Product Requirements Document) AI-rakennusagentille annettavana työmääräyksenä — ongelma, visio, core-ominaisuudet, rajaukset ja onnistumiskriteerit — sekä tukidokumentit ja tuotantosuunnitelman.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
+        "github.com/Pilot2Service/AI-training-P6"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/ai-buildable-prd-writing/SKILL.md"
+    },
+    {
+      "id": "ai-native-opportunity-scan",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Ai Native Opportunity Scan",
+      "description": "Käyttää agenttista/closed-loop-linssiä AI:n mahdollistamien, aidosti uusien liiketoimintamahdollisuuksien löytämiseen omassa startup-caseessa, ja pisteyttää/priorisoi löydökset toteutettavuuden ja pienimmän prototypoitavan version mukaan.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
+        "github.com/Pilot2Service/AI-training-P6"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/ai-native-opportunity-scan/SKILL.md"
+    },
+    {
+      "id": "ai-native-tool-stack-selection",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Ai Native Tool Stack Selection",
+      "description": "Valitsee pienimmän toimivan AI-natiivin työkalupinon 12 kategorian päätöspuulla (ajattelukumppani, tutkimus, design, sovelluksen rakentaja, koodausagentti, hosting, backend, skillit, projektinhallinta, muistiinpanot, automaatio, agenttien rakentaminen) — kategoriapohjainen, ei tuotenimiin sidottu.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
+        "github.com/Pilot2Service/AI-training-P6"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/ai-native-tool-stack-selection/SKILL.md"
+    },
+    {
+      "id": "closed-loop-process-and-human-oversight-design",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Closed Loop Process And Human Oversight Design",
+      "description": "Jäsentää liiketoimintaprosessit avoimiksi tai suljetuiksi silmukoiksi (open/closed loop) ja päättää ihmisen roolin (in-the-loop / on-the-loop / outside-the-loop) kussakin — mentaalimalli AI-agenttien vastuualueiden suunnitteluun.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
+        "github.com/Pilot2Service/AI-training-P6"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/closed-loop-process-and-human-oversight-design/SKILL.md"
+    },
+    {
+      "id": "customer-vision-to-jtbd",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Customer Vision To Jtbd",
+      "description": "Jäsentää alustavan, vapaamuotoisen liiketoimintavision asiakasprofiiliksi (ICP), Jobs-To-Be-Done-analyysiksi ja tarveteemoiksi, ja pisteyttää missä AI tuo suurimman edun — strukturoitu promptiketju AI-ajattelukumppanin kanssa.",
+      "maturity": "validated",
+      "source_layer": "owner",
+      "grounded_in": [
+        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
+        "github.com/Pilot2Service/AI-training-P6"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/customer-vision-to-jtbd/SKILL.md"
     },
     {
       "id": "academic-entrepreneur-role-choice",

@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.7.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 1 täytetty erikoistumispakki (`research-commercialisation`, validated)
+**Versio:** 0.8.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 2 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, molemmat validated)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -59,7 +59,7 @@ ai-business-designer-skills/
 ├── change-and-communication/          [plugin] 4 skilliä
 ├── business-design-frameworks/        [plugin] 4 skilliä — kasvava kokoelma, ks. alla
 ├── specialisation-packs/              omat erikoistumisalueet
-│   ├── ai-native-startup-design/       [placeholder — täydennettävä]
+│   ├── ai-native-startup-design/       [validated] 5 skilliä — ks. alla
 │   ├── public-sector-pilot-scaling/    [placeholder — täydennettävä]
 │   └── research-commercialisation/     [validated] 12 skilliä — ks. alla
 ├── templates/
@@ -109,12 +109,19 @@ kategoriamallinnus, strategiakartat/arvokäyrät) — sitä täydennetään jatk
 malleilla sitä mukaa kun niitä tunnistetaan.
 
 `specialisation-packs/` sisältää kolme paikkaa erikoistumisalueille:
-`ai-native-startup-design` ja `public-sector-pilot-scaling` ovat yhä placeholdereita.
-**`research-commercialisation` on täytetty** — 12 skilliä, `maturity: validated`,
-`source_layer: owner`, konvertoitu suoraan omistajan julkaisemasta *[redacted] Innovator's
-Guide to Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta. Tämä on
-repon ensimmäinen esimerkki siitä, miltä täysin validoitu, ei-scaffold-tasoinen
-erikoistumispakki näyttää — ks. `specialisation-packs/research-commercialisation/README.md`.
+`public-sector-pilot-scaling` on yhä placeholder. Kaksi muuta on täytetty,
+`maturity: validated`, `source_layer: owner`:
+
+- **`research-commercialisation`** — 12 skilliä, konvertoitu omistajan
+  julkaisemasta *[redacted] Innovator's Guide to Commercialisation* -käsikirjasta ja
+  AFCA-itsearviointityökalusta — ks.
+  `specialisation-packs/research-commercialisation/README.md`.
+- **`ai-native-startup-design`** — 5 skilliä, konvertoitu omistajan
+  fasilitoimasta *AI-native Business Design* -työpajasta pre-startup-
+  perustajille (1.–2.6.2026): AI-mahdollisuuksien tunnistus, ICP/JTBD-
+  asiakasymmärrys, rakennusagentille annettava PRD, closed-loop-
+  prosessisuunnittelu ja AI-työkalupinon valinta — ks.
+  `specialisation-packs/ai-native-startup-design/README.md`.
 
 ## Lisenssi
 
