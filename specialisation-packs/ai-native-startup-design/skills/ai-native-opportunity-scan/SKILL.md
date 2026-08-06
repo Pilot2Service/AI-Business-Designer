@@ -80,6 +80,11 @@ joka viedään suunnittelun seuraaviin vaiheisiin.
   `../closed-loop-process-and-human-oversight-design/SKILL.md` — syventää
   "agenttinen/closed-loop"-linssiä, joka tässä skillissä on vasta
   tunnistuskriteerinä.
+- Liittyvä skilli samassa pakissa:
+  `../ai-native-conversational-os-design/SKILL.md` — jatkaa tämän skillin
+  mindset-shiftiä konkreettiseksi käyttöliittymäarkkitehtuuriksi ("5
+  shifts": klikkaus>kysymys, valikot>promptit, dashboardit>dialogi,
+  manuaaliset toiminnot>agentit, ruudut>chat+kortit).
 - Liittyvä skilli toisessa pakissa:
   `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`

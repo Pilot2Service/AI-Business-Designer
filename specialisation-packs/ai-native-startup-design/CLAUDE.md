@@ -45,13 +45,29 @@ valinneet backendin") on olennainen lopputuloksen kannalta, käytä sitä sellai
 äläkä ohita sitä yleisellä oletuksella — nämä skillit on suunniteltu ei-tekniselle
 pre-startup-founderille, mutta moni käyttäjä on jo pidemmällä.
 
-## Kypsyystaso näkyväksi
+## Kypsyystaso näkyväksi — pakki on nyt kaksitasoinen
 
-Tämän pakin skillit ovat `maturity: validated`, `source_layer: owner` -tasolla (ks.
-`../../skills_index.json` ja `../../meta/maturity_levels.md`) — sisältö on omistajan
-jo pidettyyn, käytännön työpajaan ankkuroitu, ei geneerinen tutkimuskatsaus. Tee tämä
-näkyväksi: kun viittaat tämän pakin sisältöön, mainitse että se perustuu AI-native
-Business Design -työpajaan (ks. `references/workshop-source.md`).
+Kaikki tämän pakin skillit ovat `source_layer: owner` (ks.
+`../../skills_index.json` ja `../../meta/maturity_levels.md`), mutta pakissa on
+KAKSI eri kypsyystasoa riippuen siitä kumpaan lähteeseen skilli perustuu:
+
+- **`maturity: validated`** — `ai-native-opportunity-scan`,
+  `customer-vision-to-jtbd`, `ai-buildable-prd-writing`,
+  `closed-loop-process-and-human-oversight-design`,
+  `ai-native-tool-stack-selection`. Perustuvat omistajan USEALLE
+  OSALLISTUJALLE pitämään AI-native Business Design -työpajaan
+  (ks. `references/workshop-source.md`).
+- **`maturity: draft`** — `ai-differentiator-solution-ideation`,
+  `rice-scoring-and-mvp-synthesis`, `ai-native-conversational-os-design`.
+  Perustuvat [redacted]n menetelmään, jonka omistaja on toistaiseksi
+  soveltanut vain KERRAN, yhteen omaan caseen ([redacted] Decision Coach — ks.
+  `references/[redacted]-workshop-source.md` ja
+  `cases/[redacted]-decision-coach-mvp.md`). Ei vielä laajasti validoitu.
+
+Tee tämä näkyväksi käytössä: kun viittaat `draft`-tason skilliin, mainitse
+että menetelmä on sovellettu vain kerran eikä vielä yhtä laajasti
+testattu kuin pakin `validated`-skillit. Kun viittaat mihin tahansa tämän
+pakin sisältöön, mainitse mihin työpajaan/lähteeseen se perustuu.
 
 ## Pakkikohtainen huomio
 

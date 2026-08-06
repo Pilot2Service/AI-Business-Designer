@@ -1,5 +1,47 @@
 # Changelog
 
+## 0.11.0 — 2026-08-06
+
+Analysoitu omistajan (Tommi Järvinen) uploadaama [redacted]n "AI-first
+SaaS Product workshop" -muistiinpano ja käytetty sitä
+`specialisation-packs/ai-native-startup-design/`-pakin rikastamiseen ja
+laajentamiseen. Muistiinpano sisältää sekä yleisen menetelmän että
+omistajan itsensä läpikäymän täyden sovellusesimerkin
+[redacted]-tuotteeseen ("Decision Coach" MVP).
+
+**Rikastettu** `customer-vision-to-jtbd` (`validated`/`owner` säilyy):
+verbivetoinen JTBD-muotoilu, Need Themes -taulukko laajennettu
+("Tyyppi"/"miksi"/"liittyvä JTBD" -sarakkeilla), aiempi yksittäinen
+AI-advantage-piste korvattu 5-kriteerisellä NMB-pisteytyksellä (Need
+Depth, Frequency, Market Coverage, Business Strength, AI Advantage →
+Differentiator vs. Table Stake), uusi vaihe: AI-differentiaattoritarpeen
+("AI wedge") eksplisiittinen valintakriteeristö.
+
+**3 uutta skilliä**, `maturity: draft` (sovellettu toistaiseksi kerran,
+[redacted]-caseen — ei vielä yhtä laajasti validoitu kuin pakin muut skillit),
+`source_layer: owner`:
+
+- `ai-differentiator-solution-ideation` — 3 keskenään erilaisen AI-
+  natiivin ratkaisusuunnan ideointi valitulle AI wedgelle kolmella
+  linssillä (kilpailija-, tulevaisuus-, yhdistä-pisteet-linssi)
+- `rice-scoring-and-mvp-synthesis` — RICE-pisteytys (Reach, Impact,
+  Confidence, Effort) MVP:n valitsemiseksi + MVP-määritelmä +
+  positiointilause + "miksi voitamme" -väittämät
+- `ai-native-conversational-os-design` — keskustelevan käyttöliittymä-
+  arkkitehtuurin suunnittelu (Intent → Strategy Cards → Clarification →
+  Output Cards → Mission → Agent Execution) + 5 AI-first-tuoteperiaatetta
+  ("5 shifts": klikkaus>kysymys, valikot>promptit, dashboardit>dialogi,
+  manuaaliset toiminnot>agentit, ruudut>chat+kortit)
+
+Lisäksi: `references/[redacted]-workshop-source.md` (uusi lähde,
+selittää miksi `draft` eikä `validated`), `cases/[redacted]-decision-coach-mvp.md`
+(täysi worked example — ensimmäinen tiedosto pakin `cases/`-kansiossa),
+`references/prompt-library.md` laajennettu (promptit 6 päivitetty +
+uudet promptit 8–10), pakin `README.md`/`CLAUDE.md` päivitetty
+kaksitasoisen kypsyyden näkyväksi tekemiseksi, ristiinlinkitys
+`ai-native-opportunity-scan`- ja `ai-buildable-prd-writing`-skilleihin.
+Pakki kasvoi 5 → 8 skilliin. Yhteensä nyt 64 skilliä.
+
 ## 0.10.0 — 2026-08-05
 
 Uusi erikoistumispakki `specialisation-packs/business-model-canvas/` (7 skilliä),

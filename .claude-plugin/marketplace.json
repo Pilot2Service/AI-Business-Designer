@@ -64,7 +64,7 @@
       "name": "specialisation-ai-native-startup-design",
       "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",
-      "description": "Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti: AI-mahdollisuuksien tunnistus, ICP/JTBD-asiakasymmärrys, rakennusagentille annettava PRD, closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta. Ankkuroitu omistajan pidettyyn AI-native Business Design -työpajaan.",
+      "description": "Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti: AI-mahdollisuuksien tunnistus, ICP/JTBD-asiakasymmärrys, 5+2 tarveteemapisteytys ja AI wedge -valinta, ratkaisuideointi, RICE-MVP-valinta, rakennusagentille annettava PRD, keskusteleva OS-arkkitehtuuri, closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta. Ankkuroitu omistajan pidettyyn AI-native Business Design -työpajaan ja [redacted]n AI-first SaaS Product -menetelmään.",
       "author": {
         "name": "Pilot2service"
       }

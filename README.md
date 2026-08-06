@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.10.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
+**Versio:** 0.11.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -59,7 +59,7 @@ ai-business-designer-skills/
 ├── change-and-communication/          [plugin] 4 skilliä
 ├── business-design-frameworks/        [plugin] 4 skilliä — kasvava kokoelma, ks. alla
 ├── specialisation-packs/              omat erikoistumisalueet
-│   ├── ai-native-startup-design/       [validated] 5 skilliä — ks. alla
+│   ├── ai-native-startup-design/       [mixed] 8 skilliä (5 validated + 3 draft) — ks. alla
 │   ├── business-model-canvas/          [mixed] 7 skilliä (3 validated + 4 scaffold) — ks. alla
 │   ├── public-sector-pilot-scaling/    [placeholder — täydennettävä]
 │   └── research-commercialisation/     [validated] 12 skilliä — ks. alla
@@ -116,11 +116,16 @@ malleilla sitä mukaa kun niitä tunnistetaan.
   konvertoitu omistajan julkaisemasta *[redacted] Innovator's Guide to
   Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta — ks.
   `specialisation-packs/research-commercialisation/README.md`.
-- **`ai-native-startup-design`** (`validated`/`owner`) — 5 skilliä,
-  konvertoitu omistajan fasilitoimasta *AI-native Business Design*
-  -työpajasta pre-startup-perustajille (1.–2.6.2026): AI-mahdollisuuksien
-  tunnistus, ICP/JTBD-asiakasymmärrys, rakennusagentille annettava PRD,
-  closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta — ks.
+- **`ai-native-startup-design`** (sekoitettu: 5 `validated`/`owner` + 3
+  `draft`/`owner`) — 8 skilliä. Runko konvertoitu omistajan
+  fasilitoimasta *AI-native Business Design* -työpajasta pre-startup-
+  perustajille (1.–2.6.2026): AI-mahdollisuuksien tunnistus, ICP/JTBD-
+  asiakasymmärrys, rakennusagentille annettava PRD, closed-loop-
+  prosessisuunnittelu ja AI-työkalupinon valinta. Syvennetty ja
+  laajennettu [redacted]n *AI-first SaaS Product* -työpajan menetelmällä
+  (5+2 tarveteemapisteytys, AI wedge -valinta, ratkaisuideointi, RICE-
+  MVP-valinta, keskusteleva OS-arkkitehtuuri), sovellettuna omistajan
+  omaan [redacted]-caseen — ks.
   `specialisation-packs/ai-native-startup-design/README.md`.
 - **`business-model-canvas`** (sekoitettu: 3 `validated`/`owner` + 4
   `scaffold`/`research`) — 7 skilliä, yhdistää [redacted]-alustan 159

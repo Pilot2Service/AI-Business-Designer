@@ -29,9 +29,13 @@ tärkeät valinnat AI:n arvattavaksi.
 
 ## Rakenne
 
-1. **Kokoa syötteet.** Visio + ICP/JTBD/Need Themes/AI-advantage-
-   pisteytys (`../customer-vision-to-jtbd/SKILL.md`-skillistä) ja
-   mahdollinen deep research -tausta.
+1. **Kokoa syötteet.** Visio + ICP/JTBD/Need Themes/NMB-pisteytys/AI wedge
+   (`../customer-vision-to-jtbd/SKILL.md`-skillistä), mahdollinen deep
+   research -tausta, ja jos ratkaisusuuntia oli useampi vaihtoehto: valittu
+   MVP-suunta perusteluineen (`../rice-scoring-and-mvp-synthesis/SKILL.md`
+   -skillin RICE-valinta ja MVP-synteesi). Jos ratkaisusuunta oli alusta
+   asti selvä eikä ideointi-/RICE-vaihetta käytetty, riittää pelkkä
+   `customer-vision-to-jtbd`-syöte.
 2. **Kirjoita PRD viidellä pakollisella osiolla**
    (`../../references/prompt-library.md` promptti 7):
    - **Ongelma & asiakas** — kenelle tämä on, ja mitä kipua se ratkaisee.
@@ -81,9 +85,14 @@ tärkeät valinnat AI:n arvattavaksi.
 
 ## Jatka tästä
 
-- Edeltävä skilli samassa pakissa: `../customer-vision-to-jtbd/SKILL.md`
+- Edeltävä skilli samassa pakissa: `../customer-vision-to-jtbd/SKILL.md`,
+  mahdollisesti `../ai-differentiator-solution-ideation/SKILL.md` ja
+  `../rice-scoring-and-mvp-synthesis/SKILL.md` (jos useampi ratkaisusuunta
+  puntaroitiin ennen tätä).
 - Liittyvä skilli samassa pakissa: `../ai-native-tool-stack-selection/SKILL.md`
-  — kenelle PRD annetaan rakennettavaksi.
+  — kenelle PRD annetaan rakennettavaksi. Jos MVP on keskusteleva/agenttinen
+  tuote, ks. myös `../ai-native-conversational-os-design/SKILL.md` PRD:n
+  "Core-ominaisuudet"-osion syventämiseksi.
 - Liittyvä skilli toisessa pakissa:
   `../../../opportunity-recognition/skills/opportunity-brief-writing/SKILL.md`,
   `../../../business-case-and-analysis/skills/requirements-and-scope-framing/SKILL.md`

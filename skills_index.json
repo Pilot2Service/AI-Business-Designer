@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -566,6 +566,34 @@
       "path": "specialisation-packs/ai-native-startup-design/skills/ai-buildable-prd-writing/SKILL.md"
     },
     {
+      "id": "ai-differentiator-solution-ideation",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Ai Differentiator Solution Ideation",
+      "description": "Ideoi 3 keskenään erilaista AI-natiivia ratkaisusuuntaa valitulle AI-differentiaattoritarpeelle (AI wedge) kolmella linssillä — kilpailija-, tulevaisuus- ja yhdistä-pisteet-linssi — jotta tiimi ei rakastu ensimmäiseen ideaan.",
+      "maturity": "draft",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
+        "specialisation-packs/ai-native-startup-design/cases/[redacted]-decision-coach-mvp.md (applied once, [redacted] case)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/ai-differentiator-solution-ideation/SKILL.md"
+    },
+    {
+      "id": "ai-native-conversational-os-design",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Ai Native Conversational Os Design",
+      "description": "Suunnittelee AI-natiivin tuotteen keskusteleva käyttöliittymäarkkitehtuuri kuudella vaiheella — Intent, Strategy Cards, Clarification, Output Cards, Mission, Agent Execution — soveltaen viittä AI-first-tuoteperiaatetta (klikkaus>kysymys, valikot>promptit, dashboardit>dialogi, manuaaliset toiminnot>agentit, ruudut>chat+kortit).",
+      "maturity": "draft",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
+        "specialisation-packs/ai-native-startup-design/cases/[redacted]-decision-coach-mvp.md (applied once, [redacted] case)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/ai-native-conversational-os-design/SKILL.md"
+    },
+    {
       "id": "ai-native-opportunity-scan",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Ai Native Opportunity Scan",
@@ -611,7 +639,7 @@
       "id": "customer-vision-to-jtbd",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Customer Vision To Jtbd",
-      "description": "Jäsentää alustavan, vapaamuotoisen liiketoimintavision asiakasprofiiliksi (ICP), Jobs-To-Be-Done-analyysiksi ja tarveteemoiksi, ja pisteyttää missä AI tuo suurimman edun — strukturoitu promptiketju AI-ajattelukumppanin kanssa.",
+      "description": "Jäsentää alustavan, vapaamuotoisen liiketoimintavision asiakasprofiiliksi (ICP), Jobs-To-Be-Done-analyysiksi ja 5+2 tarveteemaksi, pisteyttää ne 5-kriteerisellä NMB+AI-advantage-mallilla, ja valitsee AI-differentiaattoritarpeen (AI wedge) jatkokehitykseen.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -620,6 +648,21 @@
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/customer-vision-to-jtbd/SKILL.md"
+    },
+    {
+      "id": "rice-scoring-and-mvp-synthesis",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Rice Scoring And Mvp Synthesis",
+      "description": "Pisteyttää useamman ratkaisusuunnan RICE-mallilla (Reach, Impact, Confidence, Effort) MVP:n valitsemiseksi, ja kääntää valinnan MVP-määritelmäksi, yhden lauseen positiointilauseeksi ja kolmeksi 'miksi voitamme' -väittämäksi.",
+      "maturity": "draft",
+      "source_layer": "owner",
+      "grounded_in": [
+        "[redacted] AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
+        "RICE prioritisation framework (general, not owner-original)",
+        "specialisation-packs/ai-native-startup-design/cases/[redacted]-decision-coach-mvp.md (applied once, [redacted] case)"
+      ],
+      "owner_input_needed": false,
+      "path": "specialisation-packs/ai-native-startup-design/skills/rice-scoring-and-mvp-synthesis/SKILL.md"
     },
     {
       "id": "bmc-antipattern-and-misunderstanding-correction",
