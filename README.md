@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.11.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
+**Versio:** 0.12.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -55,7 +55,7 @@ ai-business-designer-skills/
 │   └── references/
 ├── opportunity-recognition/           [plugin] 5 skilliä
 ├── business-case-and-analysis/        [plugin] 6 skilliä
-├── ai-strategy-and-governance/        [plugin] 5 skilliä
+├── ai-strategy-and-governance/        [plugin] 10 skilliä
 ├── change-and-communication/          [plugin] 4 skilliä
 ├── business-design-frameworks/        [plugin] 4 skilliä — kasvava kokoelma, ks. alla
 ├── specialisation-packs/              omat erikoistumisalueet

@@ -1,5 +1,58 @@
 # Changelog
 
+## 0.12.0 — 2026-08-06
+
+Analysoitu käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien
+ja -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
+liiketoiminnassa" (2026, synteesi mm. [redacted]/[redacted]/McKinsey
+[redacted]/BCG/Brynjolfsson & Mitchell -lähteistä). Käytetty
+`ai-strategy-and-governance`-pakin rikastamiseen ja laajentamiseen.
+
+**2 uutta skilliä**, `maturity: scaffold`, `source_layer: research`:
+
+- `task-level-decomposition-and-automation-fit` — pilkkoo roolit/
+  prosessit tehtävätasolle (People Path + Process Path -Dual
+  Decomposition) ja luokittelee jokaisen tehtävän Automate/Augment/
+  Human-Only SML-kriteereillä (Brynjolfsson & Mitchell); sisältää myös
+  process mining-, task mining- ja kognitiivisen kitkan analyysin
+  datalähtöisenä vaihtoehtona haastatteluille
+- `ai-discovery-engagement-design` — tuotteistaa koko tunnistamis-
+  prosessin maksulliseksi/sisäiseksi discovery-toimeksiannoksi:
+  4-vaiheinen rakenne, kaksi palvelutuotetta (AI Opportunity Sprint,
+  AI Maturity & Opportunity Audit), standardoitu luovutettava aineisto
+
+**Täysin uudelleenkirjoitettu** `ai-opportunity-portfolio` (pysyy
+`scaffold`): aiempi kevyt kolmi-kriteerinen triagi korvattu formaalilla
+5-ulotteisella pisteytysmallilla (Business Impact, Technical
+Feasibility & AI Fit, Data Readiness, Strategic Alignment, Speed to
+Value & Governance/Risk), 2x2-priorisointimatriisilla (Quick Wins/
+Strategic Bets/Hard-Low Value/Deprioritize), Value-Play-taksonomialla
+transformatiivisille mahdollisuuksille (Zero-Marginal-Cost Expertise,
+Hyper-Personalization at Scale, Outcome-Based/Agentic Business) ja
+BCG:n Deploy-Reshape-Invent-luokittelulla — eksplisiittisesti erotettuna
+`ai-capability-roadmap`-skillin Horisontti-jaosta sekaannuksen
+välttämiseksi.
+
+**Rikastettu** `ai-capability-roadmap`: kolmihorisonttinen rakenne
+(0-6kk tehostus / 6-18kk muutos / 18-36kk uusi liiketoiminta) ja
+AI Target Operating Model (ATOM) / Readiness Scorecard -konsepti
+(ihmisen ja tekoälyn työnjaon + organisaation valmiustason kuvaus).
+
+**Kevyesti rikastettu** `ai-native-business-model-canvas`: uusi
+eksplisiittinen "Human-AI Interaction Model" -kohta (Copilot/
+Autonomous Agent/Generative Interface), ristiinlinkitetty
+`closed-loop-process-and-human-oversight-design`- ja
+`ai-native-conversational-os-design`-skilleihin (specialisation-packs/
+ai-native-startup-design) täsmentäen että vuorovaikutusmuoto ja
+valvontataso ovat kaksi eri kysymystä.
+
+Lisäksi: pakin `CLAUDE.md`:hen lisätty selkeä erottelu neljästä
+samankaltaisesta kolmi-/nelijaottelusta (Automate/Augment/Human-Only,
+Quick Wins/Strategic Bets/Hard-Low Value/Deprioritize, Deploy/Reshape/
+Invent, Horisontti 1/2/3) sekaantumisen estämiseksi. Pack-README
+päivitetty skillien loogisella kulkukaaviolla. Pakki kasvoi 8 → 10
+skilliin. Yhteensä nyt 66 skilliä.
+
 ## 0.11.0 — 2026-08-06
 
 Analysoitu omistajan (Tommi Järvinen) uploadaama [redacted]n "AI-first

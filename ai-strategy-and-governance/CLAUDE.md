@@ -50,6 +50,22 @@ täydellisenä osaamisena.
 
 Ei korvaa juridista EU AI Act -compliance-arviota — syvempään analyysiin käytä tämän workspacen tekoalysaantely-plugineja.
 
+Tässä pakissa on useita samankaltaisia kolmi-/nelijaotteluja, jotka
+vastaavat ERI kysymyksiin — älä sekoita niitä keskenään:
+
+- **Automate/Augment/Human-Only** (`task-level-decomposition-and-
+  automation-fit`) — vastaa "sopiiko TÄMÄ TEHTÄVÄ AI:lle ja millä
+  tasolla".
+- **Quick Wins/Strategic Bets/Hard-Low Value/Deprioritize**
+  (`ai-opportunity-portfolio`) — vastaa "kannattaako TÄMÄ MAHDOLLISUUS
+  ja onko se helppo toteuttaa".
+- **Deploy/Reshape/Invent** (`ai-opportunity-portfolio`) — vastaa
+  "kuinka SYVÄLLE organisaatiota tämän toteutus koskettaa".
+- **Horisontti 1/2/3** (`ai-capability-roadmap`) — vastaa "MILLOIN tämä
+  toteutetaan".
+Kun viittaat johonkin näistä, käytä oikeaa termiä äläkä käytä niitä
+toistensa synonyymeinä — ne korreloivat mutta eivät ole sama luokitus.
+
 ## Jaetut standardit
 
 Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja

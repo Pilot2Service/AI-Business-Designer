@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -66,7 +66,7 @@
       "id": "ai-capability-roadmap",
       "pack": "ai-strategy-and-governance",
       "title": "AI Capability Roadmap",
-      "description": "Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin nykytilasta tavoitetilaan. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin nykytilasta tavoitetilaan kolmella horisontilla (0-6kk tehostus, 6-18kk muutos, 18-36kk uusi liiketoiminta) sekä AI Target Operating Model (ATOM) / Readiness Scorecard -kuvauksen ihmisen ja tekoälyn työnjaosta.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -74,6 +74,17 @@
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/ai-capability-roadmap/SKILL.md"
+    },
+    {
+      "id": "ai-discovery-engagement-design",
+      "pack": "ai-strategy-and-governance",
+      "title": "Ai Discovery Engagement Design",
+      "description": "Suunnittelee ja tuotteistaa AI-mahdollisuuksien tunnistamisen (discovery-vaiheen) maksulliseksi konsultointitoimeksiannoksi — 4-vaiheinen engagement-rakenne, kiinteähintaiset palvelutuotteet ja standardoitu luovutettava aineisto (Portfolio, Business Case, ATOM/Readiness Scorecard, Roadmap).",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-discovery-engagement-design/SKILL.md"
     },
     {
       "id": "ai-native-business-model-canvas",
@@ -90,7 +101,7 @@
       "id": "ai-opportunity-portfolio",
       "pack": "ai-strategy-and-governance",
       "title": "AI Opportunity Portfolio",
-      "description": "Tunnistaa ja priorisoi AI-käyttötapaukset liiketoiminta-arvon ja toteutettavuuden mukaan. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Tunnistaa, pisteyttää (5-ulotteinen malli: Business Impact, Technical Feasibility, Data Readiness, Strategic Alignment, Speed to Value/Risk) ja priorisoi AI-käyttötapaukset 2x2-matriisilla (Quick Wins / Strategic Bets / Deprioritize / Hard-Low Value) — sekä luokittelee inkrementaaliset ja transformatiiviset mahdollisuudet erikseen.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -161,6 +172,17 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/shadow-ai-response-and-safe-adoption/SKILL.md"
+    },
+    {
+      "id": "task-level-decomposition-and-automation-fit",
+      "pack": "ai-strategy-and-governance",
+      "title": "Task Level Decomposition And Automation Fit",
+      "description": "Pilkkoo roolit ja prosessit tehtävätasolle (People Path + Process Path) ja luokittelee jokaisen tehtävän Automate/Augment/Human-Only -kategoriaan SML-kriteereillä (syöte/tuotos-selkeys, kognitiivinen luonne, virhesietoisuus, aika-asteikko) ennen AI-mahdollisuuksien priorisointia.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/task-level-decomposition-and-automation-fit/SKILL.md"
     },
     {
       "id": "assumption-and-evidence-audit",

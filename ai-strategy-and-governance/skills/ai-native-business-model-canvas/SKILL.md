@@ -20,6 +20,15 @@ koko arvotarjooma riippuu ML-ekosysteemistä.
   aikakaudella" (2026) — laajennettu AI Business Model Canvas
 - Business Model Canvas (Osterwalder & Pigneur) — pohjarakenne, jota tämä
   kehys laajentaa neljällä AI-spesifillä linssillä
+- Käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien ja
+  -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
+  liiketoiminnassa" (2026) — "AI Value Canvas" (sama neljän linssin
+  rakenne eri nimillä: Unique AI Value Proposition, Data Moat & Flywheel,
+  Human-AI Interaction Model, Cost of Compute vs. Marginal Revenue).
+  Tämä raportti vahvisti kolme jo olemassa ollutta linssiä (kohdat 1–3
+  alla) ja toi eksplisiittisesti esiin neljännen — Human-AI Interaction
+  Model (kohta 4 alla) — jota tämä skilli ei vielä käsitellyt omana
+  kohtanaan.
 
 Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
 `../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
@@ -44,10 +53,31 @@ Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
    itse (Build), mitä hyödynnetään valmiina rajapintoina (Utilize) ja keiden
    kanssa partneroidutaan (Partner). Tähän päätökseen syvemmin:
    `../build-vs-buy-vs-partner-ai/SKILL.md`.
-5. **Data flywheel -tarkistus.** Arvioi ruokkiiko käyttö dataa takaisin malliin
+5. **Human-AI Interaction Model.** Päätä eksplisiittisesti, millä
+   vuorovaikutusmuodolla ihminen ja tekoäly toimivat yhdessä tässä
+   liiketoimintamallissa — tämä on erillinen valinta ihmisen
+   valvontatasosta (ks. alla):
+   - **Copilot** — tekoäly avustaa ihmisen ohjaamaa työtä reaaliaikaisesti,
+     ihminen pysyy ensisijaisena toimijana.
+   - **Autonomous Agent** — tekoäly suorittaa itsenäisesti rajatun
+     tehtäväkokonaisuuden, ihminen asettaa tavoitteen ja tarkistaa
+     tuloksen.
+   - **Generative Interface** — käyttöliittymä itsessään on generatiivinen
+     ja mukautuva, ei kiinteä (ks. laajemmin
+     `../../../specialisation-packs/ai-native-startup-design/skills/ai-native-conversational-os-design/SKILL.md`
+     keskustelevan käyttöliittymäarkkitehtuurin suunnitteluun, jos
+     tämä on valittu muoto).
+   Tämä valinta on eri kysymys kuin ihmisen valvonnan TASO
+   (in/on/outside-the-loop, ks.
+   `../../../specialisation-packs/ai-native-startup-design/skills/closed-loop-process-and-human-oversight-design/SKILL.md`)
+   — vuorovaikutusmuoto kuvaa MITEN ihminen ja tekoäly toimivat yhdessä,
+   valvontataso kuvaa KUINKA PALJON ihminen tarkistaa. Käytä molempia
+   yhdessä: esim. "Autonomous Agent + human-on-the-loop" on validi
+   yhdistelmä.
+6. **Data flywheel -tarkistus.** Arvioi ruokkiiko käyttö dataa takaisin malliin
    niin, että tuote paranee itsestään käytön myötä — tämä on yksi keskeisimmistä
    eroista AI-enhanced- ja AI-native-mallin välillä.
-6. Tuota jäsennelty tulos (canvas-taulukko tai vastaava, ks. `../../references/`
+7. Tuota jäsennelty tulos (canvas-taulukko tai vastaava, ks. `../../references/`
    kun lisätty) ja validoi se sidosryhmillä tai omalla kokemuspohjaisella
    tarkistuslistalla.
 

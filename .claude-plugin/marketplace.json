@@ -37,7 +37,7 @@
       "name": "ai-strategy-and-governance",
       "displayName": "AI Strategy & Governance",
       "source": "./ai-strategy-and-governance",
-      "description": "AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto liiketoiminnassa.",
+      "description": "AI-mahdollisuuksien tunnistaminen tehtävätasolta (SML/Dual Decomposition) 5-ulotteiseen pisteytykseen ja 2x2-priorisointiin, transformatiivisten Value Play -mahdollisuuksien tunnistus, AI-native-liiketoimintamallit, roadmapit (3 horisonttia) ja vastuullinen käyttöönotto — mukaan lukien discovery-toimeksiantojen tuotteistus.",
       "author": {
         "name": "Pilot2service"
       }
