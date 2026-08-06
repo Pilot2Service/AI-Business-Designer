@@ -15,19 +15,19 @@ oikean AI-työkalupinon valintaan.
 
 ## Tila
 
-Tämä pakki yhdistää kaksi omistajan (Tommi Järvinen) itse käytäntöön
+Tämä pakki yhdistää kaksi omistajan itse käytäntöön
 soveltamaa lähdettä:
 
 1. **AI-native Business Design** -työpaja pre-startup-perustajille
-   ([redacted] / firstkiss.co, pidetty useille osallistujille
+   (omistajan oma palvelu, pidetty useille osallistujille
    1.–2.6.2026,
-   [github.com/Pilot2Service/AI-training-P6](https://github.com/Pilot2Service/AI-training-P6))
+   [omistajan yksityinen materiaali](https://omistajan yksityinen materiaali))
    — ks. `references/workshop-source.md`. Tämän pohjalta rakennetut
    skillit ovat `maturity: validated` (useamman osallistujan sessio).
-2. **[redacted]n "AI-first SaaS Product" -työpaja** — omistajan itse
-   soveltama menetelmä yhteen omaan caseen ([redacted] "Decision
-   Coach" MVP) — ks. `references/[redacted]-workshop-source.md` ja
-   worked example `cases/[redacted]-decision-coach-mvp.md`. Tämän pohjalta
+2. **Ulkopuolinen "AI-first SaaS Product" -työpaja** — omistajan itse
+   soveltama menetelmä yhteen omaan caseen (omistajan oma palvelu "Decision
+   Coach" MVP) — ks. `references/ai-first-saas-workshop-source.md` ja
+   worked example `cases/ai-decision-coach-mvp-case.md`. Tämän pohjalta
    rakennetut ja syvennetyt skillit ovat `maturity: draft` (sovellettu
    kerran, ei vielä laajasti validoitu useammalla caseella) — ks.
    taulukko alla.
@@ -49,12 +49,12 @@ Kaikki skillit ovat `source_layer: owner` (ks. `../../skills_index.json`).
 
 ## Ankkurointi
 
-- Omistajan AI-native Business Design -työpaja (Tommi Järvinen,
-  [redacted]/firstkiss.co, 1.–2.6.2026) — ks.
+- Omistajan AI-native Business Design -työpaja (
+  omistajan oma palvelu, 1.–2.6.2026) — ks.
   `references/workshop-source.md`
-- [redacted]n AI-first SaaS Product -työpajan menetelmä, sovellettu [redacted]-
-  caseen — ks. `references/[redacted]-workshop-source.md` ja
-  `cases/[redacted]-decision-coach-mvp.md`
+- Ulkopuolisen AI-first SaaS Product -työpajan menetelmä, sovellettu omaan
+  caseen — ks. `references/ai-first-saas-workshop-source.md` ja
+  `cases/ai-decision-coach-mvp-case.md`
 - Ideal Customer Profile (ICP) ja Jobs-To-Be-Done (JTBD) -tuotestrategia-
   kehykset, sellaisina kuin työpajat soveltavat niitä
 - RICE-priorisointimalli (yleisesti tunnettu, ei omistajan oma)
@@ -103,7 +103,7 @@ on aidosti useampi kilpaileva ratkaisusuunta puntaroitavana.
 CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
 skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
 references/                  promptikirjasto, työkalukategoriakartta, lähdetiedot
-cases/                       worked example: [redacted]-decision-coach-mvp.md
+cases/                       worked example: ai-decision-coach-mvp-case.md
                               (lisää omia anonymisoituja tapauksia tähän jatkossa)
 ```
 

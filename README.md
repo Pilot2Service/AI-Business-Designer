@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.14.1 · **Tila:** 7 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
+**Versio:** 0.15.0 · **Tila:** 7 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -9,22 +9,20 @@ Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, bus
 > **Tärkeää:** jokainen tämän pakin tuottama analyysi, laskelma tai suositus on
 > päätöksenteon tueksi tehty luonnos — ei valmis päätös eikä korvaa toimialan tai
 > talouden ammattilaisen vahvistusta. Ihminen tekee päätöksen ja kantaa siitä vastuun.
-> (Sama periaate kuin claude-for-legal-finlandin "luonnos, ei oikeudellista neuvontaa".)
 
 Rakennettu kolmen työvaiheen pohjalta:
 
-1. **Markkinakartoitus** olemassa olevista business/AI-strategy-skills-packeista (GitHub,
-   skills.sh, Claude-ekosysteemi) — ks. `../skills-tutkimus-analyysi.md`
-2. **Markkinan taito-odotusten tutkimus** (WEF, LinkedIn, SFIA, IIBA/BABOK, McKinsey,
-   akateeminen opportunity recognition -kirjallisuus) — ks.
-   `../markkinan-taito-odotukset-analyysi.md`
-3. **Rakenteellinen referenssi kahdesta lähteestä:**
-   - oma `charlotte-semantic-layer-template`-repo (kypsyystaso- ja agent-guide-ajattelu)
-   - [`[redacted]/claude-for-legal-finland`](https://github.com/[redacted]/claude-for-legal-finland)
-     — tuotantokäytössä oleva suomalainen Claude-plugin-markkinapaikka, josta tämä repo
-     omaksui: minimaalisen frontmatterin (vain `name`+`description`), pakkitason
-     `CLAUDE.md`-suojauskerroksen, "mitä tämä EI tee" -rajaukset ja
-     generointi/validointi-skriptimallin.
+1. **Markkinakartoitus** olemassa olevista business/AI-strategy-skills-packeista
+   (avoimet GitHub-repot, skills-markkinapaikat, Claude-ekosysteemi).
+2. **Markkinan taito-odotusten tutkimus** (mm. WEF Future of Jobs, LinkedIn
+   Skills on the Rise, SFIA, IIBA/BABOK, ja akateeminen opportunity
+   recognition -kirjallisuus).
+3. **Rakenteellinen referenssi:** kypsyystaso- ja agent-guide-ajattelu
+   omasta aiemmasta työstä, sekä rakenneanalyysi toisesta, tuotantokäytössä
+   olevasta suomalaisesta Claude-plugin-markkinapaikasta, josta tämä repo
+   omaksui: minimaalisen frontmatterin (vain `name`+`description`), pakkitason
+   `CLAUDE.md`-suojauskerroksen, "mitä tämä EI tee" -rajaukset ja
+   generointi/validointi-skriptimallin.
 
 ## Rakenne
 
@@ -101,9 +99,9 @@ ja 3 erikoistumispaikkaa. Suurin osa ydinskilleistä on edelleen `scaffold`-taso
 rakenne, ankkurointi ja kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja
 case-esimerkit puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa
 SKILL.md:ssä, ja kypsyys näkyy `skills_index.json`:ssa — ei enää frontmatterissa).
-Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma [redacted]-metodologia) ja
+Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma metodologia) ja
 `business-design-frameworks`-pakin `strategy-canvas-and-value-curve` (Blue Ocean
-Strategy + oma [redacted] 360 -vertailutyökalu).
+Strategy + oma 360-vertailutyökalu).
 
 `business-design-frameworks/` on tarkoituksella avoin ja kasvava kokoelma
 liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
@@ -121,8 +119,8 @@ Backwards/PR-FAQ), sekä silta demosta business caseen ja ROI-laskelmaan.
 `public-sector-pilot-scaling` on yhä placeholder. Kolme muuta on täytetty:
 
 - **`research-commercialisation`** (`validated`/`owner`) — 12 skilliä,
-  konvertoitu omistajan julkaisemasta *[redacted] Innovator's Guide to
-  Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta — ks.
+  konvertoitu omistajan julkaisemasta kaupallistamisoppaasta ja
+  AFCA-itsearviointityökalusta — ks.
   `specialisation-packs/research-commercialisation/README.md`.
 - **`ai-native-startup-design`** (sekoitettu: 5 `validated`/`owner` + 3
   `draft`/`owner`) — 8 skilliä. Runko konvertoitu omistajan
@@ -130,16 +128,16 @@ Backwards/PR-FAQ), sekä silta demosta business caseen ja ROI-laskelmaan.
   perustajille (1.–2.6.2026): AI-mahdollisuuksien tunnistus, ICP/JTBD-
   asiakasymmärrys, rakennusagentille annettava PRD, closed-loop-
   prosessisuunnittelu ja AI-työkalupinon valinta. Syvennetty ja
-  laajennettu [redacted]n *AI-first SaaS Product* -työpajan menetelmällä
+  laajennettu ulkopuolisen *AI-first SaaS Product* -työpajan menetelmällä
   (5+2 tarveteemapisteytys, AI wedge -valinta, ratkaisuideointi, RICE-
   MVP-valinta, keskusteleva OS-arkkitehtuuri), sovellettuna omistajan
-  omaan [redacted]-caseen — ks.
+  omaan caseen — ks.
   `specialisation-packs/ai-native-startup-design/README.md`.
 - **`business-model-canvas`** (sekoitettu: 3 `validated`/`owner` + 4
-  `scaffold`/`research`) — 7 skilliä, yhdistää [redacted]-alustan 159
-  patternin innovaatiokirjaston omistajan omaan, huhtikuun 2026
+  `scaffold`/`research`) — 7 skilliä, yhdistää julkisen 159 patternin
+  innovaatiokirjaston omistajan omaan, huhtikuun 2026
   konsultointihaastattelusta poimittuun BMC-metodologiaan
-  (`[redacted]`-repo) ja tunnettujen BMC-lähteiden
+  (omistajan oma, ei-julkinen tutkimustyö) ja tunnettujen BMC-lähteiden
   (Jeffries, van der Linden, Blank, Ash Maurya) tutkimuspohjaiseen
   synteesiin — ks.
   `specialisation-packs/business-model-canvas/README.md`.

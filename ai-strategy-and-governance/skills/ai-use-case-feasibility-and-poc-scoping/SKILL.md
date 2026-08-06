@@ -15,9 +15,6 @@ Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen.
 
 - Perplexity-tutkimus — PoC-määrittely tuotannollistamiseen asti
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
@@ -50,7 +47,7 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 
 ## Jatka tästä
 
-- Samassa pakissa seuraavaksi: `../responsible-ai-and-governance-check/SKILL.md` — Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus).
+- Samassa pakissa seuraavaksi: `../responsible-ai-and-governance-check/SKILL.md` — Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus.
 - Kun tekninen rajaus on tehty ja PoC pitää rakentaa ja esittää: `../../../prototyping-and-demonstration/skills/rapid-prototype-and-vibe-coding-craft/SKILL.md`
   (protoilu) ja `../../../prototyping-and-demonstration/skills/demo-framing-and-expectation-setting/SKILL.md`
   (saman rajauksen kääntäminen asiakasviestinnän kehykseksi — eri kysymys

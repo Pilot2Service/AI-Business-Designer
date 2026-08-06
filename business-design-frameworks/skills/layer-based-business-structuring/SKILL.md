@@ -37,9 +37,6 @@ kumppanin kautta.
   korvaamisen ja ulkoistamisen ilman että koko järjestelmä pitää suunnitella
   uudelleen.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Valitse kerrosnäkökulma tilanteeseen sopivaksi. Esimerkkejä: **tekninen/

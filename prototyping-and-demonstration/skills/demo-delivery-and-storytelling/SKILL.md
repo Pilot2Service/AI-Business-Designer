@@ -29,9 +29,6 @@ vakiintunut viitekehys) AI-konsultin demo-tilanteeseen.
   tuottaa "wow"-vaikutuksen — älä rakenna demoa kronologisesti tuote-
   esittelynä).
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 Sovellettu Great Demo! Five Imperatives -rakenne:

@@ -21,7 +21,7 @@ valmis arvioitavaksi — ei kesken session rakentamisen (siihen ks.
 
 ## Ankkurointi tutkimukseen
 
-Perustuu `[redacted]`-repon tutkimuskerrokseen
+Perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
 (`30_domain_packs/bmc/diagnostics/bmc_diagnostic_rules.md`,
 `canvas_quality_rubric.md`, `antipatterns/counterexamples.md` —
 kaikki `status: template`, `source: research_layer`), synteesi

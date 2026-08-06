@@ -22,8 +22,9 @@ lähde:
 | Rakenne, tekniikka, mitä EI tee, jatkolinkit | SKILL.md:n leipäteksti |
 | Pakkitason suojaukset | `<pack>/CLAUDE.md` |
 
-Tämä konvensio omaksuttu `[redacted]/claude-for-legal-finland`-repon
-CONTRIBUTING.md:stä: "Frontmatterissa vain `name` ja `description` — ei muita kenttiä."
+Tämä konvensio omaksuttu toisen, tuotantokäytössä olevan Claude-plugin-
+markkinapaikan CONTRIBUTING.md:stä: "Frontmatterissa vain `name` ja
+`description` — ei muita kenttiä."
 
 ## marketplace.json ja plugin.json
 

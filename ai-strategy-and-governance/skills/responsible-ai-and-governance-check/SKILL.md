@@ -1,6 +1,6 @@
 ---
 name: responsible-ai-and-governance-check
-description: "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus). Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään."
+description: "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään."
 ---
 
 # Responsible AI & Governance Check
@@ -9,15 +9,12 @@ description: "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulma
 
 ## Tarkoitus
 
-Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus).
+Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus.
 
 ## Ankkurointi tutkimukseen
 
 - EU AI Act (asetus (EU) 2024/1689)
 - LinkedIn 2026 — Risk & Compliance Management
-
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
 
 ## Rakenne (luonnos — täydennettävä)
 

@@ -5,7 +5,7 @@ description: "Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuot
 
 # Industry Partner Engagement
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuote ja liiketoim
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Engaging Industry Early" (s. 57-59).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Engaging Industry Early" (s. 57-59).
 
 - Perkmann et al. (2013) — akateeminen sitoutuminen (yhteistutkimus, konsultointi, teollisuussopimukset) rakentaa relationaalista pääomaa
 - Robin & Schubert (2013) — yliopisto-teollisuus-yhteistyö rakentaa luottamusta ja uskottavuutta sijoittajiin ja asiakkaisiin

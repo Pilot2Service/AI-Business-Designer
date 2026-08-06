@@ -15,9 +15,6 @@ Rakentaa vaihtoehtoisia tulevaisuusskenaarioita ja testaa strategian kestävyytt
 
 - Liedtka (1998) — thinking in time
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

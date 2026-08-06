@@ -153,8 +153,8 @@ ja anna sitten tarkistettu versio.
 
 ---
 
-**Huom promptit 8–10:** nämä on lisätty [redacted]n "AI-first SaaS
-Product" -työpajasta (ks. `[redacted]-workshop-source.md`) ja ne sijaitsevat
+**Huom promptit 8–10:** nämä on lisätty ulkopuolisen "AI-first SaaS
+Product" -työpajasta (ks. `ai-first-saas-workshop-source.md`) ja ne sijaitsevat
 työnkulussa promptin 6 (Need Themes / AI wedge) ja promptin 7 (PRD) välissä
 — käytä niitä kun ratkaisusuunta ei ole vielä selvä valitulle AI wedgelle.
 

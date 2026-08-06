@@ -14,10 +14,7 @@ Kääntää analyysin johdon päätöksentekoa palvelevaksi tarinaksi ja storyli
 ## Ankkurointi tutkimukseen
 
 - McKinsey — storyline-ajattelu
-- IDEO / Fjord — Business Designer -storytelling-kompetenssi
-
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
+- Tunnettujen design-/liiketoimintasuunnittelukonsulttien storytelling-kompetenssimallit
 
 ## Rakenne (luonnos — täydennettävä)
 

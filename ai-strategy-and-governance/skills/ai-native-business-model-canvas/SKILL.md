@@ -30,9 +30,6 @@ koko arvotarjooma riippuu ML-ekosysteemistä.
   Model (kohta 4 alla) — jota tämä skilli ei vielä käsitellyt omana
   kohtanaan.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. **Arvolupaus (Value Proposition).** Määritä miten tekoäly personoi, skaalaa

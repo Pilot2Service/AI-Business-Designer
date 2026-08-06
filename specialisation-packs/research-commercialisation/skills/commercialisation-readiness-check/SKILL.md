@@ -5,7 +5,7 @@ description: "Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis 
 
 # Commercialisation Readiness Check
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis aloittamaan ka
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Are You Ready to Begin?" (s. 63-67).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Are You Ready to Begin?" (s. 63-67).
 
 - Eesley & Roberts (2012) — missio-vetoiset perustajat sitkeämpiä, rakentavat vahvempia kumppanuuksia
 - Christensen (1997) — disruptiiviset innovaatiot harvoin näyttävät maailmaa mullistavilta alussa; kehittyvät palautteen ja iteroinnin kautta

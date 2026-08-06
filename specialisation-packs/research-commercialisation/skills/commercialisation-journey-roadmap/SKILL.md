@@ -5,7 +5,7 @@ description: "Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna t
 
 # Commercialisation Journey Roadmap
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,10 +15,10 @@ Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoin
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Planning Your Commercialisation Journey" (s. 45-49).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Planning Your Commercialisation Journey" (s. 45-49).
 
 - EIT Digital -yrittäjyysohjelma: mahdollisuuden tunnistamisesta konseptiin ja validointiin ennen venturea
-- Suomen Research to Business ([redacted]) -rahoitusohjelma: kaupallistamispotentiaalin tunnistaminen, asiakasrelevanssin todistaminen, markkinareitin kartoitus
+- Suomen Research to Business (omistajan oma case) -rahoitusohjelma: kaupallistamispotentiaalin tunnistaminen, asiakasrelevanssin todistaminen, markkinareitin kartoitus
 
 ## Rakenne
 
@@ -28,7 +28,7 @@ Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoin
 4. Vaihe 4 — Strategia ja liiketoimintasuunnittelu: valitse reitti (ks. `spinout-vs-licensing-pathway`), tarkenna go-to-market, hinnoittelu, IP-strategia, sääntelyreitti ja rahoitussuunnitelma validoidulla datalla.
 5. Vaihe 5 — Toteutusroadmap: käännä suunnitelma konkreettisiksi virstanpylväiksi aikataulutettuna (esim. "toimiva prototyyppi Q2", "10 pilottiasiakasta Q4") — pidä roadmap ketterästi päivitettävänä, ei staattisena asiakirjana.
 6. Ota mukaan moninäkökulmainen validointi koko matkan ajan: asiakkaat, toimialamentorit, TTO, sijoittajat — älä tee suunnittelua vain sisäisesti.
-7. Hyödynnä olemassa olevia [redacted]-tyyppisiä tukipalveluita (mahdollisuuden tunnistamistyöpajat, markkinatutkimusapu, liikekonseptikoulutus), jos organisaatiossasi sellaisia on.
+7. Hyödynnä olemassa olevia vastaavia tukipalveluita (mahdollisuuden tunnistamistyöpajat, markkinatutkimusapu, liikekonseptikoulutus), jos organisaatiossasi sellaisia on.
 
 ## Mitä tämä skilli EI tee
 

@@ -15,9 +15,6 @@ Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen.
 
 - Perplexity-tutkimus — työpajojen ja design-thinking-sessioiden vetäminen
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

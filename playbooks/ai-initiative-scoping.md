@@ -11,7 +11,8 @@ toteutussuunnitelmaan.
    ja `prototyping-and-demonstration/skills/demo-delivery-and-storytelling`
    (jos aloite vaatii konkreettisen demon ennen hyväksyntää)
 5. `ai-strategy-and-governance/skills/responsible-ai-and-governance-check`
-   (syvempään EU AI Act -analyysiin: tekoalysaantely-pluginit tässä workspacessa)
+   (syvempään EU AI Act -analyysiin tarvitaan erillinen sääntely-
+   asiantuntemus/plugin — ei sisälly tähän skills-pakkiin)
 6. `prototyping-and-demonstration/skills/demo-to-business-case-bridge` →
    `business-case-and-analysis/skills/business-case-builder`
 7. `ai-strategy-and-governance/skills/ai-capability-roadmap`

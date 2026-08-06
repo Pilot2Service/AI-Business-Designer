@@ -1,8 +1,7 @@
 # BMC Innovation Pattern Library — 159 patternia
 
-Lähde: käyttäjän lataama `business-model-patterns.json` ([redacted]-alusta,
-Tommi Järvinen / [redacted]). Rakenteeltaan sama nelijako kuin omistajan
-oma taksonomia `../../[redacted]/30_domain_packs/bmc/tools/bmc_innovation_patterns.md`:ssa
+Lähde: julkinen liiketoimintamallin innovaatiopatternien kirjasto (159 patternia,
+JSON-muodossa). Jäsennetty omistajan omalla nelijakoisella taksonomialla
 (Financial / Operating / Value / Experience Model). Käytetään skillissä
 `../skills/bmc-innovation-pattern-matching/SKILL.md`.
 
@@ -13,9 +12,7 @@ versiosta (12+11=23), kun taas nykyisessä JSON:ssa Revenue Model on yksi 22
 patternin kokonaisuus. Käytä tätä (159) ajantasaisena totuutena; alkuperäinen
 README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
-
 ## 1. Financial Business Model Innovations (Financial Model)
-
 
 ### Financial Model > Cost Model
 
@@ -69,7 +66,6 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 | `financial.rev.continuous_learning_subscription` | Continuous Learning Subscription | Subscription includes periodic ML model retraining, feature updates, and custom fine-tuning. Performance thresholds govern renewal. |
 
 ## 2. Operative Business Model Innovations (Operating Model)
-
 
 ### Operating Model > Value Chain
 
@@ -129,7 +125,6 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 | `operating.partners.secondary_markets` | Secondary Markets | Monetize by-products. Metrics: secondary-market revenue. |
 
 ## 3. Value-based Innovations (Value Model)
-
 
 ### Value Model > Value Proposition
 
@@ -193,7 +188,6 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 | `value.service.ai_as_a_service` | AI-as-a-Service | Duplicate of Financial Model pattern – available under Service Model for API provision scenarios. |
 
 ## 4. Experience Model Innovations (Experience Model)
-
 
 ### Experience Model > Channels
 
@@ -273,7 +267,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 **Yhteensä: 159 patternia.**
 
-## Käyttösäännöt ([redacted] aiUsage-kentästä)
+## Käyttösäännöt
 
 - Select 3–5 patterns per scenario, output full JSON path per pattern
 - Avoid conflicting patterns (e.g. Cost Leadership vs. Premium Pricing)

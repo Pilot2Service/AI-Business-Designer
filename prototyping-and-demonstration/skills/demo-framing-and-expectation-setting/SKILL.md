@@ -37,9 +37,6 @@ sitten tämä viestinnällinen kehys.
   sitoutuminen, työnkulun uudelleensuunnittelu, mittakaavan investointi) —
   ei demo/PoC-vaiheen tekninen onnistuminen tai epäonnistuminen.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. **Nimeä täsmällisesti, mitä tänään näytetään, oikealla termillä äläkä

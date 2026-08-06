@@ -3,19 +3,19 @@ status: draft
 source: owner_applied_case
 ---
 
-# Case: [redacted] — "Decision Coach" MVP
+# Case: "Decision Coach" MVP (omistajan oma case)
 
 Täysi worked example pakin skillien `customer-vision-to-jtbd` →
 `ai-differentiator-solution-ideation` → `rice-scoring-and-mvp-synthesis` →
 `ai-native-conversational-os-design` -ketjusta, sovellettuna omistajan
-(Tommi Järvinen) omaan [redacted]-tuotteeseen [redacted]n
+omaan tuotteeseensa ulkopuolisen
 "AI-first SaaS Product" -työpajan menetelmällä (ks.
-`../references/[redacted]-workshop-source.md`). Kohdesegmentti:
+`../references/ai-first-saas-workshop-source.md`). Kohdesegmentti:
 akateemiset tutkijat, jotka kehittävät kaupallistamisosaamistaan
 (sama kohderyhmä kuin `specialisation-packs/research-commercialisation`).
 
 **Tila:** sovellettu kerran, ei ulkopuolisesti validoitu — käytä mallina
-rakenteesta ja tasosta, älä absoluuttisena totuutena [redacted]:n lopullisesta
+rakenteesta ja tasosta, älä absoluuttisena totuutena casen lopullisesta
 suunnasta.
 
 ## 1. JTBD (7 kpl, verbivetoisia)
@@ -60,7 +60,7 @@ suunnasta.
 **Uncertainty Reduction (25/25) + Opportunity Clarity (24/25)** —
 molemmat täyttävät AI wedge -kriteerit: korkea syvyys, korkea toistuvuus,
 heikko kilpailijakattavuus (TTO:t/inkubaattorit tarjoavat staattisia
-tarkistuslistoja, ei elävää mallia), oma vahvuus (olemassa olevat [redacted]-
+tarkistuslistoja, ei elävää mallia), oma vahvuus (olemassa olevat omat 
 työkalut: Opportunity Scorecard, Competence Assessment), korkea AI-etu.
 
 ## 5. Kolme ratkaisusuuntaa
@@ -92,7 +92,7 @@ seuraavista askelista — yhdistää opportunity clarityn, uncertainty
 reductionin ja olennaisen viestintätuen yhdeksi yksinkertaiseksi,
 toimintakelpoiseksi päätökseksi.
 
-**Positiointilause:** "[redacted] antaa tutkijoille välittömän
+**Positiointilause:** "Palvelu antaa tutkijoille välittömän
 selkeyden ja itsevarmuuden varhaiseen kaupallistamismatkaan AI-vetoisella
 päätösmoottorilla, joka muuttaa epävarmuuden selkeiksi seuraaviksi
 askeliksi."
@@ -116,7 +116,7 @@ Alignment) → Clarification (max 2-4 kysymystä) → Output Cards (5:
 Opportunity Clarity Score, Readiness Score, 3-Step Action Plan,
 Stakeholder Pitch, Decision Recommendation) → Mission (yksi lyhyt
 tehtävälause) → Agent Execution (uudelleenpisteytys, pitchin uudelleen-
-kirjoitus, [redacted]-työkalujen suosittelu).
+kirjoitus, omien työkalujen suosittelu).
 
 Täysi askel-askeleelta-kuvaus: ks.
 `../skills/ai-native-conversational-os-design/SKILL.md`.
@@ -128,4 +128,4 @@ Täysi askel-askeleelta-kuvaus: ks.
   synthesis`- ja `ai-native-conversational-os-design`-skillejä uuteen
   liiketoimintaan.
 - ÄLÄ kopioi pisteytyksiä tai tarveteemoja sellaisenaan toiseen caseen —
-  ne ovat [redacted]-spesifisiä, eivät yleispäteviä lukuja.
+  ne ovat case-spesifisiä, eivät yleispäteviä lukuja.

@@ -5,7 +5,7 @@ description: "Rakenna tasapainoinen perustajatiimi ja sovi yhteispelin säännö
 
 # Founding Team Design & Agreements
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Rakenna tasapainoinen perustajatiimi ja sovi yhteispelin säännöt (Founders' A
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Building the Right Team" (s. 53-56).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Building the Right Team" (s. 53-56).
 
 - Colombo & Grilli (2005) — perustajien inhimillinen pääoma (tekninen + johtamiskokemus) korreloi kasvun kanssa
 - Choi et al. (2019, 21 000+ startupia) — monijäseniset tiimit ylittävät yksinäiset perustajat tulokasvussa ja selviytymisessä
@@ -39,8 +39,8 @@ Rakenna tasapainoinen perustajatiimi ja sovi yhteispelin säännöt (Founders' A
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../industry-partner-engagement/SKILL.md` — Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuote ja liiketoimintalogiikka pysyvät kiinni todellisuudessa.
-- Liittyvä skilli toisessa pakissa: `../../../sopimukset/skills/sopimuksen-laatiminen/SKILL.md`
-- Liittyvä skilli toisessa pakissa: `../../../yhtiooikeus/skills/osakassopimus/SKILL.md`
+- Sopimusten laadintaan ja osakassopimuksen ehtoihin tarvitaan erillinen
+  sopimus- ja yhtiöoikeudellinen asiantuntemus (ei sisälly tähän skills-pakkiin).
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 - Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
 

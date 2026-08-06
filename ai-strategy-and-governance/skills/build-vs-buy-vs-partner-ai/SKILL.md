@@ -15,9 +15,6 @@ Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratk
 
 - strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

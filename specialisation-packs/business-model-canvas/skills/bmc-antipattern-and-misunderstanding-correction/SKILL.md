@@ -18,9 +18,9 @@ käytä sitä kesken session, kun jokin tuntuu jumiutuvan.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) huhtikuun 2026 asiantuntijahaastattelu,
+- Omistajan huhtikuun 2026 asiantuntijahaastattelu,
   kaksi `status: accepted` / `confidence: high` -tiedostoa
-  `[redacted]`-repossa:
+  omistajan tutkimusmuistiinpanoissa:
   - `30_domain_packs/bmc/antipatterns/bmc_antipatterns_expert.md` — viisi
     asiantuntijan omaa antipatternia.
   - `30_domain_packs/bmc/facilitation/bmc_client_misunderstandings.md` —

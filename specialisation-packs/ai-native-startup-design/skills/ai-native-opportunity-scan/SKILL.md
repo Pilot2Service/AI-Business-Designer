@@ -20,8 +20,8 @@ joka viedään suunnittelun seuraaviin vaiheisiin.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) AI-native Business Design -työpaja
-  ([redacted] / firstkiss.co), pidetty 1.–2.6.2026, Day 1 — Session 1
+- Omistajan AI-native Business Design -työpaja
+  (omistajan oma työpaja), pidetty 1.–2.6.2026, Day 1 — Session 1
   "The New AI Mindset" -harjoitus ja sitä edeltävä ydinerottelu: AI ei ole
   vain tuottavuustyökalu, joka nopeuttaa olemassa olevaa työtä — se on uusi
   kyvykkyys ja kapasiteetti, joka mahdollistaa tuotteita ja työnkulkuja, jotka

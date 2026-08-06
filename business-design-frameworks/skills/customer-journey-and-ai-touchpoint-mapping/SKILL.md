@@ -24,9 +24,6 @@ uutta arvoa, ei kaikkialle missä se on teknisesti mahdollista.
   tavoitteet käännetään palvelupoluiksi ja prototyypeiksi, ja AI
   sijoitetaan polulle arvoa tuovalla tavalla.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Valitse tarkasteltava asiakaspolku (esim. ostoprosessi, onboarding,

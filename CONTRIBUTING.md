@@ -4,7 +4,8 @@
 
 SKILL.md koodaa oikean toiminnan; pakin CLAUDE.md on varaverkko. Jos skillin oikea
 lopputulos riippuu siitä, että CLAUDE.md pelastaa virheen, se on suunnitteluvirhe — vie
-tieto SKILL.md:hen. (Periaate: `[redacted]/claude-for-legal-finland`.)
+tieto SKILL.md:hen. (Periaate omaksuttu toisen Claude-plugin-markkinapaikan
+rakenneanalyysistä.)
 
 ## Uuden skillin lisääminen
 

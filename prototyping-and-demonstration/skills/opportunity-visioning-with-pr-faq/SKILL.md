@@ -30,9 +30,6 @@ kuin kalliimpi protoilukierros alkaa.
   kysymys-vastausosio joka käy läpi asiakasongelman, ratkaisun,
   riskit ja onnistumisen mittarit.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. **Kirjoita yhden sivun mock-lehdistötiedote**, päivätty tulevaisuuteen

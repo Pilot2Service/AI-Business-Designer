@@ -18,9 +18,9 @@ selkeys voittaa aina syvyyden.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) huhtikuun 2026 asiantuntijahaastattelu,
+- Omistajan huhtikuun 2026 asiantuntijahaastattelu,
   kolme `status: accepted` / `confidence: high` -tiedostoa
-  `[redacted]`-repossa:
+  omistajan tutkimusmuistiinpanoissa:
   - `07_reasoning_model/reasoning_patterns/bmc_iteration_logic.md` —
     variointilogiikka, analyysi-/synteesivaiheet, "uniikki yhdistelmä"
     -tavoite, neljä riittävyyskriteeriä.

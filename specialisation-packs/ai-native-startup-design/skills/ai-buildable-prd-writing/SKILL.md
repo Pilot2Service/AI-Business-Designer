@@ -20,8 +20,8 @@ tärkeät valinnat AI:n arvattavaksi.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) AI-native Business Design -työpaja
-  ([redacted] / firstkiss.co), pidetty 1.–2.6.2026, Day 1 —
+- Omistajan AI-native Business Design -työpaja
+  (omistajan oma työpaja), pidetty 1.–2.6.2026, Day 1 —
   Session 2 "Planning in the AI Era", vaiheet 4–6 (PRD:n rakenne,
   tukidokumentit, tuotantosuunnitelma, handoff rakennusagentille).
 - Työpajan pääperiaate: **Spec → Plan → Implement → Test** -työnkulku;

@@ -19,8 +19,8 @@ nopeasti tällä markkinalla.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) AI-native Business Design -työpaja
-  ([redacted] / firstkiss.co), `tools.md` — "2026 AI-Native Stack":
+- Omistajan AI-native Business Design -työpaja
+  (omistajan oma työpaja), `tools.md` — "2026 AI-Native Stack":
   12 kategorian jaottelu sen mukaan *mitä yrität tehdä*, ei valmistajan
   mukaan; "minimum viable stack" -periaate ("3–6 työkalua, ei 30");
   agenttityökalujen kolmiportainen kypsyyspolku (no-code-alustat →

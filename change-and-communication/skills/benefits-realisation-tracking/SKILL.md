@@ -15,9 +15,6 @@ Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen.
 
 - Perplexity-tutkimus — hyötyjen realisointiraportit
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

@@ -1,6 +1,6 @@
 # Opportunity Brief — raporttipohja
 
-Lähde: [redacted] — Opportunity Value Assessment -palvelun raporttipohja
+Lähde: omistajan oma palvelu — Opportunity Value Assessment -palvelun raporttipohja
 (oma tuote). Käyttää `opportunity-brief-writing`-skilli. Esimerkkisisältö
 (bio-pohjainen pinnoitemateriaali) on alkuperäisestä tuotepohjasta — käytä
 rakennetta, älä kopioi esimerkkilukuja oikeaan raporttiin.
@@ -11,7 +11,7 @@ rakennetta, älä kopioi esimerkkilukuja oikeaan raporttiin.
 Asiakas: [Nimi/tiimi, organisaatio]
 Päivämäärä: [pvm]
 Raportti: Opportunity Value Assessment
-Laatija: [redacted] | Analyytikko: [nimi] | [sähköposti]
+Laatija: omistajan oma palvelu | Analyytikko: [nimi] | [sähköposti]
 
 "Tämä raportti on laadittu tarjoamaan jäsennelty arvio tunnistetusta
 mahdollisuudestasi. Se perustuu antamaasi tietoon, täydennettynä
@@ -151,5 +151,5 @@ analyytikon tulkintaan.
 *Tämä asiakirja on luottamuksellinen ja laadittu yksinomaan [asiakkaan nimi]
 käyttöön. Sitä ei saa levittää ulkopuolelle ilman suostumusta. Löydökset
 edustavat suuntaa-antavaa analyysiä ja oletuksia, eivät takeita lopputuloksista.
-[redacted] ei vastaa tämän raportin pohjalta tehdyistä
+omistajan oma palvelu ei vastaa tämän raportin pohjalta tehdyistä
 liiketoiminta- tai investointipäätöksistä.*

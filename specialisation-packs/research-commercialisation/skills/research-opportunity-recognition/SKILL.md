@@ -5,7 +5,7 @@ description: "Arvioi onko tutkimustuloksella todellista kaupallista potentiaalia
 
 # Research Opportunity Recognition
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Arvioi onko tutkimustuloksella todellista kaupallista potentiaalia ennen kaupall
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Spotting Real Opportunities" (s. 18-20).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Spotting Real Opportunities" (s. 18-20).
 
 - Kirzner (1973/1979) — entrepreneurial alertness (ks. myös opportunity-recognition-ydinpakki)
 - VC-sijoittajien arviointikriteerit: markkinasignaali painaa usein enemmän kuin tiede yksin

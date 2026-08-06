@@ -15,9 +15,6 @@ Kartoittaa arvonluonnin kokonaisjärjestelmän ja sen riippuvuudet ennen ratkais
 
 - Liedtka (1998) — systeeminäkökulma (systems perspective)
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

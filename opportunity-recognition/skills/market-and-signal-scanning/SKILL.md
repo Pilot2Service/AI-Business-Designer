@@ -16,9 +16,6 @@ Systemaattinen ympäristön skannaus (markkina, teknologia, sääntely, kilpailu
 - Kirzner (1973/1979) — entrepreneurial alertness
 - PESTLE
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

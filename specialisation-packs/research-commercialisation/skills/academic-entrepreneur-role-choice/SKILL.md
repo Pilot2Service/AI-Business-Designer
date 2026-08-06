@@ -5,7 +5,7 @@ description: "Valitse oma rooli spin-outissa (täysipäiväinen perustaja, tiete
 
 # Academic Entrepreneur Role Choice
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Valitse oma rooli spin-outissa (täysipäiväinen perustaja, tieteellinen neuvon
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "The Academic Entrepreneur's Path" (s. 59-63).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "The Academic Entrepreneur's Path" (s. 59-63).
 
 - UK-katsaus (Independent Review of University Spin-out Companies): yli puolet akatemiasta lähteneistä spin-out-perustajista ei aikonut palata, 12 % halusi palata, 31 % epävarma
 - Tyypillinen konsultointiaika-allokaatio akateemisilla: n. 20 %/vuosi (noin yksi päivä viikossa tai 30 pv/v)
@@ -32,13 +32,12 @@ Valitse oma rooli spin-outissa (täysipäiväinen perustaja, tieteellinen neuvon
 
 ## Mitä tämä skilli EI tee
 
-- Ei anna työoikeudellista tai virkasuhdetta koskevaa lopullista tulkintaa — tarkista oman organisaatiosi käytännöt ja tarvittaessa työoikeuden asiantuntija (ks. `tyooikeus:tyosopimus` yleisistä periaatteista).
+- Ei anna työoikeudellista tai virkasuhdetta koskevaa lopullista tulkintaa — tarkista oman organisaatiosi käytännöt ja tarvittaessa työoikeuden asiantuntija.
 - Ei tee henkilökohtaista urapäätöstä puolestasi.
 
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../commercialisation-readiness-check/SKILL.md` — Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis aloittamaan kaupallistamisen — oppimisnopeuden, ei täydellisyyden, näkökulmasta.
-- Liittyvä skilli toisessa pakissa: `../../../tyooikeus/skills/tyosopimus/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 - Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
 

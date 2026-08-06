@@ -19,13 +19,12 @@ JÄSENTÄÄ prosessin, jonka aikana muut pakin skillit ajetaan.
 
 ## Ankkurointi tutkimukseen
 
-- Käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien ja
-  -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
-  liiketoiminnassa" (2026) — luvut 5 (asiantuntijapalvelutalojen myynti-
-  ja palvelumallit) ja 5.1–5.2 (tuotteistetut palvelut, luovutettava
-  aineisto). Lähteinä mainittu mm. McKinsey [redacted], BCG, Accenture,
-  [redacted] ja erikoistuneet AI-boutiquet — malli on yleistetty näiden
-  julkisesta käytännöstä, ei minkään yksittäisen talon tarkka kopio.
+- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
+  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
+  (2026) — asiantuntijapalvelutalojen myynti- ja palvelumallit,
+  tuotteistetut palvelut, luovutettava aineisto. Malli on yleistetty
+  suurten konsulttitalojen julkisesta AI-discovery-käytännöstä, ei
+  minkään yksittäisen talon tarkka kopio.
 
 ## Rakenne (luonnos — täydennettävä)
 

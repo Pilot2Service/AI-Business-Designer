@@ -18,7 +18,7 @@ asiakas TÄYTTÄÄ canvasia, ei vain siinä miten hän puhuu siitä.
 
 ## Ankkurointi tutkimukseen
 
-Perustuu `[redacted]`-repon tutkimuskerrokseen
+Perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
 (`03_domain_model/vocabulary/client_language_translation.md` ja
 `concept_misunderstandings.md`, `status: template`, `confidence: low/medium`),
 synteesi van der Lindenin ja Jeffriesin havainnoista. Huomaa: nämä ovat

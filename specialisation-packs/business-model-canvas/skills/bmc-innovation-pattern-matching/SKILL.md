@@ -1,6 +1,6 @@
 ---
 name: bmc-innovation-pattern-matching
-description: "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin [redacted]-kirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations)."
+description: "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin julkisesta innovaatiokirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations)."
 ---
 
 # BMC Innovation Pattern Matching
@@ -20,20 +20,20 @@ asiakaskokemus.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) konsultointiasiantuntemus BMC-työstä,
-  huhtikuun 2026 asiantuntijahaastattelu (`[redacted]` repo,
+- Omistajan konsultointiasiantuntemus BMC-työstä,
+  huhtikuun 2026 asiantuntijahaastattelu (omistajan tutkimusmuistiinpanot,
   `30_domain_packs/bmc/tools/bmc_innovation_patterns.md`, `status: accepted`,
   `confidence: high`). Asiantuntijan oma lainaus: "How a business model
   works as a source of business model innovation — how to make business
   model innovations using BMC — this requires clear choices in the canvas,
   followed by the ability to identify innovation patterns."
-- [redacted]-alustan (firstkiss.co) 159 patternin koneluettava kirjasto,
+- Julkisen innovaatiopatternikirjaston 159 patternin koneluettava kirjasto,
   neljässä ryhmässä / 13 ala-mallissa — ks.
   `../../references/bmc-innovation-pattern-library.md`. Kirjaston
   neliosainen rakenne (Financial/Operating/Value/Experience Model) on
   identtinen asiantuntijan oman taksonomian kanssa — nämä kaksi lähdettä
   vahvistavat toisiaan, eivät ole ristiriidassa.
-- [redacted]-alustan tehtäväspesifikaatio suositustyöstä — ks.
+- Kirjaston mukana tullut tehtäväspesifikaatio suositustyöstä — ks.
   `../../references/bmc-source-material-notes.md` kohta 1.
 
 ## Rakenne
@@ -60,7 +60,7 @@ asiakaskokemus.
    - eivät ole keskenään ristiriidassa (esim. Cost Leadership vs. Premium
      Pricing samassa mallissa on ristiriita — ks. kohta 4)
    - ovat toteutettavissa kuvatulla tiimikoolla/resursseilla
-4. **Tarkista ristiriidat eksplisiittisesti.** [redacted]-alustan omat
+4. **Tarkista ristiriidat eksplisiittisesti.** Kirjaston omat
    säännöt (ks. `../../references/bmc-source-material-notes.md`) vaativat
    ristiriitaisten patternien välttämistä — esim. kustannusjohtajuus- ja
    premium-hinnoittelupatternit samassa suosituksessa ovat sisäisesti

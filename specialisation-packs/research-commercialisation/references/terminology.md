@@ -1,6 +1,6 @@
 # Terminologia
 
-Lähde: *[redacted] Innovator's Guide to Commercialisation* (Tommi Järvinen, [redacted],
+Lähde: omistajan julkaisema kaupallistamisopas (
 2025), luku "Terminology Explained" (s. 66-68). Käytetään brittienglannin oikeinkirjoitusta
 (`commercialisation`) käsikirjan mukaisesti.
 

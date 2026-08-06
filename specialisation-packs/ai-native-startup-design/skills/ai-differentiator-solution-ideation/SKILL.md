@@ -18,11 +18,11 @@ näkökulmaa (linssiä) jotta suunnat eivät ole vain sama idea eri sanoin.
 
 ## Perustuu
 
-- [redacted]n "AI-first SaaS Product" -työpajan menetelmä, sovellettu
-  omistajan (Tommi Järvinen) toimesta [redacted]-caseen — ks.
-  `../../references/[redacted]-workshop-source.md` ja worked example
-  `../../cases/[redacted]-decision-coach-mvp.md` kohta 5. **Huom:** sovellettu
-  toistaiseksi vain kerran ([redacted]) — ei laajasti validoitu.
+- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä, sovellettu
+  omistajan toimesta omaan caseen — ks.
+  `../../references/ai-first-saas-workshop-source.md` ja worked example
+  `../../cases/ai-decision-coach-mvp-case.md` kohta 5. **Huom:** sovellettu
+  toistaiseksi vain kerran (omistajan oma case) — ei laajasti validoitu.
 - Sähköpostimarkkinoinnin personointiesimerkki työpajasta havainnollistaa
   "aidosti erilainen" -vaatimuksen: 1:1-historiapohjainen personointi vs.
   1:1-kontekstuaalinen sosiaalinen personointi vs. 1:ryhmä-klusteripohjainen
@@ -78,7 +78,7 @@ näkökulmaa (linssiä) jotta suunnat eivät ole vain sama idea eri sanoin.
 
 ## [OWNER INPUT — täydennettävä]
 
-Tämä skilli on sovellettu toistaiseksi yhteen caseen ([redacted]). Kun sovellat
+Tämä skilli on sovellettu toistaiseksi yhteen caseen (omistajan oma case). Kun sovellat
 sitä useampaan eri liiketoimintaan, täydennä:
 
 - omia lisälinssejä tai muunnelmia kolmesta linssistä, jotka ovat
@@ -98,11 +98,11 @@ Kun tämä osio on täytetty useammalla caseella, nosta
 - Seuraava skilli samassa pakissa:
   `../rice-scoring-and-mvp-synthesis/SKILL.md` — pisteyttää kolme suuntaa
   ja valitsee MVP:n.
-- Worked example: `../../cases/[redacted]-decision-coach-mvp.md` kohta 5.
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md` kohta 5.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
 ## Referenssit
 
-- `../../references/[redacted]-workshop-source.md` — lähdetiedot
-- `../../cases/[redacted]-decision-coach-mvp.md` — worked example
+- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+- `../../cases/ai-decision-coach-mvp-case.md` — worked example
 - `../../CLAUDE.md` — pakin jaetut suojaukset

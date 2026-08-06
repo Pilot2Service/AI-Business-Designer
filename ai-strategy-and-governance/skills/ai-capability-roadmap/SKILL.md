@@ -17,17 +17,12 @@ priorisoitu AI-mahdollisuus toteutetaan", täydentäen
 
 ## Ankkurointi tutkimukseen
 
-- Perplexity-tutkimus — roadmapit ja liiketoimintakyvykkyyskartat
-- Käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien ja
-  -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
-  liiketoiminnassa" (2026) — kolmihorisonttinen Strategic AI Roadmap
-  ja AI Target Operating Model (ATOM) / Readiness Scorecard -konsepti,
-  osana asiantuntijapalvelutalojen (McKinsey [redacted], BCG,
-  Accenture, [redacted]) discovery-toimeksiantojen luovutettavaa
-  aineistoa.
-
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
+- Markkinatutkimus — roadmapit ja liiketoimintakyvykkyyskartat
+- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
+  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
+  (2026) — kolmihorisonttinen Strategic AI Roadmap ja AI Target
+  Operating Model (ATOM) / Readiness Scorecard -konsepti, osana suurten
+  konsulttitalojen discovery-toimeksiantojen luovutettavaa aineistoa.
 
 ## Rakenne (luonnos — täydennettävä)
 

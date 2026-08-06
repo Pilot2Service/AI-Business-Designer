@@ -21,5 +21,5 @@ Jokaisen SKILL.md:n tulisi läpäistä nämä kuusi testiä:
 SKILL.md-frontmatterissa on **vain** `name` ja `description`. Kaikki muu metadata
 (kypsyys, lähdekerros, ankkurointi) elää `skills_index.json`:ssa tai itse tekstissä.
 Tämä pitää skillit yhteensopivina kaikkien SKILL.md-formaattia tukevien agenttien kanssa
-eikä sido niitä tämän repon omiin lisäkenttiin. (Periaate:
-`[redacted]/claude-for-legal-finland`, CONTRIBUTING.md.)
+eikä sido niitä tämän repon omiin lisäkenttiin. (Periaate omaksuttu toisen
+Claude-plugin-markkinapaikan rakenneanalyysistä — ks. CONTRIBUTING.md.)

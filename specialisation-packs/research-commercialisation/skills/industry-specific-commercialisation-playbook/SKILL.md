@@ -5,7 +5,7 @@ description: "Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan
 
 # Industry-Specific Commercialisation Playbook
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life science
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Different Paths by Industry" (s. 29-34) — case-esimerkit Vaccitech/BioNTech, IQM Finland/ArtiQ, DeepMind, UK:n Aspect-ohjelma.
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Different Paths by Industry" (s. 29-34) — case-esimerkit Vaccitech/BioNTech, IQM Finland/ArtiQ, DeepMind, UK:n Aspect-ohjelma.
 
 - Life sciences: pitkä (10+v), kallis, säädelty reitti; usein kumppanuus/osto isomman toimijan kanssa myöhemmin
 - Deep tech: prototyyppi- ja pilottivaiheet, erikoislaitteet, vahva IP-suoja etuna
@@ -34,13 +34,12 @@ Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life science
 
 ## Mitä tämä skilli EI tee
 
-- Ei tee sääntelyluokittelua puolestasi (esim. EU AI Act -luokittelu tekoälyjärjestelmälle) — katso `tekoalysaantely:tekoaly-luokittelu`.
+- Ei tee sääntelyluokittelua puolestasi (esim. EU AI Act -luokittelu tekoälyjärjestelmälle) — käytä erillistä sääntely-asiantuntemusta.
 - Ei anna tarkkaa aikataulu- tai kustannusarviota — esimerkit ovat suuntaa-antavia, eivät takuita.
 
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../funding-pathway-design/SKILL.md` — Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoituksen oikeassa järjestyksessä, ja hallitse runwayta.
-- Liittyvä skilli toisessa pakissa: `../../../tekoalysaantely/skills/tekoaly-luokittelu/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 - Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
 

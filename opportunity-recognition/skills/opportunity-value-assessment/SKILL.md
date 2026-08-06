@@ -5,7 +5,7 @@ description: "Sijoittaa tunnistetun mahdollisuuden houkuttelevuus × toteutettav
 
 # Opportunity Value Assessment
 
-*Tila: `validated` — omistajan (Tommi Järvinen) [redacted]-palvelun
+*Tila: `validated` — omistajan oman palvelun
 Opportunity Value Assessment -tuotteen ytimenä toimivaan arviointikehykseen
 ankkuroitu sisältö, ei tutkimustason scaffold. Ks. `../../../skills_index.json`
 ja `../../../meta/maturity_levels.md`.*
@@ -20,7 +20,7 @@ konkreettisempi ja tarkempi kuin yleinen `opportunity-evaluation-and-judgment`
 
 ## Perustuu
 
-[redacted] — Opportunity Value Assessment -palvelu (oma tuote) ja sitä
+omistajan oma palvelu — Opportunity Value Assessment -palvelu (oma tuote) ja sitä
 tukeva taustatutkimus "S1 — Opportunity Package: Ehdotus yksinkertaisesta
 arviointikehyksestä".
 
@@ -103,6 +103,6 @@ tuottamat vastaukset (tai vastaavan tason tiedon muuta kautta).
 
 ## Referenssit
 
-- `../../references/[redacted]-frameworks-review.md` — Mullins, Timmons, POEM -yhteenvedot
+- `../../references/opportunity-frameworks-review.md` — Mullins, Timmons, POEM -yhteenvedot
 - `../../references/opportunity-brief-template.md` — raporttipohja tämän arvioinnin tuloksille
 - `../../CLAUDE.md` — pakin jaetut suojaukset

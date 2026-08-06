@@ -28,9 +28,6 @@ tai differointi — todella rakentuu.
 - Sama teoreettinen perhe: Porter's Five Forces, ks.
   `../../../opportunity-recognition/skills/competitive-and-five-forces-mapping/SKILL.md`.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Listaa organisaation ydintoiminnot Porterin viiteen kategoriaan:

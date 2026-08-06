@@ -5,7 +5,7 @@ description: "Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oik
 
 # IP Disclosure & Ownership Check
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oikea-aikainen ke
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "Understanding IP and University Policies" (s. 23-26).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Understanding IP and University Policies" (s. 23-26).
 
 - Bayh–Dole Act (1980, USA) — malli jossa yliopisto omistaa liittovaltion rahoittaman tutkimuksen keksinnöt
 - Professorin privilegio (historiallisesti mm. Ruotsi, Italia, Saksa) — poikkeus yliopisto-omistukseen

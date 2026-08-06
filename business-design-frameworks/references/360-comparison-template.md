@@ -1,9 +1,9 @@
-# [redacted] 360 Comparison Factors — mallipohja
+# 360 Comparison Factors — mallipohja
 
-Omistajan (Tommi Järvinen / [redacted]) oma vertailutyökalu, jota
+Omistajan oma vertailutyökalu, jota
 `../skills/strategy-canvas-and-value-curve/SKILL.md` käyttää konkreettisena
 pisteytyspohjana strategiakartan (Blue Ocean Strategy Canvas) rakentamiseen.
-Alkuperäinen lähde: `[redacted] 360 COMPARISON FACTORS` (käyttäjän lataama taulukko).
+Alkuperäinen lähde: `360 COMPARISON FACTORS` (käyttäjän lataama taulukko).
 
 ## Asteikko
 
@@ -19,7 +19,7 @@ Asteikko on tarkoituksella karkea (0–2, ei esim. 1–10) — tavoite on nähd�
 **muoto** (missä kohtaa toimijat eroavat toisistaan), ei tuottaa
 näennäistarkkaa pisteytystä.
 
-## Esimerkkitekijät (10 kpl, alkuperäisestä [redacted] 360 -taulukosta)
+## Esimerkkitekijät (10 kpl, alkuperäisestä 360-taulukosta)
 
 Nämä ovat esimerkki eivät kiinteä lista — täydennä tai korvaa oman toimialan
 relevanteilla tekijöillä (ks. skillin Rakenne-osion vaihe 2).
@@ -35,7 +35,7 @@ relevanteilla tekijöillä (ks. skillin Rakenne-osion vaihe 2).
 9. Delivery time (toimitusaika)
 10. # of features (ominaisuuksien määrä)
 
-## Esimerkkitäyttö (alkuperäisen [redacted] 360 -taulukon data)
+## Esimerkkitäyttö (alkuperäisen 360-taulukon data)
 
 Tämä on esimerkkiaineisto viiden toimijan vertailusta (oma ratkaisu + 4
 kilpailijaa) — havainnollistaa taulukon muotoa, ei yleistettävä tulos:

@@ -7,11 +7,11 @@ AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto 
 | Skilli | Kuvaus |
 |---|---|
 | `task-level-decomposition-and-automation-fit` | Pilkkoo roolit/prosessit tehtävätasolle (People Path + Process Path) ja luokittelee jokaisen tehtävän Automate/Augment/Human-Only SML-kriteereillä. |
-| `ai-capability-pattern-matching` | Käyttää 13 AI-kyvykkyyspatternin kirjastoa ([redacted] AI Dossier 2026 + McKinsey [redacted] -ristiintarkistus) diagnostisten kysymysten esittämiseen — top-down-vaihtoehto tehtävätason pilkkomiselle raakalistan kokoamisessa. |
+| `ai-capability-pattern-matching` | Käyttää 13 AI-kyvykkyyspatternin kirjastoa (tutkimuspohjainen, kahdesta riippumattomasta toimialan AI-käyttötapausraportista ristiintarkistettu) diagnostisten kysymysten esittämiseen — top-down-vaihtoehto tehtävätason pilkkomiselle raakalistan kokoamisessa. |
 | `ai-opportunity-portfolio` | Tunnistaa, pisteyttää (5D-malli) ja priorisoi AI-käyttötapaukset 2x2-matriisilla; erottelee inkrementaaliset ja transformatiiviset (Value-Play-taksonomia) mahdollisuudet. |
 | `ai-native-business-model-canvas` | Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla Business Model Canvasilla (VP, data moat, Human-AI Interaction Model, compute-kustannukset). |
 | `ai-use-case-feasibility-and-poc-scoping` | Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen. |
-| `responsible-ai-and-governance-check` | Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus). |
+| `responsible-ai-and-governance-check` | Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus. |
 | `build-vs-buy-vs-partner-ai` | Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratkaisussa. |
 | `ai-capability-roadmap` | Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin kolmella horisontilla (0-6/6-18/18-36kk) + ATOM/Readiness Scorecard. |
 | `ai-discovery-engagement-design` | Tuotteistaa koko tunnistamisprosessin maksulliseksi/sisäiseksi discovery-toimeksiannoksi — vaiheet, palvelutuotteet, luovutettava aineisto. |
@@ -28,27 +28,27 @@ ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 - LinkedIn Skills on the Rise 2026 — AI Business Strategy
 - Perplexity-tutkimus — PoC-määrittely tuotannollistamiseen asti
 - Perplexity-tutkimus — roadmapit ja liiketoimintakyvykkyyskartat
-- Perplexity-tutkimus: Senior AI Business Designer (Solita/HP)
+- Markkinatutkimus: avoimet "Senior AI Business Designer" -tyyppiset rekrytointi-ilmoitukset
 - strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin
 - Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
   aikakaudella" (2026) — AI-soveltuvuuden triagi, data flywheel, AI-native
   Business Model Canvas, Shadow AI, AI-tuotosten kuratointi ja
   laadunvalvonta
-- Käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien ja
-  -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
-  liiketoiminnassa" (2026) — SML/Dual Decomposition -tehtäväpilkkominen,
-  process/task mining, 5-ulotteinen pisteytysmalli, 2x2-priorisointi-
-  matriisi, Value-Play-taksonomia, BCG:n Deploy-Reshape-Invent, kolmi-
-  horisonttinen roadmap, ATOM/Readiness Scorecard, discovery-
-  toimeksiantojen rakenne ja tuotteistus ([redacted], [redacted], McKinsey
-  [redacted], BCG, Brynjolfsson & Mitchell -synteesi)
+- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
+  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
+  (2026) — SML/Dual Decomposition -tehtäväpilkkominen, process/task
+  mining, 5-ulotteinen pisteytysmalli, 2x2-priorisointimatriisi,
+  Value-Play-taksonomia, Deploy-Reshape-Invent-taksonomia, kolmihorisonttinen
+  roadmap, ATOM/Readiness Scorecard, discovery-toimeksiantojen rakenne ja
+  tuotteistus (synteesi useista toimialan AI-kyvykkyysraporteista ja
+  Brynjolfsson & Mitchell -tutkimuksesta)
 - Yleinen "Shadow IT" -kirjallisuus ja -käytäntö, laajennettuna
   AI-työkalujen kontekstiin
-- [redacted], "[redacted]" (2026-painos) — käyttäjän toimittama PDF-raportti,
-  130 AI-käyttötapausta kuudella toimialalla, Trustworthy AI™ -riskikehys.
+- Toimialakohtainen AI-käyttötapausraportti (2026-painos) — 130
+  AI-käyttötapausta kuudella toimialalla, vastuullisen AI:n riskikehys.
   81 tekstipohjaisesti poimittua ja tarkistettua casea käytetty
   `references/ai-capability-pattern-library.md`:n pohjana.
-- McKinsey, "[redacted]" (63 käyttötapausta, 16
+- Toinen, riippumaton AI-käyttötapauskooste (63 käyttötapausta, 16
   funktiota) — käytetty patternikirjaston ristiintarkistuksena
 
 ## Skillien looginen kulku

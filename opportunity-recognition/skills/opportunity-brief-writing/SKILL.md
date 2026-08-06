@@ -5,7 +5,7 @@ description: "Kirjoittaa mahdollisuuden arvioinnin tulokset tiiviiksi 1-2-sivuis
 
 # Opportunity Brief Writing
 
-*Tila: `validated` — omistajan (Tommi Järvinen) [redacted]-palvelun
+*Tila: `validated` — omistajan oman palvelun
 Opportunity Value Assessment -tuotteen raporttipohjaan ankkuroitu sisältö. Ks.
 `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
 
@@ -18,7 +18,7 @@ päättävälle lukijalle — eikä vaadi teoriaan perehtymistä.
 
 ## Perustuu
 
-[redacted] — Opportunity Value Assessment -palvelun raporttipohja
+omistajan oma palvelu — Opportunity Value Assessment -palvelun raporttipohja
 (oma tuote, ks. `../../references/opportunity-brief-template.md` täydelle
 mallille esimerkkisisältöineen).
 

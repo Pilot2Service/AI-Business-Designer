@@ -32,9 +32,6 @@ etsitään valmis vastaus.
   (lasku-/tulli-/CV-dokumenttitapaus, ks. kohta 3 alla) — omistajan oma
   abstraktiotekniikka, ei akateeminen lähde
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 Sovellettu, valmiiksi rakennettu esimerkki AI-kyvykkyyspatterneista: ks.
 `../../../ai-strategy-and-governance/references/ai-capability-pattern-library.md`
 ja sen navigointiskilli `../../../ai-strategy-and-governance/skills/ai-capability-pattern-matching/SKILL.md`.

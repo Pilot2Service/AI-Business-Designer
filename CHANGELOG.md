@@ -1,5 +1,43 @@
 # Changelog
 
+## 0.15.0 — 2026-08-06
+
+Käyttäjän pyytämä itsenäisyys- ja anonymisointisiivous ennen julkista
+GitHub-julkaisua: repo saa asentaa ja käyttää kuka tahansa, joten se ei
+saa sisältää linkkejä repon ulkopuolelle eikä suoria viittauksia
+omistajan henkilöön, hänen muihin yksityisiin projekteihinsa tai
+kolmansien osapuolten yrityksiin/raportteihin. Nimetyt, julkisesti
+tunnetut akateemiset tai menetelmälliset viitekehykset (Porter, Kim &
+Mauborgne, Kirzner, Brynjolfsson & Mitchell, BABOK/PMI/SFIA, Cohan,
+Bryar & Carr, Hagel & Singer, MECE) säilytettiin ennallaan — vain
+yritys-/henkilökohtaiset lähdeviittaukset ja rikkinäiset ulkoiset polut
+poistettiin.
+
+- **Ulkoiset polut poistettu.** 38 tiedoston viittaus kahteen repon
+  ulkopuoliseen tutkimustaustadokumenttiin poistettu. 13 viittausta
+  toiseen, tähän repoon kuulumattomaan mounted-kansioon tai
+  Cowork-pluginiin (aiempi yksityinen tutkimusrepo, sekä
+  sääntely-/oikeudenala-plugineihin viittaavat huomautukset)
+  korvattu geneerisillä maininnoilla ilman kovakoodattuja polkuja.
+  Yksi absoluuttinen tiedostojärjestelmäpolku (käyttäjänimen sisältävä)
+  poistettu kokonaan.
+- **Henkilö- ja yritysnimet poistettu/geneerisoitu**, sisältö säilyttäen:
+  omistajan oma nimi (n. 40 tiedostoa) korvattu sanalla "omistaja";
+  omistajan oman palvelun brändi (n. 60+ mainintaa, mukaan lukien 3
+  uudelleennimettyä referenssitiedostoa ja niiden ristiinviittaukset)
+  geneerisoitu säilyttäen menetelmän/mallipohjan sisältö; ulkopuolisen
+  työpajan järjestäjän nimi poistettu 13 tiedostosta (tiedosto
+  uudelleennimetty); markkinatutkimusraporttien yrityskohtaiset
+  sitaatit (kaksi nimettyä AI-käyttötapausraporttia, konsulttitalojen
+  nimet, yksittäinen julkinen pattern-alusta) geneerisoitu — pattern-
+  kirjaston 13 patternin määritelmät, diagnostiset kysymykset ja
+  riskilinssi säilyivät ennallaan, vain lähdeattribuutio muuttui.
+- **`skills_index.json` päivitetty** samoilla periaatteilla (manuaalinen
+  muokkaus, koska `grounded_in`-kenttiä ei generoida SKILL.md:stä).
+- Yhteensä 60+ tiedostoa kosketettu tässä versiossa. Skillien määrä,
+  rakenne ja kypsyystasot eivät muuttuneet — vain lähdeattribuutio ja
+  saatavuus muuttuivat.
+
 ## 0.14.1 — 2026-08-06
 
 Käyttäjän pyytämä kokonaisvaltainen validointi/audit koko skills packista
@@ -13,24 +51,19 @@ korjattu kaikki audit-raportin mekaaniset/objektiiviset löydökset:
   syvemmällä kuin ydinpakin skilli, mikä unohtui 29 linkissä).
 - **3 rivinvaihtokatkoista tiedostopolkua korjattu** (pitkä polku oli
   katkennut kesken inline-koodilohkon rivinvaihtoon, esim.
-  `` [redacted]-workshop-\nsource.md `` → `` [redacted]-workshop-source.md ``).
+  `` [redacted]-workshop-\nsource.md `` → `` ai-first-saas-workshop-source.md ``).
 - **`meta/competency_map.md` päivitetty** — puuttuivat rivit
   `business-design-frameworks`- ja `prototyping-and-demonstration`-pakeille.
 - **`playbooks/ai-initiative-scoping.md` päivitetty** —
   `prototyping-and-demonstration`-pakin skillit lisätty ketjuun feasibility-
   scopingin ja business case -rakentamisen väliin.
 
-**Tunnistettu mutta EI korjattu tässä versiossa** (vaatii omistajan
-päätöksen, ks. audit-raportti): 41 SKILL.md-tiedostoa viittaa kahteen
-tutkimustaustadokumenttiin (`skills-tutkimus-analyysi.md`,
-`markkinan-taito-odotukset-analyysi.md`) jotka sijaitsevat repon
-ULKOPUOLELLA (yksi kansiotaso ylempänä) — nämä linkit toimivat
-paikallisessa työtilassa mutta eivät GitHub-clonessa. Samoin 5 viittausta
-osoittaa joko toiseen, tähän repoon kuulumattomaan Cowork-pluginiin
-(`tekoalysaantely`, `tyooikeus`, `sopimukset`, `yhtiooikeus`) tai toiseen
-mounted-kansioon (`[redacted]`) — nämä ovat tarkoituksellisia
-ekosysteemiviittauksia, ei bugeja, mutta vaativat selkeän dokumentaatio-
-maininnan ennen julkaisua.
+**Tunnistettu mutta EI korjattu tässä versiossa** (korjattu myöhemmin
+versiossa 0.15.0): 41 SKILL.md-tiedostoa viittasi kahteen
+tutkimustaustadokumenttiin jotka sijaitsivat repon ULKOPUOLELLA — nämä
+linkit toimivat paikallisessa työtilassa mutta eivät GitHub-clonessa.
+Samoin 13 viittausta osoitti joko toiseen, tähän repoon kuulumattomaan
+Cowork-pluginiin tai toiseen mounted-kansioon.
 
 ## 0.14.0 — 2026-08-06
 
@@ -79,10 +112,10 @@ osio AI-käyttötapausten systemaattiseen tunnistamiseen. Lähtökohtana
 käyttäjän kuvaama **Capability Pattern Mapping** -abstraktiomenetelmä
 (pintapuolisesti erilaiset casejoukot → yksi nimetty, toimialariippumaton
 patterni → diagnostinen kysymys uudessa kontekstissa) sekä kaksi
-käyttäjän toimittamaa/osoittamaa primäärilähdettä: [redacted], "The AI
-Dossier" (2026-painos, PDF, 130 käyttötapausta 6 toimialalla,
-Trustworthy AI™ -riskikehys) ja McKinsey, "Generative AI Use Case
-Catalog" (63 käyttötapausta, 16 funktiota). [redacted]-raportista
+käyttäjän toimittamaa/osoittamaa primäärilähdettä: laaja toimialaraportti
+(2026-painos, 130 käyttötapausta 6 toimialalla, vastuullisen AI:n
+riskikehys) ja toinen, riippumaton AI-käyttötapauskooste (63
+käyttötapausta, 16 funktiota). Ensin mainitusta raportista
 tekstipohjaisesti poimittu ja tarkistettu 81 casea (5/6 toimialaa) —
 jokainen tämän version esimerkkiviittaus on suoraan tästä poiminnasta,
 ei muistista tuotettu.
@@ -104,9 +137,9 @@ Ennakoiva laitehälytys ja autonominen interventio, Näköohjattu fyysinen
 käsittely ja laadunvalvonta, Autonominen liikkuva fyysinen operointi,
 AI-avusteinen ohjelmistokehitys, ym.) — kukin: määritelmä, diagnostinen
 signaalikysymys, AI-tyyppi (Agentic/Physical/muu), 3-6 oikeaa
-esimerkkicasea [redacted]n poiminnasta ja [redacted]n Trustworthy AI
--riskilinssi. Sisältää läpinäkyvän lähdeselvityksen ja
-McKinsey-ristiintarkistuksen (4 funktiota joissa ~75% arvosta:
+esimerkkicasea ensisijaisen lähteen poiminnasta ja vastuullisen AI:n
+riskilinssi. Sisältää läpinäkyvän lähdeselvityksen ja ristiintarkistuksen
+toisella lähteellä (4 funktiota joissa ~75% arvosta:
 asiakasoperaatiot, markkinointi & myynti, ohjelmistokehitys, T&K —
 kaikki 4 katettu patterneissa).
 
@@ -122,8 +155,8 @@ automation-fit`, `pattern-and-analogy-connector`).
 
 Analysoitu käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien
 ja -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
-liiketoiminnassa" (2026, synteesi mm. [redacted]/[redacted]/McKinsey
-[redacted]/BCG/Brynjolfsson & Mitchell -lähteistä). Käytetty
+liiketoiminnassa" (2026, synteesi useista toimialan AI-kyvykkyysraporteista
+ja Brynjolfsson & Mitchell -tutkimuksesta). Käytetty
 `ai-strategy-and-governance`-pakin rikastamiseen ja laajentamiseen.
 
 **2 uutta skilliä**, `maturity: scaffold`, `source_layer: research`:
@@ -173,12 +206,12 @@ skilliin. Yhteensä nyt 66 skilliä.
 
 ## 0.11.0 — 2026-08-06
 
-Analysoitu omistajan (Tommi Järvinen) uploadaama [redacted]n "AI-first
+Analysoitu omistajan uploadaama ulkopuolisen "AI-first
 SaaS Product workshop" -muistiinpano ja käytetty sitä
 `specialisation-packs/ai-native-startup-design/`-pakin rikastamiseen ja
 laajentamiseen. Muistiinpano sisältää sekä yleisen menetelmän että
 omistajan itsensä läpikäymän täyden sovellusesimerkin
-[redacted]-tuotteeseen ("Decision Coach" MVP).
+omistajan oma palvelu-tuotteeseen ("Decision Coach" MVP).
 
 **Rikastettu** `customer-vision-to-jtbd` (`validated`/`owner` säilyy):
 verbivetoinen JTBD-muotoilu, Need Themes -taulukko laajennettu
@@ -189,7 +222,7 @@ Differentiator vs. Table Stake), uusi vaihe: AI-differentiaattoritarpeen
 ("AI wedge") eksplisiittinen valintakriteeristö.
 
 **3 uutta skilliä**, `maturity: draft` (sovellettu toistaiseksi kerran,
-[redacted]-caseen — ei vielä yhtä laajasti validoitu kuin pakin muut skillit),
+omaan caseen — ei vielä yhtä laajasti validoitu kuin pakin muut skillit),
 `source_layer: owner`:
 
 - `ai-differentiator-solution-ideation` — 3 keskenään erilaisen AI-
@@ -204,8 +237,8 @@ Differentiator vs. Table Stake), uusi vaihe: AI-differentiaattoritarpeen
   ("5 shifts": klikkaus>kysymys, valikot>promptit, dashboardit>dialogi,
   manuaaliset toiminnot>agentit, ruudut>chat+kortit)
 
-Lisäksi: `references/[redacted]-workshop-source.md` (uusi lähde,
-selittää miksi `draft` eikä `validated`), `cases/[redacted]-decision-coach-mvp.md`
+Lisäksi: `references/ai-first-saas-workshop-source.md` (uusi lähde,
+selittää miksi `draft` eikä `validated`), `cases/ai-decision-coach-mvp-case.md`
 (täysi worked example — ensimmäinen tiedosto pakin `cases/`-kansiossa),
 `references/prompt-library.md` laajennettu (promptit 6 päivitetty +
 uudet promptit 8–10), pakin `README.md`/`CLAUDE.md` päivitetty
@@ -216,16 +249,15 @@ Pakki kasvoi 5 → 8 skilliin. Yhteensä nyt 64 skilliä.
 ## 0.10.0 — 2026-08-05
 
 Uusi erikoistumispakki `specialisation-packs/business-model-canvas/` (7 skilliä),
-rakennettu kahdesta omistajan (Tommi Järvinen) toimittamasta lähteestä:
+rakennettu kahdesta omistajan toimittamasta lähteestä:
 
-- [redacted]-alustan (firstkiss.co) 159 patternin koneluettava innovaatio-
+- Julkisen pattern-alustan 159 patternin koneluettava innovaatio-
   kirjasto (`business-model-patterns.json`, ladattu 5.8.2026) — konvertoitu
   täydeksi markdown-referenssiksi `references/bmc-innovation-pattern-library.md`
-- `[redacted]`-repo, omistajan oma kesken oleva "semanttinen kerros"
-  -projekti BMC-konsultointiasiantuntijuuden kaappaamiseksi. Repo jakautuu
-  asiantuntijakerrokseen (huhtikuun 2026 konsulttihaastattelu, `status:
-  accepted`) ja tutkimuskerrokseen (Jeffries/Williams/van der
-  Linden/Blank/Ash Maurya -synteesi, `status: template`)
+- Omistajan oma, ei-julkinen tutkimustyö BMC-konsultointiasiantuntijuuden
+  kaappaamiseksi, jakautuen asiantuntijakerrokseen (huhtikuun 2026
+  konsulttihaastattelu) ja tutkimuskerrokseen (Jeffries/Williams/van der
+  Linden/Blank/Ash Maurya -synteesi)
 
 3 skilliä `maturity: validated`, `source_layer: owner` (asiantuntijakerroksesta):
 
@@ -278,10 +310,10 @@ tarkistuksella koko repoa vasten). 4 aitoa aukkoa tunnistettu ja täytetty
 
 ## 0.8.0 — 2026-08-05
 
-Toinen täysin täytetty erikoistumispakki — `specialisation-packs/ai-native-startup-design/`, konvertoitu omistajan (Tommi Järvinen) fasilitoimasta
+Toinen täysin täytetty erikoistumispakki — `specialisation-packs/ai-native-startup-design/`, konvertoitu omistajan fasilitoimasta
 **AI-native Business Design** -työpajasta pre-startup-perustajille
-([redacted]/firstkiss.co, pidetty 1.–2.6.2026, julkinen lähde
-github.com/Pilot2Service/AI-training-P6):
+(omistajan oma palvelu, pidetty 1.–2.6.2026, julkinen lähde
+omistajan yksityinen materiaali):
 
 - 5 uutta skilliä (`maturity: validated`, `source_layer: owner`):
   `ai-native-opportunity-scan` (agenttinen/closed-loop-mahdollisuuksien
@@ -312,13 +344,13 @@ vaihtoehtoisten ratkaisujen vertailuun:
 
 - Ankkuroitu Kim & Mauborgne (2005) *Blue Ocean Strategy* -teoriaan
   (Strategy Canvas, Value Curve, Four Actions Framework/ERRC-ruudukko,
-  Six Paths Framework) sekä omistajan (Tommi Järvinen) tuotteistettuun
-  **[redacted] 360 Comparison Factors** -vertailutyökaluun (käyttäjän lataama
+  Six Paths Framework) sekä omistajan tuotteistettuun
+  **360 Comparison Factors** -vertailutyökaluun (käyttäjän lataama
   taulukko: 10 esimerkkitekijää, 0–2-asteikko, oma ratkaisu + 4
   kilpailijaa)
 - `maturity: validated`, `source_layer: owner` — pakin ensimmäinen
   ei-scaffold-skilli
-- Uusi `references/[redacted]-360-comparison-template.md` — mallipohja ja
+- Uusi `references/360-comparison-template.md` — mallipohja ja
   käyttöohje, sisältää alkuperäisen esimerkkitäytön
 - Ristiinlinkitys pakin muihin skilleihin ja
   `opportunity-recognition/skills/competitive-and-five-forces-mapping`
@@ -365,8 +397,8 @@ aikakaudella") pohjalta lisätty `ai-strategy-and-governance`-pakkiin:
 
 ## 0.4.0 — 2026-08-04
 
-Laajennus ydinpakkiin `opportunity-recognition/` omistajan (Tommi Järvinen)
-[redacted]-palvelun Opportunity Value Assessment -tuotteesta (sales page,
+Laajennus ydinpakkiin `opportunity-recognition/` omistajan
+omistajan oma palvelu-palvelun Opportunity Value Assessment -tuotteesta (sales page,
 input wizard, raporttipohja) ja sitä tukevasta S1-taustatutkimuksesta
 (Mullins Seven Domains, Timmons, POEM, NABC, Opportunity Canvas):
 
@@ -374,7 +406,7 @@ input wizard, raporttipohja) ja sitä tukevasta S1-taustatutkimuksesta
   `opportunity-intake-elicitation`, `opportunity-value-assessment`,
   `opportunity-brief-writing` — pakin ensimmäiset ei-scaffold-skillit,
   rinnakkain 5 alkuperäisen scaffold-skillin kanssa
-- `references/[redacted]-frameworks-review.md`, `intake-questions.md`,
+- `references/opportunity-frameworks-review.md`, `intake-questions.md`,
   `opportunity-brief-template.md`
 - Ristiinlinkitys: `opportunity-evaluation-and-judgment` (scaffold) →
   `opportunity-value-assessment` (validated); `research-opportunity-recognition`
@@ -386,8 +418,7 @@ input wizard, raporttipohja) ja sitä tukevasta S1-taustatutkimuksesta
 ## 0.3.0 — 2026-08-04
 
 Ensimmäinen täysin täytetty erikoistumispakki — `specialisation-packs/research-commercialisation/`,
-konvertoitu omistajan (Tommi Järvinen) julkaisemasta *[redacted] Innovator's Guide to
-Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta:
+konvertoitu omistajan julkaisemasta omistajan julkaisema kaupallistamisopas -käsikirjasta ja AFCA-itsearviointityökalusta:
 
 - 12 uutta skilliä (`maturity: validated`, `source_layer: owner`) — ensimmäiset
   tässä repossa, jotka eivät ole `scaffold`-tasolla
@@ -402,8 +433,8 @@ Commercialisation* -käsikirjasta ja AFCA-itsearviointityökalusta:
 
 ## 0.2.0 — 2026-08-04
 
-Rakennekorjaus `[redacted]/claude-for-legal-finland`-repon (tuotantokäytössä oleva
-suomalainen Claude-plugin-markkinapaikka) rakenneanalyysin pohjalta:
+Rakennekorjaus toisen, tuotantokäytössä olevan suomalaisen
+Claude-plugin-markkinapaikan rakenneanalyysin pohjalta:
 
 - SKILL.md-frontmatter siivottu minimiin (`name` + `description`) — kypsyys/lähdekerros
   siirretty yksinomaan `skills_index.json`:iin

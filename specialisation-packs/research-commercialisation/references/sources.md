@@ -2,15 +2,15 @@
 
 ## Ensisijainen lähde
 
-**[redacted] Innovator's Guide to Commercialisation** — Tommi Järvinen, osa [redacted]-
-työkalupakkia, © 2025 [redacted].com / Adductor Magnus Oy, Helsinki, Finland.
+**omistajan julkaisema kaupallistamisopas** — osa omistajan
+työkalupakkia, © 2025 omistaja.
 75-sivuinen käsikirja, jonka tekijä on tämän erikoistumispakin omistaja: business
 designer ja venture architect, yli 15 vuoden kokemus, johtanut n. 500
 kaupallistamisprojektia startupien, yliopistojen ja yritysten kanssa Euroopassa ja
 Aasiassa. Tämä on koko `research-commercialisation`-pakin ensisijainen ankkuri
 (`source_layer: owner`).
 
-**AFCA — Founder's Competence Assessment** — [redacted], "[redacted] Tools for
+**AFCA — Founder's Competence Assessment** — omistajan oma itsearviointityökalu, osa "Tools for
 Researchers" -sarja. Ks. `afca-framework.md`.
 
 ## Käsikirjan omat lähdeviittaukset (poimittu asiayhteydestä, ei täydellinen luettelo)

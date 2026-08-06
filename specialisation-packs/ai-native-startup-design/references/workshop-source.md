@@ -1,14 +1,14 @@
 # Lähde: AI-training-P6
 
-Tämän erikoistumispakin skillit on konvertoitu omistajan (Tommi Järvinen)
+Tämän erikoistumispakin skillit on konvertoitu omistajan
 fasilitoimasta työpajasta:
 
 - **Nimi:** AI-native Business Design — "A hands-on workshop for pre-startup
   founders and early-stage teams"
-- **Lähde:** [github.com/Pilot2Service/AI-training-P6](https://github.com/Pilot2Service/AI-training-P6)
-  (julkinen repo, MIT-tyyppinen avoin koulutusmateriaali)
+- **Lähde:** omistajan yksityinen koulutusmateriaali (MIT-tyyppinen avoin
+  koulutusmateriaali, ei sisälly tähän repoon)
 - **Pidetty:** 1.–2.6.2026, kaksi 3-tunnin sessiota (ma+ti 16:00–19:00)
-- **Fasilitaattori:** Tommi Järvinen (tommi@firstkiss.co) — kaupallistamisen,
+- **Fasilitaattori:** Omistaja — kaupallistamisen,
   startup-kehityksen ja liiketoimintasuunnittelun senioriasiantuntija,
   15+ vuoden kokemus.
 - **Kohderyhmä:** pre-startup-perustajat ja varhaisen vaiheen tiimit,
@@ -30,7 +30,7 @@ fasilitoimasta työpajasta:
 
 Sisältö ei ole geneerinen tutkimuskatsaus vaan omistajan oman, jo pidetyn
 työpajan käytännön menetelmä ja promptit — samalla periaatteella kuin
-`specialisation-packs/research-commercialisation` ([redacted]-käsikirja) ja
+`specialisation-packs/research-commercialisation` (omistajan kaupallistamisopas) ja
 `opportunity-recognition`-pakin owner-skillit (Opportunity Value
 Assessment). Ks. `../../../meta/maturity_levels.md`.
 

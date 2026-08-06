@@ -21,9 +21,9 @@ joukko ruutuja. Se on ajattelukumppani."
 
 ## Perustuu
 
-- [redacted]n "AI-first SaaS Product" -työpajan menetelmä, sovellettu
-  omistajan (Tommi Järvinen) toimesta [redacted]-caseen
-  ("Decision Coach" MVP) — ks. `../../references/[redacted]-workshop-source.md` ja worked example `../../cases/[redacted]-decision-coach-mvp.md`
+- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä, sovellettu
+  omistajan toimesta omaan caseen
+  ("Decision Coach" MVP) — ks. `../../references/ai-first-saas-workshop-source.md` ja worked example `../../cases/ai-decision-coach-mvp-case.md`
   kohta 8. **Huom:** sovellettu toistaiseksi vain kerran — ei laajasti
   validoitu useammalla eri tuotteella.
 - Työpajan "5 shifts" -periaatteet AI-first-tuotteen suunnittelulle
@@ -119,7 +119,7 @@ ruutuja, se on ajattelukumppani.
 
 ## [OWNER INPUT — täydennettävä]
 
-Tämä skilli on sovellettu toistaiseksi yhteen caseen ([redacted] Decision
+Tämä skilli on sovellettu toistaiseksi yhteen caseen (omistaja Decision
 Coach). Kun sovellat sitä useampaan eri tuotteeseen, täydennä:
 
 - omia havaintoja siitä, milloin 6-vaiheinen malli pitää yksinkertaistaa
@@ -149,11 +149,11 @@ Kun tämä osio on täytetty useammalla caseella, nosta
   `../../../../business-design-frameworks/skills/customer-journey-and-ai-touchpoint-mapping/SKILL.md`
   — täydentävä tapa jäsentää samaa tuotetta asiakaspolkuna OS-arkkitehtuurin
   sijaan.
-- Worked example: `../../cases/[redacted]-decision-coach-mvp.md` kohta 8.
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md` kohta 8.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
 ## Referenssit
 
-- `../../references/[redacted]-workshop-source.md` — lähdetiedot
-- `../../cases/[redacted]-decision-coach-mvp.md` — worked example
+- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+- `../../cases/ai-decision-coach-mvp-case.md` — worked example
 - `../../CLAUDE.md` — pakin jaetut suojaukset

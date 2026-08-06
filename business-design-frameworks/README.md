@@ -19,7 +19,7 @@ sitä mukaa kun niitä tunnistetaan ja jalostetaan.
 `category-definition-and-modeling` ja
 `customer-journey-and-ai-touchpoint-mapping` ovat `maturity: scaffold`;
 `strategy-canvas-and-value-curve` on `maturity: validated`,
-`source_layer: owner` (ankkuroitu omistajan [redacted] 360 Comparison Factors
+`source_layer: owner` (ankkuroitu omistajan 360 Comparison Factors
 -työkaluun) — ks. `../skills_index.json` kypsyystilalle (frontmatterissa ei
 seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 
@@ -52,7 +52,7 @@ vaihtoehtoisia, osin täydentäviä linssejä samaan liiketoimintaan.
 - Kim & Mauborgne (2005) — *Blue Ocean Strategy* (Strategy Canvas, Value
   Curve, Four Actions Framework/ERRC, Six Paths Framework)
 - Ries & Trout — positiointiteoria
-- Omistajan [redacted] 360 Comparison Factors -vertailutyökalu (oma tuote)
+- Omistajan 360 Comparison Factors -vertailutyökalu (omistajan oma tuote)
 
 ## Rakenne
 

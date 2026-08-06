@@ -5,7 +5,7 @@ description: "Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (e
 
 # Spin-out vs. Licensing Pathway
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (equity-pohjaine
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luvut "Commercialisation Pathways" ja "Hybrid and Other Models" (s. 20-23).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luvut "Commercialisation Pathways" ja "Hybrid and Other Models" (s. 20-23).
 
 - Spin-out: kontrolli ja ylöspäin skaalautuva tuotto, mutta pitkä ja kallis reitti.
 - Lisensointi: nopeampi reitti, hyödyntää lisenssinsaajan olemassa olevat kanavat, mutta pienempi ylösote.

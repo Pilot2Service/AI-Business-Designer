@@ -32,9 +32,6 @@ perusteella — tämä skilli pakottaa katsomaan pidemmälle.
   asiakaskäyttäytymistä pitkällä aikavälillä, ja millaisia uusia
   kilpailijoita se voi houkutella markkinalle.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tarkasteltava päätös tai ratkaisu (esim. uusi AI-ominaisuus,

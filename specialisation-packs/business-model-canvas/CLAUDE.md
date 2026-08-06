@@ -14,7 +14,7 @@ estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
 ## Tämä pakki on kaksikerroksinen — tee kerros näkyväksi joka kerta
 
 Tämän pakin seitsemästä skillistä **kolme on `validated`/`owner`-tasoa** (suoraan
-omistajan huhtikuun 2026 konsultointihaastattelusta, `[redacted]`-repon
+omistajan huhtikuun 2026 konsultointihaastattelusta, omistajan tutkimuskerroksen
 asiantuntijakerros) ja **neljä on `scaffold`/`research`-tasoa** (tunnettujen BMC-
 lähteiden — Jeffries, Williams, van der Linden, Blank/Strategyzer, Ash Maurya —
 esitäytetty synteesi, jota omistaja ei ole vielä validoinut omalla kokemuksellaan).
@@ -40,7 +40,7 @@ draft > scaffold".
 
 ## Ristiriitatilanteessa asiantuntijakerros voittaa
 
-`[redacted]`-repon oma sääntö (`AGENT_GUIDE.md`): kun tutkimuskerros ja
+omistajan tutkimuskerroksen oma sääntö (`AGENT_GUIDE.md`): kun tutkimuskerros ja
 asiantuntijakerros ovat eri linjoilla samasta aiheesta, asiantuntijakerros voittaa.
 Tämä pakki noudattaa samaa periaatetta: jos `scaffold`-skillin tutkimuspohjainen
 ohje on ristiriidassa `validated`-skillin omistajan oman näkemyksen kanssa, käytä
@@ -56,7 +56,7 @@ teon tukena oleva luonnos, jonka ihminen tarkistaa.
 
 ## Ei keksitä patterneja tai lähteitä
 
-`bmc-innovation-pattern-matching`-skilli rajoittuu 159 patternin [redacted]-
+`bmc-innovation-pattern-matching`-skilli rajoittuu 159 patternin julkiseen
 kirjastoon (`references/bmc-innovation-pattern-library.md`). Jos konteksti vaatisi
 patternia jota kirjastossa ei ole, tunnista puute eksplisiittisesti — älä keksi
 uutta patternia kirjaston nimissä äläkä anna sille valeteknistä `pattern_id`-polkua.

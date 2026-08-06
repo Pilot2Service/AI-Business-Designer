@@ -16,7 +16,7 @@ ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 
 ## Ankkurointi
 
-- IDEO / Fjord — Business Designer -storytelling-kompetenssi
+- Tunnettujen design-/liiketoimintasuunnittelukonsulttien storytelling-kompetenssimallit
 - LinkedIn Skills on the Rise 2026 — Executive & Stakeholder Communication
 - McKinsey — storyline-ajattelu
 - Perplexity-tutkimus — hyötyjen realisointiraportit

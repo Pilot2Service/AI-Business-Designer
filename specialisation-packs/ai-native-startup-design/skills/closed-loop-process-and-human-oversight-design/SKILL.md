@@ -20,8 +20,8 @@ in-the-loop/on-the-loop/outside-the-loop-mallilla.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) AI-native Business Design -työpaja
-  ([redacted] / firstkiss.co), pidetty 1.–2.6.2026, Day 1 —
+- Omistajan AI-native Business Design -työpaja
+  (omistajan oma työpaja), pidetty 1.–2.6.2026, Day 1 —
   Session 1 "AI as the operating system your company runs on": avoin
   silmukka (Input → Execution → Output, ei systemaattista palautetta) vs.
   suljettu silmukka (Input → Execution → Output → Feedback → Adjustment →
@@ -85,7 +85,8 @@ in-the-loop/on-the-loop/outside-the-loop-mallilla.
 - Ei korvaa vastuullisen tekoälyn hallintotarkistusta korkean riskin
   käyttötapauksissa — ks.
   `../../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
-  ja tarvittaessa `tekoalysaantely`-pakki (EU:n tekoälyasetus).
+  ja tarvittaessa erillinen EU AI Act -sääntelyasiantuntemus (ei sisälly
+  tähän skills-pakkiin).
 
 ## Jatka tästä
 

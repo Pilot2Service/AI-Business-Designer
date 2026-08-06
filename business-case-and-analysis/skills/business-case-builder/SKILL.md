@@ -17,9 +17,6 @@ Rakentaa täyden business casen: ongelma, ratkaisu, talous (ROI/NPV/IRR), riskit
 - PMI Business Analysis
 - w95/awesome-claude-corporate-skills — business-case-builder-rakenne
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

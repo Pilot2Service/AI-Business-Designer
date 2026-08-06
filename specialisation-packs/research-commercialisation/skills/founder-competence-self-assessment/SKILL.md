@@ -5,7 +5,7 @@ description: "Käy läpi jäsennelty 10 osa-alueen / 76 kohdan itsearviointi (AF
 
 # Founder Competence Self-Assessment (AFCA)
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Käy läpi jäsennelty 10 osa-alueen / 76 kohdan itsearviointi (AFCA) perustajan
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). AFCA-työkalu ([redacted]). Koko data: `../../references/afca-framework.md`.
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). AFCA-itsearviointityökalu (omistajan oma). Koko data: `../../references/afca-framework.md`.
 
 - Synteesi EU:n EntreComp- ja ResearchComp-kehyksistä sekä vertaisarvioidusta tutkimuksesta kaupallistamisosaamisesta
 - 10 osa-aluetta, 76 kohtaa, 1-7-asteikko, painotettu keskiarvo normalisoituna 0-100 %:iin

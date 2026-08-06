@@ -1,6 +1,6 @@
 # AFCA — Founder's Competence Assessment (full data)
 
-Lähde: [redacted] AFCA-työkalu ("[redacted] Tools for Researchers"). Itsearviointi
+Lähde: omistajan oma AFCA-itsearviointityökalu. Itsearviointi
 perustajan tai perustajatiimin valmiudesta akateemiseen spin-outiin tai
 tutkimuspohjaiseen startupiin. Synteesi EU:n **EntreComp**- ja **ResearchComp**
 -kehyksistä sekä vertaisarvioidusta tutkimuksesta kaupallistamisosaamisesta.

@@ -10,7 +10,7 @@ Se ei ole:
 - geneerinen "best practice" -kokoelma ilman ankkurointia
 
 Se on:
-- tutkimuspohjainen runko (ks. `../../skills-tutkimus-analyysi.md`,
-  `../../markkinan-taito-odotukset-analyysi.md`)
+- tutkimuspohjainen runko, ankkuroitu julkisiin viitekehyksiin ja menetelmiin
+  (ks. jokaisen skillin "Ankkurointi tutkimukseen" -osio)
 - rakenne, jota täydennetään omalla validoidulla osaamisella ajan myötä
 - pysyvä perusta, joka säilyy AI-mallista tai agenttialustasta riippumatta

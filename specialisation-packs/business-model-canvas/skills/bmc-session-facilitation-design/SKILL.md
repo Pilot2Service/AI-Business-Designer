@@ -18,7 +18,7 @@ erotetaan oletuksesta, ja miten canvas esitetään sidosryhmille.
 
 ## Ankkurointi tutkimukseen
 
-Tämä skilli perustuu `[redacted]`-repon tutkimuskerrokseen
+Tämä skilli perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
 (`30_domain_packs/bmc/facilitation/bmc_facilitation_heuristics.md` ja
 `domain_scope.md`, `status: template`, `source: research_layer`) —
 esitäytetty synteesi tunnetuista BMC-lähteistä: Jeffries, Williams,
@@ -85,13 +85,13 @@ täyttänyt — ks. "Mitä tämä skilli EI tee".
 - Ei kerro TÄMÄN pakin omistajan omaa oletusaloituskohtaa, tyypillistä
   session pituutta tai tapaa, jolla hän itse kommunikoi "canvas ei ole
   vielä valmis" -viestin asiakkaalle — nämä ovat auki
-  `[redacted]`-repon `[EXPERT INPUT]`-kohdissa.
+  omistajan tutkimusmuistiinpanojen avoimissa kohdissa.
 - Ei anna kiinteää sääntöä poikkeustapauksille — tutkimuskerros antaa
   yleiset ohjenuorat, ei kaikkia tilanteita kattavaa päätöspuuta.
 
 ## [OWNER INPUT — täydennettävä]
 
-Näihin kysymyksiin ei ole vielä vastausta `[redacted]`-repossa
+Näihin kysymyksiin ei ole vielä vastausta omistajan tutkimusmuistiinpanoissa
 (session 1/2 on merkitty "pending" repon `SESSION_GUIDE.md`:ssä):
 
 - Mikä on sinun oletusaloituskohtasi? Milloin ohitat sen?

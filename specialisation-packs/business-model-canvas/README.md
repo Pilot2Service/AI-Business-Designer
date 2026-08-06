@@ -14,14 +14,13 @@ diagnostiseen lukemiseen, työkaluvalintaan ja asiakaspuheen tulkintaan.
 
 ## Tila
 
-Tämä pakki yhdistää kaksi omistajan (Tommi Järvinen) toimittamaa lähdettä:
+Tämä pakki yhdistää kaksi omistajan toimittamaa lähdettä:
 
-1. **[redacted]-alustan (firstkiss.co) 159 patternin koneluettava
-   innovaatiokirjasto** (ladattu 5.8.2026) — ks.
+1. **Julkinen 159 patternin koneluettava innovaatiokirjasto** — ks.
    `references/bmc-innovation-pattern-library.md`.
-2. **`[redacted]`-repo** — omistajan oma, kesken oleva "semanttinen
-   kerros" -projekti BMC-konsultointiasiantuntijuuden kaappaamiseksi. Sisältää
-   sekä huhtikuussa 2026 tehdystä konsulttihaastattelusta poimitun, aidosti
+2. **Omistajan oma, ei-julkinen tutkimustyö** — kesken oleva projekti
+   BMC-konsultointiasiantuntijuuden kaappaamiseksi. Sisältää sekä
+   huhtikuussa 2026 tehdystä konsulttihaastattelusta poimitun, aidosti
    validoidun asiantuntijasisällön että tunnettujen BMC-lähteiden (Jeffries,
    Williams, van der Linden, Blank/Strategyzer, Ash Maurya) esitäytetyn,
    vielä täydentämättömän tutkimuskerroksen.

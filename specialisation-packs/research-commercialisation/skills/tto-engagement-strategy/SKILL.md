@@ -5,7 +5,7 @@ description: "Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista 
 
 # TTO Engagement Strategy
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista milloin tarvit
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "The Role of TTOs" (s. 26-29).
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "The Role of TTOs" (s. 26-29).
 
 - Hewitt-Dundas et al. (2024) — aktiivinen TTO-tuki liiketoimintasuhteissa vähentää spin-outin konkurssiriskiä
 - Chen et al. (2024) — parhaat TTOt toimivat lähes kanssaperustajina, luottamuspohjaisin verkostoin

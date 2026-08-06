@@ -16,9 +16,6 @@ Testaa oletukset ja tunnistaa evidenssiaukot ennen suosituksen lukitsemista.
 - 45ck — assumption-extractor / evidence-gap-review
 - WEF Future of Jobs 2025 — analytical thinking #1
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

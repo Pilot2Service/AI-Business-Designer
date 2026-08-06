@@ -21,20 +21,17 @@ arvioidaan osin eri kriteerein.
 ## Ankkurointi tutkimukseen
 
 - LinkedIn Skills on the Rise 2026 — AI Business Strategy
-- Perplexity-tutkimus: Senior AI Business Designer (Solita/HP)
+- Markkinatutkimus: avoimet "Senior AI Business Designer" -tyyppiset rekrytointi-ilmoitukset
 - Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
   aikakaudella" (2026) — AI-mahdollisuuksien tunnistaminen strategisella
   tasolla (alkuperäinen ongelmatyyppi/data/flywheel/agenttisuus-triagi,
   nyt sisällytetty kohtaan 4 alla)
-- Käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien ja
-  -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
-  liiketoiminnassa" (2026) — 5-ulotteinen pisteytysmalli ([redacted], Alice
-  Labs, McKinsey -synteesi), 2x2-priorisointimatriisi, Value-Play-
-  taksonomia transformatiivisille mahdollisuuksille, BCG:n
-  Deploy-Reshape-Invent-taksonomia
-
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
+- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
+  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
+  (2026) — 5-ulotteinen pisteytysmalli (synteesi useista toimialan
+  AI-kyvykkyysraporteista), 2x2-priorisointimatriisi, Value-Play-
+  taksonomia transformatiivisille mahdollisuuksille, Deploy-Reshape-Invent
+  -taksonomia
 
 ## Rakenne (luonnos — täydennettävä)
 

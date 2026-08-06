@@ -5,7 +5,7 @@ description: "Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilu
 
 # Funding Pathway Design
 
-*Tila: `validated` — omistajan (Tommi Järvinen) julkaistuun käsikirjaan ankkuroitu
+*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
 sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
 ja `../../../../meta/maturity_levels.md`.*
 
@@ -15,7 +15,7 @@ Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoitu
 
 ## Perustuu
 
-[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025). Luku "How Spin-outs Are Funded?" (s. 34-45) — käsikirjan laajin luku.
+omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "How Spin-outs Are Funded?" (s. 34-45) — käsikirjan laajin luku.
 
 - EIC Accelerator, EIC Pathfinder/Transition, SBIR/STTR (USA), Eurostars, kansalliset PoC-rahastot
 - EIC Impact Report 2025: yli 1 mrd € investoitu 272 yhtiöön, yli 3 € yksityistä pääomaa mobilisoitu per 1 € EIC-rahoitusta

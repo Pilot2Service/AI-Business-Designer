@@ -25,7 +25,7 @@ kaupallistamispäätös on aina tutkijan/tiimin ja heidän TTO:nsa/juristinsa va
 ## Ei keksitä lukuja tai faktoja — myös ankkurikäsikirjan ulkopuolella
 
 Tämän pakin skillit ovat ankkuroituja omistajan omaan, julkaistuun käsikirjaan
-(*[redacted] Innovator's Guide to Commercialisation*) — tämä nostaa luotettavuutta
+(*omistajan julkaisema kaupallistamisopas*) — tämä nostaa luotettavuutta
 verrattuna pelkkään tutkimustason scaffoldiin, mutta ei poista vastuuta:
 
 1. **Käsikirjan sisältö** (esim. TRL-määritelmät, rahoitusohjelmien nimet,
@@ -51,15 +51,15 @@ oletuksen varassa — instituutioiden käytännöt vaihtelevat merkittävästi (
 Tämän pakin skillit ovat `maturity: validated` -tasolla (ks. `../../skills_index.json`
 ja `../../meta/maturity_levels.md`) — sisältö on omistajan julkaistuun, käytännössä
 validoituun menetelmään ankkuroitu, ei geneerinen tutkimuskatsaus. Tee tämä näkyväksi:
-kun viittaat tämän pakin sisältöön, mainitse että se perustuu [redacted]-käsikirjaan eikä
+kun viittaat tämän pakin sisältöön, mainitse että se perustuu kaupallistamisoppaaseen eikä
 esim. akateemiseen kirjallisuuskatsaukseen sellaisenaan.
 
 ## Pakkikohtainen huomio
 
 Ei anna oikeudellista, verotuksellista tai sijoitusneuvontaa. IP-, sopimus- ja
 työoikeuskysymyksissä ohjaa aina oman organisaation TTO:hon, juristiin tai
-asiantuntijaan — tarvittaessa käytä repon muita pakkeja rinnalla (`sopimukset`,
-`yhtiooikeus`, `tyooikeus`, `tekoalysaantely`).
+asiantuntijaan — tarvittaessa käytä rinnalla erillistä sopimus-, yhtiö-,
+työoikeus- tai AI-sääntely-asiantuntemusta (ei sisälly tähän skills-pakkiin).
 
 ## Jaetut standardit
 

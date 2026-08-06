@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.14.1",
+  "version": "0.15.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -75,8 +75,8 @@
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "[redacted], \"[redacted]\" (2026-painos) — 81 tarkistettua käyttötapausta",
-        "McKinsey, \"[redacted]\" (63 käyttötapausta, 16 funktiota)",
+        "Toimialan AI-käyttötapausraportti (2026-painos) — 81 tarkistettua käyttötapausta",
+        "Toinen, riippumaton AI-käyttötapauskooste (63 käyttötapausta, 16 funktiota)",
         "Käyttäjän kuvaama Capability Pattern Mapping -menetelmä"
       ],
       "owner_input_needed": true,
@@ -126,7 +126,7 @@
       "source_layer": "research",
       "grounded_in": [
         "LinkedIn Skills on the Rise 2026 — AI Business Strategy",
-        "Perplexity-tutkimus: Senior AI Business Designer (Solita/HP)"
+        "Markkinatutkimus: avoimet \"Senior AI Business Designer\" -tyyppiset rekrytointi-ilmoitukset"
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md"
@@ -172,7 +172,7 @@
       "id": "responsible-ai-and-governance-check",
       "pack": "ai-strategy-and-governance",
       "title": "Responsible AI & Governance Check",
-      "description": "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus). Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -326,12 +326,12 @@
       "id": "strategy-canvas-and-value-curve",
       "pack": "business-design-frameworks",
       "title": "Strategy Canvas And Value Curve",
-      "description": "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan [redacted] 360 -vertailutyökalua hyödyntäen.",
+      "description": "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan 360-vertailutyökalua hyödyntäen.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
         "Kim & Mauborgne (2005) Blue Ocean Strategy — Strategy Canvas, Value Curve, Four Actions Framework/ERRC, Six Paths Framework",
-        "Omistajan [redacted] 360 Comparison Factors -vertailutyökalu (oma tuote)"
+        "Omistajan 360 Comparison Factors -vertailutyökalu (oma tuote)"
       ],
       "owner_input_needed": false,
       "path": "business-design-frameworks/skills/strategy-canvas-and-value-curve/SKILL.md"
@@ -449,7 +449,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)"
+        "Omistajan oma palvelu — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)"
       ],
       "owner_input_needed": false,
       "path": "opportunity-recognition/skills/opportunity-brief-writing/SKILL.md"
@@ -476,8 +476,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)",
-        "[redacted] S1 — Opportunity Package -taustatutkimus (Mullins Seven Domains, Timmons, POEM, NABC)",
+        "Omistajan oma palvelu — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)",
+        "Omistajan S1 — Opportunity Package -taustatutkimus (Mullins Seven Domains, Timmons, POEM, NABC)",
         "Doug Richard's 10 questions (VC Cafe, 2012)",
         "Opportunity Canvas (Jeff Patton)"
       ],
@@ -492,8 +492,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)",
-        "[redacted] S1 — Opportunity Package -taustatutkimus (Mullins Seven Domains, Timmons, POEM, NABC)",
+        "Omistajan oma palvelu — Opportunity Value Assessment (oma tuote: sales page, input wizard, raporttipohja)",
+        "Omistajan S1 — Opportunity Package -taustatutkimus (Mullins Seven Domains, Timmons, POEM, NABC)",
         "Mullins' Seven Domains Model",
         "Timmons-malli",
         "POEM-matriisi"
@@ -670,8 +670,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
-        "github.com/Pilot2Service/AI-training-P6"
+        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/ai-buildable-prd-writing/SKILL.md"
@@ -684,8 +684,8 @@
       "maturity": "draft",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
-        "specialisation-packs/ai-native-startup-design/cases/[redacted]-decision-coach-mvp.md (applied once, [redacted] case)"
+        "Ulkopuolinen AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
+        "specialisation-packs/ai-native-startup-design/cases/ai-decision-coach-mvp-case.md (applied once, own case)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/ai-differentiator-solution-ideation/SKILL.md"
@@ -698,8 +698,8 @@
       "maturity": "draft",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
-        "specialisation-packs/ai-native-startup-design/cases/[redacted]-decision-coach-mvp.md (applied once, [redacted] case)"
+        "Ulkopuolinen AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
+        "specialisation-packs/ai-native-startup-design/cases/ai-decision-coach-mvp-case.md (applied once, own case)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/ai-native-conversational-os-design/SKILL.md"
@@ -712,8 +712,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
-        "github.com/Pilot2Service/AI-training-P6"
+        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/ai-native-opportunity-scan/SKILL.md"
@@ -726,8 +726,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
-        "github.com/Pilot2Service/AI-training-P6"
+        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/ai-native-tool-stack-selection/SKILL.md"
@@ -740,8 +740,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
-        "github.com/Pilot2Service/AI-training-P6"
+        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/closed-loop-process-and-human-oversight-design/SKILL.md"
@@ -754,8 +754,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan (Tommi Järvinen) AI-native Business Design -työpaja ([redacted]/firstkiss.co, pidetty 1.-2.6.2026)",
-        "github.com/Pilot2Service/AI-training-P6"
+        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/customer-vision-to-jtbd/SKILL.md"
@@ -768,9 +768,9 @@
       "maturity": "draft",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
+        "Ulkopuolinen AI-first SaaS Product workshop notes (uploaded 2026-08-06)",
         "RICE prioritisation framework (general, not owner-original)",
-        "specialisation-packs/ai-native-startup-design/cases/[redacted]-decision-coach-mvp.md (applied once, [redacted] case)"
+        "specialisation-packs/ai-native-startup-design/cases/ai-decision-coach-mvp-case.md (applied once, own case)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/rice-scoring-and-mvp-synthesis/SKILL.md"
@@ -783,8 +783,8 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted]/30_domain_packs/bmc/antipatterns/bmc_antipatterns_expert.md (expert_interview 2026-04)",
-        "[redacted]/30_domain_packs/bmc/facilitation/bmc_client_misunderstandings.md (expert_interview 2026-04)"
+        "omistajan yksityinen tutkimuskerros: bmc_antipatterns_expert.md (expert_interview 2026-04)",
+        "omistajan yksityinen tutkimuskerros: bmc_client_misunderstandings.md (expert_interview 2026-04)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-antipattern-and-misunderstanding-correction/SKILL.md"
@@ -797,9 +797,9 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted]/07_reasoning_model/reasoning_patterns/bmc_iteration_logic.md (expert_interview 2026-04)",
-        "[redacted]/12_quality_model/bmc_canvas_readiness.md (expert_interview 2026-04)",
-        "[redacted]/06_expertise_and_cognition/cognitive_signatures/bmc_cognitive_signature.md (expert_interview 2026-04)"
+        "omistajan yksityinen tutkimuskerros: bmc_iteration_logic.md (expert_interview 2026-04)",
+        "omistajan yksityinen tutkimuskerros: bmc_canvas_readiness.md (expert_interview 2026-04)",
+        "omistajan yksityinen tutkimuskerros: bmc_cognitive_signature.md (expert_interview 2026-04)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-canvas-clarity-and-iteration/SKILL.md"
@@ -830,12 +830,12 @@
       "id": "bmc-innovation-pattern-matching",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Innovation Pattern Matching",
-      "description": "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin [redacted]-kirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations).",
+      "description": "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin julkisesta innovaatiokirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations).",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted]/30_domain_packs/bmc/tools/bmc_innovation_patterns.md (expert_interview 2026-04)",
-        "[redacted] business-model-patterns.json (159 patterns, uploaded 2026-08-05)"
+        "omistajan yksityinen tutkimuskerros: bmc_innovation_patterns.md (expert_interview 2026-04)",
+        "Julkinen business-model-patterns.json (159 patterns)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-innovation-pattern-matching/SKILL.md"
@@ -870,7 +870,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Independent Review of University Spin-out Companies (UK)"
       ],
       "owner_input_needed": false,
@@ -884,9 +884,9 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "EIT Digital",
-        "Research to Business ([redacted]) -ohjelma"
+        "Suomen Research to Business -rahoitusohjelma"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/research-commercialisation/skills/commercialisation-journey-roadmap/SKILL.md"
@@ -899,7 +899,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Eesley & Roberts (2012)",
         "Christensen (1997)"
       ],
@@ -914,7 +914,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "AFCA — Founder's Competence Assessment ([redacted])",
+        "AFCA — Founder's Competence Assessment (omistajan oma työkalu)",
         "EU EntreComp",
         "EU ResearchComp"
       ],
@@ -929,7 +929,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Colombo & Grilli (2005)",
         "Choi et al. (2019)",
         "Denoo et al. (2024)"
@@ -945,7 +945,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "EIC Impact Report 2025"
       ],
       "owner_input_needed": false,
@@ -959,7 +959,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Perkmann et al. (2013)",
         "Robin & Schubert (2013)"
       ],
@@ -974,7 +974,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)"
+        "Omistajan julkaisema kaupallistamisopas (2025)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/research-commercialisation/skills/industry-specific-commercialisation-playbook/SKILL.md"
@@ -987,7 +987,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Bayh–Dole Act (1980)"
       ],
       "owner_input_needed": false,
@@ -1001,7 +1001,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Kirzner (1973/1979) — entrepreneurial alertness"
       ],
       "owner_input_needed": false,
@@ -1015,7 +1015,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)"
+        "Omistajan julkaisema kaupallistamisopas (2025)"
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md"
@@ -1028,7 +1028,7 @@
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "[redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)",
+        "Omistajan julkaisema kaupallistamisopas (2025)",
         "Hewitt-Dundas et al. (2024)",
         "Chen et al. (2024)"
       ],

@@ -10,40 +10,41 @@ tilanteessa. Käyttöohje ja työnkulku: ks.
 
 ## Miten tämä kirjasto on rakennettu — läpinäkyvyys lähteistä
 
-Patternit on abstrahoitu kahdesta oikeasta, käyttäjän toimittamasta/osoittamasta
-lähteestä. Tämä ei ole tyhjentävä listaus kaikista lähteiden caseista, vaan
-**kuratoitu abstraktio** edustavasta otoksesta — ks. perustelu miksi kuratointi on
-parempi lähestymistapa kuin raaka case-lista, `../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`:n
+Patternit on abstrahoitu kahdesta riippumattomasta, laajasta toimialan
+AI-käyttötapausraportista. Tämä ei ole tyhjentävä listaus kaikista lähteiden
+caseista, vaan **kuratoitu abstraktio** edustavasta otoksesta — ks. perustelu
+miksi kuratointi on parempi lähestymistapa kuin raaka case-lista,
+`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`:n
 Tarkoitus-osiosta.
 
-1. **[redacted], "[redacted]" (2026-painos)** — käyttäjän toimittama PDF-raportti,
-   130 käyttötapausta kuudella toimialalla (Consumer; Energy, Resources &
-   Industrials; Financial Services; Government & Public Services; Life Sciences
-   & Health Care; Technology, Media & Telecommunications). Käyttää [redacted]n
-   **Trustworthy AI™ -kehystä** kuudella ulottuvuudella (fair and impartial,
-   robust and reliable, transparent and explainable, safe and secure,
-   responsible and accountable, private) jokaisen casen riskiarvioinnissa.
-   Tästä raportista on tekstipohjaisesti poimittu ja tarkistettu **81 casea**
-   viideltä kuudesta toimialasta (otsikko, toimiala, ensisijainen liiketoiminta-
-   funktio, Agentic AI / Physical AI -merkintä) — kuudes toimiala (Technology,
-   Media & Telecommunications) on mukana vain teematasolla poiminnan teknisten
-   rajoitteiden vuoksi, ei yksittäisin casein. Jokainen tässä kirjastossa
-   mainittu [redacted]-esimerkki on suoraan tästä poiminnasta, ei muistista
-   tuotettu.
-2. **McKinsey, "[redacted]"** — 63 käyttötapausta 16
-   liiketoimintafunktiossa; McKinseyn oma analyysi osoittaa n. 75 %:n arvioidusta
-   arvosta keskittyvän neljään funktioon: **asiakasoperaatiot (customer
-   operations), markkinointi & myynti, ohjelmistokehitys ja T&K**. Tätä käytetään
-   tässä kirjastossa **ristiintarkistuksena** patternien painotukselle — ei
-   yksittäisten casejen lähteenä, koska yksittäisten McKinsey-casejen tarkka
-   sisältö ei ollut luotettavasti saatavilla poiminnan aikana.
+1. **Ensisijainen lähde** — laaja toimialaraportti (2026-painos), 130
+   käyttötapausta kuudella toimialalla (Consumer; Energy, Resources &
+   Industrials; Financial Services; Government & Public Services; Life
+   Sciences & Health Care; Technology, Media & Telecommunications). Raportti
+   käyttää kuusiulotteista vastuullisen AI:n riskikehystä (fair and
+   impartial, robust and reliable, transparent and explainable, safe and
+   secure, responsible and accountable, private) jokaisen casen
+   riskiarvioinnissa. Tästä raportista on tekstipohjaisesti poimittu ja
+   tarkistettu **81 casea** viideltä kuudesta toimialasta (otsikko, toimiala,
+   ensisijainen liiketoimintafunktio, Agentic AI / Physical AI -merkintä) —
+   kuudes toimiala (Technology, Media & Telecommunications) on mukana vain
+   teematasolla poiminnan teknisten rajoitteiden vuoksi, ei yksittäisin
+   casein. Jokainen tässä kirjastossa mainittu esimerkki on suoraan tästä
+   poiminnasta, ei muistista tuotettu.
+2. **Toinen, riippumaton lähde** — toimialan AI-käyttötapauskooste, 63
+   käyttötapausta 16 liiketoimintafunktiossa; sen oma analyysi osoittaa
+   n. 75 %:n arvioidusta arvosta keskittyvän neljään funktioon:
+   **asiakasoperaatiot (customer operations), markkinointi & myynti,
+   ohjelmistokehitys ja T&K**. Tätä käytetään tässä kirjastossa
+   **ristiintarkistuksena** patternien painotukselle — ei yksittäisten
+   casejen lähteenä, koska yksittäisten casejen tarkka sisältö ei ollut
+   luotettavasti saatavilla poiminnan aikana.
 
-**Mitä tämä tarkoittaa käytännössä:** jokainen "Esimerkit"-kohdan [redacted]-viite
-alla on todellinen, oikein otsikoitu käyttötapaus vuoden 2026 raportista. Jos
-kaipaat tarkempaa kuvausta yhdestä esimerkistä, alkuperäinen PDF on käyttäjän
-arkistossa. **Älä laajenna näitä esimerkkejä yksityiskohdilla, joita ei ole
-tässä listattu** — jos tarvitset lisää yksityiskohtia, palaa alkuperäiseen
-raporttiin äläkä täydennä muistista.
+**Mitä tämä tarkoittaa käytännössä:** jokainen "Esimerkkejä toimialalta"
+-kohdan viite alla on todellinen, oikein otsikoitu käyttötapaus
+ensisijaisesta lähteestä. **Älä laajenna näitä esimerkkejä yksityiskohdilla,
+joita ei ole tässä listattu** — jos tarvitset lisää yksityiskohtia, palaa
+alkuperäiseen lähteeseen äläkä täydennä muistista.
 
 ## Toimialojen ja funktioiden peittävyys poiminnassa (81 casea)
 
@@ -56,7 +57,7 @@ raporttiin äläkä täydennä muistista.
 | Life Sciences & Health Care | 2 |
 | Technology, Media & Telecommunications | 0 (vain teema-taso) |
 
-[redacted]n omat funktioluokat (esiintyvät "Tags"-merkintöinä): Sales, Marketing,
+Lähteen omat funktioluokat (esiintyvät "Tags"-merkintöinä): Sales, Marketing,
 Operations, R&D/Product Development, Customer Service, Customer Experience,
 Compliance & Risk, Procurement/Sourcing & Supply Chain, Manufacturing & Quality,
 Field Services, Information Technology, Learning & Development, Cross-functional,
@@ -81,7 +82,7 @@ päätös, joita tehdään tänään erillään ja eri aikataululla?"*
 
 **AI-tyyppi:** Agentic AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Dynamic pricing and inventory optimization* — hinnoittelu-,
   promootio- ja varastoagentit koordinoivat reaaliaikaisesti.
 - [Consumer] *Autonomous supply chain operations* — kysynnän ennustus,
@@ -96,7 +97,7 @@ päätös, joita tehdään tänään erillään ja eri aikataululla?"*
 - [Financial Services] *Intraday liquidity optimization* — kassan ja riskin
   reaaliaikainen tasapainotus.
 
-**Riskilinssi ([redacted] Trustworthy AI):** *Fair and impartial* ja *Responsible
+**Riskilinssi (vastuullisen AI:n ulottuvuudet):** *Fair and impartial* ja *Responsible
 and accountable* korostuvat — nopeat, koordinoidut päätökset (esim. hinnoittelu)
 voivat näyttää mielivaltaisilta asiakkaalle, jos päätöslogiikka ei ole selkeästi
 rajattu ja loppuvastuu ihmisellä.
@@ -116,7 +117,7 @@ PDF-dokumentista ennen päätöstä?"*
 
 **AI-tyyppi:** Agentic AI / merkitsemätön (dokumenttianalyysi)
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Autonomous warranty adjudication* — takuuvaatimusten
   poikkeamien lippuutus ja dokumentaation tuki ihmisasiantuntijalle.
 - [Financial Services] *AI agents for credit underwriting* — hakijadatan
@@ -149,7 +150,7 @@ päätöksen, johon he saavat tänään vain kertaluontoisen, geneerisen neuvon?
 
 **AI-tyyppi:** Agentic AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *AI assistant for vehicle buying and leasing* — hyper-
   personoidut suositukset ostopäätöksen tueksi.
 - [Financial Services] *Ultra-personalized financial advice and wealth
@@ -179,7 +180,7 @@ siellä maksaisi?"*
 
 **AI-tyyppi:** Agentic AI / Physical AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Energy, Resources & Industrials] *AI-driven predictive maintenance* —
   laitteiston kunnon valvonta, juurisyyn diagnoosi, ennakoiva huolto.
 - [Energy, Resources & Industrials] *Autonomous drone-based infrastructure
@@ -214,7 +215,7 @@ reaaliaikaisiin signaaleihin?"*
 
 **AI-tyyppi:** Agentic AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Next-generation store operations* — autonominen kaupan sisäisten
   toimintojen koordinointi reaaliaikaisen tilanteen mukaan.
 - [Energy, Resources & Industrials] *Autonomous field operations management* —
@@ -243,7 +244,7 @@ selkeät toleranssirajat?"*
 
 **AI-tyyppi:** Physical AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Vision-enabled store operations* — hyllyjen toteutuksen ja
   planogrammin noudattamisen seuranta konenäöllä.
 - [Consumer] *Robotic stowing and picking system* — robottikäsittely
@@ -276,7 +277,7 @@ olosuhteisiin?"*
 
 **AI-tyyppi:** Physical AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Autonomous transport for urban mobility services* — kuljettaja-
   vapaat ajoneuvot henkilö- ja tavarakuljetuksiin.
 - [Consumer] *Fleet telemetry and route optimization* — reunälaskenta
@@ -307,7 +308,7 @@ tiimiin, ja voisiko brändinmukaisia luonnoksia tuottaa jatkuvasti?"*
 
 **AI-tyyppi:** merkitsemätön (generatiivinen AI)
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Marketing content assistant* — tehokas, yhdenmukainen,
   personoitu sisällöntuotanto eri modaliteeteissa.
 - [Consumer] *Social media content generation* — autonominen, trenditietoinen
@@ -335,7 +336,7 @@ kääntämään kysymyksen raportiksi, vaikka data on jo olemassa?"*
 
 **AI-tyyppi:** merkitsemätön
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Data access for all* — liiketoimintakäyttäjien ohjaus
   kuluttajadatan oivalluksiin luonnollisen kielen kyselyillä.
 - [Financial Services] *Business intelligence at your fingertips* —
@@ -366,7 +367,7 @@ petosta jaksottaisella syklillä sen sijaan että valvonta olisi jatkuvaa?"*
 
 **AI-tyyppi:** Agentic AI / merkitsemätön
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Financial Services] *AI-powered risk management and regulatory
   compliance* — aina-päällä-compliance-tiimi erikoistuneilla agenteilla.
 - [Financial Services] *Focused cyber* — turva-hälytysten suodatus,
@@ -393,7 +394,7 @@ koskaan tutkitaan?"*
 
 **AI-tyyppi:** Agentic AI / Physical AI (simulaatio)
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *AI-orchestrated product design* — koko tuotesuunnittelun
   elinkaaren orkestrointi markkinasensoroinnista iterointiin.
 - [Energy, Resources & Industrials] *Materials design* — laajempi
@@ -425,7 +426,7 @@ harvoihin ihmisiin, jotka eivät voi olla kaikkialla?"*
 
 **AI-tyyppi:** Physical AI (simulaatio/AR-VR)
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Energy, Resources & Industrials] *Personalized OHS training* —
   personoitu, immersiivinen työturvallisuuskoulutus realistisilla
   skenaarioilla.
@@ -451,7 +452,7 @@ dokumentointiin, joka voisi olla AI-avusteista?"*
 
 **AI-tyyppi:** merkitsemätön / Agentic AI
 
-**Esimerkit ([redacted] AI Dossier 2026):**
+**Esimerkkejä toimialalta:**
 - [Consumer] *Code assist for developers* ("Augmented developer") —
   sovellusten ja alustojen kehityksen ja ylläpidon tuki.
 - [Financial Services] *Transformation with speed and confidence* ("Code
@@ -469,12 +470,12 @@ tai tiukemman testauskurin kuin ihmisen kirjoittama, ei löysempää.
 
 ---
 
-## McKinsey-ristiintarkistus
+## Ristiintarkistus toisella lähteellä
 
-McKinseyn [redacted] (63 käyttötapausta, 16 funktiota)
-osoittaa n. 75 %:n arvioidusta arvosta keskittyvän neljään funktioon:
-**asiakasoperaatiot, markkinointi & myynti, ohjelmistokehitys, T&K.** Yllä
-oleva 13 patternin kirjasto peittää kaikki neljä: patternit 3 ja 2
+Toinen, riippumaton toimialan AI-käyttötapauskooste (63 käyttötapausta, 16
+funktiota) osoittaa n. 75 %:n arvioidusta arvosta keskittyvän neljään
+funktioon: **asiakasoperaatiot, markkinointi & myynti, ohjelmistokehitys,
+T&K.** Yllä oleva 13 patternin kirjasto peittää kaikki neljä: patternit 3 ja 2
 (asiakasoperaatiot/dokumenttivalidointi), patternit 8 ja 1 (markkinointi &
 myynti), patterni 13 (ohjelmistokehitys), patternit 11–12 (T&K). Tämä ei ole
 sattumaa — se on kohtuullinen ristiintarkistus siitä, että kuratointi ei ole

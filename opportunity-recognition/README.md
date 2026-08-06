@@ -1,6 +1,6 @@
 # Opportunity Recognition
 
-Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman) — täydennetty omistajan (Tommi Järvinen) [redacted]-palvelun Opportunity Value Assessment -metodologialla.
+Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman) — täydennetty omistajan oman palvelun Opportunity Value Assessment -metodologialla.
 
 ## Skillit tässä pakissa
 
@@ -46,11 +46,11 @@ on konkreettinen, AI-ratkaisuihin sovellettu toteutus:
 - Tang, Kacmar & Busenitz — association and connection
 - Tang, Kacmar & Busenitz — evaluation and judgment
 - stratarts — market-opportunity-analyzer
-- [redacted] — Opportunity Value Assessment -palvelu (oma tuote,
+- omistajan oma palvelu — Opportunity Value Assessment -palvelu (oma tuote,
   `opportunity-intake-elicitation`, `opportunity-value-assessment`,
   `opportunity-brief-writing`)
 - Mullins' Seven Domains Model, Timmons-malli, POEM-matriisi, NABC-malli,
-  Opportunity Canvas — ks. `references/[redacted]-frameworks-review.md`
+  Opportunity Canvas — ks. `references/opportunity-frameworks-review.md`
 
 ## Rakenne
 

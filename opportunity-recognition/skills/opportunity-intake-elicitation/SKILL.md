@@ -5,7 +5,7 @@ description: "Kerää jäsennellysti riittävät lähtötiedot tunnistetusta mah
 
 # Opportunity Intake Elicitation
 
-*Tila: `validated` — omistajan (Tommi Järvinen) [redacted]-palvelun Opportunity
+*Tila: `validated` — omistajan oman palvelun Opportunity
 Value Assessment -tuotteen Input Wizardiin ja sitä tukevaan taustatutkimukseen
 ankkuroitu sisältö. Ks. `../../../skills_index.json` ja
 `../../../meta/maturity_levels.md`.*
@@ -19,7 +19,7 @@ kysymyksiin vastatessaan asiakas myös oppii jäsentämään omaa ideaansa syvem
 
 ## Perustuu
 
-[redacted] — Opportunity Value Assessment -palvelun Input Wizard (oma
+omistajan oma palvelu — Opportunity Value Assessment -palvelun Input Wizard (oma
 tuote, ks. `../../references/intake-questions.md`) ja sitä tukeva
 taustatutkimus "S1 — Opportunity Package".
 
@@ -87,5 +87,5 @@ taustatutkimus "S1 — Opportunity Package".
 ## Referenssit
 
 - `../../references/intake-questions.md` — täysi kysymyspankki teemoittain
-- `../../references/[redacted]-frameworks-review.md` — Doug Richard, NABC, Opportunity Canvas
+- `../../references/opportunity-frameworks-review.md` — Doug Richard, NABC, Opportunity Canvas
 - `../../CLAUDE.md` — pakin jaetut suojaukset

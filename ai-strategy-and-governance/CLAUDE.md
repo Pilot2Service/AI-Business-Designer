@@ -48,7 +48,7 @@ täydellisenä osaamisena.
 
 ## Pakkikohtainen huomio
 
-Ei korvaa juridista EU AI Act -compliance-arviota — syvempään analyysiin käytä tämän workspacen tekoalysaantely-plugineja.
+Ei korvaa juridista EU AI Act -compliance-arviota — syvempään analyysiin tarvitaan erillinen sääntely-asiantuntemus.
 
 Tässä pakissa on useita samankaltaisia kolmi-/nelijaotteluja, jotka
 vastaavat ERI kysymyksiin — älä sekoita niitä keskenään:

@@ -16,9 +16,6 @@ Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti.
 - stratarts — market-opportunity-analyzer
 - Business Opportunity Scout (buYoung)
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

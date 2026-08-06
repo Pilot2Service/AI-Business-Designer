@@ -33,9 +33,9 @@ tarkempaan tarkasteluun.
 ## Ankkurointi tutkimukseen
 
 - `../../references/ai-capability-pattern-library.md` — 13 patternia,
-  abstrahoitu [redacted]n "[redacted]" (2026) 81 tarkistetusta
-  käyttötapauksesta ja ristiintarkistettu McKinseyn Generative AI Use Case
-  Catalogilla (63 casea, 16 funktiota).
+  abstrahoitu laajan toimialaraportin (2026) 81 tarkistetusta
+  käyttötapauksesta ja ristiintarkistettu toisella, riippumattomalla
+  AI-käyttötapauskoosteella (63 casea, 16 funktiota).
 - `../../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`
   — yleinen Capability Pattern Mapping -abstraktiomenetelmä, jonka
   konkreettinen AI-sovellus patternikirjasto on.
@@ -44,9 +44,9 @@ tarkempaan tarkasteluun.
 
 1. **Ennen tapaamista: valitse 4–6 relevanteinta patternia** patternikirjastosta
    asiakkaan toimialan/tilanteen perusteella (ei kaikkia 13 kerralla — liikaa
-   kysymyksiä yhdellä kertaa hukuttaa keskustelun). Käytä toimialan [redacted]-
-   funktiopainotusta karkeana ohjeena (esim. valmistava teollisuus →
-   patternit 4, 5, 6, 11; asiantuntijapalvelu → patternit 2, 3, 9).
+   kysymyksiä yhdellä kertaa hukuttaa keskustelun). Käytä lähdemateriaalin
+   toimialakohtaista funktiopainotusta karkeana ohjeena (esim. valmistava
+   teollisuus → patternit 4, 5, 6, 11; asiantuntijapalvelu → patternit 2, 3, 9).
 2. **Esitä jokaisen valitun patternin diagnostinen kysymys asiakkaalle
    sellaisenaan**, älä muunna sitä teknisemmäksi tai AI-sanastoa käyttäväksi.
    Kysymykset on tarkoituksella muotoiltu liiketoiminnan, ei teknologian,
@@ -86,8 +86,8 @@ tarkempaan tarkasteluun.
   -patternit) kuin toiset.
 - Ei laajenna patternikirjaston esimerkkejä yksityiskohdilla, joita
   `../../references/ai-capability-pattern-library.md`:ssä ei ole — jos
-  tarvitset syvempää esimerkkiä, viittaa alkuperäiseen [redacted]/McKinsey-
-  raporttiin äläkä täydennä muistista.
+  tarvitset syvempää esimerkkiä, viittaa alkuperäisiin lähteisiin äläkä
+  täydennä muistista.
 - Ei ole tyhjentävä listaus kaikista mahdollisista AI-mahdollisuuksista —
   13 patternia on kuratoitu otos, ei kattava taksonomia. Uusia patterneja
   löytyy ajan myötä; lisää ne kirjastoon samalla menetelmällä (ks.
@@ -96,14 +96,15 @@ tarkempaan tarkasteluun.
 ## [OWNER INPUT — täydennettävä]
 
 Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Patternikirjasto
-on rakennettu tutkimuspohjaisesti ([redacted] + McKinsey), mutta omaa
-käytännön kokemusta siitä, mitkä patternit toimivat parhaiten missäkin
-asiakastilanteessa, ei vielä ole liitetty. Täydennä tähän:
+on rakennettu tutkimuspohjaisesti (kahdesta riippumattomasta toimialan
+AI-käyttötapausraportista), mutta omaa käytännön kokemusta siitä, mitkä
+patternit toimivat parhaiten missäkin asiakastilanteessa, ei vielä ole
+liitetty. Täydennä tähän:
 
 - omia havaintoja siitä, mitkä patternit resonoivat useimmin minkäkin
   tyyppisten asiakkaiden kanssa
 - uusia patterneja, jotka olet itse tunnistanut mutta joita ei ole
-  [redacted]/McKinsey-lähteissä — lisää ne
+  lähteissä — lisää ne
   `../../references/ai-capability-pattern-library.md`-kirjastoon samalla
   formaatilla
 - konkreettinen työpajapohja/kysymyslomake (`../../references/`-kansioon)

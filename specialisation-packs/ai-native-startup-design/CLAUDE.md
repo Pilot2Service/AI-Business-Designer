@@ -59,10 +59,10 @@ KAKSI eri kypsyystasoa riippuen siitä kumpaan lähteeseen skilli perustuu:
   (ks. `references/workshop-source.md`).
 - **`maturity: draft`** — `ai-differentiator-solution-ideation`,
   `rice-scoring-and-mvp-synthesis`, `ai-native-conversational-os-design`.
-  Perustuvat [redacted]n menetelmään, jonka omistaja on toistaiseksi
-  soveltanut vain KERRAN, yhteen omaan caseen ([redacted] Decision Coach — ks.
-  `references/[redacted]-workshop-source.md` ja
-  `cases/[redacted]-decision-coach-mvp.md`). Ei vielä laajasti validoitu.
+  Perustuvat ulkopuolisen työpajan menetelmään, jonka omistaja on toistaiseksi
+  soveltanut vain KERRAN, yhteen omaan caseen (omistajan Decision Coach — ks.
+  `references/ai-first-saas-workshop-source.md` ja
+  `cases/ai-decision-coach-mvp-case.md`). Ei vielä laajasti validoitu.
 
 Tee tämä näkyväksi käytössä: kun viittaat `draft`-tason skilliin, mainitse
 että menetelmä on sovellettu vain kerran eikä vielä yhtä laajasti
@@ -73,8 +73,9 @@ pakin sisältöön, mainitse mihin työpajaan/lähteeseen se perustuu.
 
 Ei anna oikeudellista tai sijoitusneuvontaa. Rahoitus-, IP-, sopimus- ja
 työoikeuskysymyksissä ohjaa aina oman organisaation juristiin tai asiantuntijaan —
-tarvittaessa käytä repon muita pakkeja rinnalla (`sopimukset`, `yhtiooikeus`,
-`tyooikeus`, `immateriaalioikeus`, `tekoalysaantely`). AI-agenttien tietoturvasta ja
+tarvittaessa käytä rinnalla erillistä juridista, yhtiöoikeudellista, työ-
+oikeudellista, immateriaalioikeudellista tai AI-sääntely-asiantuntemusta
+(näitä ei sisälly tähän skills-pakkiin). AI-agenttien tietoturvasta ja
 skillien/pluginien luotettavuudesta: asenna vain tunnetuista lähteistä (ks.
 `skills/ai-native-tool-stack-selection/SKILL.md`, Mitä tämä skilli EI tee).
 

@@ -1,7 +1,6 @@
 # Kirjallisuuskatsaus: mahdollisuuksien arviointikehykset
 
-Lähde: [redacted] "S1 — Opportunity Package" -taustadokumentti (omistajan Tommi Järvisen
-koostama kirjallisuuskatsaus [redacted]-palvelun pohjaksi). Käyttää
+Lähde: omistajan koostama "S1 — Opportunity Package" -taustadokumentti ja kirjallisuuskatsaus. Käyttää
 `opportunity-value-assessment`- ja `opportunity-intake-elicitation`-skillejä.
 `source_layer: curated_research` — julkista kirjallisuutta, jonka omistaja on
 valikoinut ja soveltanut oman palvelunsa pohjaksi.
@@ -59,7 +58,7 @@ priorisoida; alavasen kulma (riskialtis + heikkotuottoinen) kannattaa
 todennäköisesti välttää.
 
 Tämä on `opportunity-value-assessment`-skillin 2D-matriisin suora esikuva —
-[redacted]:n oma kehys yhdistää POEM-logiikan Mullinsin ja Timmonsin tekijälistoihin.
+Omistajan oma kehys yhdistää POEM-logiikan Mullinsin ja Timmonsin tekijälistoihin.
 
 *Lähde: ConnectedDale (2023), Product Opportunity Evaluation Matrix.*
 
@@ -95,7 +94,7 @@ kehitystyötä ja riskiä ennen markkinoille pääsyä. Ks. myös
 
 *Lähde: DOE Tech-to-Market (2021), Technology-to-Market.*
 
-## Miten nämä yhdistyvät [redacted]:n omaan kehykseen
+## Miten nämä yhdistyvät omistajan omaan kehykseen
 
 `opportunity-value-assessment`-skilli ei toista mitään näistä malleista
 sellaisenaan, vaan yhdistää ne yhdeksi käytännölliseksi, kaksiakseliseksi

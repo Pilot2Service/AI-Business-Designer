@@ -19,17 +19,17 @@ koskaan lähde teknisestä kuvauksesta.
 
 ## Perustuu
 
-- Omistajan (Tommi Järvinen) AI-native Business Design -työpaja
-  ([redacted] / firstkiss.co), pidetty 1.–2.6.2026, Day 1 —
+- Omistajan AI-native Business Design -työpaja
+  (omistajan oma työpaja), pidetty 1.–2.6.2026, Day 1 —
   Session 2 "Planning in the AI Era", vaiheet 1–3 (visio → suunnittelu-
   kumppani → ICP/JTBD/Need Themes/AI-advantage-pisteytys).
-- [redacted]n "AI-first SaaS Product" -työpajan menetelmä (omistajan
-  itse soveltama [redacted]-caseen, ks. `../../references/[redacted]-workshop-source.md` ja `../../cases/[redacted]-decision-coach-mvp.md`) — syventää
+- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä (omistajan
+  itse soveltama omaan caseen, ks. `../../references/ai-first-saas-workshop-source.md` ja `../../cases/ai-decision-coach-mvp-case.md`) — syventää
   tämän skillin vaiheita 5–7: verbivetoinen JTBD-muotoilu, tarkempi
   5-kriteerinen NMB+AI-advantage-pisteytys (korvaa aiemman yksittäisen
   AI-advantage-pisteen), ja eksplisiittinen AI wedge -valintakriteeristö.
   **Huom:** tämä syventävä osa on toistaiseksi sovellettu vain kerran
-  ([redacted]) — ei yhtä laajasti validoitu kuin skillin ICP/JTBD-runko, joka
+  (omistajan oma case) — ei yhtä laajasti validoitu kuin skillin ICP/JTBD-runko, joka
   perustuu useamman osallistujan työpajaan.
 - Ideal Customer Profile (ICP) ja Jobs-To-Be-Done (JTBD) -tuotestrategia-
   kehykset (yleisesti tunnettuja, ei omistajan omia — työpaja soveltaa
@@ -71,7 +71,7 @@ koskaan lähde teknisestä kuvauksesta.
    Diagnose/Evaluate, Plan/Structure, Communicate, Decide/Act — tai
    Psykologinen: Confidence, Uncertainty Reduction) / Taustalla oleva "miksi"
    / Liittyvä(t) JTBD(t). Ks. worked example
-   `../../cases/[redacted]-decision-coach-mvp.md` kohta 2.
+   `../../cases/ai-decision-coach-mvp-case.md` kohta 2.
 6. **NMB + AI-advantage-pisteytys — 5 kriteeriä, ei yksi.** Pisteytä
    jokainen tarveteema viidellä kriteerillä, kukin 1–5:
    - **Need Depth** — kuinka syvä/kipeä tarve on, kun se aktivoituu.
@@ -85,7 +85,7 @@ koskaan lähde teknisestä kuvauksesta.
    **Differentiator** (korkea kokonaispiste, kilpailijat eivät kata hyvin)
    vs. **Table Stake** (tarpeellinen mutta geneerisiä kilpailijoita/muita
    AI-työkaluja saatavilla). Ks. worked example
-   `../../cases/[redacted]-decision-coach-mvp.md` kohta 3.
+   `../../cases/ai-decision-coach-mvp-case.md` kohta 3.
 7. **Valitse AI-differentiaattoritarve ("AI wedge").** AI wedge on
    tarveteema, joka täyttää SAMANAIKAISESTI: korkea Need Depth, korkea
    Frequency, heikko Market Coverage kilpailijoilla, korkea oma Business
@@ -121,7 +121,7 @@ koskaan lähde teknisestä kuvauksesta.
   voit siirtyä suoraan `../ai-buildable-prd-writing/SKILL.md`-skilliin.)
 - Liittyvä skilli toisessa pakissa:
   `../../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
-- Worked example: `../../cases/[redacted]-decision-coach-mvp.md` — täysi [redacted]-case
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md` — täysi oma case
   vaiheista 4–7.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
@@ -129,7 +129,7 @@ koskaan lähde teknisestä kuvauksesta.
 
 - `../../references/prompt-library.md` — promptit 3–6
 - `../../references/workshop-source.md` — lähdetiedot (AI-training-P6)
-- `../../references/[redacted]-workshop-source.md` — lähdetiedot
-  ([redacted], NMB-pisteytys ja AI wedge -syvennys)
-- `../../cases/[redacted]-decision-coach-mvp.md` — worked example
+- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+  (ulkopuolinen työpaja, NMB-pisteytys ja AI wedge -syvennys)
+- `../../cases/ai-decision-coach-mvp-case.md` — worked example
 - `../../CLAUDE.md` — pakin jaetut suojaukset

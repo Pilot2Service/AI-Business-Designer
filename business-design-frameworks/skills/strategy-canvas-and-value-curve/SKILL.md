@@ -1,6 +1,6 @@
 ---
 name: strategy-canvas-and-value-curve
-description: "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan [redacted] 360 -vertailutyökalua hyödyntäen."
+description: "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan 360-vertailutyökalua hyödyntäen."
 ---
 
 # Strategy Canvas & Value Curve
@@ -31,11 +31,11 @@ tapahtuisi jos emme kilpailisi?"
   Poista–Vähennä–Nosta–Luo) uuden arvokäyrän suunnitteluun, ja **Six Paths
   Framework** uusien erottautumisulottuvuuksien etsimiseen toimialan
   totuttujen rajojen ulkopuolelta.
-- Omistajan (Tommi Järvinen / [redacted]) **[redacted] 360 Comparison
+- Omistajan **360 Comparison
   Factors** -vertailutyökalu — konkreettinen, tuotteistettu pisteytyspohja
   arvokäyrän rakentamiseen: 0–2-asteikko (0 = heikko/ei tarjota,
   1 = toimialan keskitaso, 2 = vahva/erottuva) sovellettuna 10 tyypilliseen
-  vertailutekijään, ks. `../../references/[redacted]-360-comparison-template.md`.
+  vertailutekijään, ks. `../../references/360-comparison-template.md`.
 
 ## Rakenne
 
@@ -47,12 +47,12 @@ tapahtuisi jos emme kilpailisi?"
    tuoteominaisuuksia, vaan kaikki ulottuvuudet, joilla asiakas tosiasiassa
    vertailee vaihtoehtoja: esim. hinta, laatu, käyttäjäkokemus, design,
    valikoima, käyttöönottoaika, itsepalveluaste, integraatiot/API,
-   toimitusaika, ominaisuuksien määrä ([redacted] 360 -mallin 10 esimerkkitekijää,
-   ks. `../../references/[redacted]-360-comparison-template.md`). Nämä ovat
+   toimitusaika, ominaisuuksien määrä (360-mallin 10 esimerkkitekijää,
+   ks. `../../references/360-comparison-template.md`). Nämä ovat
    lähtökohta, ei kiinteä lista — poista epärelevantit ja lisää oman
    toimialan omat tekijät.
 3. **Pisteytä jokainen toimija jokaisella tekijällä.** Käytä yhtenäistä
-   asteikkoa ([redacted] 360 -mallissa 0–2: 0 = heikko/ei tarjota, 1 = toimialan
+   asteikkoa (360-mallissa 0–2: 0 = heikko/ei tarjota, 1 = toimialan
    keskitaso/standardi, 2 = vahva/selvästi erottuva). Pisteytä rehellisesti
    — myös oma ratkaisu — ja merkitse selvästi, mikä pisteytys perustuu
    käyttäjän antamaan tietoon ja mikä on `[oletus — tarkista]`. Älä keksi
@@ -104,7 +104,7 @@ tapahtuisi jos emme kilpailisi?"
   Porterin viiden voiman analyysiin. Strategiakartta on täydentävä,
   visuaalinen ja erottautumiseen keskittyvä työkalu, ei korvaa toimiala- tai
   taloudellista analyysia.
-- Ei rajoita vertailutekijöitä [redacted] 360 -mallin 10 esimerkkiin — ne ovat
+- Ei rajoita vertailutekijöitä 360-mallin 10 esimerkkiin — ne ovat
   lähtökohta, jota pitää aina räätälöidä toimialan mukaan.
 
 ## Jatka tästä
@@ -123,6 +123,6 @@ tapahtuisi jos emme kilpailisi?"
 
 ## Referenssit
 
-- `../../references/[redacted]-360-comparison-template.md` — [redacted] 360 Comparison
+- `../../references/360-comparison-template.md` — 360 Comparison
   Factors -mallipohja (10 esimerkkitekijää, 0–2-asteikko, käyttöohje)
 - `../../CLAUDE.md` — pakin jaetut suojaukset

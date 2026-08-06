@@ -29,9 +29,6 @@ riskejä.
   ongelmista murto-osalla korkean fideliteetin kustannuksesta — ks.
   Referenssit.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. **Määritä TÄSMÄLLEEN yksi hypoteesi, jonka prototyypin pitää todistaa**

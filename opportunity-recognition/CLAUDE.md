@@ -50,7 +50,7 @@ Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
   ole liitetty.
 - `opportunity-intake-elicitation`, `opportunity-value-assessment` ja
   `opportunity-brief-writing` ovat `maturity: validated`, `source_layer: owner`
-  — konvertoitu suoraan omistajan [redacted]-palvelun tuotteistetusta
+  — konvertoitu suoraan omistajan oman palvelun tuotteistetusta
   Opportunity Value Assessment -metodologiasta.
 
 Kun käytät tämän pakin skillejä, tee kypsyystaso näkyväksi äläkä esitä

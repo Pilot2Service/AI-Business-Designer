@@ -32,9 +32,6 @@ suuri osa markkinan arvosta kategoriajohtajalle voi kertyä.
   asiakkaan mielikuvaa ja vertailukehystä ennen kuin tuotteen ominaisuuksia
   edes arvioidaan.
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Kartoita nykyiset kategoriat, joihin tuote tai liiketoiminta voitaisiin

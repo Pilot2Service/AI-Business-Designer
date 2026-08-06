@@ -16,9 +16,6 @@ Rajaa ongelman ja vaatimukset selkeäksi, testattavaksi kokonaisuudeksi.
 - BABOK — requirements
 - IEEE 830
 
-Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
-`../../../../markkinan-taito-odotukset-analyysi.md` (AI-business-designer-projektin juuressa).
-
 ## Rakenne (luonnos — täydennettävä)
 
 1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.

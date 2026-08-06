@@ -18,7 +18,7 @@ vaiheeseen.
 
 ## Ankkurointi tutkimukseen
 
-Perustuu `[redacted]`-repon tutkimuskerrokseen
+Perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
 (`30_domain_packs/bmc/facilitation/tool_switching_logic.md` ja kolme
 `08_decision_model/decision_types/*.md`-tiedostoa — kaikki
 `status: template`, `source: research_layer`), synteesi Jeffriesin,

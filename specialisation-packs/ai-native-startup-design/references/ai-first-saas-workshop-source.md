@@ -1,4 +1,4 @@
-# Lähde: [redacted] — AI-first SaaS Product Workshop
+# Lähde: AI-first SaaS Product Workshop
 
 Tämä on toinen lähde tässä pakissa `AI-training-P6`-työpajan
 (`workshop-source.md`) rinnalla. Se syventää erityisesti pakin
@@ -10,12 +10,12 @@ tarkasti.
 ## Mikä tämä on
 
 - **Nimi:** "Ai-first SaaS Product workshop"
-- **Järjestäjä:** [redacted]
-- **Muoto:** omistajan (Tommi Järvinen) muistiinpanot työpajan
+- **Järjestäjä:** ulkopuolinen toimija (ei sisälly tähän repoon)
+- **Muoto:** omistajan muistiinpanot työpajan
   menetelmästä + omistajan itse AI-ajattelukumppanin kanssa läpikäymä
-  **täysi sovellusesimerkki omaan [redacted]-tuotteeseensa**
+  **täysi sovellusesimerkki omaan tuotteeseensa**
   (ks. alla "Miksi tämä on arvokas kaksoislähde").
-- **Ladattu:** 6.8.2026 (`[redacted] – Ai-first SaaS Product workshop.md`)
+- **Ladattu:** 6.8.2026 (omistajan yksityinen muistiinpano)
 
 ## Menetelmän 8 askelta
 
@@ -46,18 +46,18 @@ tarkasti.
 
 Toisin kuin `AI-training-P6`, joka on geneerinen menetelmä ilman yhtä
 tiettyä sovelluscasea, tämä muistiinpano sisältää omistajan OMAN,
-täyden sovelluksen: [redacted]-tuotteen JTBD:stä RICE-valittuun
+täyden sovelluksen: oman tuotteen JTBD:stä RICE-valittuun
 MVP:hen ("Decision Coach") ja sen keskustelu-OS-arkkitehtuuriin asti.
 Tämä worked example on tallennettu erikseen:
-`../cases/[redacted]-decision-coach-mvp.md` — käytä sitä konkreettisena
+`../cases/ai-decision-coach-mvp-case.md` — käytä sitä konkreettisena
 mallina kun sovellat tämän pakin skillejä uuteen caseen.
 
 ## Miksi `maturity: draft` uusille skilleille (ei `validated`)
 
 `AI-training-P6`-työpaja on **pidetty useille osallistujille**
 (1.–2.6.2026, ryhmäsessio) — siksi sen pohjalta rakennetut skillit ovat
-`validated`. Tämä [redacted]-menetelmä on toistaiseksi **sovellettu
-kerran, yhteen caseen** ([redacted]) omistajan itsensä toimesta — ei vielä
+`validated`. Tämä ulkopuolinen menetelmä on toistaiseksi **sovellettu
+kerran, yhteen caseen** (omistajan oma case) omistajan itsensä toimesta — ei vielä
 testattu useammalla eri liiketoiminnalla tai ulkopuolisella tiimillä.
 Tämä vastaa täsmälleen `maturity_levels.md`:n `draft`-määritelmää:
 "[OWNER INPUT] täytetty, käytetty kerran käytännössä, ei vielä

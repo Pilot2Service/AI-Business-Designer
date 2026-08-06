@@ -37,7 +37,7 @@
       "name": "ai-strategy-and-governance",
       "displayName": "AI Strategy & Governance",
       "source": "./ai-strategy-and-governance",
-      "description": "AI-mahdollisuuksien tunnistaminen tehtävätasolta (SML/Dual Decomposition) tai 13 kuratoidun AI-kyvykkyyspatternin ([redacted] AI Dossier 2026 + McKinsey [redacted]) diagnostisilla kysymyksillä, 5-ulotteiseen pisteytykseen ja 2x2-priorisointiin, transformatiivisten Value Play -mahdollisuuksien tunnistus, AI-native-liiketoimintamallit, roadmapit (3 horisonttia) ja vastuullinen käyttöönotto — mukaan lukien discovery-toimeksiantojen tuotteistus.",
+      "description": "AI-mahdollisuuksien tunnistaminen tehtävätasolta (SML/Dual Decomposition) tai 13 kuratoidun AI-kyvykkyyspatternin (kahdesta riippumattomasta toimialan AI-käyttötapausraportista ristiintarkistettu) diagnostisilla kysymyksillä, 5-ulotteiseen pisteytykseen ja 2x2-priorisointiin, transformatiivisten Value Play -mahdollisuuksien tunnistus, AI-native-liiketoimintamallit, roadmapit (3 horisonttia) ja vastuullinen käyttöönotto — mukaan lukien discovery-toimeksiantojen tuotteistus.",
       "author": {
         "name": "Pilot2service"
       }
@@ -73,7 +73,7 @@
       "name": "specialisation-ai-native-startup-design",
       "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",
-      "description": "Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti: AI-mahdollisuuksien tunnistus, ICP/JTBD-asiakasymmärrys, 5+2 tarveteemapisteytys ja AI wedge -valinta, ratkaisuideointi, RICE-MVP-valinta, rakennusagentille annettava PRD, keskusteleva OS-arkkitehtuuri, closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta. Ankkuroitu omistajan pidettyyn AI-native Business Design -työpajaan ja [redacted]n AI-first SaaS Product -menetelmään.",
+      "description": "Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti: AI-mahdollisuuksien tunnistus, ICP/JTBD-asiakasymmärrys, 5+2 tarveteemapisteytys ja AI wedge -valinta, ratkaisuideointi, RICE-MVP-valinta, rakennusagentille annettava PRD, keskusteleva OS-arkkitehtuuri, closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta. Ankkuroitu omistajan pidettyyn AI-native Business Design -työpajaan ja ulkopuoliseen AI-first SaaS Product -menetelmään.",
       "author": {
         "name": "Pilot2service"
       }
@@ -82,7 +82,7 @@
       "name": "specialisation-business-model-canvas",
       "displayName": "Business Model Canvas",
       "source": "./specialisation-packs/business-model-canvas",
-      "description": "BMC-konsultointiosaaminen: 159 patternin innovaatiokirjasto ([redacted]), omistajan oma variointi-/selkeyslogiikka ja antipatternien tunnistus, sekä tutkimuspohjainen tuki session fasilitointiin, canvasin diagnostiikkaan, työkaluvalintaan ja asiakaspuheen tulkintaan.",
+      "description": "BMC-konsultointiosaaminen: 159 patternin julkinen innovaatiokirjasto, omistajan oma variointi-/selkeyslogiikka ja antipatternien tunnistus, sekä tutkimuspohjainen tuki session fasilitointiin, canvasin diagnostiikkaan, työkaluvalintaan ja asiakaspuheen tulkintaan.",
       "author": {
         "name": "Pilot2service"
       }
@@ -100,7 +100,7 @@
       "name": "specialisation-research-commercialisation",
       "displayName": "Research Commercialisation",
       "source": "./specialisation-packs/research-commercialisation",
-      "description": "Tutkimuksen kaupallistaminen: mahdollisuuden tunnistamisesta spin-out/lisensointi-valintaan, IP:hen, TTO-yhteistyöhön, rahoitukseen ja tiiminrakennukseen. Ankkuroitu omistajan [redacted] Innovator's Guide to Commercialisation -käsikirjaan ja AFCA-itsearviointiin.",
+      "description": "Tutkimuksen kaupallistaminen: mahdollisuuden tunnistamisesta spin-out/lisensointi-valintaan, IP:hen, TTO-yhteistyöhön, rahoitukseen ja tiiminrakennukseen. Ankkuroitu omistajan julkaisemaan kaupallistamisoppaaseen ja AFCA-itsearviointiin.",
       "author": {
         "name": "Pilot2service"
       }

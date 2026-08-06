@@ -1,6 +1,6 @@
 # Case-esimerkit: Spin-outit käytännössä
 
-Lähde: *[redacted] Innovator's Guide to Commercialisation* (Tommi Järvinen, [redacted],
+Lähde: omistajan julkaisema kaupallistamisopas (
 2025), luku "Case Examples: Global Spin-outs in Action" (s. 40-44). Käytetään
 `industry-specific-commercialisation-playbook`-, `spinout-vs-licensing-pathway`- ja
 `funding-pathway-design`-skillien referenssinä.

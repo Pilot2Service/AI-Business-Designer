@@ -1,6 +1,6 @@
 # Opportunity Intake — kysymyspankki
 
-Lähde: [redacted] — Opportunity Value Assessment -palvelun Input Wizard
+Lähde: omistajan oma palvelu — Opportunity Value Assessment -palvelun Input Wizard
 (oma tuote). Käyttää `opportunity-intake-elicitation`-skilli. Kysymykset on
 ryhmitelty teemoittain; alkuperäisessä wizardissa jokainen kysymys tukee myös
 ääni-inputtia ja tiedostojen/linkkien liittämistä.

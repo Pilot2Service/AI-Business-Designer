@@ -12,8 +12,8 @@ rahoitukseen, tiiminrakennukseen ja perustajan valmiuden itsearviointiin.
 
 ## Tila
 
-Tämä pakki on rakennettu suoraan omistajan (Tommi Järvinen) julkaisemasta
-**[redacted] Innovator's Guide to Commercialisation** -käsikirjasta ([redacted], 2025,
+Tämä pakki on rakennettu suoraan omistajan julkaisemasta
+**omistajan julkaisema kaupallistamisopas** -käsikirjasta (omistajan oma palvelu, 2025,
 75 sivua) sekä sen AFCA-itsearviointityökalusta. Se ei ole tutkimustason scaffold
 vaan omistajan validoituun, n. 500 kaupallistamisprojektin kokemukseen perustuvaan
 menetelmään ankkuroitu sisältö — `source_layer: owner`, `maturity: validated`
@@ -38,8 +38,8 @@ kaikilla skilleillä (ks. `../../skills_index.json`).
 
 ## Ankkurointi
 
-- [redacted] Innovator's Guide to Commercialisation (Tommi Järvinen, [redacted], 2025)
-- AFCA — Founder's Competence Assessment ([redacted]), synteesi EU:n
+- omistajan julkaisema kaupallistamisopas (omistaja, 2025)
+- AFCA — Founder's Competence Assessment (omistajan oma työkalu), synteesi EU:n
   EntreComp- ja ResearchComp-kehyksistä
 - Käsikirjan omat lähteet: ks. `references/sources.md`
 

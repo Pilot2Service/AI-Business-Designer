@@ -58,7 +58,7 @@ Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
   viitekehyksiä), mutta omaa validoitua kokemusta ei vielä ole liitetty.
 - `strategy-canvas-and-value-curve` on `maturity: validated`,
   `source_layer: owner` — Blue Ocean Strategy -teoria yhdistettynä
-  omistajan tuotteistettuun [redacted] 360 Comparison Factors -vertailutyökaluun.
+  omistajan tuotteistettuun 360 Comparison Factors -vertailutyökaluun.
 
 Kun käytät tämän pakin skillejä, tee kypsyystaso näkyväksi äläkä esitä
 scaffold-skillien `[OWNER INPUT]`-osion puuttumista täydellisenä osaamisena.

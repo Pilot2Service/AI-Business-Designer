@@ -21,10 +21,10 @@ kirjoittamisen (yhteen valittuun suuntaan) välissä.
 
 - RICE-priorisointimalli (Reach, Impact, Confidence, Effort) — yleisesti
   tunnettu tuotepriorisointikehys, ei omistajan oma.
-- [redacted]n "AI-first SaaS Product" -työpajan menetelmä, sovellettu
-  omistajan (Tommi Järvinen) toimesta [redacted]-caseen — ks.
-  `../../references/[redacted]-workshop-source.md` ja worked example
-  `../../cases/[redacted]-decision-coach-mvp.md` kohdat 6–7. **Huom:** sovellettu
+- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä, sovellettu
+  omistajan toimesta omaan caseen — ks.
+  `../../references/ai-first-saas-workshop-source.md` ja worked example
+  `../../cases/ai-decision-coach-mvp-case.md` kohdat 6–7. **Huom:** sovellettu
   toistaiseksi vain kerran — ei laajasti validoitu.
 
 ## Rakenne (luonnos — täydennettävä)
@@ -85,7 +85,7 @@ kirjoittamisen (yhteen valittuun suuntaan) välissä.
 
 ## [OWNER INPUT — täydennettävä]
 
-Tämä skilli on sovellettu toistaiseksi yhteen caseen ([redacted]). Kun sovellat
+Tämä skilli on sovellettu toistaiseksi yhteen caseen (omistajan oma case). Kun sovellat
 sitä useampaan eri liiketoimintaan, täydennä:
 
 - omia nyrkkisääntöjä siitä milloin kannattaa poiketa korkeimmasta
@@ -106,11 +106,11 @@ Kun tämä osio on täytetty useammalla caseella, nosta
   — kirjoittaa PRD:n valitusta MVP:stä.
 - Liittyvä skilli samassa pakissa, jos valittu MVP on keskusteleva/
   agenttinen tuote: `../ai-native-conversational-os-design/SKILL.md`.
-- Worked example: `../../cases/[redacted]-decision-coach-mvp.md` kohdat 6–7.
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md` kohdat 6–7.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
 ## Referenssit
 
-- `../../references/[redacted]-workshop-source.md` — lähdetiedot
-- `../../cases/[redacted]-decision-coach-mvp.md` — worked example
+- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+- `../../cases/ai-decision-coach-mvp-case.md` — worked example
 - `../../CLAUDE.md` — pakin jaetut suojaukset
