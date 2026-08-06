@@ -14,6 +14,7 @@ kunkin pakin oma "Ankkurointi"-osio) tämän repon pakkeihin.
 | AI-kerros | `ai-strategy-and-governance` | LinkedIn 2026 (AI Business Strategy); Perplexity-tutkimus |
 | Liiketoiminnan jäsentäminen/mallinnus | `business-design-frameworks` | Porter; Hagel & Singer; Kim & Mauborgne (Blue Ocean) |
 | Protoilu, demoilu, mahdollisuuden näyttäminen | `prototyping-and-demonstration` | Cohan (Great Demo!); Bryar & Carr (Working Backwards); vibe coding- ja PoC/Pilot/MVP-tutkimus 2026 |
+| Datastrategia ja datalukutaito | `data-strategy-and-literacy` | DALI-tyyppinen datalukutaitokehys; Ackoff (DIKW); Davenport & Bean (Offense/Defense); Minto (Pyramid Principle); Collins (flywheel) |
 
 Erikoistumisalueet (`specialisation-packs/`) eivät vielä kytkeydy yleiseen
 markkinatutkimukseen samalla tavalla — ne ovat omaa, henkilökohtaista syväosaamista,

@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -23,6 +23,11 @@
       "dir": "change-and-communication",
       "name": "change-and-communication",
       "title": "Change & Communication"
+    },
+    {
+      "dir": "data-strategy-and-literacy",
+      "name": "data-strategy-and-literacy",
+      "title": "Data Strategy & Literacy"
     },
     {
       "dir": "opportunity-recognition",
@@ -399,6 +404,72 @@
       ],
       "owner_input_needed": true,
       "path": "change-and-communication/skills/workshop-and-facilitation-design/SKILL.md"
+    },
+    {
+      "id": "data-ai-strategy-design-and-prioritization",
+      "pack": "data-strategy-and-literacy",
+      "title": "Data Ai Strategy Design And Prioritization",
+      "description": "Muotoilee Data & AI -strategian holistisesti (ei siiloissa) Driver Tree -työkalulla liiketoimintatavoitteiden pilkkomiseen datapisteiksi, ja priorisoi mitä dataa kerätä/käyttää nyt vs. tulevaisuutta varten Data Readiness x Strategic Value -nelikentällä. Käytä kun organisaatio suunnittelee mihin dataan ja AI-kyvykkyyksiin investoida seuraavaksi.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "data-strategy-and-literacy/skills/data-ai-strategy-design-and-prioritization/SKILL.md"
+    },
+    {
+      "id": "data-bias-and-quality-critical-reading",
+      "pack": "data-strategy-and-literacy",
+      "title": "Data Bias And Quality Critical Reading",
+      "description": "Lukee annetun datasetin tai raportin kriittisesti ennen kuin sen perusteella tehdään päätöksiä tai koulutetaan AI-malli: tunnistaa puuttuvat ryhmät, vinoumatyypit (valinta, selviytyjä, historiallinen, mittaus, aggregointi) ja erottaa turhamaisuusmetriikan päätöksiä ohjaavasta mittarista. Käytä aina ennen datapohjaisen väitteen, mallin tai suosituksen hyväksymistä sellaisenaan.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "data-strategy-and-literacy/skills/data-bias-and-quality-critical-reading/SKILL.md"
+    },
+    {
+      "id": "data-literacy-competency-assessment",
+      "pack": "data-strategy-and-literacy",
+      "title": "Data Literacy Competency Assessment",
+      "description": "Arvioi organisaation tai tiimin datalukutaidon nelikenttäkehyksellä (Datan ymmärtäminen, Datasta toimintaan, Datan kautta vaikuttaminen, Etiikka & yksityisyys) ja neliportaisella kypsyystikapuulla, roolikohtaisesti eriytettynä. Käytä ennen datastrategian tai AI-hankkeen käynnistämistä, kun pitää tunnistaa mistä osaamisvaje estää datan hyödyntämistä.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "data-strategy-and-literacy/skills/data-literacy-competency-assessment/SKILL.md"
+    },
+    {
+      "id": "data-monetization-model-selection",
+      "pack": "data-strategy-and-literacy",
+      "title": "Data Monetization Model Selection",
+      "description": "Valitsee ja perustelee sopivan datan monetisointimallin (suora: DaaS/Insight-as-a-Service/datavaihdanta vs. epäsuora: tuotteen rikastaminen/resurssien optimointi/riskien minimointi/Data Flywheel) päätöspuulla ja tarkistaa Data Flywheel -väitteen toteutettavuuden nelikohtaisella listalla. Käytä kun data on validoitu strategiseksi assetiksi ja pitää päättää MITEN sitä monetisoidaan.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "data-strategy-and-literacy/skills/data-monetization-model-selection/SKILL.md"
+    },
+    {
+      "id": "data-role-diagnosis",
+      "pack": "data-strategy-and-literacy",
+      "title": "Data Role Diagnosis",
+      "description": "Diagnosoi ja perustelee, toimiiko data organisaatiossa mahdollistajana (kustannus, operatiivinen tehokkuus) vai strategisena assettina (tuottava, monetisoitava, defensoitava) — heuristisilla testeillä (resale, flywheel, defensibility) ja Offense/Defense-kehyksellä. Käytä ennen datastrategian tai AI-liiketoimintamallin muotoilua, kun pitää määrittää mitä roolia data organisaatiossa TÄNÄÄN näyttelee ja mitä roolia sen HALUTAAN näyttelevän.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "data-strategy-and-literacy/skills/data-role-diagnosis/SKILL.md"
+    },
+    {
+      "id": "data-storytelling-and-business-translation",
+      "pack": "data-strategy-and-literacy",
+      "title": "Data Storytelling And Business Translation",
+      "description": "Kääntää datan, analyysin tai AI-mallin toimintalogiikan päätöksentekijän ymmärtämäksi tarinaksi Data-Information-Insight-Action-tikapuun ja 'so what' -testin avulla. Käytä kun data tai malli pitää esittää sidosryhmälle niin, että se johtaa päätökseen eikä jää pelkäksi raportiksi.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "data-strategy-and-literacy/skills/data-storytelling-and-business-translation/SKILL.md"
     },
     {
       "id": "competitive-and-five-forces-mapping",

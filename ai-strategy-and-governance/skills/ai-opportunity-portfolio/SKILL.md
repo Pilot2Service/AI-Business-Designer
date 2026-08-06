@@ -87,7 +87,10 @@ arvioidaan osin eri kriteerein.
      **data flywheel -potentiaali**: tuottaako ratkaisu käytössä uniikkia
      dataa joka parantaa mallia ajan myötä ja vahvistaa kilpailuetua, vai
      onko kyse kertaluonteisesta datasta ilman itseään vahvistavaa
-     silmukkaa?
+     silmukkaa? Syvempään diagnoosiin (datan rooli, laatu/vinouma,
+     flywheel-väitteen validointi) ks.
+     `../../../data-strategy-and-literacy/skills/data-role-diagnosis/SKILL.md`
+     ja `../../../data-strategy-and-literacy/skills/data-ai-strategy-design-and-prioritization/SKILL.md`.
    - **Strategic Alignment** — tukeeko kohde organisaation 1–3 vuoden
      päästrategiaa, vai on se irrallinen kokeilu?
    - **Speed to Value & Governance/Risk** — toteutusaika sekä

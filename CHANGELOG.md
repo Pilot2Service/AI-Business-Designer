@@ -1,5 +1,55 @@
 # Changelog
 
+## 0.16.0 — 2026-08-06
+
+**Uusi ydinpakki**, `data-strategy-and-literacy/` (6 skilliä, `maturity:
+scaffold`, `source_layer: research`): käyttäjän toimittaman datastrategia-
+ja datalukutaitotutkimuksen pohjalta rakennettu osio sille, miten AI
+Business Designer "lukee" dataa — mikä rooli datalla on organisaatiossa,
+kuinka kriittisesti sitä pitää lukea, miten sen pohjalta viestitään, ja
+miten sitä hyödynnetään strategisesti ja monetisoidaan. Rikastettu
+konsultin heuristiikoilla ja päätöksentekomalleilla lähdeaineiston lisäksi
+(käyttäjän pyynnöstä), esim. resale-/flywheel-/defensibility-testit,
+Offense/Defense-kehys (Davenport & Bean), DIKW-pohjainen Data→Information→
+Insight→Action-tikapuu, Data Flywheel -toteutettavuuden nelikohtainen
+tarkistuslista ja Data Readiness × Strategic Value -priorisointinelikenttä.
+
+6 skilliä:
+
+- `data-role-diagnosis` — diagnosoi toimiiko data mahdollistajana vai
+  strategisena assettina; resale-, flywheel- ja defensibility-testit,
+  Offense/Defense-kehys.
+- `data-literacy-competency-assessment` — arvioi organisaation
+  datalukutaidon DALI-tyyppisellä nelikenttäkehyksellä (Ymmärtäminen,
+  Toimintaan vieminen, Vaikuttaminen, Etiikka) roolikohtaisesti, sekä
+  neliportaisella kypsyystikapuulla.
+- `data-bias-and-quality-critical-reading` — lukee datasetin kriittisesti:
+  viiden vinoumatyypin taksonomia (valinta, selviytyjä, historiallinen,
+  mittaus, aggregointi), turhamaisuus- vs. toimintamittari -testi.
+- `data-storytelling-and-business-translation` — kääntää datan/mallin
+  logiikan Data→Information→Insight→Action-tikapuulla ja "so what"
+  -testillä päätökseen johtavaksi tarinaksi (Minto Pyramid Principle).
+- `data-ai-strategy-design-and-prioritization` — muotoilee Data & AI
+  -strategian Driver Tree -työkalulla, erottelee "mitä voimme tehdä nyt"
+  vs. "mitä pitää rakentaa tulevaisuutta varten" (Agile Value Assessment),
+  priorisoi Data Readiness × Strategic Value -nelikentällä.
+- `data-monetization-model-selection` — valitsee suoran (DaaS,
+  Insight-as-a-Service, datavaihdanta) tai epäsuoran (tuotteen
+  rikastaminen, resurssien optimointi, riskien minimointi, Data Flywheel)
+  monetisointimallin päätöspuulla.
+
+Ristiinlinkitetty `ai-strategy-and-governance/ai-opportunity-portfolio`
+(Data Readiness -ulottuvuus syvenee tähän pakkiin),
+`change-and-communication/executive-narrative-and-storyline` (yleinen
+storyline vs. tämän pakin data-spesifi sovellus),
+`business-case-and-analysis/roi-npv-sensitivity-model` ja
+`specialisation-packs/business-model-canvas` (data-monetisaatiopatternit).
+`playbooks/ai-initiative-scoping.md` päivitetty: `data-role-diagnosis`
+lisätty valinnaisena ensimmäisenä askeleena ennen
+`ai-opportunity-portfolio`-pisteytystä.
+
+Yhteensä nyt 78 skilliä, 8 ydinpakkia + 3 täytettyä erikoistumispakkia.
+
 ## 0.15.0 — 2026-08-06
 
 Käyttäjän pyytämä itsenäisyys- ja anonymisointisiivous ennen julkista

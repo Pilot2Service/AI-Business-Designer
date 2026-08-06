@@ -70,6 +70,15 @@
       }
     },
     {
+      "name": "data-strategy-and-literacy",
+      "displayName": "Data Strategy & Literacy",
+      "source": "./data-strategy-and-literacy",
+      "description": "Datan roolin diagnostiikka (mahdollistaja vs. strateginen assetti), datalukutaidon nelikenttäarviointi, datan kriittinen lukeminen (bias, laatu, edustavuus), data-storytelling liiketoimintakielelle, Data & AI -strategian muotoilu (Driver Tree, Agile Value Assessment) ja datan monetisointimallin valinta (suora vs. epäsuora, Data Flywheel).",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
       "name": "specialisation-ai-native-startup-design",
       "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",
