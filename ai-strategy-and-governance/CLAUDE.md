@@ -66,6 +66,17 @@ vastaavat ERI kysymyksiin — älä sekoita niitä keskenään:
 Kun viittaat johonkin näistä, käytä oikeaa termiä äläkä käytä niitä
 toistensa synonyymeinä — ne korreloivat mutta eivät ole sama luokitus.
 
+Raakalistan kokoamiseen on kaksi täydentävää, EI kilpailevaa, lähestymistapaa
+— älä esitä toista "parempana" ilman kontekstia:
+
+- **Bottom-up** (`task-level-decomposition-and-automation-fit`) — käydään
+  olemassa oleva prosessi läpi tehtävä kerrallaan. Vahva kun prosessi on jo
+  tarkasti kuvattu.
+- **Top-down** (`ai-capability-pattern-matching`) — esitetään valmiin
+  kyvykkyyspatternikirjaston (`references/ai-capability-pattern-library.md`)
+  diagnostiset kysymykset ennen tarkkaa prosessikuvausta. Nopeampi
+  ensimmäinen kartoitus, vaatii validoinnin ennen pisteytystä.
+
 ## Jaetut standardit
 
 Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja

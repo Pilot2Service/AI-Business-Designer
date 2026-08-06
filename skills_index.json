@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -62,6 +62,21 @@
     }
   ],
   "skills": [
+    {
+      "id": "ai-capability-pattern-matching",
+      "pack": "ai-strategy-and-governance",
+      "title": "Ai Capability Pattern Matching",
+      "description": "Käyttää valmista, tutkimuspohjaista 13 AI-kyvykkyyspatternin kirjastoa (ks. ../../references/ai-capability-pattern-library.md) diagnostisten kysymysten esittämiseen uudelle asiakkaalle/toimialalle raakalistan AI-mahdollisuusehdokkaista kokoamiseksi — vaihtoehto tai täydennys tehtävätason pilkkomiselle.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "[redacted], \"[redacted]\" (2026-painos) — 81 tarkistettua käyttötapausta",
+        "McKinsey, \"[redacted]\" (63 käyttötapausta, 16 funktiota)",
+        "Käyttäjän kuvaama Capability Pattern Mapping -menetelmä"
+      ],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-capability-pattern-matching/SKILL.md"
+    },
     {
       "id": "ai-capability-roadmap",
       "pack": "ai-strategy-and-governance",
@@ -485,12 +500,13 @@
       "id": "pattern-and-analogy-connector",
       "pack": "opportunity-recognition",
       "title": "Pattern & Analogy Connector",
-      "description": "Yhdistää irrallisia havaintoja mielekkääksi mahdollisuudeksi tunnistamalla analogioita eri toimialojen/tilanteiden välillä. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "description": "Yhdistää irrallisia havaintoja mielekkääksi mahdollisuudeksi tunnistamalla analogioita eri toimialojen/tilanteiden välillä käyttäen Capability Pattern Mapping -abstraktiomenetelmää: monta pintapuolisesti erilaista casea tiivistetään yhdeksi nimetyksi kyvykkyyspatterniksi, jota käytetään diagnostisena kysymyksenä uudessa kontekstissa. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
         "Tang, Kacmar & Busenitz — association and connection",
-        "Opportunity recognition as pattern recognition -kirjallisuus"
+        "Opportunity recognition as pattern recognition -kirjallisuus",
+        "Käyttäjän kuvaama Capability Pattern Mapping -menetelmä ja esimerkki"
       ],
       "owner_input_needed": true,
       "path": "opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md"

@@ -7,6 +7,7 @@ AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto 
 | Skilli | Kuvaus |
 |---|---|
 | `task-level-decomposition-and-automation-fit` | Pilkkoo roolit/prosessit tehtävätasolle (People Path + Process Path) ja luokittelee jokaisen tehtävän Automate/Augment/Human-Only SML-kriteereillä. |
+| `ai-capability-pattern-matching` | Käyttää 13 AI-kyvykkyyspatternin kirjastoa ([redacted] AI Dossier 2026 + McKinsey [redacted] -ristiintarkistus) diagnostisten kysymysten esittämiseen — top-down-vaihtoehto tehtävätason pilkkomiselle raakalistan kokoamisessa. |
 | `ai-opportunity-portfolio` | Tunnistaa, pisteyttää (5D-malli) ja priorisoi AI-käyttötapaukset 2x2-matriisilla; erottelee inkrementaaliset ja transformatiiviset (Value-Play-taksonomia) mahdollisuudet. |
 | `ai-native-business-model-canvas` | Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla Business Model Canvasilla (VP, data moat, Human-AI Interaction Model, compute-kustannukset). |
 | `ai-use-case-feasibility-and-poc-scoping` | Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen. |
@@ -43,13 +44,21 @@ ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
   [redacted], BCG, Brynjolfsson & Mitchell -synteesi)
 - Yleinen "Shadow IT" -kirjallisuus ja -käytäntö, laajennettuna
   AI-työkalujen kontekstiin
+- [redacted], "[redacted]" (2026-painos) — käyttäjän toimittama PDF-raportti,
+  130 AI-käyttötapausta kuudella toimialalla, Trustworthy AI™ -riskikehys.
+  81 tekstipohjaisesti poimittua ja tarkistettua casea käytetty
+  `references/ai-capability-pattern-library.md`:n pohjana.
+- McKinsey, "[redacted]" (63 käyttötapausta, 16
+  funktiota) — käytetty patternikirjaston ristiintarkistuksena
 
 ## Skillien looginen kulku
 
 ```
-task-level-decomposition-and-automation-fit  (tehtävätason raakalista)
-        │
-        ▼
+task-level-decomposition-and-automation-fit    ai-capability-pattern-matching
+   (bottom-up: tehtävätason raakalista)      (top-down: patternikirjaston
+        │                                     diagnostiset kysymykset)
+        └──────────────────┬──────────────────────────┘
+                            ▼
 ai-opportunity-portfolio  (5D-pisteytys → 2x2-matriisi → priorisoitu backlog)
         │
         ├──► ai-native-business-model-canvas  (jos transformatiivinen)

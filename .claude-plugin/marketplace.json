@@ -19,7 +19,7 @@
       "name": "opportunity-recognition",
       "displayName": "Opportunity Recognition",
       "source": "./opportunity-recognition",
-      "description": "Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman); sisältää myös omistajan validoidun Opportunity Value Assessment -metodologian.",
+      "description": "Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman); sisältää myös omistajan validoidun Opportunity Value Assessment -metodologian sekä Capability Pattern Mapping -abstraktiomenetelmän analogioiden tunnistamiseen.",
       "author": {
         "name": "Pilot2service"
       }
@@ -37,7 +37,7 @@
       "name": "ai-strategy-and-governance",
       "displayName": "AI Strategy & Governance",
       "source": "./ai-strategy-and-governance",
-      "description": "AI-mahdollisuuksien tunnistaminen tehtävätasolta (SML/Dual Decomposition) 5-ulotteiseen pisteytykseen ja 2x2-priorisointiin, transformatiivisten Value Play -mahdollisuuksien tunnistus, AI-native-liiketoimintamallit, roadmapit (3 horisonttia) ja vastuullinen käyttöönotto — mukaan lukien discovery-toimeksiantojen tuotteistus.",
+      "description": "AI-mahdollisuuksien tunnistaminen tehtävätasolta (SML/Dual Decomposition) tai 13 kuratoidun AI-kyvykkyyspatternin ([redacted] AI Dossier 2026 + McKinsey [redacted]) diagnostisilla kysymyksillä, 5-ulotteiseen pisteytykseen ja 2x2-priorisointiin, transformatiivisten Value Play -mahdollisuuksien tunnistus, AI-native-liiketoimintamallit, roadmapit (3 horisonttia) ja vastuullinen käyttöönotto — mukaan lukien discovery-toimeksiantojen tuotteistus.",
       "author": {
         "name": "Pilot2service"
       }

@@ -7,7 +7,7 @@ Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner
 | Skilli | Kuvaus | Kypsyys |
 |---|---|---|
 | `market-and-signal-scanning` | Systemaattinen ympäristön skannaus (markkina, teknologia, sääntely, kilpailu) mahdollisuuksien tunnistamiseksi. | `scaffold` |
-| `pattern-and-analogy-connector` | Yhdistää irrallisia havaintoja mielekkääksi mahdollisuudeksi tunnistamalla analogioita eri toimialojen/tilanteiden välillä. | `scaffold` |
+| `pattern-and-analogy-connector` | Capability Pattern Mapping: abstrahoi pintapuolisesti erilaiset casejoukot yhdeksi nimetyksi, toimialariippumattomaksi patterniksi, joka toimii diagnostisena kysymyksenä uudessa kontekstissa. | `scaffold` |
 | `opportunity-intake-elicitation` | Kerää jäsennellysti lähtötiedot tunnistetusta mahdollisuudesta hyvin muotoilluilla kysymyksillä. | `validated` |
 | `opportunity-evaluation-and-judgment` | Arvioi tunnistetun mahdollisuuden elinkelpoisuuden jäsennellysti ennen resurssien sitomista (yleinen scaffold). | `scaffold` |
 | `opportunity-value-assessment` | Sijoittaa mahdollisuuden houkuttelevuus × toteutettavuus -matriisiin ja arvioi sen 7 näkökulmasta — oma tuotteistettu kehys. | `validated` |
@@ -28,6 +28,12 @@ opportunity-intake-elicitation → opportunity-value-assessment → opportunity-
 
 Ks. myös `market-sizing-tam-sam-som` ja `competitive-and-five-forces-mapping`
 syventävinä tukiskilleinä `opportunity-value-assessment`-vaiheelle.
+
+`pattern-and-analogy-connector`-skillin Capability Pattern Mapping -menetelmästä
+on konkreettinen, AI-ratkaisuihin sovellettu toteutus:
+`../ai-strategy-and-governance/references/ai-capability-pattern-library.md`
+(13 patternia) ja sen käyttöskilli
+`../ai-strategy-and-governance/skills/ai-capability-pattern-matching/SKILL.md`.
 
 ## Ankkurointi
 

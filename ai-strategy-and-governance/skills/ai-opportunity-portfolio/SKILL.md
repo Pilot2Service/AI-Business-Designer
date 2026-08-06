@@ -39,11 +39,17 @@ Tausta-aineisto: `../../../../skills-tutkimus-analyysi.md` ja
 ## Rakenne (luonnos — täydennettävä)
 
 1. **Kokoa raakalista ehdokkaista.** Lähde liikkeelle olemassa olevista
-   kitkakohdista ja arvoketjun pullonkauloista — ei teknologiasta. Jos
-   käytettävissä on tehtävätason analyysi, käytä sitä syötteenä (ks.
-   `../task-level-decomposition-and-automation-fit/SKILL.md` — sen
-   Automate/Augment-luokitellut tehtävät ryhmitellään tässä suuremmiksi
-   mahdollisuuksiksi). Jos ei ole, kerää lista suoraan sidosryhmiltä.
+   kitkakohdista ja arvoketjun pullonkauloista — ei teknologiasta. Kaksi
+   täydentävää tapaa koota raakalista:
+   - **Bottom-up** (jos prosessi on jo kuvattu tarkasti): käytä
+     `../task-level-decomposition-and-automation-fit/SKILL.md`-skilliä —
+     sen Automate/Augment-luokitellut tehtävät ryhmitellään tässä
+     suuremmiksi mahdollisuuksiksi.
+   - **Top-down** (nopea ensimmäinen kartoitus ennen tarkkaa prosessi-
+     kuvausta): käytä `../ai-capability-pattern-matching/SKILL.md`-skilliä
+     — se esittää valmiin kyvykkyyspatternikirjaston diagnostiset
+     kysymykset asiakkaalle ja tuottaa validoidun raakalistan.
+   Jos kumpaakaan ei ole käytetty, kerää lista suoraan sidosryhmiltä.
 2. **Jaa jokainen ehdokas kahteen kaistaan ennen pisteytystä:**
    - **Inkrementaalinen tehostaminen** — nykyinen prosessi tehdään
      nopeammin/halvemmalla. Kustannussäästö- ja nopeusvetoinen (*bottom-
@@ -175,7 +181,8 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 ## Jatka tästä
 
 - Edeltävä skilli samassa pakissa (jos raakalistaa ei vielä ole):
-  `../task-level-decomposition-and-automation-fit/SKILL.md`
+  `../task-level-decomposition-and-automation-fit/SKILL.md` (bottom-up) tai
+  `../ai-capability-pattern-matching/SKILL.md` (top-down)
 - Samassa pakissa seuraavaksi (liiketoimintamallin suunnittelu): `../ai-native-business-model-canvas/SKILL.md` — Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla Business Model Canvasilla.
 - Samassa pakissa seuraavaksi (tekninen validointi): `../ai-use-case-feasibility-and-poc-scoping/SKILL.md` — Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen.
 - Samassa pakissa seuraavaksi (aikataulutus): `../ai-capability-roadmap/SKILL.md`

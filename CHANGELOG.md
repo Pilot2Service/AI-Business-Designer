@@ -1,5 +1,51 @@
 # Changelog
 
+## 0.13.0 — 2026-08-06
+
+AI use case -patteristo: käyttäjän pyynnöstä koottu skills packiin oma
+osio AI-käyttötapausten systemaattiseen tunnistamiseen. Lähtökohtana
+käyttäjän kuvaama **Capability Pattern Mapping** -abstraktiomenetelmä
+(pintapuolisesti erilaiset casejoukot → yksi nimetty, toimialariippumaton
+patterni → diagnostinen kysymys uudessa kontekstissa) sekä kaksi
+käyttäjän toimittamaa/osoittamaa primäärilähdettä: [redacted], "The AI
+Dossier" (2026-painos, PDF, 130 käyttötapausta 6 toimialalla,
+Trustworthy AI™ -riskikehys) ja McKinsey, "Generative AI Use Case
+Catalog" (63 käyttötapausta, 16 funktiota). [redacted]-raportista
+tekstipohjaisesti poimittu ja tarkistettu 81 casea (5/6 toimialaa) —
+jokainen tämän version esimerkkiviittaus on suoraan tästä poiminnasta,
+ei muistista tuotettu.
+
+**Rikastettu** `opportunity-recognition/pattern-and-analogy-connector`
+(pysyy `scaffold`): täytetty yleinen, toimialariippumaton Capability
+Pattern Mapping -menetelmä 7-vaiheisena rakenteena (kerää 3+ erilaista
+havaintoa → nelikysymysabstraktio syöte/toimija/kognitiivinen ydin/
+lopputulos → yhden lauseen patternimääritelmä → diagnostinen kysymys →
+kattavuus-/terävyystestaus → käyttö uudessa kontekstissa → validointi),
+havainnollistettu käyttäjän omalla lasku-/tulli-/CV-dokumentti-
+esimerkillä.
+
+**1 uusi referenssitiedosto**, `ai-strategy-and-governance/references/ai-capability-pattern-library.md`:
+13 nimettyä AI-kyvykkyyspatternia (mm. Moniagenttinen reaaliaikainen
+kompromissioptimointi, Rakenteettoman dokumentin validointi ja
+poikkeaman tunnistus, Pysyvä henkilökohtainen neuvoja/konsierki-agentti,
+Ennakoiva laitehälytys ja autonominen interventio, Näköohjattu fyysinen
+käsittely ja laadunvalvonta, Autonominen liikkuva fyysinen operointi,
+AI-avusteinen ohjelmistokehitys, ym.) — kukin: määritelmä, diagnostinen
+signaalikysymys, AI-tyyppi (Agentic/Physical/muu), 3-6 oikeaa
+esimerkkicasea [redacted]n poiminnasta ja [redacted]n Trustworthy AI
+-riskilinssi. Sisältää läpinäkyvän lähdeselvityksen ja
+McKinsey-ristiintarkistuksen (4 funktiota joissa ~75% arvosta:
+asiakasoperaatiot, markkinointi & myynti, ohjelmistokehitys, T&K —
+kaikki 4 katettu patterneissa).
+
+**1 uusi skilli**, `ai-strategy-and-governance/ai-capability-pattern-matching`,
+`maturity: scaffold`, `source_layer: research`: opettaa patternikirjaston
+käytön top-down-vaihtoehtona `task-level-decomposition-and-automation-fit`
+-skillin bottom-up-lähestymiselle raakalistan kokoamisessa ennen
+`ai-opportunity-portfolio`-pisteytystä. Ristiinlinkitetty molempiin
+pakkeihin (`ai-opportunity-portfolio`, `task-level-decomposition-and-
+automation-fit`, `pattern-and-analogy-connector`).
+
 ## 0.12.0 — 2026-08-06
 
 Analysoitu käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien

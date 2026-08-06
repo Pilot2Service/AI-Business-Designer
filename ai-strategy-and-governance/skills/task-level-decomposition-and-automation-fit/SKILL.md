@@ -147,6 +147,8 @@ lisätä uusia kenttiä** — `name` ja `description` ovat ainoat sallitut
 - Samassa pakissa seuraavaksi: `../ai-opportunity-portfolio/SKILL.md` —
   ryhmittelee ja pisteyttää tämän skillin tuottamat Automate/Augment-
   tehtävät mahdollisuuksiksi.
+- Rinnakkainen, top-down-lähestymistapa (nopea ensimmäinen kartoitus ennen
+  tarkkaa prosessikuvausta): `../ai-capability-pattern-matching/SKILL.md`
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
