@@ -61,6 +61,15 @@
       }
     },
     {
+      "name": "prototyping-and-demonstration",
+      "displayName": "Prototyping & Demonstration",
+      "source": "./prototyping-and-demonstration",
+      "description": "Nopea, uskottava protoilu (mukaan lukien AI-avusteinen \"vibe coding\"), demoilun ja PoC/pilotin oikea kehystäminen asiakasodotusten hallitsemiseksi, demon esitystaito (Great Demo! -metodologia) ja tarina (Amazon Working Backwards/PR-FAQ), sekä silta demosta/PoC:sta business caseen ja ROI-laskelmaan.",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
       "name": "specialisation-ai-native-startup-design",
       "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",

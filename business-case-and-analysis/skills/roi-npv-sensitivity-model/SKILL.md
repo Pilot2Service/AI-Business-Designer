@@ -52,6 +52,9 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../risk-matrix-and-mitigation/SKILL.md` — Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit.
+- Ennen tätä (jos syötteet tulevat demosta/PoC:sta): `../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md`
+  — tee herkkyysanalyysi erityisesti niille oletuksille, jotka tämä skilli
+  merkitsi heikoimmiksi oletusketjussa.
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 

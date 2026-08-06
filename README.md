@@ -1,6 +1,6 @@
 # AI Business Designer — Skills
 
-**Versio:** 0.13.0 · **Tila:** 6 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
+**Versio:** 0.14.0 · **Tila:** 7 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
 
 Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
 Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
@@ -58,6 +58,7 @@ ai-business-designer-skills/
 ├── ai-strategy-and-governance/        [plugin] 11 skilliä
 ├── change-and-communication/          [plugin] 4 skilliä
 ├── business-design-frameworks/        [plugin] 4 skilliä — kasvava kokoelma, ks. alla
+├── prototyping-and-demonstration/     [plugin] 5 skilliä
 ├── specialisation-packs/              omat erikoistumisalueet
 │   ├── ai-native-startup-design/       [mixed] 8 skilliä (5 validated + 3 draft) — ks. alla
 │   ├── business-model-canvas/          [mixed] 7 skilliä (3 validated + 4 scaffold) — ks. alla
@@ -95,7 +96,7 @@ uuden skillin — älä muokkaa `skills_index.json`:ia käsin.
 
 ## Tila ja jatkokehitys
 
-Repossa on nyt 6 ydinpakkia (37 skilliä, joista 33 `scaffold`- ja 4 `validated`-tasolla)
+Repossa on nyt 7 ydinpakkia (45 skilliä, joista 41 `scaffold`- ja 4 `validated`-tasolla)
 ja 3 erikoistumispaikkaa. Suurin osa ydinskilleistä on edelleen `scaffold`-tasolla:
 rakenne, ankkurointi ja kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja
 case-esimerkit puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa
@@ -104,10 +105,17 @@ Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma [redacted]-me
 `business-design-frameworks`-pakin `strategy-canvas-and-value-curve` (Blue Ocean
 Strategy + oma [redacted] 360 -vertailutyökalu).
 
-Uusin ydinpakki, `business-design-frameworks/`, on tarkoituksella avoin ja kasvava
-kokoelma liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
+`business-design-frameworks/` on tarkoituksella avoin ja kasvava kokoelma
+liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
 kategoriamallinnus, strategiakartat/arvokäyrät) — sitä täydennetään jatkossa uusilla
 malleilla sitä mukaa kun niitä tunnistetaan.
+
+Uusin ydinpakki, `prototyping-and-demonstration/`, vastaa kysymykseen "miten
+mahdollisuus tehdään konkreettiseksi ja uskottavaksi": nopea protoilu
+(AI-avusteinen "vibe coding"), demon/PoC:n oikea kehystäminen asiakkaalle
+(PoC vs. Pilotti vs. MVP, "pilot purgatory" -riskin torjunta), demon
+esitystaito (Great Demo! -metodologia) ja tarina (Amazon Working
+Backwards/PR-FAQ), sekä silta demosta business caseen ja ROI-laskelmaan.
 
 `specialisation-packs/` sisältää neljä paikkaa erikoistumisalueille:
 `public-sector-pilot-scaling` on yhä placeholder. Kolme muuta on täytetty:

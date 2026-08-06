@@ -52,6 +52,11 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../benefits-realisation-tracking/SKILL.md` — Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen.
+- Erikoistuneemmat sovellukset demo-/visiointitilanteeseen:
+  `../../../prototyping-and-demonstration/skills/opportunity-visioning-with-pr-faq/SKILL.md`
+  (visio sanoiksi ennen protoilua) ja
+  `../../../prototyping-and-demonstration/skills/demo-delivery-and-storytelling/SKILL.md`
+  (Great Demo! -metodologia livedemoon).
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 

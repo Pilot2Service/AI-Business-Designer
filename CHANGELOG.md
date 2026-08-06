@@ -1,5 +1,45 @@
 # Changelog
 
+## 0.14.0 — 2026-08-06
+
+**Uusi ydinpakki**, `prototyping-and-demonstration/` (5 skilliä,
+`maturity: scaffold`, `source_layer: research`): käyttäjän pyynnöstä
+rakennettu osio demonstraatiotaidoille — miten AI-konsultti rakentaa
+nopeasti toimivan konseptin, kehystää demoilun/protoilun oikein, esittää
+mahdollisuudet vakuuttavasti, ja sitoo tuloksen business case- ja
+ROI-laskentaan. Ankkuroitu laajempaan ulkoiseen tutkimukseen (käyttäjän
+pyynnöstä) ennen rakentamista:
+
+- Cohan, Peter E. / Pearce, Paul H. — "Great Demo! Five Imperatives"
+  (Discovery, Demo Prep, Demo Delivery, Documentation, Debrief; Situation
+  Slide, Critical Business Issue, "tee viimeinen asia ensin"/käänteinen
+  pyramidi)
+- Bryar & Carr — Amazon "Working Backwards" -menetelmä ja PR-FAQ-dokumentti
+- Vibe coding -parhaat käytännöt 2026 (työkaluvalinta, iteraatiosykli,
+  PRD-ensin, tunnetut riskit: hallusinoidut rajapinnat, auth-aukot)
+- PoC vs. Pilotti vs. MVP -erottelu ja "pilot purgatory" -tutkimus
+  (McKinsey/BCG/IDC/MIT-synteesejä: 80–95 % yrityssektorin AI-piloteista
+  ei etene tuotantoon, pullonkaula operatiivinen ei tekninen)
+- Prototyyppifideliteetti-tutkimus (matala vs. korkea fideliteetti)
+- Demo/PoC → ROI-kääntämisen tutkimussynteesi (tekninen suorituskyky vs.
+  liiketoimintavaikutus, oletusketjun läpinäkyvyys, ROI-mekanismin
+  yhteensopivuus asiakkaan organisaatioon)
+
+5 skilliä: `opportunity-visioning-with-pr-faq` (Working Backwards/PR-FAQ),
+`rapid-prototype-and-vibe-coding-craft` (nopea, kurinalainen protoilu),
+`demo-framing-and-expectation-setting` (PoC/Pilotti/MVP-kehys,
+"todistaa/ei todista" -pari, pilot purgatory -torjunta),
+`demo-delivery-and-storytelling` (Great Demo! -sovellus),
+`demo-to-business-case-bridge` (silta business-case-and-analysis-pakkiin).
+
+Ristiinlinkitetty `ai-strategy-and-governance/ai-use-case-feasibility-and-poc-scoping`
+(tekninen rajaus vs. asiakasviestinnän kehys — eri kysymys),
+`change-and-communication/executive-narrative-and-storyline` (yleinen
+storyline vs. tämän pakin demo-/visiointierikoistuminen), sekä
+`business-case-and-analysis/business-case-builder` ja
+`roi-npv-sensitivity-model` (vastaanottavat tämän pakin validoidut
+ROI-syötteet).
+
 ## 0.13.0 — 2026-08-06
 
 AI use case -patteristo: käyttäjän pyynnöstä koottu skills packiin oma

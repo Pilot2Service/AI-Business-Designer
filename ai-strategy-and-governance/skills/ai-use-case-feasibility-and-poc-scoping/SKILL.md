@@ -51,6 +51,10 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../responsible-ai-and-governance-check/SKILL.md` — Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin käytä tämän workspacen tekoalysaantely-plugineja (tekoaly-luokittelu, tekoaly-velvoitteet, tekoaly-vaatimustenmukaisuus).
+- Kun tekninen rajaus on tehty ja PoC pitää rakentaa ja esittää: `../../../prototyping-and-demonstration/skills/rapid-prototype-and-vibe-coding-craft/SKILL.md`
+  (protoilu) ja `../../../prototyping-and-demonstration/skills/demo-framing-and-expectation-setting/SKILL.md`
+  (saman rajauksen kääntäminen asiakasviestinnän kehykseksi — eri kysymys
+  kuin tämän skillin tekninen rajaus, käytä molempia yhdessä).
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 

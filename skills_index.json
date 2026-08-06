@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -28,6 +28,11 @@
       "dir": "opportunity-recognition",
       "name": "opportunity-recognition",
       "title": "Opportunity Recognition"
+    },
+    {
+      "dir": "prototyping-and-demonstration",
+      "name": "prototyping-and-demonstration",
+      "title": "Prototyping & Demonstration"
     },
     {
       "dir": "strategic-thinking",
@@ -510,6 +515,74 @@
       ],
       "owner_input_needed": true,
       "path": "opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md"
+    },
+    {
+      "id": "demo-delivery-and-storytelling",
+      "pack": "prototyping-and-demonstration",
+      "title": "Demo Delivery And Storytelling",
+      "description": "Rakentaa ja pitää demon Great Demo! -metodologian (Situation Slide, kriittinen liiketoimintaongelma/CBI, \\\"tee viimeinen asia ensin\\\"/käänteinen pyramidi) mukaisesti: Discovery → Demo Prep → Demo Delivery → Documentation → Debrief. Käytä kun protoitu ratkaisu pitää esittää asiakkaalle tai johdolle niin, että se todella vakuuttaa eikä vain esittele ominaisuuksia.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Cohan, Peter E. — Great Demo! How To Create And Execute Stunning Software Demonstrations",
+        "Pearce, Paul H. — Great Demo! Five Imperatives"
+      ],
+      "owner_input_needed": true,
+      "path": "prototyping-and-demonstration/skills/demo-delivery-and-storytelling/SKILL.md"
+    },
+    {
+      "id": "demo-framing-and-expectation-setting",
+      "pack": "prototyping-and-demonstration",
+      "title": "Demo Framing And Expectation Setting",
+      "description": "Kehystää demon/protoilun/PoC:n asiakkaalle ennen esittämistä oikealla termillä (PoC vs. Pilotti vs. MVP) ja oikealla lupauksella — mitä tämä demo TODISTAA, mitä se EI todista, ja mitä seuraavaksi tapahtuu jos se onnistuu. Käytä ennen jokaista demoa tai PoC-esitystä, erityisesti kun riskinä on että asiakas ylitulkitsee demon tuotantovalmiudeksi tai automaattiseksi eteneväksi tuotantoon.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "PoC vs. Pilotti vs. MVP -erottelu (usean 2026-lähteen synteesi)",
+        "\"Pilot purgatory\" -tutkimus (McKinsey/BCG/IDC/MIT-synteesejä)"
+      ],
+      "owner_input_needed": true,
+      "path": "prototyping-and-demonstration/skills/demo-framing-and-expectation-setting/SKILL.md"
+    },
+    {
+      "id": "demo-to-business-case-bridge",
+      "pack": "prototyping-and-demonstration",
+      "title": "Demo To Business Case Bridge",
+      "description": "Kääntää demon/PoC:n tulokset business case -kelpoisiksi ROI-syötteiksi: erottelee teknisen suorituskyvyn ja liiketoimintavaikutuksen mittarit, testaa skaalautuuko PoC-mittakaavan tulos vastuullisesti tuotantomittakaavaan, ja tarkistaa vastaako oletettu ROI-mekanismi asiakkaan todellista organisaatiorakennetta. Käytä heti onnistuneen demon/PoC:n jälkeen ennen kuin sen tuloksia syötetään business case- tai ROI-laskelmaan.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Tutkimussynteesi (2026) demon/PoC:n ROI-kääntämisestä liiketoimintakieleksi"
+      ],
+      "owner_input_needed": true,
+      "path": "prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md"
+    },
+    {
+      "id": "opportunity-visioning-with-pr-faq",
+      "pack": "prototyping-and-demonstration",
+      "title": "Opportunity Visioning With Pr Faq",
+      "description": "Kommunikoi ja näyttää AI-mahdollisuuden Amazonin Working Backwards -menetelmällä ennen kuin mitään on rakennettu: kirjoittaa lyhyen tulevaisuuden lehdistötiedotteen (PR) ja kysymys-vastausosion (FAQ) siitä, miltä valmis ratkaisu näyttäisi asiakkaan näkökulmasta. Käytä kun mahdollisuus pitää tehdä konkreettiseksi ja keskustelunalaiseksi ennen protoilua, tai kun proto ei vielä ole mahdollinen/kannattava mutta visio pitää silti kommunikoida vakuuttavasti.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Bryar, Colin & Carr, Bill — Working Backwards: Insights, Stories, and Secrets from Inside Amazon (2021)"
+      ],
+      "owner_input_needed": true,
+      "path": "prototyping-and-demonstration/skills/opportunity-visioning-with-pr-faq/SKILL.md"
+    },
+    {
+      "id": "rapid-prototype-and-vibe-coding-craft",
+      "pack": "prototyping-and-demonstration",
+      "title": "Rapid Prototype And Vibe Coding Craft",
+      "description": "Rakentaa nopeasti toimivan, riittävän uskottavan prototyypin AI-mahdollisuuden todistamiseksi käyttäen AI-avusteista koodausta (\\\"vibe coding\\\") — työkaluvalinta tehtävätyypin mukaan, tiukka prompt/review/testaa/committaa-iteraatiosykli, oikea fideliteettitaso ja tunnetut riskit (hallusinoidut rajapinnat, auth-aukot). Käytä kun tarvitset nopean, todistevoimaisen prototyypin ennen kuin sitoudut isompaan rakennusprojektiin.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [
+        "Vibe coding -parhaat käytännöt 2026 (usean lähteen synteesi)",
+        "Prototyyppifideliteetti-tutkimus (UX-tutkimusperinne)"
+      ],
+      "owner_input_needed": true,
+      "path": "prototyping-and-demonstration/skills/rapid-prototype-and-vibe-coding-craft/SKILL.md"
     },
     {
       "id": "hypothesis-driven-strategy",

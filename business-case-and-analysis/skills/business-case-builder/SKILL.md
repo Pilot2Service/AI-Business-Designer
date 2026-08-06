@@ -53,6 +53,10 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../roi-npv-sensitivity-model/SKILL.md` — Laskee ROI:n, NPV:n ja IRR:n sekä herkkyysanalyysin eri skenaarioissa.
+- Ennen tätä (jos taustalla on demo tai PoC jonka tuloksia käytetään
+  syötteenä): `../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md`
+  — kääntää demon tulokset validoiduiksi, oletusketjultaan läpinäkyviksi
+  ROI-syötteiksi ennen kuin niitä käytetään tässä.
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
