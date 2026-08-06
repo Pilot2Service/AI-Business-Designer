@@ -6,7 +6,7 @@ description: "Valitsee pienimmän toimivan AI-natiivin työkalupinon 12 kategori
 # AI-Native Tool Stack Selection
 
 *Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
-`../../../meta/maturity_levels.md`.*
+`../../../../meta/maturity_levels.md`.*
 
 ## Tarkoitus
 
@@ -92,7 +92,7 @@ nopeasti tällä markkinalla.
   `../closed-loop-process-and-human-oversight-design/SKILL.md` (milloin
   kannattaa siirtyä agentteihin).
 - Liittyvä skilli toisessa pakissa:
-  `../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`
+  `../../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`
   — isomman mittakaavan build/buy/partner-päätös; tämä skilli on
   kevyempi, taktinen valinta pre-startup-vaiheeseen.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`

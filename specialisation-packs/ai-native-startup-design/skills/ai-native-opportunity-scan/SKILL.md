@@ -6,7 +6,7 @@ description: "Käyttää agenttista/closed-loop-linssiä AI:n mahdollistamien, a
 # AI-Native Opportunity Scan
 
 *Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
-`../../../meta/maturity_levels.md`.*
+`../../../../meta/maturity_levels.md`.*
 
 ## Tarkoitus
 
@@ -86,7 +86,7 @@ joka viedään suunnittelun seuraaviin vaiheisiin.
   shifts": klikkaus>kysymys, valikot>promptit, dashboardit>dialogi,
   manuaaliset toiminnot>agentit, ruudut>chat+kortit).
 - Liittyvä skilli toisessa pakissa:
-  `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
 ## Referenssit

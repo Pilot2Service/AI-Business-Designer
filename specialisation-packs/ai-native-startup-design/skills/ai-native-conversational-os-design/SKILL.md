@@ -23,8 +23,7 @@ joukko ruutuja. Se on ajattelukumppani."
 
 - [redacted]n "AI-first SaaS Product" -työpajan menetelmä, sovellettu
   omistajan (Tommi Järvinen) toimesta [redacted]-caseen
-  ("Decision Coach" MVP) — ks. `../../references/[redacted]-workshop-
-  source.md` ja worked example `../../cases/[redacted]-decision-coach-mvp.md`
+  ("Decision Coach" MVP) — ks. `../../references/[redacted]-workshop-source.md` ja worked example `../../cases/[redacted]-decision-coach-mvp.md`
   kohta 8. **Huom:** sovellettu toistaiseksi vain kerran — ei laajasti
   validoitu useammalla eri tuotteella.
 - Työpajan "5 shifts" -periaatteet AI-first-tuotteen suunnittelulle
@@ -147,7 +146,7 @@ Kun tämä osio on täytetty useammalla caseella, nosta
   `../closed-loop-process-and-human-oversight-design/SKILL.md` —
   ihmisen valvontatason valinta Agent Execution -vaiheelle.
 - Liittyvä skilli toisessa pakissa:
-  `../../../business-design-frameworks/skills/customer-journey-and-ai-touchpoint-mapping/SKILL.md`
+  `../../../../business-design-frameworks/skills/customer-journey-and-ai-touchpoint-mapping/SKILL.md`
   — täydentävä tapa jäsentää samaa tuotetta asiakaspolkuna OS-arkkitehtuurin
   sijaan.
 - Worked example: `../../cases/[redacted]-decision-coach-mvp.md` kohta 8.

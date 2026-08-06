@@ -76,7 +76,7 @@ kirjoittamisen (yhteen valittuun suuntaan) välissä.
   poikkeama korkeimmasta pistemäärästä on sallittu jos perusteltu.
 - Ei arvioi taloudellista kannattavuutta tai yksikkötaloutta — vain
   suhteellista priorisointia ratkaisuvaihtoehtojen välillä. Ks.
-  `../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
+  `../../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
   syvempään taloudelliseen mallinnukseen kun MVP on jo valittu.
 - Ei korvaa `../../../opportunity-recognition/skills/opportunity-evaluation-
   and-judgment/SKILL.md`-skilliä — tämä on kapeampi, nopeampi valinta

@@ -88,7 +88,7 @@ asiakaskokemus.
   Numeerinen validointi kuuluu myöhempiin, tarkempiin työkaluihin (ks.
   `bmc_expert_profile.md`:n oma rajaus BMC:n roolista).
   ks. myös `../bmc-tool-switching-decisions/SKILL.md`.
-- Ei korvaa `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`-skilliä
+- Ei korvaa `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`-skilliä
   — tämä skilli on kapeampi ja pattern-kirjastoon sidottu, ei yleinen
   AI-mahdollisuuksien portfolion priorisointityökalu.
 - Ei tuota patterneja tyhjästä — rajoittuu 159 patternin kirjastoon.
@@ -104,7 +104,7 @@ asiakaskokemus.
   `../bmc-tool-switching-decisions/SKILL.md` — milloin siirtyä BMC:stä
   tarkempaan työkaluun patternin validoimiseksi.
 - Liittyvä skilli toisessa pakissa:
-  `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
 ## Referenssit

@@ -6,7 +6,7 @@ description: "Jäsentää alustavan, vapaamuotoisen liiketoimintavision asiakasp
 # Customer Vision to JTBD
 
 *Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
-`../../../meta/maturity_levels.md`.*
+`../../../../meta/maturity_levels.md`.*
 
 ## Tarkoitus
 
@@ -24,8 +24,7 @@ koskaan lähde teknisestä kuvauksesta.
   Session 2 "Planning in the AI Era", vaiheet 1–3 (visio → suunnittelu-
   kumppani → ICP/JTBD/Need Themes/AI-advantage-pisteytys).
 - [redacted]n "AI-first SaaS Product" -työpajan menetelmä (omistajan
-  itse soveltama [redacted]-caseen, ks. `../../references/[redacted]-workshop-
-  source.md` ja `../../cases/[redacted]-decision-coach-mvp.md`) — syventää
+  itse soveltama [redacted]-caseen, ks. `../../references/[redacted]-workshop-source.md` ja `../../cases/[redacted]-decision-coach-mvp.md`) — syventää
   tämän skillin vaiheita 5–7: verbivetoinen JTBD-muotoilu, tarkempi
   5-kriteerinen NMB+AI-advantage-pisteytys (korvaa aiemman yksittäisen
   AI-advantage-pisteen), ja eksplisiittinen AI wedge -valintakriteeristö.
@@ -121,7 +120,7 @@ koskaan lähde teknisestä kuvauksesta.
   ideointi valitulle AI wedgelle. (Jos ratkaisusuunta on jo selvä,
   voit siirtyä suoraan `../ai-buildable-prd-writing/SKILL.md`-skilliin.)
 - Liittyvä skilli toisessa pakissa:
-  `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
+  `../../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
 - Worked example: `../../cases/[redacted]-decision-coach-mvp.md` — täysi [redacted]-case
   vaiheista 4–7.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`

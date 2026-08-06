@@ -91,7 +91,7 @@ Alunperin NASA:n kehittämä 1-9-asteikko teknologian kypsyyden kuvaamiseen.
 TRL 2-3 = konsepti todistettu periaatetasolla; TRL 7-9 = prototyyppi testattu
 toimivassa ympäristössä, valmis skaalaamaan. Matala TRL tarkoittaa enemmän
 kehitystyötä ja riskiä ennen markkinoille pääsyä. Ks. myös
-`../../../specialisation-packs/research-commercialisation/references/terminology.md`.
+`../../specialisation-packs/research-commercialisation/references/terminology.md`.
 
 *Lähde: DOE Tech-to-Market (2021), Technology-to-Market.*
 

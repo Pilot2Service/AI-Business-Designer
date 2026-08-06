@@ -6,7 +6,7 @@ description: "Kirjoittaa PRD:n (Product Requirements Document) AI-rakennusagenti
 # AI-Buildable PRD Writing
 
 *Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
-`../../../meta/maturity_levels.md`.*
+`../../../../meta/maturity_levels.md`.*
 
 ## Tarkoitus
 
@@ -94,8 +94,8 @@ tärkeät valinnat AI:n arvattavaksi.
   tuote, ks. myös `../ai-native-conversational-os-design/SKILL.md` PRD:n
   "Core-ominaisuudet"-osion syventämiseksi.
 - Liittyvä skilli toisessa pakissa:
-  `../../../opportunity-recognition/skills/opportunity-brief-writing/SKILL.md`,
-  `../../../business-case-and-analysis/skills/requirements-and-scope-framing/SKILL.md`
+  `../../../../opportunity-recognition/skills/opportunity-brief-writing/SKILL.md`,
+  `../../../../business-case-and-analysis/skills/requirements-and-scope-framing/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 
 ## Referenssit

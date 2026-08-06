@@ -30,7 +30,7 @@ verrattuna pelkkään tutkimustason scaffoldiin, mutta ei poista vastuuta:
 
 1. **Käsikirjan sisältö** (esim. TRL-määritelmät, rahoitusohjelmien nimet,
    equity-benchmarkit, case-esimerkit) on käytettävissä sellaisenaan — mainitse
-   lähde (`../../references/sources.md`).
+   lähde (`references/sources.md`).
 2. **Käyttäjän oma lähtöarvo** (esim. oman organisaation IP-policy, oma equity-jako,
    oma budjetti) — käytä sitä, älä täydennä tyhjiä kohtia arvauksella.
 3. **Ajantasaisuus** — rahoitusohjelmat (EIC Accelerator, SBIR/STTR, verokannustimet

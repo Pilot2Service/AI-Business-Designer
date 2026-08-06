@@ -39,10 +39,10 @@ Arvioi onko tutkimustuloksella todellista kaupallista potentiaalia ennen kaupall
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../spinout-vs-licensing-pathway/SKILL.md` — Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (equity-pohjainen), lisensointi (rojaltipohjainen) tai hybridi.
-- Liittyvä skilli toisessa pakissa: `../../../opportunity-recognition/skills/opportunity-evaluation-and-judgment/SKILL.md`
+- Liittyvä skilli toisessa pakissa: `../../../../opportunity-recognition/skills/opportunity-evaluation-and-judgment/SKILL.md`
 - Liittyvä skilli toisessa pakissa (omistajan tuotteistettu jatkoarviointi
   markkinoiden houkuttelevuudesta ja toteutettavuudesta):
-  `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
+  `../../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 - Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
 

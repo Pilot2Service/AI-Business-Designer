@@ -43,7 +43,7 @@ Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoitu
 ## Jatka tästä
 
 - Samassa pakissa seuraavaksi: `../commercialisation-journey-roadmap/SKILL.md` — Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoinen roadmap, joka yhdistää vaiheportaat ketterään iterointiin.
-- Liittyvä skilli toisessa pakissa: `../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
+- Liittyvä skilli toisessa pakissa: `../../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 - Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
 

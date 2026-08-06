@@ -32,7 +32,7 @@ Sisältö ei ole geneerinen tutkimuskatsaus vaan omistajan oman, jo pidetyn
 työpajan käytännön menetelmä ja promptit — samalla periaatteella kuin
 `specialisation-packs/research-commercialisation` ([redacted]-käsikirja) ja
 `opportunity-recognition`-pakin owner-skillit (Opportunity Value
-Assessment). Ks. `../../meta/maturity_levels.md`.
+Assessment). Ks. `../../../meta/maturity_levels.md`.
 
 ## Ajantasaisuus
 

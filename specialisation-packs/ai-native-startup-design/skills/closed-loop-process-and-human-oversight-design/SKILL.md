@@ -6,7 +6,7 @@ description: "Jäsentää liiketoimintaprosessit avoimiksi tai suljetuiksi silmu
 # Closed-Loop Process & Human Oversight Design
 
 *Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
-`../../../meta/maturity_levels.md`.*
+`../../../../meta/maturity_levels.md`.*
 
 ## Tarkoitus
 
@@ -81,10 +81,10 @@ in-the-loop/on-the-loop/outside-the-loop-mallilla.
   kokonaan sieltä missä sitä tarvitaan.
 - Ei arvioi yksittäisen AI-työkalun teknistä toteutettavuutta — ks.
   `../ai-native-tool-stack-selection/SKILL.md` ja
-  `../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`.
+  `../../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`.
 - Ei korvaa vastuullisen tekoälyn hallintotarkistusta korkean riskin
   käyttötapauksissa — ks.
-  `../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
+  `../../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
   ja tarvittaessa `tekoalysaantely`-pakki (EU:n tekoälyasetus).
 
 ## Jatka tästä
@@ -93,11 +93,11 @@ in-the-loop/on-the-loop/outside-the-loop-mallilla.
   `../ai-native-opportunity-scan/SKILL.md` (agenttisuuden tunnistus-
   kriteeri, jota tämä skilli syventää).
 - Liittyvä skilli toisessa pakissa:
-  `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
   (Agenttisuuden aste -vaihe),
-  `../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
+  `../../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
 - Liittyvä skilli toisessa pakissa:
-  `../../../business-design-frameworks/skills/value-chain-mapping/SKILL.md`
+  `../../../../business-design-frameworks/skills/value-chain-mapping/SKILL.md`
   — täydentävä tapa jäsentää samaa liiketoimintaa arvoketjuna prosessien
   sijaan.
 - Pakin jaetut suojaukset: `../../CLAUDE.md`

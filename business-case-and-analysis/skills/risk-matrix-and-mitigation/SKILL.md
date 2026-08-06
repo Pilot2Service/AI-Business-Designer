@@ -51,7 +51,7 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 
 ## Jatka tästä
 
-- Kun tämä vaihe on valmis, siirry pakkiin `../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+- Kun tämä vaihe on valmis, siirry pakkiin `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
 - Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
 - Pakin jaetut suojaukset: `../../CLAUDE.md`
 

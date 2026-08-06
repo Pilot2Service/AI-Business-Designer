@@ -1,5 +1,37 @@
 # Changelog
 
+## 0.14.1 — 2026-08-06
+
+Käyttäjän pyytämä kokonaisvaltainen validointi/audit koko skills packista
+(taso, selkeys, aukot/päällekkäisyydet, dokumentaatio, GitHub-julkaisu-
+valmius). Löydökset koottu erilliseen audit-raporttiin. Tässä versiossa
+korjattu kaikki audit-raportin mekaaniset/objektiiviset löydökset:
+
+- **33 rikkinäistä suhteellista linkkiä korjattu** (väärä `../`-syvyys,
+  syntynyt aiemmissa sessioissa erityisesti erikoistumispakkien skilleistä
+  ydinpakkeihin viitattaessa — erikoistumispakin skilli on yksi kansiotaso
+  syvemmällä kuin ydinpakin skilli, mikä unohtui 29 linkissä).
+- **3 rivinvaihtokatkoista tiedostopolkua korjattu** (pitkä polku oli
+  katkennut kesken inline-koodilohkon rivinvaihtoon, esim.
+  `` [redacted]-workshop-\nsource.md `` → `` [redacted]-workshop-source.md ``).
+- **`meta/competency_map.md` päivitetty** — puuttuivat rivit
+  `business-design-frameworks`- ja `prototyping-and-demonstration`-pakeille.
+- **`playbooks/ai-initiative-scoping.md` päivitetty** —
+  `prototyping-and-demonstration`-pakin skillit lisätty ketjuun feasibility-
+  scopingin ja business case -rakentamisen väliin.
+
+**Tunnistettu mutta EI korjattu tässä versiossa** (vaatii omistajan
+päätöksen, ks. audit-raportti): 41 SKILL.md-tiedostoa viittaa kahteen
+tutkimustaustadokumenttiin (`skills-tutkimus-analyysi.md`,
+`markkinan-taito-odotukset-analyysi.md`) jotka sijaitsevat repon
+ULKOPUOLELLA (yksi kansiotaso ylempänä) — nämä linkit toimivat
+paikallisessa työtilassa mutta eivät GitHub-clonessa. Samoin 5 viittausta
+osoittaa joko toiseen, tähän repoon kuulumattomaan Cowork-pluginiin
+(`tekoalysaantely`, `tyooikeus`, `sopimukset`, `yhtiooikeus`) tai toiseen
+mounted-kansioon (`[redacted]`) — nämä ovat tarkoituksellisia
+ekosysteemiviittauksia, ei bugeja, mutta vaativat selkeän dokumentaatio-
+maininnan ennen julkaisua.
+
 ## 0.14.0 — 2026-08-06
 
 **Uusi ydinpakki**, `prototyping-and-demonstration/` (5 skilliä,
@@ -246,8 +278,7 @@ tarkistuksella koko repoa vasten). 4 aitoa aukkoa tunnistettu ja täytetty
 
 ## 0.8.0 — 2026-08-05
 
-Toinen täysin täytetty erikoistumispakki — `specialisation-packs/ai-native-
-startup-design/`, konvertoitu omistajan (Tommi Järvinen) fasilitoimasta
+Toinen täysin täytetty erikoistumispakki — `specialisation-packs/ai-native-startup-design/`, konvertoitu omistajan (Tommi Järvinen) fasilitoimasta
 **AI-native Business Design** -työpajasta pre-startup-perustajille
 ([redacted]/firstkiss.co, pidetty 1.–2.6.2026, julkinen lähde
 github.com/Pilot2Service/AI-training-P6):

@@ -115,7 +115,7 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 
 - Edeltävä skilli samassa pakissa: `../ai-opportunity-portfolio/SKILL.md`
   — tuottaa priorisoidun listan, jonka tämä skilli aikatauluttaa.
-- Kun tämä vaihe on valmis, siirry pakkiin `../../change-and-communication/skills/stakeholder-communication-plan/SKILL.md`
+- Kun tämä vaihe on valmis, siirry pakkiin `../../../change-and-communication/skills/stakeholder-communication-plan/SKILL.md`
 - Liittyvä skilli samassa pakissa: `../ai-discovery-engagement-design/SKILL.md`
   — jos roadmap tuotetaan osana laajempaa discovery-toimeksiantoa,
   tämä skilli vastaa toimeksiannon Vaihe 4:ää.

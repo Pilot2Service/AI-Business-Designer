@@ -100,7 +100,7 @@ erottautuminen), mutta rajoitettua valmiutta (validointi, rahoitus, tiimi)."]
 Lyhyt suositus perusteluineen kolmen kriteerin pohjalta (markkinan koko/tuotto,
 IPR:n suojattavuus, tiimin resurssit/riskinsietokyky). Ks.
 `../skills/opportunity-value-assessment/SKILL.md` kohta 7 ja syvempi analyysi
-`../../../specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md`.
+`../../specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md`.
 
 ## 9. Recommended Next Steps (3-6 kk)
 
