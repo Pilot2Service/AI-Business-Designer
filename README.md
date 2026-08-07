@@ -56,13 +56,16 @@ you always know which one you're looking at. See
 ## Quick start
 
 ```
-/plugin marketplace add <path or URL to this repository>
+/plugin marketplace add Pilot2Service/AI-Business-Designer
 /plugin
 ```
 
-Then install whichever packs match your task (e.g. `opportunity-recognition`,
-`business-case-and-analysis`) from the Discover tab. Full walkthrough,
-including what a good first run looks like: [`QUICKSTART.md`](QUICKSTART.md).
+The first command registers this repository's `.claude-plugin/marketplace.json`
+catalog (marketplace name: `ai-business-designer-skills`); the second opens
+the interactive menu — choose **Browse and install plugins**, pick the
+packs you need (e.g. `opportunity-recognition`, `business-case-and-analysis`),
+and install. Full walkthrough, including what a good first run looks like:
+[`QUICKSTART.md`](QUICKSTART.md).
 
 ## What's inside
 

@@ -5,12 +5,20 @@ pakit: [`README.md`](README.md). Miten agentti käyttää tätä pakkia: [`AGENT
 
 ## 1. Asenna marketplace
 
-Claude Code / Cowork -ympäristössä:
+Claude Code -ympäristössä (Cowork asentaa pluginit omasta liitäntäpaneelistaan —
+periaate on sama, mutta käyttöliittymä eri):
 
 ```
-/plugin marketplace add <tämän repon polku tai GitHub-osoite>
+/plugin marketplace add Pilot2Service/AI-Business-Designer
 /plugin
 ```
+
+Ensimmäinen komento lukee tämän repon `.claude-plugin/marketplace.json`-
+tiedoston GitHubista `owner/repo`-muodossa (marketplacen nimi tulee
+tiedostosta: `ai-business-designer-skills`) — ei kloonaa koko repoa
+paikallisesti, vaan rekisteröi katalogin. Toinen komento avaa valikon: valitse
+**Browse and install plugins**, valitse marketplace, ja asenna sieltä
+haluamasi pakit yksitellen.
 
 ## 2. Valitse yksi pakki
 
@@ -24,7 +32,8 @@ Et tarvitse kaikkia 8 ydinpakkia kerralla. Valitse yksi tehtävän mukaan:
 | "Pitää jäsentää iso, epäselvä ongelma" | `strategic-thinking` |
 | "Miten esitän muutoksen johdolle?" | `change-and-communication` |
 
-Asenna Discover-välilehdeltä valitsemasi pakki (esim. `opportunity-recognition`).
+Asenna valikosta valitsemasi pakki (esim. `opportunity-recognition`). Vaihtoehto
+komennolla suoraan: `/plugin install opportunity-recognition@ai-business-designer-skills`.
 
 ## 3. Aja yksi skilli
 

@@ -118,6 +118,8 @@ def check_packs():
             warnings.append(f"pack '{name}': no skills/ directory yet")
             continue
         for skill_id in sorted(os.listdir(skills_dir)):
+            if not os.path.isdir(os.path.join(skills_dir, skill_id)):
+                continue  # ignore stray files (e.g. macOS .DS_Store) that aren't skill folders
             _check_skill_frontmatter(name, skill_id, os.path.join(skills_dir, skill_id, "SKILL.md"))
     return packs
 
@@ -148,6 +150,8 @@ def check_specialisation_pack_skills():
             errors.append(f"pack '{pack_id}': missing required file CLAUDE.md (required once skills/ is populated)")
         agent_count += check_agents_in(pack_id, full)
         for skill_id in sorted(os.listdir(skills_dir)):
+            if not os.path.isdir(os.path.join(skills_dir, skill_id)):
+                continue  # ignore stray files (e.g. macOS .DS_Store) that aren't skill folders
             _check_skill_frontmatter(pack_id, skill_id, os.path.join(skills_dir, skill_id, "SKILL.md"))
 
 
