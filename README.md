@@ -73,30 +73,31 @@ Eight core packs cover the parts of AI-assisted business design that come up
 across most engagements; three specialisation packs go deeper into a
 specific situation (research commercialisation, AI-native startup design,
 Business Model Canvas facilitation). Read the two tables below as much as a
-map of the discipline as a list of what to install.
+map of the discipline as a list of what to install — **click a pack name to
+see its actual skill-by-skill list** (every skill in this repo, named and
+described in one line, lives in that pack's own `README.md`; nothing here is
+just a number).
 
 ### Core packs
 
 | Pack | Helps you... | Status |
 |---|---|---|
-| `strategic-thinking` | break down a fuzzy problem into a testable hypothesis (MECE / issue trees) | scaffold |
-| `opportunity-recognition` | scan, evaluate, size, and write up a business opportunity | mixed — 3 of 8 skills validated from a real, previously operated service methodology |
-| `business-case-and-analysis` | build an ROI/NPV business case with risks and assumptions made explicit | scaffold |
-| `ai-strategy-and-governance` | prioritize AI use cases, scope a PoC, and check responsible-AI readiness | scaffold |
-| `change-and-communication` | plan change management and executive communication | scaffold |
-| `business-design-frameworks` | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | mixed — 1 of 5 skills validated |
-| `prototyping-and-demonstration` | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | scaffold |
-| `data-strategy-and-literacy` | diagnose data's role in a business and read data critically before trusting it | scaffold |
+| [`strategic-thinking`](strategic-thinking/README.md) | break down a fuzzy problem into a testable hypothesis (MECE / issue trees) | scaffold |
+| [`opportunity-recognition`](opportunity-recognition/README.md) | scan, evaluate, size, and write up a business opportunity | mixed — 3 of 8 skills validated from a real, previously operated service methodology |
+| [`business-case-and-analysis`](business-case-and-analysis/README.md) | build an ROI/NPV business case with risks and assumptions made explicit | scaffold |
+| [`ai-strategy-and-governance`](ai-strategy-and-governance/README.md) | prioritize AI use cases, scope a PoC, and check responsible-AI readiness | scaffold |
+| [`change-and-communication`](change-and-communication/README.md) | plan change management and executive communication | scaffold |
+| [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | mixed — 1 of 5 skills validated |
+| [`prototyping-and-demonstration`](prototyping-and-demonstration/README.md) | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | scaffold |
+| [`data-strategy-and-literacy`](data-strategy-and-literacy/README.md) | diagnose data's role in a business and read data critically before trusting it | scaffold |
 
 ### Specialisation packs
 
 | Pack | What it gives you | Status |
 |---|---|---|
-| `research-commercialisation` | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | validated (12 skills) |
-| `ai-native-startup-design` | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | mixed (5 validated, 3 draft — 8 skills) |
-| `business-model-canvas` | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, and matching a model against a library of known innovation patterns | mixed (3 validated, 4 scaffold — 7 skills) |
-
-Skill-by-skill detail for every pack lives in that pack's own `README.md`.
+| [`research-commercialisation`](specialisation-packs/research-commercialisation/README.md) | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | validated (12 skills) |
+| [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | mixed (5 validated, 3 draft — 8 skills) |
+| [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, and matching a model against a library of known innovation patterns | mixed (3 validated, 4 scaffold — 7 skills) |
 
 ## How maturity is tracked
 
@@ -117,10 +118,10 @@ goes to a decision-maker — a second, independent pass, not a rubber stamp.
 
 | Agent | Pack | What it checks |
 |---|---|---|
-| `assumption-stress-tester` | `business-case-and-analysis` | Adversarially challenges a business case's assumptions before the number goes to leadership |
-| `market-sizing-cross-validator` | `opportunity-recognition` | Cross-checks a TAM/SAM/SOM calculation with an independent top-down/bottom-up method |
-| `competitive-blind-spot-scanner` | `business-design-frameworks` | Looks for un-scanned competitors or angles in a competitive/positioning analysis |
-| `ai-initiative-readiness-auditor` | `ai-strategy-and-governance` | Audits an AI initiative's scoring and governance checklist for gaps before approval |
+| [`assumption-stress-tester`](business-case-and-analysis/agents/assumption-stress-tester.md) | `business-case-and-analysis` | Adversarially challenges a business case's assumptions before the number goes to leadership |
+| [`market-sizing-cross-validator`](opportunity-recognition/agents/market-sizing-cross-validator.md) | `opportunity-recognition` | Cross-checks a TAM/SAM/SOM calculation with an independent top-down/bottom-up method |
+| [`competitive-blind-spot-scanner`](business-design-frameworks/agents/competitive-blind-spot-scanner.md) | `business-design-frameworks` | Looks for un-scanned competitors or angles in a competitive/positioning analysis |
+| [`ai-initiative-readiness-auditor`](ai-strategy-and-governance/agents/ai-initiative-readiness-auditor.md) | `ai-strategy-and-governance` | Audits an AI initiative's scoring and governance checklist for gaps before approval |
 
 None of these agents edit anything — each returns a findings table for a
 human to act on.
