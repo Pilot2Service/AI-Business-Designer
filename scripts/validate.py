@@ -244,15 +244,15 @@ def main():
     check_skills_index()
 
     if warnings:
-        print(f"Varoituksia ({len(warnings)}):")
+        print(f"Warnings ({len(warnings)}):")
         for w in warnings:
             print("  -", w)
     if errors:
-        print(f"\nVIRHEITÄ ({len(errors)}) — validointi EPÄONNISTUI:")
+        print(f"\nERRORS ({len(errors)}) — validation FAILED:")
         for e in errors:
             print("  -", e)
         return 1
-    print(f"OK — {len(packs)} pakkia ja {agent_count} agenttia validoitu, ei virheitä.")
+    print(f"OK — {len(packs)} packs and {agent_count} agents validated, no errors.")
     return 0
 
 

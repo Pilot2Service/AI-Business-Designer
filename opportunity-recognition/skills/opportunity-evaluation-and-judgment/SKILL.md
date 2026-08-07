@@ -1,61 +1,112 @@
 ---
 name: opportunity-evaluation-and-judgment
-description: "Arvioi tunnistetun mahdollisuuden elinkelpoisuuden jäsennellysti ennen resurssien sitomista. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään."
+description: "Structurally assesses the viability of an identified opportunity before committing resources. Use when you need opportunity-recognition-level support for a comparable task."
 ---
 
 # Opportunity Evaluation & Judgment
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Arvioi tunnistetun mahdollisuuden elinkelpoisuuden jäsennellysti ennen resurssien sitomista.
+Structurally assesses the viability of an identified opportunity before
+resources are committed to it — the deliberate, evaluative counterpart to
+the noticing done in `market-and-signal-scanning` and the connecting done in
+`pattern-and-analogy-connector`.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Tang, Kacmar & Busenitz — evaluation and judgment
-- SFIA — Business Situation Analysis
+- Tang, J., Kacmar, K. M., & Busenitz, L. (2012), "Entrepreneurial Alertness
+  in the Pursuit of New Opportunities," *Journal of Business Venturing*,
+  27(1), 77–94 — **evaluation and judgment**, the third of the paper's three
+  dimensions of entrepreneurial alertness (alongside scanning-and-search and
+  association-and-connection, which anchor
+  `../market-and-signal-scanning/SKILL.md` and
+  `../pattern-and-analogy-connector/SKILL.md` respectively). Evaluation and
+  judgment is the deliberate weighing of a noticed opportunity against
+  criteria such as feasibility, risk, and fit — distinct from the earlier,
+  more intuitive noticing and connecting stages.
+- SFIA (Skills Framework for a Digital World) — **Business Situation
+  Analysis**, a professional skill definition describing the systematic
+  investigation of a business situation or problem to identify options,
+  risks, and success criteria before a course of action is chosen.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **State the opportunity as a testable claim, not a description.** Before
+   evaluating, restate the opportunity as a specific claim that could turn
+   out to be false (e.g. "Segment X will pay for Y because Z"), not just a
+   general description of an idea — evaluation only works against a claim
+   that's falsifiable.
+2. **List the criteria the opportunity will be judged against**, decided in
+   advance rather than picked to fit the answer you already want: typically
+   market viability, technical/operational feasibility, resource fit,
+   strategic fit, and risk exposure. Keep the criteria list stable across
+   opportunities you're comparing, so judgments stay comparable.
+3. **Gather the evidence available for each criterion**, and be explicit
+   about the strength of that evidence — a validated customer interview is
+   not the same class of evidence as an internal assumption. Where evidence
+   is missing, mark it, don't fill the gap with a guess
+   (`[assumption — verify]`).
+4. **Apply deliberate judgment, separated from the initial noticing.** This
+   is the step Tang, Kacmar & Busenitz's model is built around: consciously
+   switch from "does this feel promising" (the alertness that got you here)
+   to "does this hold up against the stated criteria" — the two are
+   different cognitive modes, and collapsing them tends to let excitement
+   about the pattern override an honest look at the evidence.
+5. **Identify the single biggest point of uncertainty** — the one
+   assumption that, if wrong, would most change the conclusion. Naming it
+   explicitly turns the evaluation into an actionable next step (test that
+   assumption) rather than a static verdict.
+6. **Produce a structured verdict**: viable / viable with named conditions /
+   not viable as currently framed — each with the reasoning that led there,
+   so the next reader can see *why*, not just *what*.
+7. **Route the outcome onward.** A "viable" or "viable with conditions"
+   result feeds into `../opportunity-value-assessment/SKILL.md` (or this
+   pack's own scoring, once the owner's version is filled in) for a fuller,
+   two-dimensional assessment.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei tee sitovaa go/no-go-päätöstä — jäsentää arviointiperusteet päätöksentekijälle.
+- Doesn't make the final decision for you — it produces a structured draft
+  to support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or clearly flags an assumption
+  (`[assumption — verify]`).
+- Doesn't make a binding go/no-go call — it structures the criteria for the
+  decision-maker.
+- Doesn't skip straight to judgment without first stating the opportunity as
+  a testable claim and naming the evaluation criteria — doing so invites
+  post-hoc rationalization of a conclusion already reached informally.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into `../../references/`)
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new fields
+to the frontmatter** — `name` and `description` are the only ones allowed
+(see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../market-sizing-tam-sam-som/SKILL.md` — Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti.
-- Omistajan validoitu, tuotteistettu versio tästä samasta tehtävästä:
-  `../opportunity-value-assessment/SKILL.md` — konkreettinen 2D-matriisi +
-  7-lenssi-arviointi, `maturity: validated`.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: `../market-sizing-tam-sam-som/SKILL.md` — Quantitatively
+  sizes the market and the genuinely reachable share of it.
+- The owner's validated, productized version of this same task:
+  `../opportunity-value-assessment/SKILL.md` — a concrete 2D matrix + 7-lens
+  assessment, `maturity: validated`.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — this pack's shared guardrails

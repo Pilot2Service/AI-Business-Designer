@@ -1,75 +1,84 @@
-# Jaetut suojaukset — yksi lähde kaikille pakeille
+# Shared guardrails — one source for every pack
 
-Tämä tiedosto on **ainoa lähde** niille suojauksille, jotka koskevat jokaista tämän
-repon pakkia ja jokaista skilliä. Jokaisen pakin `CLAUDE.md` viittaa tähän sen sijaan
-että toistaisi tekstin — jos näitä pitää muuttaa, ne muutetaan **tässä yhdessä
-paikassa**, ei kahdessatoista.
+This file is the **single source** for the guardrails that apply to every
+pack and every skill in this repo. Each pack's `CLAUDE.md` links here
+instead of repeating the text — if these need to change, they're changed
+**in this one place**, not in twelve.
 
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei suojauksiin. Jos
-> skillin oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa
-> virheen, vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus,
-> eivät ensisijainen mekanismi. (Periaate lainattu ja sovellettu
-> claude-for-legal-finland-repon CONTRIBUTING.md:stä.)
-
----
-
-## 1. Vastuuvapaus — luonnos, ei päätös
-
-**Jokainen tuotos on päätöksenteon tueksi tehty luonnos, ei itse päätös.** Analyysin,
-priorisoinnin tai suosituksen tekee skilli; päätöksen ja sen seuraukset kantaa aina
-ihminen, jolla on siihen valtuudet ja vastuu organisaatiossa.
-
-- Älä esitä laskelmaa tai suositusta lopullisena totuutena.
-- Tunnista epävarmuus avoimesti — jos lähtötieto on ohut tai oletuksenvarainen, sano se.
-- Ennen kuin business case, roadmap tai suositus viedään päätöksentekoon: **ihminen
-  tarkistaa ja hyväksyy.**
-
-## 2. Ei keksitä lukuja tai faktoja
-
-Älä tuota tarkkoja markkinakoko-, ROI-, kilpailija- tai muita lukuja muistista tai
-arvauksena esittäen niitä vahvistettuina. Kaksi hyväksyttyä tapaa:
-
-1. **Käyttäjän antama lähtöarvo** — käytä sitä ja mainitse lähde.
-2. **Läpinäkyvä oletus** — merkitse selvästi `[oletus — tarkista]` luvun viereen, älä
-   kappaleen loppuun yleisenä varauksena.
-
-Jos käytettävissä on kytketty ulkoinen data-MCP (ks. `external-data-mcp.md`), sen
-palauttama luku on käsiteltävä samoin kuin käyttäjän antama lähtöarvo — merkitse
-lähde ja hakuajankohta, älä esitä sitä ilman lähdemerkintää.
-
-## 3. Premissien tarkistus
-
-Jos käyttäjän esittämä liiketoimintafakta (markkinan koko, kilpailutilanne, sisäinen
-prosessi) on olennainen lopputuloksen kannalta mutta epävarma, nosta se esiin ennen kuin
-rakennat analyysin sen varaan. Älä jatka hiljaa väärän oletuksen pohjalta.
-
-## 4. Kypsyystaso näkyväksi (yleisperiaate)
-
-Kypsyys ja lähdekerros ovat `skills_index.json`:ssa, ei SKILL.md-frontmatterissa (ks.
-`frontmatter_schema.md` ja `maturity_levels.md`). Kun käytät mitä tahansa tämän repon
-skilliä:
-
-- Tarkista `maturity` ennen kuin esität tulosta auktoritatiivisena.
-- `scaffold`: rakenne ja ankkurointi ovat tutkimuspohjaisia, mutta omaa validoitua
-  kokemusta ei vielä ole liitetty — sano tämä ääneen, älä kuvittele
-  `[OWNER INPUT]`-osion sisältöä.
-- `draft`/`validated`/`canonical`: nojaa enemmän, mutta älä silti esitä lopullisena
-  totuutena (ks. kohta 1).
-
-Pakin oma `CLAUDE.md` kertoo tarkan jakauman kyseiselle pakille.
-
-## 5. Agenttien lisäsuojaus (koskee `agents/*.md`)
-
-Tämän repon agentit ovat **read-only**: ne eivät muokkaa SKILL.md-tiedostoja, aineistoa
-tai skills_index.json:ia. Ne palauttavat aina jäsennellyn löydöstaulukon, ei uutta
-lopullista versiota käyttäjän dokumentista. Agentti ei koskaan itse hyväksy tai hylkää
-liiketoimintapäätöstä — se nostaa esiin mitä ihmisen kannattaa tarkistaa ennen
-päätöstä.
+> **Design principle:** correct behavior belongs in the SKILL.md, not in
+> guardrails. If a skill's correct outcome depends on a guardrail in this
+> file catching a mistake, the fault is in the skill — fix it there. These
+> guardrails are a safety net, not the primary mechanism. (Principle
+> borrowed and adapted from the claude-for-legal-finland repo's
+> CONTRIBUTING.md.)
 
 ---
 
-## Miten pakin CLAUDE.md käyttää tätä
+## 1. Disclaimer — a draft, not a decision
 
-Pakin oma `CLAUDE.md` on lyhyt: viittaa tähän tiedostoon yleissuojausten osalta, ja
-sisältää vain sen mikä on aidosti pakkikohtaista — pakin kypsyysjakauma ja yksi
-pakkikohtainen rajaus. Katso mikä tahansa pakin `CLAUDE.md` esimerkiksi rakenteesta.
+**Every output is a draft to support decision-making, not the decision
+itself.** A skill produces the analysis, prioritization, or recommendation;
+the decision and its consequences always rest with the human who holds the
+authority and accountability in the organization.
+
+- Don't present a calculation or recommendation as final truth.
+- Surface uncertainty openly — if the input data is thin or
+  assumption-driven, say so.
+- Before a business case, roadmap, or recommendation goes into a decision:
+  **a human reviews and approves it.**
+
+## 2. No fabricated numbers or facts
+
+Don't produce precise market-size, ROI, competitor, or other figures from
+memory or guesswork while presenting them as confirmed. Two accepted
+approaches:
+
+1. **User-supplied baseline** — use it and state the source.
+2. **A transparent assumption** — mark it clearly as `[assumption —
+   verify]` next to the number, not as a generic caveat at the end of the
+   paragraph.
+
+If a connected external data MCP is available (see
+`external-data-mcp.md`), treat the number it returns the same way as a
+user-supplied baseline — state the source and the retrieval date, don't
+present it without a source note.
+
+## 3. Premise check
+
+If a business fact the user presents (market size, competitive situation,
+internal process) is material to the outcome but uncertain, raise it before
+building the analysis on top of it. Don't quietly continue on a possibly
+wrong assumption.
+
+## 4. Make maturity visible (general principle)
+
+Maturity and source layer live in `skills_index.json`, not in the SKILL.md
+frontmatter (see `frontmatter_schema.md` and `maturity_levels.md`). When
+using any skill in this repo:
+
+- Check `maturity` before presenting a result as authoritative.
+- `scaffold`: the structure and anchoring are research-grounded, but no own
+  validated experience has been added yet — say this out loud, don't
+  imagine the content of the `[OWNER INPUT]` section.
+- `draft`/`validated`/`canonical`: lean on it more, but still don't present
+  it as final truth (see item 1).
+
+The pack's own `CLAUDE.md` states the exact maturity distribution for that
+pack.
+
+## 5. Additional guardrail for agents (applies to `agents/*.md`)
+
+The agents in this repo are **read-only**: they don't modify SKILL.md
+files, source material, or skills_index.json. They always return a
+structured findings table, not a new final version of the user's document.
+An agent never approves or rejects a business decision itself — it surfaces
+what's worth checking before a human decides.
+
+---
+
+## How a pack's CLAUDE.md uses this
+
+A pack's own `CLAUDE.md` is short: it links here for the general
+guardrails, and contains only what's genuinely pack-specific — the pack's
+maturity distribution and one pack-specific scope note. See any pack's
+`CLAUDE.md` for an example of the structure.

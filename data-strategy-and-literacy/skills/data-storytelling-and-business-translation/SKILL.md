@@ -1,123 +1,129 @@
 ---
 name: data-storytelling-and-business-translation
-description: "Kääntää datan, analyysin tai AI-mallin toimintalogiikan päätöksentekijän ymmärtämäksi tarinaksi Data-Information-Insight-Action-tikapuun ja 'so what' -testin avulla. Käytä kun data tai malli pitää esittää sidosryhmälle niin, että se johtaa päätökseen eikä jää pelkäksi raportiksi."
+description: "Translates the logic of data, an analysis, or an AI model into a story a decision-maker understands, using the Data-Information-Insight-Action ladder and the 'so what' test. Use when data or a model needs to be presented to a stakeholder so that it drives a decision instead of just sitting in a report."
 ---
 
 # Data Storytelling & Business Translation
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Data-analyysi tai AI-malli ei tuota arvoa sillä hetkellä kun se on
-teknisesti valmis — se tuottaa arvoa sillä hetkellä kun joku tekee sen
-perusteella eri päätöksen kuin olisi tehnyt ilman sitä. Moni muuten
-laadukas analyysi jää raportiksi hyllyyn, koska sitä ei käännetty
-kielelle, jolla vastaanottaja voi toimia. Tämä skilli tuottaa siirtymän
-datasta toimintaan: mitä data näyttää, mitä se TARKOITTAA, ja mitä
-vastaanottajan pitäisi TEHDÄ sen perusteella.
+A data analysis or an AI model doesn't produce value the moment it's
+technically finished — it produces value the moment someone makes a
+different decision because of it than they would have made without it.
+Many otherwise solid analyses end up as a report on a shelf because they
+were never translated into language the recipient can act on. This skill
+produces the transition from data to action: what the data shows, what it
+MEANS, and what the recipient should DO based on it.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Datalukutaidon "Datan kautta vaikuttaminen" -osa-alue (ks.
-  `../data-literacy-competency-assessment/SKILL.md`): datan
-  synteesi, visualisointi ja tarinankerronta on oma, erikseen
-  kehitettävä taito, ei automaattinen seuraus hyvästä analyysistä.
-- Data-Information-Knowledge-Wisdom-hierarkia (Ackoff 1989), sovellettuna
-  tässä liiketoiminnan Data → Information → Insight → Action -tikapuuna:
-  raakadata muuttuu informaatioksi kun se jäsennetään, informaatio
-  oivallukseksi kun se tulkitaan kontekstissa, oivallus toiminnaksi vasta
-  kun joku päättää tehdä jotain sen perusteella.
-- Minto, Barbara — Pyramid Principle (*The Minto Pyramid Principle*,
-  1996): vastaus/suositus ensin, perustelut ja data sen jälkeen —
-  käänteinen siihen, miten analyysi yleensä rakennetaan.
+- The "Engaging through data" area of data literacy (see
+  `../data-literacy-competency-assessment/SKILL.md`): synthesizing,
+  visualizing, and narrating data is its own skill that has to be
+  developed separately, not an automatic byproduct of good analysis.
+- The Data-Information-Knowledge-Wisdom hierarchy (Ackoff, 1989), applied
+  here as a business Data → Information → Insight → Action ladder: raw
+  data becomes information once it's structured, information becomes
+  insight once it's interpreted in context, insight becomes action only
+  once someone decides to do something based on it.
+- Minto, Barbara — the Pyramid Principle (*The Minto Pyramid Principle*,
+  1996): the answer/recommendation first, the reasoning and data after —
+  the reverse of how analysis is usually built.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Sijoita löydös Data → Information → Insight → Action -tikapuulle**
-   ennen esittämistä ja tunnista, missä vaiheessa esitys tällä hetkellä
-   on:
-   - **Data:** raakaluvut, taulukot — ei vielä jäsennetty.
-   - **Information:** jäsennetty, visualisoitu — kertoo MITÄ tapahtui.
-   - **Insight:** tulkittu kontekstissa — kertoo MIKSI se tapahtui ja
-     mitä se tarkoittaa liiketoiminnalle.
-   - **Action:** konkreettinen suositus siitä, mitä vastaanottajan
-     pitäisi tehdä seuraavaksi.
-   Suurin osa raporteista jää Information-tasolle. Älä esitä mitään
-   sidosryhmälle ennen kuin olet viety löydös vähintään Insight-tasolle,
-   mieluiten Action-tasolle asti.
-2. **Testaa jokainen luku/kaavio "so what" -kysymyksellä** ennen kuin
-   se päätyy esitykseen: *"Jos vastaanottaja näkee tämän, mitä hänen
-   pitäisi ajatella tai tehdä toisin?"* Jos et pysty vastaamaan, joko
-   poista kaavio tai lisää tulkintavirke joka vastaa kysymykseen —
-   älä jätä vastaanottajan tehtäväksi keksiä "so what" itse.
-3. **Rakenna esitys vastaus ensin -periaatteella (Pyramid Principle):**
-   aloita suosituksella/johtopäätöksellä, ei datan keräämisen
-   kronologialla. Perustelut ja data tulevat sen jälkeen tukemaan jo
-   esitettyä väitettä, eivät johdattele siihen pitkän polun kautta.
-   Poikkeus: jos yleisö on epäluuloinen johtopäätöstä kohtaan, voi olla
-   perusteltua rakentaa evidenssi ensin — mutta tämä on tietoinen valinta,
-   ei oletus.
-4. **Kytke tarina yhteen kriittiseen liiketoimintakysymykseen**, älä
-   yritä kertoa kaikkea mitä data näyttää. Jos analyysissä on useampi
-   kiinnostava löydös, valitse se joka vastaa vastaanottajan tärkeimpään
-   avoimeen kysymykseen juuri nyt — muut löydökset voi liittää liitteeksi.
-5. **Näytä avoimesti, mistä tulkinta eroaa raakadatasta.** Jos analyysi
-   sisältää oletuksia tai tunnistettuja vinoumia (ks.
-   `../data-bias-and-quality-critical-reading/SKILL.md`), mainitse ne
-   lyhyesti tarinan osana — älä piilota niitä, koska piilotettu vinouma
-   joka paljastuu myöhemmin murentaa luottamuksen koko analyysiin.
-6. **Sovita sävy ja syvyys yleisöön.** Tekniselle yleisölle voi näyttää
-   mallin logiikan ja epävarmuusvälit suoraan; johdon yleisölle sama
-   sisältö pitää tiivistää liiketoimintavaikutukseksi ensin ja tekninen
-   syvyys jättää taustamateriaaliksi. Jos yleisö on sekamuotoinen,
-   rakenna kerroksellinen esitys (yhteenveto ensin, syvyys saatavilla
-   kysyttäessä).
+1. **Place the finding on the Data → Information → Insight → Action
+   ladder** before presenting it, and identify what stage the
+   presentation is currently at:
+   - **Data:** raw numbers, tables — not yet structured.
+   - **Information:** structured, visualized — tells WHAT happened.
+   - **Insight:** interpreted in context — tells WHY it happened and
+     what it means for the business.
+   - **Action:** a concrete recommendation for what the recipient should
+     do next.
+   Most reports stay at the Information level. Don't present anything to
+   a stakeholder until the finding has been taken at least to the
+   Insight level, ideally all the way to Action.
+2. **Test every figure/chart with the "so what" question** before it goes
+   into the presentation: *"If the recipient sees this, what should they
+   think or do differently?"* If you can't answer, either drop the chart
+   or add an interpretive sentence that answers the question — don't
+   leave "so what" for the recipient to figure out themselves.
+3. **Structure the presentation answer-first (Pyramid Principle):** start
+   with the recommendation/conclusion, not the chronology of how the
+   data was gathered. Reasoning and data come afterward to support the
+   claim already made, not as a long path leading up to it. Exception:
+   if the audience is skeptical of the conclusion, it may be justified to
+   build the evidence first — but that's a deliberate choice, not the
+   default.
+4. **Anchor the story to one critical business question**, don't try to
+   tell everything the data shows. If the analysis has several
+   interesting findings, pick the one that answers the recipient's most
+   important open question right now — other findings can be attached as
+   an appendix.
+5. **Show openly where the interpretation departs from the raw data.** If
+   the analysis contains assumptions or identified biases (see
+   `../data-bias-and-quality-critical-reading/SKILL.md`), mention them
+   briefly as part of the story — don't hide them, because a hidden bias
+   that surfaces later erodes trust in the whole analysis.
+6. **Match tone and depth to the audience.** For a technical audience, the
+   model's logic and uncertainty ranges can be shown directly; for a
+   leadership audience the same content needs to be condensed into
+   business impact first, with technical depth left as backup material.
+   For a mixed audience, build a layered presentation (summary first,
+   depth available on request).
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee itse data-analyysiä tai mallinnusta — kääntää jo olemassa olevan
-  löydöksen viestiksi.
-- Ei korvaa yleistä esitystaito-/tarinankerrontaskilliä johdolle laajemmin
-  — ks. `../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`
-  yleiselle storyline-rakenteelle; tämä skilli on sen data-spesifi
-  sovellus.
-- Ei kaunistele tai piilota epävarmuutta tehdäkseen tarinasta
-  vakuuttavamman — läpinäkyvyys epävarmuudesta on osa uskottavaa
-  data-storytellingiä, ei sen vastakohta.
-- Ei vahvista lukuja muistista — käyttää käyttäjän antamia lähtöarvoja
-  tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
+- Doesn't do the data analysis or modeling itself — translates an
+  already-existing finding into a message.
+- Doesn't replace a general presentation/storytelling skill for
+  leadership more broadly — see
+  `../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`
+  for the general storyline structure; this skill is its data-specific
+  application.
+- Doesn't dress up or hide uncertainty to make the story more
+  persuasive — transparency about uncertainty is part of credible data
+  storytelling, not its opposite.
+- Doesn't confirm figures from memory — uses the inputs you provide, or
+  marks an assumption clearly (`[assumption — verify]`).
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omia esimerkkejä analyysistä joka jäi Information-tasolle ja miten se
-  olisi pitänyt viedä Insight/Action-tasolle
-- konkreettinen esityspohja Data→Information→Insight→Action-rakenteelle
-  (`../../references/`-kansioon)
-- nyrkkisääntöjä siitä, minkä tyyppinen yleisö vaatii minkäkin syvyisen
-  teknisen taustan näkyviin
+- your own examples of an analysis that stayed at the Information level
+  and how it should have been taken to Insight/Action
+- a concrete presentation template for the Data→Information→Insight→Action
+  structure (into `../../references/`)
+- rules of thumb for which type of audience requires which depth of
+  technical background to be shown
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Ennen tätä: `../data-bias-and-quality-critical-reading/SKILL.md`
-  — varmista luotettavuus ennen kuin rakennat tarinan sen päälle.
-- Ennen tätä (jos yleisön datalukutaito on epäselvä): `../data-literacy-competency-assessment/SKILL.md`
-- Liittyvä skilli toisessa pakissa: `../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`
-  — yleinen johdon tarinarakenne, jota tämä skilli erikoistaa dataan.
-- Liittyvä skilli toisessa pakissa: `../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md`
-  — jos tarina koskee demon/PoC:n tuloksia, käytä sen sijaan tätä siltaa.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Before this: `../data-bias-and-quality-critical-reading/SKILL.md`
+  — confirm reliability before building the story on top of it.
+- Before this (if the audience's data literacy is unclear):
+  `../data-literacy-competency-assessment/SKILL.md`
+- Related skill in another pack: `../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`
+  — the general executive storyline structure that this skill
+  specializes for data.
+- Related skill in another pack: `../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md`
+  — if the story concerns the results of a demo/PoC, use that bridge
+  instead.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

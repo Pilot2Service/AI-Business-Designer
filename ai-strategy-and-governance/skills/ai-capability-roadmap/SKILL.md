@@ -1,123 +1,128 @@
 ---
 name: ai-capability-roadmap
-description: "Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin nykytilasta tavoitetilaan kolmella horisontilla (0-6kk tehostus, 6-18kk muutos, 18-36kk uusi liiketoiminta) sekä AI Target Operating Model (ATOM) / Readiness Scorecard -kuvauksen ihmisen ja tekoälyn työnjaosta."
+description: "Builds the organization's AI capability map and roadmap from the current state to the target state across three horizons (0-6mo efficiency, 6-18mo transformation, 18-36mo new business), plus an AI Target Operating Model (ATOM) / Readiness Scorecard describing the division of labor between humans and AI."
 ---
 
 # AI Capability Roadmap
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Rakentaa organisaation AI-kyvykkyyskartan ja ajoitetun roadmapin
-nykytilasta tavoitetilaan. Vastaa kysymykseen "MILLOIN mikäkin
-priorisoitu AI-mahdollisuus toteutetaan", täydentäen
-`../ai-opportunity-portfolio/SKILL.md`-skilliä, joka vastaa kysymykseen
-"MITÄ kannattaa tehdä ja MINKÄ TYYPPINEN muutos se on".
+Builds the organization's AI capability map and a scheduled roadmap from
+the current state to the target state. Answers the question "WHEN does
+each prioritized AI opportunity get implemented," complementing
+`../ai-opportunity-portfolio/SKILL.md`, which answers "WHAT is worth doing
+and WHAT TYPE of change is it."
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Markkinatutkimus — roadmapit ja liiketoimintakyvykkyyskartat
-- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
-  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
-  (2026) — kolmihorisonttinen Strategic AI Roadmap ja AI Target
-  Operating Model (ATOM) / Readiness Scorecard -konsepti, osana suurten
-  konsulttitalojen discovery-toimeksiantojen luovutettavaa aineistoa.
+- Market research — roadmaps and business capability maps
+- Research digest "Methods, Frameworks, and Competencies for Identifying
+  AI Opportunities and Capacity in Business" (2026) — the three-horizon
+  Strategic AI Roadmap and the AI Target Operating Model (ATOM) /
+  Readiness Scorecard concept, part of the deliverable material of
+  large consulting firms' discovery engagements.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Ota syötteeksi priorisoitu portfolio** `../ai-opportunity-portfolio/SKILL.md`
-   -skilliltä: valitut kohteet pisteineen, Value Play -luokituksineen
-   (jos transformatiivinen) ja Deploy/Reshape/Invent-luokkineen.
-2. **Sijoita jokainen kohde yhteen kolmesta horisontista:**
-   - **Horisontti 1 — Tehostus (0–6 kk).** Nopeat, matalan riskin
-     kohteet. Vastaa tyypillisesti "Quick Wins"-luokkaa
-     `ai-opportunity-portfolio`-skillin 2x2-matriisissa ja usein
-     "Deploy"-luokkaa Deploy-Reshape-Invent-taksonomiassa (valmiiden
-     työkalujen käyttöönotto).
-   - **Horisontti 2 — Muutos (6–18 kk).** Ydinprosessien
-     uudelleensuunnittelu. Vastaa usein "Reshape"-luokkaa — vaatii
-     organisaatiomuutosta, ei vain työkalun käyttöönottoa.
-   - **Horisontti 3 — Uusi liiketoiminta (18–36 kk).** Transformatiiviset,
-     uutta liikevaihtoa luovat kohteet. Vastaa usein "Invent"-luokkaa ja
-     "Strategic Bets" -sijaintia 2x2-matriisissa.
-   **Huomio:** horisontti ja Deploy/Reshape/Invent-luokka KORRELOIVAT
-   mutta eivät ole sama asia — sama Reshape-tason mahdollisuus voi
-   sijoittua Horisonttiin 1 TAI 2 riippuen resursseista ja
-   riippuvuuksista. Älä automaattisesti kopioi luokkaa horisontiksi,
-   arvioi ajoitus erikseen (riippuvuudet, resurssit, organisaation
-   muutoskyky samanaikaisesti käynnissä oleviin hankkeisiin nähden).
-3. **Rakenna AI Target Operating Model (ATOM) / Readiness Scorecard.**
-   Kuvaa jokaiselle horisontille tai keskeiselle kyvykkyysalueelle:
-   - **Ihmisen ja tekoälyn työnjako** — mitkä roolit/tehtävät ovat
-     Automate/Augment/Human-Only (ks.
-     `../task-level-decomposition-and-automation-fit/SKILL.md`) TÄSSÄ
-     vaiheessa roadmapia, ja miten työnjako muuttuu horisontista toiseen
-     siirryttäessä.
-   - **Organisaation valmiustaso** kyvykkyysalueittain (esim. data-
-     arkkitehtuuri, hallintomalli/governance, henkilöstön AI-lukutaito,
-     muutosjohtamiskapasiteetti) — karkea asteikko (matala/keskitaso/
-     korkea) riittää tässä vaiheessa, ei tarvitse tarkkaa kypsyysmallia.
-   - **Kriittiset puuttuvat kyvykkyydet** jotka pitää rakentaa ENNEN
-     kuin seuraavan horisontin kohteita voi aloittaa (esim. Horisontti
-     2 vaatii usein dataputken, jota Horisontti 1 ei vielä tarvinnut).
-4. **Tunnista horisonttien väliset riippuvuudet eksplisiittisesti.**
-   Horisontti 2 ja 3 -kohteet nojaavat usein Horisontti 1:ssä
-   rakennettuun infrastruktuuriin tai organisaation oppimiseen — merkitse
-   nämä riippuvuudet roadmapiin, älä käsittele horisontteja toisistaan
-   irrallisina.
-5. Tuota jäsennelty tulos: horisontoitu roadmap (kohde → horisontti →
-   riippuvuudet → ATOM-työnjakokuvaus) (ks. `../../references/` kun
-   lisätty).
-6. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella
-   tarkistuslistalla. Varmista erityisesti että Horisontti 1
-   -toteutukset eivät vaadi enemmän resursseja kuin organisaatio pystyy
-   antamaan Horisontti 2:n suunnittelun rinnalla.
+1. **Take the prioritized portfolio as input** from
+   `../ai-opportunity-portfolio/SKILL.md`: the selected items with their
+   scores, Value Play classification (if transformative), and
+   Deploy/Reshape/Invent class.
+2. **Place every item into one of three horizons:**
+   - **Horizon 1 — Efficiency (0–6 months).** Fast, low-risk items.
+     Typically corresponds to the "Quick Wins" category in the
+     `ai-opportunity-portfolio` skill's 2x2 matrix and often the
+     "Deploy" category in the Deploy-Reshape-Invent taxonomy (rolling
+     out ready-made tools).
+   - **Horizon 2 — Transformation (6–18 months).** Redesign of core
+     processes. Often corresponds to the "Reshape" category — requires
+     organizational change, not just tool adoption.
+   - **Horizon 3 — New business (18–36 months).** Transformative
+     items that create new revenue. Often corresponds to the "Invent"
+     category and a "Strategic Bets" position in the 2x2 matrix.
+   **Note:** the horizon and the Deploy/Reshape/Invent class CORRELATE
+   but aren't the same thing — the same Reshape-level opportunity can
+   land in Horizon 1 OR 2 depending on resources and dependencies.
+   Don't automatically copy the class as the horizon; assess timing
+   separately (dependencies, resources, the organization's capacity
+   for change relative to other projects already underway).
+3. **Build the AI Target Operating Model (ATOM) / Readiness
+   Scorecard.** Describe for every horizon or key capability area:
+   - **The human-AI division of labor** — which roles/tasks are
+     Automate/Augment/Human-Only (see
+     `../task-level-decomposition-and-automation-fit/SKILL.md`) AT
+     this stage of the roadmap, and how the division of labor changes
+     as the organization moves from one horizon to the next.
+   - **The organization's readiness level** by capability area (e.g.
+     data architecture, governance model, staff AI literacy, change-
+     management capacity) — a rough scale (low/medium/high) is enough
+     at this stage, a precise maturity model isn't needed.
+   - **Critical missing capabilities** that need to be built BEFORE the
+     next horizon's items can start (e.g. Horizon 2 often requires a
+     data pipeline that Horizon 1 didn't yet need).
+4. **Identify the dependencies between horizons explicitly.** Horizon
+   2 and 3 items often rest on infrastructure or organizational
+   learning built in Horizon 1 — mark these dependencies on the
+   roadmap, don't treat the horizons as independent of each other.
+5. Produce a structured output: a horizoned roadmap (item → horizon →
+   dependencies → ATOM division-of-labor description) (see
+   `../../references/` once added).
+6. Validate the result with stakeholders or your own experience-based
+   checklist. Make sure in particular that Horizon 1 implementations
+   don't require more resources than the organization can supply
+   alongside Horizon 2 planning.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei sitouta budjettia tai resursseja — tuottaa roadmap-luonnoksen hyväksyttäväksi.
-- Ei tee itse priorisointia — käyttää `../ai-opportunity-portfolio/SKILL.md`
-  -skillin tuottamaa jo priorisoitua listaa syötteenä, ei arvioi
-  mahdollisuuksien arvoa uudelleen.
-- Ei rakenna täyttä organisaation AI-kypsyysmallia — ATOM/Readiness
-  Scorecard tässä on karkea, roadmapia tukeva kuvaus, ei erillinen
-  kypsyysauditointi.
+- Doesn't make the final decision for you — it produces a structured
+  draft to support a human decision.
+- Doesn't confirm figures, market data, or competitor data from
+  memory — it uses the inputs you provide, or marks an assumption
+  clearly (`[assumption — verify]`).
+- Doesn't commit budget or resources — it produces a roadmap draft for
+  approval.
+- Doesn't do the prioritization itself — it uses the already-
+  prioritized list produced by `../ai-opportunity-portfolio/SKILL.md`
+  as input, it doesn't re-assess the value of opportunities.
+- Doesn't build a full organizational AI maturity model — the ATOM/
+  Readiness Scorecard here is a rough, roadmap-supporting description,
+  not a separate maturity audit.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in
+here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa — esim. kuinka
-  monta Horisontti 1 -kohdetta organisaatio tyypillisesti pystyy
-  ajamaan rinnakkain
-- konkreettiset mallipohjat (`../../references/`-kansioon, esim.
-  ATOM/Readiness Scorecard -template)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique — e.g.
+  how many Horizon 1 items an organization can typically run in
+  parallel
+- concrete templates (into `../../references/`, e.g. an ATOM/Readiness
+  Scorecard template)
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common
+  mistakes) — add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only
+ones allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä skilli samassa pakissa: `../ai-opportunity-portfolio/SKILL.md`
-  — tuottaa priorisoidun listan, jonka tämä skilli aikatauluttaa.
-- Kun tämä vaihe on valmis, siirry pakkiin `../../../change-and-communication/skills/stakeholder-communication-plan/SKILL.md`
-- Liittyvä skilli samassa pakissa: `../ai-discovery-engagement-design/SKILL.md`
-  — jos roadmap tuotetaan osana laajempaa discovery-toimeksiantoa,
-  tämä skilli vastaa toimeksiannon Vaihe 4:ää.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Preceding skill in this pack: `../ai-opportunity-portfolio/SKILL.md`
+  — produces the prioritized list that this skill schedules.
+- Once this step is done, move to `../../../change-and-communication/skills/stakeholder-communication-plan/SKILL.md`
+- Related skill in this pack: `../ai-discovery-engagement-design/SKILL.md`
+  — if the roadmap is produced as part of a larger discovery
+  engagement, this skill corresponds to the engagement's Phase 4.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

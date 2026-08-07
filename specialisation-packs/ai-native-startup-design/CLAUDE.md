@@ -1,76 +1,81 @@
-# AI-Native Startup Design — jaetut suojaukset
+# AI-Native Startup Design — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+The general guardrails (disclaimer, no invented figures, premise checking,
+the principle of making maturity level visible) are collected in one place:
+**see `../../meta/shared-guardrails.md` — read it first.** This file contains
+only what is genuinely pack-specific in this pack.
 
 ---
 
-## Vastuuvapaus tässä pakissa — ei sijoituspäätöstä
+## Disclaimer for this pack — no investment decision
 
-Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi: mitä rakennetaan, millä
-työkaluilla, ja millä resursseilla, on aina perustajan/tiimin oma päätös.
-Toteutettavuus-, potentiaali- ja priorisointiarviot (ks.
-`skills/ai-native-opportunity-scan/SKILL.md`) ovat AI:n arvioita, eivät validoitua
-markkinatietoa.
+In addition to the general disclaimer (`shared-guardrails.md`): what gets
+built, with which tools, and with what resources, is always the founder's/
+team's own decision. Feasibility, potential, and prioritization assessments
+(see `skills/ai-native-opportunity-scan/SKILL.md`) are AI assessments, not
+validated market data.
 
-## Ei keksitä lukuja tai faktoja — ja työkalutieto vanhenee erityisen nopeasti
+## No invented figures or facts — and tool knowledge goes stale especially fast
 
-Yleisen periaatteen lisäksi, tämän pakin sisältö jakautuu kahteen kerrokseen, joita
-tulee käsitellä eri tavoin:
+In addition to the general principle, this pack's content is split into two
+layers that should be treated differently:
 
-1. **Menetelmä** (mindset, closed-loop-ajattelu, ICP/JTBD/Need Themes, PRD-rakenne)
-   on suhteellisen pysyvää — ankkuroitu omistajan pidettyyn työpajaan
-   (`references/workshop-source.md`).
-2. **Työkaluesimerkit** (`references/tool-category-map.md`, `ai-native-tool-stack-
-   selection`-skilli) ovat aikaleimattu tilannekuva kesäkuulta 2026. AI-työkalujen
-   markkina muuttuu viikoittain: hinnoittelu, ilmaiskiintiöt ja jopa kategorian
-   johtavat tuotteet vaihtuvat. Älä esitä näitä nimiä nykyhetken totuutena — ohjaa
-   käyttäjä aina tarkistamaan työkalun senhetkinen tila ennen sitoutumista.
+1. **Methodology** (mindset, closed-loop thinking, ICP/JTBD/Need Themes, PRD
+   structure) is relatively stable — anchored in a workshop the owner
+   facilitated (`references/workshop-source.md`).
+2. **Tool examples** (`references/tool-category-map.md`, the
+   `ai-native-tool-stack-selection` skill) are a time-stamped snapshot from
+   June 2026. The AI tools market changes weekly: pricing, free tiers, and
+   even category-leading products change. Do not present these names as
+   current truth — always direct the user to verify a tool's current status
+   before committing.
 
-## Premissien tarkistus tässä pakissa
+## Premise checking in this pack
 
-Jos käyttäjän esittämä fakta (esim. "meillä on jo tekninen kumppani", "olemme jo
-valinneet backendin") on olennainen lopputuloksen kannalta, käytä sitä sellaisenaan
-äläkä ohita sitä yleisellä oletuksella — nämä skillit on suunniteltu ei-tekniselle
-pre-startup-founderille, mutta moni käyttäjä on jo pidemmällä.
+If a fact stated by the user (e.g. "we already have a technical partner",
+"we've already chosen a backend") is material to the outcome, use it as
+given and don't override it with a generic assumption — these skills are
+designed for a non-technical pre-startup founder, but many users are
+already further along.
 
-## Kypsyystaso tässä pakissa — kaksitasoinen
+## Maturity in this pack — two-tiered
 
-Kaikki tämän pakin skillit ovat `source_layer: owner` (ks.
-`../../skills_index.json` ja `../../meta/maturity_levels.md`), mutta pakissa on
-KAKSI eri kypsyystasoa riippuen siitä kumpaan lähteeseen skilli perustuu:
+All skills in this pack are `source_layer: owner` (see
+`../../skills_index.json` and `../../meta/maturity_levels.md`), but the
+pack has TWO different maturity levels depending on which source the skill
+is based on:
 
 - **`maturity: validated`** — `ai-native-opportunity-scan`,
   `customer-vision-to-jtbd`, `ai-buildable-prd-writing`,
   `closed-loop-process-and-human-oversight-design`,
-  `ai-native-tool-stack-selection`. Perustuvat omistajan USEALLE
-  OSALLISTUJALLE pitämään AI-native Business Design -työpajaan
-  (ks. `references/workshop-source.md`).
+  `ai-native-tool-stack-selection`. Based on the AI-native Business Design
+  workshop the owner ran for MULTIPLE PARTICIPANTS
+  (see `references/workshop-source.md`).
 - **`maturity: draft`** — `ai-differentiator-solution-ideation`,
   `rice-scoring-and-mvp-synthesis`, `ai-native-conversational-os-design`.
-  Perustuvat ulkopuolisen työpajan menetelmään, jonka omistaja on toistaiseksi
-  soveltanut vain KERRAN, yhteen omaan caseen (omistajan Decision Coach — ks.
-  `references/ai-first-saas-workshop-source.md` ja
-  `cases/ai-decision-coach-mvp-case.md`). Ei vielä laajasti validoitu.
+  Based on an external workshop's methodology, which the owner has so far
+  applied only ONCE, to one own case (the owner's Decision Coach — see
+  `references/ai-first-saas-workshop-source.md` and
+  `cases/ai-decision-coach-mvp-case.md`). Not yet broadly validated.
 
-Tee tämä näkyväksi käytössä: kun viittaat `draft`-tason skilliin, mainitse
-että menetelmä on sovellettu vain kerran eikä vielä yhtä laajasti
-testattu kuin pakin `validated`-skillit. Kun viittaat mihin tahansa tämän
-pakin sisältöön, mainitse mihin työpajaan/lähteeseen se perustuu.
+Make this visible in use: when referencing a `draft`-level skill, mention
+that the method has been applied only once and is not yet as broadly
+tested as the pack's `validated` skills. When referencing any content in
+this pack, mention which workshop/source it is based on.
 
-## Pakkikohtainen huomio
+## Pack-specific note
 
-Ei anna oikeudellista tai sijoitusneuvontaa. Rahoitus-, IP-, sopimus- ja
-työoikeuskysymyksissä ohjaa aina oman organisaation juristiin tai asiantuntijaan —
-tarvittaessa käytä rinnalla erillistä juridista, yhtiöoikeudellista, työ-
-oikeudellista, immateriaalioikeudellista tai AI-sääntely-asiantuntemusta
-(näitä ei sisälly tähän skills-pakkiin). AI-agenttien tietoturvasta ja
-skillien/pluginien luotettavuudesta: asenna vain tunnetuista lähteistä (ks.
-`skills/ai-native-tool-stack-selection/SKILL.md`, Mitä tämä skilli EI tee).
+Does not give legal or investment advice. For financing, IP, contract, and
+employment-law questions, always direct the user to their own
+organization's lawyer or advisor — if needed, use separate legal,
+corporate-law, employment-law, IP, or AI-regulation expertise alongside
+this (not included in this skills pack). On AI agent security and the
+trustworthiness of skills/plugins: install only from known sources (see
+`skills/ai-native-tool-stack-selection/SKILL.md`, "What this skill does
+NOT do").
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See `../../meta/frontmatter_schema.md` (what's allowed in the SKILL.md
+frontmatter) and `../../meta/skill_design_principles.md` (what a good
+skill in this repo passes).

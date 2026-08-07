@@ -1,128 +1,130 @@
 ---
 name: strategy-canvas-and-value-curve
-description: "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan 360-vertailutyökalua hyödyntäen."
+description: "Structures competitors or alternative solutions on shared industry competitive factors, maps the industry's 'as-is curve,' and finds ways to break away from or differentiate against it — using the Blue Ocean Strategy model and the owner's 360 comparison tool."
 ---
 
 # Strategy Canvas & Value Curve
 
-*Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
+*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
 `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut samalle "strategiakartalle"
-yhteisten toimialan kilpailutekijöiden avulla, tehdä näkyväksi toimialan
-"peruskäyrä" — se tavanomaisten, oletettujen valintojen joukko, jolla
-useimmat toimijat kilpailevat samalla logiikalla — ja sen jälkeen
-systemaattisesti etsiä tapoja **rikkoa, poiketa tai erottautua** tästä
-peruskäyrästä. Tämä on ennen kaikkea ajattelumalli, ei valmis analyysi:
-skilli auttaa näkemään oman ja kilpailijoiden tarjooman rinnakkain yhdellä
-kuvalla ja kysymään "miksi kilpailemme juuri näillä tekijöillä, ja mitä
-tapahtuisi jos emme kilpailisi?"
+Structures competitors or alternative solutions on the same "strategy map"
+using shared industry competitive factors, makes the industry's "as-is
+curve" visible — the set of conventional, assumed choices that most players
+compete on using the same logic — and then systematically looks for ways to
+**break, deviate from, or differentiate against** this as-is curve. This is
+above all a way of thinking, not a finished analysis: the skill helps you
+see your own and competitors' offerings side by side in a single picture,
+and ask "why are we competing on exactly these factors, and what would
+happen if we didn't?"
 
-## Perustuu
+## Based on
 
-- Kim, W. C. & Mauborgne, R. (2005), *Blue Ocean Strategy* — **Strategy
-  Canvas** (strategiakartta) ja **Value Curve** (arvokäyrä): x-akselilla
-  toimialan kilpailutekijät, y-akselilla kunkin toimijan tarjoama taso
-  kullakin tekijällä; toimijoiden käyrät paljastavat toimialan yhteisen
-  "peruskäyrän" ja poikkeamat siitä. Täydentävät työkalut: **Four Actions
-  Framework / ERRC-ruudukko** (Eliminate–Reduce–Raise–Create eli
-  Poista–Vähennä–Nosta–Luo) uuden arvokäyrän suunnitteluun, ja **Six Paths
-  Framework** uusien erottautumisulottuvuuksien etsimiseen toimialan
-  totuttujen rajojen ulkopuolelta.
-- Omistajan **360 Comparison
-  Factors** -vertailutyökalu — konkreettinen, tuotteistettu pisteytyspohja
-  arvokäyrän rakentamiseen: 0–2-asteikko (0 = heikko/ei tarjota,
-  1 = toimialan keskitaso, 2 = vahva/erottuva) sovellettuna 10 tyypilliseen
-  vertailutekijään, ks. `../../references/360-comparison-template.md`.
+- Kim, W. C. & Mauborgne, R. (2005), *Blue Ocean Strategy* — the **Strategy
+  Canvas** and **Value Curve**: the x-axis lists the industry's competitive
+  factors, the y-axis shows the level each player offers on each factor;
+  the players' curves reveal the industry's shared "as-is curve" and any
+  deviations from it. Complementary tools: the **Four Actions Framework /
+  ERRC grid** (Eliminate–Reduce–Raise–Create) for designing a new value
+  curve, and the **Six Paths Framework** for finding new dimensions of
+  differentiation outside the industry's conventional boundaries.
+- The owner's **360 Comparison
+  Factors** comparison tool — a concrete, productized scoring template for
+  building a value curve: a 0–2 scale (0 = weak/not offered,
+  1 = industry mid-level, 2 = strong/distinctive) applied to 10 typical
+  comparison factors, see `../../references/360-comparison-template.md`.
 
-## Rakenne
+## Method
 
-1. **Valitse vertailtavat toimijat.** Oma ratkaisu + 3–5 relevanttia
-   kilpailijaa tai vaihtoehtoista ratkaisua. Laske mukaan myös "ei mitään
-   tekeminen" / status quo -vaihtoehto, jos asiakas voisi aidosti valita
-   sen — se paljastaa usein todellisimman peruskäyrän.
-2. **Listaa toimialan kilpailutekijät.** Ei vain ilmeisiä
-   tuoteominaisuuksia, vaan kaikki ulottuvuudet, joilla asiakas tosiasiassa
-   vertailee vaihtoehtoja: esim. hinta, laatu, käyttäjäkokemus, design,
-   valikoima, käyttöönottoaika, itsepalveluaste, integraatiot/API,
-   toimitusaika, ominaisuuksien määrä (360-mallin 10 esimerkkitekijää,
-   ks. `../../references/360-comparison-template.md`). Nämä ovat
-   lähtökohta, ei kiinteä lista — poista epärelevantit ja lisää oman
-   toimialan omat tekijät.
-3. **Pisteytä jokainen toimija jokaisella tekijällä.** Käytä yhtenäistä
-   asteikkoa (360-mallissa 0–2: 0 = heikko/ei tarjota, 1 = toimialan
-   keskitaso/standardi, 2 = vahva/selvästi erottuva). Pisteytä rehellisesti
-   — myös oma ratkaisu — ja merkitse selvästi, mikä pisteytys perustuu
-   käyttäjän antamaan tietoon ja mikä on `[oletus — tarkista]`. Älä keksi
-   kilpailijadataa muistista.
-4. **Piirrä strategiakartta.** X-akselilla kilpailutekijät (vaiheen 2
-   järjestyksessä), y-akselilla pistemäärä. Yhdistä jokaisen toimijan
-   pisteet tekijöittäin omaksi käyräksi — tuloksena on visuaalinen
-   strategiakartta, jossa kaikki toimijat näkyvät rinnakkain.
-5. **Tunnista peruskäyrä.** Kohdat, joissa useimpien toimijoiden käyrät
-   kulkevat samansuuntaisesti ja samalla tasolla, ovat toimialan oletetut,
-   itsestään selvät kilpailutekijät ja niiden totuttu taso — tämä on Blue
-   Ocean -ajattelun lähtökohta: toimialat kilpailevat usein samoilla
-   ulottuvuuksilla ja samalla logiikalla, kukaan kyseenalaistamatta sitä.
-6. **Sovella ERRC-ruudukkoa jokaiseen tekijään:**
-   - **Poista (Eliminate):** mitkä toimialan itsestäänselvät tekijät voidaan
-     poistaa kokonaan, koska ne eivät enää tuota asiakkaalle todellista
-     arvoa?
-   - **Vähennä (Reduce):** mitä tekijöitä voidaan tarjota selvästi alle
-     toimialan standardin ilman että asiakasarvo kärsii merkittävästi?
-   - **Nosta (Raise):** mitä tekijöitä voidaan nostaa selvästi yli toimialan
-     standardin?
-   - **Luo (Create):** mitä täysin uusia tekijöitä — joita kukaan
-     toimialalla ei vielä tarjoa — voitaisiin lisätä vertailuun?
-7. **Etsi uusia erottautumisulottuvuuksia toimialan ulkopuolelta** (Six
-   Paths -inspiraatio): vaihtoehtoiset toimialat (mitä asiakas käyttäisi
-   tämän sijaan), strategiset ryhmät toimialan sisällä, ostajaketjun eri
-   roolit (kuka päättää, kuka maksaa, kuka käyttää), täydentävät
-   tuote-/palvelutarjoomat, funktionaalinen vs. emotionaalinen vetovoima, ja
-   ajallinen suunta (mihin trendit vievät toimialaa).
-8. **Piirrä tavoiteltu uusi arvokäyrä** ERRC-päätösten pohjalta ja vertaa
-   sitä peruskäyrään. Testaa Blue Ocean -ajattelun kolmella
-   laatukriteerillä: onko uusi käyrä **fokusoitu** (ei yritä olla paras
-   kaikessa), **divergoiva** (selvästi eri muotoinen kuin peruskäyrä), ja
-   **vakuuttava viestittävä** (kiteytyy yhteen ymmärrettävään lauseeseen)?
-9. **Testaa toteutettavuus.** Onko uusi käyrä aidosti toteutettavissa
-   nykyisillä tai hankittavissa olevilla resursseilla, tuottaako se
-   arvoinnovaatiota (enemmän arvoa joiltain osin, matalammilla
-   kustannuksilla toisilta), ja erottuuko se riittävästi kilpailijoiden
-   käyristä ollakseen puolustettavissa ajan yli.
+1. **Choose the players to compare.** Your own solution + 3–5 relevant
+   competitors or alternative solutions. Also include the "do nothing" /
+   status quo option if the customer could genuinely choose it — it often
+   reveals the truest as-is curve.
+2. **List the industry's competitive factors.** Not just the obvious
+   product features, but every dimension on which the customer actually
+   compares alternatives: e.g. price, quality, user experience, design,
+   variety, setup time, self-service level, integrations/API, delivery
+   time, number of features (the 360 model's 10 example factors, see
+   `../../references/360-comparison-template.md`). These are a starting
+   point, not a fixed list — drop what's irrelevant and add your own
+   industry's own factors.
+3. **Score every player on every factor.** Use a consistent scale (0–2 in
+   the 360 model: 0 = weak/not offered, 1 = industry mid-level/standard,
+   2 = strong/clearly distinctive). Score honestly — including your own
+   solution — and mark clearly which scores are based on information the
+   user provided and which are `[assumption — verify]`. Don't invent
+   competitor data from memory.
+4. **Draw the strategy map.** The x-axis lists the competitive factors (in
+   the order from step 2), the y-axis shows the score. Connect each
+   player's scores across the factors into its own curve — the result is a
+   visual strategy map showing all players side by side.
+5. **Identify the as-is curve.** Points where most players' curves run in
+   the same direction at the same level are the industry's assumed,
+   taken-for-granted competitive factors and their conventional level —
+   this is the starting point of Blue Ocean thinking: industries often
+   compete on the same dimensions with the same logic, without anyone
+   questioning it.
+6. **Apply the ERRC grid to every factor:**
+   - **Eliminate:** which of the industry's taken-for-granted factors can
+     be eliminated entirely, because they no longer create real value for
+     the customer?
+   - **Reduce:** which factors can be offered clearly below the industry
+     standard without meaningfully hurting customer value?
+   - **Raise:** which factors can be raised clearly above the industry
+     standard?
+   - **Create:** what entirely new factors — that no one in the industry
+     yet offers — could be added to the comparison?
+7. **Look for new dimensions of differentiation outside the industry**
+   (Six Paths inspiration): alternative industries (what the customer would
+   use instead), strategic groups within the industry, different roles in
+   the buyer chain (who decides, who pays, who uses), complementary
+   product/service offerings, functional vs. emotional appeal, and the
+   direction of time (where trends are taking the industry).
+8. **Draw the intended new value curve** based on the ERRC decisions and
+   compare it to the as-is curve. Test it against Blue Ocean thinking's
+   three quality criteria: is the new curve **focused** (not trying to be
+   best at everything), **divergent** (clearly different in shape from the
+   as-is curve), and does it have a **compelling tagline** (crystallizes
+   into one understandable sentence)?
+9. **Test feasibility.** Is the new curve genuinely achievable with current
+   or acquirable resources, does it produce value innovation (more value in
+   some respects, at lower cost in others), and is it differentiated enough
+   from competitors' curves to be defensible over time?
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei pisteytä kilpailijoita puolestasi ilman käyttäjän antamaa tietoa tai
-  selvästi merkittyä olettamusta — kilpailijadataa ei generoida muistista.
-- Ei takaa, että uusi arvokäyrä menestyy markkinoilla — työkalu jäsentää
-  ajattelua ja tekee vaihtoehdot näkyviksi; markkina validoi lopputuloksen.
-- Ei korvaa syvällistä rakenteellista kilpailija-analyysia — ks.
+- Doesn't score competitors for you without user-provided information or a
+  clearly marked assumption — competitor data is never generated from
+  memory.
+- Doesn't guarantee that a new value curve will succeed in the market — the
+  tool structures thinking and makes the alternatives visible; the market
+  validates the outcome.
+- Doesn't replace in-depth structural competitive analysis — see
   `../../../opportunity-recognition/skills/competitive-and-five-forces-mapping/SKILL.md`
-  Porterin viiden voiman analyysiin. Strategiakartta on täydentävä,
-  visuaalinen ja erottautumiseen keskittyvä työkalu, ei korvaa toimiala- tai
-  taloudellista analyysia.
-- Ei rajoita vertailutekijöitä 360-mallin 10 esimerkkiin — ne ovat
-  lähtökohta, jota pitää aina räätälöidä toimialan mukaan.
+  for Porter's Five Forces analysis. The strategy canvas is a complementary,
+  visual, differentiation-focused tool, not a substitute for industry or
+  financial analysis.
+- Doesn't limit comparison factors to the 360 model's 10 examples — they're
+  a starting point that should always be customized to the industry.
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävät skillit samassa pakissa: `../layer-based-business-structuring/SKILL.md`,
+- Preceding skills in the same pack: `../layer-based-business-structuring/SKILL.md`,
   `../value-chain-mapping/SKILL.md`, `../category-definition-and-modeling/SKILL.md`
-  — kun uusi arvokäyrä on hahmoteltu, näillä voi jäsentää *miten* se
-  toteutetaan (kerrokset, arvoketju) ja *miten* se asemoidaan
-  (kategoriapäätös).
-- Liittyvä skilli toisessa pakissa: `../../../opportunity-recognition/skills/competitive-and-five-forces-mapping/SKILL.md`
-  — rakenteellinen täydennys tälle visuaaliselle erottautumistyökalulle.
-- Liittyvä skilli toisessa pakissa: `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
-  — uuden arvokäyrän tuottama erottautuminen syötteenä mahdollisuuden
-  arviointiin.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  — once a new value curve has been sketched, these can structure *how* it
+  gets implemented (layers, value chain) and *how* it gets positioned
+  (category decision).
+- Related skill in another pack: `../../../opportunity-recognition/skills/competitive-and-five-forces-mapping/SKILL.md`
+  — a structural complement to this visual differentiation tool.
+- Related skill in another pack: `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
+  — the differentiation produced by a new value curve as an input to
+  opportunity assessment.
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/360-comparison-template.md` — 360 Comparison
-  Factors -mallipohja (10 esimerkkitekijää, 0–2-asteikko, käyttöohje)
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/360-comparison-template.md` — the 360 Comparison
+  Factors template (10 example factors, 0–2 scale, usage instructions)
+- `../../CLAUDE.md` — the pack's shared guardrails

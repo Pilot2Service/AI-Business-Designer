@@ -1,7 +1,7 @@
 {
   "name": "business-design-frameworks",
   "displayName": "Business Design Frameworks",
-  "description": "Kasvava kokoelma liiketoiminnan, arvonluonnin ja asemoinnin jäsentämis- ja mallinnustapoja (kerrosmallit, arvoketjut, kategoriamallinnus, ja lisää myöhemmin).",
+  "description": "A growing collection of ways to structure and model business, value creation, and positioning (layer models, value chains, category modeling, and more to come).",
   "version": "0.1.0",
   "author": {
     "name": "Pilot2service"

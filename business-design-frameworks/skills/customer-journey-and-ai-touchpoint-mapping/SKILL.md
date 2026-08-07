@@ -1,94 +1,109 @@
 ---
 name: customer-journey-and-ai-touchpoint-mapping
-description: "Kartoittaa asiakkaan palvelupolun vaiheet ja kitkakohdat, ja sijoittaa AI:n palvelupolulle vain niihin kohtiin, joissa se tuottaa aidosti arvoa asiakkaalle — ei teknologia edellä."
+description: "Maps the stages and friction points of a customer's service journey, and places AI on the journey only at the points where it genuinely creates value for the customer — not technology-first."
 ---
 
 # Customer Journey & AI Touchpoint Mapping
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Kartoittaa asiakkaan palvelupolku vaihe vaiheelta asiakkaan näkökulmasta,
-tunnistaa kitkakohdat, ja päättää tietoisesti mihin kohtiin polkua AI
-kannattaa sijoittaa — vain sinne missä se poistaa aidon kitkan tai luo
-uutta arvoa, ei kaikkialle missä se on teknisesti mahdollista.
+Maps the customer's service journey stage by stage from the customer's own
+point of view, identifies friction points, and deliberately decides where
+on the journey AI is worth placing — only where it removes real friction or
+creates new value, not everywhere it's technically possible.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Service design / customer journey mapping -perinne (yleisesti tunnettu
-  palvelumuotoilun tekniikka, esim. Stickdorn & Schneider, *This Is
-  Service Design Thinking*).
-- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
-  aikakaudella" (2026) — konseptoinnin ja mallintamisen osio: strategiset
-  tavoitteet käännetään palvelupoluiksi ja prototyypeiksi, ja AI
-  sijoitetaan polulle arvoa tuovalla tavalla.
+- The service design / customer journey mapping tradition (a widely known
+  service design technique, e.g. Stickdorn & Schneider, *This Is Service
+  Design Thinking*).
+- A research report supplied by the user, "AI Business Designer in the Age
+  of AI" (2026) — the concept-and-modeling section: strategic goals are
+  translated into service journeys and prototypes, and AI is placed on the
+  journey in a way that adds value.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Valitse tarkasteltava asiakaspolku (esim. ostoprosessi, onboarding,
-   tukiprosessi) ja rajaa sen alku- ja loppupiste.
-2. Kartoita palvelupolun vaiheet asiakkaan näkökulmasta kronologisesti —
-   mitä asiakas tekee, ajattelee ja tuntee kussakin vaiheessa.
-3. Tunnista kitkakohdat (pain points): missä vaiheissa asiakas kokee
-   turhautumista, epävarmuutta, hidastumista tai tarpeetonta vaivaa?
-4. Kussakin kitkakohdassa kysy: onko tämä ongelma, jossa tekoäly voisi
-   tuoda aidosti arvoa asiakkaalle — ei vain sisäistä tehokkuutta? Käytä
-   `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`:n
-   triagia (ennustus/luokittelu/generointi + datan saatavuus) tähän
-   arviointiin.
-5. Sijoita AI-kosketuspisteet (AI touchpoints) palvelupolulle vain niihin
-   kohtiin, joissa ne poistavat aidon kitkan tai luovat uutta arvoa —
-   vältä AI:n lisäämistä pelkästään koska se on mahdollista.
-6. Tarkista kokonaiskuva: tuottaako AI-kosketuspisteiden summa
-   yhtenäisen, johdonmukaisen kokemuksen vai hajanaisen kokoelman
-   pistemäisiä tekoälyominaisuuksia?
-7. Tuota jäsennelty palvelupolkukartta (vaihe, kitkakohta, AI-kosketuspiste
-   tai ei, perustelu) ja validoi se asiakasdatalla tai -haastatteluilla,
-   ei vain sisäisellä oletuksella.
+1. **Choose the customer journey to examine** (e.g. the purchase process,
+   onboarding, a support process) and set its start and end points.
+2. **Map the journey's stages chronologically from the customer's point of
+   view** — what the customer does, thinks, and feels at each stage. Use a
+   standard journey-map structure (stage, customer action, customer
+   thought, customer emotion, touchpoint/channel) so the map stays
+   comparable across projects.
+3. **Identify friction points (pain points):** at which stages does the
+   customer experience frustration, uncertainty, delay, or unnecessary
+   effort? Distinguish friction the customer actually notices from friction
+   that's only visible internally (e.g. a manual handoff between two teams
+   that the customer never sees) — this skill maps the former.
+4. **At each friction point, ask whether this is a problem where AI could
+   genuinely create value for the customer** — not just internal
+   efficiency. Use the triage in
+   `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+   (prediction/classification/generation + data availability) for this
+   assessment, and check specifically: does removing this friction change
+   what the customer *experiences*, or only what happens behind the scenes?
+   Internal efficiency gains belong in a value chain or automation-fit
+   analysis, not on this map.
+5. **Place AI touchpoints on the journey only at the points where they
+   remove real friction or create new value** — resist adding AI simply
+   because it's possible. A journey stage with no identified friction point
+   is a candidate for *no* AI touchpoint, and that's a legitimate outcome
+   of this exercise, not a gap to fill.
+6. **Check the overall picture:** does the sum of the AI touchpoints
+   produce a coherent, consistent experience, or a scattered collection of
+   isolated AI features that each solve a local problem but don't add up to
+   a journey the customer would describe as "better"?
+7. **Produce a structured journey map** (stage, friction point, AI
+   touchpoint or not, rationale) and validate it with customer data or
+   interviews, not just an internal assumption.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei korvaa oikeaa asiakastutkimusta — kitkakohtien tunnistus perustuu
-  parhaimmillaan oikeaan asiakasdataan, ei pelkkään sisäiseen oletukseen.
-- Ei tee AI-toteutuspäätöstä puolestasi — ks.
+- Doesn't replace real customer research — identifying friction points is
+  only as good as the customer data behind it, not an internal assumption.
+- Doesn't make the AI implementation decision for you — see
   `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-  ja `ai-use-case-feasibility-and-poc-scoping` tekniseen/liiketoiminnalliseen
-  arviointiin.
-- Ei ole sama asia kuin `../value-chain-mapping/SKILL.md` — arvoketju
-  katsoo yrityksen sisäisiä toimintoja, tämä skilli katsoo asiakkaan
-  kokemusta ulkoa käsin.
+  and `ai-use-case-feasibility-and-poc-scoping` for the technical/business
+  assessment.
+- Isn't the same thing as `../value-chain-mapping/SKILL.md` — the value
+  chain looks at the company's internal activities; this skill looks at the
+  customer's experience from the outside in.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt siitä, milloin AI-kosketuspiste kannattaa lisätä
-  palvelupolulle vs. milloin ei
-- konkreettiset mallipohjat (`../../references/`-kansioon, esim.
-  journey map -template)
-- referenssitapaukset / omat caset onnistuneesta tai epäonnistuneesta
-  AI-kosketuspisteen sijoittelusta
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb for when an AI touchpoint is worth adding to the
+  journey vs. when it isn't
+- concrete templates (into `../../references/`, e.g. a journey-map
+  template)
+- reference cases / your own examples of a successful or failed AI
+  touchpoint placement
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Liittyvä skilli samassa pakissa: `../value-chain-mapping/SKILL.md`
-  (täydentävä sisäinen näkökulma), `../strategy-canvas-and-value-curve/SKILL.md`
-  (kitkakohdat voivat olla erottautumistekijöitä kilpailijoihin nähden).
-- Liittyvä skilli toisessa pakissa:
+- Related skill in the same pack: `../value-chain-mapping/SKILL.md`
+  (a complementary internal perspective), `../strategy-canvas-and-value-curve/SKILL.md`
+  (friction points can be sources of differentiation against competitors).
+- Related skill in another pack:
   `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`,
   `../../../specialisation-packs/ai-native-startup-design/skills/customer-vision-to-jtbd/SKILL.md`
-  (JTBD-pohjainen asiakasymmärrys tukee palvelupolun rakentamista).
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  (JTBD-based customer understanding supports building the journey).
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

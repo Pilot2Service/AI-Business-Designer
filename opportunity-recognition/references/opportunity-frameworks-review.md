@@ -1,104 +1,108 @@
-# Kirjallisuuskatsaus: mahdollisuuksien arviointikehykset
+# Literature review: opportunity assessment frameworks
 
-Lähde: omistajan koostama "S1 — Opportunity Package" -taustadokumentti ja kirjallisuuskatsaus. Käyttää
-`opportunity-value-assessment`- ja `opportunity-intake-elicitation`-skillejä.
-`source_layer: curated_research` — julkista kirjallisuutta, jonka omistaja on
-valikoinut ja soveltanut oman palvelunsa pohjaksi.
+Source: the owner's own compiled "S1 — Opportunity Package" background
+document and literature review. Used by the `opportunity-value-assessment`
+and `opportunity-intake-elicitation` skills. `source_layer: curated_research`
+— public literature that the owner has selected and applied as the basis for
+their own service.
 
 ## Mullins' Seven Domains Model
 
-John Mullinsin malli arvioi mahdollisuuden elinkelpoisuutta seitsemän osa-alueen
-kautta, jotka jakautuvat kahteen ryhmään:
+John Mullins' model assesses an opportunity's viability across seven
+domains, grouped into two categories:
 
-**Kolme markkinakeskeistä osa-aluetta:**
-1. Kohdemarkkinan koko, kasvu ja kannattavuus
-2. Toimialan houkuttelevuus ja kilpailutilanne
-3. Tarkkaan määritellyn kohdesegmentin tarve ja hyöty
+**Three market-facing domains:**
+1. Target market size, growth, and profitability
+2. Industry attractiveness and competitive landscape
+3. The need and benefit for a precisely defined target segment
 
-**Neljä organisaatiokeskeistä osa-aluetta:**
-4. Kestävä kilpailuetu — mikä tekee ratkaisusta ainutlaatuisen
-5. Yrittäjätiimin tai johdon missio, tavoitteet ja riskinsietokyky
-6. Verkostot ja suhteet arvoketjussa kumppaneihin/toimittajiin
-7. Kyky toteuttaa kriittiset menestystekijät käytännössä
+**Four organization-facing domains:**
+4. Sustainable competitive advantage — what makes the solution unique
+5. The entrepreneurial team's or management's mission, goals, and risk tolerance
+6. Networks and relationships in the value chain with partners/suppliers
+7. Ability to actually deliver the critical success factors in practice
 
-Ydinajatus: markkinakysyntä ja ulkoiset mahdollisuudet on kohdattava sisäisen
-kyvykkyyden kanssa — vain näin syntyy aidosti toteuttamiskelpoinen ja kestävä
-liiketoiminta. Malli sopii sekä startup-ideoiden että olemassa olevan yrityksen
-uusien avausten arviointiin, ja auttaa tunnistamaan heikot kohdat (esim. liian
-pieni markkina tai puutteet tiimin osaamisessa) ennen suurten resurssien
-sitomista.
+Core idea: market demand and external opportunity have to meet internal
+capability — only then does a genuinely implementable and sustainable
+business emerge. The model suits both the assessment of startup ideas and
+new initiatives within an existing company, and helps identify weak points
+(e.g. too small a market or gaps in team capability) before major resources
+are committed.
 
-*Lähde: Soren Kaplan (2023), Mullin's Seven Domains Model in Business Strategy.*
+*Source: Soren Kaplan (2023), Mullin's Seven Domains Model in Business Strategy.*
 
-## Timmons-malli
+## The Timmons Model
 
-Jeffry Timmonsin yrittäjyysmalli korostaa kolmea keskeistä, jatkuvassa
-vuorovaikutuksessa olevaa tekijää:
+Jeffry Timmons' entrepreneurship model highlights three core factors in
+continuous interaction:
 
-- **Tiimi** — perustajien ja toteuttajien osaaminen, kokemus ja verkostot
-- **Mahdollisuus** — liikeidean markkinapotentiaali, kilpailuetu ja skaalautuvuus
-- **Resurssit** — rahoitus sekä muut tarvittavat resurssit (teknologia,
-  tuotantokapasiteetti, kumppanit)
+- **Team** — the founders' and operators' skills, experience, and networks
+- **Opportunity** — the business idea's market potential, competitive
+  advantage, and scalability
+- **Resources** — funding and other required resources (technology,
+  production capacity, partners)
 
-Ydinajatus: erinomainen tiimi voi kompensoida niukkoja resursseja alkuvaiheessa,
-tai erittäin lupaava markkinamahdollisuus voi houkutella tarvittavat resurssit
-myöhemmin. Jos jokin näistä kolmesta on liian heikko, koko mahdollisuus horjuu.
+Core idea: an excellent team can compensate for scarce resources early on,
+or a highly promising market opportunity can attract the necessary resources
+later. If any one of the three is too weak, the whole opportunity wobbles.
 
-*Lähde: Fiveable (2023), Opportunity Assessment Frameworks.*
+*Source: Fiveable (2023), Opportunity Assessment Frameworks.*
 
 ## Product Opportunity Evaluation Matrix (POEM)
 
-Kaksiulotteinen matriisi, jossa vaaka-akseli edustaa mahdollisuuden
-**feasibility**a (tekninen ja taloudellinen toteutettavuus) ja pystyakseli
-**attractiveness**ia (markkinan ja arvontuoton houkuttelevuus). Kutakin
-ideaa arvioidaan useiden tekijöiden perusteella (markkinakysyntä,
-kilpailutilanne, teknologian kypsyys, katetuottopotentiaali) ja sijoitetaan
-matriisiin. Yläoikea kulma (houkutteleva + helppo toteuttaa) kannattaa
-priorisoida; alavasen kulma (riskialtis + heikkotuottoinen) kannattaa
-todennäköisesti välttää.
+A two-dimensional matrix in which the horizontal axis represents an
+opportunity's **feasibility** (technical and financial viability) and the
+vertical axis represents **attractiveness** (market and value-creation
+appeal). Each idea is assessed against several factors (market demand,
+competitive landscape, technology maturity, margin potential) and placed on
+the matrix. The upper-right corner (attractive + easy to implement) should
+be prioritized; the lower-left corner (high-risk + low-return) should
+generally be avoided.
 
-Tämä on `opportunity-value-assessment`-skillin 2D-matriisin suora esikuva —
-Omistajan oma kehys yhdistää POEM-logiikan Mullinsin ja Timmonsin tekijälistoihin.
+This is the direct forerunner of the `opportunity-value-assessment` skill's
+2D matrix — the owner's own framework combines POEM's logic with the factor
+lists from Mullins and Timmons.
 
-*Lähde: ConnectedDale (2023), Product Opportunity Evaluation Matrix.*
+*Source: ConnectedDale (2023), Product Opportunity Evaluation Matrix.*
 
 ## Opportunity Canvas (Jeff Patton)
 
-Yhden sivun lomake, Lean Canvasin sukulainen, joka keskittyy erityisesti uuden
-tuotteen tai ominaisuuden mahdollisuuteen. Sisältää mm. asiakasryhmät ja heidän
-ongelmansa, ehdotetun ratkaisun, arvolupauksen ja mittarit menestyksen
-arviointiin. Käytetään `opportunity-intake-elicitation`-skillin kysymysrungon
-taustalla.
+A one-page form, a relative of the Lean Canvas, focused specifically on the
+opportunity for a new product or feature. It includes customer segments and
+their problems, the proposed solution, the value proposition, and metrics
+for assessing success. Used as the basis for the question set behind the
+`opportunity-intake-elicitation` skill.
 
-## NABC-malli (SRI International)
+## The NABC Model (SRI International)
 
-Need – Approach – Benefits – Competition. Pakottaa kiteyttämään mahdollisuuden
-neljään kysymykseen: mikä asiakastarve on kohteena (Need), mikä on
-lähestymistapa/ratkaisu (Approach), mitä etuja asiakkaalle ja liiketoiminnalle
-saadaan (Benefits), ja miten ratkaisu erottuu vaihtoehdoista (Competition).
+Need – Approach – Benefits – Competition. Forces the opportunity to be
+distilled into four questions: what customer need is being targeted (Need),
+what is the approach/solution (Approach), what benefits does it deliver to
+the customer and the business (Benefits), and how does the solution
+differentiate from alternatives (Competition).
 
 ## Doug Richard's 10 Questions
 
-Käytännönläheinen kysymyslista liikemahdollisuuden arviointiin (VC Cafe, 2012).
-Käytetty yhtenä esikuvana `opportunity-intake-elicitation`-skillin kysymysrungolle
-— erityisesti kysymykset asiakkaan ongelmasta, vaihtoehtoisista ratkaisuista ja
-maksuhalukkuudesta.
+A practical question list for assessing a business opportunity (VC Cafe,
+2012). Used as one of the models behind the `opportunity-intake-elicitation`
+skill's question set — particularly the questions on the customer's problem,
+alternative solutions, and willingness to pay.
 
-## TRL-asteikko (Technology Readiness Level)
+## TRL Scale (Technology Readiness Level)
 
-Alunperin NASA:n kehittämä 1-9-asteikko teknologian kypsyyden kuvaamiseen.
-TRL 2-3 = konsepti todistettu periaatetasolla; TRL 7-9 = prototyyppi testattu
-toimivassa ympäristössä, valmis skaalaamaan. Matala TRL tarkoittaa enemmän
-kehitystyötä ja riskiä ennen markkinoille pääsyä. Ks. myös
+Originally developed by NASA, a 1-9 scale describing technology maturity.
+TRL 2-3 = concept proven at the principle level; TRL 7-9 = prototype tested
+in an operational environment, ready to scale. A low TRL means more
+development work and risk before reaching the market. See also
 `../../specialisation-packs/research-commercialisation/references/terminology.md`.
 
-*Lähde: DOE Tech-to-Market (2021), Technology-to-Market.*
+*Source: DOE Tech-to-Market (2021), Technology-to-Market.*
 
-## Miten nämä yhdistyvät omistajan omaan kehykseen
+## How these connect to the owner's own framework
 
-`opportunity-value-assessment`-skilli ei toista mitään näistä malleista
-sellaisenaan, vaan yhdistää ne yhdeksi käytännölliseksi, kaksiakseliseksi
-matriisiksi (houkuttelevuus × toteutettavuus), jonka tekijälistat on koottu
-Mullinsin ja Timmonsin osa-alueista, ja jonka esitystapa on POEM-matriisin
-kaltainen. Akateemiset viitekehykset ovat siis taustalla sisäänleivottuina,
-mutta asiakkaalle kommunikointi tapahtuu käytännön liiketoimintatermein.
+The `opportunity-value-assessment` skill doesn't repeat any of these models
+as-is; instead it combines them into one practical, two-axis matrix
+(attractiveness × feasibility), whose factor lists are drawn from the
+Mullins and Timmons domains, and whose presentation resembles the POEM
+matrix. The academic frameworks are thus baked in as background, but
+communication with the client happens in practical business terms.

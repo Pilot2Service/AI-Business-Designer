@@ -1,74 +1,73 @@
-# Lähde: AI-first SaaS Product Workshop
+# Source: AI-first SaaS Product Workshop
 
-Tämä on toinen lähde tässä pakissa `AI-training-P6`-työpajan
-(`workshop-source.md`) rinnalla. Se syventää erityisesti pakin
-keskivaihetta — tarveteemojen pisteytystä, ratkaisusuuntien ideointia,
-MVP:n valintaa ja tekoälynatiivin tuotteen käyttöliittymäarkkitehtuuria —
-askelilla, joita alkuperäinen `day1.md`-työpaja ei käsitellyt yhtä
-tarkasti.
+This is a second source in this pack, alongside the `AI-training-P6`
+workshop (`workshop-source.md`). It specifically deepens the pack's
+middle stage — need-theme scoring, solution-direction ideation, MVP
+selection, and the UI architecture of an AI-native product — with steps
+the original `day1.md` workshop didn't cover in as much detail.
 
-## Mikä tämä on
+## What this is
 
-- **Nimi:** "Ai-first SaaS Product workshop"
-- **Järjestäjä:** ulkopuolinen toimija (ei sisälly tähän repoon)
-- **Muoto:** omistajan muistiinpanot työpajan
-  menetelmästä + omistajan itse AI-ajattelukumppanin kanssa läpikäymä
-  **täysi sovellusesimerkki omaan tuotteeseensa**
-  (ks. alla "Miksi tämä on arvokas kaksoislähde").
-- **Ladattu:** 6.8.2026 (omistajan yksityinen muistiinpano)
+- **Name:** "AI-first SaaS Product workshop"
+- **Organizer:** an external party (not included in this repo)
+- **Format:** the owner's notes on the workshop's methodology + a
+  **full worked application to the owner's own product**, which the owner
+  worked through with an AI thinking partner
+  (see "Why this is a valuable dual source" below).
+- **Downloaded:** 6 Aug 2026 (owner's private note)
 
-## Menetelmän 8 askelta
+## The methodology's 8 steps
 
-1. **Jobs To Be Done (JTBD)** — verbi-vetoiset, "progress not features"
-   -muotoiset työt, ICP:n kautta rajattuna.
-2. **5+2 tarveteemaa (Need Themes)** — JTBD:t tiivistettynä 5
-   funktionaaliseksi + 2 psykologiseksi tarpeeksi, yhden/kahden sanan
-   substantiivilauseina (esim. *relevanssi*, *luottamus*).
-3. **NMB + AI-advantage-pisteytys** — jokainen tarveteema pisteytetään
-   5 kriteerillä (1–5): Need Depth, Frequency, Market Coverage, Business
-   Strength, AI Advantage → kokonaispistemäärä (max 25) →
-   Differentiator vs. Table Stakes -luokittelu.
-4. **AI-differentiaattoritarpeen valinta ("AI wedge")** — tarveteema
-   jolla on samanaikaisesti korkea syvyys, korkea toistuvuus, heikko
-   kilpailijakattavuus, oma vahvuus JA korkea AI-etu.
-5. **3 ratkaisusuunnan ideointi** valitulle differentiaattoritarpeelle —
-   kolmella eri linssillä (kilpailija-, tulevaisuus-, "yhdistä pisteet"
-   -linssi), jotta ei rakasta ensimmäistä ideaa.
-6. **RICE-pisteytys** kolmesta ratkaisusuunnasta — Reach, Impact,
-   Confidence, Effort (käänteinen) → MVP-valinta.
-7. **MVP-synteesi** — MVP-määritelmä (2–3 lausetta), yhden lauseen
-   positiointilause, 3 "miksi voitamme" -väittämää.
-8. **AI-first-tuoteperiaatteet ("5 shifts")** ja **keskusteleva
-   käyttöliittymäarkkitehtuuri** (Intent → Strategy Cards →
-   Clarification → Output Cards → Mission → Agent Execution).
+1. **Jobs To Be Done (JTBD)** — verb-driven, "progress not features"
+   jobs, scoped through the ICP.
+2. **5+2 Need Themes** — JTBDs distilled into 5 functional + 2
+   psychological needs, as one- or two-word noun phrases (e.g.
+   *relevance*, *trust*).
+3. **NMB + AI-advantage scoring** — each need theme scored on 5 criteria
+   (1–5): Need Depth, Frequency, Market Coverage, Business Strength,
+   AI Advantage → total score (max 25) → Differentiator vs. Table Stakes
+   classification.
+4. **AI differentiator need selection ("AI wedge")** — a need theme with
+   simultaneously high depth, high frequency, weak competitor coverage,
+   own strength, AND high AI advantage.
+5. **Ideating 3 solution directions** for the chosen differentiator need
+   — through three different lenses (competitor, future, "connect the
+   dots"), so as not to fall in love with the first idea.
+6. **RICE scoring** of the three solution directions — Reach, Impact,
+   Confidence, Effort (inverted) → MVP selection.
+7. **MVP synthesis** — MVP definition (2–3 sentences), a one-sentence
+   positioning statement, 3 "why we win" claims.
+8. **AI-first product principles ("5 shifts")** and **conversational UI
+   architecture** (Intent → Strategy Cards → Clarification → Output
+   Cards → Mission → Agent Execution).
 
-## Miksi tämä on arvokas kaksoislähde
+## Why this is a valuable dual source
 
-Toisin kuin `AI-training-P6`, joka on geneerinen menetelmä ilman yhtä
-tiettyä sovelluscasea, tämä muistiinpano sisältää omistajan OMAN,
-täyden sovelluksen: oman tuotteen JTBD:stä RICE-valittuun
-MVP:hen ("Decision Coach") ja sen keskustelu-OS-arkkitehtuuriin asti.
-Tämä worked example on tallennettu erikseen:
-`../cases/ai-decision-coach-mvp-case.md` — käytä sitä konkreettisena
-mallina kun sovellat tämän pakin skillejä uuteen caseen.
+Unlike `AI-training-P6`, which is a generic methodology without one
+specific application case, this note contains the owner's OWN, full
+application: from their own product's JTBD to a RICE-selected MVP
+("Decision Coach") and its conversational-OS architecture. This worked
+example is stored separately:
+`../cases/ai-decision-coach-mvp-case.md` — use it as a concrete model
+when applying this pack's skills to a new case.
 
-## Miksi `maturity: draft` uusille skilleille (ei `validated`)
+## Why `maturity: draft` for the new skills (not `validated`)
 
-`AI-training-P6`-työpaja on **pidetty useille osallistujille**
-(1.–2.6.2026, ryhmäsessio) — siksi sen pohjalta rakennetut skillit ovat
-`validated`. Tämä ulkopuolinen menetelmä on toistaiseksi **sovellettu
-kerran, yhteen caseen** (omistajan oma case) omistajan itsensä toimesta — ei vielä
-testattu useammalla eri liiketoiminnalla tai ulkopuolisella tiimillä.
-Tämä vastaa täsmälleen `maturity_levels.md`:n `draft`-määritelmää:
-"[OWNER INPUT] täytetty, käytetty kerran käytännössä, ei vielä
-validoitu laajemmin." Kun menetelmää on sovellettu useampaan eri
-caseen, nosta `skills_index.json`:ssa asianomaisten skillien
-`maturity` arvoon `validated`.
+The `AI-training-P6` workshop was **held for multiple participants**
+(1–2 June 2026, group session) — that's why skills built on it are
+`validated`. This external methodology has so far been **applied once,
+to one case** (the owner's own case), by the owner personally — not yet
+tested on a different business or by an external team. This matches
+exactly the `maturity_levels.md` definition of `draft`:
+"[OWNER INPUT] filled in, used once in practice, not yet validated more
+broadly." Once the methodology has been applied to multiple different
+cases, raise the `maturity` value of the relevant skills to `validated`
+in `skills_index.json`.
 
-## Ajantasaisuus
+## Currency
 
-Menetelmä (JTBD→Need Themes→NMB-pisteytys→AI wedge→ratkaisuideointi→
-RICE→MVP-synteesi→OS-arkkitehtuuri) on pysyvää sisältöä, ei sidottu
-mihinkään tiettyyn työkaluun tai tuotenimeen — samalla periaatteella
-kuin `AI-training-P6`:n menetelmäskillit (ks. `workshop-source.md`
-"Ajantasaisuus").
+The methodology (JTBD→Need Themes→NMB scoring→AI wedge→solution
+ideation→RICE→MVP synthesis→OS architecture) is durable content, not
+tied to any specific tool or product name — on the same principle as
+`AI-training-P6`'s methodology skills (see `workshop-source.md`,
+"Currency").

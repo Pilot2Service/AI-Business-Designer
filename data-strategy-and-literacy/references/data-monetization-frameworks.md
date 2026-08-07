@@ -1,54 +1,56 @@
-# Datan monetisoinnin viitekehykset — laajempi vertailu
+# Data monetization frameworks — a broader comparison
 
-Taustamateriaali skillille `../skills/data-monetization-model-selection/SKILL.md`.
+Background material for the skill
+`../skills/data-monetization-model-selection/SKILL.md`.
 
-## Suora monetisointi (Direct Monetization)
+## Direct Monetization
 
-Data tai siitä suoraan johdetut tuotteet ovat itsessään myytävä hyödyke.
-Vaatii vahvan data governancen, jotta toimitettava data on laadukasta,
-tietoturvallista ja lisensoitavissa.
+Data, or products derived directly from it, is itself a sellable
+commodity. Requires strong data governance so the delivered data is
+high-quality, secure, and licensable.
 
-| Malli | Kuvaus | Esimerkki |
+| Model | Description | Example |
 |---|---|---|
-| Data-as-a-Service (DaaS) / raakadatan myynti | Puhdistetun, anonymisoidun datan myynti rajapintojen tai datakauppapaikkojen kautta | B2B-toimija lisensoi laitteistonsa tuottamaa prosessidataa teollisille asiakkaille T&K-käyttöön |
-| Insight-as-a-Service | Datasta johdetun ymmärryksen (analyysit, trendiraportit, ennustemallit) myynti raakadatan sijaan | Toimialakohtainen benchmark-raportti, jossa asiakas voi verrata omaa suoritustaan aggregoituun markkinadataan |
-| Datavaihdanta / IP-lisensointi | Dataa vaihdetaan toisen osapuolen dataan, teknologiaan tai markkinapääsyyn — ei suoraan rahaan | Uniikki data-assetti lisensoidaan startupin käyttöön osana perustajan pääomapanosta innovaatioekosysteemissä |
+| Data-as-a-Service (DaaS) / raw-data sale | Selling cleaned, anonymized data via APIs or data marketplaces | A B2B company licenses process data produced by its equipment to industrial customers for R&D use |
+| Insight-as-a-Service | Selling insight derived from data (analyses, trend reports, forecasting models) instead of raw data | An industry-specific benchmark report where a customer can compare their own performance against aggregated market data |
+| Data exchange / IP licensing | Data is traded for another party's data, technology, or market access — not directly for money | A unique data asset is licensed for a startup's use as part of a founder's capital contribution in an innovation ecosystem |
 
-## Epäsuora monetisointi (Indirect Monetization)
+## Indirect Monetization
 
-Dataa ei myydä ulos, vaan sitä käytetään omien tuotteiden, palveluiden tai
-prosessien optimointiin. Usein tuottoisampaa ja vähäriskisempää
-(esim. tietosuojan kannalta) kuin suora myynti.
+Data isn't sold externally; instead it's used to optimize the
+organization's own products, services, or processes. Often more
+profitable and lower-risk (e.g. from a privacy standpoint) than direct
+sale.
 
-| Malli | Kuvaus | Esimerkki |
+| Model | Description | Example |
 |---|---|---|
-| Tuotteen/palvelun rikastaminen | Datan avulla rakennetaan uusia, maksullisia ominaisuuksia olemassa olevaan tuotteeseen | Oppimisalusta kerää dataa käyttäjän kysymyksistä ja oppimistyylistä, mahdollistaen hyperpersonoidun ohjauksen korkeammalla hinnalla |
-| Käyttöasteen/resurssien optimointi | Data paljastaa pullonkaulat ja tehottomuudet, mahdollistaa dynaamisen hinnoittelun | Jaettujen resurssien alusta käyttää käyttödataa ruuhkahuippujen dynaamiseen hinnoitteluun ja tyhjäkäynnin minimointiin |
-| Liiketoimintariskien minimointi | Data mahdollistaa ennakoivan havaitsemisen ennen tapahtumaa | Ennakoiva huolto, asiakaspoistuman tunnistus ennen sen tapahtumista, petosten esto |
+| Product/service enrichment | Data is used to build new, paid features into an existing product | A learning platform collects data on user questions and learning style, enabling hyper-personalized guidance at a higher price point |
+| Utilization/resource optimization | Data reveals bottlenecks and inefficiencies, enabling dynamic pricing | A shared-resource platform uses usage data to dynamically price peak demand and minimize idle capacity |
+| Business-risk mitigation | Data enables proactive detection before an event occurs | Predictive maintenance, detecting customer churn before it happens, fraud prevention |
 
-## Suora vs. epäsuora — yhteenveto
+## Direct vs. indirect — summary
 
-| Ominaisuus | Suora monetisointi | Epäsuora monetisointi |
+| Feature | Direct monetization | Indirect monetization |
 |---|---|---|
-| Pääasiallinen tulonlähde | Datan/lisenssien myynti kolmansille osapuolille | Parempi tuote, uudet ominaisuudet, halvemmat operaatiot |
-| Asiakkaan ostama arvo | Pääsy informaatioon | Parempi käyttäjäkokemus, säästetty aika, tarkemmat tulokset |
-| Toteutuksen nopeus | Hitaampi — vaatii juridisia sopimuksia (IP, tietosuoja) ja rajapintojen rakentamista | Ketterämpi — data pysyy sisällä, iteroidaan suoraan tuotteeseen |
-| Kilpailuetu | Perustuu datan ainutlaatuisuuteen | Perustuu datan ja algoritmien luomaan vauhtipyörään (flywheel) |
+| Primary revenue source | Selling data/licenses to third parties | Better product, new features, cheaper operations |
+| Value the customer buys | Access to information | Better user experience, time saved, more accurate results |
+| Speed of implementation | Slower — requires legal agreements (IP, privacy) and building APIs | More agile — data stays internal, iterated directly into the product |
+| Competitive advantage | Based on the uniqueness of the data | Based on the flywheel created by data and algorithms |
 
-## Data Flywheel — mekanismi
+## The Data Flywheel — mechanism
 
-1. **Uniikki data:** kerätään alkuvaiheen dataa käyttäjiltä.
-2. **Mallin koulutus:** data syötetään koneoppimismalliin, joka tekee
-   tuotteesta älykkäämmän.
-3. **Parempi tuote:** älykkäämpi tuote houkuttelee lisää käyttäjiä.
-4. **Lisää dataa:** uudet käyttäjät generoivat lisää dataa, sykli jatkuu.
+1. **Unique data:** early-stage data is collected from users.
+2. **Model training:** the data is fed into a machine-learning model,
+   making the product smarter.
+3. **Better product:** the smarter product attracts more users.
+4. **More data:** new users generate more data, and the cycle continues.
 
-Flywheel on strateginen assetti, jota kilpailijoiden on vaikea kopioida
-pelkällä pääomalla — mutta väitetty flywheel pitää validoida neljällä
-kohdalla ennen kuin siihen nojataan strategisesti, ks.
-`../skills/data-monetization-model-selection/SKILL.md`:n tarkistuslista.
+A flywheel is a strategic asset that's hard for competitors to copy with
+capital alone — but a claimed flywheel needs to be validated against
+four points before relying on it strategically, see the checklist in
+`../skills/data-monetization-model-selection/SKILL.md`.
 
-## Ks. myös
+## See also
 
-- `../skills/data-monetization-model-selection/SKILL.md` — pääskilli
-- `../skills/data-role-diagnosis/SKILL.md` — edeltävä diagnoosi
+- `../skills/data-monetization-model-selection/SKILL.md` — the main skill
+- `../skills/data-role-diagnosis/SKILL.md` — the preceding diagnosis

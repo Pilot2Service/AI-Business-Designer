@@ -1,56 +1,86 @@
 ---
 name: benefits-realisation-tracking
-description: "Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään."
+description: "Tracks and reports on the realisation of promised benefits after implementation. Use when you need change & communication-level support for a comparable task."
 ---
 
 # Benefits Realisation Tracking
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen.
+Tracks and reports on the realisation of promised benefits after implementation.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Perplexity-tutkimus — hyötyjen realisointiraportit
+- Perplexity research — benefits realisation reporting practice
+- Ward & Daniel (2006), *Benefits Management: Delivering Value from IS/IT
+  Investments* (Cranfield School of Management) — the Benefits Dependency
+  Network: mapping each promised benefit back through the business changes
+  and enabling changes required to actually deliver it, and assigning a
+  named benefit owner accountable for realisation.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Pull every promised benefit from the business case, verbatim.** Don't
+   paraphrase — a vague benefit ("improved efficiency") can't be tracked; if
+   the business case is vague, flag it and push the benefit toward a
+   measurable definition before tracking starts.
+2. **Build a Benefits Dependency Network for each benefit** (Ward & Daniel):
+   trace the chain backwards from the benefit to the business changes it
+   requires (new ways of working) and the enabling changes that make those
+   possible (systems, training, structure). A benefit with no identified
+   business change behind it is unlikely to materialize on its own.
+3. **Assign a named benefit owner** — someone in the business, not the
+   project team, accountable for the benefit actually landing, since
+   realisation typically happens well after the project itself has closed.
+4. **Define the metric, baseline, and target for each benefit** — what's
+   measured, what it was before, what it's expected to reach, and by when.
+   Mark any baseline that wasn't actually measured before the change as an
+   assumption.
+5. **Set a tracking cadence that extends past go-live** — benefits
+   realisation is measured after implementation, typically at several
+   checkpoints (e.g., 3/6/12 months post go-live), not only at project
+   closure.
+6. **Report gaps as gaps, not as narrative.** Where a benefit is under
+   target, state the shortfall and its driver — don't paper over it with
+   "on track" language.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei kerää seurantadataa automaattisesti — jäsentää mittarit ja raportointirungon.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't collect tracking data automatically — it structures the metrics and
+  the reporting framework.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

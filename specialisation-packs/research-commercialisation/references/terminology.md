@@ -1,65 +1,66 @@
-# Terminologia
+# Terminology
 
-Lähde: omistajan julkaisema kaupallistamisopas (
-2025), luku "Terminology Explained" (s. 66-68). Käytetään brittienglannin oikeinkirjoitusta
-(`commercialisation`) käsikirjan mukaisesti.
+Source: the owner's published commercialisation guide (2025), chapter
+"Terminology Explained" (pp. 66-68). Uses British English spelling
+(`commercialisation`) as in the handbook.
 
 **Spin-out / Spin-off**
-Yritys, joka on perustettu tuomaan yliopisto- tai tutkimuspohjaisia innovaatioita
-markkinoille. Molemmat termit tarkoittavat samaa; tämä käsikirja käyttää muotoa
-*spin-out* (UK-kirjoitusasu). Spin-outit sisältävät tyypillisesti yliopisto-IP:tä,
-akatemiataustaisia perustajia ja institutionaalista tukea.
+A company founded to bring university- or research-based innovations to
+market. Both terms mean the same thing; this handbook uses *spin-out* (UK
+spelling). Spin-outs typically involve university IP, academically trained
+founders, and institutional support.
 
 **Technology Readiness Level (TRL)**
-Globaali 1-9-asteikko, joka kuvaa teknologian kypsyyttä — varhaisesta tutkimuksesta
-(TRL 1) markkinavalmiiseen tuotteeseen (TRL 9). TRL:t auttavat sovittamaan rahoituksen
-ja odotukset matkan varrella. Alunperin NASA:n kehittämä 1970-luvulla; käytössä mm.
-Yhdysvaltain puolustusministeriöllä, ESA:lla ja EU:lla (Horizon Europe -rahoituksessa
-vuodesta 2014).
+A global 1-9 scale describing the maturity of a technology — from early
+research (TRL 1) to a market-ready product (TRL 9). TRLs help align funding
+and expectations along the way. Originally developed by NASA in the 1970s;
+used e.g. by the US Department of Defense, ESA, and the EU (in Horizon
+Europe funding since 2014).
 
 **Commercialisation**
-Tutkimustulosten muuttaminen käytettäviksi tuotteiksi, palveluiksi tai lisensseiksi.
-EU-kontekstissa voi esiintyä myös termeinä *valorisation* tai *knowledge transfer*.
+Turning research results into usable products, services, or licences. In an
+EU context this may also appear as *valorisation* or *knowledge transfer*.
 
 **Technology Transfer Office (TTO)**
-Yliopiston yksikkö, joka hallinnoi immateriaalioikeuksia (IP), tukee lisensointia ja
-auttaa spin-outien käynnistämisessä. TTO yhdistää tutkimuksen ja markkinat: ohjaa
-patentteja, sopimuksia ja spin-out-neuvotteluja.
+A university unit that manages intellectual property (IP), supports
+licensing, and helps launch spin-outs. The TTO connects research and
+markets: it guides patents, agreements, and spin-out negotiations.
 
 **Intellectual Property (IP)**
-Oikeudelliset oikeudet, jotka suojaavat keksintöjä, ohjelmistoja, dataa ja luovaa työtä.
-Tässä käsikirjassa IP viittaa yleensä patentteihin ja omistusoikeudelliseen know-how'hun,
-jotka muodostavat spin-outin perustan.
+The legal rights that protect inventions, software, data, and creative work.
+In this handbook, IP generally refers to patents and proprietary know-how
+that form the basis of a spin-out.
 
 **University Start-up vs. Spin-out**
-Start-up on mikä tahansa uusi yritys; spin-out syntyy erityisesti akateemisesta
-tutkimuksesta tai yliopisto-IP:stä. Tässä käsikirjassa *spin-out* tarkoittaa
-yliopistosidonnaista venturea.
+A start-up is any new company; a spin-out arises specifically from academic
+research or university IP. In this handbook, *spin-out* refers to a
+university-linked venture.
 
 **Licensing vs. Assignment**
-Lisensointi (licensing) myöntää käyttöoikeuden, kun taas yliopisto säilyttää
-omistuksen; luovutus (assignment) siirtää omistuksen kokonaan. Spin-outit alkavat
-tyypillisesti lisenssisopimuksella.
+Licensing grants a right to use, while the university retains ownership;
+assignment transfers ownership entirely. Spin-outs typically begin with a
+licence agreement.
 
 **Third Mission**
-Yliopistojen "kolmas rooli" — yhteiskunnallinen ja taloudellinen vaikuttavuus opetuksen
-ja tutkimuksen rinnalla. Kaupallistaminen ja spin-outit ovat tämän mission keskeisiä
-ilmentymiä.
+The universities' "third role" — societal and economic impact alongside
+teaching and research. Commercialisation and spin-outs are central
+expressions of this mission.
 
-## Muita käsikirjassa käytettyjä termejä (poimittu asiayhteydestä)
+## Other terms used in the handbook (extracted from context)
 
-- **Deep tech** — kompleksiin fysiikkaan/insinööritieteeseen perustuva teknologia
-  (kvantti, materiaalit, avaruusteknologia, robotiikka), joka vaatii usein
-  prototyyppi- ja pilottituotantovaiheita.
-- **Non-dilutive funding** — rahoitus, joka ei vaadi omistusosuuden luovuttamista
-  (grantit, avustukset).
-- **Dilutive funding** — rahoitus omistusosuutta vastaan (enkelisijoitus, VC).
-- **Runway** — kuukausien määrä, jonka yritys voi toimia nykyisellä rahoituksella
-  ennen kuin se loppuu.
-- **Burn rate** — nopeus, jolla käytettävissä oleva pääoma kuluu.
-- **Founder's Agreement** — perustajien varhainen keskinäinen sopimus rooleista,
-  päätösoikeuksista, IP-panoksista ja equity-osuuksista.
-- **Shareholders' Agreement (SHA)** — laajempi, kaikki osakkeenomistajat (perustajat,
-  uudet kumppanit, sijoittajat) kattava sopimus.
-- **Freedom to Operate (FTO)** — arvio siitä, loukkaako oma teknologia toisten
-  patentteja.
+- **Deep tech** — technology based on complex physics/engineering (quantum,
+  materials, space technology, robotics) that often requires prototype and
+  pilot production stages.
+- **Non-dilutive funding** — funding that does not require giving up an
+  ownership stake (grants, subsidies).
+- **Dilutive funding** — funding in exchange for an ownership stake (angel
+  investment, VC).
+- **Runway** — the number of months a company can operate on its current
+  funding before it runs out.
+- **Burn rate** — the speed at which available capital is spent.
+- **Founder's Agreement** — the founders' early mutual agreement on roles,
+  decision rights, IP contributions, and equity shares.
+- **Shareholders' Agreement (SHA)** — a broader agreement covering all
+  shareholders (founders, new partners, investors).
+- **Freedom to Operate (FTO)** — an assessment of whether your own
+  technology infringes others' patents.

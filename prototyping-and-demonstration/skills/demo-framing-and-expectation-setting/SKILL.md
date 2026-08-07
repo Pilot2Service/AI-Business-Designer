@@ -1,132 +1,138 @@
 ---
 name: demo-framing-and-expectation-setting
-description: "Kehystää demon/protoilun/PoC:n asiakkaalle ennen esittämistä oikealla termillä (PoC vs. Pilotti vs. MVP) ja oikealla lupauksella — mitä tämä demo TODISTAA, mitä se EI todista, ja mitä seuraavaksi tapahtuu jos se onnistuu. Käytä ennen jokaista demoa tai PoC-esitystä, erityisesti kun riskinä on että asiakas ylitulkitsee demon tuotantovalmiudeksi tai automaattiseksi eteneväksi tuotantoon."
+description: "Frames a demo/prototype/PoC for the customer before presenting it with the right term (PoC vs. Pilot vs. MVP) and the right promise — what this demo PROVES, what it does NOT prove, and what happens next if it succeeds. Use before every demo or PoC presentation, especially when there's a risk the customer will over-interpret the demo as production-ready or as automatically progressing to production."
 ---
 
 # Demo Framing & Expectation Setting
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Estää yleisin kalliisti korjattava virhe demoilussa: **väärä kehys ennen
-ensimmäistä diaakaan.** Jos asiakas kävelee ulos demosta luullen, että
-tuotantovalmis ratkaisu on kolmen viikon päässä, ja todellisuus on kuuden
-kuukauden kehitystyö, ongelma ei ole demon laatu — ongelma on se, ettei
-kukaan kehystänyt demoa oikein ennen kuin se alkoi. Tämä skilli tuottaa
-sen kehyksen: mikä termi kuvaa oikein sitä mitä tänään näytetään, mitä
-tämä demo todistaa ja mitä se EI todista, ja mitä konkreettisesti tapahtuu
-seuraavaksi jos demo onnistuu.
+Prevent the most common, expensive-to-fix mistake in demo delivery: **the
+wrong frame before the first slide.** If a customer walks out of a demo
+believing a production-ready solution is three weeks away, and reality is
+six months of development work, the problem isn't the quality of the demo —
+the problem is that no one framed the demo correctly before it started. This
+skill produces that frame: what term correctly describes what's being shown
+today, what this demo proves and what it does NOT prove, and what
+concretely happens next if the demo succeeds.
 
-Tämä on **eri kysymys** kuin
-`../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`,
-joka määrittää PoC:n TEKNISET reunaehdot (mitä dataa, mitä
-onnistumiskriteerejä, mitä rajauksia). Tämä skilli vastaa **asiakas-
-viestinnän** kysymykseen: miten sama PoC kehystetään puheessa niin, ettei
-synny vääriä odotuksia. Käytä molempia yhdessä — tekninen rajaus ensin,
-sitten tämä viestinnällinen kehys.
+This is a **different question** than
+[`../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`](../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md),
+which defines a PoC's TECHNICAL boundaries (what data, what success
+criteria, what scope limits). This skill answers the **customer
+communication** question: how is that same PoC framed in conversation so
+that no false expectations are created. Use both together — technical
+scoping first, then this communication frame.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- PoC / Pilotti / MVP -erottelu (useamman 2026-lähteen synteesi, ks.
-  Referenssit): kolme eri vaihetta vastaavat kolmeen eri epävarmuustyyppiin
-  (tekninen toteutettavuus / operatiivinen sopivuus / tuotekehityssuunta).
-- "Pilot purgatory" -tutkimus (McKinsey, BCG, IDC, MIT-synteesejä, ks.
-  Referenssit): suuri osa yrityssektorin AI-piloteista ei koskaan etene
-  tuotantoon, ja pullonkaula on tyypillisesti operatiivinen (johdon
-  sitoutuminen, työnkulun uudelleensuunnittelu, mittakaavan investointi) —
-  ei demo/PoC-vaiheen tekninen onnistuminen tai epäonnistuminen.
+- The PoC / Pilot / MVP distinction (synthesis of multiple 2026 sources, see
+  References): three different stages that answer three different types of
+  uncertainty (technical feasibility / operational fit / product
+  development direction).
+- "Pilot purgatory" research (McKinsey, BCG, IDC, MIT syntheses, see
+  References): a large share of enterprise AI pilots never reach
+  production, and the bottleneck is typically operational (management
+  commitment, workflow redesign, scale-up investment) — not the technical
+  success or failure of the demo/PoC stage.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Nimeä täsmällisesti, mitä tänään näytetään, oikealla termillä äläkä
-   käytä termejä synonyymeinä** (ks. pakin `../../CLAUDE.md`):
-   - **PoC**, jos kysymys on "toimiiko tämä teknisesti edustavalla
-     datalla" — ei vielä oikeita käyttäjiä, ei tuotantokuormaa.
-   - **Pilotti**, jos kysymys on "toimiiko tämä oikeiden ihmisten ja
-     oikeiden operatiivisten olosuhteiden kanssa" — tekninen toteutettavuus
-     on jo osoitettu.
-   - **MVP**, jos kysymys on "mitä pitäisi rakentaa seuraavaksi oikean
-     käyttäjäpalautteen perusteella" — tuotekehitysote, ei todistamisvaihe.
-   Jos et ole varma kumpi, kysy itseltäsi: "mihin YHTEEN epävarmuuteen tämä
-   vastaa tänään?" Jos vastauksia on useampi, olet todennäköisesti
-   yhdistämässä vaiheita — erottele ne.
-2. **Kirjoita yhden lauseen "todistaa/ei todista" -pari ennen demoa:**
-   - "Tämä demo todistaa, että ___ [tarkka, kapea väite, esim. 'malli
-     poimii toimittajan Y-tunnuksen 20/20 testilaskusta']."
-   - "Tämä demo EI todista, että ___ [mitä tahansa mikä ei ollut
-     testin piirissä, esim. 'toimii kaikilla laskuformaateilla',
-     'on tietoturvallinen tuotantokäyttöön', 'skaalautuu 10 000
-     laskuun kuukaudessa']."
-   Esitä molemmat asiakkaalle ennen demoa, ei vasta jos joku kysyy.
-3. **Kytke kehys `../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`
-   -skillin tekniseen rajaukseen** jos se on jo tehty — käytä samoja
-   onnistumiskriteerejä, älä keksi uusia demo-hetkellä.
-4. **Kerro etukäteen, mitä konkreettisesti tapahtuu SEURAAVAKSI jos demo
-   onnistuu** — kuka päättää, millä aikataululla, mitä resursseja pilotti/
-   tuotantovaihe vaatisi. Tämä on suoraan "pilot purgatory" -riskin
-   torjuntaa: jos kukaan ei ole etukäteen sopinut mitä onnistunut demo
-   johtaa, se ei johda mihinkään riippumatta demon laadusta.
-5. **Nimeä ääneen, mitä demo EI vielä ratkaise organisatorisesti** —
-   työnkulun muutos, käyttäjien koulutus, johdon sitoutuminen, budjetti
-   täyteen mittakaavaan. Tekninen onnistuminen demossa ei tarkoita että
-   nämä on ratkaistu.
-6. **Valitse kehyksen sävy yleisön mukaan:** tekniselle yleisölle voi
-   painottaa tarkkuuslukuja ja rajoituksia suoraan; johdon yleisölle
-   kehys kannattaa viedä `../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`
-   -skillin kautta ennen demoa, jotta tekninen "todistaa/ei todista"
-   -pari kääntyy liiketoiminnan kielelle.
-7. **Dokumentoi kehys kirjallisesti ennen demoa** (yksi kappale riittää) ja
-   jaa se osallistujille — vähentää riskiä, että demon jälkeinen muistikuva
-   vääristyy (ihmiset unohtavat suurimman osan demon sisällöstä nopeasti,
-   mutta kirjallinen kehys jää).
+1. **Name precisely what's being shown today, with the right term, and
+   don't use the terms as synonyms** (see the pack's
+   [`../../CLAUDE.md`](../../CLAUDE.md)):
+   - **PoC**, if the question is "does this work technically with
+     representative data" — no real users yet, no production load.
+   - **Pilot**, if the question is "does this work with real people and
+     real operational conditions" — technical feasibility has already been
+     demonstrated.
+   - **MVP**, if the question is "what should be built next, based on real
+     user feedback" — a product-development stance, not a proof stage.
+   If you're not sure which, ask yourself: "which ONE uncertainty does this
+   answer today?" If there's more than one answer, you're probably merging
+   stages — separate them.
+2. **Write a one-sentence "proves/doesn't prove" pair before the demo:**
+   - "This demo proves that ___ [a precise, narrow claim, e.g. 'the model
+     extracted the supplier business ID from 20/20 test invoices']."
+   - "This demo does NOT prove that ___ [anything outside the test scope,
+     e.g. 'it works with all invoice formats', 'it's secure for
+     production use', 'it scales to 10,000 invoices a month']."
+   Present both to the customer before the demo, not only if someone asks.
+3. **Tie the frame back to the technical scoping done in
+   [`../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`](../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md)**
+   if that's already been done — use the same success criteria, don't
+   invent new ones at demo time.
+4. **State up front what concretely happens NEXT if the demo succeeds** —
+   who decides, on what timeline, what resources the pilot/production
+   stage would require. This is a direct countermeasure against "pilot
+   purgatory" risk: if no one has agreed in advance what a successful demo
+   leads to, it leads to nothing, regardless of the demo's quality.
+5. **State out loud what the demo does NOT yet resolve organizationally** —
+   workflow change, user training, management commitment, budget for
+   full scale. Technical success in the demo doesn't mean these are solved.
+6. **Choose the tone of the frame based on the audience:** for a technical
+   audience you can emphasize accuracy figures and limitations directly;
+   for an executive audience, route the frame through
+   [`../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`](../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md)
+   before the demo, so the technical "proves/doesn't prove" pair translates
+   into business language.
+7. **Document the frame in writing before the demo** (one paragraph is
+   enough) and share it with participants — this reduces the risk that
+   the post-demo memory drifts (people forget most of a demo's content
+   quickly, but a written frame stays).
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee PoC:n teknistä rajausta — se on
-  `../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`
-  -skillin tehtävä. Tämä skilli kehystää saman rajauksen asiakasviestintään.
-- Ei rakenna itse demoa tai prototyyppiä — käytä
-  `../rapid-prototype-and-vibe-coding-craft/SKILL.md` ennen tätä.
-- Ei takaa, että oikea kehys yksin estää "pilot purgatoryn" — vähentää
-  väärinymmärryksen riskiä, mutta tuotantoon eteneminen vaatii aina
-  organisatorisia päätöksiä jotka ovat tämän skillin ulkopuolella.
-- Ei laske ROI:ta tai rakenna business casea — ks.
-  `../demo-to-business-case-bridge/SKILL.md`.
+- Doesn't do the PoC's technical scoping — that's the job of
+  [`../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`](../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md).
+  This skill frames that same scoping for customer communication.
+- Doesn't build the demo or prototype itself — use
+  [`../rapid-prototype-and-vibe-coding-craft/SKILL.md`](../rapid-prototype-and-vibe-coding-craft/SKILL.md)
+  before this.
+- Doesn't guarantee that the right frame alone prevents "pilot purgatory"
+  — it reduces the risk of misunderstanding, but progressing to production
+  always requires organizational decisions outside this skill's scope.
+- Doesn't calculate ROI or build a business case — see
+  [`../demo-to-business-case-bridge/SKILL.md`](../demo-to-business-case-bridge/SKILL.md).
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omia esimerkkejä siitä, miten olet kehystänyt demon onnistuneesti (tai
-  epäonnistuneesti) tietyn asiakkaan kanssa
-- oma vakiolause-/slide-mallipohja "todistaa/ei todista" -parille
-  (`../../references/`-kansioon)
-- nyrkkisääntöjä siitä, milloin asiakas yleensä ylitulkitsee demon —
-  mitkä signaalit ennakoivat tätä
+- your own examples of how you've framed a demo successfully (or
+  unsuccessfully) with a specific customer
+- your own standard-phrase/slide template for the "proves/doesn't prove"
+  pair (into [`../../references/`](../../references/))
+- rules of thumb for when a customer typically over-interprets a demo —
+  which signals predict this
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Ennen tätä (protoilu): `../rapid-prototype-and-vibe-coding-craft/SKILL.md`
-- Ennen tätä (tekninen rajaus): `../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`
-- Samassa pakissa seuraavaksi: `../demo-delivery-and-storytelling/SKILL.md`
-- Johdon yleisölle: `../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`
-- Jos demo onnistuu ja seuraava askel on liiketoimintaperustelu:
-  `../demo-to-business-case-bridge/SKILL.md`
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Before this (prototyping): [`../rapid-prototype-and-vibe-coding-craft/SKILL.md`](../rapid-prototype-and-vibe-coding-craft/SKILL.md)
+- Before this (technical scoping): [`../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`](../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md)
+- Next in this pack: [`../demo-delivery-and-storytelling/SKILL.md`](../demo-delivery-and-storytelling/SKILL.md)
+- For an executive audience: [`../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md`](../../../change-and-communication/skills/executive-narrative-and-storyline/SKILL.md)
+- If the demo succeeds and the next step is a business case:
+  [`../demo-to-business-case-bridge/SKILL.md`](../demo-to-business-case-bridge/SKILL.md)
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- PoC vs. Pilotti vs. MVP -erottelu — usean 2026-lähteen synteesi
-  yrityssektorin AI-projektien vaihejaosta
-- "Pilot purgatory" -tutkimus — McKinsey/BCG/IDC/MIT-synteesejä siitä miksi
-  suuri osa AI-piloteista ei etene tuotantoon
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- The PoC vs. Pilot vs. MVP distinction — synthesis of multiple 2026
+  sources on the staging of enterprise AI projects
+- "Pilot purgatory" research — McKinsey/BCG/IDC/MIT syntheses on why a
+  large share of AI pilots never reach production
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

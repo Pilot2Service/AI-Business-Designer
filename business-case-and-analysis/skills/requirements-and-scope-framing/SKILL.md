@@ -1,58 +1,87 @@
 ---
 name: requirements-and-scope-framing
-description: "Rajaa ongelman ja vaatimukset selkeäksi, testattavaksi kokonaisuudeksi. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään."
+description: "Frames the problem and requirements into a clear, testable whole. Use when you need business-case-and-analysis-level support for a comparable task."
 ---
 
 # Requirements & Scope Framing
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Rajaa ongelman ja vaatimukset selkeäksi, testattavaksi kokonaisuudeksi.
+Frames the problem and requirements into a clear, testable whole.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - BABOK — requirements
 - IEEE 830
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Capture the raw problem statement and classify each candidate
+   requirement** using BABOK's four requirement types — business requirements
+   (the why: goals and objectives), stakeholder requirements (the needs of a
+   specific stakeholder group), solution requirements split into functional
+   (what the solution must do) and non-functional (quality attributes:
+   performance, security, usability), and transition requirements (what's
+   only needed to move from the current state to the future one). Anything
+   that doesn't fit cleanly gets flagged for further elicitation before
+   scoping continues.
+2. **Elicit missing requirement types with structured techniques** (BABOK:
+   interviews, workshops, document analysis, observation) rather than
+   inferring them silently — any requirement not sourced from a stakeholder
+   or document is an assumption and must be marked as one.
+3. **Check each requirement against the IEEE 830 SRS quality checklist:** is
+   it correct, unambiguous, and verifiable (testable), and is it consistent
+   with the other requirements and traceable to its source? A requirement
+   that fails "verifiable" (e.g. "the system should be fast") gets rewritten
+   with a measurable threshold, or flagged as needing one.
+4. **Separate in-scope from explicitly out-of-scope items in a single
+   list** — an unscoped boundary is as costly as a wrong requirement, because
+   it seeds disagreement later.
+5. **Rank requirements on IEEE 830's importance/stability dimension** — which
+   are core and stable versus likely to change — so that scope decisions made
+   under pressure protect the right things first.
+6. **Validate the resulting scope statement with stakeholders explicitly**,
+   tracing each requirement back to whoever asked for it (traceability)
+   before treating the scope as locked.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei tee lopullista vaatimusmäärittelyä ilman sidosryhmien vahvistusta.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't finalize a requirements specification without stakeholder
+  confirmation.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../stakeholder-analysis-and-raci/SKILL.md` — Kartoittaa sidosryhmät valta/intressi-matriisilla ja määrittää vastuut RACI:lla.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../stakeholder-analysis-and-raci/SKILL.md`](../stakeholder-analysis-and-raci/SKILL.md) — Maps stakeholders on a power/interest matrix and assigns responsibilities with RACI.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

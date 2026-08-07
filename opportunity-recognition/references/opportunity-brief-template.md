@@ -1,155 +1,157 @@
-# Opportunity Brief — raporttipohja
+# Opportunity Brief — report template
 
-Lähde: omistajan oma palvelu — Opportunity Value Assessment -palvelun raporttipohja
-(oma tuote). Käyttää `opportunity-brief-writing`-skilli. Esimerkkisisältö
-(bio-pohjainen pinnoitemateriaali) on alkuperäisestä tuotepohjasta — käytä
-rakennetta, älä kopioi esimerkkilukuja oikeaan raporttiin.
+Source: the owner's own service — the Opportunity Value Assessment service's
+report template (own product). Used by the `opportunity-brief-writing`
+skill. The example content (a bio-based coating material) is from the
+original product template — use the structure, don't copy the example
+figures into an actual report.
 
-## Kansilehti
+## Cover page
 
 ```
-Asiakas: [Nimi/tiimi, organisaatio]
-Päivämäärä: [pvm]
-Raportti: Opportunity Value Assessment
-Laatija: omistajan oma palvelu | Analyytikko: [nimi] | [sähköposti]
+Client: [Name/team, organization]
+Date: [date]
+Report: Opportunity Value Assessment
+Prepared by: the owner's own service | Analyst: [name] | [email]
 
-"Tämä raportti on laadittu tarjoamaan jäsennelty arvio tunnistetusta
-mahdollisuudestasi. Se perustuu antamaasi tietoon, täydennettynä
-ulkoisella analyysillä ja asiantuntijatulkinnalla."
+"This report has been prepared to provide a structured assessment of your
+identified opportunity. It is based on the information you provided,
+supplemented with external analysis and expert interpretation."
 ```
 
 ## 1. Opportunity Snapshot
 
-Yhden kappaleen yhteenveto. Esimerkki:
+A one-paragraph summary. Example:
 
-> "Tämä raportti tiivistää tunnistetun mahdollisuutesi liiketoimintapotentiaalin:
-> uudenlainen bio-pohjainen pinnoitemateriaali. Analyysi soveltaa jäsenneltyä
-> kehystä korostaakseen markkinan houkuttelevuutta, toteutuksen valmiutta,
-> keskeisiä vahvuuksia ja aukkoja, sekä toimenpidekelpoisia seuraavia askelia.
-> Lopputulos on tiivis näkymä siihen, miltä mahdollisuus näyttää
-> kaupallistamisen näkökulmasta tänään."
+> "This report summarizes the business potential of your identified
+> opportunity: a novel bio-based coating material. The analysis applies a
+> structured framework to highlight market attractiveness, implementation
+> readiness, key strengths and gaps, and actionable next steps. The result
+> is a concise view of what the opportunity looks like from a
+> commercialization standpoint today."
 
 ## 2. Evaluation Matrix — Attractiveness vs. Readiness
 
-Visuaalinen sijoitus 3×3 tai 5×5 -ruudukkoon.
+A visual placement on a 3×3 or 5×5 grid.
 
 ```
-Sijoitus: Korkea houkuttelevuus / Keskitason valmius
-Tulkinta: Mahdollisuudella on vahvat markkinasignaalit ja erottautumispotentiaalia,
-mutta nykyinen teknologian kypsyys (esim. TRL 4-5) tarkoittaa, että lisää
-validointia ja skaalausta tarvitaan.
+Placement: High attractiveness / Medium readiness
+Interpretation: The opportunity has strong market signals and differentiation
+potential, but the current technology maturity (e.g. TRL 4-5) means further
+validation and scaling are needed.
 ```
 
 ## 3. Strengths & Gaps
 
-**Vahvuudet (top 3):**
-1. [esim. Suuri ja kasvava markkina (> X€ TAM)]
-2. [esim. Patentti haettu, lupaavia varhaisia laboratoriotuloksia]
-3. [esim. Selkeä kestävyyshyöty (vähentää jätettä X%)]
+**Strengths (top 3):**
+1. [e.g. Large and growing market (> €X TAM)]
+2. [e.g. Patent filed, promising early lab results]
+3. [e.g. Clear sustainability benefit (reduces waste by X%)]
 
-**Aukot (top 3):**
-1. [esim. Teknologiaa ei ole vielä validoitu laboratorion ulkopuolella]
-2. [esim. Asiakkaan maksuhalukkuus epävarma; ei vahvistettuja pilottikumppaneita]
-3. [esim. Tiimiltä puuttuu kaupallista kokemusta]
+**Gaps (top 3):**
+1. [e.g. Technology not yet validated outside the lab]
+2. [e.g. Customer willingness to pay is uncertain; no confirmed pilot partners]
+3. [e.g. Team lacks commercial experience]
 
 ## 4. Market Pathways
 
-**Markkina A – [nimi]**
-- Koko (TAM): [€]
-- Kasvu: [% CAGR]
-- Elinkaarivaihe: [vakiintunut / nouseva / kypsä]
-- Pääsyreitti: [esim. suurten materiaalituottajien kautta]
-- Perustelu: [miksi tämä markkina sopii]
+**Market A – [name]**
+- Size (TAM): [€]
+- Growth: [% CAGR]
+- Life-cycle stage: [established / emerging / mature]
+- Entry route: [e.g. via major materials producers]
+- Rationale: [why this market fits]
 
-**Markkina B – [nimi]** (samat kentät)
+**Market B – [name]** (same fields)
 
-*(Valinnainen: Markkina C tutkivana vaihtoehtona.)*
+*(Optional: Market C as an exploratory alternative.)*
 
-## 5. Business Snapshot — mahdollisuus selkokielellä
+## 5. Business Snapshot — the opportunity in plain language
 
-1. **Mikä on ongelma?**
-2. **Kenellä se on?**
-3. **Mikä on nykyinen ratkaisu?**
-4. **Mikä on meidän innovaatiomme?**
-5. **Miten tästä voisi tulla liiketoimintaa?**
+1. **What is the problem?**
+2. **Who has it?**
+3. **What is the current solution?**
+4. **What is our innovation?**
+5. **How could this become a business?**
 
 ## 6. Opportunity Potential — Evaluation Lenses
 
-| Näkökulma | Pisteet | Perustelu |
+| Angle | Score | Rationale |
 |---|---|---|
-| Markkinan koko & kasvu | 🟢/🟡/🔴 (X/5) | |
-| Ongelman vahvuus & omaksuminen | 🟢/🟡/🔴 (X/5) | |
-| Skaalautuvuus & liiketoimintamalli | 🟢/🟡/🔴 (X/5) | |
-| Kilpailuasema | 🟢/🟡/🔴 (X/5) | |
-| Ajoitus & disruptio | 🟢/🟡/🔴 (X/5) | |
-| Rahoitus- ja pääomapolku | 🟢/🟡/🔴 (X/5) | |
-| Tiimi & kyvykkyydet | 🟢/🟡/🔴 (X/5) | |
+| Market size & growth | 🟢/🟡/🔴 (X/5) | |
+| Problem strength & adoption | 🟢/🟡/🔴 (X/5) | |
+| Scalability & business model | 🟢/🟡/🔴 (X/5) | |
+| Competitive position | 🟢/🟡/🔴 (X/5) | |
+| Timing & disruption | 🟢/🟡/🔴 (X/5) | |
+| Funding and capital pathway | 🟢/🟡/🔴 (X/5) | |
+| Team & capabilities | 🟢/🟡/🔴 (X/5) | |
 
-**Tulkinta:** [esim. "Mahdollisuus osoittaa vahvaa houkuttelevuutta (markkina &
-erottautuminen), mutta rajoitettua valmiutta (validointi, rahoitus, tiimi)."]
+**Interpretation:** [e.g. "The opportunity shows strong attractiveness
+(market & differentiation), but limited readiness (validation, funding,
+team)."]
 
 ## 7. Critical Implementation Issues
 
-- [esim. Validoi pinnoiteprosessin skaalautuvuus pilottimittakaavassa.]
-- [esim. Hanki ensimmäinen teollinen kumppani testausta varten.]
-- [esim. Kehitä selkeä sääntelyhyväksyntäreitti.]
-- [esim. Rakenna tiimin kaupallistamis- ja toimialaosaamista.]
+- [e.g. Validate the scalability of the coating process at pilot scale.]
+- [e.g. Secure a first industrial partner for testing.]
+- [e.g. Develop a clear regulatory approval pathway.]
+- [e.g. Build the team's commercialization and industry expertise.]
 
-## 8. License vs. Startup -näkökulma
+## 8. License vs. Startup view
 
-Lyhyt suositus perusteluineen kolmen kriteerin pohjalta (markkinan koko/tuotto,
-IPR:n suojattavuus, tiimin resurssit/riskinsietokyky). Ks.
-`../skills/opportunity-value-assessment/SKILL.md` kohta 7 ja syvempi analyysi
+A short recommendation with rationale based on three criteria (market
+size/revenue, IP protectability, team resources/risk tolerance). See
+`../skills/opportunity-value-assessment/SKILL.md` point 7, and for deeper
+analysis
 `../../specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md`.
 
-## 9. Recommended Next Steps (3-6 kk)
+## 9. Recommended Next Steps (3-6 months)
 
-1. [esim. Toteuta 3-5 strukturoitua haastattelua potentiaalisten asiakkaiden
-   kanssa arvoajureiden vahvistamiseksi.]
-2. [esim. Käynnistä pilottikokeet vähintään yhden teollisen kumppanin kanssa.]
-3. [esim. Hanki siemenrahoitus tai julkinen avustus pilottivaiheen
-   rahoittamiseksi.]
-4. [esim. Arvioi lisenssi- vs. startup-reitti uudelleen pilotin validoinnin
-   jälkeen.]
+1. [e.g. Conduct 3-5 structured interviews with potential customers to
+   confirm value drivers.]
+2. [e.g. Launch pilot trials with at least one industrial partner.]
+3. [e.g. Secure seed funding or a public grant to finance the pilot stage.]
+4. [e.g. Re-evaluate the license vs. startup route after pilot validation.]
 
-## Alaviite (sivun 2 alaosa)
+## Footer (bottom of page 2)
 
 ```
-Luottamuksellinen – vain sisäiseen käyttöön.
-Kaikki materiaali perustuu asiakkaan antamaan tietoon yhdistettynä
-analyytikon tulkintaan.
+Confidential – internal use only.
+All material is based on information provided by the client, combined
+with analyst interpretation.
 ```
 
-## Liite (valinnainen, sivu 3) — Lukijan muistiinpanot
+## Appendix (optional, page 3) — Reader's notes
 
-### Miten tätä raporttia luetaan
+### How to read this report
 
-- **Evaluation Matrix:** Nopea visuaalinen tilannekuva houkuttelevuudesta ja valmiudesta.
-- **Strengths & Gaps:** Tämänhetkiset päätekijät ja rajoitteet.
-- **Market Pathways:** Hypoteettiset markkinat, joissa arvoa voitaisiin luoda.
-- **Business Snapshot:** Selkokielinen yhteenveto (ongelma, asiakas, ratkaisu, liiketoiminta).
-- **Evaluation Lenses:** Analyytikon pisteytys seitsemästä kaupallistamisnäkökulmasta.
-- **Critical Issues & Next Steps:** Mitä ratkaista, mitä tehdä seuraavaksi.
+- **Evaluation Matrix:** A quick visual snapshot of attractiveness and readiness.
+- **Strengths & Gaps:** The current key factors and constraints.
+- **Market Pathways:** Hypothetical markets where value could be created.
+- **Business Snapshot:** A plain-language summary (problem, customer, solution, business).
+- **Evaluation Lenses:** The analyst's scoring across seven commercialization angles.
+- **Critical Issues & Next Steps:** What to solve, what to do next.
 
-### Tärkeät huomautukset ja oletukset
+### Important notes and assumptions
 
-- Perustuu **tiimin antamaan tietoon**, täydennettynä desk-researchilla ja
-  analyytikon tulkinnalla.
-- Kaikki arviot sisältävät **oletuksia ja hypoteeseja** — eivät ole faktoja
-  tai ennusteita.
-- Tarkoitettu **keskustelun ja priorisoinnin virittämiseen**, ei lopullinen
-  investointicase.
-- Markkinadata ja omaksumisarviot ovat likimääräisiä.
-- TRL-kypsyys on arvioitu itse-raportoidun tai julkisen tiedon perusteella.
-- ⚠️ **Innovaatiopolitiikkahuomautus:** Tämä raportti **ei ole keksintöilmoitus
-  eikä julkinen ilmoitus innovaatiosta**. Se ei korvaa organisaation
-  innovaatiopolitiikan mukaisia vaiheita, keksintöilmoituksia tai
-  IP-menettelyjä. Se on tarkoitettu tiukasti **vain sisäiseen tiimikäyttöön**.
+- Based on **information provided by the team**, supplemented with desk
+  research and analyst interpretation.
+- All assessments contain **assumptions and hypotheses** — they are not
+  facts or forecasts.
+- Intended to **spark discussion and prioritization**, not as a final
+  investment case.
+- Market data and adoption estimates are approximate.
+- TRL maturity is assessed based on self-reported or public information.
+- ⚠️ **Innovation policy note:** This report **is not an invention
+  disclosure and not a public announcement of an innovation**. It does not
+  replace the steps, invention disclosures, or IP procedures required by
+  the organization's innovation policy. It is intended strictly **for
+  internal team use only**.
 
-### Vastuuvapauslauseke
+### Disclaimer
 
-*Tämä asiakirja on luottamuksellinen ja laadittu yksinomaan [asiakkaan nimi]
-käyttöön. Sitä ei saa levittää ulkopuolelle ilman suostumusta. Löydökset
-edustavat suuntaa-antavaa analyysiä ja oletuksia, eivät takeita lopputuloksista.
-omistajan oma palvelu ei vastaa tämän raportin pohjalta tehdyistä
-liiketoiminta- tai investointipäätöksistä.*
+*This document is confidential and prepared solely for the use of [client
+name]. It may not be distributed externally without consent. The findings
+represent indicative analysis and assumptions, not guarantees of outcomes.
+The owner's own service is not liable for business or investment decisions
+made on the basis of this report.*

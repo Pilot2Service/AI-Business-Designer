@@ -1,84 +1,87 @@
 ---
 name: opportunity-brief-writing
-description: "Kirjoittaa mahdollisuuden arvioinnin tulokset tiiviiksi 1-2-sivuiseksi Opportunity Brief -raportiksi, ymmärrettäväksi sekä tekniselle keksijälle että päätöksentekijälle."
+description: "Writes the results of an opportunity assessment into a concise 1-2 page Opportunity Brief report, understandable to both the technical inventor and the decision-maker."
 ---
 
 # Opportunity Brief Writing
 
-*Tila: `validated` — omistajan oman palvelun
-Opportunity Value Assessment -tuotteen raporttipohjaan ankkuroitu sisältö. Ks.
-`../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the report template of the
+owner's own Opportunity Value Assessment product. See
+`../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Kirjoittaa `opportunity-value-assessment`-skillin tuottama arviointi tiiviiksi,
-1-2-sivuiseksi Opportunity Brief -raportiksi (tai vastaavaksi verkkoraportiksi),
-joka on ymmärrettävä sekä tekniselle keksijälle että liiketoiminnasta
-päättävälle lukijalle — eikä vaadi teoriaan perehtymistä.
+Writes the assessment produced by the `opportunity-value-assessment` skill
+into a concise, 1–2 page Opportunity Brief report (or an equivalent online
+report) that is understandable to both the technical inventor and the reader
+making the business decision — without requiring familiarity with the
+underlying theory.
 
-## Perustuu
+## Based on
 
-omistajan oma palvelu — Opportunity Value Assessment -palvelun raporttipohja
-(oma tuote, ks. `../../references/opportunity-brief-template.md` täydelle
-mallille esimerkkisisältöineen).
+The owner's own service — the report template of the Opportunity Value
+Assessment product (own product, see
+`../../references/opportunity-brief-template.md` for the full template with
+example content).
 
-## Rakenne
+## Method
 
-1. **Opportunity Snapshot.** Yhden kappaleen yhteenveto mahdollisuudesta ja
-   sen potentiaalista liiketoimintakielellä — mitä arvioidaan ja mitä
-   näkökulmia raportti kattaa.
-2. **Evaluation Matrix.** Esitä `opportunity-value-assessment`-skillin
-   tuottama 2D-sijoitus (attractiveness × readiness) visuaalisesti ja lisää
-   sanallinen tulkinta: mitä sijoitus tarkoittaa käytännössä juuri tälle
-   mahdollisuudelle.
-3. **Strengths & Gaps.** Top 3 vahvistavaa ja top 3 heikentävää tekijää,
-   konkreettisin perusteluin (ei yleisiä fraaseja — käytä numeroita tai
-   nimettyjä havaintoja kun mahdollista).
-4. **Market Pathways.** 1-3 potentiaalista markkinaa/sovellusta, kullekin:
-   koko (TAM), kasvu, elinkaarivaihe, pääsyreitti, perustelu miksi tämä
-   markkina sopii.
-5. **Business Snapshot** viitenä kysymyksenä liiketoiminnan peruskielellä:
-   (1) mikä on ongelma, (2) kenellä se on, (3) mikä on nykyinen ratkaisu,
-   (4) mikä on meidän innovaatiomme, (5) miten tästä voisi tulla liiketoimintaa.
-6. **Evaluation Lenses -taulukko.** Seitsemän näkökulmaa
-   (`opportunity-value-assessment`-skillin tuottamat pisteet 1-5 + väri
-   🟢/🟡/🔴) ja lyhyt perustelu jokaiselle.
-7. **Critical Implementation Issues.** Mitä on ratkaistava ennen kuin
-   mahdollisuus voi edetä täyteen arvoonsa.
-8. **License vs. Startup -näkökulma.** Lyhyt suositus perusteluineen (ks.
-   `opportunity-value-assessment`-skillin alustava suunta); voi esittää
-   pienenä vertailutaulukkona.
-9. **Recommended Next Steps (3-6 kk).** Priorisoitu, konkreettinen
-   toimenpidelista, joka on johdettu suoraan kriittisistä tekijöistä — ei
-   yleisiä suosituksia vaan tekemiskelpoisia askeleita (esim. "haastattele
-   3-5 potentiaalista asiakasta X:stä", "käynnistä pilotti kumppanin Y kanssa").
-10. **Liitä aina mukaan:** vastuuvapauslauseke (kaikki on hypoteesi- ja
-    oletuspohjaista analyysia, ei lopullinen totuus tai investointicase),
-    huomautus ettei raportti ole virallinen keksintöilmoitus tai korvaa
-    organisaation innovaatiopolitiikan mukaisia IP-menettelyjä, sekä
-    luottamuksellisuusmerkintä.
+1. **Opportunity Snapshot.** A one-paragraph summary of the opportunity and
+   its potential, in business language — what's being assessed and which
+   angles the report covers.
+2. **Evaluation Matrix.** Present the 2D placement (attractiveness ×
+   readiness) produced by `opportunity-value-assessment` visually, and add a
+   narrative interpretation: what does the placement actually mean for this
+   specific opportunity?
+3. **Strengths & Gaps.** The top 3 strengthening and top 3 weakening
+   factors, with concrete justification (no generic phrases — use numbers or
+   named observations where possible).
+4. **Market Pathways.** 1–3 potential markets/applications, each with: size
+   (TAM), growth, life-cycle stage, entry route, and rationale for why this
+   market fits.
+5. **Business Snapshot** as five questions in plain business language:
+   (1) what's the problem, (2) who has it, (3) what's the current solution,
+   (4) what's our innovation, (5) how could this become a business.
+6. **Evaluation Lenses table.** The seven angles (the 1–5 scores plus
+   🟢/🟡/🔴 color produced by `opportunity-value-assessment`) and a short
+   justification for each.
+7. **Critical Implementation Issues.** What needs to be solved before the
+   opportunity can reach its full value.
+8. **License vs. Startup view.** A short recommendation with rationale (see
+   the preliminary direction from `opportunity-value-assessment`); can be
+   presented as a small comparison table.
+9. **Recommended Next Steps (3–6 months).** A prioritized, concrete action
+   list derived directly from the critical factors — not generic
+   recommendations but actionable steps (e.g. "interview 3–5 potential
+   customers about X," "launch a pilot with partner Y").
+10. **Always include:** a disclaimer (everything is hypothesis- and
+    assumption-based analysis, not a final truth or investment case), a note
+    that the report is not an official invention disclosure and doesn't
+    replace the IP procedures required by the organization's innovation
+    policy, and a confidentiality notice.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei ole virallinen keksintöilmoitus eikä korvaa yliopiston/organisaation
-  innovaatiopolitiikan mukaisia IP-menettelyjä — mainitse tämä aina raportissa
-  (ks. mallin huomautusteksti `../../references/opportunity-brief-template.md`).
-- Ei esitä pisteytystä, markkinadataa tai TRL-arviota lopullisena totuutena —
-  kaikki perustuu asiakkaan antamaan tietoon täydennettynä desk-researchilla ja
-  analyytikon tulkinnalla; merkitse tämä näkyvästi.
-- Ei kirjoita raporttia ilman edeltävää `opportunity-value-assessment`-arviointia
-  — tarvitsee sen tuottaman matriisisijoituksen ja 7-lenssi-pisteytyksen
-  syötteenä, ei generoi niitä itse tyhjästä.
+- Isn't an official invention disclosure and doesn't replace the IP
+  procedures required by a university's/organization's innovation policy —
+  always mention this in the report (see the note text in the template,
+  `../../references/opportunity-brief-template.md`).
+- Doesn't present scoring, market data, or TRL assessment as final truth —
+  everything is based on information supplied by the client, supplemented
+  by desk research and analyst interpretation; flag this clearly.
+- Doesn't write the report without a preceding `opportunity-value-assessment`
+  evaluation — it needs the matrix placement and 7-lens scoring it produces
+  as input, and doesn't generate them itself from scratch.
 
-## Jatka tästä
+## Continue from here
 
-- Koko ketjun alku: `../opportunity-intake-elicitation/SKILL.md` →
-  `../opportunity-value-assessment/SKILL.md` → tämä skilli
-- Liittyvä skilli toisessa pakissa (kun mahdollisuudesta halutaan täysi
-  liiketoimintaperustelu): `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Start of the full chain: `../opportunity-intake-elicitation/SKILL.md` →
+  `../opportunity-value-assessment/SKILL.md` → this skill
+- Related skill in another pack (when the opportunity needs a full business
+  justification): `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/opportunity-brief-template.md` — täysi raporttipohja esimerkkisisältöineen
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/opportunity-brief-template.md` — the full report template with example content
+- `../../CLAUDE.md` — this pack's shared guardrails

@@ -1,226 +1,223 @@
-# Promptikirjasto — AI-native Business Design -työpaja
+# Prompt library — AI-native Business Design workshop
 
-Näihin viittaavat pakin skillit (`skills/*/SKILL.md`, "Rakenne"-osio).
-Promptit on suomennettu ja kevyesti muotoiltu selkeyden vuoksi alkuperäisestä
-`day1.md`:stä (ks. `workshop-source.md`) — merkitys ei ole muutettu. Aja
-promptit AI-ajattelukumppanin (Claude/ChatGPT) projektissa, jolla on
-käytössään oma liiketoimintakonteksti.
+Referenced by the pack's skills (`skills/*/SKILL.md`, "Method" section).
+The prompts have been translated and lightly reworded for clarity from the
+original `day1.md` (see `workshop-source.md`) — the meaning has not been
+changed. Run the prompts in a project with your AI thinking partner
+(Claude/ChatGPT) that has your own business context available.
 
-## Promptti 1 — AI-mahdollisuuksien löytö (`ai-native-opportunity-scan`)
-
-```
-Toimi startup-strategina, joka ymmärtää tekoälyä syvällisesti — myös
-agenttisia ja closed-loop-lähestymistapoja, ei vain perustuottavuuskäyttöä.
-
-Katso liiketoimintaani (käytä kaikkea mitä tiedät siitä tästä projektista).
-Tunnista 5 aluetta, joissa tekoäly voisi luoda meille AIDOSTI UUSIA
-liiketoimintamahdollisuuksia — ei vain nopeuttaa olemassa olevaa prosessia.
-
-Haluan jokaiseen viiteen alueeseen kehittyneen tai agenttisen käytön:
-closed-loop-prosesseja, autonomisia agentteja, uusia tekoälypohjaisia
-ominaisuuksia, tuotteita tai liiketoimintamalleja, jotka olivat aiemmin
-liian hitaita, kalliita tai mahdottomia.
-
-Anna jokaisesta viidestä alueesta:
-- lyhyt nimi mahdollisuudelle
-- mikä se on, 2-3 lauseessa
-- miksi se on uutena mahdollinen juuri tekoälyn ansiosta
-- mitä pitäisi karkeasti olla totta, jotta voisimme tehdä tämän
-
-Ole spesifinen minun liiketoimintaani nähden. Vältä geneerisiä "käytä
-tekoälyä säästämään aikaa" tai "automatisoi asiakaspalvelu AI-agentilla"
--tyyppisiä ehdotuksia.
-```
-
-## Promptti 2 — Pressure-test ja priorisointi (`ai-native-opportunity-scan`)
-
-Kirjoita ensin omat lyhyet kommenttisi ja arviosi viidestä löydöksestä, ja
-liitä sitten seuraava:
+## Prompt 1 — AI opportunity discovery (`ai-native-opportunity-scan`)
 
 ```
-Ota yllä olevat 5 mahdollisuutta. Arvioi jokainen:
+Act as a startup strategist who deeply understands AI — including
+agentic and closed-loop approaches, not just basic productivity use.
 
-- Liiketoimintapotentiaali: kuinka iso tämä voisi olla meille, ja miksi?
-- Asiakasarvo: mitä todellista ongelmaa se ratkaisee, ja kenelle?
-- Toteutettavuus pienelle tiimille nykyisillä tekoälytyökaluilla ja
-  resursseilla (matala / keskitaso / korkea)
-- Mikä olisi pienin ensimmäinen versio, jonka voisimme prototypoida tällä
-  viikolla?
+Look at my business (use everything you know about it from this
+project). Identify 5 areas where AI could create GENUINELY NEW business
+opportunities for us — not just speed up an existing process.
 
-Järjestä sitten nämä 5 lupaavimmasta vähiten lupaavaan tämänhetkisenä
-tekoälyyn liittyvänä liiketoimintamahdollisuutena meille, ja perustele
-järjestys yhdellä lauseella per kohta. Suosittele yhtä, jonka
-prototypoisit ensin, ja miksi.
+I want advanced or agentic use for each of the five areas: closed-loop
+processes, autonomous agents, new AI-powered features, products, or
+business models that were previously too slow, too costly, or
+impossible.
+
+For each of the five areas, give me:
+- a short name for the opportunity
+- what it is, in 2-3 sentences
+- why it's newly possible specifically because of AI
+- what would roughly need to be true for us to do this
+
+Be specific to my business. Avoid generic suggestions like "use AI to
+save time" or "automate customer service with an AI agent."
 ```
 
-## Promptti 3 — Vision terävöitys (`customer-vision-to-jtbd`)
+## Prompt 2 — Pressure test and prioritization (`ai-native-opportunity-scan`)
+
+First write your own brief comments and assessment of the five findings,
+then attach the following:
 
 ```
-Toimi kokeneena tuotestrategina, joka työskentelee varhaisen vaiheen
-startupin kanssa.
+Take the 5 opportunities above. Assess each one:
 
-Alla (ja tässä projektissa) on karkea tuotevisioni ja asiakastilanteeni.
-Lue se ja auta terävöittämään sitä.
+- Business potential: how big could this be for us, and why?
+- Customer value: what real problem does it solve, and for whom?
+- Feasibility for a small team with current AI tools and resources
+  (low / medium / high)
+- What would be the smallest first version we could prototype this
+  week?
 
-1. Kerro mikä on vielä epäselvää tai määrittelemättä ja vaatii päätöksen
-   minulta.
-2. Kysy enintään 7 tarkentavaa kysymystä tärkeysjärjestyksessä.
-3. Nosta esiin oletukset, joita näytän tekevän ja jotka kannattaisi
-   tarkistaa.
-
-Älä vielä kirjoita suunnitelmaa — auta ensin ajattelemaan.
+Then rank these 5 from most promising to least promising as an AI-related
+business opportunity for us right now, and justify the ranking with one
+sentence per item. Recommend the one you would prototype first, and why.
 ```
 
-## Promptti 4 — Ideal Customer Profile
+## Prompt 3 — Vision sharpening (`customer-vision-to-jtbd`)
 
 ```
-Tutki useampi asiakasprofiili, joilla on tämä ongelma, kuvaa kukin, ja
-priorisoi ketä meidän pitäisi palvella ensin ja miksi.
+Act as an experienced product strategist working with an early-stage
+startup.
+
+Below (and in this project) is my rough product vision and customer
+situation. Read it and help sharpen it.
+
+1. Tell me what is still unclear or undefined and needs a decision from
+   me.
+2. Ask at most 7 clarifying questions in priority order.
+3. Surface any assumptions I seem to be making that are worth checking.
+
+Don't write a plan yet — first help me think.
 ```
 
-## Promptti 5 — Jobs To Be Done
+## Prompt 4 — Ideal Customer Profile
 
 ```
-Käy kanssani läpi Jobs To Be Done -harjoitus. Mene syvemmälle asiakkaan
-käyttäytymiseen ja siihen tilanteeseen, jossa ongelma pitää ratkaista, ja
-mitä hän todella yrittää saavuttaa.
+Explore multiple customer profiles who have this problem, describe each,
+and prioritize who we should serve first and why.
 ```
 
-## Promptti 6 — Need Themes, NMB-pisteytys ja AI wedge (`customer-vision-to-jtbd`)
+## Prompt 5 — Jobs To Be Done
 
 ```
-Muunna yllä oleva Jobs To Be Done -analyysi tarveteemoiksi (Need Themes)
-— anna 5 funktionaalista ja 2 psykologista teemaa. Palauta taulukkona
-sarakkein: Tarveteema / Tyyppi / Taustalla oleva "miksi" / Liittyvä JTBD.
-Jokaisen teeman tulee olla yhden tai kahden sanan substantiivilause, joka
-kiteyttää tarpeen ytimen, esim. edullisuus, relevanssi, luottamus.
+Walk through a Jobs To Be Done exercise with me. Go deeper into the
+customer's behavior and the situation in which the problem needs to be
+solved, and what they're really trying to achieve.
+```
+
+## Prompt 6 — Need Themes, NMB scoring, and AI wedge (`customer-vision-to-jtbd`)
+
+```
+Convert the Jobs To Be Done analysis above into Need Themes — give 5
+functional and 2 psychological themes. Return as a table with columns:
+Need Theme / Type / Underlying "why" / Related JTBD. Each theme should be
+a one- or two-word noun phrase that captures the core of the need, e.g.
+affordability, relevance, trust.
 ```
 
 ```
-Pisteytä jokainen tarveteema viidellä kriteerillä, kukin 1-5: Need Depth
-(tarpeen syvyys/kipeys), Frequency (kuinka usein tarve aktivoituu),
-Market Coverage (kuinka laajasti tarve koskettaa kohdemarkkinaa),
-Business Strength (oma lähtökohtani tämän tarpeen palvelemiseen),
-AI Advantage (kuinka paljon kilpailuetua tekoäly tuo juuri tähän
-tarpeeseen). Laske kokonaispistemäärä (max 25) ja luokittele jokainen
-Differentiator- tai Table Stake -tason tarpeeksi. Palauta taulukkona ja
-selitä korkeimmat pisteet.
+Score each need theme on five criteria, each 1-5: Need Depth (depth/
+acuteness of the need), Frequency (how often the need is triggered),
+Market Coverage (how broadly the need touches the target market),
+Business Strength (my own starting position for serving this need),
+AI Advantage (how much competitive advantage AI brings to precisely this
+need). Calculate a total score (max 25) and classify each as a
+Differentiator- or Table Stake-level need. Return as a table and explain
+the highest scores.
 ```
 
 ```
-Valitse yksi (tai kaksi) tarveteema AI-differentiaattoritarpeeksi (AI
-wedge): tarve jolla on samanaikaisesti korkea syvyys, korkea toistuvuus,
-heikko kilpailijakattavuus, vahva oma lähtökohtani, JA korkea
-tekoälyetu. Perustele valinta ja selitä miksi muut korkean pistemäärän
-tarpeet eivät täytä kaikkia kriteereitä yhtä hyvin.
+Select one (or two) need theme(s) as the AI differentiator need (AI
+wedge): a need that simultaneously has high depth, high frequency, weak
+competitor coverage, a strong starting position for me, AND a high AI
+advantage. Justify the choice and explain why the other high-scoring
+needs don't satisfy all the criteria equally well.
 ```
 
-## Promptti 7 — Mini-PRD (`ai-buildable-prd-writing`)
+## Prompt 7 — Mini-PRD (`ai-buildable-prd-writing`)
 
 ```
-Toimi kokeneena tuotepäällikkönä, joka auttaa varhaisen vaiheen startupia
-kirjoittamaan fokusoidun mini-PRD:n tekoälyllä rakennettavaa prototyyppiä
-varten.
+Act as an experienced product manager helping an early-stage startup
+write a focused mini-PRD for a prototype to be built with AI.
 
-Käytä kaikkea mitä tiedät liiketoiminnastani tässä projektissa, sekä
-mahdollisuutta ja muistiinpanoja aiemmasta työstämme tässä keskustelussa.
+Use everything you know about my business in this project, as well as
+the opportunity and notes from our earlier work in this conversation.
 
-Kirjoita MINI-PRD seuraavilla osioilla:
+Write a MINI-PRD with the following sections:
 
-1. Ongelma & asiakas — kenelle tämä on, ja mitä kipua se ratkaisee?
-2. Tuotevisio — kuvaa kokemus asiakkaan omin sanoin.
-3. Core-ominaisuudet — listaa vain ne ominaisuudet, joita ensimmäinen
-   versio tarvitsee. Kuvaa jokainen lopputuloksena, jonka käyttäjä
-   saavuttaa, ei teknisenä toteutuksena.
-4. Rajaukset — mitä TIETOISESTI emme rakenna tässä versiossa.
-5. Onnistumiskriteerit — miten tiedämme prototyypin toimivan.
+1. Problem & customer — who this is for, and what pain does it solve?
+2. Product vision — describe the experience in the customer's own words.
+3. Core features — list only the features the first version needs.
+   Describe each as the outcome the user achieves, not as a technical
+   implementation.
+4. Scope boundaries — what we DELIBERATELY are not building in this
+   version.
+5. Success criteria — how we'll know the prototype works.
 
-Pidä se riittävän tiiviinä prototypoitavaksi tällä viikolla. Luonnoksen
-jälkeen kysy minulta enintään 5 kysymystä, jotka terävöittäisivät PRD:tä,
-ja anna sitten tarkistettu versio.
+Keep it tight enough to be prototyped this week. After the draft, ask me
+at most 5 questions that would sharpen the PRD, then give me a revised
+version.
 ```
 
-## PRD-tarkistuslista (`ai-buildable-prd-writing`, vaihe 4)
+## PRD checklist (`ai-buildable-prd-writing`, step 4)
 
-- [ ] Ongelma & asiakas on spesifinen — ei "kaikille jotka..."
-- [ ] Tuotevisio on kirjoitettu asiakkaan sanoin, ei ominaisuuslistana
-- [ ] Core-ominaisuudet on kuvattu lopputuloksina ("käyttäjä voi…"), ei
-      teknisenä toteutuksena
-- [ ] Rajaukset-osio on olemassa ja konkreettinen (ei tyhjä)
-- [ ] Onnistumiskriteerit ovat mitattavissa tai havaittavissa
-- [ ] PRD ei sisällä teknologiavalintoja tai arkkitehtuuripäätöksiä
-- [ ] Laajuus on karsittu MVP-tasolle: yksi asiakas, yksi ydin-job
+- [ ] Problem & customer is specific — not "for everyone who..."
+- [ ] Product vision is written in the customer's words, not as a
+      feature list
+- [ ] Core features are described as outcomes ("the user can…"), not as
+      a technical implementation
+- [ ] The Scope boundaries section exists and is concrete (not empty)
+- [ ] Success criteria are measurable or observable
+- [ ] The PRD contains no technology choices or architecture decisions
+- [ ] Scope is trimmed to MVP level: one customer, one core job
 
 ---
 
-**Huom promptit 8–10:** nämä on lisätty ulkopuolisen "AI-first SaaS
-Product" -työpajasta (ks. `ai-first-saas-workshop-source.md`) ja ne sijaitsevat
-työnkulussa promptin 6 (Need Themes / AI wedge) ja promptin 7 (PRD) välissä
-— käytä niitä kun ratkaisusuunta ei ole vielä selvä valitulle AI wedgelle.
+**Note on prompts 8–10:** these were added from the external "AI-first
+SaaS Product" workshop (see `ai-first-saas-workshop-source.md`) and sit
+in the workflow between prompt 6 (Need Themes / AI wedge) and prompt 7
+(PRD) — use them when the solution direction isn't yet clear for the
+chosen AI wedge.
 
-## Promptti 8 — Kolme ratkaisusuuntaa (`ai-differentiator-solution-ideation`)
-
-```
-Otetaan lähtökohdaksi valittu AI-differentiaattoritarpeeni (AI wedge):
-[liitä tarveteema + NMB-pisteytys tähän].
-
-Ideoi 3 täysin erilaista AI-natiivia ratkaisusuuntaa tälle tarpeelle,
-kolmella eri linssillä:
-
-1. Kilpailijalinssi: miten olemassa olevat toimijat ratkaisevat tätä
-   tänään, ja mitä tekoäly mahdollistaisi joka niille ei ole mahdollista?
-2. Tulevaisuuslinssi: miten tämä tarve ratkaistiin ennen (raskaasti,
-   manuaalisesti, kontekstiin aina uudelleen sovittaen), ja miten se
-   ratkaistaan tulevaisuudessa kun tekoäly rakentaa ja opettaa kontekstia
-   jatkuvasti vuoropuhelussa käyttäjän kanssa?
-3. Yhdistä-pisteet-linssi: mitkä muut erilliset tehtävät käyttäjä tekee
-   tämän tarpeen ympärillä, jotka voitaisiin yhdistää yhdeksi tekoäly-
-   natiiviksi kokemukseksi?
-
-Anna jokaiselle suunnalle: nimi, konsepti (2-3 lausetta), pääasiallinen
-output käyttäjälle, ja miksi se on erottuva kilpailijoihin/nykytilaan
-nähden. Älä valitse puolestani — esitä kaikki kolme rinnakkain.
-```
-
-## Promptti 9 — RICE-pisteytys ja MVP-synteesi (`rice-scoring-and-mvp-synthesis`)
+## Prompt 8 — Three solution directions (`ai-differentiator-solution-ideation`)
 
 ```
-Pisteytä yllä olevat 3 ratkaisusuuntaa RICE-mallilla: Reach, Impact,
-Confidence (kaikki 1-5), ja Effort käänteisesti (5 = helpoin/matalin
-rakennuskustannus, 1 = vaikein). Perustele jokainen piste lyhyesti,
-erityisesti Effort suhteessa nykyiseen tekniseen pinooni ja olemassa
-oleviin työkaluihini/dataani. Suosittele mitä pitäisi rakentaa MVP:nä
-ja miksi.
+Let's start from my chosen AI differentiator need (AI wedge):
+[attach the need theme + NMB score here].
+
+Ideate 3 completely different AI-native solution directions for this
+need, through three different lenses:
+
+1. Competitor lens: how do existing players solve this today, and what
+   would AI make possible that isn't possible for them?
+2. Future lens: how was this need solved before (heavily, manually,
+   always refitted to context), and how will it be solved in the future
+   when AI continuously builds and teaches context in dialogue with the
+   user?
+3. Connect-the-dots lens: what other separate tasks does the user
+   perform around this need that could be combined into a single
+   AI-native experience?
+
+For each direction, give me: a name, the concept (2-3 sentences), the
+primary output for the user, and why it's distinctive relative to
+competitors/the status quo. Don't choose for me — present all three side
+by side.
+```
+
+## Prompt 9 — RICE scoring and MVP synthesis (`rice-scoring-and-mvp-synthesis`)
+
+```
+Score the 3 solution directions above with the RICE model: Reach,
+Impact, Confidence (all 1-5), and Effort inverted (5 = easiest/lowest
+build cost, 1 = hardest). Briefly justify each score, especially Effort
+relative to my current tech stack and existing tools/data. Recommend
+what should be built as the MVP and why.
 ```
 
 ```
-Kirjoita valitulle MVP:lle: a) MVP-määritelmä (2-3 lausetta), b) yhden
-lauseen positiointilause muodossa "[Tuote] antaa [kohdeasiakkaalle]
-[ydinhyödyn] [erottuvalla mekanismilla]", c) 3 "miksi voitamme"
--väittämää, jotka sitovat vahvuuteni konkreettiseen kilpailuetuun.
+For the chosen MVP, write: a) an MVP definition (2-3 sentences), b) a
+one-sentence positioning statement in the format "[Product] gives
+[target customer] [core benefit] through [distinctive mechanism]", c) 3
+"why we win" claims that tie my strengths to a concrete competitive
+advantage.
 ```
 
-## Promptti 10 — Keskusteleva OS-flow (`ai-native-conversational-os-design`)
+## Prompt 10 — Conversational OS flow (`ai-native-conversational-os-design`)
 
 ```
-Suunnittele valitulle MVP:lle keskusteleva käyttöliittymäarkkitehtuuri
-kuudella vaiheella:
+Design a conversational UI architecture for the chosen MVP with six
+stages:
 
-1. Intent — mitkä ovat 3-6 pääasiallista syytä miksi käyttäjä tulee
-   tähän tuotteeseen?
-2. Strategy Cards — mitkä sisäiset "pelikirjat" (päättelymoduulit)
-   tekoäly voi valita kunkin intentin mukaan? Sido jokainen korttini
-   yhteen aiemmin tunnistettuun differentiaattori- tai table-stake-
-   tarpeeseen.
-3. Clarification — mitkä korkeintaan 2-4 täsmentävää kysymystä
-   tarvitaan, ja milloin niitä kysytään?
-4. Output Cards — mitkä strukturoidut tulokset käyttäjä saa kustakin
-   strategiakortista?
-5. Mission — mikä yhden lauseen missio kehystää seuraavat askeleet
-   luottamuksen rakentamisen ympärille?
-6. Agent Execution — mitä tekoäly voi tehdä itsenäisesti mission jälkeen
-   luodakseen eteenpäin vievää liikevoimaa?
+1. Intent — what are the 3-6 main reasons a user comes to this product?
+2. Strategy Cards — what internal "playbooks" (reasoning modules) can
+   the AI choose from for each intent? Tie each card to one previously
+   identified differentiator or table-stake need.
+3. Clarification — what at most 2-4 clarifying questions are needed, and
+   when are they asked?
+4. Output Cards — what structured results does the user get from each
+   strategy card?
+5. Mission — what one-sentence mission frames the next steps around
+   building trust?
+6. Agent Execution — what can the AI do independently after the mission
+   to create forward momentum?
 
-Kirjoita jokainen vaihe konkreettisesti tähän MVP:hen sovellettuna, älä
-geneerisesti.
+Write each stage concretely as applied to this MVP, not generically.
 ```

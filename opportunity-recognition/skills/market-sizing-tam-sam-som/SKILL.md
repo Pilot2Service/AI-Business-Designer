@@ -1,65 +1,120 @@
 ---
 name: market-sizing-tam-sam-som
-description: "Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään."
+description: "Quantitatively sizes the market and the genuinely reachable share of it. Use when you need opportunity-recognition-level support for a comparable task."
 ---
 
 # Market Sizing (TAM/SAM/SOM)
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti.
+Quantitatively sizes the market and the genuinely reachable share of it —
+not to produce an impressively large headline number, but to give a
+defensible, traceable estimate that a business case or investment
+conversation can actually stand on.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- stratarts — market-opportunity-analyzer
-- Business Opportunity Scout (buYoung)
+- The standard TAM/SAM/SOM framework (Total Addressable Market / Serviceable
+  Addressable Market / Serviceable Obtainable Market), widely used in
+  venture and strategic planning to move from "the size of the whole
+  market" down to "what we could realistically capture" in three explicit,
+  progressively narrower steps.
+- stratarts — market-opportunity-analyzer (a public reference
+  implementation of a market-sizing workflow)
+- Business Opportunity Scout (buYoung) (a public reference implementation of
+  opportunity scouting and sizing)
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Define TAM (Total Addressable Market) using two independent
+   approaches, not one.**
+   - **Top-down**: start from a recognized industry or market-research
+     figure for the broadest relevant category, and state the source.
+   - **Bottom-up**: start from a realistic unit economic (price per
+     customer, or revenue per transaction) and multiply by a defensible
+     estimate of the total number of potential buyers.
+   Running both and comparing them is the single most effective way to
+   catch an inflated or nonsensical TAM before it enters a business case —
+   see `../agents/market-sizing-cross-validator.md`, which exists
+   specifically to do this cross-check.
+2. **Narrow TAM to SAM (Serviceable Addressable Market)** by applying the
+   real constraints of the business: geography actually served, product
+   segment actually addressed, language/regulatory/channel constraints.
+   Every narrowing filter should be named explicitly — "we only serve
+   [region/segment] because [reason]" — not folded silently into a lower
+   percentage.
+3. **Narrow SAM to SOM (Serviceable Obtainable Market)** using realistic
+   go-to-market constraints over a defined time horizon: sales capacity,
+   competitive response, adoption curve, channel access. SOM should be
+   expressed with an explicit time frame ("reachable within 3 years"), not
+   as a static number — reachable share changes as the business matures.
+4. **Make every multiplier and percentage traceable to its source.** For
+   each number used in the chain, note whether it's: user-supplied, an
+   industry benchmark (name the source), an assumption
+   (`[assumption — verify]`), or pulled from a connected external data
+   source (see `../../../meta/external-data-mcp.md`). A TAM/SAM/SOM chain is
+   only as credible as its weakest, least-traceable multiplier.
+5. **Watch for double counting** when multiple narrowing factors are chained
+   together (e.g. "30% of the market × 15% conversion") — check whether the
+   two percentages are actually independent of each other, or whether one
+   already implicitly contains the other.
+6. **Sanity-check the result against an external anchor** if one is
+   available: a known industry revenue figure, a comparable company's
+   disclosed revenue, or a connected external data source. This is a
+   magnitude check, not a precise validation — is the number the right
+   order of magnitude, or off by 10x without an explanation?
+7. **Route the result through cross-validation before it's used.** Before
+   the TAM/SAM/SOM figures go into a business case or in front of a
+   decision-maker, run them through
+   `../agents/market-sizing-cross-validator.md`, which independently
+   re-derives the number using a second method and reports a confidence
+   level.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei vahvista markkinakokolukuja muistista — käyttää käyttäjän antamia lähtöarvoja tai merkitsee oletuksen [oletus — tarkista].
+- Doesn't make the final decision for you — it produces a structured draft
+  to support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or clearly flags an assumption
+  (`[assumption — verify]`).
+- Doesn't rely on a single calculation path as sufficient proof — a
+  top-down-only or bottom-up-only estimate should be treated as provisional
+  until cross-checked by the other method or by
+  `../agents/market-sizing-cross-validator.md`.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into `../../references/`)
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new fields
+to the frontmatter** — `name` and `description` are the only ones allowed
+(see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../competitive-and-five-forces-mapping/SKILL.md` — Kartoittaa kilpailudynamiikan ja toimialan rakenteelliset voimat.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: `../competitive-and-five-forces-mapping/SKILL.md` —
+  Maps the competitive dynamics and structural forces of the industry.
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
-- `../../../meta/external-data-mcp.md` — valinnainen ulkoinen data-MCP (Market
-  Sizing MCP Server / TAM-MCP-Server) laskelman pohjadataksi tai
-  ristiintarkistukseksi, jos käyttäjän ympäristössä sellainen on kytkettynä. Ei
-  riippuvuus — skilli toimii ilmankin.
-- `../agents/market-sizing-cross-validator.md` — delegoitava agentti joka
-  ristiintarkistaa tämän skillin tuottaman laskelman ennen kuin lukua käytetään
-  business casessa
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — this pack's shared guardrails
+- `../../../meta/external-data-mcp.md` — an optional external data MCP
+  (Market Sizing MCP Server / TAM-MCP-Server) as underlying data for the
+  calculation or for cross-checking, if one is connected in the user's
+  environment. Not a dependency — the skill works without it.
+- `../agents/market-sizing-cross-validator.md` — a delegatable agent that
+  cross-checks the calculation this skill produces before the figure is
+  used in a business case

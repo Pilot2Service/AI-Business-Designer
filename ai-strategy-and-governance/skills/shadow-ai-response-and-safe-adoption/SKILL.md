@@ -1,94 +1,97 @@
 ---
 name: shadow-ai-response-and-safe-adoption
-description: "Tunnistaa organisaatiossa jo tapahtuvan luvattoman/epävirallisen AI-työkalujen käytön (Shadow AI) ja korvaa sen turvallisilla, skaalautuvilla virallisilla ratkaisuilla, joille on laskettu selkeä ROI."
+description: "Identifies unauthorized/unofficial AI tool usage already happening in the organization (Shadow AI) and replaces it with a safe, scalable official solution backed by a clear ROI."
 ---
 
 # Shadow AI Response & Safe Adoption
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Kartoittaa työntekijöiden jo tapahtuvan, ilman virallista hyväksyntää
-tapahtuvan AI-työkalujen käytön ("Shadow AI"), ymmärtää mitä aitoa tarvetta
-se ratkaisee, ja rakentaa sille turvallinen, skaalautuva ja selkeällä
-ROI:lla perusteltu virallinen vastine — kieltämisen sijaan tai sen ohella.
+Maps the AI tool usage employees are already doing without official
+approval ("Shadow AI"), understands what genuine need it's solving, and
+builds a safe, scalable, clearly ROI-justified official alternative for
+it — instead of, or alongside, banning it.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
-  aikakaudella" (2026) — Shadow AI -käsite nostettu esiin osana nopean
-  AI-business case -rakentamisen menetelmää.
-- Yleinen "Shadow IT" -kirjallisuus ja -käytäntö, laajennettuna
-  AI-työkalujen kontekstiin.
+- A research report supplied by the user, "AI Business Designer in the
+  Age of AI" (2026) — the Shadow AI concept, surfaced as part of a
+  rapid AI business-case-building method.
+- General "Shadow IT" literature and practice, extended to the context
+  of AI tools.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Kartoita Shadow AI:n laajuus: mitä AI-työkaluja työntekijät jo
-   käyttävät ilman virallista hyväksyntää tai näkyvyyttä (kyselyt,
-   käyttödata, IT-lokit jos saatavilla).
-2. Erittele käyttötapaukset syyn mukaan: mitä aitoa tarvetta epävirallinen
-   käyttö ratkaisee — nopeus, puuttuva virallinen työkalu, byrokratian
-   kiertäminen?
-3. Arvioi riski jokaisessa löydetyssä käyttötapauksessa: tietoturva,
-   tietosuoja (GDPR), IP-vuoto, virheellisen tiedon leviäminen,
-   sääntelyriski (ks. `../responsible-ai-and-governance-check/SKILL.md`).
-4. Älä lähde oletuksesta "kiellä kaikki" — arvioi kussakin tapauksessa:
-   onko nopein turvallinen reitti kieltäminen, ohjeistaminen, vai
-   virallisen vastineen rakentaminen?
-5. Priorisoi käyttötapaukset, joissa epävirallinen käyttö on laajaa ja
-   arvokasta: näille rakennetaan virallinen, turvallinen ja skaalautuva
-   vastine ensin.
-6. Laske jokaiselle viralliselle vastineelle selkeä ROI (säästetty
-   aika/kustannus vs. käyttöönotto- ja ylläpitokustannus) — sama kuri kuin
-   muissakin AI-investoinneissa (ks.
+1. Map the extent of Shadow AI: what AI tools employees are already
+   using without official approval or visibility (surveys, usage data,
+   IT logs if available).
+2. Break down the use cases by reason: what genuine need does the
+   unofficial use solve — speed, a missing official tool, working
+   around bureaucracy?
+3. Assess the risk in every use case found: security, data protection
+   (GDPR), IP leakage, spread of incorrect information, regulatory risk
+   (see `../responsible-ai-and-governance-check/SKILL.md`).
+4. Don't start from a "ban everything" assumption — assess in each
+   case: is the fastest safe route to ban, to provide guidance, or to
+   build an official alternative?
+5. Prioritize the use cases where unofficial use is widespread and
+   valuable: build the official, safe, and scalable alternative for
+   these first.
+6. Calculate a clear ROI for every official alternative (time/cost
+   saved vs. rollout and maintenance cost) — the same discipline as
+   any other AI investment (see
    `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`).
-7. Viesti muutos työntekijöille avoimesti: miksi virallinen työkalu on
-   parempi vaihtoehto, ei vain kielto (ks.
+7. Communicate the change to employees openly: why the official tool is
+   the better option, not just a ban (see
    `../../../change-and-communication/skills/stakeholder-communication-plan/SKILL.md`).
-8. Rakenna kevyt jatkuva seuranta, joka tunnistaa uusia Shadow AI
-   -käyttötapauksia ajan myötä — tämä ei ole kertaluonteinen projekti.
+8. Build a lightweight, ongoing monitoring process that identifies new
+   Shadow AI use cases over time — this isn't a one-off project.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei ole tietoturva-auditointi eikä korvaa IT-/tietoturvaosaston teknistä
-  kartoitusta — jäsentää liiketoiminnallisen vastauksen.
-- Ei oleta että kaikki epävirallinen käyttö on haitallista — monessa
-  tapauksessa se paljastaa aidon, jo validoidun tarpeen jota kannattaa
-  hyödyntää, ei vain tukahduttaa.
-- Ei tee lopullista työkalu- tai politiikkapäätöstä puolestasi.
+- Isn't a security audit and doesn't replace an IT/security team's
+  technical assessment — it structures the business response.
+- Doesn't assume all unofficial use is harmful — in many cases it
+  reveals a genuine, already-validated need worth harnessing, not just
+  suppressing.
+- Doesn't make the final tool or policy decision for you.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in
+here:
 
-- omat nyrkkisäännöt siitä, milloin Shadow AI kannattaa virallistaa vs.
-  milloin se pitää sulkea pois
-- konkreettiset mallipohjat (`../../references/`-kansioon, esim.
-  Shadow AI -kartoituskysely)
-- referenssitapaukset / omat caset onnistuneesta Shadow AI:n
-  virallistamisesta
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb for when Shadow AI should be formalized vs.
+  when it should be shut down
+- concrete templates (into `../../references/`, e.g. a Shadow AI
+  mapping survey)
+- reference cases / your own examples of successfully formalizing
+  Shadow AI
+- what this skill deliberately does *not* do (guardrails, common
+  mistakes) — add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only
+ones allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa: `../responsible-ai-and-governance-check/SKILL.md`,
-  `../ai-capability-roadmap/SKILL.md` (viralliset vastineet osaksi
-  roadmapia).
-- Liittyvä skilli toisessa pakissa:
+- In this pack: `../responsible-ai-and-governance-check/SKILL.md`,
+  `../ai-capability-roadmap/SKILL.md` (official alternatives folded
+  into the roadmap).
+- Related skill in another pack:
   `../../../change-and-communication/skills/stakeholder-communication-plan/SKILL.md`,
   `../../../specialisation-packs/ai-native-startup-design/skills/ai-native-tool-stack-selection/SKILL.md`
-  (mistä virallinen vastine valitaan).
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  (choosing what the official alternative should be).
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

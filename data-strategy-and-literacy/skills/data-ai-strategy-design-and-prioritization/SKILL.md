@@ -1,148 +1,148 @@
 ---
 name: data-ai-strategy-design-and-prioritization
-description: "Muotoilee Data & AI -strategian holistisesti (ei siiloissa) Driver Tree -työkalulla liiketoimintatavoitteiden pilkkomiseen datapisteiksi, ja priorisoi mitä dataa kerätä/käyttää nyt vs. tulevaisuutta varten Data Readiness x Strategic Value -nelikentällä. Käytä kun organisaatio suunnittelee mihin dataan ja AI-kyvykkyyksiin investoida seuraavaksi."
+description: "Designs a Data & AI strategy holistically (not in silos) using a Driver Tree tool to break business goals down into data points, and prioritizes what data to collect/use now vs. for the future with a Data Readiness x Strategic Value matrix. Use when an organization is planning which data and AI capabilities to invest in next."
 ---
 
 # Data & AI Strategy Design and Prioritization
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Estää kaksi yleistä datastrategiavirhettä: (1) AI/data-investoinnit
-tehdään siiloissa ilman että kukaan on pilkkonut liiketoimintatavoitetta
-konkreettisiksi datapisteiksi, jolloin lopputulos on teknisesti
-vaikuttava mutta strategisesti irrallinen; ja (2) organisaatio yrittää
-rakentaa tulevaisuuden malleja tämän päivän datalla huomaamatta, että
-oikea data pitäisi alkaa kerätä jo nyt. Tämä skilli tuottaa jäsennellyn
-sillan liiketoimintatavoitteen ja konkreettisen data-/AI-investoinnin
-välille, ja priorisoi investoinnit sen mukaan mikä on strategisesti
-arvokasta JA datavalmiudeltaan toteutettavissa.
+Prevents two common data strategy mistakes: (1) AI/data investments are
+made in silos without anyone having broken a business goal down into
+concrete data points, so the result is technically impressive but
+strategically disconnected; and (2) an organization tries to build
+tomorrow's models on today's data without noticing that the right data
+should already be collected now. This skill produces a structured bridge
+between a business goal and a concrete data/AI investment, and prioritizes
+investments by what's both strategically valuable AND achievable given
+data readiness.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Data & AI Design Thinking -perinne (toimialan konsultointikäytäntö,
-  usean lähteen synteesi): tekoälystrategiaa ei rakenneta siiloissa —
-  moniammatillinen fasilitointi varmistaa, että strategia ratkaisee
-  oikeita käyttäjä- ja sidosryhmätarpeita ("Systems over Objects").
-- Driver Tree -työkalu (liiketoiminta-analytiikan vakiintunut menetelmä):
-  liiketoimintatavoite pilkotaan hierarkkisesti komponenteiksi kunnes
-  päästään konkreettisiin, mitattaviin ajureihin — sama looginen periaate
-  kuin McKinsey-perinteen issue tree (ks.
+- The Data & AI Design Thinking tradition (industry consulting practice, a
+  synthesis of multiple sources): an AI strategy isn't built in silos —
+  cross-functional facilitation ensures the strategy solves genuine user
+  and stakeholder needs ("Systems over Objects").
+- The Driver Tree tool (an established business-analytics method): a
+  business goal is broken down hierarchically into components until
+  concrete, measurable drivers are reached — the same logical principle
+  as the McKinsey-tradition issue tree (see
   `../../../strategic-thinking/skills/hypothesis-driven-strategy/SKILL.md`),
-  sovellettuna tässä datapisteiden ja AI-ratkaisujen tunnistamiseen.
-- "Tulevaisuuden mallit vaativat nykypäivän dataa" -heuristiikka
-  (data-monetisaatioputken suunnitteluperiaate): jos tietty AI-malli
-  halutaan mahdolliseksi 12-24 kuukauden päästä, sen vaatima uniikki data
-  pitää alkaa kerätä tänään — data-investoinnin aikaviive on tyypillisesti
-  pidempi kuin mallin rakentamisen aikaviive.
+  applied here to identifying data points and AI solutions.
+- The "tomorrow's models require today's data" heuristic (a design
+  principle from data monetization pipelines): if a given AI model is
+  meant to be feasible 12-24 months from now, the unique data it requires
+  needs to start being collected today — the lead time for a data
+  investment is typically longer than the lead time for building the
+  model.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Rakenna Driver Tree liiketoimintatavoitteesta datapisteisiin.**
-   Aloita ylimmän tason liiketoimintatavoitteesta (esim. "kasvata
-   asiakaspysyvyyttä") ja pilko se peräkkäisiin kysymyksiin: mitkä
-   osatekijät ajavat tätä tavoitetta? Mitä dataa tarvitaan kunkin
-   osatekijän mittaamiseen? Mikä AI/analytiikkaratkaisu voisi vaikuttaa
-   kuhunkin osatekijään? Jatka pilkkomista kunnes päädyt konkreettisiin,
-   mitattaviin datapisteisiin — älä pysähdy abstraktille tasolle
-   ("parempi asiakasymmärrys" ei ole datapiste, "asiakkaan käyttöaste
-   ominaisuudesta X viimeisen 30 päivän aikana" on).
-2. **Arvioi jokainen puun haara: tuoko AI/data tähän oikeasti
-   lisäarvoa, vai onko se turhaa?** Ei jokainen liiketoimintatavoitteen
-   osatekijä hyödy datasta tai AI:sta — osa ratkeaa paremmin
-   prosessimuutoksella tai ihmisen päätöksellä. Merkitse jokainen haara
-   joko "data/AI-relevantti" tai "ei data/AI-relevantti, ratkaistaan
-   muuten" ennen kuin jatkat vain relevantteihin haaroihin.
-3. **Erottele "mitä voimme tehdä nyt" vs. "mitä meidän pitää rakentaa
-   tulevaisuutta varten" (Agile Value Assessment).** Jokaiselle
-   tunnistetulle datapisteelle:
-   - **Käytettävissä nyt:** data on jo olemassa riittävässä laadussa —
-     voidaan aloittaa analyysi/malli välittömästi.
-   - **Rakennettava:** dataa ei vielä ole tai sen laatu ei riitä —
-     vaatii keräyspisteen suunnittelua ennen kuin malli on mahdollinen.
-     Sovella "tulevaisuuden mallit vaativat nykypäivän dataa"
-     -heuristiikkaa: jos tämä data halutaan käyttöön 12-24 kk päästä,
-     keräys pitää aloittaa nyt, ei silloin kun malli halutaan rakentaa.
-4. **Sijoita jokainen tunnistettu data/AI-mahdollisuus Data Readiness ×
-   Strategic Value -nelikenttään:**
-   - **Nyt toteutettavissa, korkea arvo:** aloita ensin — nopein reitti
-     todistettuun arvoon.
-   - **Rakennettava, korkea arvo:** käynnistä data-keräysinvestointi nyt,
-     vaikka malli ei valmistu heti — tämä on strategisin nelikentän
-     kohta, koska se rakentaa tulevaa defensoitavaa etua (ks.
-     `../data-role-diagnosis/SKILL.md`:n flywheel-testi).
-   - **Nyt toteutettavissa, matala arvo:** älä priorisoi, vaikka
-     houkuttelisi helppouden vuoksi — matala strateginen arvo ei muutu
-     helppoudella.
-   - **Rakennettava, matala arvo:** hylkää tai laita jäähylle — kallein
-     yhdistelmä (pitkä aikaviive, pieni hyöty).
-   Tämä nelikenttä on rakenteeltaan sama logiikka kuin
-   `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`:n
-   2x2-priorisointimatriisi, mutta akselit ovat data-spesifit
-   (Data Readiness, ei Technical Feasibility yleisesti) — käytä tätä
-   ENNEN yleistä AI-mahdollisuuksien pisteytystä, kun kysymys on
-   nimenomaan datan valmiudesta.
-5. **Fasilitoi puun rakentaminen moniammatillisesti**, älä yksin tai
-   pelkän data-tiimin kanssa. Liiketoiminnan omistaja tietää mikä ajuri
-   on oikeasti tärkeä; data-/tekninen asiantuntija tietää mikä on
-   toteutettavissa; loppukäyttäjä tietää mikä ratkaisu oikeasti
-   auttaisi arjessa. Puu joka on rakennettu yhdessä näiden kolmen
-   näkökulman kanssa on huomattavasti todennäköisemmin oikea kuin
-   yhden funktion sisäisesti rakentama.
-6. **Tuota priorisoitu tiekartta**, joka erottelee "aloita nyt" (korkea
-   arvo, valmis data) ja "aloita datankeräys nyt, malli myöhemmin"
-   (korkea arvo, rakennettava data) omiksi rinnakkaisiksi raiteikseen —
-   älä sekoita niitä yhdeksi aikajanaksi, koska niillä on eri
-   aikahorisontti ja eri onnistumiskriteerit.
+1. **Build a Driver Tree from the business goal down to data points.**
+   Start from the top-level business goal (e.g. "increase customer
+   retention") and break it down into successive questions: what
+   sub-drivers drive this goal? What data is needed to measure each
+   sub-driver? What AI/analytics solution could influence each
+   sub-driver? Keep breaking it down until you reach concrete, measurable
+   data points — don't stop at an abstract level ("better customer
+   understanding" isn't a data point, "usage rate of feature X over the
+   past 30 days" is).
+2. **Assess every branch of the tree: does AI/data genuinely add value
+   here, or is it noise?** Not every component of a business goal
+   benefits from data or AI — some are better solved with a process
+   change or a human decision. Mark each branch either "data/AI-relevant"
+   or "not data/AI-relevant, solve otherwise" before continuing only
+   with the relevant branches.
+3. **Separate "what can we do now" from "what do we need to build for the
+   future" (Agile Value Assessment).** For every identified data point:
+   - **Available now:** the data already exists at sufficient quality —
+     analysis/modeling can start immediately.
+   - **To be built:** the data doesn't yet exist or its quality isn't
+     sufficient — requires designing a collection point before the model
+     is possible. Apply the "tomorrow's models require today's data"
+     heuristic: if this data is wanted for use in 12-24 months,
+     collection needs to start now, not when the model is wanted.
+4. **Place every identified data/AI opportunity on a Data Readiness ×
+   Strategic Value matrix:**
+   - **Achievable now, high value:** start here first — the fastest path
+     to proven value.
+   - **To be built, high value:** launch the data-collection investment
+     now, even though the model won't be ready right away — this is the
+     matrix's most strategic quadrant, because it builds future
+     defensible advantage (see the flywheel test in
+     `../data-role-diagnosis/SKILL.md`).
+   - **Achievable now, low value:** don't prioritize, even though ease
+     makes it tempting — low strategic value doesn't change with ease.
+   - **To be built, low value:** reject or shelve — the costliest
+     combination (long lead time, small payoff).
+   This matrix follows the same logic as the 2x2 prioritization matrix
+   in `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`,
+   but the axes are data-specific (Data Readiness, not Technical
+   Feasibility in general) — use this BEFORE the general AI opportunity
+   scoring, when the question is specifically about data readiness.
+5. **Facilitate building the tree cross-functionally**, not alone or with
+   just the data team. The business owner knows which driver actually
+   matters; the data/technical expert knows what's feasible; the end
+   user knows which solution would actually help day-to-day. A tree
+   built together with these three perspectives is far more likely to be
+   right than one built inside a single function.
+6. **Produce a prioritized roadmap** that separates "start now" (high
+   value, data ready) and "start data collection now, model later" (high
+   value, data to be built) into their own parallel tracks — don't merge
+   them into a single timeline, since they have different time horizons
+   and different success criteria.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä investoinnista puolestasi — tuottaa
-  jäsennellyn priorisoinnin ihmisen päätöksenteon tueksi.
-- Ei korvaa `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-  -skillin laajempaa 5-ulotteista pisteytystä — tämä skilli tuottaa
-  syötteen sinne (erityisesti Data Readiness -ulottuvuuteen) eikä
-  itsessään pisteytä koko liiketoimintavaikutusta.
-- Ei rakenna teknistä data-arkkitehtuuria tai keräysjärjestelmää —
-  tunnistaa MITÄ dataa tarvitaan, ei MITEN se teknisesti kerätään.
-- Ei vahvista lukuja, markkinatietoa tai datan laatuarvioita muistista —
-  käyttää käyttäjän antamia lähtöarvoja tai merkitsee oletuksen selvästi
-  (`[oletus — tarkista]`).
+- Doesn't make the final investment decision for you — produces a
+  structured prioritization to support human decision-making.
+- Doesn't replace the broader 5-dimension scoring in
+  `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  — this skill produces an input into it (particularly the Data
+  Readiness dimension), not a full scoring of overall business impact by
+  itself.
+- Doesn't build the technical data architecture or collection system —
+  identifies WHAT data is needed, not HOW it's technically collected.
+- Doesn't confirm figures, market data, or data-quality assessments from
+  memory — uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omia Driver Tree -esimerkkejä eri toimialoilta
-- konkreettinen fasilitointipohja Driver Tree -työpajalle
-  (`../../references/`-kansioon)
-- nyrkkisääntöjä siitä, kuinka syvälle puuta kannattaa tyypillisesti
-  pilkkoa ennen kuin saavutetaan hyödyllinen datapiste-taso
+- your own Driver Tree examples from different industries
+- a concrete facilitation template for a Driver Tree workshop (into
+  `../../references/`)
+- rules of thumb for how deep the tree typically needs to be broken down
+  before reaching a useful data-point level
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Ennen tätä: `../data-role-diagnosis/SKILL.md`
-  — selvitä ensin toimiiko data mahdollistajana vai tavoitellaanko
-  assetti-roolia, ennen kuin priorisoit investointeja.
-- Samassa pakissa seuraavaksi (jos tavoite on monetisaatio):
+- Before this: `../data-role-diagnosis/SKILL.md`
+  — first establish whether data functions as an enabler or the asset
+  role is being pursued, before prioritizing investments.
+- Next in this pack (if the goal is monetization):
   `../data-monetization-model-selection/SKILL.md`
-- Liittyvä skilli toisessa pakissa: `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-  — vastaanottaa tämän skillin tuottamat priorisoidut data/AI-
-  mahdollisuudet laajempaan 5-ulotteiseen pisteytykseen.
-- Liittyvä skilli toisessa pakissa: `../../../strategic-thinking/skills/hypothesis-driven-strategy/SKILL.md`
-  — sama issue tree -logiikka sovellettuna yleisemmin strategisiin
-  kysymyksiin, ei vain datapisteisiin.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Related skill in another pack: `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  — receives this skill's prioritized data/AI opportunities into a
+  broader 5-dimension scoring.
+- Related skill in another pack: `../../../strategic-thinking/skills/hypothesis-driven-strategy/SKILL.md`
+  — the same issue tree logic applied more generally to strategic
+  questions, not just data points.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

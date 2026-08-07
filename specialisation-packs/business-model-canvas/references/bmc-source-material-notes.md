@@ -1,57 +1,59 @@
-# Lähdeaineiston muistiinpanot — Business Model Canvas -pakki
+# Source material notes — Business Model Canvas pack
 
-Tämä pakki on rakennettu kahdesta toisiaan täydentävästä lähteestä:
+This pack is built from two complementary sources:
 
-## 1. Innovaatiopattern-kirjasto (koneluettava)
+## 1. Innovation pattern library (machine-readable)
 
-- Julkinen liiketoimintamallin innovaatiopatternien kirjasto: 159 patternia
-  neljässä ryhmässä (Financial/Operating/Value/Experience Model), 13
-  ala-mallissa. Täysi kirjasto tässä pakissa: `bmc-innovation-pattern-library.md`.
-- Käyttöohje AI-agenteille patternien soveltamiseen: kontekstuaalinen
-  relevanssi, JSON-polkujen tulostus, ristiriitaisten patternien
-  välttäminen, eettinen vaatimustenmukaisuus, toteutettavuusarviointi,
-  tulostusskeema (`pattern_id`, `pattern_name`, `sub_model`, `rationale`).
-- Tehtäväspesifikaatio kontekstipohjaiseen pattern-suositukseen: kontekstista
-  (ICP, ratkaisukategoria, markkinaominaisuudet, kustannusrakenne) 3–5
-  koherentin patternin suositus, tulostusskeema
+- A public business model innovation pattern library: 159 patterns in
+  four groups (Financial/Operating/Value/Experience Model), 13 sub-models.
+  The full library is in this pack: `bmc-innovation-pattern-library.md`.
+- A usage guide for AI agents applying the patterns: contextual
+  relevance, printing JSON paths, avoiding contradictory patterns,
+  ethical compliance, feasibility assessment, output schema
+  (`pattern_id`, `pattern_name`, `sub_model`, `rationale`).
+- A task specification for context-based pattern recommendation: from
+  context (ICP, solution category, market characteristics, cost
+  structure) to a recommendation of 3-5 coherent patterns, output schema
   `{recommendations, conflicts_avoided, assumptions}`.
 
-Nämä yhdessä muodostavat skillin `bmc-innovation-pattern-matching` teknisen
-selkärangan.
+Together these form the technical backbone of the
+`bmc-innovation-pattern-matching` skill.
 
-## 2. Omistajan yksityinen asiantuntemuskerros
+## 2. The owner's private expertise layer
 
-Omistajan oma, ei-julkinen tutkimustyö BMC-konsultointiasiantuntijuuden
-kaappaamiseksi rakenteiseen, koneluettavaan muotoon. Sisältö on jaettu
-kahteen selvästi merkittyyn kerrokseen:
+The owner's own, non-public research work to capture BMC consulting
+expertise in a structured, machine-readable form. The content is split
+into two clearly marked layers:
 
-- **Tutkimuskerros** — esitäytetty synteesi tunnetuista BMC-lähteistä
+- **Research layer** — a pre-filled synthesis of well-known BMC sources
   (Jeffries, Williams, van der Linden, Blank/Strategyzer, Ash Maurya)
-  sisältäen avoimia kohtia, joita omistaja ei ole vielä täyttänyt
-  (asiantuntijasessiot merkitty odottaviksi).
-- **Asiantuntijakerros** — aidosti täytetty, huhtikuussa 2026 tehdystä
-  konsulttihaastattelusta poimittu omistajan oma metodologia: asiantuntija-
-  profiili, kognitiiviset tunnusmerkit, iteraatiologiikka, canvas-valmiuden
-  laatumalli, innovaatiopatternien soveltamisohjeet, antipatternit ja
-  tyypilliset asiakasväärinkäsitykset.
+  containing open sections the owner has not yet filled in (expert
+  sessions marked pending).
+- **Expert layer** — genuinely completed methodology drawn from the
+  owner's own consulting interview conducted in April 2026: an expert
+  profile, cognitive signatures, iteration logic, the canvas-readiness
+  quality model, guidance for applying innovation patterns, antipatterns,
+  and the most common client misunderstandings.
 
-Tämän skills-pakin skillien `maturity`/`source_layer` on määritetty
-suoraan tämän jaon mukaan: asiantuntijakerroksesta rakennetut skillit ovat
-`validated`/`owner`, tutkimuskerroksesta rakennetut ovat `scaffold`/`research`
-— täsmälleen sama periaate jota koko tämä repo muutenkin noudattaa.
+This skills pack's `maturity`/`source_layer` values are set directly
+according to this split: skills built from the expert layer are
+`validated`/`owner`, skills built from the research layer are
+`scaffold`/`research` — exactly the same principle this whole repo
+follows elsewhere.
 
-Osa asiantuntijakerroksen aihealueista (intuitiosignaalit, punaisen lipun
-herkkyys, heuristiikat, tilanteenlukupatternit, organisaatioidentiteetti) on
-vielä täysin tyhjiä eikä niitä ole käytetty minkään skillin pohjana. Kun
-omistaja täyttää nämä myöhemmin, tämän pakin skillejä kannattaa rikastaa
-uudelleen.
+Some topics in the expert layer (intuition signals, red-flag sensitivity,
+heuristics, situation-reading patterns, organizational identity) are
+still entirely empty and haven't been used as the basis for any skill.
+Once the owner fills these in later, this pack's skills should be
+enriched again.
 
-## 3. Miksi oma pakki eikä osa business-design-frameworks -pakkia
+## 3. Why its own pack rather than part of business-design-frameworks
 
-`business-design-frameworks`-pakki on tarkoituksella löyhä kokoelma
-itsenäisiä, toisistaan riippumattomia jäsentämismalleja (kerrokset,
-arvoketju, kategoria, strategiakartta, palvelupolku). BMC-konsultoinnin
-asiantuntijuus on sen sijaan yksi yhtenäinen, sisäisesti riippuvainen
-käytäntöalue — oma sanasto, diagnostiikka ja patternkirjasto — samaan
-tapaan kuin `research-commercialisation` ja `ai-native-startup-design`.
-Siksi tämä on oma erikoistumispakki, ei lisäys business-design-frameworksiin.
+The `business-design-frameworks` pack is a deliberately loose collection
+of independent, standalone structuring models (layers, value chain,
+category, strategy map, service journey). BMC consulting expertise, by
+contrast, is one unified, internally interdependent practice area — its
+own vocabulary, diagnostics, and pattern library — much like
+`research-commercialisation` and `ai-native-startup-design`. That's why
+this is its own specialisation pack rather than an addition to
+business-design-frameworks.

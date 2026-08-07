@@ -6,125 +6,124 @@ last_reviewed: 2026-08-06
 
 # AI-Native Startup Design
 
-Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti tekoälyn
-aikakaudella: uudesta mindsetistä ja AI-mahdollisuuksien tunnistuksesta
-asiakasymmärryksen, tarveteemapisteytyksen ja ratkaisuideoinnin kautta
-RICE-valittuun MVP:hen, rakennettavaan PRD:hen, keskustelevaan
-käyttöliittymäarkkitehtuuriin, prosessien closed-loop-suunnitteluun ja
-oikean AI-työkalupinon valintaan.
+How to design an AI-native product/business from the ground up in the age
+of AI: from a new mindset and AI opportunity identification through
+customer understanding, need-theme scoring, and solution ideation to a
+RICE-selected MVP, a buildable PRD, a conversational UI architecture,
+closed-loop process design, and choosing the right AI tool stack.
 
-## Tila
+## Status
 
-Tämä pakki yhdistää kaksi omistajan itse käytäntöön
-soveltamaa lähdettä:
+This pack combines two sources the owner has applied in practice:
 
-1. **AI-native Business Design** -työpaja pre-startup-perustajille
-   (omistajan oma palvelu, pidetty useille osallistujille
-   1.–2.6.2026,
-   [omistajan yksityinen materiaali](https://omistajan yksityinen materiaali))
-   — ks. `references/workshop-source.md`. Tämän pohjalta rakennetut
-   skillit ovat `maturity: validated` (useamman osallistujan sessio).
-2. **Ulkopuolinen "AI-first SaaS Product" -työpaja** — omistajan itse
-   soveltama menetelmä yhteen omaan caseen (omistajan oma palvelu "Decision
-   Coach" MVP) — ks. `references/ai-first-saas-workshop-source.md` ja
-   worked example `cases/ai-decision-coach-mvp-case.md`. Tämän pohjalta
-   rakennetut ja syvennetyt skillit ovat `maturity: draft` (sovellettu
-   kerran, ei vielä laajasti validoitu useammalla caseella) — ks.
-   taulukko alla.
+1. The **AI-native Business Design** workshop for pre-startup founders
+   (the owner's own service, run for multiple participants
+   1–2 June 2026,
+   [owner's private material](https://owner's private material))
+   — see `references/workshop-source.md`. Skills built on this are
+   `maturity: validated` (multi-participant session).
+2. The **external "AI-first SaaS Product" workshop** — a methodology the
+   owner has applied to one own case (the owner's own "Decision Coach" MVP
+   service) — see `references/ai-first-saas-workshop-source.md` and the
+   worked example `cases/ai-decision-coach-mvp-case.md`. Skills built and
+   deepened on this basis are `maturity: draft` (applied once, not yet
+   broadly validated across multiple cases) — see the table below.
 
-Kaikki skillit ovat `source_layer: owner` (ks. `../../skills_index.json`).
+All skills are `source_layer: owner` (see `../../skills_index.json`).
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Taso | Kuvaus |
+| Skill | Level | Description |
 |---|---|---|
-| `ai-native-opportunity-scan` | `validated` | Löytää ja priorisoi agenttisen/closed-loop-tason AI-mahdollisuuksia omassa startup-caseessa promptiketjulla. |
-| `customer-vision-to-jtbd` | `validated` | Jäsentää vapaamuotoisen vision ICP:ksi, verbivetoiseksi Jobs-To-Be-Done-analyysiksi, 5+2 tarveteemaksi, 5-kriteeriseksi NMB+AI-advantage-pisteytykseksi ja valitsee AI-differentiaattoritarpeen (AI wedge). |
-| `ai-differentiator-solution-ideation` | `draft` | Ideoi 3 keskenään erilaista AI-natiivia ratkaisusuuntaa valitulle AI wedgelle kolmella linssillä. |
-| `rice-scoring-and-mvp-synthesis` | `draft` | Pisteyttää ratkaisusuunnat RICE-mallilla, valitsee MVP:n, kirjoittaa MVP-määritelmän, positiointilauseen ja "miksi voitamme" -väittämät. |
-| `ai-buildable-prd-writing` | `validated` | Kirjoittaa PRD:n AI-rakennusagentille annettavana työmääräyksenä, plus tukidokumentit ja tuotantosuunnitelman. |
-| `ai-native-conversational-os-design` | `draft` | Suunnittelee AI-natiivin tuotteen keskustelevan käyttöliittymäarkkitehtuurin (Intent → Strategy Cards → Clarification → Output Cards → Mission → Agent Execution) ja 5 AI-first-tuoteperiaatetta. |
-| `closed-loop-process-and-human-oversight-design` | `validated` | Jäsentää prosessit avoimiksi/suljetuiksi silmukoiksi ja päättää ihmisen valvonnan tason (in/on/outside-the-loop). |
-| `ai-native-tool-stack-selection` | `validated` | Valitsee pienimmän toimivan AI-natiivin työkalupinon 12 kategorian päätöspuulla. |
+| `ai-native-opportunity-scan` | `validated` | Finds and prioritizes agentic/closed-loop-level AI opportunities in your own startup case via a prompt chain. |
+| `customer-vision-to-jtbd` | `validated` | Structures a free-form vision into an ICP, a verb-driven Jobs-To-Be-Done analysis, 5+2 need themes, a 5-criteria NMB+AI-advantage score, and selects an AI differentiator need (AI wedge). |
+| `ai-differentiator-solution-ideation` | `draft` | Ideates 3 distinct AI-native solution directions for the chosen AI wedge through three lenses. |
+| `rice-scoring-and-mvp-synthesis` | `draft` | Scores solution directions with the RICE model, selects the MVP, and writes the MVP definition, a positioning statement, and "why we win" claims. |
+| `ai-buildable-prd-writing` | `validated` | Writes the PRD as a work order for an AI build agent, plus supporting documents and a build plan. |
+| `ai-native-conversational-os-design` | `draft` | Designs the conversational UI architecture for an AI-native product (Intent → Strategy Cards → Clarification → Output Cards → Mission → Agent Execution) and 5 AI-first product principles. |
+| `closed-loop-process-and-human-oversight-design` | `validated` | Structures processes as open/closed loops and decides the level of human oversight (in/on/outside-the-loop). |
+| `ai-native-tool-stack-selection` | `validated` | Selects the smallest workable AI-native tool stack using a 12-category decision tree. |
 
-## Ankkurointi
+## Anchored in
 
-- Omistajan AI-native Business Design -työpaja (
-  omistajan oma palvelu, 1.–2.6.2026) — ks.
+- The owner's AI-native Business Design workshop (
+  the owner's own service, 1–2 June 2026) — see
   `references/workshop-source.md`
-- Ulkopuolisen AI-first SaaS Product -työpajan menetelmä, sovellettu omaan
-  caseen — ks. `references/ai-first-saas-workshop-source.md` ja
-  `cases/ai-decision-coach-mvp-case.md`
-- Ideal Customer Profile (ICP) ja Jobs-To-Be-Done (JTBD) -tuotestrategia-
-  kehykset, sellaisina kuin työpajat soveltavat niitä
-- RICE-priorisointimalli (yleisesti tunnettu, ei omistajan oma)
-- Open loop / closed loop -systeemiajattelu ja human-in/on/outside-the-loop
-  -malli, sellaisina kuin työpaja esittää ne AI-agenttikontekstissa
+- The external AI-first SaaS Product workshop's methodology, applied to
+  the owner's own case — see `references/ai-first-saas-workshop-source.md`
+  and `cases/ai-decision-coach-mvp-case.md`
+- Ideal Customer Profile (ICP) and Jobs-To-Be-Done (JTBD) product-strategy
+  frameworks, as applied by the workshops
+- The RICE prioritization model (generally known, not the owner's own)
+- Open loop / closed loop systems thinking and the human-in/on/
+  outside-the-loop model, as presented by the workshop in the AI agent
+  context
 
-## Skillien looginen kulku
+## Logical flow of the skills
 
 ```
 ai-native-opportunity-scan
         │
         ▼
-customer-vision-to-jtbd  (ICP → JTBD → Need Themes → NMB-pisteytys → AI wedge)
+customer-vision-to-jtbd  (ICP → JTBD → Need Themes → NMB scoring → AI wedge)
         │
         ▼
-ai-differentiator-solution-ideation  (3 ratkaisusuuntaa valitulle wedgelle)
+ai-differentiator-solution-ideation  (3 solution directions for the chosen wedge)
         │
         ▼
-rice-scoring-and-mvp-synthesis  (RICE-valinta → MVP-määritelmä → positiointi)
+rice-scoring-and-mvp-synthesis  (RICE selection → MVP definition → positioning)
         │
         ▼
 ai-buildable-prd-writing ──► ai-native-tool-stack-selection
-        │                           (kenelle PRD annetaan)
+        │                           (who the PRD is handed to)
         ▼
 ai-native-conversational-os-design
-   (jos MVP on keskusteleva/agenttinen tuote —
-    syventää PRD:n Core-ominaisuudet-osiota)
+   (if the MVP is a conversational/agentic product —
+    deepens the PRD's Core Features section)
         │
         ▼
 closed-loop-process-and-human-oversight-design
-   (syventää agenttisuuden tunnistusta, jota
-    opportunity-scan käytti jo vaiheessa 1, ja
-    Agent Execution -vaiheen valvontatasoa)
+   (deepens the agentic-ness identification that
+    opportunity-scan already used in stage 1, and
+    the oversight level for the Agent Execution stage)
 ```
 
-Skillit on suunniteltu käytettäviksi myös itsenäisesti (ks.
-`../../meta/skill_design_principles.md` — independence-testi). Jos
-ratkaisusuunta on alusta asti selvä, voi hypätä suoraan
-`customer-vision-to-jtbd`:stä `ai-buildable-prd-writing`:iin ohittaen
-ideointi-/RICE-vaiheen — ideointiketju on tarkoitettu tilanteisiin, joissa
-on aidosti useampi kilpaileva ratkaisusuunta puntaroitavana.
+The skills are also designed to be used independently (see
+`../../meta/skill_design_principles.md` — the independence test). If the
+solution direction is clear from the start, you can jump straight from
+`customer-vision-to-jtbd` to `ai-buildable-prd-writing`, skipping the
+ideation/RICE stage — the ideation chain is meant for situations where
+there are genuinely multiple competing solution directions to weigh.
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  promptikirjasto, työkalukategoriakartta, lähdetiedot
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   a single skill (name + description frontmatter)
+references/                  prompt library, tool category map, source info
 cases/                       worked example: ai-decision-coach-mvp-case.md
-                              (lisää omia anonymisoituja tapauksia tähän jatkossa)
+                              (add more of your own anonymized cases here going forward)
 ```
 
-## Suhde muihin pakkeihin
+## Relationship to other packs
 
-Tämä pakki on tarkoituksella kevyt ja nopea ("prototyyppi kahdessa
-päivässä") toisin kuin:
+This pack is deliberately lightweight and fast ("prototype in two days"),
+unlike:
 
-- `ai-strategy-and-governance` — laajempi, olemassa olevan yrityksen
-  AI-portfolion, build/buy/partner-päätösten ja hallinnon systemaattinen
-  arviointi. `ai-native-opportunity-scan` viittaa sen
-  `ai-opportunity-portfolio`-skilliin, mutta on kevyempi ja nopeampi.
-- `business-case-and-analysis` — muodollisempi, rahoitusta tai
-  organisaation hyväksyntää vaativa liiketoimintaperustelu.
-  `ai-buildable-prd-writing` on kevyt spec yhden viikon prototyypille, ei
-  korvaa `business-case-builder`-skilliä isommassa päätöksessä.
-- `business-design-frameworks` — geneeriset, AI-riippumattomat
-  jäsentämismallit (kerrokset, arvoketju, kategoriat, strategiakartat).
-  `closed-loop-process-and-human-oversight-design` on saman perheen
-  jäsentämistapa, mutta AI-agenttikontekstiin sidottuna.
+- `ai-strategy-and-governance` — a broader, systematic assessment of an
+  existing company's AI portfolio, build/buy/partner decisions, and
+  governance. `ai-native-opportunity-scan` references its
+  `ai-opportunity-portfolio` skill, but is lighter and faster.
+- `business-case-and-analysis` — a more formal business justification
+  requiring funding or organizational approval.
+  `ai-buildable-prd-writing` is a lightweight spec for a one-week
+  prototype, not a replacement for the `business-case-builder` skill in a
+  bigger decision.
+- `business-design-frameworks` — generic, AI-independent structuring
+  models (layers, value chain, categories, strategy maps).
+  `closed-loop-process-and-human-oversight-design` is a structuring
+  approach from the same family, but tied to the AI agent context.
 
-Katso `../../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän
-pakin sisältöä.
+See `../../meta/maturity_levels.md` for an explanation of maturity levels
+and `../../AGENT_GUIDE.md` for how an agent should read and weigh this
+pack's content.

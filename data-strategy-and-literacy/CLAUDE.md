@@ -1,60 +1,69 @@
-# Data Strategy & Literacy — jaetut suojaukset
+# Data Strategy & Literacy — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+General guardrails (disclaimer, no fabricated numbers, premise-checking, making
+maturity visible) are collected in one place: **see
+[`../meta/shared-guardrails.md`](../meta/shared-guardrails.md) — read that first.**
+This file only contains what's genuinely specific to this pack.
 
 ---
 
-## Data on edustus todellisuudesta, ei todellisuus itse
+## Data is a representation of reality, not reality itself
 
-Tämän pakin kantava periaate: **älä koskaan käsittele annettua dataa kyseenalaistamattomana
-totuutena.** Jokaisen datapohjaisen väitteen, mallin tai suosituksen taustalla on:
+This pack's guiding principle: **never treat given data as unquestioned
+truth.** Behind every data-based claim, model, or recommendation there are:
 
-- valintoja siitä, mitä kerättiin ja mitä ei (kattavuusaukot, puuttuvat ryhmät)
-- historiallisia vinoumia siinä, miten data on syntynyt (kuka on saanut palvelua,
-  keneltä on kysytty, mitä on mitattu ja mitä ei)
-- mittausvalintoja, jotka muokkaavat lopputulosta (mitä muuttujaa käytettiin
-  approksimaationa sille mitä oikeasti haluttiin tietää)
+- choices about what was collected and what wasn't (coverage gaps, missing
+  groups)
+- historical biases in how the data came to exist (who got served, who was
+  asked, what was measured and what wasn't)
+- measurement choices that shape the outcome (which variable was used as a
+  proxy for what you actually wanted to know)
 
-Ennen kuin tämän pakin skillit tuottavat johtopäätöksen datasta, ne kysyvät
-eksplisiittisesti: *mitä tästä datasta puuttuu, ja kenen näkökulma siitä puuttuu?*
-Ks. `skills/data-bias-and-quality-critical-reading/SKILL.md`.
+Before this pack's skills produce a conclusion from data, they explicitly
+ask: *what's missing from this data, and whose perspective is missing from
+it?* See
+[`skills/data-bias-and-quality-critical-reading/SKILL.md`](skills/data-bias-and-quality-critical-reading/SKILL.md).
 
-## Kaksi eri kysymystä: rooli ja arvo
+## Two different questions: role and value
 
-Älä sekoita **datan roolia** (mahdollistaja vai strateginen assetti —
-`skills/data-role-diagnosis/SKILL.md`) ja **datan arvoa** (paljonko tämä on euroissa
-tai kilpailuedussa arvokasta — muiden pakkien business case- ja portfolio-skillit).
-Rooli-kysymys vastaa MILLAISTA liiketoimintalogiikkaa data voi kannatella; arvo-kysymys
-vastaa KANNATTAAKO tämä juuri nyt. Kumpikin tarvitaan, mutta eri järjestyksessä: rooli
-ensin, sitten arvo.
+Don't conflate **the role of data** (enabler or strategic asset —
+[`skills/data-role-diagnosis/SKILL.md`](skills/data-role-diagnosis/SKILL.md))
+with **the value of data** (how much this is worth in euros or competitive
+advantage — the business case and portfolio skills in other packs). The
+role question answers WHAT KIND of business logic data can support; the
+value question answers WHETHER this is worth it right now. Both are needed,
+but in a specific order: role first, then value.
 
-## Datastrategia ei ole data governance eikä toisin päin
+## Data strategy is not data governance, and vice versa
 
-Data governance (hallintomalli, laatu, omistajuus, pääsynhallinta) on **puolustuspeliä**:
-se vähentää riskiä ja mahdollistaa luotettavan käytön, mutta ei itsessään tuota uutta
-liiketoimintaa. Datastrategia (mitä uutta dataa hankitaan, miten sitä monetisoidaan,
-mihin liiketoimintamalliin se kytketään) on **hyökkäyspeliä**: se tuottaa uutta arvoa,
-mutta epäonnistuu ilman toimivaa governancea altaan pohjana. Älä esitä jompaakumpaa
-korvaajana toiselle asiakkaalle — ne ovat molemmat tarpeen, eri syistä.
+Data governance (governance model, quality, ownership, access control) is
+**defense**: it reduces risk and enables trustworthy use, but doesn't by
+itself produce new business. Data strategy (what new data to acquire, how
+to monetize it, what business model it connects to) is **offense**: it
+produces new value, but fails without a functioning governance foundation
+underneath it. Don't present either as a substitute for the other to a
+client — both are needed, for different reasons.
 
-## Vastuuvapaus tässä pakissa — myös sääntelyvastuu
+## Disclaimer in this pack — regulatory liability too
 
-Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi: datan monetisointiin ja
-käsittelyyn liittyvät yksityisyys- ja sääntelykysymykset (esim. GDPR) vaativat
-erillisen tietosuoja-asiantuntemuksen — tämä pakki ei korvaa sitä.
+In addition to the general disclaimer (`shared-guardrails.md`): privacy and
+regulatory questions related to data monetization and processing (e.g.
+GDPR) require separate data-protection expertise — this pack does not
+substitute for it.
 
-## Kypsyystaso tässä pakissa
+## Maturity in this pack
 
-Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
-`../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia (datalukutaitokehykset, data-arvoketjun ja Data & AI -strategian
-kirjallisuus, monetisointimallien synteesi), mutta omaa validoitua konsultointi-
-kokemusta ei vielä ole liitetty.
+This pack's skills are currently at `maturity: scaffold` (see
+[`../skills_index.json`](../skills_index.json) and
+[`../meta/maturity_levels.md`](../meta/maturity_levels.md)) — the structure
+and research anchoring are solid (data literacy frameworks, the data value
+chain and Data & AI strategy literature, a synthesis of monetization
+models), but the owner's own validated consulting experience hasn't been
+attached yet.
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See [`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md) (what's
+allowed in a SKILL.md frontmatter) and
+[`../meta/skill_design_principles.md`](../meta/skill_design_principles.md)
+(what a good skill in this repo has to pass).

@@ -1,57 +1,62 @@
-# AI Strategy & Governance — jaetut suojaukset
+# AI Strategy & Governance — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+General guardrails (disclaimer, no fabricated numbers, premise-checking, the
+principle of making maturity visible) are collected in one place: **see
+`../meta/shared-guardrails.md` — read that first.** This file only contains
+what's genuinely specific to this pack.
 
 ---
 
-## Kypsyystaso tässä pakissa
+## Maturity in this pack
 
-Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
-`../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia, mutta omaa validoitua kokemusta ei vielä ole liitetty.
+This pack's skills are currently at `maturity: scaffold` (see
+`../skills_index.json` and `../meta/maturity_levels.md`) — the structure and
+research anchoring are solid, but the owner's own validated experience
+hasn't been attached yet.
 
-## Pakkikohtainen huomio
+## Pack-specific note
 
-Ei korvaa juridista EU AI Act -compliance-arviota — syvempään analyysiin tarvitaan
-erillinen sääntely-asiantuntemus.
+Does not replace a legal EU AI Act compliance assessment — deeper analysis
+requires separate regulatory expertise.
 
-Tässä pakissa on useita samankaltaisia kolmi-/nelijaotteluja, jotka
-vastaavat ERI kysymyksiin — älä sekoita niitä keskenään:
+This pack contains several similar three-/four-way classifications that
+answer DIFFERENT questions — don't confuse them with each other:
 
 - **Automate/Augment/Human-Only** (`task-level-decomposition-and-
-  automation-fit`) — vastaa "sopiiko TÄMÄ TEHTÄVÄ AI:lle ja millä
-  tasolla".
+  automation-fit`) — answers "does THIS TASK suit AI, and at what
+  level."
 - **Quick Wins/Strategic Bets/Hard-Low Value/Deprioritize**
-  (`ai-opportunity-portfolio`) — vastaa "kannattaako TÄMÄ MAHDOLLISUUS
-  ja onko se helppo toteuttaa".
-- **Deploy/Reshape/Invent** (`ai-opportunity-portfolio`) — vastaa
-  "kuinka SYVÄLLE organisaatiota tämän toteutus koskettaa".
-- **Horisontti 1/2/3** (`ai-capability-roadmap`) — vastaa "MILLOIN tämä
-  toteutetaan".
+  (`ai-opportunity-portfolio`) — answers "is THIS OPPORTUNITY worth
+  pursuing, and is it easy to implement."
+- **Deploy/Reshape/Invent** (`ai-opportunity-portfolio`) — answers
+  "how DEEPLY does this implementation touch the organization."
+- **Horizon 1/2/3** (`ai-capability-roadmap`) — answers "WHEN
+  is this implemented."
 
-Kun viittaat johonkin näistä, käytä oikeaa termiä äläkä käytä niitä
-toistensa synonyymeinä — ne korreloivat mutta eivät ole sama luokitus.
+When you refer to one of these, use the correct term and don't use them
+as synonyms for one another — they correlate but they are not the same
+classification.
 
-Raakalistan kokoamiseen on kaksi täydentävää, EI kilpailevaa, lähestymistapaa
-— älä esitä toista "parempana" ilman kontekstia:
+There are two complementary, NOT competing, approaches to assembling a raw
+list — don't present one as "better" without context:
 
-- **Bottom-up** (`task-level-decomposition-and-automation-fit`) — käydään
-  olemassa oleva prosessi läpi tehtävä kerrallaan. Vahva kun prosessi on jo
-  tarkasti kuvattu.
-- **Top-down** (`ai-capability-pattern-matching`) — esitetään valmiin
-  kyvykkyyspatternikirjaston (`references/ai-capability-pattern-library.md`)
-  diagnostiset kysymykset ennen tarkkaa prosessikuvausta. Nopeampi
-  ensimmäinen kartoitus, vaatii validoinnin ennen pisteytystä.
+- **Bottom-up** (`task-level-decomposition-and-automation-fit`) — works
+  through an existing process one task at a time. Strong when the
+  process is already precisely described.
+- **Top-down** (`ai-capability-pattern-matching`) — poses the diagnostic
+  questions of a ready-made capability pattern library
+  (`references/ai-capability-pattern-library.md`) before a detailed
+  process description exists. Faster first-pass mapping, requires
+  validation before scoring.
 
-Tämän pakin `ai-initiative-readiness-auditor`-agentti (ks. `agents/`) auditoi
-`ai-opportunity-portfolio`-skillin 5 ulottuvuutta ja `responsible-ai-and-
-governance-check`-tarkistuslistaa vasten ennen kuin aloite viedään hyväksyntään —
-se ei korvaa yllä mainittua juridista compliance-arviota.
+This pack's `ai-initiative-readiness-auditor` agent (see `agents/`) audits
+an initiative against the 5 dimensions of the `ai-opportunity-portfolio`
+skill and the `responsible-ai-and-governance-check` checklist before the
+initiative goes to approval — it does not replace the legal compliance
+assessment mentioned above.
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See `../meta/frontmatter_schema.md` (what's allowed in a SKILL.md
+frontmatter) and `../meta/skill_design_principles.md` (what a good skill in
+this repo has to pass).

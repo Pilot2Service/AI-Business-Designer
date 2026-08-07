@@ -1,7 +1,7 @@
 {
   "name": "prototyping-and-demonstration",
   "displayName": "Prototyping & Demonstration",
-  "description": "Nopea, uskottava protoilu (mukaan lukien AI-avusteinen \"vibe coding\"), demoilun ja PoC/pilotin oikea kehystäminen asiakasodotusten hallitsemiseksi, demon esitystaito ja tarina, sekä silta demosta/PoC:sta business caseen ja ROI-laskelmaan.",
+  "description": "Fast, credible prototyping (including AI-assisted \"vibe coding\"), correctly framing a demo/PoC/pilot to manage customer expectations, demo delivery craft and storytelling, and the bridge from demo/PoC to a business case and ROI calculation.",
   "version": "0.1.0",
   "author": {
     "name": "Pilot2service"

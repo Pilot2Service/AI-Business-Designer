@@ -1,120 +1,134 @@
 ---
 name: bmc-session-facilitation-design
-description: "Suunnittelee BMC-työpajan rakenteen tutkimuspohjaisilla heuristiikoilla: aloituskohdan valinta, täyttöjärjestys, session pituus/tiimikoostumus, milloin canvas ei ole vielä valmis, evidenssin värikoodaus ja canvasin esittäminen sidosryhmille."
+description: "Designs the structure of a BMC workshop using research-based heuristics: choosing a starting point, fill-in order, session length/team composition, when the canvas isn't yet finished, evidence color-coding, and presenting the canvas to stakeholders."
 ---
 
 # BMC Session Facilitation Design
 
-*Tila: `scaffold`, `source_layer: research` — ks. `../../../../skills_index.json` ja
+*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Antaa tutkimuspohjainen runko BMC-työpajan/-session suunnitteluun ennen
-kuin sessio alkaa: mistä lohkosta aloitetaan, missä järjestyksessä lohkot
-täytetään, kuinka pitkä ja minkä kokoinen tiimin pitäisi olla, milloin
-canvas EI ole vielä valmis vaikka lohkot ovat täynnä, miten evidenssi
-erotetaan oletuksesta, ja miten canvas esitetään sidosryhmille.
+Provides a research-based framework for designing a BMC workshop/session
+before it starts: which block to start from, in what order to fill in the
+blocks, how long the session should be and how big the team should be, when
+the canvas is NOT yet finished even though the blocks are full, how to
+separate evidence from assumption, and how to present the canvas to
+stakeholders.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-Tämä skilli perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
-(`30_domain_packs/bmc/facilitation/bmc_facilitation_heuristics.md` ja
-`domain_scope.md`, `status: template`, `source: research_layer`) —
-esitäytetty synteesi tunnetuista BMC-lähteistä: Jeffries, Williams,
-van der Linden, Blank (Strategyzer), Business Models Inc., sekä
-nimeämätön "YouTube-synteesi" -lähde. Näissä tiedostoissa on
-`[EXPERT INPUT]`-merkittyjä kohtia, joita omistaja ei ole vielä
-täyttänyt — ks. "Mitä tämä skilli EI tee".
+This skill is based on the owner's private research layer (an April 2026
+expert interview)
+(`30_domain_packs/bmc/facilitation/bmc_facilitation_heuristics.md` and
+`domain_scope.md`, `status: template`, `source: research_layer`) — a
+pre-filled synthesis of well-known BMC sources: Jeffries, Williams,
+van der Linden, Blank (Strategyzer), Business Models Inc., and an
+unattributed "YouTube synthesis" source. These files contain
+`[EXPERT INPUT]`-tagged sections the owner has not yet filled in — see
+"What this skill does NOT do".
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Valitse aloituskohta tietoisesti — se ei ole neutraali valinta.**
-   Kolme validia tapaa:
-   - **Asiakaslähtöinen** (yleisin): aloita asiakassegmenteistä, kun
-     tiimin suurin epävarmuus on onko todellista markkinaa. Käytetään
-     varhaisen vaiheen startupeissa ja design thinking -konteksteissa.
-   - **Arvolähtöinen**: aloita arvolupauksesta, kun vahva teknologia tai
-     kyvykkyys on jo olemassa ja kysymys on kenelle sitä tarjotaan.
-   - **Nykytila-lähtöinen** (vakiintuneet organisaatiot): kartoita
-     rehellisesti TÄMÄN HETKEN malli ennen tulevaisuuteen koskemista
-     (van der Linden: "Ensimmäisen canvasin pitäisi kuvata todellisuutta,
-     ei tavoitetilaa").
-   Huomio (Blank): bioteknologiassa ja säännellyillä toimialoilla IP,
-   sääntely ja korvauslogiikka voivat olla asiakaspuolta tärkeämpiä —
-   järjestyksen on mukauduttava sinne, missä suurimmat riskioletukset ovat.
-2. **Täytä oikea puoli ennen vasenta.** Segmentit → arvolupaus → kanavat
-   → asiakassuhteet → tulovirrat → sitten avainresurssit → avaintoiminnot
-   → avainkumppanit → kustannusrakenne. Perustelu (van der Linden): älä
-   rakenna moottoria ennen kuin tiedät mihin ajat. Poikkeus: kun
-   organisaatiolla on lukittu infrastruktuuri (patentoitu teknologia,
-   sääntelyomaisuus, fyysinen verkosto), aloitus resursseista on
-   perusteltu — mutta oikean puolen on oltava valmis ennen kuin canvas
-   on johdonmukainen.
-3. **Mitoita session pituus ja tiimikoostumus.** Ensimmäisen kierroksen
-   työpaja: 2-3 tuntia. Alle 90 minuuttia on riittämätön. Yli 4 tuntia
-   tuottaa ylianalysointia. Optimaalinen tiimi: 4-7 henkeä,
-   monialainen — myynnin, tuotteen, markkinoinnin ja talouden väliset
-   erimielisyydet tekevät piilo-oletukset näkyviksi. Yksin tai
-   yksialaisesti tehty sessio tuottaa konsensuscanvaksen, joka ei
-   paljasta todellisia jännitteitä.
-4. **Tarkista onko canvas valmis oikealla mittarilla.** Canvas EI ole
-   valmis vain siksi että lohkot ovat täynnä ("checklist thinking",
-   "one and done" -virheet). Canvas on valmis kun se ohjaa päätöksiä —
-   paljastaa missä malli on vahva, missä se vuotaa arvoa, ja mitkä
-   oletukset ovat vielä testaamatta.
-5. **Käytä evidenssin värikoodausta.** Vihreä = todistettu, keltainen =
-   ohut evidenssi, punainen = puhdas oletus. Punaiset lohkot määrittävät
-   testausprioriteetin. Jokaiselle oletukselle: mikä testi todistaisi/
-   kumoaisi sen, mikä signaali kertoisi läpäisystä/epäonnistumisesta,
-   mikä on minimievidenssikynnys ennen päätöstä.
-6. **Suunnittele esitystapa etukäteen.** Kaikkien yhdeksän lohkon
-   paljastaminen kerralla ylikuormittaa yleisön kognitiivisen
-   kapasiteetin. Paljasta post-it kerrallaan, synkronoi puhe visuaaliin.
-   Käytä juonirakennetta: alku (ongelma), nouseva toiminta (löytö),
-   huippukohta (mallin muutos).
+1. **Choose the starting point deliberately — it isn't a neutral
+   choice.** Alexander Osterwalder and Yves Pigneur's original BMC
+   methodology (*Business Model Generation*, 2010) leaves the entry
+   point open by design; three approaches are commonly used in practice:
+   - **Customer-first** (most common): start from customer segments when
+     the team's biggest uncertainty is whether a real market exists.
+     Used in early-stage startups and design-thinking contexts.
+   - **Value-first**: start from the value proposition when a strong
+     technology or capability already exists and the question is who to
+     offer it to.
+   - **Current-state-first** (established organizations): honestly map
+     the model AS IT STANDS TODAY before touching the future state
+     (van der Linden: "the first canvas should describe reality, not the
+     target state" — echoing Osterwalder's own advice to map the
+     as-is model before redesigning it).
+   Note (Blank): in biotech and regulated industries, IP, regulation, and
+   reimbursement logic can matter more than the customer side — the order
+   has to adapt to wherever the biggest risky assumptions actually sit.
+2. **Fill in the right side before the left.** Segments → value
+   proposition → channels → customer relationships → revenue streams →
+   then key resources → key activities → key partners → cost structure.
+   Rationale (van der Linden): don't build the engine before you know
+   where you're driving. Exception: when an organization has locked-in
+   infrastructure (patented technology, regulatory assets, a physical
+   network), starting from resources is justified — but the right side
+   still needs to be worked out before the canvas is internally coherent.
+3. **Size the session length and team composition.** A first-round
+   workshop: 2-3 hours. Under 90 minutes is insufficient. Over 4 hours
+   produces over-analysis. Optimal team: 4-7 people, cross-functional —
+   disagreements between sales, product, marketing, and finance surface
+   hidden assumptions. A session run solo or by a single function
+   produces a consensus canvas that doesn't reveal real tensions —
+   Strategyzer's own facilitation guidance likewise stresses mixed
+   perspectives in the room over a homogeneous group.
+4. **Check readiness with the right measure, not a checklist.** The
+   canvas is NOT finished just because the blocks are full ("checklist
+   thinking", the "one and done" mistake — Jeffries). The canvas is
+   ready when it drives decisions — revealing where the model is
+   strong, where it leaks value, and which assumptions are still
+   untested.
+5. **Use evidence color-coding.** Green = proven, yellow = thin
+   evidence, red = pure assumption — an approach popularized in the
+   Business Model Canvas / Value Proposition Design facilitation
+   tradition (Strategyzer, Business Models Inc.) as a lightweight way to
+   separate fact from hope. Red blocks set the testing priority. For
+   every assumption: what test would prove or disprove it, what signal
+   would indicate pass/fail, and what's the minimum evidence threshold
+   before a decision.
+6. **Plan the presentation format in advance.** Revealing all nine
+   blocks at once overloads the audience's cognitive capacity. Reveal
+   one sticky note at a time, syncing narration to the visual. Use a
+   story structure: setup (the problem), rising action (the discovery),
+   climax (the model shift) — a technique borrowed from general
+   presentation and storytelling craft rather than from BMC theory
+   specifically, but widely used by BMC facilitators when presenting
+   canvases to stakeholders and boards.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei sisällä omistajan omaa validoitua näkemystä session
-  facilitoinnista — tämä on tutkimuskerroksen synteesi, ei omistajan
-  omaa kokemusta. Vertaa: `../bmc-canvas-clarity-and-iteration/SKILL.md`
-  ja `../bmc-antipattern-and-misunderstanding-correction/SKILL.md` OVAT
-  omistajan validoitua kokemusta — käytä niitä ensisijaisena lähteenä
-  kun ne ovat saatavilla, ja tätä skilliä täydentävänä runkona.
-- Ei kerro TÄMÄN pakin omistajan omaa oletusaloituskohtaa, tyypillistä
-  session pituutta tai tapaa, jolla hän itse kommunikoi "canvas ei ole
-  vielä valmis" -viestin asiakkaalle — nämä ovat auki
-  omistajan tutkimusmuistiinpanojen avoimissa kohdissa.
-- Ei anna kiinteää sääntöä poikkeustapauksille — tutkimuskerros antaa
-  yleiset ohjenuorat, ei kaikkia tilanteita kattavaa päätöspuuta.
+- Doesn't contain the owner's own validated view on session
+  facilitation — this is a research-layer synthesis, not the owner's
+  own experience. Compare: `../bmc-canvas-clarity-and-iteration/SKILL.md`
+  and `../bmc-antipattern-and-misunderstanding-correction/SKILL.md` ARE
+  the owner's validated experience — use those as the primary source
+  when available, and this skill as a supplementary framework.
+- Doesn't state THIS pack's owner's own default starting point, typical
+  session length, or how they personally communicate "the canvas isn't
+  finished yet" to a client — these remain open in the owner's research
+  notes.
+- Doesn't give a fixed rule for edge cases — the research layer provides
+  general guidelines, not a decision tree covering every situation.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Näihin kysymyksiin ei ole vielä vastausta omistajan tutkimusmuistiinpanoissa
-(session 1/2 on merkitty "pending" repon `SESSION_GUIDE.md`:ssä):
+These questions don't yet have an answer in the owner's research notes
+(session 1/2 is marked "pending" in the repo's `SESSION_GUIDE.md`):
 
-- Mikä on sinun oletusaloituskohtasi? Milloin ohitat sen?
-- Noudatatko oikea-ennen-vasenta-järjestystä? Missä poikkeat siitä?
-- Mikä on standardisession pituutesi ja paras tiimikoostumus
-  kokemuksesi mukaan?
-- Mitä sanot asiakkaalle kun hän julistaa canvasin "valmiiksi" mutta
-  tiedät ettei se ole?
-- Käytätkö evidenssin värikoodausta tai vastaavaa omaa systeemiäsi?
-- Miten esität canvasin sidosryhmille — mikä on oma narratiivinen
-  lähestymistapasi?
+- What's your default starting point? When do you deviate from it?
+- Do you follow the right-before-left order? Where do you break from it?
+- What's your standard session length and best team composition, based
+  on your own experience?
+- What do you say to a client when they declare the canvas "finished"
+  but you know it isn't?
+- Do you use evidence color-coding or an equivalent system of your own?
+- How do you present the canvas to stakeholders — what's your own
+  narrative approach?
 
-## Jatka tästä
+## Continue from here
 
-- Seuraava skilli samassa pakissa:
-  `../bmc-canvas-diagnostic-reading/SKILL.md` — kun sessio on tuottanut
-  canvasin, sen systemaattinen lukeminen.
-- Liittyvä skilli samassa pakissa:
-  `../bmc-canvas-clarity-and-iteration/SKILL.md` — omistajan oma,
-  validoitu näkemys variointilogiikasta ja valmiuskriteereistä.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next skill in the same pack:
+  `../bmc-canvas-diagnostic-reading/SKILL.md` — once a session has
+  produced a canvas, reading it systematically.
+- Related skill in the same pack:
+  `../bmc-canvas-clarity-and-iteration/SKILL.md` — the owner's own,
+  validated view on variation logic and readiness criteria.
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/bmc-source-material-notes.md` — lähdeaineiston tausta
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/bmc-source-material-notes.md` — source material background
+- `../../CLAUDE.md` — this pack's shared guardrails

@@ -1,91 +1,94 @@
 ---
 name: opportunity-intake-elicitation
-description: "Kerää jäsennellysti riittävät lähtötiedot tunnistetusta mahdollisuudesta hyvin muotoilluilla kysymyksillä — myös silloin kun asiakas ei osaa itse jäsentää ideaansa liiketoiminnan kielelle."
+description: "Collects sufficient structured input on an identified opportunity through well-designed questions — even when the client can't yet frame their idea in business terms."
 ---
 
 # Opportunity Intake Elicitation
 
-*Tila: `validated` — omistajan oman palvelun Opportunity
-Value Assessment -tuotteen Input Wizardiin ja sitä tukevaan taustatutkimukseen
-ankkuroitu sisältö. Ks. `../../../skills_index.json` ja
-`../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the Input Wizard of the owner's own
+Opportunity Value Assessment product and its supporting background research.
+See `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Kerää jäsennellysti riittävät lähtötiedot tunnistetusta mahdollisuudesta hyvin
-muotoilluilla kysymyksillä — myös silloin kun tutkija tai tiimi ei osaa itse
-jäsentää ideaansa liiketoiminnan kielelle. Tavoite ei ole vain tiedonkeruu:
-kysymyksiin vastatessaan asiakas myös oppii jäsentämään omaa ideaansa syvemmin.
+Collects sufficient structured input on an identified opportunity through
+well-designed questions — even when the researcher or team can't yet frame
+their idea in business terms. The goal isn't just data collection: by
+answering the questions, the client also learns to think through their own
+idea more deeply.
 
-## Perustuu
+## Based on
 
-omistajan oma palvelu — Opportunity Value Assessment -palvelun Input Wizard (oma
-tuote, ks. `../../references/intake-questions.md`) ja sitä tukeva
-taustatutkimus "S1 — Opportunity Package".
+The owner's own service — the Opportunity Value Assessment product's Input
+Wizard (own product, see `../../references/intake-questions.md`) and its
+supporting background research "S1 — Opportunity Package".
 
 - Doug Richard's 10 questions for evaluating a business opportunity (VC Cafe, 2012)
-- SRI:n NABC-malli (Need, Approach, Benefits, Competition)
-- Opportunity Canvas (Jeff Patton) — yhden sivun rakenne mahdollisuuden jäsentämiseen
+- SRI's NABC model (Need, Approach, Benefits, Competition)
+- Opportunity Canvas (Jeff Patton) — a one-page structure for framing an opportunity
 
-## Rakenne
+## Method
 
-1. **Mahdollisuuden alkuperä.** Kysy miten mahdollisuus tunnistettiin: tutkimustulos,
-   odottamaton löydös/anomalia kokeissa, uusi tekninen lähestymistapa, havaittu
-   asiakastarve, datan osoittama aukko, vai olemassa olevan ratkaisun parannus?
-   Tämä antaa yhteisen kielen ja auttaa räätälöimään loput kysymykset.
-2. **Ongelma ja kenellä se on.** Pyydä kuvailemaan konkreettinen ongelma tai tarve
-   ilman ratkaisua: "Kuvaile tilanne, jossa asiakas on nyt ilman ratkaisuasi — mikä
-   menee huonosti tai jää saavuttamatta?" Kartoita keitä ongelma koskee (käyttäjät,
-   organisaatiot, toimialat).
-3. **Ratkaisukonsepti ja uutuusarvo.** Pyydä kuvaamaan ehdotettu ratkaisu (tuote,
-   palvelu, materiaali, menetelmä, osaamisomaisuus) yksinkertaisesti: "mitä joku
-   'saisi' tai 'käyttäisi'?" Selvitä mikä siinä on uutta tai erilaista verrattuna
-   nykyisiin ratkaisuihin.
-4. **Markkina ja varhaiset asiakkaat.** Kysy keitä voisivat olla ensimmäiset
-   asiakkaat tai käyttäjät — ei lopullinen markkina vaan looginen, saavutettavissa
-   oleva ensimmäinen kohde. Selvitä asiakastyyppi (B2C, B2B, julkinen sektori,
-   akatemia) ja karkea markkinatuntuma (koko, trendit, kiireellisyys) — luvut
-   eivät ole pakollisia, myös vaikutelma kelpaa lähtökohdaksi.
-5. **Nykytila ja valmius.** Kysy ratkaisun kypsyysaste selkokielisenä asteikkona
-   (idea only → proof-of-concept → lab-prototyyppi → testattu prototyyppi →
-   pilotti/kenttätesti → markkinavalmis — TRL selkokielellä). Selvitä mitä on jo
-   saavutettu (virstanpylväät, tulokset, rahoitus, patentit, yhteistyöt). Jos
-   PoC on olemassa: mitä hypoteeseja testattiin ja mitä opittiin? Jos ei: mitä
-   pitäisi testata ja missä mittakaavassa toteutettavuuden osoittamiseksi?
-   Kysy myös onko mahdollisuus jo suojattu tai julkaistu (IP, patentit,
-   julkaisut) — riittää yleistasolla, ei tarvita yksityiskohtaista oikeudellista
-   kuvausta.
-6. **Tavoitteet ja seuraavat hypoteesit.** Kysy millaista liiketoimintaa tai
-   vaikutusta mahdollisuudesta voisi syntyä (startup, lisenssi, uusi
-   liiketoimintalinja, yhteiskunnallinen palvelu) ja mitä arvioinnilla halutaan
-   saavuttaa (selkeyttä hakemukseen, syötettä TTO-päätökseen, kumppanikeskusteluja,
-   portfoliovertailua). Kysy mitä hypoteeseja pitäisi testata seuraavaksi (esim.
-   "Maksavatko asiakkaat X:stä?", "Skaalautuuko teknologia?").
-7. **Täydennä puuttuvat kohdat asiantuntemuksella, älä arvauksella.** Jos
-   vastaaja tuntee kohdeasiakkaan mutta ei markkinan kokoa, käytä toimialatietoa
-   suuruusluokan arviointiin ja merkitse se oletukseksi. Osittainenkin vastaus
-   riittää lähtökohdaksi — älä vaadi täydellistä liiketoimintasuunnitelmaa ennen
-   kuin voit edetä.
+1. **Origin of the opportunity.** Ask how the opportunity was identified: a
+   research finding, an unexpected discovery/anomaly in experiments, a new
+   technical approach, an observed customer need, a gap revealed by data, or
+   an improvement on an existing solution? This establishes a shared
+   vocabulary and helps tailor the remaining questions.
+2. **The problem and who has it.** Ask for a concrete description of the
+   problem or need, without the solution: "Describe the situation the
+   customer is in today, without your solution — what's going wrong, or what
+   are they missing out on?" Map out who the problem affects (users,
+   organizations, industries).
+3. **Solution concept and novelty.** Ask for a simple description of the
+   proposed solution (product, service, material, method, capability asset):
+   "what would someone 'get' or 'use'?" Establish what's new or different
+   compared to existing solutions.
+4. **Market and early customers.** Ask who the first customers or users could
+   be — not the final market, but a logical, reachable first target.
+   Establish the customer type (B2C, B2B, public sector, academia) and a
+   rough market sense (size, trends, urgency) — figures aren't mandatory, an
+   impression is a fine starting point too.
+5. **Current state and readiness.** Ask for the solution's maturity level on
+   a plain-language scale (idea only → proof-of-concept → lab prototype →
+   tested prototype → pilot/field test → market-ready — TRL in plain
+   language). Establish what's already been achieved (milestones, results,
+   funding, patents, collaborations). If a PoC exists: what hypotheses were
+   tested, and what was learned? If not: what should be tested, and at what
+   scale, to demonstrate feasibility? Also ask whether the opportunity has
+   already been protected or published (IP, patents, publications) — a
+   general-level answer is enough, no detailed legal description is needed.
+6. **Goals and next hypotheses.** Ask what kind of business or impact could
+   emerge from the opportunity (startup, license, new business line, public
+   service) and what the assessment is meant to achieve (clarity for an
+   application, input for a TTO decision, partner discussions, portfolio
+   comparison). Ask which hypotheses should be tested next (e.g. "Will
+   customers pay for X?", "Does the technology scale?").
+7. **Fill in missing pieces with expertise, not guesswork.** If the
+   respondent knows the target customer but not the market size, use
+   industry knowledge to estimate an order of magnitude and flag it as an
+   assumption. A partial answer is enough as a starting point — don't demand
+   a complete business plan before you can proceed.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei vaadi asiakkaalta valmista liiketoimintasuunnitelmaa — kerää osittaisenkin
-  tiedon jäsennellysti ja tekee näkyväksi mitä vielä puuttuu.
-- Ei arvaa markkinakokoa, kilpailutilannetta tai muita lukuja puuttuvien
-  vastausten tilalle ilman selkeää `[oletus — tarkista]`-merkintää.
-- Ei itsessään arvioi mahdollisuuden elinkelpoisuutta — tuottaa jäsennellyn
-  lähtöaineiston `opportunity-value-assessment`-skillille.
+- Doesn't require the client to have a finished business plan — collects
+  even partial information in a structured way and makes visible what's
+  still missing.
+- Doesn't guess market size, competitive landscape, or other figures to fill
+  gaps in the answers without a clear `[assumption — verify]` flag.
+- Doesn't itself assess the opportunity's viability — produces the
+  structured input for the `opportunity-value-assessment` skill.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../opportunity-value-assessment/SKILL.md` —
-  Sijoittaa kerätyn mahdollisuuden houkuttelevuus × toteutettavuus -matriisiin
-  ja arvioi sen seitsemästä kaupallistamisnäkökulmasta.
-- Liittyvä skilli toisessa pakissa: `../../../specialisation-packs/research-commercialisation/skills/research-opportunity-recognition/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: `../opportunity-value-assessment/SKILL.md` — Places the
+  collected opportunity in an attractiveness × feasibility matrix and
+  assesses it from seven commercialization angles.
+- Related skill in another pack: `../../../specialisation-packs/research-commercialisation/skills/research-opportunity-recognition/SKILL.md`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/intake-questions.md` — täysi kysymyspankki teemoittain
+- `../../references/intake-questions.md` — the full question bank, by theme
 - `../../references/opportunity-frameworks-review.md` — Doug Richard, NABC, Opportunity Canvas
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../CLAUDE.md` — this pack's shared guardrails

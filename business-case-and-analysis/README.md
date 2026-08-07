@@ -1,22 +1,23 @@
 # Business Case & Analysis
 
-Päätöksentekokelpoisten liiketoimintaperustelujen ja analyysien laadinta (BABOK, PMI).
+Building decision-ready business cases and analyses (BABOK, PMI).
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Kuvaus |
+| Skill | Description |
 |---|---|
-| `requirements-and-scope-framing` | Rajaa ongelman ja vaatimukset selkeäksi, testattavaksi kokonaisuudeksi. |
-| `stakeholder-analysis-and-raci` | Kartoittaa sidosryhmät valta/intressi-matriisilla ja määrittää vastuut RACI:lla. |
-| `assumption-and-evidence-audit` | Testaa oletukset ja tunnistaa evidenssiaukot ennen suosituksen lukitsemista. |
-| `business-case-builder` | Rakentaa täyden business casen: ongelma, ratkaisu, talous (ROI/NPV/IRR), riskit, aikataulu, sidosryhmät, suositus. |
-| `roi-npv-sensitivity-model` | Laskee ROI:n, NPV:n ja IRR:n sekä herkkyysanalyysin eri skenaarioissa. |
-| `risk-matrix-and-mitigation` | Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit. |
+| `requirements-and-scope-framing` | Frames the problem and requirements into a clear, testable whole. |
+| `stakeholder-analysis-and-raci` | Maps stakeholders on a power/interest matrix and assigns responsibilities with RACI. |
+| `assumption-and-evidence-audit` | Tests assumptions and identifies evidence gaps before a recommendation is locked in. |
+| `business-case-builder` | Builds a full business case: problem, solution, economics (ROI/NPV/IRR), risks, timeline, stakeholders, recommendation. |
+| `roi-npv-sensitivity-model` | Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios. |
+| `risk-matrix-and-mitigation` | Identifies and scores risks (probability × impact) and designs mitigations. |
 
-Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle (frontmatterissa
-ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
+All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
+for current maturity (maturity isn't tracked in the frontmatter — see
+[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
 
-## Ankkurointi
+## Anchored in
 
 - 45ck — assumption-extractor / evidence-gap-review
 - 45ck — raci-matrix / power-interest-grid
@@ -26,19 +27,21 @@ ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
 - IIBA BABOK
 - ISO 31000
 - PMI Business Analysis
-- PMI riskienhallinta
+- PMI risk management
 - WEF Future of Jobs 2025 — analytical thinking #1
 - aj-geddes — business-case-development
 - w95 business-case-builder
-- w95/awesome-claude-corporate-skills — business-case-builder-rakenne
+- w95/awesome-claude-corporate-skills — business-case-builder structure
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  taustamateriaali, lähteet, omat mallit (täydennettävä)
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   an individual skill (name + description frontmatter)
+references/                  background material, sources, own templates (to be filled in)
 ```
 
-Katso `../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin sisältöä.
+See [`../meta/maturity_levels.md`](../meta/maturity_levels.md) for what the
+maturity levels mean, and
+[`../AGENT_GUIDE.md`](../AGENT_GUIDE.md) for how an agent should read and
+weight this pack's content.

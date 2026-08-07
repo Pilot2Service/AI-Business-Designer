@@ -1,159 +1,155 @@
 ---
 name: ai-native-conversational-os-design
-description: "Suunnittelee AI-natiivin tuotteen keskusteleva käyttöliittymäarkkitehtuuri kuudella vaiheella — Intent, Strategy Cards, Clarification, Output Cards, Mission, Agent Execution — soveltaen viittä AI-first-tuoteperiaatetta (klikkaus>kysymys, valikot>promptit, dashboardit>dialogi, manuaaliset toiminnot>agentit, ruudut>chat+kortit)."
+description: "Designs the conversational UI architecture for an AI-native product in six stages — Intent, Strategy Cards, Clarification, Output Cards, Mission, Agent Execution — applying five AI-first product principles (click > question, menus > prompts, dashboards > dialogue, manual actions > agents, screens > chat + cards)."
 ---
 
 # AI-Native Conversational OS Design
 
-*Tila: `draft`, `source_layer: owner` — ks. `../../../../skills_index.json` ja
+*Status: `draft`, `source_layer: owner` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Antaa konkreettinen, uudelleenkäytettävä arkkitehtuurimalli sille, miten
-AI-natiivi tuote rakennetaan käyttöliittymänä, joka EI ole perinteinen
-näyttöjen/valikoiden/dashboardien kokoelma vaan keskusteleva
-käyttöjärjestelmä: käyttäjän aikomus tunnistetaan, oikea sisäinen
-"strategia" valitaan, tarvittaessa kysytään täsmentäviä kysymyksiä,
-tuotetaan strukturoidut output-kortit, annetaan yksi selkeä missio, ja
-agentti voi jatkaa työtä autonomisesti. Ydinviesti: "tuotteesi ei ole enää
-joukko ruutuja. Se on ajattelukumppani."
+Provide a concrete, reusable architecture model for how an AI-native
+product is built as a UI that is NOT a traditional collection of
+screens/menus/dashboards but a conversational operating system: the
+user's intent is recognized, the right internal "strategy" is selected,
+clarifying questions are asked when needed, structured output cards are
+produced, one clear mission is given, and an agent can continue the work
+autonomously. Core message: "your product is no longer a set of screens.
+It's a thinking partner."
 
-## Perustuu
+## Based on
 
-- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä, sovellettu
-  omistajan toimesta omaan caseen
-  ("Decision Coach" MVP) — ks. `../../references/ai-first-saas-workshop-source.md` ja worked example `../../cases/ai-decision-coach-mvp-case.md`
-  kohta 8. **Huom:** sovellettu toistaiseksi vain kerran — ei laajasti
-  validoitu useammalla eri tuotteella.
-- Työpajan "5 shifts" -periaatteet AI-first-tuotteen suunnittelulle
-  (ks. Rakenne-osion alku).
+- The methodology of an external "AI-first SaaS Product" workshop,
+  applied by the owner to one own case
+  ("Decision Coach" MVP) — see `../../references/ai-first-saas-workshop-source.md` and the worked example `../../cases/ai-decision-coach-mvp-case.md`,
+  section 8. **Note:** applied only once so far — not broadly validated
+  across multiple different products.
+- The workshop's "5 shifts" principles for designing an AI-first product
+  (see the start of the Method section).
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be filled in further)
 
-### A. Viisi AI-first-tuoteperiaatetta (mindset ennen arkkitehtuuria)
+### A. Five AI-first product principles (mindset before architecture)
 
-Ennen kuin suunnittelet OS-flown, sisäistä nämä viisi siirtymää vanhasta
-SaaS-ajattelusta AI-natiiviin ajatteluun:
+Before designing the OS flow, internalize these five shifts from old SaaS
+thinking to AI-native thinking:
 
-1. **Klikkaus → kysymys.** Käyttäjä ei navigoi valikoissa löytääkseen
-   oikean toiminnon — hän kysyy mitä haluaa, ja järjestelmä löytää oikean
-   toiminnon.
-2. **Valikot → promptit.** Kiinteiden valikkorakenteiden sijaan
-   käyttäjä ilmaisee aikomuksensa luonnollisella kielellä.
-3. **Dashboardit → dialogi.** Tiedon selaamisen sijaan tieto tuodaan
-   käyttäjälle keskustelun kautta, oikeaan aikaan, oikeassa kontekstissa.
-4. **Manuaaliset toiminnot → agentit.** Käyttäjä ei suorita jokaista
-   askelta itse — agentti suorittaa, käyttäjä ohjaa ja hyväksyy (ks.
-   `../closed-loop-process-and-human-oversight-design/SKILL.md` ihmisen
-   valvontatason valintaan).
-5. **Ruudut → chat + kortit.** Käyttöliittymä ei ole pysyvä ruutujen
-   kokoelma vaan dynaaminen yhdistelmä keskustelua ja strukturoituja
-   informaatiokortteja, jotka ilmestyvät tarpeen mukaan.
+1. **Click → question.** The user doesn't navigate menus to find the
+   right function — they ask for what they want, and the system finds the
+   right function.
+2. **Menus → prompts.** Instead of fixed menu structures, the user
+   expresses their intent in natural language.
+3. **Dashboards → dialogue.** Instead of browsing information, information
+   is brought to the user through conversation, at the right time, in the
+   right context.
+4. **Manual actions → agents.** The user doesn't perform every step
+   themselves — an agent performs them, the user directs and approves
+   (see `../closed-loop-process-and-human-oversight-design/SKILL.md` for
+   choosing the level of human oversight).
+5. **Screens → chat + cards.** The UI isn't a fixed collection of screens
+   but a dynamic combination of conversation and structured information
+   cards that appear as needed.
 
-Näiden viiden siirtymän yhteinen johtopäätös: tuote ei ole enää joukko
-ruutuja, se on ajattelukumppani.
+The shared conclusion of these five shifts: the product is no longer a
+set of screens, it's a thinking partner.
 
-### B. Kuusivaiheinen OS-flow
+### B. Six-stage OS flow
 
-1. **Intent (käyttäjä → järjestelmä).** Tunnista MIKSI käyttäjä on
-   täällä ja mihin hän haluaa selkeyttä. Listaa tuotteesi tukemat
-   pääasialliset intentit eksplisiittisesti (tyypillisesti 3-6) —
-   älä yritä tukea rajatonta määrää vapaamuotoisia pyyntöjä MVP:ssä.
-   Tunnista hallitseva intentti ja välitä se strategiakerrokselle.
-2. **Strategy Cards (järjestelmä → sisäinen päättelykerros).**
-   Määrittele "pelikirjat" (strategy cards), joista AI voi valita
-   käyttäjän intentin mukaan. Jokainen kortti on itsenäinen päättely-
-   moduuli: mitä se tulkitsee, mitä se tuottaa (esim. pistemäärä 0-100,
-   luokittelu, uudelleenmuotoiltu teksti). Suunnittele niin monta korttia
-   kuin MVP:n differentiaattori- ja table-stake-tarpeet vaativat (ks.
-   `../customer-vision-to-jtbd/SKILL.md`) — ei enempää.
-3. **Clarification (interaktiiviset mikrokysymykset).** Kysy KORKEINTAAN
-   2-4 täsmentävää kysymystä, vain kun (a) syöte on liian epämääräinen
-   tulkittavaksi, tai (b) väärä strategiakortti on aktivoitunut. Pidä
-   kysymykset kevyinä ja nopeina — tämä ei ole lomake, se on tarkennus.
-4. **Output Cards (ydin-MVP-tulokset).** Suunnittele standardoidut,
-   strukturoidut korttimuodot joina käyttäjä saa tuloksen jokaisesta
-   strategiakortin suorituksesta (esim. pistemäärä + "miksi tämä
-   pistemäärä" -perustelu + "mikä parantaisi sitä"). Jokaisen output-
-   kortin tulisi täyttää yksi MVP:n differentiaattori- tai table-stake-
-   tarpeista suoraan.
-5. **Mission (AI tiivistää suunnitelman + seuraavan askeleen).** Yksi
-   lyhyt missiolause session lopuksi, joka kehystää seuraavat askeleet
-   luottamuksen rakentamisen ja epävarmuuden vähentämisen ympärille —
-   ei pitkä yhteenveto, vaan yksi konkreettinen, toimintaan johtava lause.
-6. **Agent Execution (järjestelmä → autonominen toiminto).** Missio-
-   lauseen jälkeen agentti voi jatkaa itsenäisesti: pisteiden
-   päivittäminen uuden tiedon myötä, materiaalin uudelleenkirjoitus,
-   olemassa olevien työkalujen/resurssien suosittelu. Agentin tehtävä on
-   luoda eteenpäin vievää liikevoimaa — ei vain vastata kysymykseen ja
-   pysähtyä.
+1. **Intent (user → system).** Identify WHY the user is here and what
+   they want clarity on. Explicitly list the main intents your product
+   supports (typically 3-6) — don't try to support an unlimited range of
+   free-form requests in an MVP. Identify the dominant intent and pass it
+   to the strategy layer.
+2. **Strategy Cards (system → internal reasoning layer).** Define
+   "playbooks" (strategy cards) the AI can choose from based on the
+   user's intent. Each card is an independent reasoning module: what it
+   interprets, what it produces (e.g. a 0-100 score, a classification, a
+   reworded text). Design as many cards as the MVP's differentiator and
+   table-stake needs require (see `../customer-vision-to-jtbd/SKILL.md`)
+   — no more.
+3. **Clarification (interactive micro-questions).** Ask AT MOST 2-4
+   clarifying questions, only when (a) the input is too vague to
+   interpret, or (b) the wrong strategy card has been activated. Keep the
+   questions light and fast — this isn't a form, it's a refinement.
+4. **Output Cards (core MVP results).** Design standardized, structured
+   card formats in which the user receives the result of each strategy
+   card execution (e.g. a score + a "why this score" rationale + "what
+   would improve it"). Each output card should directly fulfill one of
+   the MVP's differentiator or table-stake needs.
+5. **Mission (AI summarizes the plan + the next step).** One short
+   mission statement at the end of the session that frames the next
+   steps around building trust and reducing uncertainty — not a long
+   summary, but one concrete, action-driving sentence.
+6. **Agent Execution (system → autonomous action).** After the mission
+   statement, an agent can continue independently: updating scores as new
+   information arrives, rewriting material, recommending existing
+   tools/resources. The agent's job is to create forward momentum — not
+   just answer a question and stop.
 
-### C. Suunnittelun tarkistuslista
+### C. Design checklist
 
-7. **Testaa flow päästä päähän ennen rakentamista.** Kirjoita auki
-   yksi konkreettinen käyttäjäpolku Intent-vaiheesta Agent Execution
-   -vaiheeseen asti sanallisesti (ei koodia) — jos jokin vaihe tuntuu
-   pakotetulta tai keinotekoiselta, yksinkertaista rakennetta ennen
-   rakennusvaihetta.
-8. **Vie flow `../ai-buildable-prd-writing/SKILL.md`-skillin "Core-
-   ominaisuudet"-osioon** — jokainen OS-flown vaihe (Strategy Card,
-   Output Card) on yksi PRD:n ominaisuusrivi, kuvattuna lopputuloksena
-   ("käyttäjä saa...") teknisen toteutuksen sijaan.
+7. **Test the flow end to end before building.** Write out one concrete
+   user journey from the Intent stage to the Agent Execution stage in
+   words (not code) — if any step feels forced or artificial, simplify
+   the structure before the build phase.
+8. **Feed the flow into `../ai-buildable-prd-writing/SKILL.md`'s "Core
+   Features" section** — each stage of the OS flow (Strategy Card, Output
+   Card) is one PRD feature line, described as an outcome ("the user
+   gets...") rather than a technical implementation.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei sisällä teknistä orkestrointitoteutusta (promptien ketjutus, tila,
-  API-rajapinnat) — tuottaa konseptuaalisen arkkitehtuurin, joka viedään
-  rakennusagentille `../ai-native-tool-stack-selection/SKILL.md`-skillin
-  kautta valittua työkalua käyttäen.
-- Ei korvaa `../closed-loop-process-and-human-oversight-design/SKILL.md`
-  -skilliä ihmisen valvontatason päättämisessä Agent Execution -vaiheelle
-  — käytä sitä rinnalla päättämään in/on/outside-the-loop-taso jokaiselle
-  agenttitoiminnolle.
-- Ei sovi jokaiselle tuotteelle — jos tuote on aidosti työkalu-/
-  dashboard-tyyppinen (esim. datan visualisointi, jatkuva monitorointi
-  ilman keskustelevaa päätöksentekoa), tämä malli pakottaa väärän
-  muodon. Käytä vain kun ydinarvo on AI:n tulkinta/päättely, ei datan
-  näyttäminen.
+- Does not include a technical orchestration implementation (prompt
+  chaining, state, API interfaces) — it produces the conceptual
+  architecture, which is handed to the build agent via the tool chosen
+  through `../ai-native-tool-stack-selection/SKILL.md`.
+- Does not replace `../closed-loop-process-and-human-oversight-design/SKILL.md`
+  for deciding the human oversight level for the Agent Execution stage —
+  use it alongside this skill to decide the in/on/outside-the-loop level
+  for each agent action.
+- Does not fit every product — if the product is genuinely
+  tool-/dashboard-type (e.g. data visualization, continuous monitoring
+  without conversational decision-making), this model forces the wrong
+  shape. Use it only when the core value is AI interpretation/reasoning,
+  not displaying data.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be filled in]
 
-Tämä skilli on sovellettu toistaiseksi yhteen caseen (omistaja Decision
-Coach). Kun sovellat sitä useampaan eri tuotteeseen, täydennä:
+This skill has so far been applied to one case (the owner's Decision
+Coach). As you apply it to more products, add:
 
-- omia havaintoja siitä, milloin 6-vaiheinen malli pitää yksinkertaistaa
-  (esim. jos Strategy Cards -kerros osoittautuu ylimitoitetuksi pienelle
-  MVP:lle)
-- konkreettisia esimerkkejä muista OS-flow-suunnitelmista
-  `../../cases/`-kansioon
-- havaintoja siitä miten flow toimi käytännössä ensimmäisen
-  rakennusiteraation jälkeen (mikä vaihe tuotti eniten käyttäjäarvoa,
-  mikä osoittautui tarpeettomaksi)
+- your own observations on when the 6-stage model needs to be simplified
+  (e.g. if the Strategy Cards layer proves oversized for a small MVP)
+- concrete examples of other OS flow designs in the `../../cases/` folder
+- observations on how the flow performed in practice after the first
+  build iteration (which stage produced the most user value, which
+  proved unnecessary)
 
-Kun tämä osio on täytetty useammalla caseella, nosta
-`skills_index.json`:n `maturity`-kenttä arvoon `validated`
-(ks. `../../../../meta/maturity_levels.md`).
+Once this section has been filled in with multiple cases, raise
+`skills_index.json`'s `maturity` field to `validated`
+(see `../../../../meta/maturity_levels.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä skilli samassa pakissa:
-  `../rice-scoring-and-mvp-synthesis/SKILL.md` — tuottaa valitun MVP:n
-  jolle OS-flow suunnitellaan.
-- Seuraava skilli samassa pakissa: `../ai-buildable-prd-writing/SKILL.md`
-  — vie OS-flown PRD:n Core-ominaisuudet-osioon.
-- Liittyvä skilli samassa pakissa:
+- Preceding skill in this pack:
+  `../rice-scoring-and-mvp-synthesis/SKILL.md` — produces the chosen MVP
+  for which the OS flow is designed.
+- Next skill in this pack: `../ai-buildable-prd-writing/SKILL.md`
+  — feeds the OS flow into the PRD's Core Features section.
+- Related skill in this pack:
   `../closed-loop-process-and-human-oversight-design/SKILL.md` —
-  ihmisen valvontatason valinta Agent Execution -vaiheelle.
-- Liittyvä skilli toisessa pakissa:
+  choosing the human oversight level for the Agent Execution stage.
+- Related skill in another pack:
   `../../../../business-design-frameworks/skills/customer-journey-and-ai-touchpoint-mapping/SKILL.md`
-  — täydentävä tapa jäsentää samaa tuotetta asiakaspolkuna OS-arkkitehtuurin
-  sijaan.
-- Worked example: `../../cases/ai-decision-coach-mvp-case.md` kohta 8.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  — a complementary way to structure the same product as a customer
+  journey rather than an OS architecture.
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md`, section 8.
+- The pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+- `../../references/ai-first-saas-workshop-source.md` — source information
 - `../../cases/ai-decision-coach-mvp-case.md` — worked example
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../CLAUDE.md` — the pack's shared guardrails

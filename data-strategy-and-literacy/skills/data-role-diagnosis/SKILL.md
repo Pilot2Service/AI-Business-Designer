@@ -1,140 +1,140 @@
 ---
 name: data-role-diagnosis
-description: "Diagnosoi ja perustelee, toimiiko data organisaatiossa mahdollistajana (kustannus, operatiivinen tehokkuus) vai strategisena assettina (tuottava, monetisoitava, defensoitava) — heuristisilla testeillä (resale, flywheel, defensibility) ja Offense/Defense-kehyksellä. Käytä ennen datastrategian tai AI-liiketoimintamallin muotoilua, kun pitää määrittää mitä roolia data organisaatiossa TÄNÄÄN näyttelee ja mitä roolia sen HALUTAAN näyttelevän."
+description: "Diagnoses and justifies whether data functions in the organization as an enabler (cost, operational efficiency) or as a strategic asset (revenue-generating, monetizable, defensible) — using heuristic tests (resale, flywheel, defensibility) and the Offense/Defense framework. Use before designing a data strategy or an AI business model, when you need to determine what role data plays in the organization TODAY and what role it SHOULD play."
 ---
 
 # Data Role Diagnosis
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Estää yleisin datastrategiakeskustelun sekaannus: puhutaan "datastrategiasta"
-tarkoittaen kahta eri asiaa samaan aikaan. Osa organisaatiosta tarkoittaa
-datan **hallintaa** (governance, laatu, integraatiot — kustannus joka pitää
-koneiston pyörimässä). Osa tarkoittaa datan **hyödyntämistä uuden arvon
-lähteenä** (monetisaatio, defensoitava kilpailuetu, uudet liiketoiminta-
-mallit). Kumpikaan ei ole väärin, mutta ne vaativat eri työkalut, eri
-mittarit ja eri johdon puheen. Tämä skilli tuottaa diagnoosin: mikä rooli
-datalla on TÄNÄÄN kussakin osa-alueessa, ja onko siirtymä mahdollistajasta
-assetiksi edes tavoiteltavaa juuri nyt.
+Prevents the most common confusion in data strategy discussions: talking
+about "data strategy" while meaning two different things at once. Part of
+the organization means data **governance** (governance, quality,
+integrations — a cost that keeps the machinery running). Part means
+**exploiting** data as a source of new value (monetization, defensible
+competitive advantage, new business models). Neither is wrong, but they
+require different tools, different metrics, and different language with
+leadership. This skill produces a diagnosis: what role data plays TODAY in
+each area, and whether a shift from enabler to asset is even worth pursuing
+right now.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Mahdollistaja vs. strateginen assetti -jaottelu (toimialan konsultointi-
-  käytäntö, usean lähteen synteesi 2026): data hyödykkeenä joka mahdollistaa
-  operaatiot vs. data omaisuutena jonka arvo kasvaa ja tuottaa mitattavaa
-  tuottoa.
-- Davenport, Thomas H. & Bean, Randy — "offense vs. defense" -kehys
-  datastrategialle (Harvard Business Review / MIT Sloan Management Review
-  -kirjoitukset): data governance on puolustuspeliä (riskinhallinta,
-  compliance, laatu), datan hyödyntäminen uuden liiketoiminnan lähteenä on
-  hyökkäyspeliä (kasvu, kilpailuetu, uudet tulovirrat).
-- Collins, Jim — flywheel-käsite (*Good to Great*, 2001) yleisenä
-  liiketoimintamekanismina, sovellettuna tässä datan itseään vahvistavaan
-  arvosilmukkaan (ks. kohta 3 alla ja
+- The enabler vs. strategic asset distinction (industry consulting
+  practice, a synthesis of multiple sources, 2026): data as a commodity
+  that enables operations vs. data as an asset whose value grows and
+  produces measurable returns.
+- Davenport, Thomas H. & Bean, Randy — the "offense vs. defense" framework
+  for data strategy (Harvard Business Review / MIT Sloan Management Review
+  writing): data governance is a defensive game (risk management,
+  compliance, quality); exploiting data as a source of new business is an
+  offensive game (growth, competitive advantage, new revenue streams).
+- Collins, Jim — the flywheel concept (*Good to Great*, 2001) as a general
+  business mechanism, applied here to data's self-reinforcing value loop
+  (see point 3 below and
   `../data-monetization-model-selection/SKILL.md`).
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Kysy mahdollistaja-kysymys jokaisesta merkittävästä datalähteestä:**
-   *"Auttaako tämä data meitä tekemään nykyisen asiamme nopeammin,
-   halvemmin tai laadukkaammin?"* Jos vastaus on kyllä mutta ei mitään
-   muuta, data toimii tänään mahdollistajana — se on hyödyke, ei
-   liiketoiminnan ydin. Tyypillinen merkki: data mahdollistaa
-   operatiivisen siilon purkamista (esim. raportointi, integraatiot)
-   mutta ei itse tuota myytävää arvoa.
-2. **Kysy assetti-kysymys samasta datalähteestä:** *"Voisimmeko myydä
-   tätä dataa suoraan tai käyttää sitä kouluttamaan mallia, jota
-   kilpailija ei pysty kopioimaan pelkällä pääomalla?"* Jos vastaus on
-   kyllä, data on potentiaalinen strateginen assetti — mutta pelkkä
-   potentiaali ei riitä, se pitää validoida kohdan 3 testeillä.
-3. **Validoi assetti-väite kolmella testillä ennen kuin uskot siihen:**
-   - **Resale-testi:** onko olemassa toimija, joka maksaisi tästä datasta
-     tai siitä johdetusta oivalluksesta TÄNÄÄN, ilman että sinun tarvitsee
-     ensin rakentaa mitään uutta? Jos ei, kyse on potentiaalista, ei
-     nykyisestä assetista.
-   - **Flywheel-testi:** paraneeko tuote/malli mitattavasti, kun dataa
-     kertyy lisää, ja houkutteleeko parempi tuote lisää käyttäjiä (jotka
-     tuottavat lisää dataa)? Jos silmukka ei sulkeudu jossain kohtaa
-     (esim. lisädata ei paranna mallia havaittavasti), "flywheel" on
-     toiveajattelua — ks. tarkempi tarkistuslista
+1. **Ask the enabler question for every significant data source:** *"Does
+   this data help us do what we already do faster, cheaper, or better?"*
+   If the answer is yes but nothing more, the data functions today as an
+   enabler — it's a commodity, not the core of the business. A typical
+   sign: the data enables breaking down an operational silo (e.g.
+   reporting, integrations) but doesn't itself produce sellable value.
+2. **Ask the asset question about the same data source:** *"Could we sell
+   this data directly, or use it to train a model a competitor couldn't
+   replicate with capital alone?"* If yes, the data is a potential
+   strategic asset — but potential alone isn't enough; it needs to be
+   validated with the tests in point 3.
+3. **Validate the asset claim with three tests before you believe it:**
+   - **Resale test:** is there a party that would pay for this data or an
+     insight derived from it TODAY, without you first having to build
+     anything new? If not, this is potential, not a present-day asset.
+   - **Flywheel test:** does the product/model measurably improve as more
+     data accumulates, and does the better product attract more users
+     (who generate more data)? If the loop doesn't close somewhere (e.g.
+     more data doesn't noticeably improve the model), "flywheel" is
+     wishful thinking — see the more detailed checklist in
      `../data-monetization-model-selection/SKILL.md`.
-   - **Defensibility-testi:** voisiko kilpailija replikoida tämän
-     kilpailuedun ostamalla saman määrän laskentatehoa/pääomaa, vai
-     vaatiiko se juuri tätä dataa, jota ei ole muualla saatavilla? Jos
-     kilpailija pääsisi samaan tulokseen rahalla ilman tätä dataa,
-     assetti ei ole niin defensoitava kuin luultiin.
-4. **Sijoita diagnoosi Offense/Defense-nelikenttään** kahdella akselilla:
-   nykyinen kypsyys (matala/korkea data governance) ja tavoiteltu rooli
-   (mahdollistaja/assetti). Tämä paljastaa tyypillisen sudenkuopan:
-   organisaatio yrittää rakentaa assetti-tason liiketoimintaa (esim.
-   datan monetisointia) heikon governance-perustan päälle — silloin
-   ensimmäinen investointi ei olekaan monetisointi vaan governance.
-5. **Kommunikoi rooli-diagnoosi johdolle yhden lauseen väitteenä per
-   datalähde**, esim. "Asiakkaan ostokäyttäytymisdata toimii tänään
-   pelkkänä raportointimahdollistajana, mutta läpäisee resale- ja
-   flywheel-testin — se on potentiaalinen assetti, joka vaatii
-   [nimeä puuttuva investointi] ennen kuin sitä voi monetisoida." Älä
-   esitä potentiaalia jo toteutuneena arvona.
-6. **Kytke diagnoosi seuraavaan päätökseen:** jos data on mahdollistaja
-   eikä siihen ole tarkoitus muuttaa, priorisoi governance/laatu-
-   investoinnit (ei tämän pakin ydinaluetta, ks. muut lähteet). Jos data
-   validoituu assetiksi, siirry
-   `../data-ai-strategy-design-and-prioritization/SKILL.md`-skilliin
-   arvon priorisoimiseksi ja sitten
-   `../data-monetization-model-selection/SKILL.md`-skilliin mallin
-   valitsemiseksi.
+   - **Defensibility test:** could a competitor replicate this
+     competitive advantage by buying the same amount of compute/capital,
+     or does it require this specific data, unavailable elsewhere? If a
+     competitor could reach the same outcome with money alone without
+     this data, the asset isn't as defensible as assumed.
+4. **Place the diagnosis on an Offense/Defense matrix** with two axes:
+   current maturity (low/high data governance) and targeted role
+   (enabler/asset). This exposes a common trap: the organization tries to
+   build asset-level business (e.g. data monetization) on top of a weak
+   governance foundation — in that case, the first investment isn't
+   monetization, it's governance.
+5. **Communicate the role diagnosis to leadership as a one-sentence claim
+   per data source**, e.g. "Customer purchase-behavior data today
+   functions purely as a reporting enabler, but passes the resale and
+   flywheel tests — it's a potential asset that requires [name the missing
+   investment] before it can be monetized." Don't present potential as
+   already-realized value.
+6. **Connect the diagnosis to the next decision:** if data is an enabler
+   and isn't meant to change, prioritize governance/quality investments
+   (not this pack's core focus, see other sources). If the data validates
+   as an asset, move on to
+   `../data-ai-strategy-design-and-prioritization/SKILL.md` to prioritize
+   the value, then to
+   `../data-monetization-model-selection/SKILL.md` to select a model.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee data governance -toteutusta tai teknistä arkkitehtuuria — vain
-  diagnosoi roolin ja perustelee sen.
-- Ei laske datan rahallista arvoa tai ROI:ta — ks.
-  `../data-monetization-model-selection/SKILL.md` ja
+- Doesn't implement data governance or technical architecture — only
+  diagnoses the role and justifies it.
+- Doesn't calculate the monetary value of data or its ROI — see
+  `../data-monetization-model-selection/SKILL.md` and
   `../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`.
-- Ei väitä, että jokainen datalähde pitäisi pyrkiä muuttamaan assetiksi —
-  moni datalähde on ja saa pysyä pelkkänä mahdollistajana; pakottaminen
-  assetti-ajatteluun ilman resale/flywheel/defensibility-läpäisyä johtaa
-  yliarvioituihin datastrategioihin.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista —
-  käyttää käyttäjän antamia lähtöarvoja tai merkitsee oletuksen selvästi
-  (`[oletus — tarkista]`).
+- Doesn't claim every data source should be pushed toward becoming an
+  asset — many data sources are, and should remain, pure enablers;
+  forcing asset-thinking without passing the resale/flywheel/defensibility
+  tests leads to overvalued data strategies.
+- Doesn't confirm figures, market data, or competitor data from memory —
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omia esimerkkejä siitä, miten asiakas on yliarvioinut datansa assetti-
-  arvon (mikä testi olisi paljastanut tämän etukäteen)
-- konkreettinen diagnoosityöpaja-/haastattelupohja per datalähde
-  (`../../references/`-kansioon)
-- nyrkkisääntöjä siitä, missä toimialoissa/tilanteissa mahdollistaja-rooli
-  on lähes aina oikea vastaus eikä assetti-tavoittelu kannata
+- your own examples of a client overvaluing the asset-value of their
+  data (which test would have revealed this in advance)
+- a concrete diagnosis workshop/interview template per data source
+  (into `../../references/`)
+- rules of thumb for which industries/situations the enabler role is
+  almost always the right answer and pursuing asset status isn't
+  worthwhile
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Ennen tätä (jos data on jo epäilty vinoutuneeksi tai puutteelliseksi):
-  `../data-bias-and-quality-critical-reading/SKILL.md`
-- Samassa pakissa seuraavaksi (jos data validoitui assetiksi):
+- Before this (if the data is already suspected to be biased or
+  incomplete): `../data-bias-and-quality-critical-reading/SKILL.md`
+- Next in this pack (if the data validated as an asset):
   `../data-ai-strategy-design-and-prioritization/SKILL.md`
-- Jos rooli on jo selvä ja kysymys on MITEN monetisoida:
+- If the role is already clear and the question is HOW to monetize:
   `../data-monetization-model-selection/SKILL.md`
-- Liittyvä skilli toisessa pakissa: `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-  — käyttää Data Readiness -ulottuvuutta AI-mahdollisuuksien pisteytyksessä;
-  tämä skilli syventää sitä yhden datalähteen roolin tasolla.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Related skill in another pack: `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  — uses the Data Readiness dimension in scoring AI opportunities; this
+  skill deepens it at the level of a single data source's role.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/data-role-heuristics.md` — laajempi kokoelma
-  diagnostisia kysymyksiä ja esimerkkejä
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/data-role-heuristics.md` — a broader collection of
+  diagnostic questions and examples
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

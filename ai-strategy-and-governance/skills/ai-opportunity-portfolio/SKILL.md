@@ -1,201 +1,211 @@
 ---
 name: ai-opportunity-portfolio
-description: "Tunnistaa, pisteyttää (5-ulotteinen malli: Business Impact, Technical Feasibility, Data Readiness, Strategic Alignment, Speed to Value/Risk) ja priorisoi AI-käyttötapaukset 2x2-matriisilla (Quick Wins / Strategic Bets / Deprioritize / Hard-Low Value) — sekä luokittelee inkrementaaliset ja transformatiiviset mahdollisuudet erikseen."
+description: "Identifies, scores (5-dimensional model: Business Impact, Technical Feasibility, Data Readiness, Strategic Alignment, Speed to Value/Risk), and prioritizes AI use cases with a 2x2 matrix (Quick Wins / Strategic Bets / Deprioritize / Hard-Low Value) — and classifies incremental and transformative opportunities separately."
 ---
 
 # AI Opportunity Portfolio
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Muuttaa raaka lista AI-käyttötapausehdokkaita (tyypillisesti 20–100
-kohdetta) objektiivisesti pisteytetyksi, priorisoiduksi portfolioksi,
-josta valitaan jatkoon 3–5 korkeimman arvon ja matalimman riskin
-kohdetta. Skilli erottelee tarkoituksella kaksi eri mahdollisuustyyppiä —
-**inkrementaalinen tehostaminen** (nykyisen prosessin nopeuttaminen/
-halventaminen) ja **transformatiivinen innovaatio** (uusi liiketoiminta,
-jota ei voinut tehdä ennen nykyisiä AI-kyvykkyyksiä) — koska niitä
-arvioidaan osin eri kriteerein.
+Turns a raw list of AI use-case candidates (typically 20–100 items) into
+an objectively scored, prioritized portfolio, from which the 3–5 highest-
+value, lowest-risk items are selected to move forward. The skill
+deliberately separates two different opportunity types —
+**incremental efficiency gains** (making an existing process faster/
+cheaper) and **transformative innovation** (new business that wasn't
+possible before current AI capabilities) — because they're assessed
+partly against different criteria.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - LinkedIn Skills on the Rise 2026 — AI Business Strategy
-- Markkinatutkimus: avoimet "Senior AI Business Designer" -tyyppiset rekrytointi-ilmoitukset
-- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
-  aikakaudella" (2026) — AI-mahdollisuuksien tunnistaminen strategisella
-  tasolla (alkuperäinen ongelmatyyppi/data/flywheel/agenttisuus-triagi,
-  nyt sisällytetty kohtaan 4 alla)
-- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
-  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
-  (2026) — 5-ulotteinen pisteytysmalli (synteesi useista toimialan
-  AI-kyvykkyysraporteista), 2x2-priorisointimatriisi, Value-Play-
-  taksonomia transformatiivisille mahdollisuuksille, Deploy-Reshape-Invent
-  -taksonomia
+- Market research: open "Senior AI Business Designer"-type job postings
+- A research report supplied by the user, "AI Business Designer in the
+  Age of AI" (2026) — identifying AI opportunities at the strategic
+  level (the original problem-type/data/flywheel/agentic-ness triage,
+  now folded into point 4 below)
+- Research digest "Methods, Frameworks, and Competencies for Identifying
+  AI Opportunities and Capacity in Business" (2026) — the 5-dimensional
+  scoring model (a synthesis of several industry AI capability
+  reports), the 2x2 prioritization matrix, the Value Play taxonomy for
+  transformative opportunities, the Deploy-Reshape-Invent taxonomy
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Kokoa raakalista ehdokkaista.** Lähde liikkeelle olemassa olevista
-   kitkakohdista ja arvoketjun pullonkauloista — ei teknologiasta. Kaksi
-   täydentävää tapaa koota raakalista:
-   - **Bottom-up** (jos prosessi on jo kuvattu tarkasti): käytä
-     `../task-level-decomposition-and-automation-fit/SKILL.md`-skilliä —
-     sen Automate/Augment-luokitellut tehtävät ryhmitellään tässä
-     suuremmiksi mahdollisuuksiksi.
-   - **Top-down** (nopea ensimmäinen kartoitus ennen tarkkaa prosessi-
-     kuvausta): käytä `../ai-capability-pattern-matching/SKILL.md`-skilliä
-     — se esittää valmiin kyvykkyyspatternikirjaston diagnostiset
-     kysymykset asiakkaalle ja tuottaa validoidun raakalistan.
-   Jos kumpaakaan ei ole käytetty, kerää lista suoraan sidosryhmiltä.
-2. **Jaa jokainen ehdokas kahteen kaistaan ennen pisteytystä:**
-   - **Inkrementaalinen tehostaminen** — nykyinen prosessi tehdään
-     nopeammin/halvemmalla. Kustannussäästö- ja nopeusvetoinen (*bottom-
-     line impact*).
-   - **Transformatiivinen innovaatio** — uusi liiketoiminta, tuote tai
-     tulovirta, joka ei ollut mahdollinen ennen nykyisiä AI-kyvykkyyksiä.
-     Kasvuvetoinen (*top-line impact*). Tarkista jokainen transformatiivi-
-     seksi väitetty ehdokas Value-Play-taksonomialla (kohta 3) — jos se ei
-     osu mihinkään kolmesta arkkitehtuurista, se on todennäköisesti
-     itse asiassa inkrementaalinen tehostus naamioituna isoksi ideaksi.
-3. **Transformatiivisille ehdokkaille: tarkista Value-Play-taksonomiaa
-   vasten.** Kolme tunnettua arkkitehtuuria uuden AI-arvon luonnille:
-   - **Rajattomasti skaalautuva asiantuntijuus** (*Zero-Marginal-Cost
-     Expertise*) — monimutkaisen erikoisosaamisen (juridinen, tekninen,
-     lääketieteellinen) paketointi reaaliaikaiseksi, skaalautuvaksi
-     palveluksi.
-   - **Reaaliaikainen hyperpersonointi** (*Hyper-Personalization at
-     Scale*) — tuote/palvelu dynamisoituu jokaiselle käyttäjälle
-     yksilöllisesti (esim. räätälöidyt opintopolut, rahoitustuotteet).
-   - **Tulospohjaiset liiketoimintamallit** (*Outcome-Based / Agentic
-     Business*) — siirtymä käyttöoikeus-/paikkapohjaisesta (seat-based)
-     hinnoittelusta tulospohjaiseen (esim. veloitus vain ratkaistusta
-     tiketistä tai toteutuneesta kaupasta).
-   Jos ehdokas ei osu mihinkään näistä eikä ole selkeästi näiden
-   yhdistelmä, harkitse uudelleen kuuluuko se transformatiiviseen kaistaan.
-4. **Pisteytä jokainen ehdokas viidellä ulottuvuudella (1–5 per
-   ulottuvuus, max 25 yhteensä):**
-   - **Business Impact** — mitattavissa oleva euro- tai aika-arvo (ROI,
-     säästetyt työtunnit, uusi liikevaihto, churn-vaikutus).
-   - **Technical Feasibility & AI Fit** — onko ongelma luonteeltaan
-     probabilistinen vai deterministinen? Sopiiko nykyinen LLM/AI-
-     teknologia tehtävään ilman kohtuutonta hallusinointiriskiä? (Käytä
-     tässä `../task-level-decomposition-and-automation-fit/SKILL.md`
-     -skillin SML-arviota jos saatavilla — ongelmatyyppi ennustus/
-     luokittelu/generointi kuuluu myös tähän ulottuvuuteen.)
-   - **Data Readiness** — onko tarvittava data saatavilla, rakenteisessa
-     muodossa, laadukasta ja rajapinnoitettavissa? Arvioi myös
-     **data flywheel -potentiaali**: tuottaako ratkaisu käytössä uniikkia
-     dataa joka parantaa mallia ajan myötä ja vahvistaa kilpailuetua, vai
-     onko kyse kertaluonteisesta datasta ilman itseään vahvistavaa
-     silmukkaa? Syvempään diagnoosiin (datan rooli, laatu/vinouma,
-     flywheel-väitteen validointi) ks.
+1. **Assemble the raw list of candidates.** Start from existing friction
+   points and value-chain bottlenecks — not from technology. Two
+   complementary ways to assemble the raw list:
+   - **Bottom-up** (if the process is already precisely described):
+     use `../task-level-decomposition-and-automation-fit/SKILL.md` —
+     its Automate/Augment-classified tasks are grouped here into
+     larger opportunities.
+   - **Top-down** (a fast first pass before a detailed process
+     description): use `../ai-capability-pattern-matching/SKILL.md` —
+     it poses the client the diagnostic questions of a ready-made
+     capability pattern library and produces a validated raw list.
+   If neither has been used, collect the list directly from
+   stakeholders.
+2. **Sort every candidate into one of two lanes before scoring:**
+   - **Incremental efficiency gain** — the current process is done
+     faster/cheaper. Cost-saving- and speed-driven (bottom-line
+     impact).
+   - **Transformative innovation** — a new business, product, or
+     revenue stream that wasn't possible before current AI
+     capabilities. Growth-driven (top-line impact). Check every
+     candidate claimed as transformative against the Value Play
+     taxonomy (point 3) — if it doesn't fit any of the three
+     architectures, it's probably actually an incremental efficiency
+     gain disguised as a big idea.
+3. **For transformative candidates: check against the Value Play
+   taxonomy.** Three known architectures for creating new AI value:
+   - **Zero-Marginal-Cost Expertise** — packaging complex specialist
+     expertise (legal, technical, medical) into a real-time,
+     scalable service.
+   - **Hyper-Personalization at Scale** — the product/service becomes
+     dynamic for every user individually (e.g. tailored learning
+     paths, financial products).
+   - **Outcome-Based / Agentic Business** — moving from seat-based
+     licensing/access pricing to outcome-based pricing (e.g. billing
+     only for a resolved ticket or a closed deal).
+   If a candidate doesn't fit any of these and isn't clearly a
+   combination of them, reconsider whether it belongs in the
+   transformative lane.
+4. **Score every candidate on five dimensions (1–5 per dimension, max
+   25 total):**
+   - **Business Impact** — measurable euro or time value (ROI, hours
+     saved, new revenue, churn impact).
+   - **Technical Feasibility & AI Fit** — is the problem probabilistic
+     or deterministic in nature? Does current LLM/AI technology fit
+     the task without unreasonable hallucination risk? (Use the SML
+     assessment from `../task-level-decomposition-and-automation-fit/SKILL.md`
+     here if available — the problem type prediction/classification/
+     generation also belongs in this dimension.)
+   - **Data Readiness** — is the needed data available, in structured
+     form, high quality, and interfaceable? Also assess **data
+     flywheel potential**: does the solution generate unique data in
+     use that improves the model over time and reinforces competitive
+     advantage, or is it one-off data with no self-reinforcing loop?
+     For a deeper diagnosis (the role of data, quality/bias,
+     validating a flywheel claim), see
      `../../../data-strategy-and-literacy/skills/data-role-diagnosis/SKILL.md`
-     ja `../../../data-strategy-and-literacy/skills/data-ai-strategy-design-and-prioritization/SKILL.md`.
-   - **Strategic Alignment** — tukeeko kohde organisaation 1–3 vuoden
-     päästrategiaa, vai on se irrallinen kokeilu?
-   - **Speed to Value & Governance/Risk** — toteutusaika sekä
-     sääntelyllinen riskiprofiili (esim. EU AI Act -luokittelu: kielletty,
-     korkea riski, matala riski — ks.
-     `../responsible-ai-and-governance-check/SKILL.md`). Sisällytä tähän
-     myös **agenttisuuden aste**: riittääkö perinteinen sääntöpohjainen
-     automaatio vai vaatiiko mahdollisuus agenttista, itsenäistä
-     päätöksentekoa ennalta-arvaamattomissa tilanteissa — agenttinen
-     ratkaisu on kalliimpi rakentaa ja hallita, mikä hidastaa Speed to
-     Value -pistettä ja pitäisi näkyä pisteessä.
-5. **Sijoita jokainen ehdokas 2x2-priorisointimatriisiin** (pystyakseli:
-   Business Impact, vaaka-akseli: Technical Feasibility — käytä kohdan 4
-   pisteitä):
-   - **Quick Wins** (korkea vaikutus, korkea toteutettavuus) — matalat
-     kustannukset, nopea toteutus. Aktiiviset pilotointiehdokkaat.
-   - **Strategic Bets** (korkea vaikutus, matala toteutettavuus) — usein
-     transformatiivisia, vaativat merkittäviä data-/arkkitehtuuri-
-     investointeja ennen kuin ne kannattaa aloittaa.
-   - **Hard / Low Value** (matala vaikutus, matala toteutettavuus) —
-     korkea tekninen kynnys, pieni ROI. Vältä.
-   - **Deprioritize** (matala vaikutus, korkea toteutettavuus) — helppo
-     tehdä mutta ei kannata; matala arvo ei oikeuta resursseja edes
-     kun toteutus olisi helppoa.
-6. **Luokittele valitut Quick Wins- ja Strategic Bets -kohteet lisäksi
-   BCG:n Deploy-Reshape-Invent-taksonomialla** — TÄMÄ on eri kysymys
-   kuin kohdan 5 matriisi: matriisi vastaa "kannattaako tämä ja onko se
-   helppo", Deploy-Reshape-Invent vastaa "millaista muutosta tämä
-   organisaatiolta vaatii":
-   - **Deploy** — valmiiden tekoälytyökalujen (esim. Copilotit)
-     käyttöönotto pistemäisissä tehtävissä. Ei vaadi prosessin
-     uudelleensuunnittelua.
-   - **Reshape** — ydintoimintojen ja end-to-end-prosessien
-     uudelleensuunnittelu tekoälyn ympärille. Vaatii prosessimuutosta.
-   - **Invent** — täysin uusien liiketoimintamallien, tuotteiden ja
-     tulovirtojen luominen. Vaatii uuden liiketoiminnan rakentamista.
-   **Älä sekoita tätä `../ai-capability-roadmap/SKILL.md`-skillin
-   Horisontti 1/2/3 -jaotteluun** — Deploy-Reshape-Invent kuvaa
-   MUUTOKSEN LAATUA (kuinka syvälle organisaatiota se koskettaa), Horisontti
-   1/2/3 kuvaa AIKATAULUA (milloin se tehdään). Sama Reshape-tason
-   mahdollisuus voi sijoittua mihin tahansa horisonttiin riippuen
-   resursseista ja riippuvuuksista.
-7. **Tuota lopullinen tulos: priorisoitu AI Opportunity Portfolio /
-   Backlog** — jokaiselle valitulle kohteelle: nimi, kaista
-   (inkrementaalinen/transformatiivinen; jos transformatiivinen, mikä
-   Value Play), 5D-pisteet ja kokonaispiste, 2x2-sijainti, Deploy/
-   Reshape/Invent-luokka. Vie 3–5 korkeimman prioriteetin kohdetta
+     and `../../../data-strategy-and-literacy/skills/data-ai-strategy-design-and-prioritization/SKILL.md`.
+   - **Strategic Alignment** — does the target support the
+     organization's 1–3-year core strategy, or is it a stand-alone
+     experiment?
+   - **Speed to Value & Governance/Risk** — implementation time as
+     well as regulatory risk profile (e.g. EU AI Act classification:
+     prohibited, high risk, low risk — see
+     `../responsible-ai-and-governance-check/SKILL.md`). Also include
+     **the degree of agentic-ness** here: is traditional rule-based
+     automation enough, or does the opportunity require agentic,
+     independent decision-making in unpredictable situations — an
+     agentic solution is more expensive to build and govern, which
+     slows down the Speed to Value score and should show up in it.
+5. **Place every candidate on a 2x2 prioritization matrix** (vertical
+   axis: Business Impact, horizontal axis: Technical Feasibility — use
+   the point-4 scores):
+   - **Quick Wins** (high impact, high feasibility) — low cost, fast
+     implementation. Active piloting candidates.
+   - **Strategic Bets** (high impact, low feasibility) — often
+     transformative, require significant data/architecture investment
+     before they're worth starting.
+   - **Hard / Low Value** (low impact, low feasibility) — high
+     technical bar, small ROI. Avoid.
+   - **Deprioritize** (low impact, high feasibility) — easy to do but
+     not worth it; low value doesn't justify the resources even when
+     implementation would be easy.
+6. **Also classify the selected Quick Wins and Strategic Bets items
+   using BCG's Deploy-Reshape-Invent taxonomy** — this is a DIFFERENT
+   question from the point-5 matrix: the matrix answers "is this worth
+   doing and is it easy," Deploy-Reshape-Invent answers "what kind of
+   change does this require of the organization":
+   - **Deploy** — rolling out ready-made AI tools (e.g. copilots) for
+     point tasks. Doesn't require process redesign.
+   - **Reshape** — redesigning core functions and end-to-end
+     processes around AI. Requires process change.
+   - **Invent** — creating entirely new business models, products,
+     and revenue streams. Requires building new business.
+   **Don't confuse this with `../ai-capability-roadmap/SKILL.md`'s
+   Horizon 1/2/3 breakdown** — Deploy-Reshape-Invent describes THE
+   NATURE OF THE CHANGE (how deeply it touches the organization),
+   Horizon 1/2/3 describes THE TIMELINE (when it's done). The same
+   Reshape-level opportunity can land in any horizon depending on
+   resources and dependencies.
+7. **Produce the final output: a prioritized AI Opportunity Portfolio /
+   Backlog** — for every selected item: name, lane (incremental/
+   transformative; if transformative, which Value Play), 5D scores and
+   total score, 2x2 position, Deploy/Reshape/Invent class. Move the
+   3–5 highest-priority items into
    `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
-   -skilliin syvempää liiketoimintaperustelua varten.
-8. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella
-   tarkistuslistalla. Varmista erityisesti, että mahdollisuuksia ei
-   arvioida erillisenä siilona vaan suhteessa organisaation olemassa
-   oleviin strategisiin tavoitteisiin.
+   for a deeper business case.
+8. Validate the result with stakeholders or your own experience-based
+   checklist. Make sure in particular that opportunities aren't
+   assessed as an isolated silo but in relation to the organization's
+   existing strategic goals.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei arvioi teknistä toteutettavuutta syvällisesti — Technical Feasibility
-  -ulottuvuus tässä on karkea 1–5-arvio, ei tekninen due diligence. Syvempään
-  arvioon ks. `../ai-use-case-feasibility-and-poc-scoping/SKILL.md`.
-- Ei tee tehtävätason pilkkomista itse — jos raakalistaa ei ole vielä
-  koottu tehtävätasolta, käytä ensin
-  `../task-level-decomposition-and-automation-fit/SKILL.md`.
-- Ei korvaa `../ai-capability-roadmap/SKILL.md`-skilliä aikataulutuksessa
-  — tuottaa priorisoidun listan, ei ajoitettua roadmapia.
+- Doesn't make the final decision for you — it produces a structured
+  draft to support a human decision.
+- Doesn't confirm figures, market data, or competitor data from
+  memory — it uses the inputs you provide, or marks an assumption
+  clearly (`[assumption — verify]`).
+- Doesn't assess technical feasibility in depth — the Technical
+  Feasibility dimension here is a rough 1–5 rating, not technical due
+  diligence. For a deeper assessment, see
+  `../ai-use-case-feasibility-and-poc-scoping/SKILL.md`.
+- Doesn't do the task-level decomposition itself — if the raw list
+  hasn't been assembled at the task level yet, use
+  `../task-level-decomposition-and-automation-fit/SKILL.md` first.
+- Doesn't replace `../ai-capability-roadmap/SKILL.md` for scheduling —
+  it produces a prioritized list, not a scheduled roadmap.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in
+here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa — esim. mitkä
-  ulottuvuudet ovat käytännössä painoarvoltaan tärkeimpiä eri
-  toimialoilla
-- konkreettiset mallipohjat (`../../references/`-kansioon, esim.
-  5D-pisteytystaulukko-template)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique — e.g.
+  which dimensions carry the most practical weight in different
+  industries
+- concrete templates (into `../../references/`, e.g. a 5D scoring
+  table template)
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common
+  mistakes) — add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only
+ones allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä skilli samassa pakissa (jos raakalistaa ei vielä ole):
-  `../task-level-decomposition-and-automation-fit/SKILL.md` (bottom-up) tai
-  `../ai-capability-pattern-matching/SKILL.md` (top-down)
-- Samassa pakissa seuraavaksi (liiketoimintamallin suunnittelu): `../ai-native-business-model-canvas/SKILL.md` — Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla Business Model Canvasilla.
-- Samassa pakissa seuraavaksi (tekninen validointi): `../ai-use-case-feasibility-and-poc-scoping/SKILL.md` — Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen.
-- Samassa pakissa seuraavaksi (aikataulutus): `../ai-capability-roadmap/SKILL.md`
-  — sijoittaa valitut kohteet Horisontti 1/2/3 -aikajanalle (eri kysymys
-  kuin tämän skillin Deploy/Reshape/Invent-luokittelu, ks. kohta 6).
-- Liittyvä skilli toisessa pakissa: `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
-  — yleisempi, ei-AI-spesifi mahdollisuuksien arviointimalli.
-- Jos koko prosessi tehdään maksullisena konsultointitoimeksiantona:
+- Preceding skill in this pack (if a raw list doesn't exist yet):
+  `../task-level-decomposition-and-automation-fit/SKILL.md` (bottom-up)
+  or `../ai-capability-pattern-matching/SKILL.md` (top-down)
+- Next in this pack (business model design): `../ai-native-business-model-canvas/SKILL.md`
+  — designs the transition from an AI-enhanced business to an
+  AI-native business model using an extended Business Model Canvas.
+- Next in this pack (technical validation): `../ai-use-case-feasibility-and-poc-scoping/SKILL.md`
+  — determines the technical boundary conditions of an AI use case and
+  scopes the PoC phase.
+- Next in this pack (scheduling): `../ai-capability-roadmap/SKILL.md`
+  — places the selected items on a Horizon 1/2/3 timeline (a different
+  question from this skill's Deploy/Reshape/Invent classification, see
+  point 6).
+- Related skill in another pack: `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
+  — a more general, non-AI-specific opportunity assessment model.
+- If the whole process is run as a paid consulting engagement:
   `../ai-discovery-engagement-design/SKILL.md`
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

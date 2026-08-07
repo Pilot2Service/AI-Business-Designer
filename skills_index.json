@@ -1,8 +1,8 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "generated": "auto",
-  "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
+  "generated_by": "scripts/generate_index.py — do not hand-edit",
   "packs": [
     {
       "dir": "ai-strategy-and-governance",
@@ -76,13 +76,13 @@
       "id": "ai-capability-pattern-matching",
       "pack": "ai-strategy-and-governance",
       "title": "Ai Capability Pattern Matching",
-      "description": "Käyttää valmista, tutkimuspohjaista 13 AI-kyvykkyyspatternin kirjastoa (ks. ../../references/ai-capability-pattern-library.md) diagnostisten kysymysten esittämiseen uudelle asiakkaalle/toimialalle raakalistan AI-mahdollisuusehdokkaista kokoamiseksi — vaihtoehto tai täydennys tehtävätason pilkkomiselle.",
+      "description": "Uses a ready-made, research-based library of 13 AI capability patterns (see ../../references/ai-capability-pattern-library.md) to pose diagnostic questions to a new client/industry, to assemble a raw list of AI opportunity candidates — an alternative or complement to task-level decomposition.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Toimialan AI-käyttötapausraportti (2026-painos) — 81 tarkistettua käyttötapausta",
-        "Toinen, riippumaton AI-käyttötapauskooste (63 käyttötapausta, 16 funktiota)",
-        "Käyttäjän kuvaama Capability Pattern Mapping -menetelmä"
+        "Industry AI use-case report (2026 edition) — 81 verified use cases",
+        "A second, independent AI use-case compilation (63 use cases, 16 functions)",
+        "User-described Capability Pattern Mapping method"
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/ai-capability-pattern-matching/SKILL.md"
@@ -91,7 +91,7 @@
       "id": "ai-capability-roadmap",
       "pack": "ai-strategy-and-governance",
       "title": "AI Capability Roadmap",
-      "description": "Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin nykytilasta tavoitetilaan kolmella horisontilla (0-6kk tehostus, 6-18kk muutos, 18-36kk uusi liiketoiminta) sekä AI Target Operating Model (ATOM) / Readiness Scorecard -kuvauksen ihmisen ja tekoälyn työnjaosta.",
+      "description": "Builds the organization's AI capability map and roadmap from the current state to the target state across three horizons (0-6mo efficiency, 6-18mo transformation, 18-36mo new business), plus an AI Target Operating Model (ATOM) / Readiness Scorecard describing the division of labor between humans and AI.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -104,7 +104,7 @@
       "id": "ai-discovery-engagement-design",
       "pack": "ai-strategy-and-governance",
       "title": "Ai Discovery Engagement Design",
-      "description": "Suunnittelee ja tuotteistaa AI-mahdollisuuksien tunnistamisen (discovery-vaiheen) maksulliseksi konsultointitoimeksiannoksi — 4-vaiheinen engagement-rakenne, kiinteähintaiset palvelutuotteet ja standardoitu luovutettava aineisto (Portfolio, Business Case, ATOM/Readiness Scorecard, Roadmap).",
+      "description": "Designs and productizes AI opportunity identification (the discovery phase) into a paid consulting engagement — a 4-phase engagement structure, fixed-price service products, and standardized deliverables (Portfolio, Business Case, ATOM/Readiness Scorecard, Roadmap).",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -115,7 +115,7 @@
       "id": "ai-native-business-model-canvas",
       "pack": "ai-strategy-and-governance",
       "title": "Ai Native Business Model Canvas",
-      "description": "Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla, tekoälyspesifillä Business Model Canvasilla. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Designs the transition from an AI-enhanced business to an AI-native business model using an extended, AI-specific Business Model Canvas. Use when you need ai strategy & governance-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -126,7 +126,7 @@
       "id": "ai-opportunity-portfolio",
       "pack": "ai-strategy-and-governance",
       "title": "AI Opportunity Portfolio",
-      "description": "Tunnistaa, pisteyttää (5-ulotteinen malli: Business Impact, Technical Feasibility, Data Readiness, Strategic Alignment, Speed to Value/Risk) ja priorisoi AI-käyttötapaukset 2x2-matriisilla (Quick Wins / Strategic Bets / Deprioritize / Hard-Low Value) — sekä luokittelee inkrementaaliset ja transformatiiviset mahdollisuudet erikseen.",
+      "description": "Identifies, scores (5-dimensional model: Business Impact, Technical Feasibility, Data Readiness, Strategic Alignment, Speed to Value/Risk), and prioritizes AI use cases with a 2x2 matrix (Quick Wins / Strategic Bets / Deprioritize / Hard-Low Value) — and classifies incremental and transformative opportunities separately.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -140,7 +140,7 @@
       "id": "ai-output-curation-and-quality-control",
       "pack": "ai-strategy-and-governance",
       "title": "Ai Output Curation And Quality Control",
-      "description": "Suunnittelee laadunvalvonta- ja kuratointiprosessin AI:n tuottamalle sisällölle tai päätöksille — siirtymä 'tekijästä' 'kuraattoriksi': mikä tarkistetaan, kuka tarkistaa, ja millä kriteereillä ennen julkaisua tai käyttöä.",
+      "description": "Designs a quality-control and curation process for AI-generated content or decisions — the shift from 'creator' to 'curator': what gets checked, who checks it, and against what criteria before publication or use.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -151,11 +151,11 @@
       "id": "ai-use-case-feasibility-and-poc-scoping",
       "pack": "ai-strategy-and-governance",
       "title": "AI Use Case Feasibility & PoC Scoping",
-      "description": "Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Determines the technical boundary conditions of an AI use case and scopes the PoC phase. Use when you need ai strategy & governance-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Perplexity-tutkimus — PoC-määrittely tuotannollistamiseen asti"
+        "Perplexity research — PoC scoping through to productionization"
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md"
@@ -164,11 +164,11 @@
       "id": "build-vs-buy-vs-partner-ai",
       "pack": "ai-strategy-and-governance",
       "title": "Build vs. Buy vs. Partner (AI)",
-      "description": "Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratkaisussa. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Structures the decision to build in-house, buy off a platform, or partner on an AI solution. Use when you need ai strategy & governance-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin"
+        "strategic-options-evaluation logic applied to AI decisions"
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md"
@@ -177,7 +177,7 @@
       "id": "responsible-ai-and-governance-check",
       "pack": "ai-strategy-and-governance",
       "title": "Responsible AI & Governance Check",
-      "description": "Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään.",
+      "description": "Checks the regulatory, risk, and ethics dimensions of an AI initiative. Deeper EU AI Act compliance analysis requires separate regulatory expertise. Use when you need ai strategy & governance-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -191,7 +191,7 @@
       "id": "shadow-ai-response-and-safe-adoption",
       "pack": "ai-strategy-and-governance",
       "title": "Shadow Ai Response And Safe Adoption",
-      "description": "Tunnistaa organisaatiossa jo tapahtuvan luvattoman/epävirallisen AI-työkalujen käytön (Shadow AI) ja korvaa sen turvallisilla, skaalautuvilla virallisilla ratkaisuilla, joille on laskettu selkeä ROI.",
+      "description": "Identifies unauthorized/unofficial AI tool usage already happening in the organization (Shadow AI) and replaces it with a safe, scalable official solution backed by a clear ROI.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -202,7 +202,7 @@
       "id": "task-level-decomposition-and-automation-fit",
       "pack": "ai-strategy-and-governance",
       "title": "Task Level Decomposition And Automation Fit",
-      "description": "Pilkkoo roolit ja prosessit tehtävätasolle (People Path + Process Path) ja luokittelee jokaisen tehtävän Automate/Augment/Human-Only -kategoriaan SML-kriteereillä (syöte/tuotos-selkeys, kognitiivinen luonne, virhesietoisuus, aika-asteikko) ennen AI-mahdollisuuksien priorisointia.",
+      "description": "Breaks roles and processes down to task level (People Path + Process Path) and classifies every task into an Automate/Augment/Human-Only category using SML criteria (input/output clarity, cognitive nature, error tolerance, time scale) before prioritizing AI opportunities.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -213,7 +213,7 @@
       "id": "assumption-and-evidence-audit",
       "pack": "business-case-and-analysis",
       "title": "Assumption & Evidence Audit",
-      "description": "Testaa oletukset ja tunnistaa evidenssiaukot ennen suosituksen lukitsemista. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "description": "Tests assumptions and identifies evidence gaps before a recommendation is locked in. Use when you need business-case-and-analysis-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -227,7 +227,7 @@
       "id": "business-case-builder",
       "pack": "business-case-and-analysis",
       "title": "Business Case Builder",
-      "description": "Rakentaa täyden business casen: ongelma, ratkaisu, talous (ROI/NPV/IRR), riskit, aikataulu, sidosryhmät, suositus. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "description": "Builds a full business case: problem, solution, economics (ROI/NPV/IRR), risks, timeline, stakeholders, recommendation. Use when you need business-case-and-analysis-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -242,7 +242,7 @@
       "id": "requirements-and-scope-framing",
       "pack": "business-case-and-analysis",
       "title": "Requirements & Scope Framing",
-      "description": "Rajaa ongelman ja vaatimukset selkeäksi, testattavaksi kokonaisuudeksi. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "description": "Frames the problem and requirements into a clear, testable whole. Use when you need business-case-and-analysis-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -256,7 +256,7 @@
       "id": "risk-matrix-and-mitigation",
       "pack": "business-case-and-analysis",
       "title": "Risk Matrix & Mitigation",
-      "description": "Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "description": "Identifies and scores risks (probability × impact) and designs mitigations. Use when you need business-case-and-analysis-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -270,7 +270,7 @@
       "id": "roi-npv-sensitivity-model",
       "pack": "business-case-and-analysis",
       "title": "ROI / NPV Sensitivity Model",
-      "description": "Laskee ROI:n, NPV:n ja IRR:n sekä herkkyysanalyysin eri skenaarioissa. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "description": "Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios. Use when you need business-case-and-analysis-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -284,7 +284,7 @@
       "id": "stakeholder-analysis-and-raci",
       "pack": "business-case-and-analysis",
       "title": "Stakeholder Analysis & RACI",
-      "description": "Kartoittaa sidosryhmät valta/intressi-matriisilla ja määrittää vastuut RACI:lla. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään.",
+      "description": "Maps stakeholders on a power/interest matrix and assigns responsibilities with RACI. Use when you need business-case-and-analysis-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -298,7 +298,7 @@
       "id": "category-definition-and-modeling",
       "pack": "business-design-frameworks",
       "title": "Category Definition And Modeling",
-      "description": "Mallintaa tuotteen tai liiketoiminnan suhteessa markkinakategorioihin: assosioida olemassa olevaan kategoriaan, laajentaa/uudelleenmääritellä kategoriaa, tai arvioida kokonaan uuden kategorian luomista.",
+      "description": "Models a product or business relative to market categories: associating with an existing category, expanding/redefining a category, or assessing the creation of an entirely new category.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -309,7 +309,7 @@
       "id": "customer-journey-and-ai-touchpoint-mapping",
       "pack": "business-design-frameworks",
       "title": "Customer Journey And Ai Touchpoint Mapping",
-      "description": "Kartoittaa asiakkaan palvelupolun vaiheet ja kitkakohdat, ja sijoittaa AI:n palvelupolulle vain niihin kohtiin, joissa se tuottaa aidosti arvoa asiakkaalle — ei teknologia edellä.",
+      "description": "Maps the stages and friction points of a customer's service journey, and places AI on the journey only at the points where it genuinely creates value for the customer — not technology-first.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -320,7 +320,7 @@
       "id": "layer-based-business-structuring",
       "pack": "business-design-frameworks",
       "title": "Layer Based Business Structuring",
-      "description": "Jäsentää liiketoiminnan, palvelukonseptin tai liiketoimintamallin erillisiin toiminnallisiin kerroksiin (OSI-mallin kaltaisesti) infrastruktuurista brändiin, jotta voidaan päättää mitkä kerrokset toteutetaan itse ja mitkä kumppanien kautta.",
+      "description": "Structures a business, service concept, or business model into distinct functional layers (OSI-model-like) from infrastructure to brand, in order to decide which layers to build in-house and which to source through partners.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -331,12 +331,12 @@
       "id": "strategy-canvas-and-value-curve",
       "pack": "business-design-frameworks",
       "title": "Strategy Canvas And Value Curve",
-      "description": "Jäsentää kilpailijat tai vaihtoehtoiset ratkaisut yhteisillä toimialan kilpailutekijöillä, hahmottaa toimialan 'peruskäyrän' ja löytää tapoja rikkoa tai erottautua siitä — Blue Ocean Strategy -mallia ja omistajan 360-vertailutyökalua hyödyntäen.",
+      "description": "Structures competitors or alternative solutions on shared industry competitive factors, maps the industry's 'as-is curve,' and finds ways to break away from or differentiate against it — using the Blue Ocean Strategy model and the owner's 360 comparison tool.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
         "Kim & Mauborgne (2005) Blue Ocean Strategy — Strategy Canvas, Value Curve, Four Actions Framework/ERRC, Six Paths Framework",
-        "Omistajan 360 Comparison Factors -vertailutyökalu (oma tuote)"
+        "The owner's 360 Comparison Factors comparison tool (own product)"
       ],
       "owner_input_needed": false,
       "path": "business-design-frameworks/skills/strategy-canvas-and-value-curve/SKILL.md"
@@ -345,7 +345,7 @@
       "id": "value-chain-mapping",
       "pack": "business-design-frameworks",
       "title": "Value Chain Mapping",
-      "description": "Jäsentää liiketoiminnan toiminnot Porterin arvoketjumallin mukaisesti ydin- ja tukitoimintoihin, jotta nähdään mistä arvo ja marginaali syntyvät ja missä kilpailuetu voidaan rakentaa.",
+      "description": "Structures a business's activities according to Porter's value chain model into primary and support activities, in order to see where value and margin come from and where competitive advantage can be built.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -356,11 +356,11 @@
       "id": "benefits-realisation-tracking",
       "pack": "change-and-communication",
       "title": "Benefits Realisation Tracking",
-      "description": "Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "description": "Tracks and reports on the realisation of promised benefits after implementation. Use when you need change & communication-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Perplexity-tutkimus — hyötyjen realisointiraportit"
+        "Perplexity research — benefits realisation reports"
       ],
       "owner_input_needed": true,
       "path": "change-and-communication/skills/benefits-realisation-tracking/SKILL.md"
@@ -369,7 +369,7 @@
       "id": "executive-narrative-and-storyline",
       "pack": "change-and-communication",
       "title": "Executive Narrative & Storyline",
-      "description": "Kääntää analyysin johdon päätöksentekoa palvelevaksi tarinaksi ja storylineksi. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "description": "Turns analysis into a narrative and storyline that serves executive decision-making. Use when you need change & communication-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -383,7 +383,7 @@
       "id": "stakeholder-communication-plan",
       "pack": "change-and-communication",
       "title": "Stakeholder Communication Plan",
-      "description": "Rakentaa viestintäsuunnitelman eri sidosryhmille muutoksen aikana. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "description": "Builds a communication plan for different stakeholders during a change. Use when you need change & communication-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -396,11 +396,11 @@
       "id": "workshop-and-facilitation-design",
       "pack": "change-and-communication",
       "title": "Workshop & Facilitation Design",
-      "description": "Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään.",
+      "description": "Designs the structure of a cross-functional workshop or design-thinking session. Use when you need change & communication-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Perplexity-tutkimus — työpajojen ja design-thinking-sessioiden vetäminen"
+        "Perplexity research — running workshops and design-thinking sessions"
       ],
       "owner_input_needed": true,
       "path": "change-and-communication/skills/workshop-and-facilitation-design/SKILL.md"
@@ -409,7 +409,7 @@
       "id": "data-ai-strategy-design-and-prioritization",
       "pack": "data-strategy-and-literacy",
       "title": "Data Ai Strategy Design And Prioritization",
-      "description": "Muotoilee Data & AI -strategian holistisesti (ei siiloissa) Driver Tree -työkalulla liiketoimintatavoitteiden pilkkomiseen datapisteiksi, ja priorisoi mitä dataa kerätä/käyttää nyt vs. tulevaisuutta varten Data Readiness x Strategic Value -nelikentällä. Käytä kun organisaatio suunnittelee mihin dataan ja AI-kyvykkyyksiin investoida seuraavaksi.",
+      "description": "Designs a Data & AI strategy holistically (not in silos) using a Driver Tree tool to break business goals down into data points, and prioritizes what data to collect/use now vs. for the future with a Data Readiness x Strategic Value matrix. Use when an organization is planning which data and AI capabilities to invest in next.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -420,7 +420,7 @@
       "id": "data-bias-and-quality-critical-reading",
       "pack": "data-strategy-and-literacy",
       "title": "Data Bias And Quality Critical Reading",
-      "description": "Lukee annetun datasetin tai raportin kriittisesti ennen kuin sen perusteella tehdään päätöksiä tai koulutetaan AI-malli: tunnistaa puuttuvat ryhmät, vinoumatyypit (valinta, selviytyjä, historiallinen, mittaus, aggregointi) ja erottaa turhamaisuusmetriikan päätöksiä ohjaavasta mittarista. Käytä aina ennen datapohjaisen väitteen, mallin tai suosituksen hyväksymistä sellaisenaan.",
+      "description": "Reads a given dataset or report critically before it's used as the basis for a decision or to train an AI model: identifies missing groups, bias types (selection, survivorship, historical, measurement, aggregation), and separates vanity metrics from decision-driving ones. Use before accepting any data-based claim, model, or recommendation at face value.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -431,7 +431,7 @@
       "id": "data-literacy-competency-assessment",
       "pack": "data-strategy-and-literacy",
       "title": "Data Literacy Competency Assessment",
-      "description": "Arvioi organisaation tai tiimin datalukutaidon nelikenttäkehyksellä (Datan ymmärtäminen, Datasta toimintaan, Datan kautta vaikuttaminen, Etiikka & yksityisyys) ja neliportaisella kypsyystikapuulla, roolikohtaisesti eriytettynä. Käytä ennen datastrategian tai AI-hankkeen käynnistämistä, kun pitää tunnistaa mistä osaamisvaje estää datan hyödyntämistä.",
+      "description": "Assesses an organization's or team's data literacy with a four-quadrant framework (Understanding data, Acting on data, Engaging through data, Ethics & privacy) and a four-step maturity ladder, differentiated by role. Use before launching a data strategy or AI initiative, when you need to identify which competency gap is blocking data exploitation.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -442,7 +442,7 @@
       "id": "data-monetization-model-selection",
       "pack": "data-strategy-and-literacy",
       "title": "Data Monetization Model Selection",
-      "description": "Valitsee ja perustelee sopivan datan monetisointimallin (suora: DaaS/Insight-as-a-Service/datavaihdanta vs. epäsuora: tuotteen rikastaminen/resurssien optimointi/riskien minimointi/Data Flywheel) päätöspuulla ja tarkistaa Data Flywheel -väitteen toteutettavuuden nelikohtaisella listalla. Käytä kun data on validoitu strategiseksi assetiksi ja pitää päättää MITEN sitä monetisoidaan.",
+      "description": "Selects and justifies a suitable data monetization model (direct: DaaS/Insight-as-a-Service/data exchange vs. indirect: product enrichment/resource optimization/risk mitigation/Data Flywheel) with a decision tree, and checks the feasibility of a Data Flywheel claim with a four-point checklist. Use once data has been validated as a strategic asset and you need to decide HOW to monetize it.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -453,7 +453,7 @@
       "id": "data-role-diagnosis",
       "pack": "data-strategy-and-literacy",
       "title": "Data Role Diagnosis",
-      "description": "Diagnosoi ja perustelee, toimiiko data organisaatiossa mahdollistajana (kustannus, operatiivinen tehokkuus) vai strategisena assettina (tuottava, monetisoitava, defensoitava) — heuristisilla testeillä (resale, flywheel, defensibility) ja Offense/Defense-kehyksellä. Käytä ennen datastrategian tai AI-liiketoimintamallin muotoilua, kun pitää määrittää mitä roolia data organisaatiossa TÄNÄÄN näyttelee ja mitä roolia sen HALUTAAN näyttelevän.",
+      "description": "Diagnoses and justifies whether data functions in the organization as an enabler (cost, operational efficiency) or as a strategic asset (revenue-generating, monetizable, defensible) — using heuristic tests (resale, flywheel, defensibility) and the Offense/Defense framework. Use before designing a data strategy or an AI business model, when you need to determine what role data plays in the organization TODAY and what role it SHOULD play.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -464,7 +464,7 @@
       "id": "data-storytelling-and-business-translation",
       "pack": "data-strategy-and-literacy",
       "title": "Data Storytelling And Business Translation",
-      "description": "Kääntää datan, analyysin tai AI-mallin toimintalogiikan päätöksentekijän ymmärtämäksi tarinaksi Data-Information-Insight-Action-tikapuun ja 'so what' -testin avulla. Käytä kun data tai malli pitää esittää sidosryhmälle niin, että se johtaa päätökseen eikä jää pelkäksi raportiksi.",
+      "description": "Translates the logic of data, an analysis, or an AI model into a story a decision-maker understands, using the Data-Information-Insight-Action ladder and the 'so what' test. Use when data or a model needs to be presented to a stakeholder so that it drives a decision instead of just sitting in a report.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -475,7 +475,7 @@
       "id": "competitive-and-five-forces-mapping",
       "pack": "opportunity-recognition",
       "title": "Competitive & Five Forces Mapping",
-      "description": "Kartoittaa kilpailudynamiikan ja toimialan rakenteelliset voimat. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "description": "Maps the competitive dynamics and structural forces of an industry. Use when you need opportunity-recognition-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -488,7 +488,7 @@
       "id": "market-and-signal-scanning",
       "pack": "opportunity-recognition",
       "title": "Market & Signal Scanning",
-      "description": "Systemaattinen ympäristön skannaus (markkina, teknologia, sääntely, kilpailu) mahdollisuuksien tunnistamiseksi. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "description": "Systematic environmental scanning (market, technology, regulation, competition) to identify opportunities. Use when you need opportunity-recognition-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -502,7 +502,7 @@
       "id": "market-sizing-tam-sam-som",
       "pack": "opportunity-recognition",
       "title": "Market Sizing (TAM/SAM/SOM)",
-      "description": "Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "description": "Quantitatively sizes the market and the genuinely reachable share of it. Use when you need opportunity-recognition-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -516,7 +516,7 @@
       "id": "opportunity-brief-writing",
       "pack": "opportunity-recognition",
       "title": "Opportunity Brief Writing",
-      "description": "Kirjoittaa mahdollisuuden arvioinnin tulokset tiiviiksi 1-2-sivuiseksi Opportunity Brief -raportiksi, ymmärrettäväksi sekä tekniselle keksijälle että päätöksentekijälle.",
+      "description": "Writes the results of an opportunity assessment into a concise 1-2 page Opportunity Brief report, understandable to both the technical inventor and the decision-maker.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -529,7 +529,7 @@
       "id": "opportunity-evaluation-and-judgment",
       "pack": "opportunity-recognition",
       "title": "Opportunity Evaluation & Judgment",
-      "description": "Arvioi tunnistetun mahdollisuuden elinkelpoisuuden jäsennellysti ennen resurssien sitomista. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "description": "Structurally assesses the viability of an identified opportunity before committing resources. Use when you need opportunity-recognition-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -543,7 +543,7 @@
       "id": "opportunity-intake-elicitation",
       "pack": "opportunity-recognition",
       "title": "Opportunity Intake Elicitation",
-      "description": "Kerää jäsennellysti riittävät lähtötiedot tunnistetusta mahdollisuudesta hyvin muotoilluilla kysymyksillä — myös silloin kun asiakas ei osaa itse jäsentää ideaansa liiketoiminnan kielelle.",
+      "description": "Collects sufficient structured input on an identified opportunity through well-designed questions — even when the client can't yet frame their idea in business terms.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -559,7 +559,7 @@
       "id": "opportunity-value-assessment",
       "pack": "opportunity-recognition",
       "title": "Opportunity Value Assessment",
-      "description": "Sijoittaa tunnistetun mahdollisuuden houkuttelevuus × toteutettavuus -matriisiin ja arvioi sen seitsemästä kaupallistamisnäkökulmasta — omistajan oma, tuotteistettu arviointikehys.",
+      "description": "Places an identified opportunity in an attractiveness × feasibility matrix and assesses it from seven commercialization angles — the owner's own, productized assessment framework.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -576,13 +576,13 @@
       "id": "pattern-and-analogy-connector",
       "pack": "opportunity-recognition",
       "title": "Pattern & Analogy Connector",
-      "description": "Yhdistää irrallisia havaintoja mielekkääksi mahdollisuudeksi tunnistamalla analogioita eri toimialojen/tilanteiden välillä käyttäen Capability Pattern Mapping -abstraktiomenetelmää: monta pintapuolisesti erilaista casea tiivistetään yhdeksi nimetyksi kyvykkyyspatterniksi, jota käytetään diagnostisena kysymyksenä uudessa kontekstissa. Käytä kun tarvitset opportunity recognition-tason tukea vastaavaan tehtävään.",
+      "description": "Connects loose observations into a meaningful opportunity by identifying analogies across industries/situations using the Capability Pattern Mapping abstraction method: many superficially different cases are compressed into one named capability pattern, which then serves as a diagnostic question in a new context. Use when you need opportunity-recognition-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
         "Tang, Kacmar & Busenitz — association and connection",
         "Opportunity recognition as pattern recognition -kirjallisuus",
-        "Käyttäjän kuvaama Capability Pattern Mapping -menetelmä ja esimerkki"
+        "User-described Capability Pattern Mapping method and example"
       ],
       "owner_input_needed": true,
       "path": "opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md"
@@ -591,7 +591,7 @@
       "id": "demo-delivery-and-storytelling",
       "pack": "prototyping-and-demonstration",
       "title": "Demo Delivery And Storytelling",
-      "description": "Rakentaa ja pitää demon Great Demo! -metodologian (Situation Slide, kriittinen liiketoimintaongelma/CBI, \\\"tee viimeinen asia ensin\\\"/käänteinen pyramidi) mukaisesti: Discovery → Demo Prep → Demo Delivery → Documentation → Debrief. Käytä kun protoitu ratkaisu pitää esittää asiakkaalle tai johdolle niin, että se todella vakuuttaa eikä vain esittele ominaisuuksia.",
+      "description": "Builds and delivers a demo following the Great Demo! methodology (Situation Slide, critical business issue/CBI, \\\"do the last thing first\\\"/inverted pyramid): Discovery → Demo Prep → Demo Delivery → Documentation → Debrief. Use when a prototyped solution needs to be presented to a customer or leadership so that it genuinely convinces rather than just showcasing features.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -605,12 +605,12 @@
       "id": "demo-framing-and-expectation-setting",
       "pack": "prototyping-and-demonstration",
       "title": "Demo Framing And Expectation Setting",
-      "description": "Kehystää demon/protoilun/PoC:n asiakkaalle ennen esittämistä oikealla termillä (PoC vs. Pilotti vs. MVP) ja oikealla lupauksella — mitä tämä demo TODISTAA, mitä se EI todista, ja mitä seuraavaksi tapahtuu jos se onnistuu. Käytä ennen jokaista demoa tai PoC-esitystä, erityisesti kun riskinä on että asiakas ylitulkitsee demon tuotantovalmiudeksi tai automaattiseksi eteneväksi tuotantoon.",
+      "description": "Frames a demo/prototype/PoC for the customer before presenting it with the right term (PoC vs. Pilot vs. MVP) and the right promise — what this demo PROVES, what it does NOT prove, and what happens next if it succeeds. Use before every demo or PoC presentation, especially when there's a risk the customer will over-interpret the demo as production-ready or as automatically progressing to production.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "PoC vs. Pilotti vs. MVP -erottelu (usean 2026-lähteen synteesi)",
-        "\"Pilot purgatory\" -tutkimus (McKinsey/BCG/IDC/MIT-synteesejä)"
+        "PoC vs. Pilot vs. MVP distinction (a synthesis of several 2026 sources)",
+        "\"Pilot purgatory\" research (McKinsey/BCG/IDC/MIT syntheses)"
       ],
       "owner_input_needed": true,
       "path": "prototyping-and-demonstration/skills/demo-framing-and-expectation-setting/SKILL.md"
@@ -619,11 +619,11 @@
       "id": "demo-to-business-case-bridge",
       "pack": "prototyping-and-demonstration",
       "title": "Demo To Business Case Bridge",
-      "description": "Kääntää demon/PoC:n tulokset business case -kelpoisiksi ROI-syötteiksi: erottelee teknisen suorituskyvyn ja liiketoimintavaikutuksen mittarit, testaa skaalautuuko PoC-mittakaavan tulos vastuullisesti tuotantomittakaavaan, ja tarkistaa vastaako oletettu ROI-mekanismi asiakkaan todellista organisaatiorakennetta. Käytä heti onnistuneen demon/PoC:n jälkeen ennen kuin sen tuloksia syötetään business case- tai ROI-laskelmaan.",
+      "description": "Translates demo/PoC results into business-case-ready ROI inputs: separates technical performance metrics from business impact metrics, tests whether a PoC-scale result scales responsibly to production scale, and checks whether the assumed ROI mechanism fits the customer's actual organizational structure. Use immediately after a successful demo/PoC, before its results are fed into a business case or ROI calculation.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Tutkimussynteesi (2026) demon/PoC:n ROI-kääntämisestä liiketoimintakieleksi"
+        "Research synthesis (2026) on translating a demo/PoC into ROI language"
       ],
       "owner_input_needed": true,
       "path": "prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md"
@@ -632,7 +632,7 @@
       "id": "opportunity-visioning-with-pr-faq",
       "pack": "prototyping-and-demonstration",
       "title": "Opportunity Visioning With Pr Faq",
-      "description": "Kommunikoi ja näyttää AI-mahdollisuuden Amazonin Working Backwards -menetelmällä ennen kuin mitään on rakennettu: kirjoittaa lyhyen tulevaisuuden lehdistötiedotteen (PR) ja kysymys-vastausosion (FAQ) siitä, miltä valmis ratkaisu näyttäisi asiakkaan näkökulmasta. Käytä kun mahdollisuus pitää tehdä konkreettiseksi ja keskustelunalaiseksi ennen protoilua, tai kun proto ei vielä ole mahdollinen/kannattava mutta visio pitää silti kommunikoida vakuuttavasti.",
+      "description": "Communicates and shows an AI opportunity using Amazon's Working Backwards method before anything has been built: writes a short future-dated press release (PR) and a question-and-answer section (FAQ) describing what the finished solution would look like from the customer's perspective. Use when an opportunity needs to be made concrete and discussable before prototyping, or when a prototype isn't yet feasible/worthwhile but the vision still needs to be communicated convincingly.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -645,11 +645,11 @@
       "id": "rapid-prototype-and-vibe-coding-craft",
       "pack": "prototyping-and-demonstration",
       "title": "Rapid Prototype And Vibe Coding Craft",
-      "description": "Rakentaa nopeasti toimivan, riittävän uskottavan prototyypin AI-mahdollisuuden todistamiseksi käyttäen AI-avusteista koodausta (\\\"vibe coding\\\") — työkaluvalinta tehtävätyypin mukaan, tiukka prompt/review/testaa/committaa-iteraatiosykli, oikea fideliteettitaso ja tunnetut riskit (hallusinoidut rajapinnat, auth-aukot). Käytä kun tarvitset nopean, todistevoimaisen prototyypin ennen kuin sitoudut isompaan rakennusprojektiin.",
+      "description": "Builds a fast, working, credible-enough prototype to prove an AI opportunity using AI-assisted coding (\\\"vibe coding\\\") — tool selection by task type, a tight prompt/review/test/commit iteration cycle, the right fidelity level, and known risks (hallucinated interfaces, auth gaps). Use when you need a fast, proof-capable prototype before committing to a bigger build.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Vibe coding -parhaat käytännöt 2026 (usean lähteen synteesi)",
+        "Vibe-coding best practices 2026 (a synthesis of several sources)",
         "Prototyyppifideliteetti-tutkimus (UX-tutkimusperinne)"
       ],
       "owner_input_needed": true,
@@ -728,7 +728,7 @@
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
-        "Liedtka (1998) — systeeminäkökulma (systems perspective)"
+        "Liedtka (1998) — systems perspective"
       ],
       "owner_input_needed": true,
       "path": "strategic-thinking/skills/systems-mapping/SKILL.md"
@@ -737,11 +737,11 @@
       "id": "ai-buildable-prd-writing",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Ai Buildable Prd Writing",
-      "description": "Kirjoittaa PRD:n (Product Requirements Document) AI-rakennusagentille annettavana työmääräyksenä — ongelma, visio, core-ominaisuudet, rajaukset ja onnistumiskriteerit — sekä tukidokumentit ja tuotantosuunnitelman.",
+      "description": "Writes a PRD (Product Requirements Document) as a work order for an AI build agent — problem, vision, core features, scope boundaries, and success criteria — plus supporting documents and a build plan.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "The owner's AI-native Business Design workshop (the owner's own service, held 2026-06-01/02)",
         "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
@@ -751,7 +751,7 @@
       "id": "ai-differentiator-solution-ideation",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Ai Differentiator Solution Ideation",
-      "description": "Ideoi 3 keskenään erilaista AI-natiivia ratkaisusuuntaa valitulle AI-differentiaattoritarpeelle (AI wedge) kolmella linssillä — kilpailija-, tulevaisuus- ja yhdistä-pisteet-linssi — jotta tiimi ei rakastu ensimmäiseen ideaan.",
+      "description": "Ideates 3 distinct AI-native solution directions for the chosen AI differentiator need (AI wedge) through three lenses — competitor, future, and connect-the-dots — so the team doesn't fall in love with the first idea.",
       "maturity": "draft",
       "source_layer": "owner",
       "grounded_in": [
@@ -765,7 +765,7 @@
       "id": "ai-native-conversational-os-design",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Ai Native Conversational Os Design",
-      "description": "Suunnittelee AI-natiivin tuotteen keskusteleva käyttöliittymäarkkitehtuuri kuudella vaiheella — Intent, Strategy Cards, Clarification, Output Cards, Mission, Agent Execution — soveltaen viittä AI-first-tuoteperiaatetta (klikkaus>kysymys, valikot>promptit, dashboardit>dialogi, manuaaliset toiminnot>agentit, ruudut>chat+kortit).",
+      "description": "Designs the conversational UI architecture for an AI-native product in six stages — Intent, Strategy Cards, Clarification, Output Cards, Mission, Agent Execution — applying five AI-first product principles (click > question, menus > prompts, dashboards > dialogue, manual actions > agents, screens > chat + cards).",
       "maturity": "draft",
       "source_layer": "owner",
       "grounded_in": [
@@ -779,11 +779,11 @@
       "id": "ai-native-opportunity-scan",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Ai Native Opportunity Scan",
-      "description": "Käyttää agenttista/closed-loop-linssiä AI:n mahdollistamien, aidosti uusien liiketoimintamahdollisuuksien löytämiseen omassa startup-caseessa, ja pisteyttää/priorisoi löydökset toteutettavuuden ja pienimmän prototypoitavan version mukaan.",
+      "description": "Uses an agentic/closed-loop lens to find genuinely new AI-enabled business opportunities in your own startup case, and scores/prioritizes the findings by feasibility and the smallest prototypeable version.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "The owner's AI-native Business Design workshop (the owner's own service, held 2026-06-01/02)",
         "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
@@ -793,11 +793,11 @@
       "id": "ai-native-tool-stack-selection",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Ai Native Tool Stack Selection",
-      "description": "Valitsee pienimmän toimivan AI-natiivin työkalupinon 12 kategorian päätöspuulla (ajattelukumppani, tutkimus, design, sovelluksen rakentaja, koodausagentti, hosting, backend, skillit, projektinhallinta, muistiinpanot, automaatio, agenttien rakentaminen) — kategoriapohjainen, ei tuotenimiin sidottu.",
+      "description": "Selects the smallest workable AI-native tool stack using a 12-category decision tree (thinking partner, research, design, app builder, coding agent, hosting, backend, skills, project management, notes, automation, agent building) — category-based, not tied to product names.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "The owner's AI-native Business Design workshop (the owner's own service, held 2026-06-01/02)",
         "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
@@ -807,11 +807,11 @@
       "id": "closed-loop-process-and-human-oversight-design",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Closed Loop Process And Human Oversight Design",
-      "description": "Jäsentää liiketoimintaprosessit avoimiksi tai suljetuiksi silmukoiksi (open/closed loop) ja päättää ihmisen roolin (in-the-loop / on-the-loop / outside-the-loop) kussakin — mentaalimalli AI-agenttien vastuualueiden suunnitteluun.",
+      "description": "Structures business processes as open or closed loops and decides the human's role (in-the-loop / on-the-loop / outside-the-loop) in each — a mental model for designing AI agents' areas of responsibility.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "The owner's AI-native Business Design workshop (the owner's own service, held 2026-06-01/02)",
         "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
@@ -821,11 +821,11 @@
       "id": "customer-vision-to-jtbd",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Customer Vision To Jtbd",
-      "description": "Jäsentää alustavan, vapaamuotoisen liiketoimintavision asiakasprofiiliksi (ICP), Jobs-To-Be-Done-analyysiksi ja 5+2 tarveteemaksi, pisteyttää ne 5-kriteerisellä NMB+AI-advantage-mallilla, ja valitsee AI-differentiaattoritarpeen (AI wedge) jatkokehitykseen.",
+      "description": "Structures a preliminary, free-form business vision into a customer profile (ICP), a Jobs-To-Be-Done analysis, and 5+2 need themes, scores them with a 5-criteria NMB+AI-advantage model, and selects an AI differentiator need (AI wedge) for further development.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "Omistajan AI-native Business Design -työpaja (omistajan oma palvelu, pidetty 1.-2.6.2026)",
+        "The owner's AI-native Business Design workshop (the owner's own service, held 2026-06-01/02)",
         "omistajan yksityinen koulutusmateriaali"
       ],
       "owner_input_needed": false,
@@ -835,7 +835,7 @@
       "id": "rice-scoring-and-mvp-synthesis",
       "pack": "specialisation-packs/ai-native-startup-design",
       "title": "Rice Scoring And Mvp Synthesis",
-      "description": "Pisteyttää useamman ratkaisusuunnan RICE-mallilla (Reach, Impact, Confidence, Effort) MVP:n valitsemiseksi, ja kääntää valinnan MVP-määritelmäksi, yhden lauseen positiointilauseeksi ja kolmeksi 'miksi voitamme' -väittämäksi.",
+      "description": "Scores multiple solution directions with the RICE model (Reach, Impact, Confidence, Effort) to select an MVP, and turns the choice into an MVP definition, a one-sentence positioning statement, and three 'why we win' claims.",
       "maturity": "draft",
       "source_layer": "owner",
       "grounded_in": [
@@ -850,7 +850,7 @@
       "id": "bmc-antipattern-and-misunderstanding-correction",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Antipattern And Misunderstanding Correction",
-      "description": "Tunnistaa viisi BMC-työn asiantuntijan omaa antipatternia (mm. liikaa sisältöä per lohko, liian syvälle liian aikaisin, canvas strategia-asiakirjana) ja neljä yleisintä asiakkaan väärinkäsitystä BMC:n roolista, sekä tarjoaa suorat korjausliikkeet kumpaankin.",
+      "description": "Identifies five of the expert's own BMC-work antipatterns (e.g. too much content per block, too deep too early, canvas as a strategy document) and four of the most common client misunderstandings about the BMC's role, and offers direct corrective moves for each.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -864,7 +864,7 @@
       "id": "bmc-canvas-clarity-and-iteration",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Canvas Clarity And Iteration",
-      "description": "Ohjaa BMC-työn variointilogiikalla kohti selkeyttä syvyyden sijaan: rakentaa 2-3 vaihtoehtoista canvas-varianttia, tunnistaa milloin tiimi on jumissa yhdessä canvasissa, ja arvioi canvas-valmiuden asiantuntijan kolmen kriteerin mukaan.",
+      "description": "Guides BMC work with a variation logic aimed at clarity over depth: builds 2-3 alternative canvas variants, identifies when a team is stuck on a single canvas, and assesses canvas readiness using the expert's three criteria.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -879,7 +879,7 @@
       "id": "bmc-canvas-diagnostic-reading",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Canvas Diagnostic Reading",
-      "description": "Lukee valmiin BMC-canvasin diagnostisena instrumenttina kuudella tutkimuspohjaisella säännöllä (Hook Rule, arvo-kustannus-johdonmukaisuus, segmentin spesifisyys, evidenssiaste, puolustava canvas, puuttuva lohko) ja nelidimensioisella laaturubriikilla.",
+      "description": "Reads a finished BMC canvas as a diagnostic instrument using six research-based rules (Hook Rule, value-cost consistency, segment specificity, evidence grade, defensive canvas, missing block) and a four-dimension quality rubric.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -890,7 +890,7 @@
       "id": "bmc-client-language-translation",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Client Language Translation",
-      "description": "Tulkitsee asiakkaan tyypillisiä BMC-lauseita ('meidän pitää päivittää liiketoimintamallimme', 'olemme jo tehneet BMC:n') strategisiksi signaaleiksi, ja korjaa kolme yleisintä käsiteväärinkäsitystä: arvolupaus ominaisuuslistana, asiakassegmentti demografiana, tulovirta hinnoitteluna.",
+      "description": "Interprets typical client statements about BMC work ('we need to update our business model', 'we've already done a BMC') as strategic signals, and corrects three of the most common conceptual misunderstandings: value proposition as a feature list, customer segment as demographics, revenue stream as pricing.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -901,7 +901,7 @@
       "id": "bmc-innovation-pattern-matching",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Innovation Pattern Matching",
-      "description": "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin julkisesta innovaatiokirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations).",
+      "description": "Identifies and justifies 3-5 compatible business model innovation patterns (from the public 159-pattern innovation library) for a given business context, using the expert's own four-part innovation taxonomy (Financial/Operative/Value-based/Experience Model Innovations).",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -915,7 +915,7 @@
       "id": "bmc-session-facilitation-design",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Session Facilitation Design",
-      "description": "Suunnittelee BMC-työpajan rakenteen tutkimuspohjaisilla heuristiikoilla: aloituskohdan valinta, täyttöjärjestys, session pituus/tiimikoostumus, milloin canvas ei ole vielä valmis, evidenssin värikoodaus ja canvasin esittäminen sidosryhmille.",
+      "description": "Designs the structure of a BMC workshop using research-based heuristics: choosing a starting point, fill-in order, session length/team composition, when the canvas isn't yet finished, evidence color-coding, and presenting the canvas to stakeholders.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -926,7 +926,7 @@
       "id": "bmc-tool-switching-decisions",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Tool Switching Decisions",
-      "description": "Päättää milloin siirtyä BMC:stä toiseen työkaluun (Value Proposition Canvas, Lean Canvas, Mission Model Canvas, taloudellinen mallinnus, useampi rinnakkainen canvas) ja arvioi canvasin, hypoteesin ja segmentin laadun kolmella päätöskriteeristöllä ennen testausvaiheeseen siirtymistä.",
+      "description": "Decides when to move from the BMC to another tool (Value Proposition Canvas, Lean Canvas, Mission Model Canvas, financial modeling, multiple parallel canvases) and assesses the quality of the canvas, hypothesis, and segment using three decision criteria before moving to the testing phase.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -937,7 +937,7 @@
       "id": "academic-entrepreneur-role-choice",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Academic Entrepreneur Role Choice",
-      "description": "Valitse oma rooli spin-outissa (täysipäiväinen perustaja, tieteellinen neuvonantaja, osa-aikainen) ja hallitse akateemisen uran ja yrittäjyyden yhteensovittamista.",
+      "description": "Choose your own role in a spin-out (full-time founder, scientific advisor, part-time) and manage balancing an academic career with entrepreneurship.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -951,7 +951,7 @@
       "id": "commercialisation-journey-roadmap",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Commercialisation Journey Roadmap",
-      "description": "Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoinen roadmap, joka yhdistää vaiheportaat ketterään iterointiin.",
+      "description": "Structure the entire commercialisation journey into five stages and build an actionable roadmap that ties stage gates to agile iteration.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -966,7 +966,7 @@
       "id": "commercialisation-readiness-check",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Commercialisation Readiness Check",
-      "description": "Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis aloittamaan kaupallistamisen — oppimisnopeuden, ei täydellisyyden, näkökulmasta.",
+      "description": "Help a researcher or team assess whether the idea and team are ready to begin commercialising — from a learning-speed, not perfection, perspective.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -981,11 +981,11 @@
       "id": "founder-competence-self-assessment",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Founder Competence Self Assessment",
-      "description": "Käy läpi jäsennelty 10 osa-alueen / 76 kohdan itsearviointi (AFCA) perustajan tai -tiimin valmiudesta akateemiseen spin-outiin tai tutkimuspohjaiseen startupiin.",
+      "description": "Work through a structured 10-area / 76-item self-assessment (AFCA) of a founder's or team's readiness for an academic spin-out or research-based startup.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
-        "AFCA — Founder's Competence Assessment (omistajan oma työkalu)",
+        "AFCA — Founder's Competence Assessment (the owner's own tool)",
         "EU EntreComp",
         "EU ResearchComp"
       ],
@@ -996,7 +996,7 @@
       "id": "founding-team-design-and-agreements",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Founding Team Design And Agreements",
-      "description": "Rakenna tasapainoinen perustajatiimi ja sovi yhteispelin säännöt (Founders' Agreement) ennen kuin erimielisyydet syntyvät.",
+      "description": "Build a balanced founding team and agree the rules of engagement (Founders' Agreement) before disagreements arise.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1012,7 +1012,7 @@
       "id": "funding-pathway-design",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Funding Pathway Design",
-      "description": "Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoituksen oikeassa järjestyksessä, ja hallitse runwayta.",
+      "description": "Build a funding strategy that combines non-dilutive and dilutive funding in the right order, and manage runway.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1026,7 +1026,7 @@
       "id": "industry-partner-engagement",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Industry Partner Engagement",
-      "description": "Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuote ja liiketoimintalogiikka pysyvät kiinni todellisuudessa.",
+      "description": "Bring industry partners into commercialisation early so the product and business logic stay grounded in reality.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1041,7 +1041,7 @@
       "id": "industry-specific-commercialisation-playbook",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Industry Specific Commercialisation Playbook",
-      "description": "Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life sciences, deep tech, ohjelmisto, yhteiskunnalliset/humanistiset innovaatiot.",
+      "description": "Tailor the commercialisation strategy and expectations by industry: life sciences, deep tech, software, societal/humanities-based innovations.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1054,7 +1054,7 @@
       "id": "ip-disclosure-and-ownership-check",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Ip Disclosure And Ownership Check",
-      "description": "Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oikea-aikainen keksintöilmoitus ennen julkista paljastamista.",
+      "description": "Establish who owns the IP arising from a research result and make a timely invention disclosure before public disclosure.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1068,7 +1068,7 @@
       "id": "research-opportunity-recognition",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Research Opportunity Recognition",
-      "description": "Arvioi onko tutkimustuloksella todellista kaupallista potentiaalia ennen kaupallistamisstrategian rakentamista — erottaa technology push:in aidosta market pull:ista.",
+      "description": "Assess whether a research result has real commercial potential before building a commercialisation strategy — distinguishing genuine market pull from technology push.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1082,7 +1082,7 @@
       "id": "spinout-vs-licensing-pathway",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Spinout Vs Licensing Pathway",
-      "description": "Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (equity-pohjainen), lisensointi (rojaltipohjainen) tai hybridi.",
+      "description": "Choose the right commercialisation pathway for a research result: spin-out (equity-based), licensing (royalty-based), or hybrid.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1095,7 +1095,7 @@
       "id": "tto-engagement-strategy",
       "pack": "specialisation-packs/research-commercialisation",
       "title": "Tto Engagement Strategy",
-      "description": "Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista milloin tarvitaan ulkopuolista tukea sen rinnalle.",
+      "description": "Use the Technology Transfer Office (TTO) effectively and recognise when outside support is needed alongside it.",
       "maturity": "validated",
       "source_layer": "owner",
       "grounded_in": [
@@ -1111,25 +1111,25 @@
     {
       "id": "ai-initiative-readiness-auditor",
       "pack": "ai-strategy-and-governance",
-      "description": "Auditoi AI-aloitteen ai-opportunity-portfolio-skillin 5 pisteytysulottuvuutta ja responsible-ai-and-governance-check-tarkistuslistaa vasten ennen kuin aloite viedään hyväksyntään. Käytä tätä agenttia kun AI-aloitteen portfolio-pisteytys ja/tai governance-tarkistus on tehty mutta ennen kuin ne kootaan lopulliseksi suositukseksi johdolle. Ei muokkaa aloitetta — palauttaa aukkotaulukon pisteytysulottuvuuksittain.",
+      "description": "Audits an AI initiative against the 5 scoring dimensions of the ai-opportunity-portfolio skill and the responsible-ai-and-governance-check checklist before the initiative goes to approval. Use this agent when an AI initiative's portfolio scoring and/or governance check has been done but before it's assembled into a final recommendation for leadership. Does not edit the initiative — returns a gap table by scoring dimension.",
       "path": "ai-strategy-and-governance/agents/ai-initiative-readiness-auditor.md"
     },
     {
       "id": "assumption-stress-tester",
       "pack": "business-case-and-analysis",
-      "description": "Adversariaalinen toinen mielipide valmiille tai lähes valmiille business caselle. Käytä tätä agenttia ennen kuin business case, ROI-laskelma tai investointisuositus viedään päätöksentekoon — se lukee dokumentin tuoreena, ei ole osallistunut sen laadintaan, ja etsii aktiivisesti mikä siinä todennäköisimmin on väärin. Ei muokkaa dokumenttia — palauttaa löydöstaulukon. Eri tehtävä kuin assumption-and-evidence-audit-skilli, joka on menetelmä caseä RAKENNETTAESSA; tämä agentti on riippumaton tarkistus SEN JÄLKEEN kun case on jo koossa.",
+      "description": "An adversarial second opinion for a finished or near-finished business case. Use this agent before a business case, ROI calculation, or investment recommendation is taken to a decision — it reads the document fresh, has not been involved in drafting it, and actively looks for what is most likely wrong with it. Does not edit the document — returns a findings table. A different task than the assumption-and-evidence-audit skill, which is a method for BUILDING a case; this agent is an independent check AFTER the case has already been assembled.",
       "path": "business-case-and-analysis/agents/assumption-stress-tester.md"
     },
     {
       "id": "competitive-blind-spot-scanner",
       "pack": "business-design-frameworks",
-      "description": "Etsii kilpailu- tai asemointianalyysin (five forces, strategy canvas / value curve, kategoriamallinnus) katvealueet ja tarkistamattomat suunnat ennen kuin analyysi esitetään valmiina kuvana toimialasta. Käytä tätä agenttia kun competitive-and-five-forces-mapping- tai strategy-canvas-and-value-curve-skillin tulos on koossa. Ei muokkaa analyysiä — palauttaa katvealuetaulukon.",
+      "description": "Finds the blind spots and unexamined directions in a competitive or positioning analysis (five forces, strategy canvas / value curve, category modeling) before the analysis is presented as a finished picture of the industry. Use this agent once the output of the competitive-and-five-forces-mapping or strategy-canvas-and-value-curve skill is assembled. Doesn't edit the analysis — returns a blind-spot table.",
       "path": "business-design-frameworks/agents/competitive-blind-spot-scanner.md"
     },
     {
       "id": "market-sizing-cross-validator",
       "pack": "opportunity-recognition",
-      "description": "Ristiintarkistaa TAM/SAM/SOM-laskelman logiikan, lähteet ja johdonmukaisuuden vähintään kahdella riippumattomalla menetelmällä ennen kuin lukua käytetään business casessa tai esitetään johdolle. Käytä tätä agenttia kun market-sizing-tam-sam-som-skillin (tai minkä tahansa muun markkinakokolaskelman) tulos on valmis mutta ei vielä lukittu. Ei muokkaa laskelmaa — palauttaa ristiintarkistustaulukon ja luottamustason.",
+      "description": "Cross-checks the logic, sources, and consistency of a TAM/SAM/SOM calculation using at least two independent methods before the figure is used in a business case or presented to leadership. Use this agent when the result of the market-sizing-tam-sam-som skill (or any other market-sizing calculation) is ready but not yet locked in. Doesn't modify the calculation — returns a cross-check table and a confidence level.",
       "path": "opportunity-recognition/agents/market-sizing-cross-validator.md"
     }
   ]

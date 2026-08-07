@@ -1,105 +1,108 @@
 ---
 name: ai-native-tool-stack-selection
-description: "Valitsee pienimmän toimivan AI-natiivin työkalupinon 12 kategorian päätöspuulla (ajattelukumppani, tutkimus, design, sovelluksen rakentaja, koodausagentti, hosting, backend, skillit, projektinhallinta, muistiinpanot, automaatio, agenttien rakentaminen) — kategoriapohjainen, ei tuotenimiin sidottu."
+description: "Selects the smallest workable AI-native tool stack using a 12-category decision tree (thinking partner, research, design, app builder, coding agent, hosting, backend, skills, project management, notes, automation, agent building) — category-based, not tied to product names."
 ---
 
 # AI-Native Tool Stack Selection
 
-*Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
+*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Auttaa pre-startup-founderia tai pientä tiimiä valitsemaan pienimmän
-toimivan AI-natiivin työkalupinon ilman että hukkuu satojen työkalujen
-markkinaan. Skilli jäsentää valinnan kategorioiden — ei tuotenimien —
-kautta, koska kategoriat (mihin tarkoitukseen työkalua tarvitaan) kestävät
-ajassa, mutta yksittäiset tuotteet ja niiden ominaisuudet vanhenevat
-nopeasti tällä markkinalla.
+Help a pre-startup founder or small team choose the smallest workable
+AI-native tool stack without drowning in a market of hundreds of tools.
+This skill structures the choice around categories — not product names
+— because categories (what purpose you need the tool for) hold up over
+time, while individual products and their features go stale quickly in
+this market.
 
-## Perustuu
+## Based on
 
-- Omistajan AI-native Business Design -työpaja
-  (omistajan oma työpaja), `tools.md` — "2026 AI-Native Stack":
-  12 kategorian jaottelu sen mukaan *mitä yrität tehdä*, ei valmistajan
-  mukaan; "minimum viable stack" -periaate ("3–6 työkalua, ei 30");
-  agenttityökalujen kolmiportainen kypsyyspolku (no-code-alustat →
-  avoimen lähdekoodin ajonajat → kehittäjäkehykset).
-- Ks. `../../references/tool-category-map.md` (12 kategoriaa esimerkein,
-  aikaleimattu tilannekuva) ja `../../references/workshop-source.md`.
+- The owner's AI-native Business Design workshop
+  (the owner's own workshop), `tools.md` — "2026 AI-Native Stack": a
+  12-category breakdown organized by *what you're trying to do*, not by
+  vendor; the "minimum viable stack" principle ("3–6 tools, not 30"); the
+  three-tier maturity path for agent tools (no-code platforms → open-
+  source runtimes → developer frameworks).
+- See `../../references/tool-category-map.md` (12 categories with
+  examples, a time-stamped snapshot) and
+  `../../references/workshop-source.md`.
 
-## Rakenne
+## Method
 
-1. **Käy läpi 12 kategoriaa** (ks. `../../references/tool-category-map.md`)
-   ja tunnista, mitkä ovat OMAN casen kannalta tarpeellisia juuri nyt — ei
-   kaikkia kerralla:
-   1. AI-ajattelukumppani (yleinen chat/projekti-AI)
-   2. Tutkimus ja tiedonhaku
-   3. Design-luonnostelu
-   4. Sovelluksen rakentaja (prompt → toimiva app)
-   5. Koodausagentti (kun prototyypistä siirrytään tuotantoon)
-   6. Versionhallinta / koodin säilytys
-   7. Hosting ja julkaisu
-   8. Backend ja tietokanta
-   9. Skillit (agentin kykyjen paketointi ja uudelleenkäyttö)
-   10. Projektinhallinta
-   11. Kokous-/muistiinpanotyökalu (koneluettavaksi muuttaminen)
-   12. Työnkulkujen automaatio ja agenttien rakentaminen
-2. **Valitse kussakin tarpeellisessa kategoriassa yksi oletustyökalu.**
-   Vastusta houkutusta ottaa montaa työkalua samaan kategoriaan
-   samanaikaisesti — se hajottaa kontekstin ja hidastaa, ei nopeuta.
-3. **Sovella minimipino-nyrkkisääntöä.** Tyypillinen toimiva pre-startup-
-   pino on 3–6 työkalua, ei 30. Aloita minimillä: ajattelukumppani +
-   tutkimus + design-luonnos + sovelluksen rakentaja + koodin säilytys.
-   Lisää kategorioita vasta kun aito tarve syntyy, ei ennakoivasti.
-4. **Kun tiimi tai tarve kasvaa:** lisää projektinhallinta ja
-   kokousmuistiinpanotyökalu vasta kun useampi ihminen työskentelee
-   samassa asiassa säännöllisesti — ei heti alussa.
-5. **Kun ensimmäinen työnkulku on todistetusti arvokas ja aidosti
-   closed-loop-muotoinen** (ks.
-   `../closed-loop-process-and-human-oversight-design/SKILL.md`): harkitse
-   sen kääriimistä agentiksi. Aloita no-code-agenttialustalla; siirry
-   avoimen lähdekoodin ajonaikaan tai kehittäjäkehykseen vasta kun
-   tekninen osaaminen ja aito tarve sitä vaativat — ei oletuksena.
-6. **Tarkista lock-in ennen sitoutumista.** Mihin infraan (tietokanta,
-   hosting) työkalu sitoo sinut, ja onko koodi/data vietävissä pois
-   tarvittaessa? Prototyypille tämä ei useinkaan merkitse paljon;
-   skaalattavaksi tarkoitetulle tuotteelle se merkitsee paljon.
-7. **Muista, että tämä on tilannekuva.** Työkalulistat, hinnoittelu ja
-   ilmaiskiintiöt muuttuvat viikoittain tällä markkinalla. Tarkista aina
-   työkalun senhetkinen tila ennen sitoutumista — älä nojaa
-   `../../references/tool-category-map.md`:n esimerkkeihin nimiltä
-   ajan tasalla olevana totuutena.
+1. **Go through the 12 categories** (see
+   `../../references/tool-category-map.md`) and identify which are
+   necessary for YOUR own case right now — not all of them at once:
+   1. AI thinking partner (general chat/project AI)
+   2. Research and information retrieval
+   3. Design sketching
+   4. App builder (prompt → working app)
+   5. Coding agent (when moving from prototype to production)
+   6. Version control / code storage
+   7. Hosting and deployment
+   8. Backend and database
+   9. Skills (packaging and reusing agent capabilities)
+   10. Project management
+   11. Meeting/note-taking tool (turning conversations into
+       machine-readable text)
+   12. Workflow automation and agent building
+2. **Choose one default tool for each necessary category.** Resist the
+   urge to use multiple tools in the same category simultaneously — it
+   fragments context and slows things down instead of speeding them up.
+3. **Apply the minimum-stack rule of thumb.** A typical working
+   pre-startup stack is 3–6 tools, not 30. Start with the minimum:
+   thinking partner + research + design sketch + app builder + code
+   storage. Add categories only once a genuine need arises, not
+   proactively.
+4. **As the team or need grows:** add project management and a meeting
+   notes tool only once multiple people are working on the same thing
+   regularly — not right at the start.
+5. **Once the first workflow has proven valuable and is genuinely
+   closed-loop in shape** (see
+   `../closed-loop-process-and-human-oversight-design/SKILL.md`):
+   consider wrapping it as an agent. Start with a no-code agent platform;
+   move to an open-source runtime or a developer framework only once
+   technical skill and genuine need require it — not by default.
+6. **Check lock-in before committing.** What infrastructure (database,
+   hosting) does the tool tie you to, and can code/data be exported if
+   needed? For a prototype this often doesn't matter much; for a product
+   meant to scale, it matters a lot.
+7. **Remember this is a snapshot.** Tool lists, pricing, and free tiers
+   change weekly in this market. Always check a tool's current status
+   before committing — don't treat the named examples in
+   `../../references/tool-category-map.md` as an up-to-date truth.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei suosittele tiettyjä tuotenimiä pysyvänä totuutena — kategoriat ja
-  valintaperiaate kestävät, yksittäiset tuotteet vanhenevat nopeasti (ks.
-  `../../references/tool-category-map.md` aikaleima).
-- Ei tee teknistä due diligenceä työkalun tietoturvasta, sopimusehdoista
-  tai skillien/agenttien turvallisuudesta — tarkista erikseen ennen
-  liiketoimintakriittistä käyttöä; asenna skillejä/agentteja vain
-  luotetuista lähteistä.
-- Ei arvioi, mitä kehittäjäkehystä (LangGraph, CrewAI, Claude Agent SDK
-  jne.) kehittäjätiimin kannattaa valita tuotantokoodiin — se on
-  kehittäjätiimin päätös; tämä skilli vain kontekstoi founderille mistä
-  on kyse ennen sitä keskustelua.
+- Does not recommend specific product names as a permanent truth —
+  categories and the selection principle hold up, individual products go
+  stale quickly (see the timestamp in
+  `../../references/tool-category-map.md`).
+- Does not perform technical due diligence on a tool's security,
+  contract terms, or the safety of skills/agents — check that
+  separately before business-critical use; install skills/agents only
+  from trusted sources.
+- Does not assess which developer framework (LangGraph, CrewAI, Claude
+  Agent SDK, etc.) a dev team should choose for production code — that's
+  the dev team's decision; this skill only gives the founder context on
+  what's involved before that conversation.
 
-## Jatka tästä
+## Continue from here
 
-- Liittyvä skilli samassa pakissa: `../ai-buildable-prd-writing/SKILL.md`
-  (kenelle PRD annetaan rakennettavaksi),
-  `../closed-loop-process-and-human-oversight-design/SKILL.md` (milloin
-  kannattaa siirtyä agentteihin).
-- Liittyvä skilli toisessa pakissa:
+- Related skill in this pack: `../ai-buildable-prd-writing/SKILL.md`
+  (who the PRD is handed to for building),
+  `../closed-loop-process-and-human-oversight-design/SKILL.md` (when it
+  makes sense to move to agents).
+- Related skill in another pack:
   `../../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`
-  — isomman mittakaavan build/buy/partner-päätös; tämä skilli on
-  kevyempi, taktinen valinta pre-startup-vaiheeseen.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  — a larger-scale build/buy/partner decision; this skill is a
+  lighter, tactical choice for the pre-startup stage.
+- The pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/tool-category-map.md` — 12 kategoriaa esimerkein
-  (aikaleimattu tilannekuva)
-- `../../references/workshop-source.md` — lähdetiedot
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/tool-category-map.md` — 12 categories with examples
+  (a time-stamped snapshot)
+- `../../references/workshop-source.md` — source information
+- `../../CLAUDE.md` — the pack's shared guardrails

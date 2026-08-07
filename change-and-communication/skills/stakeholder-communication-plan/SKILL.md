@@ -1,57 +1,86 @@
 ---
 name: stakeholder-communication-plan
-description: "Rakentaa viestintäsuunnitelman eri sidosryhmille muutoksen aikana. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään."
+description: "Builds a communication plan for different stakeholders during a change. Use when you need change & communication-level support for a comparable task."
 ---
 
 # Stakeholder Communication Plan
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Rakentaa viestintäsuunnitelman eri sidosryhmille muutoksen aikana.
+Builds a communication plan for different stakeholders during a change.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - LinkedIn Skills on the Rise 2026 — Executive & Stakeholder Communication
+- Hiatt, Jeff / Prosci — the ADKAR model (Awareness, Desire, Knowledge,
+  Ability, Reinforcement): communication objectives shift over the course of
+  a change effort, and a message that's right for building Awareness is the
+  wrong message for driving Reinforcement.
+- Mendelow (1991) — the Power/Interest stakeholder grid, used to decide the
+  intensity and directness of communication for each stakeholder segment.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Segment stakeholders by power and interest** (Mendelow) — this
+   determines communication intensity and directness per group, not just who
+   gets an email versus who gets a meeting.
+2. **Map each segment's current position on the ADKAR curve** (Awareness →
+   Desire → Knowledge → Ability → Reinforcement). A stakeholder who isn't yet
+   aware of the change needs a different message than one who already knows
+   about it but hasn't bought in.
+3. **Define, per segment: objective, key message, channel, cadence, and
+   owner.** The objective should be the specific ADKAR gap that segment is
+   at (build awareness / build desire / build ability / etc.), not a generic
+   "keep informed."
+4. **Sequence the messages against the change timeline** — early messages
+   build awareness and the case for change; messages closer to go-live shift
+   toward ability and readiness; post-go-live messages reinforce the change
+   and prevent backsliding.
+5. **Build in a feedback loop per segment** — a way for the message to
+   travel back (Q&A, a pulse survey, sponsor office hours), not just
+   outward broadcast. A plan with no return channel can't detect resistance
+   early.
+6. **Name a single owner per message-channel pair** who is accountable for
+   it actually going out — a plan nobody owns doesn't get executed.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei toteuta viestintää puolestasi — tuottaa suunnitelman ja viestirungon.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't execute the communication for you — it produces the plan and the
+  message framework.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../workshop-and-facilitation-design/SKILL.md` — Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../workshop-and-facilitation-design/SKILL.md`](../workshop-and-facilitation-design/SKILL.md) — Designs the structure of a cross-functional workshop or design-thinking session.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

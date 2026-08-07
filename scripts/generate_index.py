@@ -185,9 +185,9 @@ def main():
 
     index = {
         "repo": "ai-business-designer-skills",
-        "version": "0.17.0",
+        "version": "0.18.0",
         "generated": "auto",
-        "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
+        "generated_by": "scripts/generate_index.py — do not hand-edit",
         "packs": [{"dir": p["dir"], "name": p["name"], "title": p["title"]} for p in packs],
         "specialisation_packs": specialisation_packs,
         "skills": skills,
@@ -195,7 +195,7 @@ def main():
     }
 
     if errors:
-        print("Virheitä frontmattereissa (indeksi silti kirjoitettu, korjaa nämä):")
+        print("Frontmatter errors (index was still written, fix these):")
         for e in errors:
             print("  -", e)
 
@@ -203,7 +203,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(f"Kirjoitettu {out_path} — {len(skills)} skilliä, {len(packs)} pakkia, {len(agents)} agenttia.")
+    print(f"Wrote {out_path} — {len(skills)} skills, {len(packs)} packs, {len(agents)} agents.")
     return 1 if errors else 0
 
 

@@ -1,491 +1,509 @@
 # AI Capability Pattern Library
 
-Tämä on `../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`
--skillin **Capability Pattern Mapping** -menetelmän konkreettinen sovellus AI-
-ratkaisuihin. Sen sijaan että etsittäisiin "onko meidän toimialaltamme AI-esimerkkiä",
-tämä kirjasto tarjoaa **13 nimettyä, toimialariippumatonta AI-kyvykkyyspatternia**,
-joista jokainen toimii diagnostisena kysymyksenä missä tahansa uudessa asiakas-
-tilanteessa. Käyttöohje ja työnkulku: ks.
+This is a concrete application, to AI solutions, of the **Capability
+Pattern Mapping** method from
+`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`.
+Instead of asking "is there an AI example from our industry," this
+library offers **13 named, industry-agnostic AI capability patterns**,
+each of which works as a diagnostic question in any new client
+situation. For usage instructions and workflow, see
 `../skills/ai-capability-pattern-matching/SKILL.md`.
 
-## Miten tämä kirjasto on rakennettu — läpinäkyvyys lähteistä
+## How this library was built — transparency on sources
 
-Patternit on abstrahoitu kahdesta riippumattomasta, laajasta toimialan
-AI-käyttötapausraportista. Tämä ei ole tyhjentävä listaus kaikista lähteiden
-caseista, vaan **kuratoitu abstraktio** edustavasta otoksesta — ks. perustelu
-miksi kuratointi on parempi lähestymistapa kuin raaka case-lista,
-`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`:n
-Tarkoitus-osiosta.
+The patterns are abstracted from two independent, broad industry AI
+use-case reports. This isn't an exhaustive listing of every case in the
+sources, but a **curated abstraction** of a representative sample — for
+the rationale on why curation is a better approach than a raw case list,
+see the Purpose section of
+`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`.
 
-1. **Ensisijainen lähde** — laaja toimialaraportti (2026-painos), 130
-   käyttötapausta kuudella toimialalla (Consumer; Energy, Resources &
+1. **Primary source** — a broad industry report (2026 edition), 130 use
+   cases across six industries (Consumer; Energy, Resources &
    Industrials; Financial Services; Government & Public Services; Life
-   Sciences & Health Care; Technology, Media & Telecommunications). Raportti
-   käyttää kuusiulotteista vastuullisen AI:n riskikehystä (fair and
-   impartial, robust and reliable, transparent and explainable, safe and
-   secure, responsible and accountable, private) jokaisen casen
-   riskiarvioinnissa. Tästä raportista on tekstipohjaisesti poimittu ja
-   tarkistettu **81 casea** viideltä kuudesta toimialasta (otsikko, toimiala,
-   ensisijainen liiketoimintafunktio, Agentic AI / Physical AI -merkintä) —
-   kuudes toimiala (Technology, Media & Telecommunications) on mukana vain
-   teematasolla poiminnan teknisten rajoitteiden vuoksi, ei yksittäisin
-   casein. Jokainen tässä kirjastossa mainittu esimerkki on suoraan tästä
-   poiminnasta, ei muistista tuotettu.
-2. **Toinen, riippumaton lähde** — toimialan AI-käyttötapauskooste, 63
-   käyttötapausta 16 liiketoimintafunktiossa; sen oma analyysi osoittaa
-   n. 75 %:n arvioidusta arvosta keskittyvän neljään funktioon:
-   **asiakasoperaatiot (customer operations), markkinointi & myynti,
-   ohjelmistokehitys ja T&K**. Tätä käytetään tässä kirjastossa
-   **ristiintarkistuksena** patternien painotukselle — ei yksittäisten
-   casejen lähteenä, koska yksittäisten casejen tarkka sisältö ei ollut
-   luotettavasti saatavilla poiminnan aikana.
+   Sciences & Health Care; Technology, Media & Telecommunications). The
+   report applies a six-dimensional responsible-AI risk framework (fair
+   and impartial, robust and reliable, transparent and explainable,
+   safe and secure, responsible and accountable, private) to the risk
+   assessment of every case. **81 cases** across five of the six
+   industries were text-extracted and verified from this report (title,
+   industry, primary business function, Agentic AI / Physical AI tag)
+   — the sixth industry (Technology, Media & Telecommunications) is
+   included only at the theme level, due to technical extraction
+   constraints, not with individual cases. Every example mentioned in
+   this library is drawn directly from that extraction, not produced
+   from memory.
+2. **Second, independent source** — an industry AI use-case digest, 63
+   use cases across 16 business functions; its own analysis shows
+   roughly 75% of estimated value concentrated in four functions:
+   **customer operations, marketing & sales, software development, and
+   R&D**. This is used in this library as a **cross-check** on the
+   patterns' weighting — not as a source for individual cases, since
+   the exact content of individual cases wasn't reliably available
+   during extraction.
 
-**Mitä tämä tarkoittaa käytännössä:** jokainen "Esimerkkejä toimialalta"
--kohdan viite alla on todellinen, oikein otsikoitu käyttötapaus
-ensisijaisesta lähteestä. **Älä laajenna näitä esimerkkejä yksityiskohdilla,
-joita ei ole tässä listattu** — jos tarvitset lisää yksityiskohtia, palaa
-alkuperäiseen lähteeseen äläkä täydennä muistista.
+**What this means in practice:** every reference under "Examples from
+industry" below is a real, correctly titled use case from the primary
+source. **Don't expand these examples with details not listed here** —
+if you need more detail, go back to the original source rather than
+filling in from memory.
 
-## Toimialojen ja funktioiden peittävyys poiminnassa (81 casea)
+## Industry and function coverage in the extraction (81 cases)
 
-| Toimiala | Caseja poiminnassa |
+| Industry | Cases in extraction |
 |---|---|
 | Energy, Resources & Industrials | 28 |
 | Consumer | 26 |
 | Financial Services | 17 |
 | Government & Public Services | 8 |
 | Life Sciences & Health Care | 2 |
-| Technology, Media & Telecommunications | 0 (vain teema-taso) |
+| Technology, Media & Telecommunications | 0 (theme level only) |
 
-Lähteen omat funktioluokat (esiintyvät "Tags"-merkintöinä): Sales, Marketing,
-Operations, R&D/Product Development, Customer Service, Customer Experience,
-Compliance & Risk, Procurement/Sourcing & Supply Chain, Manufacturing & Quality,
-Field Services, Information Technology, Learning & Development, Cross-functional,
-Distribution & Logistics. AI-tyyppimerkinnät: **Agentic AI** (moniagenttinen,
-autonominen päätöksenteko), **Physical AI** (robotiikka/fyysinen toimeenpano),
-ja merkitsemätön (perinteisempi ennustava/generatiivinen AI ilman agenttista tai
-fyysistä komponenttia).
+The source's own function categories (appearing as "Tags"): Sales,
+Marketing, Operations, R&D/Product Development, Customer Service,
+Customer Experience, Compliance & Risk, Procurement/Sourcing & Supply
+Chain, Manufacturing & Quality, Field Services, Information Technology,
+Learning & Development, Cross-functional, Distribution & Logistics. AI
+type tags: **Agentic AI** (multi-agent, autonomous decision-making),
+**Physical AI** (robotics/physical execution), and untagged (more
+traditional predictive/generative AI without an agentic or physical
+component).
 
 ---
 
-## Patternit
+## Patterns
 
-### 1. Moniagenttinen reaaliaikainen kompromissioptimointi
+### 1. Multi-agent real-time trade-off optimization
 
-**Määritelmä:** Kaksi tai useampi keskenään riippuvainen päätös (hinta+varasto,
-kassa+riski, reitti+kysyntä) tehdään tänään erillisissä tiimeissä/järjestelmissä
-eri syklillä. Erikoistuneet agentit koordinoivat päätöksiä reaaliajassa yhteisen
-tilannekuvan pohjalta.
+**Definition:** Two or more interdependent decisions (pricing +
+inventory, cash + risk, routing + demand) are made today in separate
+teams/systems on different cycles. Specialized agents coordinate the
+decisions in real time based on a shared situational picture.
 
-**Diagnostinen kysymys:** *"Missä teillä on kaksi tai useampi toisiinsa vaikuttava
-päätös, joita tehdään tänään erillään ja eri aikataululla?"*
+**Diagnostic question:** *"Where do you have two or more decisions that
+affect each other, made today separately and on different timelines?"*
 
-**AI-tyyppi:** Agentic AI
+**AI type:** Agentic AI
 
-**Esimerkkejä toimialalta:**
-- [Consumer] *Dynamic pricing and inventory optimization* — hinnoittelu-,
-  promootio- ja varastoagentit koordinoivat reaaliaikaisesti.
-- [Consumer] *Autonomous supply chain operations* — kysynnän ennustus,
-  suunnittelu ja häiriöiden havaitseminen yhtenä agenttiverkkona.
-- [Consumer] *Integrated business planning* — myynti-, kysyntä- ja
-  toimitusketjudatan yhdistäminen yhdeksi päätöksentekopohjaksi.
-- [Energy, Resources & Industrials] *Intelligent commercial operations* —
-  tarjoushinnoittelu, tarjousvalmistelu ja asiakasvuorovaikutus samalla
-  agenttiverkolla.
+**Examples from industry:**
+- [Consumer] *Dynamic pricing and inventory optimization* — pricing,
+  promotion, and inventory agents coordinating in real time.
+- [Consumer] *Autonomous supply chain operations* — demand forecasting,
+  planning, and disruption detection as a single agent network.
+- [Consumer] *Integrated business planning* — combining sales, demand,
+  and supply-chain data into a single decision base.
+- [Energy, Resources & Industrials] *Intelligent commercial
+  operations* — bid pricing, bid preparation, and customer interaction
+  on the same agent network.
 - [Financial Services] *AI agents for algorithmic trading and market
-  simulation* — kaupankäyntistrategiat ja markkinasimulaatio moniagenttisesti.
-- [Financial Services] *Intraday liquidity optimization* — kassan ja riskin
-  reaaliaikainen tasapainotus.
+  simulation* — trading strategies and market simulation, multi-agent.
+- [Financial Services] *Intraday liquidity optimization* — real-time
+  balancing of cash and risk.
 
-**Riskilinssi (vastuullisen AI:n ulottuvuudet):** *Fair and impartial* ja *Responsible
-and accountable* korostuvat — nopeat, koordinoidut päätökset (esim. hinnoittelu)
-voivat näyttää mielivaltaisilta asiakkaalle, jos päätöslogiikka ei ole selkeästi
-rajattu ja loppuvastuu ihmisellä.
+**Risk lens (responsible-AI dimensions):** *Fair and impartial* and
+*Responsible and accountable* stand out — fast, coordinated decisions
+(e.g. pricing) can look arbitrary to a customer if the decision logic
+isn't clearly bounded and final accountability rests with a human.
 
 ---
 
-### 2. Rakenteettoman dokumentin validointi ja poikkeaman tunnistus
+### 2. Unstructured document validation and anomaly detection
 
-**Määritelmä:** Korkeasti palkattu asiantuntija selaa vapaamuotoista tekstiä tai
-PDF-dokumentteja etsien poikkeamia, puutteita tai petosmerkkejä ennen
-hyväksy/hylkää/eskaloi-päätöstä. (Tämä on käyttäjän oma esimerkkipatterni —
-ks. `../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`.)
+**Definition:** A highly paid expert reads free-form text or PDF
+documents looking for anomalies, gaps, or signs of fraud before an
+approve/reject/escalate decision. (This is the user's own example
+pattern — see
+`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`.)
 
-**Diagnostinen kysymys:** *"Missä kohtaa prosessianne korkeasti palkattu
-asiantuntija joutuu etsimään poikkeamia vapaamuotoisesta tekstistä tai
-PDF-dokumentista ennen päätöstä?"*
+**Diagnostic question:** *"Where in your process does a highly paid
+expert have to search for anomalies in free-form text or a PDF document
+before a decision?"*
 
-**AI-tyyppi:** Agentic AI / merkitsemätön (dokumenttianalyysi)
+**AI type:** Agentic AI / untagged (document analysis)
 
-**Esimerkkejä toimialalta:**
-- [Consumer] *Autonomous warranty adjudication* — takuuvaatimusten
-  poikkeamien lippuutus ja dokumentaation tuki ihmisasiantuntijalle.
-- [Financial Services] *AI agents for credit underwriting* — hakijadatan
-  analyysi, markkinakontekstin seuranta ja compliance-tarkistus yhdessä.
-- [Financial Services] *Research-based report generation* ("Getting to know
-  your customer") — uusasiakasraporttien koostaminen onboarding-päätöksen
-  tueksi.
-- [Government & Public Services] *AI-supported regulatory examinations and
-  inspections* — suurten dokumenttimäärien läpikäynti tarkastuksissa.
-- [Government & Public Services] *AI-driven permitting* — hakemusten
-  skannaus, tiedon poiminta, compliance-tarkistus, reaaliaikainen palaute.
+**Examples from industry:**
+- [Consumer] *Autonomous warranty adjudication* — flagging warranty-
+  claim anomalies and documentation support for a human expert.
+- [Financial Services] *AI agents for credit underwriting* — applicant
+  data analysis, market-context monitoring, and compliance checking
+  together.
+- [Financial Services] *Research-based report generation* ("Getting to
+  know your customer") — compiling new-customer reports to support
+  onboarding decisions.
+- [Government & Public Services] *AI-supported regulatory examinations
+  and inspections* — reviewing large volumes of documents during
+  inspections.
+- [Government & Public Services] *AI-driven permitting* — application
+  scanning, information extraction, compliance checking, real-time
+  feedback.
 - [Government & Public Services] *AI-enhanced benefits eligibility* —
-  etuushakemusten käsittely- ja päätösprosessin virtaviivaistus.
+  streamlining benefits-application processing and decisions.
 
-**Riskilinssi:** *Robust and reliable* on kriittisin — huono data johtaa
-huonoihin päätöksiin (esim. väärin tulkitut signaalit). Vahva datavalidointi
-ja suodatus tarvitaan ennen kuin poikkeamalippuja käytetään päätöksenteossa.
+**Risk lens:** *Robust and reliable* is most critical — poor data leads
+to poor decisions (e.g. misinterpreted signals). Strong data validation
+and filtering are needed before anomaly flags are used in
+decision-making.
 
 ---
 
-### 3. Pysyvä henkilökohtainen neuvoja/konsierki-agentti
+### 3. Persistent personal advisor/concierge agent
 
-**Määritelmä:** Asiakas kohtaa monimutkaisen, korkean panoksen, toistuvan
-päätöksen (mitä ostaa, miten sijoittaa, miten hoitaa terveyttä), johon hän saa
-tänään geneeristä, kertaluontoista neuvontaa. Pysyvä agentti seuraa asiakkaan
-tilannetta jatkuvasti ja päivittää suositusta ajan myötä.
+**Definition:** A customer faces a complex, high-stakes, recurring
+decision (what to buy, how to invest, how to manage their health) for
+which they get generic, one-off advice today. A persistent agent tracks
+the customer's situation continuously and updates the recommendation
+over time.
 
-**Diagnostinen kysymys:** *"Missä asiakkaanne kohtaa toistuvan, monimutkaisen
-päätöksen, johon he saavat tänään vain kertaluontoisen, geneerisen neuvon?"*
+**Diagnostic question:** *"Where does your customer face a recurring,
+complex decision for which they get only one-off, generic advice
+today?"*
 
-**AI-tyyppi:** Agentic AI
+**AI type:** Agentic AI
 
-**Esimerkkejä toimialalta:**
+**Examples from industry:**
 - [Consumer] *AI assistant for vehicle buying and leasing* — hyper-
-  personoidut suositukset ostopäätöksen tueksi.
+  personalized recommendations to support the purchase decision.
 - [Financial Services] *Ultra-personalized financial advice and wealth
-  management* — automatisoitu, jatkuvasti mukautuva varainhoitoneuvonta.
+  management* — automated, continuously adapting wealth-management
+  advice.
 - [Financial Services] *Enhanced AI support for customers* ("Financial
-  guardian") — henkilökohtainen virtuaaliavustaja päivittäisiin tarpeisiin.
-- [Life Sciences & Health Care] *Hyper-personalized health care* — 24/7
-  virtuaalinen hoitotiimi, joka seuraa potilasdataa ja koordinoi hoitoa.
-- [Consumer] *Product recommendations* ("A virtual shopping assistant") —
-  personoidut tuotesuositukset käyttäytymisdatan pohjalta.
+  guardian") — a personal virtual assistant for daily needs.
+- [Life Sciences & Health Care] *Hyper-personalized health care* —
+  24/7 virtual care team tracking patient data and coordinating care.
+- [Consumer] *Product recommendations* ("A virtual shopping
+  assistant") — personalized product recommendations based on
+  behavioral data.
 
-**Riskilinssi:** *Private* ja *Transparent and explainable* — jatkuva,
-henkilökohtainen seuranta vaatii selkeän tietosuojaperustan ja kyvyn
-selittää, miksi suositus muuttui.
+**Risk lens:** *Private* and *Transparent and explainable* — continuous,
+personal tracking requires a clear data-protection basis and the
+ability to explain why a recommendation changed.
 
 ---
 
-### 4. Ennakoiva laitehälytys ja autonominen interventio
+### 4. Predictive equipment alerting and autonomous intervention
 
-**Määritelmä:** Laitteiden/infrastruktuurin kuntoa valvotaan jatkuvasti
-sensoridatalla ajoitetun/manuaalisen tarkastuksen sijaan; vikaantuminen
-ennustetaan ja siihen puututaan ennen katkosta.
+**Definition:** Equipment/infrastructure condition is monitored
+continuously with sensor data instead of scheduled/manual inspection;
+failure is predicted and addressed before an outage.
 
-**Diagnostinen kysymys:** *"Missä nojaatte ajoitettuun tai manuaaliseen
-tarkastukseen jatkuvan mittauksen sijaan, ja mitä suunnittelematon katkos
-siellä maksaisi?"*
+**Diagnostic question:** *"Where do you rely on scheduled or manual
+inspection instead of continuous measurement, and what would an
+unplanned outage there cost?"*
 
-**AI-tyyppi:** Agentic AI / Physical AI
+**AI type:** Agentic AI / Physical AI
 
-**Esimerkkejä toimialalta:**
-- [Energy, Resources & Industrials] *AI-driven predictive maintenance* —
-  laitteiston kunnon valvonta, juurisyyn diagnoosi, ennakoiva huolto.
-- [Energy, Resources & Industrials] *Autonomous drone-based infrastructure
-  inspection* — miehittämättömät, AI-ohjatut tarkastukset voimalinjoilla,
-  putkistoilla, siirtotorneissa.
-- [Energy, Resources & Industrials] *Predictive monitoring for environment
-  health & safety* — näkövalvonta droneilla, roboteilla ja kiinteällä
-  infralla riskien varhaiseen tunnistamiseen.
+**Examples from industry:**
+- [Energy, Resources & Industrials] *AI-driven predictive maintenance*
+  — equipment-condition monitoring, root-cause diagnosis, predictive
+  maintenance.
+- [Energy, Resources & Industrials] *Autonomous drone-based
+  infrastructure inspection* — unmanned, AI-guided inspections of
+  power lines, pipelines, transmission towers.
+- [Energy, Resources & Industrials] *Predictive monitoring for
+  environment health & safety* — visual monitoring by drones, robots,
+  and fixed infrastructure for early risk detection.
 - [Energy, Resources & Industrials] *Inspection of network and utility
-  infrastructure* — satelliitti-, LiDAR- ja dronedatan käyttö
-  rappeutumisen tunnistamiseen.
-- [Financial Services] *Predictive maintenance and autonomous operations
-  for IT infrastructure & ATMs* — reunalaskennan hyödyntäminen käyttöajan
-  varmistamiseksi.
+  infrastructure* — using satellite, LiDAR, and drone data to detect
+  degradation.
+- [Financial Services] *Predictive maintenance and autonomous
+  operations for IT infrastructure & ATMs* — using edge computing to
+  ensure uptime.
 
-**Riskilinssi:** *Safe and secure* — fyysiseen infraan puuttuvan
-automatisoidun toiminnon pitää olla varmistettu virhetilanteita vastaan
-(esim. ihmisen vahvistus ennen fyysistä interventiota).
+**Risk lens:** *Safe and secure* — an automated function that intervenes
+in physical infrastructure needs to be safeguarded against failure
+conditions (e.g. human confirmation before a physical intervention).
 
 ---
 
-### 5. Etulinjan tehtävien ja työnjaon orkestrointi
+### 5. Frontline task and workforce orchestration
 
-**Määritelmä:** Etulinjan työntekijät (kauppa, huoltoteknikot, kaupunki-
-infrastruktuuri) saavat päivän prioriteettinsa staattisesta aikataulusta tai
-esihenkilön arviosta reaaliaikaisen, signaalipohjaisen uudelleenpriorisoinnin
-sijaan.
+**Definition:** Frontline workers (retail staff, service technicians,
+city infrastructure crews) get their day's priorities from a static
+schedule or a supervisor's judgment, instead of real-time,
+signal-driven reprioritization.
 
-**Diagnostinen kysymys:** *"Missä etulinjan työntekijät saavat päivän
-prioriteettinsa staattisesta aikataulusta sen sijaan, että ne mukautuisivat
-reaaliaikaisiin signaaleihin?"*
+**Diagnostic question:** *"Where do frontline workers get their day's
+priorities from a static schedule instead of adapting to real-time
+signals?"*
 
-**AI-tyyppi:** Agentic AI
+**AI type:** Agentic AI
 
-**Esimerkkejä toimialalta:**
-- [Consumer] *Next-generation store operations* — autonominen kaupan sisäisten
-  toimintojen koordinointi reaaliaikaisen tilanteen mukaan.
-- [Energy, Resources & Industrials] *Autonomous field operations management* —
-  tehtävien koordinointi ja etulinjan päätöksenteon automatisointi.
-- [Energy, Resources & Industrials] *Workforce scheduling and dispatch* —
-  huoltohenkilöstön aikataulutus vikaennusteiden perusteella.
+**Examples from industry:**
+- [Consumer] *Next-generation store operations* — autonomous
+  coordination of in-store operations based on real-time conditions.
+- [Energy, Resources & Industrials] *Autonomous field operations
+  management* — task coordination and automated frontline
+  decision-making.
+- [Energy, Resources & Industrials] *Workforce scheduling and
+  dispatch* — scheduling service staff based on failure forecasts.
 - [Government & Public Services] *Smart city operations and urban
-  infrastructure modernization* — kaupunki-infran valvonta ja tehtävien
-  ohjaus reaaliaikaisesti.
+  infrastructure modernization* — monitoring city infrastructure and
+  directing tasks in real time.
 
-**Riskilinssi:** *Responsible and accountable* — kun järjestelmä ohjaa
-ihmisten päivittäistä työtä, pitää olla selvä, kuka kantaa vastuun jos
-priorisointi menee pieleen.
+**Risk lens:** *Responsible and accountable* — when a system directs
+people's daily work, it must be clear who's accountable if the
+prioritization goes wrong.
 
 ---
 
-### 6. Näköohjattu fyysinen käsittely ja laadunvalvonta
+### 6. Vision-guided physical handling and quality control
 
-**Määritelmä:** Ihminen tarkastaa tai käsittelee fyysisiä kohteita visuaalisesti
-toistuvassa, suurivolyymisessa, määritellyn toleranssin tehtävässä — kone-
-näkö + robotiikka tekee saman.
+**Definition:** A human visually inspects or handles physical items in
+a repetitive, high-volume task with defined tolerances — machine vision
++ robotics does the same.
 
-**Diagnostinen kysymys:** *"Missä ihminen tarkastaa tai käsittelee fyysisiä
-kohteita visuaalisesti toistuvassa, suurivolyymisessa tehtävässä, jolla on
-selkeät toleranssirajat?"*
+**Diagnostic question:** *"Where does a human visually inspect or
+handle physical items in a repetitive, high-volume task with clear
+tolerance limits?"*
 
-**AI-tyyppi:** Physical AI
+**AI type:** Physical AI
 
-**Esimerkkejä toimialalta:**
-- [Consumer] *Vision-enabled store operations* — hyllyjen toteutuksen ja
-  planogrammin noudattamisen seuranta konenäöllä.
-- [Consumer] *Robotic stowing and picking system* — robottikäsittely
-  varastohyllyillä konenäön avulla.
-- [Consumer] *Vision-enabled robotic induction* — SKU-vaihtelun käsittely
-  teollisella läpivirtausnopeudella.
-- [Energy, Resources & Industrials] *Autonomous self-calibrating quality and
-  process control* — vikojen tunnistus ja itsekalibroituva prosessinohjaus.
+**Examples from industry:**
+- [Consumer] *Vision-enabled store operations* — monitoring shelf
+  execution and planogram compliance with machine vision.
+- [Consumer] *Robotic stowing and picking system* — robotic warehouse
+  shelf handling using machine vision.
+- [Consumer] *Vision-enabled robotic induction* — handling SKU
+  variation at industrial throughput speed.
+- [Energy, Resources & Industrials] *Autonomous self-calibrating
+  quality and process control* — defect detection and self-calibrating
+  process control.
 - [Energy, Resources & Industrials] *Defect detection for industrial
-  machinery* — konenäköavusteinen tarkastus ihmisvahvistuksella.
+  machinery* — machine-vision-assisted inspection with human
+  confirmation.
 - [Energy, Resources & Industrials] *Precision-critical high-value
-  manufacturing* — tarkkuuskriittinen kokoonpano ihmisvalvonnassa.
+  manufacturing* — precision-critical assembly under human oversight.
 
-**Riskilinssi:** *Robust and reliable* ja *Safe and secure* — konenäön
-virhetunnistus fyysisessä ympäristössä voi aiheuttaa turvallisuusriskin,
-ei vain laatuvirheen.
+**Risk lens:** *Robust and reliable* and *Safe and secure* — a machine-
+vision misdetection in a physical environment can cause a safety risk,
+not just a quality defect.
 
 ---
 
-### 7. Autonominen liikkuva fyysinen operointi (logistiikka/kuljetus)
+### 7. Autonomous mobile physical operation (logistics/transport)
 
-**Määritelmä:** Materiaalia tai ihmisiä siirretään fyysisesti ennalta
-kiinteän reitin/aikataulun mukaan; autonomiset ajoneuvot/robotit havaitsevat
-olosuhteet reaaliajassa ja mukauttavat reittiä, nopeutta ja toteutusta
-liikkeessä.
+**Definition:** Material or people are physically moved along a
+predetermined fixed route/schedule; autonomous vehicles/robots detect
+conditions in real time and adapt the route, speed, and execution on
+the move.
 
-**Diagnostinen kysymys:** *"Missä materiaali tai ihmiset liikkuvat kiinteän
-reitin/aikataulun mukaan sen sijaan että reitti mukautuisi reaaliaikaisiin
-olosuhteisiin?"*
+**Diagnostic question:** *"Where do material or people move along a
+fixed route/schedule instead of the route adapting to real-time
+conditions?"*
 
-**AI-tyyppi:** Physical AI
+**AI type:** Physical AI
 
-**Esimerkkejä toimialalta:**
-- [Consumer] *Autonomous transport for urban mobility services* — kuljettaja-
-  vapaat ajoneuvot henkilö- ja tavarakuljetuksiin.
-- [Consumer] *Fleet telemetry and route optimization* — reunälaskenta
-  ajoneuvoissa reitityksen mukauttamiseksi liikkeessä.
+**Examples from industry:**
+- [Consumer] *Autonomous transport for urban mobility services* —
+  driverless vehicles for passenger and goods transport.
+- [Consumer] *Fleet telemetry and route optimization* — edge computing
+  in vehicles to adapt routing on the move.
 - [Consumer] *Autonomous material movement in consumer fulfillment
-  environments* — AMR-robotit, jotka jakavat tilaa ihmistyöntekijöiden
-  kanssa.
-- [Energy, Resources & Industrials] *Autonomous haulage systems for safe &
-  intelligent mining operations* — autonomiset kaivosrekat ja niiden
-  turvallinen sensoripohjainen koordinointi.
-- [Energy, Resources & Industrials] *Autonomous agriculture and precision
-  farming* — drone- ja maarobottiverkosto peltotoimenpiteisiin.
+  environments* — AMR robots sharing space with human workers.
+- [Energy, Resources & Industrials] *Autonomous haulage systems for
+  safe & intelligent mining operations* — autonomous mining trucks and
+  their safe, sensor-based coordination.
+- [Energy, Resources & Industrials] *Autonomous agriculture and
+  precision farming* — a network of drones and ground robots for
+  field operations.
 
-**Riskilinssi:** *Safe and secure* on hallitseva — ihmisten ja koneiden
-jaettu fyysinen tila vaatii todennettua turvallisuusarkkitehtuuria ennen
-käyttöönottoa.
-
----
-
-### 8. Jatkuva monimuotoinen sisällöntuotanto
-
-**Määritelmä:** Sisällöntuotanto (teksti, kuva, video) on pullonkaulautunut
-pieneen luovaan tiimiin; brändinmukaista luonnosta voitaisiin tuottaa
-jatkuvasti ja trenditietoisesti sen sijaan.
-
-**Diagnostinen kysymys:** *"Missä sisällöntuotanto pullonkaulautuu pieneen
-tiimiin, ja voisiko brändinmukaisia luonnoksia tuottaa jatkuvasti?"*
-
-**AI-tyyppi:** merkitsemätön (generatiivinen AI)
-
-**Esimerkkejä toimialalta:**
-- [Consumer] *Marketing content assistant* — tehokas, yhdenmukainen,
-  personoitu sisällöntuotanto eri modaliteeteissa.
-- [Consumer] *Social media content generation* — autonominen, trenditietoinen
-  monimuotoinen sisällöntuotanto.
-- [Consumer] *Planning for promotions* — promootiosuunnitelmien, neuvottelu-
-  materiaalien ja pitch-deckien valmistelu.
-- Teematasolla myös Technology, Media & Telecommunications -toimialalla:
-  mediaorganisaatiot käyttävät generatiivista AI:ta hyperpersonoituun
-  sisältöön ja editorial-työnkulkujen automatisointiin (raportin teema,
-  ei yksittäinen poimittu case).
-
-**Riskilinssi:** *Transparent and explainable* — automaattisesti tuotetun
-sisällön alkuperä ja tekijänoikeusstatus pitää pystyä jäljittämään.
+**Risk lens:** *Safe and secure* dominates — shared physical space
+between humans and machines requires a validated safety architecture
+before deployment.
 
 ---
 
-### 9. Luonnollisen kielen pääsy yrityksen tietoon
+### 8. Continuous multi-format content production
 
-**Määritelmä:** Päätöksentekijä odottaa analyytikkoa tai erikoisosaajaa
-kääntämään kysymyksen raportiksi, vaikka data on jo olemassa. Luonnollisen
-kielen käyttöliittymä avaa pääsyn suoraan.
+**Definition:** Content production (text, image, video) is bottlenecked
+by a small creative team; on-brand drafts could instead be produced
+continuously and with trend awareness.
 
-**Diagnostinen kysymys:** *"Missä päätöksentekijä odottaa analyytikkoa
-kääntämään kysymyksen raportiksi, vaikka data on jo olemassa?"*
+**Diagnostic question:** *"Where is content production bottlenecked by a
+small team, and could on-brand drafts be produced continuously
+instead?"*
 
-**AI-tyyppi:** merkitsemätön
+**AI type:** untagged (generative AI)
 
-**Esimerkkejä toimialalta:**
-- [Consumer] *Data access for all* — liiketoimintakäyttäjien ohjaus
-  kuluttajadatan oivalluksiin luonnollisen kielen kyselyillä.
+**Examples from industry:**
+- [Consumer] *Marketing content assistant* — efficient, consistent,
+  personalized content production across formats.
+- [Consumer] *Social media content generation* — autonomous,
+  trend-aware multi-format content production.
+- [Consumer] *Planning for promotions* — preparing promotion plans,
+  negotiation materials, and pitch decks.
+- Also at the theme level in Technology, Media & Telecommunications:
+  media organizations using generative AI for hyper-personalized
+  content and automating editorial workflows (a theme from the report,
+  not an individually extracted case).
+
+**Risk lens:** *Transparent and explainable* — the origin and copyright
+status of automatically produced content must be traceable.
+
+---
+
+### 9. Natural-language access to enterprise knowledge
+
+**Definition:** A decision-maker expects an analyst or specialist to
+turn a question into a report, even though the data already exists. A
+natural-language interface opens direct access instead.
+
+**Diagnostic question:** *"Where does a decision-maker expect an analyst
+to turn a question into a report, even though the data already
+exists?"*
+
+**AI type:** untagged
+
+**Examples from industry:**
+- [Consumer] *Data access for all* — guiding business users to
+  consumer-data insights with natural-language queries.
 - [Financial Services] *Business intelligence at your fingertips* —
-  yrityslaajuinen data-haku luonnollisen kielen rajapinnalla.
-- [Government & Public Services] *Digitizing policymaking* — politiikka-
-  dokumenttien haku ja luonnollisen kielen vastaukset monimutkaisissa
-  politiikkaympäristöissä.
-- [Government & Public Services] *Global policy tracking* — julkisen
-  politiikan kehityksen seuranta ja analyysi reaaliajassa satojen maiden
-  yli.
+  enterprise-wide data search with a natural-language interface.
+- [Government & Public Services] *Digitizing policymaking* — searching
+  policy documents and giving natural-language answers in complex
+  policy environments.
+- [Government & Public Services] *Global policy tracking* — real-time
+  tracking and analysis of public-policy developments across hundreds
+  of countries.
 - [Consumer] *Next-level market intelligence* ("Market research") —
-  markkinatutkimuksen nopeuttaminen suurten materiaalimäärien tiivistyksellä.
+  speeding up market research by summarizing large volumes of
+  material.
 
-**Riskilinssi:** *Robust and reliable* — luonnollisen kielen vastaus voi
-näyttää varmalta vaikka data taustalla olisi puutteellista; lähteen
-jäljitettävyys vastauksesta on tärkeä.
+**Risk lens:** *Robust and reliable* — a natural-language answer can
+look confident even when the underlying data is incomplete; source
+traceability from the answer is important.
 
 ---
 
-### 10. Jatkuva compliance- ja riskivalvonta
+### 10. Continuous compliance and risk monitoring
 
-**Määritelmä:** Compliance/riski/petos tarkistetaan tänään jaksottaisella
-syklillä (neljännesvuosittainen audit, pistokoe); jatkuva, monisignaalinen
-valvonta korvaa jaksottaisen tarkistuksen.
+**Definition:** Compliance/risk/fraud is checked today on a periodic
+cycle (quarterly audit, spot check); continuous, multi-signal
+monitoring replaces the periodic check.
 
-**Diagnostinen kysymys:** *"Missä tarkistatte compliancea, riskiä tai
-petosta jaksottaisella syklillä sen sijaan että valvonta olisi jatkuvaa?"*
+**Diagnostic question:** *"Where do you check compliance, risk, or fraud
+on a periodic cycle instead of continuous monitoring?"*
 
-**AI-tyyppi:** Agentic AI / merkitsemätön
+**AI type:** Agentic AI / untagged
 
-**Esimerkkejä toimialalta:**
+**Examples from industry:**
 - [Financial Services] *AI-powered risk management and regulatory
-  compliance* — aina-päällä-compliance-tiimi erikoistuneilla agenteilla.
-- [Financial Services] *Focused cyber* — turva-hälytysten suodatus,
-  analyysi ja priorisointi todellisten uhkien mukaan.
-- [Government & Public Services] *Global policy tracking* — (ks. myös
-  patterni 9 — tämä case istuu kahteen patterniin: tiedonhakuun JA
-  jatkuvaan valvontaan riippuen käyttötarkoituksesta).
+  compliance* — an always-on compliance team with specialized agents.
+- [Financial Services] *Focused cyber* — filtering, analyzing, and
+  prioritizing security alerts by real threat level.
+- [Government & Public Services] *Global policy tracking* — (see also
+  pattern 9 — this case sits in two patterns: information retrieval
+  AND continuous monitoring, depending on how it's used).
 
-**Riskilinssi:** *Responsible and accountable* — jatkuva automaattinen
-valvonta ei saa hämärtää sitä, kuka tekee lopullisen eskalointipäätöksen.
-
----
-
-### 11. AI-nopeutettu suunnittelu- ja tutkimussilmukka
-
-**Määritelmä:** T&K/suunnitteluprosessi etenee hitaana, porttivaiheistettuna
-syklinä, jossa vain harvat mahdollisista vaihtoehdoista koskaan tutkitaan.
-Simulaatio/generointi mahdollistaa nopeamman iteroinnin laajemmalla
-vaihtoehtoavaruudella.
-
-**Diagnostinen kysymys:** *"Missä T&K/suunnitteluprosessinne etenee hitaana,
-porttivaiheistettuna syklinä, jossa vain harvat mahdollisista vaihtoehdoista
-koskaan tutkitaan?"*
-
-**AI-tyyppi:** Agentic AI / Physical AI (simulaatio)
-
-**Esimerkkejä toimialalta:**
-- [Consumer] *AI-orchestrated product design* — koko tuotesuunnittelun
-  elinkaaren orkestrointi markkinasensoroinnista iterointiin.
-- [Energy, Resources & Industrials] *Materials design* — laajempi
-  materiaalien design-avaruus ja nopeutettu ominaisuusoptimointi.
-- [Energy, Resources & Industrials] *Site design generation* — site-
-  suunnittelun automatisointi ja ajan/kustannusten pienentäminen.
-- [Energy, Resources & Industrials] *Hydrocarbon reservoir exploration* —
-  löydösasteen optimointi ja riskien vähentäminen sijainnin
-  karakterisoinnissa.
-- [Energy, Resources & Industrials] *Simulation-first development & digital
-  twins* — fyysisten järjestelmien validointi virtuaalisesti ennen
-  käyttöönottoa.
-
-**Riskilinssi:** *Robust and reliable* — simulaatiopohjaisen mallin
-tarkkuus pitää validoida oikeaa maailmaa vasten ennen kuin sen tuottamiin
-suunnitelmiin nojataan täysin.
+**Risk lens:** *Responsible and accountable* — continuous automated
+monitoring must not obscure who makes the final escalation decision.
 
 ---
 
-### 12. Simulaatiopohjainen asiantuntemuksen skaalaus
+### 11. AI-accelerated design and research loop
 
-**Määritelmä:** Asiantuntijaosaaminen on pullonkaulautunut harvoihin
-ihmisiin, jotka eivät voi olla kaikkialla; digitaalinen kaksonen tai
-simulaatio antaa useammalle mahdollisuuden harjoitella turvallisesti tai
-saada etäasiantuntijatukea.
+**Definition:** An R&D/design process proceeds as a slow, gate-staged
+cycle in which only a few of the possible alternatives are ever
+explored. Simulation/generation enables faster iteration across a
+wider option space.
 
-**Diagnostinen kysymys:** *"Missä asiantuntijaosaaminen on pullonkaulautunut
-harvoihin ihmisiin, jotka eivät voi olla kaikkialla?"*
+**Diagnostic question:** *"Where does your R&D/design process proceed as
+a slow, gate-staged cycle in which only a few of the possible
+alternatives are ever explored?"*
 
-**AI-tyyppi:** Physical AI (simulaatio/AR-VR)
+**AI type:** Agentic AI / Physical AI (simulation)
 
-**Esimerkkejä toimialalta:**
+**Examples from industry:**
+- [Consumer] *AI-orchestrated product design* — orchestrating the
+  entire product-design lifecycle from market sensing to iteration.
+- [Energy, Resources & Industrials] *Materials design* — a wider
+  materials design space and accelerated property optimization.
+- [Energy, Resources & Industrials] *Site design generation* —
+  automating site design and cutting time/cost.
+- [Energy, Resources & Industrials] *Hydrocarbon reservoir
+  exploration* — optimizing discovery rates and reducing risk in site
+  characterization.
+- [Energy, Resources & Industrials] *Simulation-first development &
+  digital twins* — validating physical systems virtually before
+  deployment.
+
+**Risk lens:** *Robust and reliable* — a simulation-based model's
+accuracy needs to be validated against the real world before its
+resulting designs are fully relied upon.
+
+---
+
+### 12. Simulation-based expertise scaling
+
+**Definition:** Expert know-how is bottlenecked in a small number of
+people who can't be everywhere; a digital twin or simulation lets more
+people practice safely or get remote expert support.
+
+**Diagnostic question:** *"Where is expert know-how bottlenecked in a
+small number of people who can't be everywhere?"*
+
+**AI type:** Physical AI (simulation/AR-VR)
+
+**Examples from industry:**
 - [Energy, Resources & Industrials] *Personalized OHS training* —
-  personoitu, immersiivinen työturvallisuuskoulutus realistisilla
-  skenaarioilla.
-- [Energy, Resources & Industrials] *Simulation-driven remote operations
-  and training* — AR/VR-digitaaliset kaksoset offshore-laitoksista
-  etäasiantuntijatukea varten.
+  personalized, immersive occupational-safety training with realistic
+  scenarios.
+- [Energy, Resources & Industrials] *Simulation-driven remote
+  operations and training* — AR/VR digital twins of offshore
+  facilities for remote expert support.
 
-**Riskilinssi:** *Safe and secure* — simulaatiokoulutuksen pitää vastata
-riittävän tarkasti oikeaa ympäristöä, jotta opittu käyttäytyminen siirtyy
-turvallisesti oikeaan tilanteeseen.
+**Risk lens:** *Safe and secure* — simulation training needs to match
+the real environment closely enough that the learned behavior transfers
+safely to the real situation.
 
 ---
 
-### 13. AI-avusteinen ohjelmistokehitys
+### 13. AI-assisted software development
 
-**Määritelmä:** Kehittäjät kirjoittavat, testaavat, dokumentoivat ja
-debuggaavat koodia manuaalisesti; AI-avusteiset työkalut nopeuttavat samaa
-työtä ilman että kehittäjän rooli katoaa.
+**Definition:** Developers write, test, document, and debug code
+manually; AI-assisted tools speed up the same work without the
+developer's role disappearing.
 
-**Diagnostinen kysymys:** *"Missä kehitystiiminne käyttää suurimman osan
-ajastaan rutiininomaiseen koodin kirjoittamiseen, testaamiseen tai
-dokumentointiin, joka voisi olla AI-avusteista?"*
+**Diagnostic question:** *"Where does your development team spend most
+of its time on routine code writing, testing, or documentation that
+could be AI-assisted?"*
 
-**AI-tyyppi:** merkitsemätön / Agentic AI
+**AI type:** untagged / Agentic AI
 
-**Esimerkkejä toimialalta:**
+**Examples from industry:**
 - [Consumer] *Code assist for developers* ("Augmented developer") —
-  sovellusten ja alustojen kehityksen ja ylläpidon tuki.
-- [Financial Services] *Transformation with speed and confidence* ("Code
-  assistant for digital transformation") — pankkien digitalisaation
-  nopeuttaminen koodiavustimilla.
-- Teematasolla myös Technology, Media & Telecommunications -toimialalla:
-  kehittäjät käyttävät AI-työkaluja koodin kirjoittamiseen, testaamiseen,
-  dokumentointiin ja debuggaamiseen nopeammin, ja IT-operaatiotiimit
-  ottavat käyttöön agentteja järjestelmien valvontaan, katkosennustukseen
-  ja automaattiseen ratkaisuun (raportin teema, ei yksittäinen poimittu
-  case).
+  support for developing and maintaining applications and platforms.
+- [Financial Services] *Transformation with speed and confidence*
+  ("Code assistant for digital transformation") — accelerating banks'
+  digital transformation with code assistants.
+- Also at the theme level in Technology, Media & Telecommunications:
+  developers using AI tools to write, test, document, and debug code
+  faster, and IT-operations teams deploying agents for system
+  monitoring, outage prediction, and automated resolution (a theme
+  from the report, not an individually extracted case).
 
-**Riskilinssi:** *Robust and reliable* — AI-generoitu koodi tarvitsee saman
-tai tiukemman testauskurin kuin ihmisen kirjoittama, ei löysempää.
+**Risk lens:** *Robust and reliable* — AI-generated code needs the same
+or tighter testing discipline as human-written code, not looser.
 
 ---
 
-## Ristiintarkistus toisella lähteellä
+## Cross-check against the second source
 
-Toinen, riippumaton toimialan AI-käyttötapauskooste (63 käyttötapausta, 16
-funktiota) osoittaa n. 75 %:n arvioidusta arvosta keskittyvän neljään
-funktioon: **asiakasoperaatiot, markkinointi & myynti, ohjelmistokehitys,
-T&K.** Yllä oleva 13 patternin kirjasto peittää kaikki neljä: patternit 3 ja 2
-(asiakasoperaatiot/dokumenttivalidointi), patternit 8 ja 1 (markkinointi &
-myynti), patterni 13 (ohjelmistokehitys), patternit 11–12 (T&K). Tämä ei ole
-sattumaa — se on kohtuullinen ristiintarkistus siitä, että kuratointi ei ole
-jättänyt suurinta arvoa tuottavia alueita ulkopuolelle.
+A second, independent industry AI use-case digest (63 use cases, 16
+functions) shows roughly 75% of estimated value concentrated in four
+functions: **customer operations, marketing & sales, software
+development, R&D.** The 13-pattern library above covers all four:
+patterns 3 and 2 (customer operations/document validation), patterns 8
+and 1 (marketing & sales), pattern 13 (software development), patterns
+11–12 (R&D). This isn't a coincidence — it's a reasonable cross-check
+that the curation hasn't left out the areas producing the most value.
 
-## Miten kirjastoa käytetään ja miten sitä laajennetaan
+## How to use and extend this library
 
-Ks. `../skills/ai-capability-pattern-matching/SKILL.md` käyttöohjeelle.
-Uusia patterneja lisätessä: seuraa samaa nelikysymysabstraktiota kuin
-`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`
-kuvaa, vaadi vähintään kolme aidosti erilaista esimerkkiä ennen kuin nimeät
-uuden patternin, ja merkitse lähde aina selvästi (mistä raportista/casesta
-esimerkki on poimittu) — älä koskaan lisää esimerkkiä muistista.
+See `../skills/ai-capability-pattern-matching/SKILL.md` for usage
+instructions. When adding new patterns: follow the same four-question
+abstraction described in
+`../../opportunity-recognition/skills/pattern-and-analogy-connector/SKILL.md`,
+require at least three genuinely different examples before naming a new
+pattern, and always mark the source clearly (which report/case the
+example was drawn from) — never add an example from memory.

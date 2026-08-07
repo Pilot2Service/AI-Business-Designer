@@ -1,49 +1,52 @@
 # Contributing — AI Business Designer Skills
 
-## Suunnitteluperiaate
+## Design principle
 
-SKILL.md koodaa oikean toiminnan; pakin CLAUDE.md on varaverkko. Jos skillin oikea
-lopputulos riippuu siitä, että CLAUDE.md pelastaa virheen, se on suunnitteluvirhe — vie
-tieto SKILL.md:hen. (Periaate omaksuttu toisen Claude-plugin-markkinapaikan
-rakenneanalyysistä.)
+SKILL.md encodes correct behavior; the pack's CLAUDE.md is a safety net. If
+a skill's correct outcome depends on CLAUDE.md catching a mistake, that's a
+design flaw — move the information into the SKILL.md. (Principle adopted
+from a structural analysis of another Claude plugin marketplace.)
 
-## Uuden skillin lisääminen
+## Adding a new skill
 
-1. Kopioi `templates/skill-template/SKILL.md` oikeaan pakkiin
-   (`<pack>/skills/<uusi-skilli-id>/SKILL.md`).
-2. Frontmatterissa **vain** `name` ja `description` — ei muita kenttiä. `name` on
-   kebab-case ja sama kuin kansion nimi. `description` kertoo mitä skilli tekee ja
-   milloin se triggeröityy.
-3. Kirjoita `Tarkoitus`, `Ankkurointi tutkimukseen` ja `Rakenne` -osiot ensin — nämä
-   voivat pohjautua julkiseen tutkimukseen/kehykseen.
-4. Kirjoita `Mitä tämä skilli EI tee` -osio — vähintään yksi skillikohtainen rajaus
-   yleisten lisäksi.
-5. Lisää `Jatka tästä` -linkit: mihin skilliin tästä luontevasti siirrytään (saman pakin
-   sisällä ja tarvittaessa toiseen pakkiin).
-6. Jätä `[OWNER INPUT — täydennettävä]`-osio auki kunnes sinulla on oikeasti oma,
-   validoitu sisältö sille. Älä täytä sitä geneerisellä tekstillä.
-7. **Aja `python3 scripts/generate_index.py`** — päivittää `skills_index.json` levyltä ja
-   frontmattereista. Älä muokkaa `skills_index.json`:ia käsin.
-8. **Aja `python3 scripts/validate.py` ennen commitia.** Sen pitää olla vihreä.
+1. Copy `templates/skill-template/SKILL.md` into the right pack
+   (`<pack>/skills/<new-skill-id>/SKILL.md`).
+2. Frontmatter has **only** `name` and `description` — no other fields.
+   `name` is kebab-case and matches the folder name. `description` states
+   what the skill does and when it triggers.
+3. Write the `Purpose`, `Anchored in research`, and `Method` sections
+   first — these can draw on public research/frameworks.
+4. Write the `What this skill does NOT do` section — at least one
+   skill-specific scope limit in addition to the general ones.
+5. Add `Continue from here` links: which skill this naturally leads to
+   next (within the same pack and, where relevant, into another pack).
+6. Leave the `[OWNER INPUT — to be completed]` section open until you
+   actually have your own, validated content for it. Don't fill it with
+   generic text.
+7. **Run `python3 scripts/generate_index.py`** — updates `skills_index.json`
+   from disk and frontmatter. Don't edit `skills_index.json` by hand.
+8. **Run `python3 scripts/validate.py` before committing.** It must pass.
 
-## Uuden erikoistumispakin lisääminen
+## Adding a new specialisation pack
 
-Käytä `templates/specialisation-pack-template/README.md`-pohjaa ja lisää se
-`specialisation-packs/`-kansioon. Noudata samaa `skills/` + `references/` + `cases/`
--rakennetta kuin ydinpakeissa. Lisää tarvittaessa oma `CLAUDE.md`.
+Use the `templates/specialisation-pack-template/README.md` template and add
+it to the `specialisation-packs/` folder. Follow the same `skills/` +
+`references/` + `cases/` structure as the core packs. Add your own
+`CLAUDE.md` if needed.
 
-## Kypsyystason nostaminen
+## Raising a skill's maturity
 
-Kun `[OWNER INPUT]`-osio on täytetty ja käytetty vähintään kerran oikeassa tilanteessa:
-päivitä `skills_index.json`:n `maturity: scaffold` → `draft` (aja generate_index.py
-uudelleen dokumentoinnin jälkeen, tai päivitä käsin ja validoi). Kun sisältö on
-validoitu useammassa tilanteessa: → `validated`. `canonical` on varattu vakiintuneille,
-organisaation viralliseksi standardiksi nostetuille skilleille.
+Once the `[OWNER INPUT]` section is filled in and the skill has been used at
+least once in a real situation: update `skills_index.json`'s `maturity:
+scaffold` → `draft` (rerun generate_index.py after documenting, or update
+by hand and validate). Once the content has been validated across several
+situations: → `validated`. `canonical` is reserved for established
+techniques elevated to the organization's official standard.
 
-## Nimeämiskonventiot
+## Naming conventions
 
-- Skilli-id: `kebab-case`, verbitön substantiivimuoto (esim. `business-case-builder`)
-- Pakin kansio: pelkkä domain-nimi, **ei numeroprefiksiä** (`strategic-thinking`, ei
-  `01-strategic-thinking`) — plugin-lähteet viitataan nimellä `marketplace.json`:ssa,
-  ei järjestyksellä.
-- Ei erikoismerkkejä, ei isoja kirjaimia kansio-/tiedostonimissä
+- Skill ID: `kebab-case`, verb-free noun form (e.g. `business-case-builder`)
+- Pack folder: domain name only, **no number prefix**
+  (`strategic-thinking`, not `01-strategic-thinking`) — plugin sources are
+  referenced by name in `marketplace.json`, not by order.
+- No special characters, no uppercase letters in folder/file names

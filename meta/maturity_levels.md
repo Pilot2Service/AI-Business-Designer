@@ -1,15 +1,16 @@
 # Maturity Levels
 
-Kypsyystaso ei ole SKILL.md-frontmatterissa (ks. `frontmatter_schema.md`) vaan
-`skills_index.json`:ssa jokaisella skillillä.
+Maturity is not in the SKILL.md frontmatter (see `frontmatter_schema.md`) —
+it lives in `skills_index.json`, per skill.
 
-| Taso | Merkitys | Kuka voi asettaa |
+| Level | Meaning | Who can set it |
 |---|---|---|
-| `scaffold` | Rakenne ja ankkurointi valmis, omaa kokemusta ei vielä lisätty | Oletusarvo uudelle skillille |
-| `draft` | `[OWNER INPUT]` täytetty, käytetty kerran käytännössä, ei vielä validoitu laajemmin | Omistaja |
-| `validated` | Käytetty useammassa oikeassa tilanteessa, toimivaksi todettu | Omistaja |
-| `canonical` | Vakiintunut, organisaation viralliseksi standardiksi nostettu tekniikka | Omistaja |
+| `scaffold` | Structure and anchoring are in place; own experience not yet added | Default for a new skill |
+| `draft` | `[OWNER INPUT]` filled in, used once in practice, not yet validated more broadly | Owner |
+| `validated` | Used in several real situations, proven to work | Owner |
+| `canonical` | Established, elevated to the organization's official standard technique | Owner |
 
-**Agentin luottamussääntö:** `canonical` > `validated` > `draft` > `scaffold`.
-`scaffold`-tason sisältöä saa käyttää rakenteena, mutta agentin tulee tehdä näkyväksi,
-että omaa validoitua kokemusta ei vielä ole liitetty (ks. pakin `CLAUDE.md`).
+**Agent trust rule:** `canonical` > `validated` > `draft` > `scaffold`.
+`scaffold`-level content may be used as structure, but the agent must make
+visible that no own validated experience has been added yet (see the
+pack's `CLAUDE.md`).

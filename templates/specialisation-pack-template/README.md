@@ -6,9 +6,9 @@ last_reviewed: YYYY-MM-DD
 
 # TODO Specialisation Pack Title [SCAFFOLD]
 
-TODO: yhden kappaleen kuvaus siitä, mitä tämä erikoistumisalue kattaa.
+TODO: a one-paragraph description of what this specialisation area covers.
 
-## Ehdotettu rakenne
+## Suggested structure
 
 ```
 skills/
@@ -16,6 +16,6 @@ references/
 cases/
 ```
 
-## Kysymyksiä täydentämisen tueksi
+## Questions to help fill this in
 
 - TODO

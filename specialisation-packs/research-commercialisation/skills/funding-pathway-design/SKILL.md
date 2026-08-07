@@ -1,55 +1,82 @@
 ---
 name: funding-pathway-design
-description: "Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoituksen oikeassa järjestyksessä, ja hallitse runwayta."
+description: "Build a funding strategy that combines non-dilutive and dilutive funding in the right order, and manage runway."
 ---
 
 # Funding Pathway Design
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoituksen oikeassa järjestyksessä, ja hallitse runwayta.
+Build a funding strategy that combines non-dilutive and dilutive funding in
+the right order, and manage runway.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "How Spin-outs Are Funded?" (s. 34-45) — käsikirjan laajin luku.
+the owner's published commercialisation guide (owner, 2025). Chapter "How
+Spin-outs Are Funded?" (pp. 34-45) — the handbook's longest chapter.
 
-- EIC Accelerator, EIC Pathfinder/Transition, SBIR/STTR (USA), Eurostars, kansalliset PoC-rahastot
-- EIC Impact Report 2025: yli 1 mrd € investoitu 272 yhtiöön, yli 3 € yksityistä pääomaa mobilisoitu per 1 € EIC-rahoitusta
-- University venture funds (esim. Oxford Science Enterprises, Stanfordin StartX)
-- Verokannustimet: UK EIS/SEIS, Ranska JEI
+- EIC Accelerator, EIC Pathfinder/Transition, SBIR/STTR (USA), Eurostars,
+  national PoC funds
+- EIC Impact Report 2025: over €1bn invested in 272 companies, over €3 of
+  private capital mobilised per €1 of EIC funding
+- University venture funds (e.g. Oxford Science Enterprises, Stanford's
+  StartX)
+- Tax incentives: UK EIS/SEIS, France JEI
 
-## Rakenne
+## Method
 
-1. Kartoita dilutoimattomat lähteet ensin: proof-of-concept-rahastot (oma organisaatio, NSF I-Corps, Innovate UK, ERC PoC, EIC Pathfinder/Transition), kansalliset kaupallistamisohjelmat (NSERC I2I, CRCP ym.).
-2. Kartoita suuremmat julkiset ohjelmat skaalausvaiheeseen: EIC Accelerator (grantti + equity, jopa 2,5 M€ grantti + 15 M€ equity), SBIR/STTR-vaiheet, alueelliset vastineet.
-3. Kun tekninen/kaupallinen todiste on olemassa, siirry dilutoivaan rahoitukseen: enkelisijoittajat → yliopiston oma venture-rahasto (jos sellainen on) → VC (Series A, B...).
-4. Valitse sijoittajat harkiten: etsi track recordia omalta sektoriltasi/deep techistä; varo kokemattomia sijoittajia, jotka voivat jumittaa diilin epästandardeilla ehdoilla.
-5. Harkitse kansainvälisiä ja erikoistuneita rahoituslähteitä (impact-sijoittajat, säätiöt), jos innovaatiolla on sosiaalinen tai ympäristöulottuvuus.
-6. Huomioi verokannustimet (esim. UK EIS/SEIS, Ranska JEI) — ne madaltavat sijoittajan riskiä ja helpottavat rahan keräämistä.
-7. Hallitse runwayta tietoisesti: seuraa burn ratea, käynnistä seuraava kierros ajoissa, käytä rahaa arvoa luoviin asioihin (validoitu IP, prototyypit, hyväksynnät, asiakastraktio) — ei toimistoihin tai muihin ei-kriittisiin kuluihin.
-8. Rakenna rahoituspolku vaiheittain, esimerkiksi: v0 siemenraha prototyyppiin → v1 yhtiöitys + PoC-grantti + enkeli → v2 EIC/SBIR-vaiheen rahoitus → v3 Series A todistetun edistymisen pohjalta.
-9. Rakenna suhteita rahoittajiin ja sijoittajiin ENNEN kuin tarvitset rahaa — varhainen sitoutuminen vahvistaa hakemusta/pitchiä merkittävästi.
+1. Map non-dilutive sources first: proof-of-concept funds (your own
+   organisation, NSF I-Corps, Innovate UK, ERC PoC, EIC Pathfinder/Transition),
+   national commercialisation programmes (NSERC I2I, CRCP, etc.).
+2. Map larger public programmes for the scale-up stage: EIC Accelerator
+   (grant + equity, up to €2.5M grant + €15M equity), SBIR/STTR phases,
+   regional equivalents.
+3. Once technical/commercial proof exists, move to dilutive funding: angel
+   investors → the university's own venture fund (if one exists) → VC
+   (Series A, B...).
+4. Choose investors carefully: look for a track record in your sector/deep
+   tech; be wary of inexperienced investors who can stall a deal with
+   non-standard terms.
+5. Consider international and specialised funding sources (impact investors,
+   foundations) if the innovation has a social or environmental dimension.
+6. Note tax incentives (e.g. UK EIS/SEIS, France JEI) — they lower the
+   investor's risk and make it easier to raise money.
+7. Manage runway deliberately: track burn rate, start the next round in time,
+   spend money on value-creating things (validated IP, prototypes, approvals,
+   customer traction) — not on offices or other non-critical costs.
+8. Build the funding pathway in stages, for example: v0 seed money for a
+   prototype → v1 incorporation + PoC grant + angel → v2 EIC/SBIR-phase
+   funding → v3 Series A on the back of proven progress.
+9. Build relationships with funders and investors BEFORE you need money —
+   early engagement significantly strengthens an application/pitch.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei laske tarkkaa ROI/NPV-mallia puolestasi — katso `business-case-and-analysis:roi-npv-sensitivity-model`.
-- Ei anna sijoitusneuvontaa.
-- Ei takaa tietyn rahoitusohjelman saatavuutta tai ehtoja — ohjelmat muuttuvat, tarkista ajantasaiset tiedot suoraan rahoittajalta.
+- Does not calculate a precise ROI/NPV model for you — see
+  `business-case-and-analysis:roi-npv-sensitivity-model`.
+- Does not give investment advice.
+- Does not guarantee the availability or terms of a specific funding
+  programme — programmes change, check current details directly with the
+  funder.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../commercialisation-journey-roadmap/SKILL.md` — Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoinen roadmap, joka yhdistää vaiheportaat ketterään iterointiin.
-- Liittyvä skilli toisessa pakissa: `../../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../commercialisation-journey-roadmap/SKILL.md` —
+  Structure the entire commercialisation journey into five stages and build
+  an actionable roadmap that ties stage gates to agile iteration.
+- Related skill in another pack:
+  `../../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

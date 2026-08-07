@@ -1,16 +1,18 @@
 # Repo Purpose
 
-Tämä repo on AI Business Designer -roolin skills-pack: koneluettava, versioitu kokoelma
-liiketoiminta-analyysi-, strategia- ja AI-strategiatekniikoita Claude Code / Cowork
--ympäristöön.
+This repo is the AI Business Designer role's skills pack: a machine-readable,
+versioned collection of business analysis, strategy, and AI-strategy
+techniques for Claude Code / Cowork.
 
-Se ei ole:
-- system prompt tai agenttikoodi
-- valmis raportti tai konsulttiaineisto
-- geneerinen "best practice" -kokoelma ilman ankkurointia
+It is **not**:
+- a system prompt or agent code
+- a finished report or consulting deliverable
+- a generic "best practice" collection with no anchoring
 
-Se on:
-- tutkimuspohjainen runko, ankkuroitu julkisiin viitekehyksiin ja menetelmiin
-  (ks. jokaisen skillin "Ankkurointi tutkimukseen" -osio)
-- rakenne, jota täydennetään omalla validoidulla osaamisella ajan myötä
-- pysyvä perusta, joka säilyy AI-mallista tai agenttialustasta riippumatta
+It **is**:
+- a research-grounded scaffold, anchored to public frameworks and methods
+  (see each skill's "Anchored in research" section)
+- a structure meant to be filled in with your own validated expertise over
+  time
+- a durable foundation that survives independently of any given AI model or
+  agent platform

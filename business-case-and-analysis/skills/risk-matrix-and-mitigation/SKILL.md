@@ -1,58 +1,84 @@
 ---
 name: risk-matrix-and-mitigation
-description: "Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään."
+description: "Identifies and scores risks (probability × impact) and designs mitigations. Use when you need business-case-and-analysis-level support for a comparable task."
 ---
 
 # Risk Matrix & Mitigation
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit.
+Identifies and scores risks (probability × impact) and designs mitigations.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - ISO 31000
-- PMI riskienhallinta
+- PMI risk management
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Establish context and criteria first** (ISO 31000): what's the scope of
+   this risk assessment, and what probability/impact scale and
+   risk-acceptance threshold will be used? Skipping this step produces a risk
+   matrix that can't be compared across projects.
+2. **Identify risks systematically, not just the ones top of mind** — walk
+   through each project phase, stakeholder group, and dependency (PMI
+   identification techniques: brainstorming, checklists, assumption
+   analysis, SWOT) and log each one as a discrete entry in a risk register
+   with a clear risk statement (cause → risk event → effect).
+3. **Score each risk on probability and impact on a defined scale** (e.g. 1–5
+   on each axis) and plot it on a 5×5 matrix — the score, not gut feel,
+   ranks which risks get attention first.
+4. **For each risk above the acceptance threshold, select a PMI response
+   strategy:** avoid (eliminate the cause), mitigate (reduce probability or
+   impact), transfer (insurance, contract, third party), or accept (with a
+   documented rationale, appropriate for low-priority risks) — and assign an
+   owner and a trigger condition for each.
+5. **Distinguish residual risk (what remains after mitigation) from the
+   original score** — a mitigation plan that isn't re-scored against the
+   same criteria understates what's still open.
+6. **Set a monitoring and review cadence** (ISO 31000's continuous-review
+   loop) — a risk register is a living document; a matrix built once at
+   project start and never revisited misses new and materialized risks.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei poista riskiä — tekee sen näkyväksi ja jäsentää mitigointivaihtoehdot.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't eliminate risk — it makes it visible and structures the mitigation
+  options.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Kun tämä vaihe on valmis, siirry pakkiin `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- When this step is done, move to
+  [`../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`](../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md)
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

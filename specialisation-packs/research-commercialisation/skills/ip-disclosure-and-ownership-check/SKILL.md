@@ -1,51 +1,71 @@
 ---
 name: ip-disclosure-and-ownership-check
-description: "Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oikea-aikainen keksintöilmoitus ennen julkista paljastamista."
+description: "Establish who owns the IP arising from a research result and make a timely invention disclosure before public disclosure."
 ---
 
 # IP Disclosure & Ownership Check
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oikea-aikainen keksintöilmoitus ennen julkista paljastamista.
+Establish who owns the IP arising from a research result and make a timely
+invention disclosure before public disclosure.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Understanding IP and University Policies" (s. 23-26).
+the owner's published commercialisation guide (owner, 2025). Chapter
+"Understanding IP and University Policies" (pp. 23-26).
 
-- Bayh–Dole Act (1980, USA) — malli jossa yliopisto omistaa liittovaltion rahoittaman tutkimuksen keksinnöt
-- Professorin privilegio (historiallisesti mm. Ruotsi, Italia, Saksa) — poikkeus yliopisto-omistukseen
-- USIT-ohje: benchmark-vaihteluväli yliopisto-equitylle (esim. 10-25 % korkean tuen skenaariossa; ohjelmistoissa usein ≤10 %; life sciencessä jopa 25 %)
+- Bayh–Dole Act (1980, USA) — a model in which the university owns inventions
+  from federally funded research
+- Professor's privilege (historically e.g. Sweden, Italy, Germany) — an
+  exception to university ownership
+- USIT guidance: benchmark range for university equity (e.g. 10-25% in a
+  high-support scenario; often ≤10% in software; up to 25% in life sciences)
 
-## Rakenne
+## Method
 
-1. Tarkista oman organisaatiosi IP-policy: omistaako instituutio IP:n kokonaan, osittain, vai onko voimassa professorin privilegio?
-2. Tee muodollinen keksintöilmoitus TTO:lle ENNEN julkista paljastusta (julkaisu, konferenssiposteri, some) — useimmissa maissa patentti pitää hakea ennen julkistusta tai patentoitavuus menetetään.
-3. Dokumentoi keksinnön synty ja kehitys huolellisesti — auttaa patenttihakemuksissa ja omistajuuden todistamisessa.
-4. Käytä NDA:ta kun jaat yksityiskohtia ulkopuolisille ennen suojan varmistamista.
-5. Selvitä opiskelijoiden ja monen instituution yhteishankkeiden IP — opiskelijat eivät automaattisesti ole työntekijöitä, omistajuus vaihtelee ja pitää sopia etukäteen.
-6. Neuvottele equity-/rojaltiehdot tietoisena benchmarkeista (ks. yllä) — vältä tilanne, jossa yliopisto ottaa samanaikaisesti korkean equityn + rojaltit + maksut.
-7. Jos organisaatiossasi on opt-out-mahdollisuus (oma IP-omistus), punnitse hyödyt/haitat huolella — vapaus tuo myös kustannukset ja vastuun patentoinnista.
+1. Check your own organisation's IP policy: does the institution own the IP
+   entirely, partially, or does the professor's privilege apply?
+2. Make a formal invention disclosure to the TTO BEFORE public disclosure
+   (publication, conference poster, social media) — in most countries a
+   patent must be filed before public disclosure or patentability is lost.
+3. Document the invention's origin and development carefully — this helps
+   with patent applications and proving ownership.
+4. Use an NDA when sharing details with outside parties before protection is
+   secured.
+5. Clarify the IP position of students and multi-institution collaborations —
+   students are not automatically employees, ownership varies and must be
+   agreed in advance.
+6. Negotiate equity/royalty terms with awareness of the benchmarks (see
+   above) — avoid a situation where the university simultaneously takes high
+   equity plus royalties plus fees.
+7. If your organisation offers an opt-out option (retaining your own IP
+   ownership), weigh the pros/cons carefully — freedom also brings costs and
+   the responsibility for patenting.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei korvaa IP-asianajajaa tai TTO:n virallista arviota.
-- Ei laadi patenttihakemusta.
-- Ei tulkitse oman organisaatiosi tarkkaa policy-tekstiä puolestasi — hae se ja lue itse; tämä skilli jäsentää mitä kysyä.
+- Does not replace IP counsel or the TTO's formal assessment.
+- Does not draft a patent application.
+- Does not interpret your own organisation's exact policy text for you —
+  obtain it and read it yourself; this skill structures what to ask.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../tto-engagement-strategy/SKILL.md` — Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista milloin tarvitaan ulkopuolista tukea sen rinnalle.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../tto-engagement-strategy/SKILL.md` — Use the
+  Technology Transfer Office (TTO) effectively and recognise when outside
+  support is needed alongside it.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

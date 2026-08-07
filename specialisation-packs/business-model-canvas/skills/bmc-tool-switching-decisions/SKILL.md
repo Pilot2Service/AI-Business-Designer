@@ -1,134 +1,137 @@
 ---
 name: bmc-tool-switching-decisions
-description: "Päättää milloin siirtyä BMC:stä toiseen työkaluun (Value Proposition Canvas, Lean Canvas, Mission Model Canvas, taloudellinen mallinnus, useampi rinnakkainen canvas) ja arvioi canvasin, hypoteesin ja segmentin laadun kolmella päätöskriteeristöllä ennen testausvaiheeseen siirtymistä."
+description: "Decides when to move from the BMC to another tool (Value Proposition Canvas, Lean Canvas, Mission Model Canvas, financial modeling, multiple parallel canvases) and assesses the quality of the canvas, hypothesis, and segment using three decision criteria before moving to the testing phase."
 ---
 
 # BMC Tool Switching Decisions
 
-*Tila: `scaffold`, `source_layer: research` — ks. `../../../../skills_index.json` ja
+*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Auttaa tunnistamaan, kun BMC ei enää ole (tai ei koskaan ollut) oikea
-työkalu käsillä olevaan kysymykseen, ja mihin siirtyä sen sijaan. Sisältää
-myös kolme päätöskriteeristöä, jotka määrittävät milloin canvas,
-hypoteesi tai segmentti on riittävän laadukas edetäkseen seuraavaan
-vaiheeseen.
+Helps recognize when the BMC is no longer (or never was) the right tool
+for the question at hand, and what to switch to instead. Also includes
+three decision criteria that determine when a canvas, hypothesis, or
+segment is good enough to move to the next phase.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-Perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
-(`30_domain_packs/bmc/facilitation/tool_switching_logic.md` ja kolme
-`08_decision_model/decision_types/*.md`-tiedostoa — kaikki
-`status: template`, `source: research_layer`), synteesi Jeffriesin,
-Strategyzerin, Ash Mauryan (Lean Canvas), Blankin (Mission Model
-Canvas) ja van der Lindenin lähteistä.
+Based on the owner's private research layer (an April 2026 expert
+interview)
+(`30_domain_packs/bmc/facilitation/tool_switching_logic.md` and three
+`08_decision_model/decision_types/*.md` files — all
+`status: template`, `source: research_layer`), a synthesis drawing on
+Jeffries, Strategyzer, Ash Maurya (Lean Canvas), Blank (Mission Model
+Canvas), and van der Linden.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-### A. Milloin vaihtaa työkalua
+### A. When to switch tools
 
-1. **Siirry Value Proposition Canvasiin (VPC)**, kun tiimi ei pysty
-   selkeästi artikuloimaan asiakkaan töitä, kipuja ja hyötyjä
-   pääsegmentille — BMC:n arvolupauslohko on liian pieni tähän työhön.
-   VPC on monissa ammattikäytännöissä esityö ENNEN BMC-sessiota, ei
-   pakotie siitä.
-2. **Siirry Lean Canvasiin**, kun ensisijainen epävarmuus on
-   ongelma-ratkaisu-sopivuus, ei liiketoimintamallin sopivuus. Lean
-   Canvas korvaa: avainkumppanit → ongelma, avaintoiminnot → ratkaisu,
-   asiakassuhteet → epäreilu etu, tulovirrat → nykyiset vaihtoehdot.
-   Käytä kun: hyvin varhainen vaihe, tekijävetoinen, kysymys "onko tämä
-   todellinen ongelma?" on vielä auki.
-3. **Siirry Mission Model Canvasiin**, kun organisaatio ei toimi
-   tulologiikalla — voittoa tavoittelematon, julkishallinto, missio­
-   vetoinen. Korvaukset: asiakassegmentit → edunsaajat, tulovirrat →
-   rahoituslähteet, asiakassuhteet → sitoutumis-/tukimekanismit.
-4. **Siirry taloudelliseen mallinnukseen**, kun kustannusrakenne tai
-   tulovirrat vaativat numeerista tarkkuutta, jota post-it-laput eivät
-   tarjoa. BMC ei ole laskentataulukko. Kun päätökset riippuvat
-   yksikkötaloudesta, marginaaleista tai kassavarannosta, tarvitaan
-   erillinen taloudellinen malli.
-5. **Pysy BMC:ssä mutta jaa useampaan canvasiin**, kun organisaatiolla
-   on useampi erillinen liiketoimintamalli (eri segmentit vaativat
-   perustavanlaatuisesti erilaisia arvolupauksia, kanavia ja
-   kustannusrakenteita). Yksi canvas tuottaa väärää keskiarvoistamista —
-   jokainen erillinen malli tarvitsee oman canvasinsa.
+1. **Switch to the Value Proposition Canvas (VPC)** when the team can't
+   clearly articulate the customer's jobs, pains, and gains for the
+   primary segment — the BMC's value proposition block is too small a
+   space for this work. Osterwalder's own Value Proposition Design
+   (2014) frames the VPC as a zoomed-in tool for exactly this block; in
+   many professional practices it's done as prep work BEFORE a BMC
+   session, not as an escape route from one.
+2. **Switch to the Lean Canvas** when the primary uncertainty is
+   problem-solution fit, not business-model fit. Ash Maurya's Lean
+   Canvas (*Running Lean*, 2012) replaces: key partners → problem, key
+   activities → solution, customer relationships → unfair advantage,
+   revenue streams → existing alternatives. Use when: very early stage,
+   founder-led, and the question "is this a real problem?" is still
+   open.
+3. **Switch to the Mission Model Canvas** when the organization doesn't
+   run on revenue logic — nonprofit, government, mission-driven.
+   Steve Blank and Pete Newell's Mission Model Canvas (2016) replaces:
+   customer segments → beneficiaries, revenue streams → funding sources,
+   customer relationships → buy-in/support mechanisms.
+4. **Switch to financial modeling** when the cost structure or revenue
+   streams need numerical precision that sticky notes can't provide. The
+   BMC isn't a spreadsheet. Once decisions depend on unit economics,
+   margins, or runway, a separate financial model is needed.
+5. **Stay in the BMC but split into multiple canvases** when the
+   organization has more than one genuinely distinct business model
+   (different segments requiring fundamentally different value
+   propositions, channels, and cost structures). One canvas produces a
+   false average — every distinct model needs its own canvas.
 
-### B. Kolme päätöskriteeristöä
+### B. Three decision criteria
 
-6. **Canvasin laatupäätös** — kynnyskriteeri: läpäiseekö canvas Hook
-   Rulen (ks. `../bmc-canvas-diagnostic-reading/SKILL.md`)? Jos
-   perustavanlaatuinen ristiriita on olemassa arvolupauksen ja
-   kustannusrakenteen tai segmenttien ja tulovirtojen välillä, canvas
-   ei ole valmis — korjaa ristiriita ensin. Jos johdonmukainen, arvioi:
-   segmentin spesifisyys, arvolupauksen laatu, evidenssin rehellisyys.
-   Tulokset: **etene testaukseen** (12+ pistettä rubriikilla EIKÄ
-   perustavanlaatuisia ristiriitoja), **etene lipulla** (8-11 pistettä,
-   tunnistettu heikkous joka ei estä alkutestausta mutta on korjattava
-   kahden ensimmäisen testaussyklin aikana), **palauta uudelleentyöhön**
-   (alle 8 pistettä TAI perustavanlaatuinen ristiriita).
-7. **Hypoteesin laatupäätös** — kolme vaatimusta: **testattavissa**
-   (muuttaisiko kokeen tulos tiimin uskomusta?), **täsmällinen**
-   (sisältääkö lukuja, aikarajoja tai kynnysarvoja — "asiakkaat
-   maksaisivat enemmän nopeammasta toimituksesta" EI ole täsmällinen,
-   "60% nykyisistä käyttäjistä maksaisi 5% lisän samana päivänä
-   toimituksesta" ON), **erillinen** (testaako täsmälleen yhtä
-   muuttujaa — jos hypoteesissa on "ja", testaa kaksi erillistä
-   hypoteesia). "Clueless Corner" -priorisointi: kartoita hypoteesit
-   liiketoiminnan onnistumisen tärkeyden (pystyakseli) ja nykyisen
-   evidenssin vahvuuden (vaaka-akseli) mukaan — vasen yläkulma
-   (korkea tärkeys, ei evidenssiä) testataan ENSIN, ei viimeiseksi,
-   koska epämukavuus signaloi riskiä.
-8. **Segmentin validiteettipäätös** — neljä kriteeriä: segmentti
-   kuvattavissa työn, ei vain demografian kautta; maksaja ja käyttäjä
-   erotettu kun ne eroavat; segmentti riittävän spesifi tuottaakseen
-   testattavia hypoteeseja; segmentti ei ole määritelty perustajan
-   omalla verkostolla (yleisin piilo-invaliditeetti: segmentti on
-   oikeasti "ihmiset joita jo tunnemme ja jotka ovat ilmaisseet
-   kiinnostusta" — tämä on löytämisen lähtökohta, ei validoitu segmentti).
+6. **Canvas quality decision** — threshold criterion: does the canvas
+   pass the Hook Rule (see `../bmc-canvas-diagnostic-reading/SKILL.md`)?
+   If a fundamental contradiction exists between the value proposition
+   and the cost structure, or between the segments and the revenue
+   streams, the canvas isn't ready — fix the contradiction first. If
+   consistent, assess: segment specificity, value proposition quality,
+   evidence honesty. Outcomes: **proceed to testing** (12+ points on the
+   rubric AND no fundamental contradictions), **proceed with a flag**
+   (8-11 points, an identified weakness that doesn't block initial
+   testing but must be fixed within the first two test cycles), **send
+   back for rework** (below 8 points OR a fundamental contradiction).
+7. **Hypothesis quality decision** — three requirements: **testable**
+   (would the result of an experiment change the team's belief?),
+   **precise** (does it include numbers, timeframes, or thresholds —
+   "customers would pay more for faster delivery" is NOT precise, "60%
+   of current users would pay a 5% premium for same-day delivery" IS),
+   **isolated** (does it test exactly one variable — if a hypothesis has
+   an "and" in it, it's testing two hypotheses). "Clueless Corner"
+   prioritization: plot hypotheses by importance to business success
+   (vertical axis) against strength of current evidence (horizontal
+   axis) — the upper-left corner (high importance, no evidence) gets
+   tested FIRST, not last, because discomfort signals risk.
+8. **Segment validity decision** — four criteria: the segment can be
+   described through jobs, not just demographics; payer and user are
+   distinguished when they differ; the segment is specific enough to
+   produce testable hypotheses; the segment isn't defined by the
+   founder's own network (the most common hidden invalidity: the segment
+   is really "people we already know who've expressed interest" — this
+   is a discovery starting point, not a validated segment).
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee taloudellista mallinnusta itse — vain tunnistaa milloin se
-  tarvitaan ja ohjaa sinne.
-- Ei sisällä omistajan omaa rajaa canvas-työn ja taloudellisen
-  mallinnuksen välillä, omaa VPC-käytön ajoitusta, tai omaa Lean
-  Canvas / Mission Model Canvas -käyttökokemusta — nämä ovat auki
-  `[EXPERT INPUT]`-kohtina lähdetiedostoissa.
-- Ei korvaa `../bmc-canvas-diagnostic-reading/SKILL.md`:ää canvasin
-  sisäisen laadun arvioinnissa — käyttää sen Hook Rule -käsitettä
-  kynnyskriteerinä mutta ei toista koko diagnostiikkaa.
+- Doesn't do financial modeling itself — it only identifies when it's
+  needed and points the way there.
+- Doesn't contain the owner's own line between canvas work and financial
+  modeling, their own timing for bringing in the VPC, or their own
+  experience with the Lean Canvas / Mission Model Canvas — these remain
+  open as `[EXPERT INPUT]` sections in the source files.
+- Doesn't replace `../bmc-canvas-diagnostic-reading/SKILL.md` for
+  assessing a canvas's internal quality — it uses that skill's Hook Rule
+  concept as a threshold criterion but doesn't repeat the full
+  diagnostics.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-- Milloin tuot VPC:n mukaan? Käytätkö sitä rutiininomaisesti ennen
-  BMC:tä vai vain kun BMC juuttuu?
-- Käytätkö Lean Canvasia? Milloin? Vaihdatko niiden välillä kesken
-  toimeksiannon?
-- Oletko käyttänyt Mission Model Canvasia? Mitä mukautuksia teet
-  missiovetoisille asiakkaille vaikka he käyttäisivät tavallista BMC:tä?
-- Missä on OMA rajasi canvas-työn ja taloudellisen mallinnuksen
-  välillä? Teetkö molemmat vai ohjaatko eteenpäin?
-- Milloin olet käyttänyt useampaa rinnakkaista canvasia? Mikä
-  laukaisi jakamisen?
-- Mikä on todellinen etene/palauta-kynnyksesi canvasin laadussa?
-- Miten autat tiimejä priorisoimaan hypoteeseja? Mikä on yleisin
-  virhe hypoteesipriorisoinnissa?
-- Mikä on oma segmenttivaliditeettitestisi käytännössä?
+- When do you bring in the VPC? Do you use it routinely before the BMC,
+  or only when the BMC gets stuck?
+- Do you use the Lean Canvas? When? Do you switch between them mid
+  engagement?
+- Have you used the Mission Model Canvas? What adaptations do you make
+  for mission-driven clients even when they're using a regular BMC?
+- Where's YOUR OWN line between canvas work and financial modeling? Do
+  you do both, or hand off?
+- When have you used multiple parallel canvases? What triggered the
+  split?
+- What's your real proceed/return threshold for canvas quality?
+- How do you help teams prioritize hypotheses? What's the most common
+  mistake in hypothesis prioritization?
+- What's your own segment validity test in practice?
 
-## Jatka tästä
+## Continue from here
 
-- Edellinen skilli samassa pakissa:
-  `../bmc-canvas-diagnostic-reading/SKILL.md` — Hook Rule ja muut
-  diagnostiset säännöt, joita tämän skillin kynnyskriteeri käyttää.
-- Liittyvä skilli samassa pakissa:
-  `../bmc-innovation-pattern-matching/SKILL.md` — kun BMC:stä
-  siirrytään taloudelliseen mallinnukseen, patternivalinnat ovat jo
-  tehty ennen sitä.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Previous skill in the same pack:
+  `../bmc-canvas-diagnostic-reading/SKILL.md` — the Hook Rule and other
+  diagnostic rules this skill's threshold criterion uses.
+- Related skill in the same pack:
+  `../bmc-innovation-pattern-matching/SKILL.md` — by the time the BMC
+  hands off to financial modeling, the pattern choices have already been
+  made.
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/bmc-source-material-notes.md` — lähdeaineiston tausta
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/bmc-source-material-notes.md` — source material background
+- `../../CLAUDE.md` — this pack's shared guardrails

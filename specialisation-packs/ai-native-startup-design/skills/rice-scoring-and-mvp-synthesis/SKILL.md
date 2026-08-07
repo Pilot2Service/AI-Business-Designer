@@ -1,116 +1,114 @@
 ---
 name: rice-scoring-and-mvp-synthesis
-description: "Pisteyttää useamman ratkaisusuunnan RICE-mallilla (Reach, Impact, Confidence, Effort) MVP:n valitsemiseksi, ja kääntää valinnan MVP-määritelmäksi, yhden lauseen positiointilauseeksi ja kolmeksi 'miksi voitamme' -väittämäksi."
+description: "Scores multiple solution directions with the RICE model (Reach, Impact, Confidence, Effort) to select an MVP, and turns the choice into an MVP definition, a one-sentence positioning statement, and three 'why we win' claims."
 ---
 
 # RICE Scoring and MVP Synthesis
 
-*Tila: `draft`, `source_layer: owner` — ks. `../../../../skills_index.json` ja
+*Status: `draft`, `source_layer: owner` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Muuttaa useamman ratkaisuvaihtoehdon vertailu objektiiviseksi,
-perustelluksi MVP-valinnaksi RICE-mallilla, ja kääntää valinta suoraan
-käyttökelpoiseksi strategiaksi: mitä MVP tarkalleen tekee, miten se
-asemoidaan yhdellä lauseella, ja miksi juuri tämä voittaa. Tämä on
-sillanrakennusskilli ratkaisuideoinnin (moniin vaihtoehtoihin) ja PRD:n
-kirjoittamisen (yhteen valittuun suuntaan) välissä.
+Turn a comparison of multiple solution alternatives into an objective,
+justified MVP choice using the RICE model, and translate that choice
+directly into a usable strategy: what the MVP exactly does, how it's
+positioned in one sentence, and why exactly this one wins. This is a
+bridge skill between solution ideation (many alternatives) and writing
+the PRD (one chosen direction).
 
-## Perustuu
+## Based on
 
-- RICE-priorisointimalli (Reach, Impact, Confidence, Effort) — yleisesti
-  tunnettu tuotepriorisointikehys, ei omistajan oma.
-- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä, sovellettu
-  omistajan toimesta omaan caseen — ks.
-  `../../references/ai-first-saas-workshop-source.md` ja worked example
-  `../../cases/ai-decision-coach-mvp-case.md` kohdat 6–7. **Huom:** sovellettu
-  toistaiseksi vain kerran — ei laajasti validoitu.
+- The RICE prioritization model (Reach, Impact, Confidence, Effort) — a
+  generally known product-prioritization framework, not the owner's own.
+- The methodology of an external "AI-first SaaS Product" workshop,
+  applied by the owner to one own case — see
+  `../../references/ai-first-saas-workshop-source.md` and the worked
+  example `../../cases/ai-decision-coach-mvp-case.md`, sections 6–7.
+  **Note:** applied only once so far — not broadly validated.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be filled in further)
 
-1. **Pisteytä jokainen ratkaisusuunta neljällä kriteerillä (1–5):**
-   - **Reach** — kuinka montaa käyttäjää tämä koskettaisi.
-   - **Impact** — kuinka merkittävä vaikutus sillä on käyttäjälle kun se
-     koskettaa.
-   - **Confidence** — kuinka varma olet että arviosi Reach/Impact/Effort
-     pitävät paikkansa (korkea = paljon evidenssiä, matala = arvaus).
-   - **Effort (käänteinen: 5 = helpoin/matalin effort, 1 = vaikein/korkein
-     effort)** — huomaa käänteisyys: tässä mallissa korkea effort-piste
-     tarkoittaa MATALAA rakennuskustannusta, jotta kaikki neljä kriteeriä
-     summautuvat samaan suuntaan (korkeampi = parempi MVP-ehdokas).
-2. **Laske RICE-kokonaispisteet** (max 20 per neljä kriteeriä, tai
-   skaalaa tarpeen mukaan) jokaiselle suunnalle ja järjestä paremmuus-
-   järjestykseen.
-3. **Perustele pisteet lyhyesti jokaiselle kriteerille** — älä jätä
-   pisteitä ilman selitystä. Erityisesti Effort-arvio kannattaa sitoa
-   konkreettisesti olemassa olevaan tekniseen pinoon/dataan/työkaluihin
-   (mikä on jo olemassa vs. mikä pitää rakentaa tyhjästä).
-4. **Valitse MVP korkeimmalla RICE-pistemäärällä**, ELLEI jokin
-   erityinen strateginen syy puolla toista (esim. korkeamman Effortin
-   suunta on ainoa joka todistaa aidon differentiaattorin, ei vain
-   table-stake-arvoa). Jos poikkeat korkeimmasta pistemäärästä,
-   perustele eksplisiittisesti miksi.
-5. **Kirjoita MVP-määritelmä (2-3 lausetta).** Yhdistä valittu AI wedge
-   (differentiaattoritarve) ja olennaiset table-stake-tarpeet yhdeksi
-   ytimekkääksi kuvaukseksi siitä mitä MVP tekee ja kenelle.
-6. **Piirrä MVP-flow tiiviisti** (5-8 vaihetta): käyttäjän syöte → AI:n
-   synteesi/pisteytys → päätösmoottori/logiikka → AI:n output(it) →
-   seuraavan askeleen suunnitelma → (valinnainen) viestintä-/kommunikointi-
-   tuki → (valinnainen) polku syvempiin työkaluihin.
-7. **Kirjoita yhden lauseen positiointilause.** Muoto: "[Tuote] antaa
-   [kohdeasiakkaalle] [ydinhyödyn] [erottuvalla mekanismilla]." Testaa:
-   voisiko tämä lause kuvata mitä tahansa kilpailijaa? Jos kyllä, se ei
-   ole vielä tarpeeksi spesifi.
-8. **Kirjoita 3 "miksi voitamme" -väittämää.** Jokainen väittämä sitoo
-   yhden vahvuuden (differentiaattoritarve, olemassa oleva data/työkalu,
-   ainutlaatuinen lähestymistapa) konkreettiseen kilpailuetuun — ei
-   yleisiä väitteitä ("olemme parempia") vaan perusteltuja syitä.
-9. Vie MVP-määritelmä, -flow, positiointilause ja "miksi voitamme"
-   `../ai-buildable-prd-writing/SKILL.md`-skilliin PRD:n pohjaksi.
+1. **Score each solution direction on four criteria (1–5):**
+   - **Reach** — how many users this would touch.
+   - **Impact** — how significant the effect is for the user it touches.
+   - **Confidence** — how sure you are that your Reach/Impact/Effort
+     estimates hold up (high = strong evidence, low = a guess).
+   - **Effort (inverted: 5 = easiest/lowest effort, 1 = hardest/highest
+     effort)** — note the inversion: in this model a high Effort score
+     means LOW build cost, so all four criteria sum in the same
+     direction (higher = better MVP candidate).
+2. **Calculate the total RICE score** (max 20 across the four criteria,
+   or scale as needed) for each direction and rank them.
+3. **Briefly justify the score for each criterion** — don't leave scores
+   unexplained. In particular, tie the Effort estimate concretely to the
+   existing tech stack/data/tools (what already exists vs. what needs to
+   be built from scratch).
+4. **Choose the MVP with the highest RICE score**, UNLESS a specific
+   strategic reason favors another (e.g. a higher-Effort direction is the
+   only one that proves a genuine differentiator, not just table-stake
+   value). If you deviate from the highest score, explicitly justify why.
+5. **Write the MVP definition (2-3 sentences).** Combine the chosen AI
+   wedge (differentiator need) and the essential table-stake needs into
+   one concise description of what the MVP does and for whom.
+6. **Sketch the MVP flow concisely** (5-8 steps): user input → AI
+   synthesis/scoring → decision engine/logic → AI output(s) → next-step
+   plan → (optional) communication support → (optional) path to deeper
+   tools.
+7. **Write a one-sentence positioning statement.** Format: "[Product]
+   gives [target customer] [core benefit] through [distinctive
+   mechanism]." Test: could this sentence describe any competitor? If
+   yes, it isn't specific enough yet.
+8. **Write 3 "why we win" claims.** Each claim ties one strength
+   (differentiator need, existing data/tool, unique approach) to a
+   concrete competitive advantage — not general claims ("we're better")
+   but justified reasons.
+9. Carry the MVP definition, flow, positioning statement, and "why we
+   win" claims into `../ai-buildable-prd-writing/SKILL.md` as the basis
+   for the PRD.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista MVP-valintaa puolestasi täysin mekaanisesti — RICE-
-  pisteet ovat päätöksenteon tuki, ei automaattinen sääntö; strateginen
-  poikkeama korkeimmasta pistemäärästä on sallittu jos perusteltu.
-- Ei arvioi taloudellista kannattavuutta tai yksikkötaloutta — vain
-  suhteellista priorisointia ratkaisuvaihtoehtojen välillä. Ks.
+- Does not make the final MVP choice for you in a fully mechanical way —
+  the RICE score supports the decision, it isn't an automatic rule; a
+  strategic deviation from the highest score is allowed if justified.
+- Does not assess financial viability or unit economics — only relative
+  prioritization between solution alternatives. See
   `../../../../business-case-and-analysis/skills/roi-npv-sensitivity-model/SKILL.md`
-  syvempään taloudelliseen mallinnukseen kun MVP on jo valittu.
-- Ei korvaa `../../../opportunity-recognition/skills/opportunity-evaluation-
-  and-judgment/SKILL.md`-skilliä — tämä on kapeampi, nopeampi valinta
-  jo tunnistettujen 2-3 ratkaisusuunnan välillä, ei koko mahdollisuuden
-  arviointi tyhjästä.
+  for deeper financial modeling once the MVP is chosen.
+- Does not replace `../../../opportunity-recognition/skills/opportunity-evaluation-
+  and-judgment/SKILL.md` — this is a narrower, faster choice between
+  2-3 already-identified solution directions, not a full assessment of
+  an opportunity from scratch.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be filled in]
 
-Tämä skilli on sovellettu toistaiseksi yhteen caseen (omistajan oma case). Kun sovellat
-sitä useampaan eri liiketoimintaan, täydennä:
+This skill has so far been applied to one case (the owner's own case).
+As you apply it to more businesses, add:
 
-- omia nyrkkisääntöjä siitä milloin kannattaa poiketa korkeimmasta
-  RICE-pistemäärästä
-- konkreettisia esimerkkejä positiointilauseista ja "miksi voitamme"
-  -väittämistä eri caseista `../../cases/`-kansioon
+- your own rules of thumb for when it's worth deviating from the
+  highest RICE score
+- concrete examples of positioning statements and "why we win" claims
+  from other cases in the `../../cases/` folder
 
-Kun tämä osio on täytetty useammalla caseella, nosta
-`skills_index.json`:n `maturity`-kenttä arvoon `validated`
-(ks. `../../../../meta/maturity_levels.md`).
+Once this section has been filled in with multiple cases, raise
+`skills_index.json`'s `maturity` field to `validated`
+(see `../../../../meta/maturity_levels.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä skilli samassa pakissa:
-  `../ai-differentiator-solution-ideation/SKILL.md` — tuottaa kolme
-  vaihtoehtoa joita tässä pisteytetään.
-- Seuraava skilli samassa pakissa: `../ai-buildable-prd-writing/SKILL.md`
-  — kirjoittaa PRD:n valitusta MVP:stä.
-- Liittyvä skilli samassa pakissa, jos valittu MVP on keskusteleva/
-  agenttinen tuote: `../ai-native-conversational-os-design/SKILL.md`.
-- Worked example: `../../cases/ai-decision-coach-mvp-case.md` kohdat 6–7.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Preceding skill in this pack:
+  `../ai-differentiator-solution-ideation/SKILL.md` — produces the three
+  alternatives scored here.
+- Next skill in this pack: `../ai-buildable-prd-writing/SKILL.md`
+  — writes the PRD for the chosen MVP.
+- Related skill in this pack, if the chosen MVP is a conversational/
+  agentic product: `../ai-native-conversational-os-design/SKILL.md`.
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md`, sections 6–7.
+- The pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+- `../../references/ai-first-saas-workshop-source.md` — source information
 - `../../cases/ai-decision-coach-mvp-case.md` — worked example
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../CLAUDE.md` — the pack's shared guardrails

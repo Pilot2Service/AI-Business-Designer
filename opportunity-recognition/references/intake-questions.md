@@ -1,87 +1,91 @@
-# Opportunity Intake — kysymyspankki
+# Opportunity Intake — question bank
 
-Lähde: omistajan oma palvelu — Opportunity Value Assessment -palvelun Input Wizard
-(oma tuote). Käyttää `opportunity-intake-elicitation`-skilli. Kysymykset on
-ryhmitelty teemoittain; alkuperäisessä wizardissa jokainen kysymys tukee myös
-ääni-inputtia ja tiedostojen/linkkien liittämistä.
+Source: the owner's own service — the Opportunity Value Assessment
+service's Input Wizard (own product). Used by the
+`opportunity-intake-elicitation` skill. Questions are grouped by theme; in
+the original wizard, every question also supports voice input and
+attaching files/links.
 
-## 1. Mahdollisuuden kuvaus ja alkuperä
+## 1. Description and origin of the opportunity
 
-- Kuvaile omin sanoin tunnistamasi mahdollisuus. Mikä se on, ja miksi se on
-  tärkeä? *(Vinkki: kerro kuin kertoisit kollegalle kahvitauolla.)*
-- Miten tämä mahdollisuus tunnistettiin? (valitse kaikki sopivat)
-  - Tutkimustuloksista johdettu
-  - Odottamaton löydös / anomalia kokeissa
-  - Uusi tekninen lähestymistapa tunnistettu
-  - Havaittu asiakastarve tai kipupiste
-  - Data osoittaa aukon/ongelman
-  - Olemassa olevan ratkaisun parannus
-  - Muu (tarkenna)
-- Liitteet (valinnaiset): tausta-aineisto, luonnosdiat, julkaisut, muistiinpanot,
-  hankekuvaukset, hakemustekstit, kuvat tai aiemmat arvioinnit.
+- Describe, in your own words, the opportunity you've identified. What is
+  it, and why does it matter? *(Tip: tell it like you'd tell a colleague
+  over coffee.)*
+- How was this opportunity identified? (select all that apply)
+  - Derived from research findings
+  - An unexpected discovery / anomaly in experiments
+  - A new technical approach identified
+  - An observed customer need or pain point
+  - Data reveals a gap/problem
+  - An improvement on an existing solution
+  - Other (please specify)
+- Attachments (optional): background material, draft slides, publications,
+  notes, project descriptions, application text, images, or previous
+  assessments.
 
-## 2. Ongelma ja kenellä se on
+## 2. The problem and who has it
 
-- Mitä ongelmaa tai tarvetta tämä mahdollisuus ratkaisee?
-  *(Selitä kipupiste, aukko tai tehottomuus, jonka tämä mahdollisuus ratkaisee.)*
-- Ketä tämä ongelma koskee? (käyttäjät, organisaatiot, toimialat)
-  *(Esim: potilaat, tehtaan operaattorit, kaupunkisuunnittelijat, pk-yritykset.)*
+- What problem or need does this opportunity solve?
+  *(Explain the pain point, gap, or inefficiency this opportunity solves.)*
+- Who is affected by this problem? (users, organizations, industries)
+  *(E.g.: patients, plant operators, urban planners, SMEs.)*
 
-## 3. Ratkaisukonsepti
+## 3. Solution concept
 
-- Mikä on ehdottamasi ratkaisu? (tuote, palvelu, materiaali, menetelmä,
-  osaamisomaisuus) *(Pidä yksinkertaisena: mitä joku "saisi" tai "käyttäisi"?)*
-- Miten se on uusi tai erilainen verrattuna olemassa oleviin ratkaisuihin?
-  *(Kuvaile keskeinen ero tai etu nykyisiin lähestymistapoihin verrattuna.)*
+- What is your proposed solution? (product, service, material, method,
+  capability asset) *(Keep it simple: what would someone "get" or "use"?)*
+- How is it new or different compared to existing solutions?
+  *(Describe the key difference or advantage over current approaches.)*
 
-## 4. Markkina ja varhaiset asiakkaat
+## 4. Market and early customers
 
-- Keitä voisivat olla ensimmäiset asiakkaasi tai käyttäjäsi? *(Ajattele
-  helpointa tai loogisinta ensimmäistä käyttäjää, ei lopullista markkinaa.)*
-- Markkinatuntuma (valinnainen): kuinka iso tämä voisi olla? *(Luvut, trendit
-  tai pelkkä vaikutelma mittakaavasta ja kiireellisyydestä käyvät.)*
-- Asiakastyyppi (valitse yksi tai useampi): kuluttajat (B2C) / yritykset (B2B) /
-  julkinen sektori / tutkijat ja akatemia / muu.
+- Who could your first customers or users be? *(Think of the easiest or
+  most logical first user, not the ultimate market.)*
+- Market sense (optional): how big could this be? *(Figures, trends, or
+  just an impression of scale and urgency all work.)*
+- Customer type (select one or more): consumers (B2C) / businesses (B2B) /
+  public sector / researchers and academia / other.
 
-## 5. Nykytila ja valmius
+## 5. Current state and readiness
 
-- Mikä on ratkaisusi nykyinen kypsyystaso? (dropdown-asteikko)
-  - Vain idea
+- What is your solution's current maturity level? (dropdown scale)
+  - Idea only
   - Proof-of-concept (PoC)
-  - Laboratorioprototyyppi
-  - Testattu prototyyppi
-  - Pilotti / kenttätesti
-  - Markkinavalmis
-  *(TRL-asteikko selkokielellä — kuinka pitkälle olet edennyt?)*
-- Mitä on saavutettu tähän mennessä? *(Listaa virstanpylväät, tulokset,
-  rahoitus, patentit tai yhteistyöt.)*
-- Proof-of-concept-yksityiskohdat: jos PoC on olemassa — mitä hypoteeseja
-  testattiin? Mitä todistettiin, ja mitä opittiin? Jos PoC:ta ei ole — mitä
-  pitäisi testata, ja missä mittakaavassa, toteutettavuuden osoittamiseksi?
-- Oletko suojannut tai julkaissut tämän mahdollisuuden? (IP, patentit,
-  julkaisut) — kyllä/ei + valinnainen tarkennus.
+  - Lab prototype
+  - Tested prototype
+  - Pilot / field test
+  - Market-ready
+  *(TRL scale in plain language — how far along are you?)*
+- What has been achieved so far? *(List milestones, results, funding,
+  patents, or collaborations.)*
+- Proof-of-concept details: if a PoC exists — what hypotheses were tested?
+  What was proven, and what was learned? If there's no PoC — what should be
+  tested, and at what scale, to demonstrate feasibility?
+- Have you protected or published this opportunity? (IP, patents,
+  publications) — yes/no + optional detail.
 
-## 6. Tavoitteet, visio ja seuraavat hypoteesit
+## 6. Goals, vision, and next hypotheses
 
-- Millaista liiketoimintaa tai vaikutusta tästä mahdollisuudesta voisi syntyä?
-  *(Kuvittele tulevaisuus: startup, lisenssidiili, uusi liiketoimintalinja vai
-  yhteiskunnallinen palvelu?)*
-- Mitä haluat saavuttaa tällä arvioinnilla? *(Esim: selkeyttä hakemukseen,
-  syötettä TTO-päätökseen, kumppanikeskusteluja, portfoliovertailua.)*
-- Mitä hypoteeseja pitäisi testata seuraavaksi? *(Esim: "Maksavatko asiakkaat
-  X:stä?", "Skaalautuuko teknologia?", "Salliiko regulaatio nopean
-  käyttöönoton?")*
+- What kind of business or impact could this opportunity generate?
+  *(Imagine the future: a startup, a licensing deal, a new business line, or
+  a public service?)*
+- What do you want to achieve with this assessment? *(E.g.: clarity for an
+  application, input for a TTO decision, partner discussions, portfolio
+  comparison.)*
+- What hypotheses should be tested next? *(E.g.: "Will customers pay for
+  X?", "Does the technology scale?", "Does regulation allow rapid
+  adoption?")*
 
-## 7. Muuta
+## 7. Other
 
-- Onko jotain muuta, mitä haluaisit meidän tietävän?
-- Linkit relevanttiin materiaaliin.
-- Lisätiedostot (valinnainen).
+- Is there anything else you'd like us to know?
+- Links to relevant material.
+- Additional files (optional).
 
 ---
 
-*Huomio: jos vastaaja pystyisi täydellisesti vastaamaan kaikkiin yllä oleviin
-kysymyksiin, hän olisi jo pitkällä liiketoimintasuunnittelussa. Kysymykset on
-muotoiltava niin, että osittaisetkin vastaukset auttavat — asiantuntijan
-(tai tekoälyanalytiikan) tehtävä on täydentää kuvaa alan tiedolla, ei vaatia
-täydellisyyttä vastaajalta.*
+*Note: if a respondent could answer all of the above questions perfectly,
+they'd already be well along in business planning. The questions have to be
+designed so that even partial answers help — it's the expert's (or the AI
+analysis's) job to fill in the picture with industry knowledge, not to
+demand completeness from the respondent.*

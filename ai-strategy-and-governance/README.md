@@ -1,90 +1,93 @@
 # AI Strategy & Governance
 
-AI-mahdollisuuksien tunnistaminen, priorisointi ja vastuullinen käyttöönotto liiketoiminnassa.
+Identifying, prioritizing, and responsibly adopting AI opportunities in a
+business.
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Kuvaus |
+| Skill | Description |
 |---|---|
-| `task-level-decomposition-and-automation-fit` | Pilkkoo roolit/prosessit tehtävätasolle (People Path + Process Path) ja luokittelee jokaisen tehtävän Automate/Augment/Human-Only SML-kriteereillä. |
-| `ai-capability-pattern-matching` | Käyttää 13 AI-kyvykkyyspatternin kirjastoa (tutkimuspohjainen, kahdesta riippumattomasta toimialan AI-käyttötapausraportista ristiintarkistettu) diagnostisten kysymysten esittämiseen — top-down-vaihtoehto tehtävätason pilkkomiselle raakalistan kokoamisessa. |
-| `ai-opportunity-portfolio` | Tunnistaa, pisteyttää (5D-malli) ja priorisoi AI-käyttötapaukset 2x2-matriisilla; erottelee inkrementaaliset ja transformatiiviset (Value-Play-taksonomia) mahdollisuudet. |
-| `ai-native-business-model-canvas` | Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla Business Model Canvasilla (VP, data moat, Human-AI Interaction Model, compute-kustannukset). |
-| `ai-use-case-feasibility-and-poc-scoping` | Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen. |
-| `responsible-ai-and-governance-check` | Tarkistaa AI-aloitteen sääntely-, riski- ja eettisyysnäkökulmat. Syvempään EU AI Act -compliance-analyysiin tarvitaan erillinen sääntely-asiantuntemus. |
-| `build-vs-buy-vs-partner-ai` | Jäsentää päätöksen rakentaa itse, ostaa alustalta vai kumppanoitua AI-ratkaisussa. |
-| `ai-capability-roadmap` | Rakentaa organisaation AI-kyvykkyyskartan ja roadmapin kolmella horisontilla (0-6/6-18/18-36kk) + ATOM/Readiness Scorecard. |
-| `ai-discovery-engagement-design` | Tuotteistaa koko tunnistamisprosessin maksulliseksi/sisäiseksi discovery-toimeksiannoksi — vaiheet, palvelutuotteet, luovutettava aineisto. |
-| `shadow-ai-response-and-safe-adoption` | Tunnistaa luvattoman AI-työkalujen käytön (Shadow AI) ja korvaa sen turvallisella, ROI-perustellulla virallisella ratkaisulla. |
-| `ai-output-curation-and-quality-control` | Suunnittelee laadunvalvonta- ja kuratointiprosessin AI:n tuotoksille — siirtymä tekijästä kuraattoriksi. |
+| `task-level-decomposition-and-automation-fit` | Breaks roles/processes down to task level (People Path + Process Path) and classifies every task as Automate/Augment/Human-Only using SML criteria. |
+| `ai-capability-pattern-matching` | Uses a library of 13 AI capability patterns (research-based, cross-checked against two independent industry AI use-case reports) to pose diagnostic questions — a top-down alternative to task-level decomposition for assembling a raw list. |
+| `ai-opportunity-portfolio` | Identifies, scores (5D model), and prioritizes AI use cases with a 2x2 matrix; separates incremental and transformative (Value Play taxonomy) opportunities. |
+| `ai-native-business-model-canvas` | Designs the transition from an AI-enhanced business to an AI-native business model using an extended Business Model Canvas (VP, data moat, Human-AI Interaction Model, compute costs). |
+| `ai-use-case-feasibility-and-poc-scoping` | Determines the technical boundary conditions of an AI use case and scopes the PoC phase. |
+| `responsible-ai-and-governance-check` | Checks the regulatory, risk, and ethics dimensions of an AI initiative. Deeper EU AI Act compliance analysis requires separate regulatory expertise. |
+| `build-vs-buy-vs-partner-ai` | Structures the decision to build in-house, buy off a platform, or partner on an AI solution. |
+| `ai-capability-roadmap` | Builds the organization's AI capability map and roadmap across three horizons (0–6/6–18/18–36 months) + ATOM/Readiness Scorecard. |
+| `ai-discovery-engagement-design` | Productizes the entire discovery process into a paid/internal discovery engagement — phases, service products, deliverables. |
+| `shadow-ai-response-and-safe-adoption` | Identifies unauthorized AI tool usage (Shadow AI) and replaces it with a safe, ROI-justified official solution. |
+| `ai-output-curation-and-quality-control` | Designs a quality-control and curation process for AI outputs — the shift from creator to curator. |
 
-Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle (frontmatterissa
-ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
+All `maturity: scaffold` — see `../skills_index.json` for current maturity
+(maturity isn't tracked in the frontmatter, see
+`../meta/frontmatter_schema.md`).
 
-## Ankkurointi
+## Anchored in
 
-- EU AI Act (asetus (EU) 2024/1689)
+- EU AI Act (Regulation (EU) 2024/1689)
 - LinkedIn 2026 — Risk & Compliance Management
 - LinkedIn Skills on the Rise 2026 — AI Business Strategy
-- Perplexity-tutkimus — PoC-määrittely tuotannollistamiseen asti
-- Perplexity-tutkimus — roadmapit ja liiketoimintakyvykkyyskartat
-- Markkinatutkimus: avoimet "Senior AI Business Designer" -tyyppiset rekrytointi-ilmoitukset
-- strategic-options-evaluation -logiikka sovellettuna AI-päätöksiin
-- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
-  aikakaudella" (2026) — AI-soveltuvuuden triagi, data flywheel, AI-native
-  Business Model Canvas, Shadow AI, AI-tuotosten kuratointi ja
-  laadunvalvonta
-- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
-  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
-  (2026) — SML/Dual Decomposition -tehtäväpilkkominen, process/task
-  mining, 5-ulotteinen pisteytysmalli, 2x2-priorisointimatriisi,
-  Value-Play-taksonomia, Deploy-Reshape-Invent-taksonomia, kolmihorisonttinen
-  roadmap, ATOM/Readiness Scorecard, discovery-toimeksiantojen rakenne ja
-  tuotteistus (synteesi useista toimialan AI-kyvykkyysraporteista ja
-  Brynjolfsson & Mitchell -tutkimuksesta)
-- Yleinen "Shadow IT" -kirjallisuus ja -käytäntö, laajennettuna
-  AI-työkalujen kontekstiin
-- Toimialakohtainen AI-käyttötapausraportti (2026-painos) — 130
-  AI-käyttötapausta kuudella toimialalla, vastuullisen AI:n riskikehys.
-  81 tekstipohjaisesti poimittua ja tarkistettua casea käytetty
-  `references/ai-capability-pattern-library.md`:n pohjana.
-- Toinen, riippumaton AI-käyttötapauskooste (63 käyttötapausta, 16
-  funktiota) — käytetty patternikirjaston ristiintarkistuksena
+- Perplexity research — PoC scoping through to productionization
+- Perplexity research — roadmaps and business capability maps
+- Market research: open "Senior AI Business Designer"-type job postings
+- `strategic-options-evaluation` logic applied to AI decisions
+- A research report supplied by the user, "AI Business Designer in the Age
+  of AI" (2026) — AI-fit triage, the data flywheel, the AI-native
+  Business Model Canvas, Shadow AI, and curation and quality control of
+  AI outputs
+- Research digest "Methods, Frameworks, and Competencies for Identifying
+  AI Opportunities and Capacity in Business" (2026) — SML/Dual
+  Decomposition task breakdown, process/task mining, the 5-dimensional
+  scoring model, the 2x2 prioritization matrix, the Value Play
+  taxonomy, the Deploy-Reshape-Invent taxonomy, the three-horizon
+  roadmap, the ATOM/Readiness Scorecard, and the structure and
+  productization of discovery engagements (a synthesis of several
+  industry AI capability reports and Brynjolfsson & Mitchell research)
+- General "Shadow IT" literature and practice, extended to the context
+  of AI tools
+- Industry-specific AI use-case report (2026 edition) — 130 AI use
+  cases across six industries, a responsible-AI risk framework. 81
+  text-extracted and verified cases were used as the basis for
+  `references/ai-capability-pattern-library.md`.
+- A second, independent AI use-case digest (63 use cases, 16
+  functions) — used as a cross-check for the pattern library
 
-## Skillien looginen kulku
+## Logical flow of the skills
 
 ```
 task-level-decomposition-and-automation-fit    ai-capability-pattern-matching
-   (bottom-up: tehtävätason raakalista)      (top-down: patternikirjaston
-        │                                     diagnostiset kysymykset)
+   (bottom-up: task-level raw list)          (top-down: pattern library's
+        │                                     diagnostic questions)
         └──────────────────┬──────────────────────────┘
                             ▼
-ai-opportunity-portfolio  (5D-pisteytys → 2x2-matriisi → priorisoitu backlog)
+ai-opportunity-portfolio  (5D scoring → 2x2 matrix → prioritized backlog)
         │
-        ├──► ai-native-business-model-canvas  (jos transformatiivinen)
-        ├──► ai-use-case-feasibility-and-poc-scoping  (tekninen validointi)
-        └──► ai-capability-roadmap  (Horisontti 1/2/3 -aikataulutus)
+        ├──► ai-native-business-model-canvas  (if transformative)
+        ├──► ai-use-case-feasibility-and-poc-scoping  (technical validation)
+        └──► ai-capability-roadmap  (Horizon 1/2/3 scheduling)
                     │
                     ▼
         responsible-ai-and-governance-check, build-vs-buy-vs-partner-ai
                     │
                     ▼
         shadow-ai-response-and-safe-adoption, ai-output-curation-and-quality-control
-             (käyttöönoton jälkeinen ylläpito ja laadunvalvonta)
+             (post-adoption maintenance and quality control)
 ```
 
-`ai-discovery-engagement-design` on tämän kulun "meta-skilli" — se
-jäsentää koko yllä olevan ketjun yhdeksi ajoitetuksi, luovutettavaksi
-konsultointitoimeksiannoksi, kun tunnistamisprosessi tehdään
-muodollisena projektina eikä ad hoc -analyysinä.
+`ai-discovery-engagement-design` is this flow's "meta-skill" — it
+structures the entire chain above into a single scheduled, deliverable
+consulting engagement, for when the discovery process is run as a formal
+project rather than as ad hoc analysis.
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  taustamateriaali, lähteet, omat mallit (täydennettävä)
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   an individual skill (name + description frontmatter)
+references/                  background material, sources, own templates (to be filled in)
 ```
 
-Katso `../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin sisältöä.
+See `../meta/maturity_levels.md` for what the maturity levels mean, and
+`../AGENT_GUIDE.md` for how an agent should read and weight this pack's
+content.

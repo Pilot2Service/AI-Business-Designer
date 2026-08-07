@@ -1,36 +1,38 @@
 # AFCA — Founder's Competence Assessment (full data)
 
-Lähde: omistajan oma AFCA-itsearviointityökalu. Itsearviointi
-perustajan tai perustajatiimin valmiudesta akateemiseen spin-outiin tai
-tutkimuspohjaiseen startupiin. Synteesi EU:n **EntreComp**- ja **ResearchComp**
--kehyksistä sekä vertaisarvioidusta tutkimuksesta kaupallistamisosaamisesta.
+Source: the owner's own AFCA self-assessment tool. A self-assessment of a
+founder's or founding team's readiness for an academic spin-out or
+research-based startup. A synthesis of the EU's **EntreComp** and
+**ResearchComp** frameworks and peer-reviewed research on commercialisation
+competence.
 
-Käyttää `founder-competence-self-assessment`-skilli. Alkuperäiset kohdat on
-säilytetty englanniksi lähdedatan mukaisesti (ei käännetty, jotta pisteytys ja
-tooltip-tekstit pysyvät tarkkoina).
+Used by the `founder-competence-self-assessment` skill. The original items
+have been kept in English as in the source data (not translated, so that
+scoring and tooltip texts remain accurate).
 
-## Pisteytyslogiikka
+## Scoring logic
 
-- Jokainen kohta pisteytetään asteikolla **1-7**.
-- Osa-alueen raakapiste = kohtien painotettu keskiarvo (`weight`-kentät kohdissa,
-  oletus 1.0, osa vahvempia kohtia painotettu 1.25).
-- Normalisointi 0-100 %: `(raakapiste - 1) / 6 * 100`.
-- Taso: **Expert** ≥75 % · **Advanced** ≥50 % · **Intermediate** ≥25 % ·
-  **Foundational** <25 %.
-- Kokonaispisteet = osa-aluepisteiden keskiarvo.
-- Osa-alueiden painot (`weight`) kokonaispisteessä: Opportunity Orientation 0.12,
-  Market & Customers 0.12, Financial Planning & Management 0.12, IP & Evidence 0.12,
-  Venture Building 0.10, Partnerships & Networks 0.10, Communication & Influence 0.10,
-  Execution & Roadmap 0.10, Regulatory & Quality 0.06, Founder Mindset & Teaming 0.06.
+- Each item is scored on a scale of **1-7**.
+- An area's raw score = the weighted average of its items (`weight` fields on
+  each item, default 1.0, some stronger items weighted 1.25).
+- Normalisation to 0-100%: `(raw score - 1) / 6 * 100`.
+- Level: **Expert** ≥75% · **Advanced** ≥50% · **Intermediate** ≥25% ·
+  **Foundational** <25%.
+- Overall score = the average of the area scores.
+- Area weights (`weight`) in the overall score: Opportunity Orientation 0.12,
+  Market & Customers 0.12, Financial Planning & Management 0.12, IP &
+  Evidence 0.12, Venture Building 0.10, Partnerships & Networks 0.10,
+  Communication & Influence 0.10, Execution & Roadmap 0.10, Regulatory &
+  Quality 0.06, Founder Mindset & Teaming 0.06.
 
 ---
 
-## 1. Opportunity Orientation (paino 0.12)
+## 1. Opportunity Orientation (weight 0.12)
 
 *"I connect a real user problem to a focused first use case and a clear edge, then
 adjust fast when evidence changes."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | O1 | I can state the target user's core problem in one simple sentence that non-experts understand. | 1.25 |
 | O2 | I can list the main alternatives users rely on today and explain why they fall short for our case. | 1.0 |
@@ -40,12 +42,12 @@ adjust fast when evidence changes."*
 | O6 | When evidence contradicts our thesis, we change direction quickly and visibly. | 1.0 |
 | O7 | I consider ethical and sustainability implications when selecting and framing opportunities. | 1.0 |
 
-## 2. Market & Customers (paino 0.12)
+## 2. Market & Customers (weight 0.12)
 
 *"I learn directly from users, turn insights into product changes, and build early
 traction in a reachable segment."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | M1 | I can explain how our market works (size, structure, lifecycle, dynamics) in plain language. | 1.0 |
 | M2 | I analyse customer needs from real interactions—not assumptions. | 1.0 |
@@ -55,13 +57,13 @@ traction in a reachable segment."*
 | M6 | Customer feedback leads to tangible changes in our proposition within weeks. | 1.0 |
 | M7 | We track traction metrics that predict adoption or revenue, not vanity metrics. | 1.0 |
 
-## 3. Financial Planning & Management (paino 0.12)
+## 3. Financial Planning & Management (weight 0.12)
 
-*(sisäinen `area_id`/nimi: "Economics & Funding")*
+*(internal `area_id`/name: "Economics & Funding")*
 *"I build a simple unit economics view, tie funding to de-risking milestones, and
 communicate numbers transparently."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | ECO1 | I can read basic financial statements (P&L, balance sheet) and make sense of investment cases. | 1.0 |
 | ECO2 | I can build a basic unit-economics model for our first offer (costs, price, gross margin). | 1.25 |
@@ -72,12 +74,12 @@ communicate numbers transparently."*
 | ECO7 | We test key sensitivities (price, adoption, costs) to see where the model breaks. | 1.0 |
 | ECO8 | We have evidence of willingness-to-pay (quotes, budgets, pilot fees). | 1.0 |
 
-## 4. IP & Evidence (paino 0.12)
+## 4. IP & Evidence (weight 0.12)
 
 *"I time publications and protection wisely, grasp FTO and licence basics, and keep
 diligence-ready data packs."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | IP1 | We plan publications with IP timing in mind (e.g., file before public disclosure). | 1.25 |
 | IP2 | I can prepare a concise invention disclosure for our TTO that covers novelty and intended claims. | 1.0 |
@@ -86,12 +88,12 @@ diligence-ready data packs."*
 | IP5 | Our data packs are reproducible and traceable, with methods, negatives, and limitations recorded. | 1.25 |
 | IP6 | Together with TTO/advisors, we maintain a claims roadmap aligned with our strategy. | 1.0 |
 
-## 5. Venture Building (paino 0.10)
+## 5. Venture Building (weight 0.10)
 
 *"I make the right path choice, set up roles, governance and equity fairly, and plan
 the first hires/partners to execute."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | VB1 | We chose licensing vs. spin-out after honestly assessing our capacity to execute. | 1.0 |
 | VB2 | We are clear which roles founders can fill and which operator roles we must hire (e.g., CEO/COO/CTO). | 1.0 |
@@ -102,12 +104,12 @@ the first hires/partners to execute."*
 | VB7 | We understand why a founders' agreement matters and what it should broadly cover. | 1.0 |
 | VB8 | I can prepare a negotiation brief with trade-offs, red lines, and fallback options. | 1.0 |
 
-## 6. Partnerships & Networks (paino 0.10)
+## 6. Partnerships & Networks (weight 0.10)
 
 *"I target the few people and organisations that change our trajectory, secure warm
 intros, and keep relationships reciprocal."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | P1 | I can name 5–10 high-leverage people or organisations and the value we exchange with each. | 1.0 |
 | P2 | I understand which channel partners can give us market access and why they would care. | 1.0 |
@@ -117,12 +119,12 @@ intros, and keep relationships reciprocal."*
 | P6 | We track a simple partner pipeline with stages and realistic probabilities. | 1.0 |
 | P7 | I routinely offer helpful intros or resources to keep relationships strong and reciprocal. | 1.0 |
 
-## 7. Communication & Influence (paino 0.10)
+## 7. Communication & Influence (weight 0.10)
 
 *"I craft evidence-first stories, answer diligence calmly, and tailor the message
 without losing accuracy—so decisions move faster."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | COM1 | I can deliver a tight 3-minute pitch covering problem, solution, proof, and the ask. | 1.0 |
 | COM2 | We maintain an 8–12 slide deck that shows evidence, differentiation, and milestones (not just claims). | 1.0 |
@@ -133,12 +135,12 @@ without losing accuracy—so decisions move faster."*
 | COM7 | We avoid hype and back key statements with numbers or third-party references. | 1.0 |
 | COM8 | We keep a small backlog of upcoming proof points and the matching communications. | 1.0 |
 
-## 8. Execution & Roadmap (paino 0.10)
+## 8. Execution & Roadmap (weight 0.10)
 
 *"I run a gated plan with real owners and risks, keep a steady demo cadence, and stop
 weak work early to conserve runway."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | EX1 | We set clear gate criteria (pass/kill/iterate) for technical and market milestones and write them down. | 1.25 |
 | EX2 | Our time and cost estimates are credible, and we update them when facts change. | 1.0 |
@@ -148,12 +150,12 @@ weak work early to conserve runway."*
 | EX6 | We prioritise across lines of work and stop weak ones early. | 1.0 |
 | EX7 | We use simple shared tools (boards/docs) so everyone stays aligned asynchronously. | 1.0 |
 
-## 9. Regulatory & Quality (paino 0.06)
+## 9. Regulatory & Quality (weight 0.06)
 
 *"I map the relevant pathway, align our MVP and data to expectations, and make
 documentation audit-ready without slowing speed."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | R1 | We know which regulatory or QA frameworks apply to us (e.g., MDR/IVDR/FDA/AI Act) and why they matter. | 1.0 |
 | R2 | We have a view of the simplest MVP that still meets early customer and regulatory expectations. | 1.0 |
@@ -163,12 +165,12 @@ documentation audit-ready without slowing speed."*
 | R6 | Our methods and records are captured to a standard an external party could audit. | 1.0 |
 | R7 | We can produce a concise regulatory/QA summary suitable for investor diligence. | 1.0 |
 
-## 10. Founder Mindset & Teaming (paino 0.06)
+## 10. Founder Mindset & Teaming (weight 0.06)
 
 *"I keep momentum through uncertainty with small tests, reflective learning, healthy
 conflict, and sustainable pace."*
 
-| ID | Kohta | Paino |
+| ID | Item | Weight |
 |---|---|---|
 | FM1 | We run small, safe-to-fail tests routinely and adjust course within weeks. | 1.0 |
 | FM2 | We bounce back quickly from funding, IP, or partner setbacks and keep momentum. | 1.0 |
@@ -180,5 +182,5 @@ conflict, and sustainable pace."*
 
 ---
 
-*76 kohtaa yhteensä 10 osa-alueella. Käytä `founder-competence-self-assessment`-skilliä
-arvioinnin läpivientiin ja tulosten tulkintaan.*
+*76 items total across 10 areas. Use the `founder-competence-self-assessment`
+skill to run the assessment and interpret the results.*

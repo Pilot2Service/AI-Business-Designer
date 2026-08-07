@@ -1,131 +1,135 @@
 ---
 name: bmc-client-language-translation
-description: "Tulkitsee asiakkaan tyypillisiä BMC-lauseita ('meidän pitää päivittää liiketoimintamallimme', 'olemme jo tehneet BMC:n') strategisiksi signaaleiksi, ja korjaa kolme yleisintä käsiteväärinkäsitystä: arvolupaus ominaisuuslistana, asiakassegmentti demografiana, tulovirta hinnoitteluna."
+description: "Interprets typical client statements about BMC work ('we need to update our business model', 'we've already done a BMC') as strategic signals, and corrects three of the most common conceptual misunderstandings: value proposition as a feature list, customer segment as demographics, revenue stream as pricing."
 ---
 
 # BMC Client Language Translation
 
-*Tila: `scaffold`, `source_layer: research` — ks. `../../../../skills_index.json` ja
+*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Antaa sanasto sille, mitä asiakas TARKOITTAA sanoessaan tyypillisiä
-BMC-työhön liittyviä lauseita — ja mitä kysyä seuraavaksi. Sekä korjata
-kolme yleisintä käsitteellistä väärinkäsitystä (arvolupaus, asiakas­
-segmentti, tulovirta vs. hinnoittelu), jotka näkyvät suoraan siinä miten
-asiakas TÄYTTÄÄ canvasia, ei vain siinä miten hän puhuu siitä.
+Provides a vocabulary for what a client MEANS when they say typical
+BMC-related phrases — and what to ask next. Also corrects three of the
+most common conceptual misunderstandings (value proposition, customer
+segment, revenue stream vs. pricing), which show up directly in how the
+client FILLS IN the canvas, not just in how they talk about it.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-Perustuu omistajan yksityiseen tutkimuskerrokseen (huhtikuun 2026 asiantuntijahaastattelu)
-(`03_domain_model/vocabulary/client_language_translation.md` ja
+Based on the owner's private research layer (an April 2026 expert
+interview)
+(`03_domain_model/vocabulary/client_language_translation.md` and
 `concept_misunderstandings.md`, `status: template`, `confidence: low/medium`),
-synteesi van der Lindenin ja Jeffriesin havainnoista. Huomaa: nämä ovat
-KAKSI ERI tiedostoa kuin
-`../bmc-antipattern-and-misunderstanding-correction/SKILL.md`:n
-lähdetiedostot (`bmc_client_misunderstandings.md`,
-`bmc_antipatterns_expert.md`) — tämä skilli käsittelee SANASTOA ja
-KÄSITTEITÄ, se skilli käsittelee BMC:N ROOLIA koskevia väärinkäsityksiä.
-Käytä molempia rinnakkain, ne eivät ole päällekkäisiä.
+a synthesis drawing on observations from van der Linden and Jeffries.
+Note: these are TWO DIFFERENT files from
+`../bmc-antipattern-and-misunderstanding-correction/SKILL.md`'s source
+files (`bmc_client_misunderstandings.md`,
+`bmc_antipatterns_expert.md`) — this skill covers VOCABULARY and
+CONCEPTS, that skill covers misunderstandings about the BMC's ROLE. Use
+both alongside each other; they don't overlap.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-### A. Asiakaslauseiden tulkinta
+### A. Interpreting client statements
 
-1. **"Meidän pitää päivittää liiketoimintamallimme."** Tulkinta:
-   asiakas kokee mallin vanhentuneeksi, usein kilpailupaineen tai
-   laskevien marginaalien laukaisemana. Ei ole vielä tunnistanut mitä
-   erityisesti pitäisi muuttua. Kysy seuraavaksi: mikä konkreettisesti
-   sai tämän tuntumaan vanhentuneelta juuri nyt?
-2. **"Olemme jo tehneet BMC:n."** Tulkinta: klassinen "kertatäyttö"
-   (Jeffries) — tiimi täytti lohkot, pitää työtä valmiina. Canvasista on
-   tullut juliste. Kysy seuraavaksi: saanko nähdä sen? (Usein
-   paljastuu yksi staattinen canvas ilman variantteja tai iterointia —
-   ks. `../bmc-canvas-clarity-and-iteration/SKILL.md`.)
-3. **"Meidän pitää löytää arvolupauksemme."** Tulkinta: yleensä
-   signaloi ominaisuusvetoista ajattelua. Tiimi osaa kuvata MITÄ he
-   tekevät, ei sitä MITÄ asiakas siitä hyötyy.
-4. **"Haluamme validoida mallimme."** Tulkinta: lähes aina tarkoittaa
-   "puhuimme muutamalle ihmiselle ja he pitivät siitä" — ei todellista
-   hypoteesitestausta. Ks. `../bmc-tool-switching-decisions/SKILL.md`
-   hypoteesin laatukriteereistä ennen kuin kutsut jotain validoiduksi.
-5. **"Asiakkaamme ovat [hyvin laaja segmentti]."** Tulkinta: yleisin
-   yksittäinen mainittu virhe (van der Linden, Jeffries).
-   Demografiaa ilman töitä, kipuja tai ostologiikkaa. Ks. DR-03 ja
-   segmentin validiteettipäätös `../bmc-tool-switching-decisions/SKILL.md`:ssä.
+1. **"We need to update our business model."** Interpretation: the
+   client feels the model has become outdated, often triggered by
+   competitive pressure or shrinking margins. They haven't yet
+   identified what specifically needs to change. Ask next: what
+   concretely made this feel outdated right now?
+2. **"We've already done a BMC."** Interpretation: the classic "one and
+   done" pattern (Jeffries) — the team filled in the blocks and
+   considers the work finished. The canvas has become a poster. Ask
+   next: can I see it? (This often reveals a single static canvas with
+   no variants or iteration — see
+   `../bmc-canvas-clarity-and-iteration/SKILL.md`.)
+3. **"We need to find our value proposition."** Interpretation:
+   usually signals feature-driven thinking. The team can describe WHAT
+   they do, not what the customer GETS out of it.
+4. **"We want to validate our model."** Interpretation: almost always
+   means "we talked to a few people and they liked it" — not real
+   hypothesis testing. See `../bmc-tool-switching-decisions/SKILL.md`
+   for hypothesis quality criteria before calling something validated.
+5. **"Our customers are [a very broad segment]."** Interpretation: the
+   single most commonly cited mistake (van der Linden, Jeffries).
+   Demographics without jobs, pains, or buying logic. See DR-03 and the
+   segment validity decision in
+   `../bmc-tool-switching-decisions/SKILL.md`.
 
-### B. Kolme käsiteväärinkäsitystä
+### B. Three conceptual misunderstandings
 
-6. **Arvolupaus.** Tyypillinen asiakaskäyttö: ominaisuuslista
-   ("Tarjoamme korkealaatuista X:ää erinomaisella palvelulla ja
-   kilpailukykyisellä hinnalla"). Mitä se oikeasti on: spesifi,
-   testattavissa oleva väite arvosta, joka on luotu tietylle segmentille
-   valmiiden töiden, helpotettujen kipujen tai tuotettujen hyötyjen
-   termein. Tunnusmerkki: jos se voisi koskea mitä tahansa kategorian
-   kilpailijaa, se ei ole arvolupaus — se on kategoriakuvaus.
-7. **Asiakassegmentit.** Tyypillinen asiakaskäyttö: laaja demografia
-   ("pk-yritykset", "yritysasiakkaat", "kuluttajat 25-45v"). Mitä se
-   oikeasti on: ryhmä, jolla on samat työt, kivut ja hyödyt — vaatii
-   merkittävästi erilaisen arvolupauksen tai kanavan. Määritelty sen
-   mukaan MITÄ he tarvitsevat, ei KEITÄ he ovat.
-8. **Tulovirrat vs. hinnoittelu.** Väärinkäsitys: täytetään
-   hinnoittelulla ("veloitamme 500€/projekti") tulologiikan sijaan
-   ("transaktioperusteinen, projektikohtainen"). Erottelu: tulomalli
-   (miten arvo kaapataan) vs. hinnoittelu (kuinka paljon veloitetaan) —
-   nämä ovat kaksi eri kysymystä.
+6. **Value proposition.** Typical client usage: a feature list ("We
+   offer high-quality X with excellent service and competitive
+   pricing"). What it actually is: a specific, testable statement of
+   value, built for a particular segment in terms of jobs done, pains
+   relieved, or gains created. Tell: if it could apply to any
+   competitor in the category, it isn't a value proposition — it's a
+   category description.
+7. **Customer segments.** Typical client usage: broad demographics
+   ("SMEs," "enterprise customers," "consumers 25-45"). What it
+   actually is: a group that shares the same jobs, pains, and gains —
+   requiring a meaningfully different value proposition or channel.
+   Defined by WHAT they need, not WHO they are.
+8. **Revenue streams vs. pricing.** Misunderstanding: filled in with a
+   price ("we charge €500/project") instead of a revenue logic
+   ("transaction-based, billed per project"). The distinction: the
+   revenue model (how value is captured) vs. pricing (how much is
+   charged) — these are two different questions.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei sisällä omistajan omaa vastausta siihen mitä hän kysyy seuraavaksi
-  näiden lauseiden jälkeen, tai mitkä fraasit HÄNEN omassa
-  asiakaskunnassaan ovat yleisimpiä — nämä ovat auki
-  `[EXPERT INPUT]`-kohtina lähdetiedostoissa.
-- Ei ole tyhjentävä sanasto — kattaa vain viisi tutkimuskerroksen
-  dokumentoimaa lausetta ja kolme käsitettä, ei kaikkia mahdollisia
-  asiakaspuheen muotoja.
-- Ei korvaa `../bmc-antipattern-and-misunderstanding-correction/SKILL.md`:ää
-  — se käsittelee BMC:n ROOLIA koskevia laajempia väärinkäsityksiä
-  (esim. "BMC määrittelee kaiken kerralla"), tämä skilli käsittelee
-  YKSITTÄISTEN KÄSITTEIDEN (arvolupaus, segmentti, tulovirta) sisältöä.
+- Doesn't contain the owner's own answer to what they ask next after
+  these statements, or which phrases are most common in THEIR OWN
+  client base — these remain open as `[EXPERT INPUT]` sections in the
+  source files.
+- Isn't an exhaustive vocabulary — it covers only the five phrases and
+  three concepts documented in the research layer, not every possible
+  form of client language.
+- Doesn't replace
+  `../bmc-antipattern-and-misunderstanding-correction/SKILL.md` — that
+  skill covers broader misunderstandings about the BMC's ROLE (e.g.
+  "the BMC defines everything at once"), this skill covers the content
+  of INDIVIDUAL CONCEPTS (value proposition, segment, revenue stream).
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-- Mitä "liiketoimintamallin päivitys" -pyyntö yleensä tarkoittaa
-  kokemuksesi mukaan? Onko se yleensä aito strateginen tarve vai
-  jonkin muun oireilua? Mitä kysyt seuraavaksi?
-- Miten vastaat "olemme jo tehneet BMC:n" -väitteeseen? Pyydätkö
-  näkemään sen? Mitä "jo tehty" yleensä paljastaa?
-- Mikä on vaistosi kun kuulet "haluamme löytää arvolupauksemme"?
-  Mikä on todellinen ongelma sen takana kokemuksesi mukaan?
-- Miten käsittelet "validointi"-sanan käytön? Miten resetoit
-  odotukset siitä mitä validointi vaatii?
-- Miten käsittelet hyvin laajan segmentin määrittelyn huoneessa?
-  Painostatko heti vai annatko sen kehittyä ensin? Mikä on
-  avauskysymyksesi?
-- Miten näet arvolupaus-väärinkäsityksen omissa asiakkaissasi? Mikä
-  on oma ohjausliikkeesi?
-- Mikä on pahin segmenttimäärittely jonka olet nähnyt? Mitä teit?
-- Erotatko tulomallin ja hinnoittelun? Miten käsittelet
-  hinnoittelukeskustelun BMC-kontekstissa?
-- Mitkä fraasit OMASSA asiakaskunnassasi käännät useimmin?
-- Mitkä väärinkäsitykset ovat yleisimpiä juuri sinun
-  asiakaskontekstissasi?
+- What does a "business model update" request usually mean in your
+  experience? Is it usually a genuine strategic need or a symptom of
+  something else? What do you ask next?
+- How do you respond to "we've already done a BMC"? Do you ask to see
+  it? What does "already done" usually reveal?
+- What's your instinct when you hear "we want to find our value
+  proposition"? What's the real problem behind it, in your experience?
+- How do you handle the use of the word "validation"? How do you reset
+  expectations about what validation requires?
+- How do you handle a very broad segment definition in the room? Do you
+  push back immediately or let it develop first? What's your opening
+  question?
+- How do you see the value-proposition misunderstanding show up in your
+  own clients? What's your own corrective move?
+- What's the worst segment definition you've seen? What did you do?
+- Do you distinguish the revenue model from pricing? How do you handle
+  the pricing conversation within a BMC context?
+- Which phrases do you translate most often in YOUR OWN client base?
+- Which misunderstandings are most common in your specific client
+  context?
 
-## Jatka tästä
+## Continue from here
 
-- Liittyvä skilli samassa pakissa:
+- Related skill in the same pack:
   `../bmc-antipattern-and-misunderstanding-correction/SKILL.md` —
-  laajemmat BMC:n roolia koskevat väärinkäsitykset (omistajan
-  validoima, `validated`-tasoinen — käytä ensisijaisena kun
-  kysymys koskee BMC:n ROOLIA eikä yksittäistä käsitettä).
-- Liittyvä skilli samassa pakissa:
-  `../bmc-tool-switching-decisions/SKILL.md` — segmentin ja
-  hypoteesin validiteettikriteerit, joita tämän skillin
-  käsiteselitykset tukevat.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  broader misunderstandings about the BMC's ROLE (owner-validated,
+  `validated`-level — use as the primary source when the question is
+  about the BMC's ROLE rather than an individual concept).
+- Related skill in the same pack:
+  `../bmc-tool-switching-decisions/SKILL.md` — the segment and
+  hypothesis validity criteria that this skill's concept explanations
+  support.
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/bmc-source-material-notes.md` — lähdeaineiston tausta
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/bmc-source-material-notes.md` — source material background
+- `../../CLAUDE.md` — this pack's shared guardrails

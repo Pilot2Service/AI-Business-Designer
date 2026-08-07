@@ -1,7 +1,7 @@
 {
   "name": "data-strategy-and-literacy",
   "displayName": "Data Strategy & Literacy",
-  "description": "Datan roolin diagnostiikka (mahdollistaja vs. strateginen assetti), datalukutaidon nelikenttäarviointi, datan kriittinen lukeminen (bias, laatu, edustavuus), data-storytelling liiketoimintakielelle, Data & AI -strategian muotoilu (Driver Tree, Agile Value Assessment) ja datan monetisointimallin valinta (suora vs. epäsuora, Data Flywheel).",
+  "description": "Diagnosing the role of data (enabler vs. strategic asset), a four-quadrant data literacy assessment, critical reading of data (bias, quality, representativeness), data storytelling for business audiences, Data & AI strategy design (Driver Tree, Agile Value Assessment), and selecting a data monetization model (direct vs. indirect, Data Flywheel).",
   "version": "0.1.0",
   "author": {
     "name": "Pilot2service"

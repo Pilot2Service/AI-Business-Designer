@@ -1,110 +1,134 @@
 ---
 name: category-definition-and-modeling
-description: "Mallintaa tuotteen tai liiketoiminnan suhteessa markkinakategorioihin: assosioida olemassa olevaan kategoriaan, laajentaa/uudelleenmääritellä kategoriaa, tai arvioida kokonaan uuden kategorian luomista."
+description: "Models a product or business relative to market categories: associating with an existing category, expanding/redefining a category, or assessing the creation of an entirely new category."
 ---
 
 # Category Definition & Modeling
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Mallintaa tuote tai liiketoiminta suhteessa markkinakategorioihin: joko
-assosioida se olemassa olevaan kategoriaan, laajentaa tai uudelleenmääritellä
-olemassa olevaa kategoriaa, tai arvioida kokonaan uuden kategorian
-luomista. Kategoriapäätös ei ole vain brändäystä — se muokkaa suoraan sitä,
-mihin asiakas vertaa tuotetta, keitä kilpailijoiksi mielletään, ja kuinka
-suuri osa markkinan arvosta kategoriajohtajalle voi kertyä.
+Models a product or business relative to market categories: either
+associating it with an existing category, expanding or redefining an
+existing category, or assessing the creation of an entirely new category.
+A category decision isn't just branding — it directly shapes what the
+customer compares the product to, who is perceived as a competitor, and
+how large a share of the market's value can accrue to the category leader.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - Ramadan, A., Peterson, D., Lochhead, C. & Maney, K. (2016), *Play Bigger:
-  How Pirates, Dreamers, and Innovators Create and Dominate Markets* —
-  Category Design -koulukunta: kategoriakuninkuus (Category King) — yritys,
-  joka rakentaa ja omistaa uuden kategorian, saa suhteettoman osan
-  kategorian arvosta; "Lightning Strike" -konsepti kategorian
-  lanseeraukseen; flywheel-efekti kategoriajohtajuuden vahvistamiseen ajan
-  myötä.
-- Kim, W. C. & Mauborgne, R. (2005), *Blue Ocean Strategy* — kilpailemattoman
-  markkinatilan luominen erottamalla arvoinnovaatio nykyisistä
-  kategoriarajoista; nelikenttäkehys (poista/vähennä/nosta/luo).
-- Ries, A. & Trout, J., positiointiteoria — miten kategoria muokkaa
-  asiakkaan mielikuvaa ja vertailukehystä ennen kuin tuotteen ominaisuuksia
-  edes arvioidaan.
+  How Pirates, Dreamers, and Innovators Create and Dominate Markets* — the
+  Category Design school of thought: category kingship (the Category King)
+  — the company that builds and owns a new category captures a
+  disproportionate share of the category's value; the "Lightning Strike"
+  concept for launching a category; the flywheel effect that reinforces
+  category leadership over time.
+- Kim, W. C. & Mauborgne, R. (2005), *Blue Ocean Strategy* — creating
+  uncontested market space by separating value innovation from existing
+  category boundaries; the four-action grid (eliminate/reduce/raise/create).
+- Ries, A. & Trout, J., positioning theory — how a category shapes the
+  customer's mental image and frame of comparison before the product's
+  features are even evaluated.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Kartoita nykyiset kategoriat, joihin tuote tai liiketoiminta voitaisiin
-   luontevasti assosioida — mihin asiakas jo intuitiivisesti vertaisi tätä?
-2. Arvioi kolme vaihtoehtoista kategoriastrategiaa:
-   - **(a) Assosioidu olemassa olevaan kategoriaan.** Hyödynnä valmista
-     asiakasymmärrystä ja ostologiikkaa, mutta kilpaile suoraan kategorian
-     ehdoilla vakiintuneita toimijoita vastaan. Nopein ja halvin reitti.
-   - **(b) Laajenna tai uudelleenmäärittele olemassa olevaa kategoriaa.**
-     Tuo uusi ulottuvuus tai ala-kategoria, joka muuttaa vertailukehystä
-     osittain omaksi eduksi. Keskitason resurssivaatimus.
-   - **(c) Luo kokonaan uusi kategoria.** Irrota tuote olemassa olevista
-     vertailukehyksistä. Korkea riski ja pitkä sykli (vaatii merkittävää
-     markkinaedukaatiota), mutta onnistuessaan "kategoriakuningas" saa
-     suhteettoman osan kategorian arvosta (Play Bigger).
-3. Jos harkitset uutta tai laajennettua kategoriaa: testaa Blue Ocean
-   -nelikentällä — mitkä toimialan itsestäänselvyydet voidaan **poistaa**,
-   mitä voidaan **vähentää** selvästi alle toimialan standardin, mitä
-   voidaan **nostaa** selvästi yli standardin, ja mitä täysin **uutta**
-   voidaan luoda?
-4. Arvioi kategoriapäätöksen resurssivaatimus rehellisesti: olemassa
-   olevaan kategoriaan assosioituminen on nopein ja halvin, laajentaminen
-   keskitasoinen, uuden kategorian luominen vaatii pitkäjänteistä
-   markkinaedukaatiota ja merkittävää viestintäpanostusta.
-5. Määritä kategorianimi ja -kuvaus, joka kiteyttää valitun position
-   asiakkaan mielessä — kategorianimi on osa strategiaa, ei vain brändäystä.
-6. Tunnista kategorian "flywheel" — mikä mekanismi vahvistaa
-   kategoriajohtajuutta ajan myötä (verkostovaikutukset, kertyvä data,
-   brändin muistijälki, jakelun laajuus)?
-7. Pidä kategoriapäätös elävänä hypoteesina — markkinan reaktio
-   (kilpailijoiden asemointi, asiakaspuhe, analyytikkoluokittelu) validoi
-   tai haastaa valitun kategoriastrategian ajan myötä; älä lukitse
-   kategoriaa liian aikaisin ilman markkinasignaalia.
+1. **Map the existing categories** the product or business could plausibly
+   be associated with — what would the customer already intuitively
+   compare this to?
+2. **Assess three alternative category strategies**, following Play
+   Bigger's framing of the category-design spectrum:
+   - **(a) Associate with an existing category.** Leverage ready-made
+     customer understanding and buying logic, but compete directly against
+     established players on the category's own terms. The fastest and
+     cheapest route — and the default unless there's a specific reason to
+     leave it.
+   - **(b) Expand or redefine an existing category.** Introduce a new
+     dimension or sub-category that partially shifts the frame of
+     comparison in your favor. A medium resource commitment; often the
+     right move when the existing category's terms structurally favor an
+     incumbent.
+   - **(c) Create an entirely new category.** Detach the product from
+     existing frames of comparison. High risk and a long cycle (requires
+     significant market education), but a successful "Category King," per
+     Play Bigger, captures a disproportionately large share of the
+     category's economic value compared to the #2 and #3 players — which
+     is the core argument for accepting the higher cost and risk.
+3. **If you're considering a new or expanded category, run the Lightning
+   Strike test.** Play Bigger's launch concept asks: is there a single,
+   concentrated moment (a launch event, a category-naming announcement, a
+   flagship customer story) that can establish the category point of view
+   in the market's mind at once, rather than trickling it out gradually?
+   A category strategy with no plausible Lightning Strike moment is harder
+   to pull off than the resource estimate in step 4 alone would suggest.
+4. **Stress-test the category point of view with Blue Ocean's four-action
+   grid** — what industry givens can be **eliminated**, what can be
+   **reduced** clearly below the industry standard, what can be **raised**
+   clearly above it, and what entirely **new** factor can be **created**?
+   The pattern of answers should read as a coherent story, not a random
+   list — that story is the category's point of view.
+5. **Assess the resource requirement of the category decision honestly:**
+   associating with an existing category is fastest and cheapest,
+   expansion is medium-effort, creating a new category requires sustained
+   market education and significant communication investment over multiple
+   years, not quarters.
+6. **Define a category name and description** that crystallizes the chosen
+   position in the customer's mind — the category name is part of the
+   strategy, not just branding.
+7. **Identify the category's flywheel** — per Play Bigger, what mechanism
+   reinforces category leadership over time (network effects, accumulating
+   data, brand recall, breadth of distribution)? A category strategy
+   without an identifiable flywheel risks winning the launch and losing
+   the category to a fast follower.
+8. **Keep the category decision a living hypothesis** — the market's
+   reaction (competitors' positioning, customer language, analyst
+   classification) validates or challenges the chosen category strategy
+   over time; don't lock in a category too early without a market signal.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei takaa uuden kategorian onnistumista — uuden kategorian luominen on
-  korkean riskin strategia, jonka onnistuminen vaatii merkittäviä
-  resursseja ja pitkäjänteisyyttä.
-- Ei tee lopullista kategoriapäätöstä puolestasi — jäsentää vaihtoehdot ja
-  niiden riski-/resurssiprofiilin ihmisen päätöksenteon tueksi.
-- Ei korvaa markkinatutkimusta asiakkaan nykyisistä mielikuvista — päätös
-  pitää validoida oikealla asiakasymmärryksellä, ei vain sisäisellä
-  pohdinnalla.
+- Doesn't guarantee the success of a new category — creating a new category
+  is a high-risk strategy whose success requires significant resources and
+  sustained commitment (Play Bigger's own examples are survivorship-biased
+  toward winners; most category creation attempts don't reach Category King
+  status).
+- Doesn't make the final category decision for you — it structures the
+  alternatives and their risk/resource profile to support a human decision.
+- Doesn't replace market research into the customer's current mental
+  associations — the decision needs to be validated with real customer
+  understanding, not internal deliberation alone.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt siitä, milloin uuden kategorian luominen kannattaa
-  tutkimuspohjaisille/deep tech -mahdollisuuksille vs. milloin ei
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset onnistuneesta tai epäonnistuneesta
-  kategoriapäätöksestä
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb for when creating a new category is worthwhile
+  for research-based/deep-tech opportunities vs. when it isn't
+- concrete templates (into `../../references/`)
+- reference cases / your own examples of a successful or failed category
+  decision
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävät skillit samassa pakissa: `../layer-based-business-structuring/SKILL.md`,
-  `../value-chain-mapping/SKILL.md` — täydentäviä tapoja jäsentää samaa
-  liiketoimintaa ennen kategoriapäätöstä.
-- Liittyvä skilli toisessa pakissa (kilpailuedun vahvuus osana
-  mahdollisuuden arviointia): `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
-- Liittyvä skilli toisessa pakissa: `../../../strategic-thinking/skills/strategic-intent-framing/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Preceding skills in the same pack: `../layer-based-business-structuring/SKILL.md`,
+  `../value-chain-mapping/SKILL.md` — complementary ways to structure the
+  same business before the category decision.
+- Related skill in another pack (competitive strength as part of
+  opportunity assessment): `../../../opportunity-recognition/skills/opportunity-value-assessment/SKILL.md`
+- Related skill in another pack: `../../../strategic-thinking/skills/strategic-intent-framing/SKILL.md`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

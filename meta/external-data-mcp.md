@@ -1,61 +1,68 @@
-# Ulkoiset data-MCP:t — valinnainen, ei riippuvuus
+# External data MCPs — optional, not a dependency
 
-## Periaate
+## Principle
 
-Tämä repo on suunniteltu toimimaan **täysin itsenäisesti**: mikään skilli tai agentti
-ei vaadi ulkoista MCP-palvelinta toimiakseen. Jokainen skilli toimii käyttäjän antamalla
-lähtödatalla ja läpinäkyvillä oletuksilla (`[oletus — tarkista]`, ks.
-`shared-guardrails.md`). Tämä tiedosto listaa **valinnaisia** ulkoisia data-MCP:tä,
-joita relevantit skillit ja agentit voivat käyttää *jos* käyttäjän ympäristössä sellainen
-on kytkettynä — ei koskaan edellytyksenä.
+This repo is designed to work **fully standalone**: no skill or agent
+requires an external MCP server to function. Every skill works on
+user-supplied input data and transparent assumptions (`[assumption —
+verify]`, see `shared-guardrails.md`). This file lists **optional**
+external data MCPs that relevant skills and agents can use *if* one happens
+to be connected in the user's environment — never as a requirement.
 
-Malli on sama kuin `claude-for-legal-finland`-repossa (joka kytkeytyy Finlexiin ja
-oikeuslähde-MCP:hen), mutta yhdellä keskeisellä erolla: siellä lähde on yksi
-auktoritatiivinen, oikeudellisesti sitova rekisteri. Tässä repossa ehdotetut lähteet
-ovat julkisia talous-/markkinadatalähteitä — hyödyllisiä ristiintarkistukseen, mutta
-eivät koskaan ainoa totuus liiketoimintapäätöksen taustalla.
+The model is the same as in the `claude-for-legal-finland` repo (which
+connects to Finlex and a legal-source MCP), with one key difference: there,
+the source is a single authoritative, legally binding register. The sources
+suggested here are public economic/market data sources — useful for
+cross-checking, but never the sole truth behind a business decision.
 
-## Kandidaatit
+## Candidates
 
-**Näitä ei ole auditoitu tuotantokäyttöön eikä niiden ylläpitoa taata.** Ne on
-tunnistettu julkisesta MCP-hakemistosta (mcpservers.org) elokuussa 2026 relevantteina
-kandidaatteina — tarkista ennen käyttöä että projekti on yhä ylläpidetty ja että sen
-lisenssi ja tietosuojakäytäntö sopivat omaan käyttötarkoitukseesi.
+**These have not been audited for production use, and their maintenance is
+not guaranteed.** They were identified from a public MCP directory
+(mcpservers.org) in August 2026 as relevant candidates — before using one,
+verify the project is still maintained and that its license and privacy
+practices fit your intended use.
 
-### Ensisijainen: Market Sizing MCP Server (TAM-MCP-Server)
+### Primary: Market Sizing MCP Server (TAM-MCP-Server)
 
-- **Mitä:** avoimen lähdekoodin (MIT) MCP-palvelin, 28 työkalua, 15 valmista
-  business-promptia. Kytkeytyy kahdeksaan julkiseen talousdatalähteeseen: Alpha
+- **What:** an open-source (MIT) MCP server with 28 tools and 15 ready-made
+  business prompts. Connects to eight public economic data sources: Alpha
   Vantage, BLS, Census, FRED, IMF, Nasdaq Data Link, OECD, World Bank.
-- **Relevantit skillit/agentit:** `opportunity-recognition/skills/market-sizing-tam-sam-som`,
+- **Relevant skills/agents:**
+  `opportunity-recognition/skills/market-sizing-tam-sam-som`,
   `opportunity-recognition/agents/market-sizing-cross-validator`.
-- **Mihin sopii:** TAM/SAM/SOM-laskelman pohjadatan haku ja usean riippumattoman
-  lähteen ristiintarkistus (`data_validation`-työkalu) sen sijaan että luku
-  perustuisi pelkkään oletukseen.
-- **Ylläpito:** yksittäisen kehittäjän projekti (github.com/gvaibhav/TAM-MCP-Server),
-  ei institutionaalinen — arvioi luotettavuus itse ennen käyttöä.
+- **What it's good for:** pulling baseline data for a TAM/SAM/SOM
+  calculation and cross-checking it across several independent sources
+  (the `data_validation` tool), instead of a number resting on a bare
+  assumption.
+- **Maintenance:** a single-developer project
+  (github.com/gvaibhav/TAM-MCP-Server), not institutional — assess its
+  reliability yourself before using it.
 
-### Muita kandidaatteja (ei syvemmin arvioitu)
+### Other candidates (not evaluated in depth)
 
-| Kandidaatti | Mihin sopisi |
+| Candidate | What it would suit |
 |---|---|
-| `company-mcp` (yritys-/LEI-/SEC-haku) | Kilpailija- ja yritysdata `business-design-frameworks`- ja `business-case-and-analysis`-pakkeihin |
-| `secedgar-mcp-server` (SEC EDGAR -tilinpäätökset) | Amerikkalaisten pörssiyhtiöiden benchmarkkaus `business-case-and-analysis`-pakissa |
+| `company-mcp` (company/LEI/SEC lookup) | Competitor and company data for the `business-design-frameworks` and `business-case-and-analysis` packs |
+| `secedgar-mcp-server` (SEC EDGAR filings) | Benchmarking US public companies in the `business-case-and-analysis` pack |
 
-## Miten skilli/agentti käyttää tätä jos MCP on kytketty
+## How a skill/agent uses this if an MCP is connected
 
-1. Käytä MCP:n palauttamaa lukua **samoin kuin käyttäjän antamaa lähtöarvoa** —
-   merkitse lähde (mikä MCP/data-source) ja hakuajankohta, älä esitä ilman
-   lähdemerkintää (ks. `shared-guardrails.md` kohta 2).
-2. Jos MCP palauttaa useamman lähteen ristiriitaisia lukuja, tee ristiriita
-   näkyväksi äläkä keskiarvoista sitä hiljaa.
-3. MCP:n data ei koskaan korvaa kohdan 1 (`shared-guardrails.md`) ihmisen
-   tarkistusta ja hyväksyntää — se on parempi lähtöarvo, ei valmis päätös.
+1. Treat a number returned by an MCP **the same way as a user-supplied
+   baseline** — state the source (which MCP/data source) and the retrieval
+   date; don't present it without a source note (see `shared-guardrails.md`
+   item 2).
+2. If the MCP returns conflicting figures from multiple sources, surface
+   the conflict rather than silently averaging it away.
+3. MCP data never replaces the human review and approval required by item 1
+   of `shared-guardrails.md` — it's a better baseline, not a finished
+   decision.
 
-## Miten kytket (jos haluat kokeilla)
+## How to connect (if you want to try it)
 
-Tämä repo ei sisällä valmista `.mcp.json`-konfiguraatiota — kytkentä tehdään omassa
-Claude Code / Cowork -ympäristössäsi normaalin MCP-asennusprosessin kautta (ks.
-kunkin palvelimen oma dokumentaatio). Kun MCP on kytketty samaan ympäristöön jossa
-tämä skills-pack on asennettuna, relevantit skillit ja agentit tunnistavat sen
-saatavuuden kontekstista eivätkä vaadi erillistä konfigurointia tässä repossa.
+This repo doesn't ship a ready-made `.mcp.json` configuration — connecting
+one is done in your own Claude Code / Cowork environment via the normal MCP
+setup process (see each server's own documentation). Once an MCP is
+connected in the same environment where this skills pack is installed,
+relevant skills and agents will recognize its availability from context and
+require no separate configuration in this repo.

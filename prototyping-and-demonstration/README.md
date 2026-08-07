@@ -1,96 +1,99 @@
 # Prototyping & Demonstration
 
-Miten AI-konsultti rakentaa nopeasti toimivan konseptin, kehystää sen
-asiakkaalle oikein, esittää sen vakuuttavasti ja sitoo tuloksen business
-caseen ja ROI-laskelmaan. Vastaa kysymykseen "miten mahdollisuus tehdään
-konkreettiseksi ja uskottavaksi" — täydentää `opportunity-recognition`-
-ja `ai-strategy-and-governance`-pakkien "mikä mahdollisuus tämä on"
--kysymystä ja `business-case-and-analysis`-pakin "kannattaako tämä
-taloudellisesti" -kysymystä.
+How an AI consultant quickly builds a working concept, frames it correctly
+for the customer, delivers it convincingly, and ties the result back into a
+business case and ROI calculation. Answers the question "how do we make an
+opportunity concrete and credible" — complementing the `opportunity-recognition`
+and `ai-strategy-and-governance` packs' "what opportunity is this" question
+and the `business-case-and-analysis` pack's "is this economically worth it"
+question.
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Kuvaus |
+| Skill | Description |
 |---|---|
-| `opportunity-visioning-with-pr-faq` | Kommunikoi ja näyttää AI-mahdollisuuden Amazonin Working Backwards / PR-FAQ-menetelmällä ennen kuin mitään on rakennettu. |
-| `rapid-prototype-and-vibe-coding-craft` | Rakentaa nopeasti toimivan, riittävän uskottavan prototyypin AI-avusteisella koodauksella ("vibe coding") — oikea fideliteettitaso, tiukka iteraatiosykli, tunnetut riskit. |
-| `demo-framing-and-expectation-setting` | Kehystää demon/PoC:n oikealla termillä (PoC vs. Pilotti vs. MVP) ja "todistaa/ei todista" -parilla ennen esittämistä — estää ylitulkinnan ja "pilot purgatoryn". |
-| `demo-delivery-and-storytelling` | Rakentaa ja pitää demon Great Demo! -metodologialla (Situation Slide, kriittinen liiketoimintaongelma, "tee viimeinen asia ensin"). |
-| `demo-to-business-case-bridge` | Kääntää demon/PoC:n tulokset business case -kelpoisiksi ROI-syötteiksi — tekninen suorituskyky vs. liiketoimintavaikutus, oletusketjun näkyväksi tekeminen, ROI-mekanismin yhteensopivuus asiakkaan organisaatioon. |
+| `opportunity-visioning-with-pr-faq` | Communicates and shows an AI opportunity using Amazon's Working Backwards / PR-FAQ method before anything has been built. |
+| `rapid-prototype-and-vibe-coding-craft` | Builds a fast-enough, credible-enough working prototype using AI-assisted coding ("vibe coding") — the right fidelity level, a tight iteration cycle, known risks. |
+| `demo-framing-and-expectation-setting` | Frames the demo/PoC with the right term (PoC vs. Pilot vs. MVP) and a "proves/doesn't prove" pair before presenting it — prevents over-interpretation and "pilot purgatory". |
+| `demo-delivery-and-storytelling` | Builds and delivers the demo using the Great Demo! methodology (Situation Slide, critical business issue, "do the last thing first"). |
+| `demo-to-business-case-bridge` | Translates demo/PoC results into business-case-ready ROI inputs — technical performance vs. business impact, making the assumption chain visible, checking that the ROI mechanism fits the customer's organization. |
 
-Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle (frontmatterissa
-ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
+All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
+for current maturity (maturity isn't tracked in the frontmatter — see
+[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
 
-## Skillien looginen kulku
+## Logical flow through the skills
 
 ```
-opportunity-visioning-with-pr-faq   (valinnainen: visio sanoiksi ennen koodia)
+opportunity-visioning-with-pr-faq   (optional: put the vision into words before code)
               │
               ▼
-rapid-prototype-and-vibe-coding-craft   (rakenna kapea, hypoteesin todistava proto)
+rapid-prototype-and-vibe-coding-craft   (build a narrow, hypothesis-proving proto)
               │
               ▼
-demo-framing-and-expectation-setting    (nimeä PoC/Pilotti/MVP, "todistaa/ei todista")
+demo-framing-and-expectation-setting    (name it PoC/Pilot/MVP, "proves/doesn't prove")
               │
               ▼
-demo-delivery-and-storytelling          (Great Demo! -esitys)
+demo-delivery-and-storytelling          (Great Demo! delivery)
               │
               ▼
-demo-to-business-case-bridge            (oletusketju näkyväksi → ROI-syötteet)
+demo-to-business-case-bridge            (make the assumption chain visible → ROI inputs)
               │
               ▼
    business-case-and-analysis/business-case-builder, roi-npv-sensitivity-model
 ```
 
-`opportunity-visioning-with-pr-faq` on valinnainen ensimmäinen askel — käytä
-sitä kun visio ei vielä ole selkeä tai kun protoilu ei vielä ole
-kannattavaa. `demo-framing-and-expectation-setting` kannattaa aina tehdä
-ENNEN demoa, ei jälkikäteen.
+`opportunity-visioning-with-pr-faq` is an optional first step — use it when
+the vision isn't yet clear, or when prototyping isn't yet feasible or
+worthwhile. `demo-framing-and-expectation-setting` should always be done
+BEFORE the demo, not after.
 
-## Suhde muihin pakkeihin
+## Relationship to other packs
 
 - **`ai-strategy-and-governance/ai-use-case-feasibility-and-poc-scoping`** —
-  määrittää PoC:n TEKNISET reunaehdot ennen protoilua. Tämän pakin
-  `demo-framing-and-expectation-setting` kehystää saman rajauksen
-  ASIAKASVIESTINTÄÄN — eri kysymys, käytä molempia yhdessä.
+  defines the TECHNICAL boundaries of a PoC before prototyping. This pack's
+  `demo-framing-and-expectation-setting` frames that same scoping for
+  CUSTOMER COMMUNICATION — a different question, use both together.
 - **`change-and-communication/executive-narrative-and-storyline`** —
-  kääntää analyysin johdon tarinaksi yleisemmin. Tämän pakin
-  `demo-delivery-and-storytelling` ja `opportunity-visioning-with-pr-faq`
-  ovat sen erikoistuneempia sovelluksia demo-/visiointitilanteeseen.
-- **`business-case-and-analysis/business-case-builder` ja
-  `roi-npv-sensitivity-model`** — vastaanottavat tämän pakin
-  `demo-to-business-case-bridge`-skillin tuottamat validoidut syötteet.
-- **`opportunity-recognition/pattern-and-analogy-connector` ja
+  translates analysis into an executive narrative more generally. This
+  pack's `demo-delivery-and-storytelling` and `opportunity-visioning-with-pr-faq`
+  are its more specialized applications to a demo/visioning situation.
+- **`business-case-and-analysis/business-case-builder` and
+  `roi-npv-sensitivity-model`** — receive the validated inputs produced by
+  this pack's `demo-to-business-case-bridge` skill.
+- **`opportunity-recognition/pattern-and-analogy-connector` and
   `ai-strategy-and-governance/ai-capability-pattern-matching`** —
-  tuottavat raakalistan mahdollisuuksista, joita tämä pakki tekee
-  konkreettisiksi ja uskottaviksi.
+  produce the raw list of opportunities that this pack makes concrete and
+  credible.
 
-## Ankkurointi
+## Anchored in
 
 - Cohan, Peter E. — *Great Demo! How To Create And Execute Stunning
-  Software Demonstrations* ja Paul Pearcen "Great Demo! Five Imperatives"
-  -sovellus (Discovery, Demo Prep, Demo Delivery, Documentation, Debrief;
-  Situation Slide, Critical Business Issue, "tee viimeinen asia ensin")
+  Software Demonstrations* and Paul Pearce's "Great Demo! Five Imperatives"
+  application (Discovery, Demo Prep, Demo Delivery, Documentation, Debrief;
+  Situation Slide, Critical Business Issue, "do the last thing first")
 - Bryar, Colin & Carr, Bill — *Working Backwards: Insights, Stories, and
-  Secrets from Inside Amazon* (2021) — Working Backwards -menetelmä ja
-  PR-FAQ-dokumentti
-- Vibe coding -parhaat käytännöt 2026 (usean lähteen synteesi) —
-  työkaluvalinta, iteraatiosykli, PRD-ensin-periaate, tunnetut riskit
-- Prototyyppifideliteetti-tutkimus (UX-tutkimusperinne) — matalan vs.
-  korkean fideliteetin prototyyppien käyttötilanteet
-- PoC vs. Pilotti vs. MVP -erottelu (usean 2026-lähteen synteesi)
-- "Pilot purgatory" -tutkimus (McKinsey/BCG/IDC/MIT-synteesejä) —
-  miksi suuri osa yrityssektorin AI-piloteista ei etene tuotantoon
-- Tutkimussynteesi (2026) demon/PoC:n ROI-kääntämisestä liiketoiminta-
-  kieleksi
+  Secrets from Inside Amazon* (2021) — the Working Backwards method and
+  the PR-FAQ document
+- Vibe coding best practices 2026 (synthesis of multiple sources) —
+  tool selection, iteration cycle, PRD-first principle, known risks
+- Prototype fidelity research (UX research tradition) — when to use
+  low- vs. high-fidelity prototypes
+- The PoC vs. Pilot vs. MVP distinction (synthesis of multiple 2026 sources)
+- "Pilot purgatory" research (McKinsey/BCG/IDC/MIT syntheses) —
+  why a large share of enterprise AI pilots never reach production
+- Research synthesis (2026) on translating demo/PoC results into
+  business language
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  taustamateriaali, lähteet, omat mallit (täydennettävä)
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   an individual skill (name + description frontmatter)
+references/                  background material, sources, own templates (to be filled in)
 ```
 
-Katso `../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin sisältöä.
+See [`../meta/maturity_levels.md`](../meta/maturity_levels.md) for what the
+maturity levels mean, and
+[`../AGENT_GUIDE.md`](../AGENT_GUIDE.md) for how an agent should read and
+weight this pack's content.

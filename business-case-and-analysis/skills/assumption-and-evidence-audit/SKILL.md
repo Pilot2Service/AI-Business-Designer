@@ -1,58 +1,83 @@
 ---
 name: assumption-and-evidence-audit
-description: "Testaa oletukset ja tunnistaa evidenssiaukot ennen suosituksen lukitsemista. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään."
+description: "Tests assumptions and identifies evidence gaps before a recommendation is locked in. Use when you need business-case-and-analysis-level support for a comparable task."
 ---
 
 # Assumption & Evidence Audit
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Testaa oletukset ja tunnistaa evidenssiaukot ennen suosituksen lukitsemista.
+Tests assumptions and identifies evidence gaps before a recommendation is locked in.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - 45ck — assumption-extractor / evidence-gap-review
 - WEF Future of Jobs 2025 — analytical thinking #1
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Extract every load-bearing assumption from the analysis or
+   recommendation** — not just the numeric ones. An assumption is
+   load-bearing if the conclusion would change had it gone the other way;
+   test this by asking "what if this were false?" for each claim.
+2. **Trace each assumption to its source:** a cited fact, a
+   stakeholder-provided figure, an inference from other data, or an unstated
+   guess. Anything without a traceable source gets flagged
+   `[assumption — verify]`, regardless of how confident it sounds.
+3. **Grade the evidence behind each sourced assumption on strength, not just
+   presence** — a single anecdote, a small sample, an internal estimate, and
+   a validated external benchmark are not the same tier of evidence, and the
+   grade should say so explicitly.
+4. **Rank the assumption list by leverage (how much the conclusion depends on
+   it) × evidence weakness** — this is the analytical-thinking discipline the
+   WEF's 2025 Future of Jobs report ranks as the top core skill: identifying
+   which unverified claims actually matter, rather than treating every gap
+   as equally important.
+5. **For each high-leverage, low-evidence assumption, specify exactly what
+   evidence would resolve it and how hard it would be to obtain** — not just
+   that it's missing.
+6. **Produce a gap list ordered by priority, separate from the analysis
+   itself**, so a reviewer can see at a glance which unresolved assumptions
+   should block sign-off versus which can proceed with the risk noted.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei tuota uutta evidenssiä — paljastaa mitä evidenssiä puuttuu ja mitä pitää hankkia.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't produce new evidence — it reveals what evidence is missing and what
+  needs to be obtained.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../business-case-builder/SKILL.md` — Rakentaa täyden business casen: ongelma, ratkaisu, talous (ROI/NPV/IRR), riskit, aikataulu, sidosryhmät, suositus.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../business-case-builder/SKILL.md`](../business-case-builder/SKILL.md) — Builds a full business case: problem, solution, economics (ROI/NPV/IRR), risks, timeline, stakeholders, recommendation.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

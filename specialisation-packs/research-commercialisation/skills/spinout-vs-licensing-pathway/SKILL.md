@@ -1,51 +1,70 @@
 ---
 name: spinout-vs-licensing-pathway
-description: "Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (equity-pohjainen), lisensointi (rojaltipohjainen) tai hybridi."
+description: "Choose the right commercialisation pathway for a research result: spin-out (equity-based), licensing (royalty-based), or hybrid."
 ---
 
 # Spin-out vs. Licensing Pathway
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Valitse oikea kaupallistamisreitti tutkimustulokselle: spin-out (equity-pohjainen), lisensointi (rojaltipohjainen) tai hybridi.
+Choose the right commercialisation pathway for a research result: spin-out
+(equity-based), licensing (royalty-based), or hybrid.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luvut "Commercialisation Pathways" ja "Hybrid and Other Models" (s. 20-23).
+the owner's published commercialisation guide (owner, 2025). Chapters
+"Commercialisation Pathways" and "Hybrid and Other Models" (pp. 20-23).
 
-- Spin-out: kontrolli ja ylöspäin skaalautuva tuotto, mutta pitkä ja kallis reitti.
-- Lisensointi: nopeampi reitti, hyödyntää lisenssinsaajan olemassa olevat kanavat, mutta pienempi ylösote.
-- Trendi: isot toimijat (esim. lääketeollisuus) ostavat yhä useammin todistetun spin-outin sen sijaan että lisensoisivat raakaa yliopisto-IP:tä.
+- Spin-out: control and upward-scaling return, but a long and expensive
+  pathway.
+- Licensing: a faster pathway, leverages the licensee's existing channels, but
+  a smaller upside.
+- Trend: large players (e.g. pharma) increasingly acquire a proven spin-out
+  rather than licensing raw university IP.
 
-## Rakenne
+## Method
 
-1. Listaa molempien reittien plussat/miinukset omalle tapaukselle: kontrolli vs. nopeus, riski vs. käytettävissä olevat resurssit.
-2. Arvioi teknologian luonne: alustateknologia laajoilla sovelluksilla suosii spin-outia; kapea parannus kypsälle tuotteelle suosii lisensointia.
-3. Arvioi tiimin sitoutumishalu — onko joku valmis rakentamaan yhtiötä vuosia, vai halutaanko royalty-tuloa ja nähdä tuote markkinoilla ilman yrittäjyyttä?
-4. Arvioi toimialan dynamiikka: esim. lääkealalla suuret toimijat ostavat usein todistetun spin-outin myöhemmin sen sijaan että lisensoisivat varhaista IP:tä.
-5. Harkitse hybridiä: spin-out + osittainen out-licensing myöhemmin, tai joint venture teollisuuskumppanin kanssa.
-6. Pidä reitti joustavana — moni onnistunut tapaus vaihtaa suuntaa (esim. spin-out joka ei saa rahoitusta, kääntyy lisensointiin, tai päinvastoin).
-7. Ota TTO mukaan arviointiin varhain — se näkee onko keksinnössä VC-rahoituskelpoisen venturen ainekset vai onko se paremmin lisensoitavissa.
+1. List the pros/cons of both pathways for your own case: control vs. speed,
+   risk vs. available resources.
+2. Assess the nature of the technology: a platform technology with broad
+   applications favours a spin-out; a narrow improvement to a mature product
+   favours licensing.
+3. Assess the team's willingness to commit — is someone prepared to build a
+   company for years, or is the goal royalty income and seeing the product on
+   the market without entrepreneurship?
+4. Assess industry dynamics: e.g. in pharma, large players often acquire a
+   proven spin-out later rather than licensing early-stage IP.
+5. Consider a hybrid: spin-out plus partial out-licensing later, or a joint
+   venture with an industry partner.
+6. Keep the pathway flexible — many successful cases change direction (e.g. a
+   spin-out that doesn't secure funding pivots to licensing, or vice versa).
+7. Involve the TTO in the assessment early — it can see whether the invention
+   has the makings of a VC-fundable venture or is better suited to licensing.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee juridista tai taloudellista päätöstä puolestasi.
-- Ei arvioi tiettyä lisenssisopimusta lausekkeittain — katso `sopimukset:sopimuksen-tarkistus`, jos saatavilla.
-- Ei ota kantaa oman yliopistosi/organisaatiosi tarkkoihin ehtoihin — ne vaihtelevat, tarkista TTO:lta.
+- Does not make the legal or financial decision for you.
+- Does not assess a specific licence agreement clause by clause — see
+  `sopimukset:sopimuksen-tarkistus` if available.
+- Does not address your own university's/organisation's exact terms — these
+  vary, check with your TTO.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../ip-disclosure-and-ownership-check/SKILL.md` — Selvitä kuka omistaa tutkimustuloksesta syntyvän IP:n ja tee oikea-aikainen keksintöilmoitus ennen julkista paljastamista.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../ip-disclosure-and-ownership-check/SKILL.md` —
+  Establish who owns the IP arising from a research result and make a timely
+  invention disclosure before public disclosure.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

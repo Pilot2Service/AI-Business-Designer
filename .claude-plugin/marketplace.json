@@ -1,7 +1,7 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "ai-business-designer-skills",
-  "description": "AI Business Designer -skills-pack: strateginen ajattelu, opportunity recognition, business case, AI-strategia ja muutosjohtaminen.",
+  "description": "AI Business Designer skills pack: strategic thinking, opportunity recognition, business case, AI strategy, and change management.",
   "owner": {
     "name": "Pilot2service"
   },
@@ -19,7 +19,7 @@
       "name": "opportunity-recognition",
       "displayName": "Opportunity Recognition",
       "source": "./opportunity-recognition",
-      "description": "Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman); sisältää myös omistajan validoidun Opportunity Value Assessment -metodologian sekä Capability Pattern Mapping -abstraktiomenetelmän analogioiden tunnistamiseen.",
+      "description": "Systematic identification and assessment of business opportunities (Kirzner, Shane & Venkataraman); also includes the owner's validated Opportunity Value Assessment methodology and the Capability Pattern Mapping abstraction method for identifying analogies.",
       "author": {
         "name": "Pilot2service"
       }
@@ -28,7 +28,7 @@
       "name": "business-case-and-analysis",
       "displayName": "Business Case & Analysis",
       "source": "./business-case-and-analysis",
-      "description": "Päätöksentekokelpoisten liiketoimintaperustelujen ja analyysien laadinta (BABOK, PMI).",
+      "description": "Building decision-ready business cases and analyses (BABOK, PMI).",
       "author": {
         "name": "Pilot2service"
       }
@@ -37,7 +37,7 @@
       "name": "ai-strategy-and-governance",
       "displayName": "AI Strategy & Governance",
       "source": "./ai-strategy-and-governance",
-      "description": "AI-mahdollisuuksien tunnistaminen tehtävätasolta (SML/Dual Decomposition) tai 13 kuratoidun AI-kyvykkyyspatternin (kahdesta riippumattomasta toimialan AI-käyttötapausraportista ristiintarkistettu) diagnostisilla kysymyksillä, 5-ulotteiseen pisteytykseen ja 2x2-priorisointiin, transformatiivisten Value Play -mahdollisuuksien tunnistus, AI-native-liiketoimintamallit, roadmapit (3 horisonttia) ja vastuullinen käyttöönotto — mukaan lukien discovery-toimeksiantojen tuotteistus.",
+      "description": "Identifying AI opportunities from the task level (SML/Dual Decomposition) or via diagnostic questions from 13 curated AI capability patterns (cross-checked against two independent industry AI use-case reports), through to 5-dimensional scoring and 2x2 prioritization, identifying transformative Value Play opportunities, AI-native business models, roadmaps (3 horizons), and responsible adoption — including productizing discovery engagements.",
       "author": {
         "name": "Pilot2service"
       }
@@ -46,7 +46,7 @@
       "name": "change-and-communication",
       "displayName": "Change & Communication",
       "source": "./change-and-communication",
-      "description": "Muutosjohtaminen, fasilitointi ja johdon viestintä epävarmuuden keskellä.",
+      "description": "Change management, facilitation, and executive communication amid uncertainty.",
       "author": {
         "name": "Pilot2service"
       }
@@ -55,7 +55,7 @@
       "name": "business-design-frameworks",
       "displayName": "Business Design Frameworks",
       "source": "./business-design-frameworks",
-      "description": "Kasvava kokoelma liiketoiminnan, arvonluonnin ja asemoinnin jäsentämis- ja mallinnustapoja (kerrosmallit, arvoketjut, kategoriamallinnus, strategiakartat/arvokäyrät, ja lisää myöhemmin).",
+      "description": "A growing collection of ways to structure and model business, value creation, and positioning (layer models, value chains, category modeling, strategy canvases/value curves, and more to come).",
       "author": {
         "name": "Pilot2service"
       }
@@ -64,7 +64,7 @@
       "name": "prototyping-and-demonstration",
       "displayName": "Prototyping & Demonstration",
       "source": "./prototyping-and-demonstration",
-      "description": "Nopea, uskottava protoilu (mukaan lukien AI-avusteinen \"vibe coding\"), demoilun ja PoC/pilotin oikea kehystäminen asiakasodotusten hallitsemiseksi, demon esitystaito (Great Demo! -metodologia) ja tarina (Amazon Working Backwards/PR-FAQ), sekä silta demosta/PoC:sta business caseen ja ROI-laskelmaan.",
+      "description": "Fast, credible prototyping (including AI-assisted \"vibe coding\"), correctly framing a demo/PoC/pilot to manage customer expectations, demo delivery craft (Great Demo! methodology) and storytelling (Amazon Working Backwards/PR-FAQ), and the bridge from demo/PoC to a business case and ROI calculation.",
       "author": {
         "name": "Pilot2service"
       }
@@ -73,7 +73,7 @@
       "name": "data-strategy-and-literacy",
       "displayName": "Data Strategy & Literacy",
       "source": "./data-strategy-and-literacy",
-      "description": "Datan roolin diagnostiikka (mahdollistaja vs. strateginen assetti), datalukutaidon nelikenttäarviointi, datan kriittinen lukeminen (bias, laatu, edustavuus), data-storytelling liiketoimintakielelle, Data & AI -strategian muotoilu (Driver Tree, Agile Value Assessment) ja datan monetisointimallin valinta (suora vs. epäsuora, Data Flywheel).",
+      "description": "Diagnosing the role of data (enabler vs. strategic asset), a four-quadrant data literacy assessment, critical reading of data (bias, quality, representativeness), data storytelling for business audiences, Data & AI strategy design (Driver Tree, Agile Value Assessment), and selecting a data monetization model (direct vs. indirect, Data Flywheel).",
       "author": {
         "name": "Pilot2service"
       }
@@ -82,7 +82,7 @@
       "name": "specialisation-ai-native-startup-design",
       "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",
-      "description": "Miten AI-natiivi tuote/liiketoiminta suunnitellaan alusta asti: AI-mahdollisuuksien tunnistus, ICP/JTBD-asiakasymmärrys, 5+2 tarveteemapisteytys ja AI wedge -valinta, ratkaisuideointi, RICE-MVP-valinta, rakennusagentille annettava PRD, keskusteleva OS-arkkitehtuuri, closed-loop-prosessisuunnittelu ja AI-työkalupinon valinta. Ankkuroitu omistajan pidettyyn AI-native Business Design -työpajaan ja ulkopuoliseen AI-first SaaS Product -menetelmään.",
+      "description": "How to design an AI-native product/business from the ground up: AI opportunity identification, ICP/JTBD customer understanding, 5+2 need-theme scoring and AI wedge selection, solution ideation, RICE-based MVP selection, a PRD for a build agent, conversational OS architecture, closed-loop process design, and AI tool-stack selection. Anchored in the owner's AI-native Business Design workshop and an external AI-first SaaS Product methodology.",
       "author": {
         "name": "Pilot2service"
       }
@@ -91,7 +91,7 @@
       "name": "specialisation-business-model-canvas",
       "displayName": "Business Model Canvas",
       "source": "./specialisation-packs/business-model-canvas",
-      "description": "BMC-konsultointiosaaminen: 159 patternin julkinen innovaatiokirjasto, omistajan oma variointi-/selkeyslogiikka ja antipatternien tunnistus, sekä tutkimuspohjainen tuki session fasilitointiin, canvasin diagnostiikkaan, työkaluvalintaan ja asiakaspuheen tulkintaan.",
+      "description": "BMC consulting expertise: a public 159-pattern innovation library, the owner's own variation/clarity logic and antipattern detection, plus research-based support for session facilitation, canvas diagnostics, tool selection, and client-language interpretation.",
       "author": {
         "name": "Pilot2service"
       }
@@ -100,7 +100,7 @@
       "name": "specialisation-public-sector-pilot-scaling",
       "displayName": "[Scaffold] Public Sector Pilot Scaling",
       "source": "./specialisation-packs/public-sector-pilot-scaling",
-      "description": "[SCAFFOLD — täydennettävä omalla osaamisella] Public Sector Pilot Scaling",
+      "description": "[SCAFFOLD — to be completed with real expertise] Public Sector Pilot Scaling",
       "author": {
         "name": "Pilot2service"
       }
@@ -109,7 +109,7 @@
       "name": "specialisation-research-commercialisation",
       "displayName": "Research Commercialisation",
       "source": "./specialisation-packs/research-commercialisation",
-      "description": "Tutkimuksen kaupallistaminen: mahdollisuuden tunnistamisesta spin-out/lisensointi-valintaan, IP:hen, TTO-yhteistyöhön, rahoitukseen ja tiiminrakennukseen. Ankkuroitu omistajan julkaisemaan kaupallistamisoppaaseen ja AFCA-itsearviointiin.",
+      "description": "Research commercialisation: from opportunity recognition to the spin-out/licensing choice, IP, TTO collaboration, funding, and team building. Anchored in the owner's published commercialisation guide and the AFCA self-assessment.",
       "author": {
         "name": "Pilot2service"
       }

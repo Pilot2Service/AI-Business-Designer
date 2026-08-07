@@ -1,50 +1,69 @@
 ---
 name: industry-partner-engagement
-description: "Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuote ja liiketoimintalogiikka pysyvät kiinni todellisuudessa."
+description: "Bring industry partners into commercialisation early so the product and business logic stay grounded in reality."
 ---
 
 # Industry Partner Engagement
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Ota toimialakumppanit mukaan kaupallistamiseen varhain, jotta tuote ja liiketoimintalogiikka pysyvät kiinni todellisuudessa.
+Bring industry partners into commercialisation early so the product and
+business logic stay grounded in reality.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Engaging Industry Early" (s. 57-59).
+the owner's published commercialisation guide (owner, 2025). Chapter
+"Engaging Industry Early" (pp. 57-59).
 
-- Perkmann et al. (2013) — akateeminen sitoutuminen (yhteistutkimus, konsultointi, teollisuussopimukset) rakentaa relationaalista pääomaa
-- Robin & Schubert (2013) — yliopisto-teollisuus-yhteistyö rakentaa luottamusta ja uskottavuutta sijoittajiin ja asiakkaisiin
-- TenU-työryhmä (UK): "weave industry expertise into each stage of proof-of-concept funding"
+- Perkmann et al. (2013) — academic engagement (joint research, consulting,
+  industry contracts) builds relational capital
+- Robin & Schubert (2013) — university-industry collaboration builds trust
+  and credibility with investors and customers
+- TenU working group (UK): "weave industry expertise into each stage of
+  proof-of-concept funding"
 
-## Rakenne
+## Method
 
-1. Perusta toimialan fokusryhmä tai neuvottelukunta jo varhaisessa tutkimusvaiheessa — kerää palautetta prototyypistä, standardeista, asiakasvaatimuksista.
-2. Kutsu kokeneita toimialaihmisiä neuvonantajiksi täyttämään tekniset, sääntelylliset ja markkinatuntemuksen aukot.
-3. Hae pilottiympäristöjä ja dataa teollisuuskumppaneilta — beta-testaus tuottaa korvaamatonta validointia ja voi antaa pääsyn erikoislaitteisiin.
-4. Harkitse yhteistä IP:tä/patentteja toimialakumppanin kanssa — tutkimus näyttää tämän korreloivan korkeamman spin-out-syntyasteen kanssa.
-5. Käytä varhaisia toimialakumppaneita myöhemmin pilottiasiakkaina, jakelukumppaneina tai sijoittajina — win-win-asetelma sitoo mahdolliset asiakkaat kehitysprosessiin alusta asti.
-6. Punnitse kokeneen toimialahenkilön ottamista väliaikaiseksi CEO:ksi tai hallituksen jäseneksi, jos tiimiltä puuttuu liiketoimintaosaamista.
-7. Muista: varhainen toimialasidos rakentaa uskottavuutta sijoittajille ja luo verkoston puolestapuhujia jo ennen markkinoille tuloa.
+1. Set up an industry focus group or advisory panel as early as the research
+   stage — gather feedback on the prototype, standards, and customer
+   requirements.
+2. Invite experienced industry people as advisors to fill technical,
+   regulatory, and market-knowledge gaps.
+3. Seek pilot environments and data from industry partners — beta testing
+   provides invaluable validation and can give access to specialised
+   equipment.
+4. Consider shared IP/patents with an industry partner — research shows this
+   correlates with a higher spin-out formation rate.
+5. Use early industry partners later as pilot customers, distribution
+   partners, or investors — a win-win setup that ties potential customers
+   into the development process from the start.
+6. Weigh bringing in an experienced industry person as an interim CEO or
+   board member if the team lacks business expertise.
+7. Remember: an early industry connection builds credibility with investors
+   and creates a network of advocates even before market entry.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei etsi tai ota yhteyttä kumppaneihin puolestasi.
-- Ei arvioi tietyn kumppanin luotettavuutta tai sopivuutta — jäsentää minkälaisia kumppaneita ja missä vaiheessa kannattaa hakea.
+- Does not find or contact partners on your behalf.
+- Does not assess a specific partner's reliability or fit — it structures
+  what kind of partners to seek and at what stage.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../academic-entrepreneur-role-choice/SKILL.md` — Valitse oma rooli spin-outissa (täysipäiväinen perustaja, tieteellinen neuvonantaja, osa-aikainen) ja hallitse akateemisen uran ja yrittäjyyden yhteensovittamista.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../academic-entrepreneur-role-choice/SKILL.md` — Choose
+  your own role in a spin-out (full-time founder, scientific advisor,
+  part-time) and manage balancing an academic career with entrepreneurship.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

@@ -1,61 +1,88 @@
 ---
 name: roi-npv-sensitivity-model
-description: "Laskee ROI:n, NPV:n ja IRR:n sekä herkkyysanalyysin eri skenaarioissa. Käytä kun tarvitset business case & analysis-tason tukea vastaavaan tehtävään."
+description: "Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios. Use when you need business-case-and-analysis-level support for a comparable task."
 ---
 
 # ROI / NPV Sensitivity Model
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Laskee ROI:n, NPV:n ja IRR:n sekä herkkyysanalyysin eri skenaarioissa.
+Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - w95 business-case-builder
 - aj-geddes — business-case-development
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Establish the cash-flow baseline** — incremental costs and benefits by
+   period, compared against a credible do-nothing baseline, not against
+   zero. ROI and NPV overstate the case if they're compared to nothing
+   happening instead of to what would happen anyway.
+2. **Select and justify a discount rate** (e.g. WACC, an internal hurdle
+   rate, or the organization's standard rate) — never invent this figure;
+   ask for it, use a marked placeholder, or use a clearly flagged
+   conservative default.
+3. **Compute NPV (the sum of discounted net cash flows), IRR (the discount
+   rate at which NPV = 0), payback period, and ROI (net benefit ÷ cost) side
+   by side** — a single metric can look attractive while another flags a
+   problem, e.g. a fast payback period paired with a negative NPV at the
+   real discount rate.
+4. **Run a one-at-a-time sensitivity analysis:** vary each key input
+   (adoption rate, unit cost, benefit-realization timing, discount rate) by a
+   defined range (e.g. ±20%) while holding the others constant, and rank the
+   inputs by how much they move NPV. This produces a tornado chart that
+   identifies which two or three assumptions actually drive the result.
+5. **Build at least a downside (pessimistic) and an upside (optimistic)
+   scenario, not only the base case** — a sensitivity analysis whose worst
+   case still looks comfortable isn't a real stress test.
+6. **Report the breakeven point for the most sensitive variable** (e.g.
+   "adoption has to exceed X% for NPV to stay positive") so the
+   decision-maker sees exactly which assumption they're betting on.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei keksi tarkkoja euromääriä — laskee käyttäjän antamista lähtöarvoista ja merkitsee oletukset näkyviin.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't invent precise currency amounts — it calculates from the baseline
+  values you provide and makes every assumption visible.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../risk-matrix-and-mitigation/SKILL.md` — Tunnistaa ja pisteyttää riskit (todennäköisyys × vaikutus) ja suunnittelee mitigoinnit.
-- Ennen tätä (jos syötteet tulevat demosta/PoC:sta): `../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md`
-  — tee herkkyysanalyysi erityisesti niille oletuksille, jotka tämä skilli
-  merkitsi heikoimmiksi oletusketjussa.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../risk-matrix-and-mitigation/SKILL.md`](../risk-matrix-and-mitigation/SKILL.md) — Identifies and scores risks (probability × impact) and designs mitigations.
+- Before this (if the inputs come from a demo/PoC):
+  [`../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md`](../../../prototyping-and-demonstration/skills/demo-to-business-case-bridge/SKILL.md)
+  — run the sensitivity analysis especially on the assumptions that skill
+  flagged as weakest in the assumption chain.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

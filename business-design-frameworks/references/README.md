@@ -1,7 +1,8 @@
 # References — Business Design Frameworks
 
-Lisää tähän kansioon taustamateriaali, artikkelit, organisaatiokohtaiset mallipohjat
-ja case-aineisto, joihin tämän pakin skillit viittaavat — esim. kerrospino-templatet,
-arvoketjukartta-pohjat, kategoriapositiointi-canvasit.
+Add background material, articles, organization-specific templates, and case
+material to this folder that this pack's skills refer to — e.g. layer-stack
+templates, value-chain-map templates, category-positioning canvases.
 
-Tällä hetkellä tyhjä — täydennettävä omalla aineistolla ja uusien mallien myötä.
+Currently empty — to be filled in with your own material as new models are
+added.

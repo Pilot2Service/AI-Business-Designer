@@ -1,102 +1,118 @@
 ---
 name: layer-based-business-structuring
-description: "Jäsentää liiketoiminnan, palvelukonseptin tai liiketoimintamallin erillisiin toiminnallisiin kerroksiin (OSI-mallin kaltaisesti) infrastruktuurista brändiin, jotta voidaan päättää mitkä kerrokset toteutetaan itse ja mitkä kumppanien kautta."
+description: "Structures a business, service concept, or business model into distinct functional layers (OSI-model-like) from infrastructure to brand, in order to decide which layers to build in-house and which to source through partners."
 ---
 
 # Layer-Based Business Structuring
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Jäsentää liiketoiminta, palvelukonsepti tai liiketoimintamalli erillisiin
-toiminnallisiin kerroksiin — analogisesti tietoliikenteen OSI-mallin kanssa —
-fyysisestä/infrastruktuurikerroksesta ylös aina brändi-tason kerrokseen, tai
-kaupankäynnin näkökulmasta esim. logistiikka-, sopimus-, maksuliikenne-,
-valikoima- ja markkinointikerroksiin. Kerrosmallin ydinidea on erottaa eri
-toiminnalliset kokonaisuudet omiksi, itsenäisiksi kerroksikseen, jotta
-jokaisesta kerroksesta voidaan tehdä oma päätös: toteutetaanko se itse vai
-kumppanin kautta.
+Structures a business, service concept, or business model into distinct
+functional layers — analogous to the telecommunications OSI model — from
+the physical/infrastructure layer up to the brand layer, or, from a
+commerce perspective, into layers such as logistics, contracts, payments,
+assortment, and marketing. The core idea of a layer model is to separate
+distinct functional units into their own, independent layers, so that each
+layer can be decided on its own merits: build it in-house, or source it
+through a partner.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- OSI-malli (tietoliikenne, ISO/IEC 7498-1) — kerrosperiaatteen alkuperäinen
-  esikuva: kukin kerros hoitaa oman, rajatun tehtävänsä ja on vaihdettavissa
-  ja testattavissa itsenäisesti ilman että muut kerrokset tietävät sen
-  sisäisestä toteutuksesta.
-- Hagel, J. & Singer, M. (1999), "Unbundling the Corporation", Harvard
-  Business Review — kolme perusliiketoimintaa jotka useimmat yritykset
-  yhdistävät yhdeksi organisaatioksi: infrastruktuurin hallinta (skaalalla
-  optimoituva), tuoteinnovaatio (nopeudella optimoituva) ja asiakassuhteen
-  hallinta (laajuudella/scope:lla optimoituva). Näitä kolmea ei voi
-  optimoida samanaikaisesti — siksi niiden erottaminen omiksi kerroksikseen
-  usein kannattaa.
+- The OSI model (telecommunications, ISO/IEC 7498-1) — the original
+  inspiration for the layer principle: each layer handles its own, bounded
+  task and can be swapped out and tested independently without other
+  layers needing to know anything about its internal implementation.
+- Hagel, J. & Singer, M. (1999), "Unbundling the Corporation," *Harvard
+  Business Review* — three underlying businesses that most companies bundle
+  into a single organization: infrastructure management (optimized for
+  scale), product innovation (optimized for speed), and customer
+  relationship management (optimized for scope). These three can't be
+  optimized simultaneously — which is why separating them into their own
+  layers is often worthwhile.
 - Baldwin, C. & Clark, K. (2000), *Design Rules: The Power of Modularity* —
-  modulaarisuusteoria: järjestelmän jakaminen moduuleihin/kerroksiin
-  selkeillä rajapinnoilla mahdollistaa osien itsenäisen kehittämisen,
-  korvaamisen ja ulkoistamisen ilman että koko järjestelmä pitää suunnitella
-  uudelleen.
+  modularity theory: splitting a system into modules/layers with clear
+  interfaces allows each part to be developed, replaced, or outsourced
+  independently, without having to redesign the whole system.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Valitse kerrosnäkökulma tilanteeseen sopivaksi. Esimerkkejä: **tekninen/
-   toiminnallinen pino** (infrastruktuuri → operaatiot → tuote/palvelu →
-   asiakasrajapinta → brändi), tai **kaupankäynnin pino** (logistiikka →
-   sopimukset → maksuliikenne → valikoima → markkinointi → asiakaskokemus).
-   Kerrosnäkökulma pitää aina sovittaa kontekstiin — ei ole yhtä oikeaa
-   kerrosjakoa.
-2. Listaa liiketoiminnan tai konseptin kaikki toiminnalliset osat ja sijoita
-   kukin sopivaan kerrokseen.
-3. Määritä kunkin kerroksen rajapinta naapurikerroksiin — mitä kerros ottaa
-   sisään ja mitä se tuottaa ulos — jotta kerrokset pysyvät aidosti
-   vaihdettavina (kuten OSI-mallissa: kukin kerros tarjoaa palvelun
-   ylemmälle kerrokselle tietämättä sen sisäisestä toteutuksesta).
-4. Arvioi kerroskohtaisesti: onko tämä kerros erottava kilpailuetu (kannattaa
-   rakentaa itse) vai kypsä/kommoditisoitunut toiminto (kannattaa hankkia
-   kumppanilta tai alustalta)? Hagel & Singerin jaottelu (infrastruktuuri /
-   tuoteinnovaatio / asiakassuhde) auttaa tunnistamaan mitkä kerrokset
-   kilpailevat keskenään organisaation sisällä resursseista ja johtamishuomiosta.
-5. Tee build/partner/buy-päätös kerroksittain (sama päätöslogiikka soveltuu
-   myös ei-AI-konteksteissa kuin `../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`).
-6. Visualisoi kerrosmalli pinona (esim. alhaalta ylös) ja merkitse kuhunkin
-   kerrokseen oma/kumppani-päätös sekä perustelu.
-7. Tarkista kokonaisuus: tuottaako kerrosten summa yhtenäisen
-   asiakaskokemuksen, vai näkyykö rajapintojen kitka asiakkaalle asti
-   (esim. hidas käsittelyaika kun kaksi kerrosta on eri toimijoiden vastuulla)?
+1. **Pick a layer perspective that fits the situation.** Examples: a
+   **technical/functional stack** (infrastructure → operations → product/
+   service → customer interface → brand), or a **commerce stack**
+   (logistics → contracts → payments → assortment → marketing → customer
+   experience). The layer perspective always has to be adapted to context —
+   there's no single correct way to divide it up.
+2. **List every functional part of the business or concept** and assign
+   each one to the layer it belongs in.
+3. **Define each layer's interface to its neighboring layers** — what it
+   takes in and what it produces — so the layers stay genuinely swappable
+   (as in the OSI model: each layer provides a service to the layer above
+   it without that layer needing to know how it's implemented internally).
+4. **Classify each layer using the Hagel & Singer lens.** Ask which of the
+   three underlying businesses the layer belongs to — infrastructure
+   management (wins on scale and low unit cost), product innovation (wins
+   on speed to market and creative talent), or customer relationship
+   management (wins on scope and reach) — and note that these three logics
+   pull against each other inside a single organization. A layer that is a
+   genuine source of competitive advantage under its logic is a build
+   candidate; a layer that is mature or commoditized, or that is optimized
+   under a different logic than the rest of your business, is a partner or
+   buy candidate.
+5. **Make a build/partner/buy call layer by layer**, using step 4's
+   classification as the primary input (the same decision logic applies
+   outside AI contexts too — see
+   `../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`).
+6. **Check the modularity of the interfaces you've drawn**, per Baldwin &
+   Clark: can a layer actually be replaced without redesigning its
+   neighbors? A layer boundary that leaks implementation detail into the
+   next layer isn't a real module yet — tighten the interface before
+   treating the build/partner decision as final.
+7. **Visualize the layer model as a stack** (e.g. bottom to top) and mark
+   each layer's build/partner decision and its rationale.
+8. **Check the whole:** does the sum of the layers produce a coherent
+   customer experience, or does friction at the interfaces show through to
+   the customer (e.g. a slow handoff when two layers sit with different
+   providers)?
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei anna valmista kerrosjakoa jokaiseen tilanteeseen — kerrosnäkökulma on
-  aina valittava ja sovitettava kontekstiin.
-- Ei tee build/partner/buy-päätöstä puolestasi — jäsentää päätöskriteerit
-  kerroksittain ihmisen päätöksenteon tueksi.
-- Ei korvaa syvällistä toimittaja- tai kumppanianalyysia yksittäisen
-  kerroksen ulkoistamispäätöksessä.
+- Doesn't hand you a ready-made layer breakdown for every situation — the
+  layer perspective always has to be chosen and adapted to context.
+- Doesn't make the build/partner/buy decision for you — it structures the
+  decision criteria layer by layer to support a human decision.
+- Doesn't replace in-depth supplier or partner due diligence for an
+  individual layer's outsourcing decision.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat vakiokerrosjaot, joita käytät toistuvasti tietyissä toimialoissa/tilanteissa
-- konkreettiset mallipohjat (`../../references/`-kansioon, esim. kerrospino-templatet)
-- referenssitapaukset / omat caset onnistuneesta tai epäonnistuneesta kerrosjaosta
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own standard layer breakdowns that you reuse repeatedly in specific
+  industries/situations
+- concrete templates (into `../../references/`, e.g. layer-stack templates)
+- reference cases / your own examples of a successful or failed layer split
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../value-chain-mapping/SKILL.md` — Jäsentää
-  liiketoiminnan Porterin arvoketjumallin mukaisesti ydin- ja
-  tukitoimintoihin; toinen, perinteisempi tapa jäsentää sama liiketoiminta.
-- Liittyvä skilli toisessa pakissa: `../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: `../value-chain-mapping/SKILL.md` — structures the
+  business according to Porter's value chain model into primary and
+  support activities; a second, more traditional way to structure the same
+  business.
+- Related skill in another pack: `../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

@@ -1,48 +1,71 @@
 ---
 name: commercialisation-readiness-check
-description: "Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis aloittamaan kaupallistamisen — oppimisnopeuden, ei täydellisyyden, näkökulmasta."
+description: "Help a researcher or team assess whether the idea and team are ready to begin commercialising — from a learning-speed, not perfection, perspective."
 ---
 
 # Commercialisation Readiness Check
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Auttaa tutkijaa tai tiimiä arvioimaan, onko idea ja tiimi valmis aloittamaan kaupallistamisen — oppimisnopeuden, ei täydellisyyden, näkökulmasta.
+Help a researcher or team assess whether the idea and team are ready to begin
+commercialising — from a learning-speed, not perfection, perspective.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Are You Ready to Begin?" (s. 63-67).
+the owner's published commercialisation guide (owner, 2025). Chapter "Are You
+Ready to Begin?" (pp. 63-67).
 
-- Eesley & Roberts (2012) — missio-vetoiset perustajat sitkeämpiä, rakentavat vahvempia kumppanuuksia
-- Christensen (1997) — disruptiiviset innovaatiot harvoin näyttävät maailmaa mullistavilta alussa; kehittyvät palautteen ja iteroinnin kautta
+- Eesley & Roberts (2012) — mission-driven founders are more resilient, build
+  stronger partnerships
+- Christensen (1997) — disruptive innovations rarely look world-changing at
+  the start; they develop through feedback and iteration
 
-## Rakenne
+## Method
 
-1. Missio-testi: mitä muutosta haluat tämän innovaation luovan maailmassa? Missio-vetoiset perustajat ovat sitkeämpiä ja rakentavat vahvempia kumppanuuksia epävarmuudessa.
-2. "Onko idea tarpeeksi hyvä" -testi: mikään idea ei ala lopullisessa muodossaan. Keskity oppimisnopeuteen (learning velocity), älä täydellisyyteen. Testaa: säästääkö/vähentääkö/poistaako ratkaisu aikaa, kustannuksia tai kitkaa edes pienessä mittakaavassa?
-3. Ymmärrä liikkuva maalitaulu: onko innovaatiosi disruptiivinen (luo uuden markkinan), ylläpitävä (parantaa nykyistä) vai inkrementaalinen (hioo kypsää järjestelmää)? Kukin vaatii eri tahdin ja rahoituslogiikan.
-4. Kartoita valmiudet neljällä ulottuvuudella: tekninen (prototyypin skaalaus, valmistettavuus), kaupallinen (asiakasvuorovaikutus, arvolupaus), taloudellinen (rahoitus, kassavirta), johtamisellinen (roolit, hallinto). Nämä eivät ole esivaatimuksia — ne rakentuvat matkalla.
-5. Tunnista ylianalysoinnin ja harkitsemattoman etenemisen välinen tasapaino: aloita jäsennellyllä tutkimisella, käytä olemassa olevia työkaluja (ks. `founder-competence-self-assessment`) oletusten testaamiseen.
-6. Tee päätös: jos idea kytkeytyy aitoon ongelmaan, tiimi on valmis oppimaan ja missio tuntuu aidolta — olet jo tarpeeksi valmis aloittamaan. Et tarvitse täydellistä varmuutta, tarvitset liikettä.
+1. Mission test: what change do you want this innovation to create in the
+   world? Mission-driven founders are more resilient and build stronger
+   partnerships under uncertainty.
+2. "Is the idea good enough" test: no idea starts in its final form. Focus on
+   learning velocity, not perfection. Test: does the solution save/reduce/
+   remove time, cost, or friction, even at a small scale?
+3. Understand the moving target: is your innovation disruptive (creates a new
+   market), sustaining (improves the current one), or incremental (refines a
+   mature system)? Each requires a different pace and funding logic.
+4. Map readiness across four dimensions: technical (prototype scale-up,
+   manufacturability), commercial (customer interaction, value proposition),
+   financial (funding, cash flow), and managerial (roles, governance). These
+   are not prerequisites — they build up along the way.
+5. Identify the balance between over-analysing and moving forward without
+   thought: start with structured investigation, use existing tools (see
+   `founder-competence-self-assessment`) to test assumptions.
+6. Make the decision: if the idea connects to a genuine problem, the team is
+   ready to learn, and the mission feels real — you're already ready enough
+   to begin. You don't need complete certainty, you need momentum.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei anna lopullista go/no-go-suositusta puolestasi — jäsentää itsearvioinnin.
-- Ei mittaa objektiivisesti "idean laatua" — se selviää vasta markkinatestillä.
+- Does not give a final go/no-go recommendation for you — it structures the
+  self-assessment.
+- Does not objectively measure "idea quality" — that's revealed only by the
+  market test.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../founder-competence-self-assessment/SKILL.md` — Käy läpi jäsennelty 10 osa-alueen / 76 kohdan itsearviointi (AFCA) perustajan tai -tiimin valmiudesta akateemiseen spin-outiin tai tutkimuspohjaiseen startupiin.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../founder-competence-self-assessment/SKILL.md` — Work
+  through a structured 10-area / 76-item self-assessment (AFCA) of a
+  founder's or team's readiness for an academic spin-out or research-based
+  startup.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

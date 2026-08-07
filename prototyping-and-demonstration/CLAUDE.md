@@ -1,76 +1,80 @@
-# Prototyping & Demonstration — jaetut suojaukset
+# Prototyping & Demonstration — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+General guardrails (disclaimer, no fabricated numbers, premise-checking, making
+maturity visible) are collected in one place: **see
+[`../meta/shared-guardrails.md`](../meta/shared-guardrails.md) — read that first.**
+This file only contains what's genuinely specific to this pack.
 
 ---
 
-## Demo ei ole tuote — sano se ääneen aina
+## A demo is not a product — say so out loud, every time
 
-Tämän pakin ydinriski on **proto/demo-menestyksen sekoittaminen tuotantovalmiuteen.**
-Nopeasti rakennettu, "vibe coodattu" proto todistaa idean toimivan periaatteessa —
-se ei todista, että ratkaisu on turvallinen, skaalautuva, ylläpidettävä tai
-tietoturvallinen tuotannossa. Jokaisessa tämän pakin tuotoksessa:
+This pack's core risk is **conflating proto/demo success with production
+readiness.** A quickly built, "vibe-coded" prototype proves an idea works in
+principle — it does not prove the solution is safe, scalable, maintainable, or
+secure in production. In every output this pack produces:
 
-- Merkitse selvästi, mikä on demo-tason löydös ("toimi 3 testitapauksessa
-  hallitussa ympäristössä") vastaan tuotantotason väite ("toimii luotettavasti
-  kaikissa tapauksissa") — älä koskaan anna näiden sekoittua.
-- Muistuta, että AI-avusteisesti ("vibe coodaten") tuotettu koodi sisältää
-  tyypillisesti hallusinoituja rajapintoja, puutteellista virhekäsittelyä ja
-  heikkoja autentikointi-/oikeustarkistuksia, kunnes ihminen on ne erikseen
-  tarkistanut — tämä koskee erityisesti mitä tahansa demoa, jossa käsitellään
-  oikeaa dataa tai esitetään live-ympäristössä.
-- Älä koskaan esitä demoa asiakkaalle "melkein valmiina tuotteena" — kehystä se
-  aina sen mukaan, mitä se todella on (konseptin todistus, ei tuotantosovellus).
+- Clearly mark what is a demo-level finding ("worked on 3 test cases in a
+  controlled environment") versus a production-level claim ("works reliably in
+  all cases") — never let the two blur together.
+- Remind that AI-assisted ("vibe-coded") code typically contains hallucinated
+  interfaces, incomplete error handling, and weak authentication/authorization
+  checks until a human has separately reviewed it — this applies especially to
+  any demo that touches real data or is presented in a live environment.
+- Never present a demo to a customer as "almost a finished product" — always
+  frame it for what it actually is (a proof of concept, not a production
+  application).
 
-## PoC / Pilotti / MVP — eri termit, eri kysymykset
+## PoC / Pilot / MVP — different terms, different questions
 
-Näitä käytetään usein virheellisesti synonyymeinä. Ne vastaavat eri
-epävarmuuksiin, älä sekoita niitä:
+These are often used interchangeably by mistake. They answer different
+uncertainties — don't conflate them:
 
-- **PoC (Proof of Concept)** — vastaa "toimiiko tämä teknisesti ylipäätään
-  edustavalla datalla?" Aikarajattu, matalariskinen, ei vielä tuotantodataa
-  tai -kuormaa.
-- **Pilotti** — vastaa "toimiiko tämä oikeiden ihmisten ja oikeiden
-  operatiivisten olosuhteiden kanssa?" Olettaa, että tekninen toteutettavuus
-  ja arvo on jo ennustettu — pilotti vahvistaa sen käytännössä.
-- **MVP (Minimum Viable Product)** — vastaa "mitä pitäisi rakentaa seuraavaksi
-  oikean käyttäjäpalautteen perusteella?" Tuotekehitysote, ei
-  todistamisvaihe.
+- **PoC (Proof of Concept)** — answers "does this work technically at all,
+  with representative data?" Time-boxed, low-risk, not yet production data or
+  load.
+- **Pilot** — answers "does this work with real people and real operational
+  conditions?" Assumes technical feasibility and value have already been
+  predicted — the pilot confirms it in practice.
+- **MVP (Minimum Viable Product)** — answers "what should be built next, based
+  on real user feedback?" A product-development stance, not a proof stage.
 
-Käytä oikeaa termiä äläkä käytä niitä toistensa synonyymeinä asiakasviestinnässä
-— väärä termi luo väärän odotuksen budjetista, aikataulusta ja siitä mitä
-seuraavaksi tapahtuu.
+Use the correct term and don't use them as synonyms in customer
+communication — the wrong term creates the wrong expectation about budget,
+timeline, and what happens next.
 
-## Pilot purgatory -riski on todellinen ja se torjutaan framingilla, ei koodilla
+## The "pilot purgatory" risk is real, and it's countered with framing, not code
 
-Tutkimus (mm. McKinsey, BCG, IDC, MIT) osoittaa toistuvasti, että suuri osa
-(arviot vaihtelevat lähteittäin, karkeasti 80–95 %) yrityssektorin AI-piloteista
-ei koskaan etene tuotantoon — pullonkaula on tyypillisesti operatiivinen
-(työnkulun uudelleensuunnittelu, johdon sitoutuminen, mittakaavan investointi),
-ei tekninen. Tämän pakin skillit eivät voi ratkaista tätä demo-vaiheessa, mutta
-niiden PITÄÄ tehdä riski näkyväksi jo demo-/PoC-vaiheen kehystyksessä (ks.
-`skills/demo-framing-and-expectation-setting/SKILL.md`) — älä anna asiakkaan
-uskoa, että onnistunut demo tarkoittaa automaattista tuotantoon etenemistä.
+Research (McKinsey, BCG, IDC, MIT among others) repeatedly shows that a large
+share (estimates vary by source, roughly 80–95%) of enterprise AI pilots never
+reach production — the bottleneck is typically operational (workflow
+redesign, management commitment, scale-up investment), not technical. This
+pack's skills can't solve that at the demo stage, but they MUST make the risk
+visible already in the demo/PoC framing (see
+[`skills/demo-framing-and-expectation-setting/SKILL.md`](skills/demo-framing-and-expectation-setting/SKILL.md))
+— don't let the customer believe that a successful demo automatically means
+production is next.
 
-## Ei keksitä lukuja tässä pakissa — skaalautumisoletus erikseen
+## No fabricated numbers in this pack — scale-up assumptions in particular
 
-Yleisen periaatteen (`shared-guardrails.md`) lisäksi: PoC-mittakaavan tulos
-(esim. "säästi 2 tuntia 10 tapauksessa") ei ekstrapoloidu suoraviivaisesti
-tuotantomittakaavaan ilman selkeää, näkyväksi merkittyä oletusta siitä, miksi
-skaalautuminen olisi lineaarista.
+In addition to the general principle (`shared-guardrails.md`): a PoC-scale
+result (e.g. "saved 2 hours across 10 cases") does not extrapolate in a
+straight line to production scale without an explicit, clearly marked
+assumption about why the scale-up would be linear.
 
-## Kypsyystaso tässä pakissa
+## Maturity in this pack
 
-Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
-`../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia (Great Demo! -metodologia, vibe coding -käytännöt, PoC/Pilot/MVP-
-kirjallisuus, Amazon Working Backwards, prototyyppifideliteetti-tutkimus), mutta omaa
-validoitua konsultointikokemusta ei vielä ole liitetty.
+This pack's skills are currently at `maturity: scaffold` (see
+[`../skills_index.json`](../skills_index.json) and
+[`../meta/maturity_levels.md`](../meta/maturity_levels.md)) — the structure
+and research anchoring are solid (Great Demo! methodology, vibe coding
+practices, PoC/Pilot/MVP literature, Amazon Working Backwards, prototype
+fidelity research), but the owner's own validated consulting experience
+hasn't been attached yet.
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See [`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md) (what's
+allowed in a SKILL.md frontmatter) and
+[`../meta/skill_design_principles.md`](../meta/skill_design_principles.md)
+(what a good skill in this repo has to pass).

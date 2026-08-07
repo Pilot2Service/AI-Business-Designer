@@ -1,7 +1,7 @@
 # Playbook: Idea → Decision
 
-Ketjuttaa skillit tilanteeseen, jossa lähtökohtana on raaka liiketoimintaidea ja
-lopputuloksena päätöksentekokelpoinen suositus.
+Chains skills together for a situation where you start with a raw business
+idea and end with a decision-ready recommendation.
 
 1. `opportunity-recognition/skills/market-and-signal-scanning`
 2. `opportunity-recognition/skills/pattern-and-analogy-connector`
@@ -11,8 +11,9 @@ lopputuloksena päätöksentekokelpoinen suositus.
 6. `business-case-and-analysis/skills/roi-npv-sensitivity-model`
 7. `change-and-communication/skills/executive-narrative-and-storyline`
 
-**Milloin käyttää:** kun idea on tunnistettava, arvioitava ja vietävä johdon
-päätöksentekoon asti yhdessä työnkulussa.
+**When to use:** when an idea needs to be identified, assessed, and carried
+all the way to a leadership decision in one workflow.
 
-**Suojaukset:** lue jokaisen käytetyn pakin `CLAUDE.md` ennen kuin tuotat lukuja tai
-suosituksia — erityisesti "ei keksitä lukuja" -periaate koskee vaiheita 4 ja 6.
+**Guardrails:** read the `CLAUDE.md` of every pack you use before producing
+figures or recommendations — the "no fabricated numbers" principle
+especially applies to steps 4 and 6.

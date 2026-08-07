@@ -1,34 +1,50 @@
 # Change & Communication
 
-Muutosjohtaminen, fasilitointi ja johdon viestintä epävarmuuden keskellä.
+Change management, facilitation, and executive communication amid uncertainty.
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Kuvaus |
+| Skill | Description |
 |---|---|
-| `stakeholder-communication-plan` | Rakentaa viestintäsuunnitelman eri sidosryhmille muutoksen aikana. |
-| `workshop-and-facilitation-design` | Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen. |
-| `executive-narrative-and-storyline` | Kääntää analyysin johdon päätöksentekoa palvelevaksi tarinaksi ja storylineksi. |
-| `benefits-realisation-tracking` | Seuraa ja raportoi luvattujen hyötyjen toteutumista toteutuksen jälkeen. |
+| `stakeholder-communication-plan` | Builds a communication plan for different stakeholders during a change. |
+| `workshop-and-facilitation-design` | Designs the structure of a cross-functional workshop or design-thinking session. |
+| `executive-narrative-and-storyline` | Turns analysis into a narrative and storyline that serves executive decision-making. |
+| `benefits-realisation-tracking` | Tracks and reports on the realisation of promised benefits after implementation. |
 
-Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle (frontmatterissa
-ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
+All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
+for current maturity (maturity isn't tracked in the frontmatter — see
+[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
 
-## Ankkurointi
+## Anchored in
 
-- Tunnettujen design-/liiketoimintasuunnittelukonsulttien storytelling-kompetenssimallit
+- Well-known design-/business-design-consultancy storytelling competency models
 - LinkedIn Skills on the Rise 2026 — Executive & Stakeholder Communication
-- McKinsey — storyline-ajattelu
-- Perplexity-tutkimus — hyötyjen realisointiraportit
-- Perplexity-tutkimus — työpajojen ja design-thinking-sessioiden vetäminen
+- McKinsey — storyline thinking
+- Minto, Barbara (1996), *The Pyramid Principle: Logic in Writing and Thinking*
+  — the structural technique underlying McKinsey storyline thinking, used to
+  operationalize `executive-narrative-and-storyline`
+- Perplexity research — benefits realisation reporting practice
+- Ward & Daniel (2006), *Benefits Management: Delivering Value from IS/IT
+  Investments* (Cranfield School of Management) — the Benefits Dependency
+  Network, used to operationalize `benefits-realisation-tracking`
+- Perplexity research — running workshops and design-thinking sessions
+- Design Council (2004) — the Double Diamond (Discover, Define, Develop,
+  Deliver), and Kaner et al., *Facilitator's Guide to Participatory
+  Decision-Making* — the Diamond of Participation, both used to operationalize
+  `workshop-and-facilitation-design`
+- Hiatt, Jeff / Prosci — the ADKAR model, and Mendelow (1991) — the
+  Power/Interest stakeholder grid, both used to operationalize
+  `stakeholder-communication-plan`
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  taustamateriaali, lähteet, omat mallit (täydennettävä)
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   an individual skill (name + description frontmatter)
+references/                  background material, sources, own templates (to be filled in)
 ```
 
-Katso `../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin sisältöä.
+See [`../meta/maturity_levels.md`](../meta/maturity_levels.md) for what the
+maturity levels mean, and
+[`../AGENT_GUIDE.md`](../AGENT_GUIDE.md) for how an agent should read and
+weight this pack's content.

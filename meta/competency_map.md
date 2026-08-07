@@ -1,21 +1,21 @@
 # Competency Map
 
-Tämä taulukko yhdistää markkinatutkimuksen taitomatriisin (WEF, LinkedIn,
-SFIA, IIBA/BABOK ja akateeminen opportunity recognition -kirjallisuus, ks.
-kunkin pakin oma "Ankkurointi"-osio) tämän repon pakkeihin.
+This table maps the market-research skills matrix (WEF, LinkedIn, SFIA,
+IIBA/BABOK, and academic opportunity-recognition literature — see each
+pack's own "Anchored in research" section) to the packs in this repo.
 
-| Tutkimuksen osa-alue | Pakki tässä repossa | Vahvin lähde |
+| Area of research | Pack in this repo | Strongest source |
 |---|---|---|
-| Strateginen ajattelu | `strategic-thinking` | Liedtka 1998; McKinsey; SFIA Strategic Planning |
+| Strategic thinking | `strategic-thinking` | Liedtka 1998; McKinsey; SFIA Strategic Planning |
 | Opportunity recognition | `opportunity-recognition` | Kirzner; Shane & Venkataraman; SFIA Business Situation Analysis |
 | Business case | `business-case-and-analysis` | IIBA/BABOK; PMI; w95 business-case-builder |
-| Analyysi | `business-case-and-analysis` (assumption-and-evidence-audit) | WEF Future of Jobs 2025 |
-| Muutosjohtaminen/viestintä | `change-and-communication` | LinkedIn Skills on the Rise 2026; design-konsulttitalot |
-| AI-kerros | `ai-strategy-and-governance` | LinkedIn 2026 (AI Business Strategy); Perplexity-tutkimus |
-| Liiketoiminnan jäsentäminen/mallinnus | `business-design-frameworks` | Porter; Hagel & Singer; Kim & Mauborgne (Blue Ocean) |
-| Protoilu, demoilu, mahdollisuuden näyttäminen | `prototyping-and-demonstration` | Cohan (Great Demo!); Bryar & Carr (Working Backwards); vibe coding- ja PoC/Pilot/MVP-tutkimus 2026 |
-| Datastrategia ja datalukutaito | `data-strategy-and-literacy` | DALI-tyyppinen datalukutaitokehys; Ackoff (DIKW); Davenport & Bean (Offense/Defense); Minto (Pyramid Principle); Collins (flywheel) |
+| Analysis | `business-case-and-analysis` (assumption-and-evidence-audit) | WEF Future of Jobs 2025 |
+| Change management / communication | `change-and-communication` | LinkedIn Skills on the Rise 2026; design consultancies |
+| AI layer | `ai-strategy-and-governance` | LinkedIn 2026 (AI Business Strategy); Perplexity research |
+| Business structuring / modeling | `business-design-frameworks` | Porter; Hagel & Singer; Kim & Mauborgne (Blue Ocean) |
+| Prototyping, demoing, proof of opportunity | `prototyping-and-demonstration` | Cohan (Great Demo!); Bryar & Carr (Working Backwards); vibe-coding and PoC/Pilot/MVP research, 2026 |
+| Data strategy and data literacy | `data-strategy-and-literacy` | DALI-type data literacy framework; Ackoff (DIKW); Davenport & Bean (Offense/Defense); Minto (Pyramid Principle); Collins (flywheel) |
 
-Erikoistumisalueet (`specialisation-packs/`) eivät vielä kytkeydy yleiseen
-markkinatutkimukseen samalla tavalla — ne ovat omaa, henkilökohtaista syväosaamista,
-joka täydennetään erikseen.
+Specialisation areas (`specialisation-packs/`) aren't mapped to general
+market research the same way yet — they are personal, deep domain
+expertise, filled in separately.

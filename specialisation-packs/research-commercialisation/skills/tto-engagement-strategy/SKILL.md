@@ -1,50 +1,71 @@
 ---
 name: tto-engagement-strategy
-description: "Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista milloin tarvitaan ulkopuolista tukea sen rinnalle."
+description: "Use the Technology Transfer Office (TTO) effectively and recognise when outside support is needed alongside it."
 ---
 
 # TTO Engagement Strategy
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Käytä Technology Transfer Officea (TTO) tehokkaasti ja tunnista milloin tarvitaan ulkopuolista tukea sen rinnalle.
+Use the Technology Transfer Office (TTO) effectively and recognise when
+outside support is needed alongside it.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "The Role of TTOs" (s. 26-29).
+the owner's published commercialisation guide (owner, 2025). Chapter "The Role
+of TTOs" (pp. 26-29).
 
-- Hewitt-Dundas et al. (2024) — aktiivinen TTO-tuki liiketoimintasuhteissa vähentää spin-outin konkurssiriskiä
-- Chen et al. (2024) — parhaat TTOt toimivat lähes kanssaperustajina, luottamuspohjaisin verkostoin
-- Kirihata-tutkimus — TTO:n luottamuksen ja pitkäjänteisten suhteiden rakentaminen vaikuttaa vahvasti lopputulokseen
+- Hewitt-Dundas et al. (2024) — active TTO support in business relationships
+  reduces a spin-out's risk of failure
+- Chen et al. (2024) — the best TTOs act almost as co-founders, through
+  trust-based networks
+- Kirihata research — building the TTO's trust and long-term relationships
+  strongly affects the outcome
 
-## Rakenne
+## Method
 
-1. Ota TTO mukaan varhain: keksintöilmoituksen arviointi, IP-suoja, kaupallistamisstrategian muotoilu.
-2. Selvitä mitä TTO tarjoaa: rahoitusyhteydet (proof-of-concept-rahastot, inkubaattorit), toimialakontaktit, yhtiön perustamisen tuki, alkuperäiset ehdot (equity split).
-3. Arvioi TTO:n rajat: onko sillä kokemusta juuri sinun toimialaltasi (esim. medtech-regulaatio, ohjelmistoliiketoimintamallit)? Jos ei, hae täydentävää tukea.
-4. Rakenna luottamussuhde — parhaat TTOt auttavat rekrytoimaan kokeneen CEO:n, tuovat neuvonantajia ja navigoivat organisaation byrokratiaa.
-5. Jos TTO-prosessi tuntuu hitaalta: kommunikoi avoimesti äläkä oleta pahaa tahtoa — monet organisaatiot kehittävät "founder-friendly" ehtoja ja pikakaistoja.
-6. Jos opt-out on tarjolla: punnitse huolella — TTO:n ohittaneet päätyvät usein tarvitsemaan tukea myöhemmin joka tapauksessa ja voivat tehdä huonompia diilejä yksin.
-7. Täydennä TTO:ta proaktiivisesti: mentorit, inkubaattoriohjelmat, erikoistuneet konsultit alueilla joilla TTO:lla ei ole syvää osaamista.
+1. Involve the TTO early: invention disclosure review, IP protection,
+   shaping the commercialisation strategy.
+2. Find out what the TTO offers: funding connections (proof-of-concept funds,
+   incubators), industry contacts, support for setting up the company, initial
+   terms (equity split).
+3. Assess the TTO's limits: does it have experience specifically in your
+   industry (e.g. medtech regulation, software business models)? If not,
+   seek complementary support.
+4. Build a relationship of trust — the best TTOs help recruit an experienced
+   CEO, bring in advisors, and navigate organisational bureaucracy.
+5. If the TTO process feels slow: communicate openly and don't assume ill
+   intent — many organisations are developing "founder-friendly" terms and
+   fast tracks.
+6. If an opt-out is available: weigh it carefully — those who bypass the TTO
+   often end up needing support later anyway and may end up with worse deals
+   on their own.
+7. Complement the TTO proactively: mentors, incubator programmes, specialist
+   consultants in areas where the TTO lacks deep expertise.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei arvioi oman TTO:si suorituskykyä puolueettomasti — auttaa jäsentämään mitä kysyä ja odottaa.
-- Ei korvaa suoraa yhteydenottoa TTO:hon.
+- Does not assess your own TTO's performance objectively — it helps structure
+  what to ask and expect.
+- Does not replace direct contact with the TTO.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../industry-specific-commercialisation-playbook/SKILL.md` — Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life sciences, deep tech, ohjelmisto, yhteiskunnalliset/humanistiset innovaatiot.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack:
+  `../industry-specific-commercialisation-playbook/SKILL.md` — Tailor the
+  commercialisation strategy and expectations by industry: life sciences,
+  deep tech, software, societal/humanities-based innovations.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

@@ -1,25 +1,31 @@
 # Skill Design Principles
 
-Jokaisen SKILL.md:n tulisi läpäistä nämä kuusi testiä:
+Every SKILL.md should pass these six tests:
 
-1. **Riippumattomuustesti** — Toimisiko tämä sisältö vielä, jos vaihtaisimme Claude-mallin
-   toiseen? Jos kyllä, se kuuluu tähän repoon rakenteena. Jos sisältö on omaa, validoitua
-   kokemusta, se on vielä arvokkaampaa — sitä malli ei keksi itse.
-2. **Konkreettisuustesti** — Onko skillissä käytettävä rakenne (vaiheet, kysymykset,
-   taulukko), ei pelkkä otsikkolista tai buzzword-kuvaus.
-3. **Ankkurointitesti** — Viittaako skilli tunnustettuun kehykseen (Liedtka, BABOK,
-   Kirzner, McKinsey, SFIA) tai omaan validoituun kokemukseen — ei kumpaankaan.
-4. **Rehellisyystesti kypsyystasosta** — Erottaako skilli selkeästi mikä on tutkimuspohjaista
-   rakennetta ja mikä on vielä täyttämättä omalla kokemuksella (`[OWNER INPUT]`)?
-5. **Rajaustesti** — Kertooko skilli myös mitä se EI tee? Skilli ilman rajausta houkuttaa
-   käyttäjää luottamaan siihen laajemmin kuin pitäisi.
-6. **Löydettävyystesti** — Onko skilli mukana `skills_index.json`:ssa oikealla
-   metadatalla, jotta agentti löytää sen ilman koko repon lukemista?
+1. **Independence test** — Would this content still work if we swapped the
+   Claude model for another one? If yes, it belongs in this repo as
+   structure. If the content is your own validated experience, it's even
+   more valuable — a model won't invent it on its own.
+2. **Concreteness test** — Does the skill contain a usable structure (steps,
+   questions, a table), not just a heading list or buzzword description?
+3. **Anchoring test** — Does the skill reference a recognized framework
+   (Liedtka, BABOK, Kirzner, McKinsey, SFIA) or your own validated
+   experience — not neither?
+4. **Maturity honesty test** — Does the skill clearly separate what's
+   research-grounded structure from what's still unfilled with your own
+   experience (`[OWNER INPUT]`)?
+5. **Scope test** — Does the skill also state what it does NOT do? A skill
+   without stated limits invites the user to trust it more broadly than
+   they should.
+6. **Discoverability test** — Is the skill included in `skills_index.json`
+   with the right metadata, so an agent can find it without reading the
+   entire repo?
 
-## Frontmatterin minimalismi
+## Frontmatter minimalism
 
-SKILL.md-frontmatterissa on **vain** `name` ja `description`. Kaikki muu metadata
-(kypsyys, lähdekerros, ankkurointi) elää `skills_index.json`:ssa tai itse tekstissä.
-Tämä pitää skillit yhteensopivina kaikkien SKILL.md-formaattia tukevien agenttien kanssa
-eikä sido niitä tämän repon omiin lisäkenttiin. (Periaate omaksuttu toisen
-Claude-plugin-markkinapaikan rakenneanalyysistä — ks. CONTRIBUTING.md.)
+SKILL.md frontmatter contains **only** `name` and `description`. All other
+metadata (maturity, source layer, anchoring) lives in `skills_index.json` or
+in the skill body itself. This keeps skills compatible with any agent that
+supports the SKILL.md format, without tying them to this repo's own extra
+fields. (Principle adopted from a structural analysis of another Claude
+plugin marketplace — see CONTRIBUTING.md.)

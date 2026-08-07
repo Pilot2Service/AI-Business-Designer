@@ -1,5 +1,5 @@
 # References — Change & Communication
 
-Lisää tähän kansioon taustamateriaali, artikkelit, organisaatiokohtaiset mallipohjat ja case-aineisto, joihin tämän pakin skillit viittaavat.
+Add background material, articles, organization-specific templates, and case material to this folder that this pack's skills refer to.
 
-Tällä hetkellä tyhjä — täydennettävä omalla aineistolla.
+Currently empty — to be filled in with your own material.

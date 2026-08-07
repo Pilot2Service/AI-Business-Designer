@@ -1,60 +1,65 @@
-# Business Design Frameworks — jaetut suojaukset
+# Business Design Frameworks — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+General guardrails (disclaimer, no fabricated numbers, premise-checking, making
+maturity visible) are collected in one place: **see
+`../meta/shared-guardrails.md` — read that first.** This file only contains
+what's genuinely specific to this pack.
 
 ---
 
-## Tämä pakki on avoin kokoelma — ei suljettu lista
+## This pack is an open collection — not a closed list
 
-Toisin kuin muut ydinpakit, tämä pakki on suunniteltu **kasvamaan jatkuvasti**.
-Se kokoaa yhteen erilaisia tapoja jäsentää ja mallintaa liiketoimintaa, arvonluontia,
-arvoketjuja ja asemointia — kerrosmallit, arvoketjuanalyysi, kategoriamallinnus ja
-myöhemmin lisättävät uudet jäsentämistavat. Kun uusi skilli lisätään tähän pakkiin:
+Unlike the other core packs, this pack is designed to **keep growing**. It
+brings together different ways of structuring and modeling business,
+value creation, value chains, and positioning — layer models, value chain
+analysis, category modeling, and new structuring approaches to be added
+later. When a new skill is added to this pack:
 
-- Se saa oman `skills/<skill-id>/SKILL.md`-tiedoston samaa minimifrontmatter-mallia
-  noudattaen (`name` + `description`, ei muuta).
-- Se lisätään tämän pakin `README.md`:n skillitaulukkoon ja tarvittaessa
-  ristiinlinkitetään muihin saman pakin skilleihin ("Jatka tästä").
-- Sen kypsyys (`maturity`) alkaa oletuksena `scaffold`-tasolta, ellei kyseessä ole
-  käyttäjän oma validoitu menetelmä (kuten esim. research-commercialisation-pakin
-  tai opportunity-recognition-pakin owner-skillit).
+- It gets its own `skills/<skill-id>/SKILL.md` file following the same
+  minimal frontmatter pattern (`name` + `description`, nothing else).
+- It's added to this pack's `README.md` skill table and, where relevant,
+  cross-linked to other skills in the same pack ("Continue from here").
+- Its maturity (`maturity`) defaults to `scaffold` unless it's the user's
+  own validated method (like, for example, the owner skills in the
+  research-commercialisation or opportunity-recognition packs).
 
-## Vastuuvapaus tässä pakissa — jäsennystapa, ei valmis analyysi
+## Disclaimer in this pack — a structuring approach, not a finished analysis
 
-Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi: nämä ovat ajattelun
-apuvälineitä (mental models). Älä esitä mallinnuksen tulosta lopullisena totuutena
-tai ainoana oikeana jäsennyksenä — useampi malli voi tuottaa erilaisia, yhtä
-valideja näkökulmia samaan liiketoimintaan.
+In addition to the general disclaimer (`shared-guardrails.md`): these are
+thinking aids (mental models). Don't present the output of a modeling exercise
+as the final truth or the one correct structure — several models can produce
+different, equally valid perspectives on the same business.
 
-## Kypsyystaso tässä pakissa
+## Maturity in this pack
 
-Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
+This pack's maturity is **mixed** (see `../skills_index.json` and
 `../meta/maturity_levels.md`):
 
 - `layer-based-business-structuring`, `value-chain-mapping`,
-  `category-definition-and-modeling` ovat `maturity: scaffold` — rakenne ja
-  ankkurointi ovat tutkimuspohjaisia (klassisia liiketoiminnan
-  viitekehyksiä), mutta omaa validoitua kokemusta ei vielä ole liitetty.
-- `strategy-canvas-and-value-curve` on `maturity: validated`,
-  `source_layer: owner` — Blue Ocean Strategy -teoria yhdistettynä
-  omistajan tuotteistettuun 360 Comparison Factors -vertailutyökaluun.
+  `category-definition-and-modeling` are `maturity: scaffold` — the
+  structure and research anchoring are research-based (classic business
+  frameworks), but the owner's own validated experience hasn't been
+  attached yet.
+- `strategy-canvas-and-value-curve` is `maturity: validated`,
+  `source_layer: owner` — Blue Ocean Strategy theory combined with the
+  owner's productized 360 Comparison Factors comparison tool.
 
-## Pakkikohtainen huomio
+## Pack-specific note
 
-Nämä ovat yleisiä, toimialariippumattomia jäsentämismalleja — ne pitää aina sovittaa
-kontekstiin. Älä pakota liiketoimintaa väkisin johonkin malliin, jos se ei tuota
-oivallusta; kokeile toista mallia samasta kokoelmasta tai yhdistä useampaa.
+These are general, industry-agnostic structuring models — they always need
+to be adapted to context. Don't force a business into a model that isn't
+producing insight; try another model from the same collection, or combine
+several.
 
-Tämän pakin `competitive-blind-spot-scanner`-agentti (ks. `agents/`) etsii minkä
-tahansa kilpailu-/asemointianalyysin katvealueet — toimii sekä tämän pakin
-`strategy-canvas-and-value-curve`-tuotoksen että esim. `opportunity-recognition`-pakin
-`competitive-and-five-forces-mapping`-tuotoksen päällä. Käytä sitä ennen kuin
-kilpailutilanne-analyysi esitetään valmiina kuvana toimialasta.
+This pack's `competitive-blind-spot-scanner` agent (see `agents/`) looks for
+blind spots in any competitive/positioning analysis — it works on top of
+both this pack's `strategy-canvas-and-value-curve` output and, for example,
+the `opportunity-recognition` pack's `competitive-and-five-forces-mapping`
+output. Use it before a competitive-situation analysis is presented as a
+finished picture of the industry.
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See `../meta/frontmatter_schema.md` (what's allowed in a SKILL.md frontmatter)
+and `../meta/skill_design_principles.md` (what a good skill in this repo has
+to pass).

@@ -1,135 +1,135 @@
 ---
 name: data-literacy-competency-assessment
-description: "Arvioi organisaation tai tiimin datalukutaidon nelikenttäkehyksellä (Datan ymmärtäminen, Datasta toimintaan, Datan kautta vaikuttaminen, Etiikka & yksityisyys) ja neliportaisella kypsyystikapuulla, roolikohtaisesti eriytettynä. Käytä ennen datastrategian tai AI-hankkeen käynnistämistä, kun pitää tunnistaa mistä osaamisvaje estää datan hyödyntämistä."
+description: "Assesses an organization's or team's data literacy with a four-quadrant framework (Understanding data, Acting on data, Engaging through data, Ethics & privacy) and a four-step maturity ladder, differentiated by role. Use before launching a data strategy or AI initiative, when you need to identify which competency gap is blocking data exploitation."
 ---
 
 # Data Literacy Competency Assessment
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Datalukutaito ei tarkoita, että jokaisen pitää osata kirjoittaa SQL-
-kyselyitä. Se tarkoittaa kykyä ymmärtää, arvioida ja soveltaa dataa
-päätöksenteossa. Kun AI- tai datahanke epäonnistuu organisatorisista
-syistä (ei teknisistä), syy on usein osaamisvajeessa jossain neljästä
-osa-alueesta — ei työkalussa. Tämä skilli tuottaa rakenteisen arvion
-siitä, missä osa-alueessa ja millä organisaatiotasolla vaje on, jotta
-kehitystoimet kohdistetaan oikein sen sijaan että "koulutetaan kaikki
-kaikkeen".
+Data literacy doesn't mean everyone needs to know how to write SQL
+queries. It means the ability to understand, evaluate, and apply data in
+decision-making. When an AI or data initiative fails for organizational
+reasons (not technical ones), the cause is often a competency gap in one
+of four areas — not the tool. This skill produces a structured assessment
+of where the gap is, and at what organizational level, so development
+effort is aimed correctly instead of "training everyone on everything."
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- DALI-tyyppinen datalukutaitokehys (usean lähteen synteesi, kansalais-
-  ja ammattilaistason datalukutaitomääritelmistä): neljä pääelementtiä —
-  Datan ymmärtäminen, Datasta toimintaan, Datan kautta vaikuttaminen ja
-  osallistuminen, Etiikka & yksityisyys läpileikkaavana teemana.
-- Ackoff, Russell L. — DIKW-hierarkia (*Data, Information, Knowledge,
-  Wisdom*, 1989) kypsyystikapuun taustalla: data itsessään ei ole
-  tietoa, tieto ei ole ymmärrystä, ymmärrys ei ole viisautta toimia
-  oikein.
-- DAMA International — DAMA-DMBOK (Data Management Body of Knowledge)
-  ammattistandardina data governance -osaamisen määrittelyssä
-  (ammattikuntastandardi samaan tapaan kuin BABOK/PMI/SFIA muualla
-  tässä repossa).
+- A DALI-type data literacy framework (a synthesis of multiple sources,
+  from citizen- and professional-level data literacy definitions): four
+  core elements — Understanding data, Acting on data, Engaging and
+  influencing through data, and Ethics & privacy as a cross-cutting theme.
+- Ackoff, Russell L. — the DIKW hierarchy (*Data, Information, Knowledge,
+  Wisdom*, 1989) underlying the maturity ladder: data itself isn't
+  knowledge, knowledge isn't understanding, understanding isn't the
+  wisdom to act correctly.
+- DAMA International — DAMA-DMBOK (Data Management Body of Knowledge) as
+  the professional standard defining data governance competency (a
+  professional-body standard in the same vein as BABOK/PMI/SFIA
+  elsewhere in this repo).
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Arvioi neljä osa-aluetta erikseen** — älä anna yhtä kokonaispistettä,
-   koska organisaatio on tyypillisesti epätasainen osa-alueiden välillä:
-   - **A. Datan ymmärtäminen (Understanding):** ymmärretäänkö mitä data
-     on, mistä se tulee, kuka sen omistaa, ja että "data on edustus
-     todellisuudesta, ei todellisuus itse" (ks.
+1. **Assess the four areas separately** — don't produce a single overall
+   score, because an organization is typically uneven across areas:
+   - **A. Understanding data:** is it understood what data is, where it
+     comes from, who owns it, and that "data is a representation of
+     reality, not reality itself" (see
      `../data-bias-and-quality-critical-reading/SKILL.md`)?
-   - **B. Datasta toimintaan (Acting):** osataanko arvioida datan laatua,
-     tunnistaa harhaanjohtava raportointi, ja johtaako data oikeasti
-     päätöksiin ja käyttäytymisen muutokseen — vai kerätäänkö "nice-to-
-     know"-mittareita jotka eivät johda mihinkään?
-   - **C. Datan kautta vaikuttaminen (Engaging):** osataanko syntetisoida,
-     visualisoida ja kertoa data tarinana, joka saa päätöksentekijän
-     toimimaan (ks.
+   - **B. Acting on data:** can data quality be assessed, can misleading
+     reporting be spotted, and does data actually drive decisions and
+     behavior change — or is it "nice-to-know" metrics being collected
+     that lead nowhere?
+   - **C. Engaging through data:** can data be synthesized, visualized,
+     and told as a story that gets a decision-maker to act (see
      `../data-storytelling-and-business-translation/SKILL.md`)?
-   - **D. Etiikka & yksityisyys:** ymmärretäänkö eettiset ja juridiset
-     rajat datan keräämisessä ja käytössä (erityisesti AI-malleissa) —
-     tämä on läpileikkaava teema kaikissa kolmessa muussa, ei erillinen
-     vaihe.
-2. **Käytä neliportaista kypsyystikapuuta jokaiselle osa-alueelle:**
-   - **Taso 1 — Ei-tietoinen:** dataa käytetään ilman että sen alkuperää
-     tai rajoituksia kyseenalaistetaan.
-   - **Taso 2 — Tietoinen:** rajoitukset tunnistetaan, mutta niitä ei
-     systemaattisesti huomioida päätöksenteossa.
-   - **Taso 3 — Soveltava:** rajoitukset huomioidaan systemaattisesti,
-     data johtaa toistuvasti oikeisiin päätöksiin.
-   - **Taso 4 — Sulautunut:** datalukutaito on osa organisaation
-     oletusarvoista toimintatapaa, ei erillinen taito jota pitää
-     erikseen muistaa käyttää.
-   Merkitse jokaiselle osa-alueelle (A-D) taso 1-4 erikseen — organisaatio
-   voi olla tasolla 3 ymmärtämisessä mutta tasolla 1 vaikuttamisessa.
-3. **Eriytä arvio roolin mukaan** — sama datalukutaitovaatimus ei koske
-   kaikkia:
-   - **Johto/päättäjät** tarvitsevat ennen kaikkea C (vaikuttaminen —
-     osattava vaatia ja tulkita dataa tarinana) ja D (etiikka — vastuu
-     päätöksistä).
-   - **Analyytikot/data-ammattilaiset** tarvitsevat ennen kaikkea A
-     (ymmärtäminen) ja B (toimintaan vieminen) syvällisesti.
-   - **Linjaesihenkilöt/loppukäyttäjät** tarvitsevat riittävän tason A:ta
-     (osata kyseenalaistaa) ja D:tä (osata tunnistaa eettiset riskit
-     omassa työssään) — ei välttämättä syvää B/C-osaamista.
-   Jos koko organisaatiota koulutetaan samalla ohjelmalla riippumatta
-   roolista, se on tyypillisin datalukutaito-investoinnin hukka.
-4. **Tunnista suurin pullonkaula, älä yritä korjata kaikkea kerralla.**
-   Datalukutaitoketju on yhtä vahva kuin sen heikoin lenkki: jos johto on
-   tasolla 1 vaikuttamisessa (C), paras analyysi (A/B tasolla 4) ei
-   koskaan johda päätökseen, koska sitä ei osata tulkita tai siihen ei
-   luoteta. Priorisoi kehitystoimet sen mukaan, missä osa-alueessa/
-   roolissa heikoin lenkki on, ei sen mukaan missä on helpoin kouluttaa.
-5. **Tuota arvio taulukkona:** rooli × osa-alue (A-D) × taso (1-4) ×
-   suurin havaittu riski kyseisessä solussa. Tämä taulukko on skillin
-   ensisijainen tuotos, ei pitkä sanallinen kuvaus.
+   - **D. Ethics & privacy:** are the ethical and legal boundaries of
+     collecting and using data understood (especially in AI models) —
+     this is a cross-cutting theme across the other three, not a
+     separate stage.
+2. **Use a four-step maturity ladder for each area:**
+   - **Level 1 — Unaware:** data is used without questioning its origin
+     or limitations.
+   - **Level 2 — Aware:** limitations are recognized, but not
+     systematically factored into decisions.
+   - **Level 3 — Applying:** limitations are systematically factored in,
+     data repeatedly leads to correct decisions.
+   - **Level 4 — Embedded:** data literacy is part of the organization's
+     default way of operating, not a separate skill that has to be
+     consciously invoked.
+   Score each area (A-D) at level 1-4 separately — an organization can be
+   at level 3 in Understanding but level 1 in Engaging.
+3. **Differentiate the assessment by role** — the same data literacy
+   requirement doesn't apply to everyone:
+   - **Leadership/decision-makers** need C (Engaging — able to demand and
+     interpret data as a story) and D (Ethics — accountable for
+     decisions) above all.
+   - **Analysts/data professionals** need A (Understanding) and B
+     (Acting) in depth above all.
+   - **Line managers/end users** need a sufficient level of A (able to
+     question) and D (able to spot ethical risks in their own work) —
+     not necessarily deep B/C competency.
+   If the whole organization is trained on the same program regardless of
+   role, that's the most common way data literacy investment gets wasted.
+4. **Identify the biggest bottleneck; don't try to fix everything at
+   once.** The data literacy chain is only as strong as its weakest
+   link: if leadership is at level 1 in Engaging (C), the best analysis
+   (A/B at level 4) never leads to a decision, because it can't be
+   interpreted or trusted. Prioritize development effort based on where
+   the weakest link is by area/role, not where it's easiest to train.
+5. **Produce the assessment as a table:** role × area (A-D) × level
+   (1-4) × the biggest observed risk in that cell. This table is the
+   skill's primary output, not a long narrative description.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei suunnittele itse koulutusohjelmaa tai sen sisältöä — tuottaa
-  diagnoosin, jonka pohjalta koulutus tai muu kehitystoimi suunnitellaan
-  erikseen.
-- Ei arvioi yksittäisten henkilöiden osaamista nimellä — arvioi rooleja
-  ja organisaatiotasoja, ei yksilöitä.
-- Ei korvaa teknistä data-arkkitehtuurin tai -infrastruktuurin arviointia
-  — arvioi ihmisten kykyä käyttää ja tulkita dataa, ei järjestelmien
-  teknistä kuntoa.
-- Ei vahvista lukuja tai kypsyystasoja muistista — perustaa arvion
-  käyttäjän antamiin havaintoihin (haastattelut, kysely, havainnointi)
-  tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
+- Doesn't design the training program or its content itself — produces a
+  diagnosis on which the training or other development effort is
+  designed separately.
+- Doesn't assess individual people's competency by name — assesses roles
+  and organizational levels, not individuals.
+- Doesn't replace a technical assessment of data architecture or
+  infrastructure — assesses people's ability to use and interpret data,
+  not the technical condition of systems.
+- Doesn't confirm figures or maturity levels from memory — bases the
+  assessment on observations you provide (interviews, surveys,
+  observation) or marks an assumption clearly (`[assumption — verify]`).
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- konkreettinen haastattelu-/kyselypohja kunkin osa-alueen (A-D) tason
-  arvioimiseksi (`../../references/`-kansioon)
-- omia havaintoja siitä, mikä rooli/osa-alue-yhdistelmä on useimmin
-  heikoin lenkki eri toimialoilla
-- esimerkkejä siitä, miten epätasapainoinen datalukutaito (esim. vahva
-  analytiikka, heikko johdon vaikuttaminen) on estänyt hankkeen etenemisen
+- a concrete interview/survey template for assessing the level of each
+  area (A-D) (into `../../references/`)
+- your own observations about which role/area combination is most often
+  the weakest link across different industries
+- examples of how imbalanced data literacy (e.g. strong analytics, weak
+  leadership engagement) has blocked a project from moving forward
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only ones
+allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi (jos C-osa-alue on heikko):
+- Next in this pack (if area C is weak):
   `../data-storytelling-and-business-translation/SKILL.md`
-- Samassa pakissa seuraavaksi (jos A-osa-alue on heikko):
+- Next in this pack (if area A is weak):
   `../data-bias-and-quality-critical-reading/SKILL.md`
-- Liittyvä skilli toisessa pakissa: `../../../change-and-communication/skills/workshop-and-facilitation-design/SKILL.md`
-  — jos diagnoosin pohjalta suunnitellaan koulutus-/fasilitointisessio.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Related skill in another pack: `../../../change-and-communication/skills/workshop-and-facilitation-design/SKILL.md`
+  — if a training/facilitation session is being designed based on the
+  diagnosis.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

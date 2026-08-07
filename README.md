@@ -150,9 +150,9 @@ merge without anyone having to remember to check by hand.
 ## A note on language
 
 The skill instructions themselves (`SKILL.md`, `CLAUDE.md`, reference files)
-are written in Finnish — that's the language the owner works and validates
-in. This doesn't limit how you can use the pack: Claude will still read the
-Finnish instructions and respond to you in whichever language you use.
+are written in English, so the pack is usable and reviewable without a
+Finnish-language dependency. Regardless of the instruction language, Claude
+will respond to you in whichever language you use.
 
 ## Contributing
 

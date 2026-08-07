@@ -3,129 +3,129 @@ status: draft
 source: owner_applied_case
 ---
 
-# Case: "Decision Coach" MVP (omistajan oma case)
+# Case: "Decision Coach" MVP (the owner's own case)
 
-Täysi worked example pakin skillien `customer-vision-to-jtbd` →
+A full worked example of the pack's skill chain
+`customer-vision-to-jtbd` →
 `ai-differentiator-solution-ideation` → `rice-scoring-and-mvp-synthesis` →
-`ai-native-conversational-os-design` -ketjusta, sovellettuna omistajan
-omaan tuotteeseensa ulkopuolisen
-"AI-first SaaS Product" -työpajan menetelmällä (ks.
-`../references/ai-first-saas-workshop-source.md`). Kohdesegmentti:
-akateemiset tutkijat, jotka kehittävät kaupallistamisosaamistaan
-(sama kohderyhmä kuin `specialisation-packs/research-commercialisation`).
+`ai-native-conversational-os-design`, applied by the owner to their own
+product using the methodology of an external
+"AI-first SaaS Product" workshop (see
+`../references/ai-first-saas-workshop-source.md`). Target segment:
+academic researchers building their commercialization skills (the same
+target audience as `specialisation-packs/research-commercialisation`).
 
-**Tila:** sovellettu kerran, ei ulkopuolisesti validoitu — käytä mallina
-rakenteesta ja tasosta, älä absoluuttisena totuutena casen lopullisesta
-suunnasta.
+**Status:** applied once, not externally validated — use as a model for
+structure and level of detail, not as an absolute truth about the case's
+final direction.
 
-## 1. JTBD (7 kpl, verbivetoisia)
+## 1. JTBD (7, verb-driven)
 
-1. Selvittää tutkimukseni reaalimaailman potentiaali
-2. Kääntää tieteellinen työni vakuuttavaksi arvolupaukseksi
-3. Arvioida ideani kaupallinen toteutettavuus
-4. Arvioida ja vahvistaa omaa kaupallistamisosaamistani
-5. Navigoida varhainen kaupallistamisprosessi rakenteella
-6. Kommunikoida ideani selkeästi TTO:ille, rahoittajille tai co-foundereille
-7. Rakentaa itsevarmuutta ennen ulkoisia sidosryhmäkeskusteluja
+1. Figure out my research's real-world potential
+2. Translate my scientific work into a compelling value proposition
+3. Assess the commercial feasibility of my idea
+4. Assess and strengthen my own commercialization skills
+5. Navigate the early commercialization process with structure
+6. Communicate my idea clearly to TTOs, funders, or co-founders
+7. Build confidence before external stakeholder conversations
 
-## 2. Tarveteemat (5+2)
+## 2. Need themes (5+2)
 
-| # | Tarveteema | Tyyppi | Liittyvä JTBD |
+| # | Need theme | Type | Related JTBD |
 |---|---|---|---|
-| 1 | Opportunity Clarity (ymmärrä kaupallinen potentiaali) | Funktionaalinen — Understand | 1 |
-| 2 | Feasibility Insight (arvioi toteutettavuus) | Funktionaalinen — Diagnose/Evaluate | 3 |
-| 3 | Competence Awareness (näe oma osaamistaso) | Funktionaalinen — Diagnose/Evaluate | 4 |
-| 4 | Value Translation (käännä liike-elämän kielelle) | Funktionaalinen — Communicate | 2 |
-| 5 | Process Structure (seuraa rakennettua polkua) | Funktionaalinen — Plan/Structure | 5 |
-| 6 | Stakeholder Alignment (esitä vakuuttavasti) | Funktionaalinen — Communicate | 6 |
-| 7 | Action Readiness (tiedä milloin olet valmis) | Funktionaalinen — Decide/Act | 7 |
-| 8 | Personal Confidence | Psykologinen | 4, 6, 7 |
-| 9 | Uncertainty Reduction | Psykologinen | 1, 3, 5, 7 |
+| 1 | Opportunity Clarity (understand the commercial potential) | Functional — Understand | 1 |
+| 2 | Feasibility Insight (assess feasibility) | Functional — Diagnose/Evaluate | 3 |
+| 3 | Competence Awareness (see your own skill level) | Functional — Diagnose/Evaluate | 4 |
+| 4 | Value Translation (translate into business language) | Functional — Communicate | 2 |
+| 5 | Process Structure (follow a structured path) | Functional — Plan/Structure | 5 |
+| 6 | Stakeholder Alignment (present convincingly) | Functional — Communicate | 6 |
+| 7 | Action Readiness (know when you're ready) | Functional — Decide/Act | 7 |
+| 8 | Personal Confidence | Psychological | 4, 6, 7 |
+| 9 | Uncertainty Reduction | Psychological | 1, 3, 5, 7 |
 
-## 3. NMB + AI-advantage-pisteytys (ote, korkeimmat)
+## 3. NMB + AI-advantage scoring (excerpt, highest scores)
 
-| Tarveteema | Depth | Freq | Market Cov. | Biz Strength | AI Adv. | Total /25 | Luokka |
+| Need theme | Depth | Freq | Market Cov. | Biz Strength | AI Adv. | Total /25 | Class |
 |---|---|---|---|---|---|---|---|
 | Uncertainty Reduction | 5 | 5 | 5 | 5 | 5 | **25** | Top Differentiator |
 | Opportunity Clarity | 5 | 5 | 5 | 4 | 5 | **24** | Differentiator |
 | Feasibility Insight | 5 | 4 | 5 | 4 | 5 | 23 | Differentiator |
 | Competence Awareness | 4 | 5 | 4 | 5 | 5 | 23 | Differentiator |
 | Process Structure | 5 | 5 | 5 | 4 | 4 | 23 | Differentiator |
-| Value Translation | 4 | 4 | 5 | 4 | 4 | 21 | Table Stake (vahvistettavissa) |
+| Value Translation | 4 | 4 | 5 | 4 | 4 | 21 | Table Stake (can be strengthened) |
 | Stakeholder Alignment | 4 | 4 | 5 | 4 | 4 | 21 | Table Stake |
 | Personal Confidence | 3 | 4 | 4 | 4 | 4 | 19 | Table Stake |
 
-## 4. AI wedge -valinta
+## 4. AI wedge selection
 
-**Uncertainty Reduction (25/25) + Opportunity Clarity (24/25)** —
-molemmat täyttävät AI wedge -kriteerit: korkea syvyys, korkea toistuvuus,
-heikko kilpailijakattavuus (TTO:t/inkubaattorit tarjoavat staattisia
-tarkistuslistoja, ei elävää mallia), oma vahvuus (olemassa olevat omat 
-työkalut: Opportunity Scorecard, Competence Assessment), korkea AI-etu.
+**Uncertainty Reduction (25/25) + Opportunity Clarity (24/25)** — both
+satisfy the AI wedge criteria: high depth, high frequency, weak
+competitor coverage (TTOs/incubators offer static checklists, not a
+living model), a strong starting position (existing own tools:
+Opportunity Scorecard, Competence Assessment), high AI advantage.
 
-## 5. Kolme ratkaisusuuntaa
+## 5. Three solution directions
 
-1. **"Opportunity Twin"** — elävä, mukautuva digitaalinen kaksoisolento
-   tutkijan ideasta, joka stressitestaa sitä jatkuvasti markkinoita,
-   kilpailijoita ja analogioita vasten. Output: kehittyvä Opportunity
-   Score + "mitä jos" -simulaatiot.
-2. **"Early Signal Radar"** — autonominen agentti joka skannaa
-   akateemisia läpimurtoja, patentteja, sääntelyä, rahoitushakuja ja
-   tuottaa viikoittaisen Signal Pulse -raportin.
-3. **"Decision Coach"** — keskusteleva päätöksentekoagentti joka antaa
-   binäärisen selkeyden ja seuraavan askeleen ("Olet 72% valmis TTO-
-   keskusteluun — keskity seuraavaksi ongelman kirkastamiseen").
+1. **"Opportunity Twin"** — a living, adaptive digital twin of the
+   researcher's idea that continuously stress-tests it against the
+   market, competitors, and analogies. Output: an evolving Opportunity
+   Score + "what if" simulations.
+2. **"Early Signal Radar"** — an autonomous agent that scans academic
+   breakthroughs, patents, regulation, and funding calls, producing a
+   weekly Signal Pulse report.
+3. **"Decision Coach"** — a conversational decision-support agent that
+   gives binary clarity and the next step ("You're 72% ready for a TTO
+   conversation — focus next on clarifying the problem").
 
-## 6. RICE-pisteytys → MVP-valinta
+## 6. RICE scoring → MVP selection
 
-| Konsepti | Reach | Impact | Confidence | Effort (5=helpoin) | RICE | Tulkinta |
+| Concept | Reach | Impact | Confidence | Effort (5=easiest) | RICE | Interpretation |
 |---|---|---|---|---|---|---|
-| Opportunity Twin | 4 | 5 | 4 | 2 | 15 | Vahva v2/v3, liian raskas MVP:ksi |
-| Early Signal Radar | 3 | 4 | 3 | 1 | 11 | Erottuva mutta erittäin raskas (data-pipelinet) |
-| **Decision Coach** | **5** | **4** | **5** | **4** | **18** | **MVP-voittaja** — helpoin rakentaa olemassa olevilla Scorecard/Competence-työkaluilla |
+| Opportunity Twin | 4 | 5 | 4 | 2 | 15 | Strong v2/v3, too heavy for an MVP |
+| Early Signal Radar | 3 | 4 | 3 | 1 | 11 | Distinctive but very heavy (data pipelines) |
+| **Decision Coach** | **5** | **4** | **5** | **4** | **18** | **MVP winner** — easiest to build with existing Scorecard/Competence tools |
 
-## 7. MVP-synteesi
+## 7. MVP synthesis
 
-**MVP-määritelmä:** AI-vetoinen Decision Coach, joka antaa tutkijoille
-selkeän, evidenssipohjaisen arvion idean kaupallisesta potentiaalista ja
-seuraavista askelista — yhdistää opportunity clarityn, uncertainty
-reductionin ja olennaisen viestintätuen yhdeksi yksinkertaiseksi,
-toimintakelpoiseksi päätökseksi.
+**MVP definition:** An AI-driven Decision Coach that gives researchers a
+clear, evidence-based assessment of an idea's commercial potential and
+next steps — combining opportunity clarity, uncertainty reduction, and
+essential communication support into one simple, actionable decision.
 
-**Positiointilause:** "Palvelu antaa tutkijoille välittömän
-selkeyden ja itsevarmuuden varhaiseen kaupallistamismatkaan AI-vetoisella
-päätösmoottorilla, joka muuttaa epävarmuuden selkeiksi seuraaviksi
-askeliksi."
+**Positioning statement:** "The service gives researchers immediate
+clarity and confidence on their early commercialization journey through
+an AI-driven decision engine that turns uncertainty into clear next
+steps."
 
-**Miksi voitamme (3):**
-- Vähennämme epävarmuutta paremmin kuin kukaan muu yhdistämällä
-  strukturoidun kaupallistamistieteen adaptiiviseen AI-päättelyyn.
-- Annamme tutkijoille välittömän selkeyden — muutamme monimutkaiset
-  akateemiset ideat yksinkertaisiksi, rahoituskelpoisiksi näkemyksiksi.
-- Luomme momentumia varhain — matalan kynnyksen tapa ymmärtää
-  mahdollisuus ja ottaa itsevarmoja askeleita kauan ennen tyypillistä
-  TTO-prosessia.
+**Why we win (3):**
+- We reduce uncertainty better than anyone else by combining structured
+  commercialization science with adaptive AI reasoning.
+- We give researchers immediate clarity — turning complex academic ideas
+  into simple, fundable insights.
+- We build momentum early — a low-threshold way to understand the
+  opportunity and take confident steps long before the typical TTO
+  process.
 
-## 8. Keskusteleva OS-arkkitehtuuri (tiivistelmä)
+## 8. Conversational OS architecture (summary)
 
-Intent (5 tuettua: arvioi ideani / ymmärrä kaupallinen potentiaali /
-tiedä valmiuteni / saa selkeä suositus / käännä arvolupaukseksi) →
-Strategy Cards (A: Opportunity Clarity Model, B: Uncertainty Reduction
-Model, C: Readiness Assessment, D: Value Translation, E: Stakeholder
-Alignment) → Clarification (max 2-4 kysymystä) → Output Cards (5:
-Opportunity Clarity Score, Readiness Score, 3-Step Action Plan,
-Stakeholder Pitch, Decision Recommendation) → Mission (yksi lyhyt
-tehtävälause) → Agent Execution (uudelleenpisteytys, pitchin uudelleen-
-kirjoitus, omien työkalujen suosittelu).
+Intent (5 supported: assess my idea / understand commercial potential /
+know my readiness / get a clear recommendation / translate into a value
+proposition) → Strategy Cards (A: Opportunity Clarity Model, B:
+Uncertainty Reduction Model, C: Readiness Assessment, D: Value
+Translation, E: Stakeholder Alignment) → Clarification (max 2-4
+questions) → Output Cards (5: Opportunity Clarity Score, Readiness
+Score, 3-Step Action Plan, Stakeholder Pitch, Decision Recommendation) →
+Mission (one short mission statement) → Agent Execution (rescoring,
+pitch rewriting, recommending own tools).
 
-Täysi askel-askeleelta-kuvaus: ks.
+Full step-by-step description: see
 `../skills/ai-native-conversational-os-design/SKILL.md`.
 
-## Käytä tätä casea
+## Using this case
 
-- Rakenteen mallina, kun sovellat `customer-vision-to-jtbd`-,
-  `ai-differentiator-solution-ideation`-, `rice-scoring-and-mvp-
-  synthesis`- ja `ai-native-conversational-os-design`-skillejä uuteen
-  liiketoimintaan.
-- ÄLÄ kopioi pisteytyksiä tai tarveteemoja sellaisenaan toiseen caseen —
-  ne ovat case-spesifisiä, eivät yleispäteviä lukuja.
+- As a structural model when applying the `customer-vision-to-jtbd`,
+  `ai-differentiator-solution-ideation`, `rice-scoring-and-mvp-
+  synthesis`, and `ai-native-conversational-os-design` skills to a new
+  business.
+- Do NOT copy the scores or need themes as-is into another case — they
+  are case-specific, not universally applicable figures.

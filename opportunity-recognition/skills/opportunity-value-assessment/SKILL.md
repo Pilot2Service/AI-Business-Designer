@@ -1,108 +1,116 @@
 ---
 name: opportunity-value-assessment
-description: "Sijoittaa tunnistetun mahdollisuuden houkuttelevuus × toteutettavuus -matriisiin ja arvioi sen seitsemästä kaupallistamisnäkökulmasta — omistajan oma, tuotteistettu arviointikehys."
+description: "Places an identified opportunity in an attractiveness × feasibility matrix and assesses it from seven commercialization angles — the owner's own, productized assessment framework."
 ---
 
 # Opportunity Value Assessment
 
-*Tila: `validated` — omistajan oman palvelun
-Opportunity Value Assessment -tuotteen ytimenä toimivaan arviointikehykseen
-ankkuroitu sisältö, ei tutkimustason scaffold. Ks. `../../../skills_index.json`
-ja `../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the assessment framework at the
+core of the owner's own Opportunity Value Assessment product, not a
+research-level scaffold. See `../../../skills_index.json` and
+`../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Sijoittaa tunnistetun mahdollisuuden kaksiulotteiseen houkuttelevuus ×
-toteutettavuus -matriisiin ja arvioi sen seitsemästä kaupallistamisnäkökulmasta.
-Tämä on omistajan oma, tuotteistettu ja asiakastyössä käytetty arviointikehys —
-konkreettisempi ja tarkempi kuin yleinen `opportunity-evaluation-and-judgment`
--scaffold, joka kuvaa evaluation & judgment -osaamisen yleisellä tasolla.
+Places an identified opportunity in a two-dimensional attractiveness ×
+feasibility matrix and assesses it from seven commercialization angles. This
+is the owner's own, productized framework, used in real client work — more
+concrete and precise than the generic `opportunity-evaluation-and-judgment`
+scaffold, which describes evaluation-and-judgment competence at a general
+level.
 
-## Perustuu
+## Based on
 
-omistajan oma palvelu — Opportunity Value Assessment -palvelu (oma tuote) ja sitä
-tukeva taustatutkimus "S1 — Opportunity Package: Ehdotus yksinkertaisesta
-arviointikehyksestä".
+The owner's own service — the Opportunity Value Assessment product (own
+product) and its supporting background research "S1 — Opportunity Package:
+Proposal for a Simple Assessment Framework".
 
-- Mullins' Seven Domains Model — kolme markkinakeskeistä + neljä
-  organisaatiokeskeistä osa-aluetta mahdollisuuden elinkelpoisuuden arviointiin
-  (Soren Kaplan, 2023 -yhteenveto)
-- Timmons-malli: tiimi, mahdollisuus, resurssit jatkuvassa vuorovaikutuksessa
+- Mullins' Seven Domains Model — three market-facing plus four
+  organization-facing domains for assessing an opportunity's viability
+  (Soren Kaplan, 2023 summary)
+- Timmons model: team, opportunity, and resources in continuous interaction
 - Product Opportunity Evaluation Matrix (POEM) — feasibility × attractiveness
   (ConnectedDale, 2023)
-- TRL-asteikko (DOE Tech-to-Market, 2021)
+- TRL scale (DOE Tech-to-Market, 2021)
 
-Edellyttää lähtöaineistoksi `../opportunity-intake-elicitation/SKILL.md`:n
-tuottamat vastaukset (tai vastaavan tason tiedon muuta kautta).
+Requires the answers produced by
+`../opportunity-intake-elicitation/SKILL.md` as input (or equivalent
+information gathered another way).
 
-## Rakenne
+## Method
 
-1. **Arvioi houkuttelevuus (attractiveness).** Neljä tekijää: markkinan koko ja
-   kasvu (ks. `../market-sizing-tam-sam-som/SKILL.md`), asiakkaan
-   ongelman/tarpeen merkittävyys, kilpailuedun vahvuus (mikä on ainutlaatuista —
-   teknologia, patentti, liiketoimintamalli), kaupallinen potentiaali
-   (katemarginaalit, skaalautuvuus, alustava näkemys tuotoista suhteessa
-   lisensointivaihtoehtoon).
-2. **Arvioi toteutettavuus/valmius (feasibility/readiness).** Neljä tekijää:
-   teknologian valmiusaste (TRL, selkokielisenä: idea → PoC → prototyyppi →
-   testattu prototyyppi → pilotti → markkinavalmis), resurssit ja osaaminen
-   (tiimi, kumppanit, rahoitus — kyetäänkö kriittiset menestystekijät
-   toteuttamaan käytännössä), strateginen yhteensopivuus (isolle yritykselle:
-   linjassa strategian kanssa; startup-tiimille: linjassa tiimin vision kanssa),
-   riskit ja toteutuksen esteet (tekniset epävarmuudet, regulaatio, pitkä
-   kehitysaika, investointitarve).
-3. **Sijoita mahdollisuus 2D-matriisiin** (3×3 tai 5×5 ruudukko, asteikko
-   matala–keski–korkea kummallakin akselilla) ja kirjoita sanallinen tulkinta
-   lokerosta: mitä käytännössä tarkoittaa esim. "korkea houkuttelevuus /
-   keskitason valmius" tälle nimenomaiselle mahdollisuudelle.
-4. **Tunnista kolme vahvistavaa ja kolme heikentävää tekijää.** Rehellisesti
-   mutta rakentavasti — tarkoitus on auttaa tiedostamaan haasteet etukäteen,
-   ei lannistaa.
-5. **Muotoile Opportunity Hypothesis.** Muutaman lauseen tiivistys
-   liiketoimintatermein, elevator pitch -muodossa: mikä tuote/palvelu, kenelle
-   kohdennettuna, mikä arvo luvataan, mikä tekee siitä erinomaisen.
-6. **Arvioi seitsemän kaupallistamisnäkökulmaa (evaluation lenses)** asteikolla
-   1-5 + lyhyt perustelu kullekin: markkinan koko & kasvu; ongelman vahvuus &
-   omaksuminen; skaalautuvuus & liiketoimintamalli; kilpailuasema; ajoitus &
-   disruptio; rahoitus- ja pääomapolku; tiimi & kyvykkyydet.
-7. **Anna alustava License vs. Startup -suunta** kolmen kriteerin pohjalta:
-   markkinan koko/tuottopotentiaali, IPR:n suojattavuus, tiimin
-   resurssit/riskinsietokyky. Tämä on suunta, ei lopullinen päätös — syvempi
-   analyysi: `../../../specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md`.
-8. **Listaa 2-5 kriittistä toteutustekijää** — mitä on ratkaistava, jotta
-   mahdollisuus realisoituu täyteen arvoonsa (esim. skaalautuvuuden validointi,
-   jakelukumppanuudet, regulaatiohyväksynnät, kaupallisen osaamisen rekrytointi).
-9. **Pidä arvio elävänä hypoteesina.** Päivitä matriisisijoitus ja pisteytys
-   kun uutta evidenssiä markkinasta tai teknologiasta kertyy — älä lukitse
-   arviota liian aikaisin väärien oletusten varaan.
+1. **Assess attractiveness.** Four factors: market size and growth (see
+   `../market-sizing-tam-sam-som/SKILL.md`), the significance of the
+   customer's problem/need, the strength of the competitive advantage (what's
+   unique — technology, patent, business model), and commercial potential
+   (margins, scalability, an initial view of revenue relative to a licensing
+   alternative).
+2. **Assess feasibility/readiness.** Four factors: technology readiness level
+   (TRL, in plain language: idea → PoC → prototype → tested prototype →
+   pilot → market-ready), resources and capability (team, partners, funding —
+   can the critical success factors actually be delivered in practice),
+   strategic fit (for a large company: alignment with strategy; for a startup
+   team: alignment with the team's vision), and risks and implementation
+   barriers (technical uncertainties, regulation, long development
+   timelines, capital requirements).
+3. **Place the opportunity in a 2D matrix** (a 3×3 or 5×5 grid, low–medium–high
+   on each axis) and write a narrative interpretation of the resulting
+   cell: what does, say, "high attractiveness / medium readiness" actually
+   mean for this specific opportunity?
+4. **Identify three strengthening and three weakening factors.** Honestly but
+   constructively — the goal is to surface challenges early, not to
+   discourage.
+5. **Formulate the Opportunity Hypothesis.** A few-sentence summary in
+   business terms, elevator-pitch style: what product/service, for whom,
+   what value is promised, what makes it excellent.
+6. **Score the seven commercialization angles (evaluation lenses)** on a
+   1–5 scale plus a short justification for each: market size & growth;
+   problem strength & adoption; scalability & business model; competitive
+   position; timing & disruption; funding and capital pathway; team &
+   capabilities.
+7. **Give a preliminary License vs. Startup direction** based on three
+   criteria: market size/revenue potential, IP protectability, and the
+   team's resources/risk tolerance. This is a direction, not a final
+   decision — for deeper analysis see
+   `../../../specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md`.
+8. **List 2–5 critical implementation factors** — what needs to be solved
+   for the opportunity to reach its full value (e.g. validating scalability,
+   distribution partnerships, regulatory approvals, hiring commercial
+   capability).
+9. **Keep the assessment a living hypothesis.** Update the matrix placement
+   and scoring as new market or technology evidence comes in — don't lock in
+   the assessment too early on the basis of assumptions that later turn out
+   to be wrong.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei anna lopullista sijoitus- tai go/no-go-päätöstä — tuottaa jäsennellyn,
-  eri mahdollisuuksien kesken vertailukelpoisen arvion päätöksenteon tueksi.
-- Ei korvaa syvällistä markkina-, kilpailija- tai kustannusanalyysia — matriisi
-  ja pisteytys ovat karkeistuksia, joiden taustalla olevat analyysit on tehtävä
-  huolella ennen kuin pisteytys on perusteltu.
-- Ei tee lopullista license-vs-startup-päätöstä — antaa vain alustavan suunnan.
-- Ei vahvista markkinakoko-, TRL- tai muita lukuja muistista — käyttää
-  `opportunity-intake-elicitation`-vaiheen antamia lähtöarvoja tai merkitsee
-  oletuksen selvästi.
+- Doesn't hand down a final investment or go/no-go decision — it produces a
+  structured assessment, comparable across different opportunities, to
+  support decision-making.
+- Doesn't replace in-depth market, competitor, or cost analysis — the matrix
+  and scoring are simplifications, and the underlying analysis behind them
+  still needs to be done carefully before the scoring is justified.
+- Doesn't make a final license-vs-startup decision — only gives a
+  preliminary direction.
+- Doesn't confirm market size, TRL, or other figures from memory — it uses
+  the input values supplied by the `opportunity-intake-elicitation` stage,
+  or clearly flags an assumption.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../opportunity-brief-writing/SKILL.md` —
-  Kirjoittaa arvioinnin tulokset tiiviiksi Opportunity Brief -raportiksi.
-- Syventävät skillit samassa pakissa: `../market-sizing-tam-sam-som/SKILL.md`,
+- Next in this pack: `../opportunity-brief-writing/SKILL.md` — Writes the
+  assessment results up as a concise Opportunity Brief report.
+- Deeper-dive skills in the same pack: `../market-sizing-tam-sam-som/SKILL.md`,
   `../competitive-and-five-forces-mapping/SKILL.md`
-- Liittyvä skilli toisessa pakissa (syvempi license-vs-startup-analyysi):
+- Related skill in another pack (deeper license-vs-startup analysis):
   `../../../specialisation-packs/research-commercialisation/skills/spinout-vs-licensing-pathway/SKILL.md`
-- Liittyvä skilli toisessa pakissa (tutkimuspohjaisen mahdollisuuden
-  tunnistaminen ennen tätä vaihetta):
+- Related skill in another pack (research-based opportunity identification
+  before this stage):
   `../../../specialisation-packs/research-commercialisation/skills/research-opportunity-recognition/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/opportunity-frameworks-review.md` — Mullins, Timmons, POEM -yhteenvedot
-- `../../references/opportunity-brief-template.md` — raporttipohja tämän arvioinnin tuloksille
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/opportunity-frameworks-review.md` — summaries of Mullins, Timmons, POEM
+- `../../references/opportunity-brief-template.md` — the report template for this assessment's results
+- `../../CLAUDE.md` — this pack's shared guardrails

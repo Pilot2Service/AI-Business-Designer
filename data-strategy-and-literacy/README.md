@@ -1,111 +1,117 @@
 # Data Strategy & Literacy
 
-Miten AI Business Designer "lukee" dataa: hahmottaa datan todellisen roolin
-(mahdollistaja vs. strateginen assetti), arvioi organisaation
-datalukutaidon, lukee datasetin kriittisesti ennen kuin sen perusteella
-tehdään päätöksiä, kääntää datan/mallin logiikan liiketoiminnan tarinaksi,
-muotoilee Data & AI -strategian holistisesti ja valitsee sopivan
-monetisointimallin. Vastaa kysymykseen "mitä data organisaatiossa oikeasti
-on ja miten sitä pitäisi kohdella" — perusta, jonka päälle
-`ai-strategy-and-governance`-, `business-case-and-analysis`- ja
-`business-model-canvas`-pakkien AI-/liiketoimintapäätökset rakentuvat.
+How an AI Business Designer "reads" data: works out the true role of data
+(enabler vs. strategic asset), assesses an organization's data literacy,
+reads a dataset critically before it drives decisions, translates the
+data/model logic into a business story, designs a Data & AI strategy
+holistically, and selects the right monetization model. Answers the
+question "what does the organization's data actually consist of, and how
+should it be treated" — the foundation on which the AI/business decisions
+of the `ai-strategy-and-governance`, `business-case-and-analysis`, and
+`business-model-canvas` packs are built.
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Kuvaus |
+| Skill | Description |
 |---|---|
-| `data-role-diagnosis` | Diagnosoi toimiiko data mahdollistajana vai strategisena assettina — resale-, flywheel- ja defensibility-testit, Offense/Defense-kehys. |
-| `data-literacy-competency-assessment` | Arvioi organisaation datalukutaidon nelikenttäkehyksellä (Ymmärtäminen, Toimintaan vieminen, Vaikuttaminen, Etiikka) roolikohtaisesti. |
-| `data-bias-and-quality-critical-reading` | Lukee datasetin kriittisesti: vinoumataksonomia (valinta, selviytyjä, historiallinen, mittaus, aggregointi), turhamaisuus- vs. toimintamittari. |
-| `data-storytelling-and-business-translation` | Kääntää datan/mallin logiikan Data→Information→Insight→Action-tikapuulla päätökseen johtavaksi tarinaksi. |
-| `data-ai-strategy-design-and-prioritization` | Muotoilee Data & AI -strategian Driver Tree -työkalulla ja priorisoi investoinnit Data Readiness × Strategic Value -nelikentällä. |
-| `data-monetization-model-selection` | Valitsee suoran (DaaS, Insight-as-a-Service, datavaihdanta) tai epäsuoran (tuotteen rikastaminen, optimointi, riskien minimointi, Data Flywheel) monetisointimallin päätöspuulla. |
+| `data-role-diagnosis` | Diagnoses whether data functions as an enabler or a strategic asset — resale, flywheel, and defensibility tests, the Offense/Defense framework. |
+| `data-literacy-competency-assessment` | Assesses an organization's data literacy with a four-quadrant framework (Understanding, Acting, Engaging, Ethics), role by role. |
+| `data-bias-and-quality-critical-reading` | Reads a dataset critically: bias taxonomy (selection, survivorship, historical, measurement, aggregation), vanity vs. actionable metrics. |
+| `data-storytelling-and-business-translation` | Translates data/model logic into a story that drives a decision, using the Data→Information→Insight→Action ladder. |
+| `data-ai-strategy-design-and-prioritization` | Designs a Data & AI strategy with a Driver Tree tool and prioritizes investments with a Data Readiness × Strategic Value matrix. |
+| `data-monetization-model-selection` | Selects a direct (DaaS, Insight-as-a-Service, data exchange) or indirect (product enrichment, optimization, risk mitigation, Data Flywheel) monetization model with a decision tree. |
 
-Kaikki `maturity: scaffold` — ks. `../skills_index.json` kypsyystilalle (frontmatterissa
-ei seurata kypsyyttä, ks. `../meta/frontmatter_schema.md`).
+All `maturity: scaffold` — see `../skills_index.json` for current maturity
+(maturity isn't tracked in the frontmatter, see
+`../meta/frontmatter_schema.md`).
 
-## Skillien looginen kulku
+## Logical flow of the skills
 
 ```
-data-literacy-competency-assessment   (valinnainen lähtökohta: missä osaamisvaje on)
+data-literacy-competency-assessment   (optional starting point: where's the competency gap)
               │
               ▼
-data-bias-and-quality-critical-reading   (varmista datan luotettavuus ennen käyttöä)
+data-bias-and-quality-critical-reading   (confirm the data is trustworthy before using it)
               │
               ▼
-data-role-diagnosis                      (mahdollistaja vai strateginen assetti?)
+data-role-diagnosis                      (enabler or strategic asset?)
               │
         ┌─────┴─────┐
         ▼           ▼
 data-ai-strategy-   data-monetization-
 design-and-         model-selection
-prioritization      (jos assetti-rooli
-(priorisoi mitä      validoitui, valitse
-data/AI-investointia miten monetisoidaan)
-tehdä nyt/myöhemmin)
+prioritization      (if the asset role
+(prioritize what     validated, choose
+data/AI investment   how to monetize it)
+to make now/later)
         │           │
         └─────┬─────┘
               ▼
 data-storytelling-and-business-translation
-   (käytä koko ajan rinnalla — jokainen löydös
-    pitää kääntää päätökseen johtavaksi tarinaksi)
+   (use alongside all of the above — every
+    finding needs to be translated into a
+    story that drives a decision)
 ```
 
-Skillit on suunniteltu käytettäviksi myös itsenäisesti (ks.
-`../meta/skill_design_principles.md` — independence-testi), mutta yllä
-oleva polku vastaa tyypillistä datastrategiatoimeksiannon etenemistä:
-ensin varmista osaaminen ja datan luotettavuus, sitten diagnosoi rooli,
-sitten priorisoi ja valitse malli, ja käännä jokainen löydös koko ajan
-tarinaksi joka johtaa päätökseen.
+The skills are also designed to be usable independently (see
+`../meta/skill_design_principles.md` — the independence test), but the path
+above matches how a typical data strategy engagement usually unfolds: first
+confirm competency and data trustworthiness, then diagnose the role, then
+prioritize and select a model, and throughout, translate every finding into
+a story that drives a decision.
 
-## Suhde muihin pakkeihin
+## Relationship to other packs
 
-- **`ai-strategy-and-governance/ai-opportunity-portfolio`** — vastaanottaa
-  tämän pakin `data-ai-strategy-design-and-prioritization`-skillin
-  tuottamat priorisoidut data/AI-mahdollisuudet osaksi laajempaa
-  5-ulotteista pisteytystä (erityisesti Data Readiness -ulottuvuus).
-- **`business-case-and-analysis/roi-npv-sensitivity-model`** —
-  vastaanottaa tämän pakin `data-monetization-model-selection`-skillin
-  valitseman mallin taloudellisen laskennan syötteeksi.
+- **`ai-strategy-and-governance/ai-opportunity-portfolio`** — receives the
+  prioritized data/AI opportunities produced by this pack's
+  `data-ai-strategy-design-and-prioritization` skill as input to its
+  broader 5-dimension scoring (in particular the Data Readiness
+  dimension).
+- **`business-case-and-analysis/roi-npv-sensitivity-model`** — receives
+  the model chosen by this pack's `data-monetization-model-selection`
+  skill as input for the financial calculation.
 - **`change-and-communication/executive-narrative-and-storyline`** —
-  yleinen johdon tarinarakenne, jota `data-storytelling-and-business-
-  translation` erikoistaa datalöydöksiin.
-- **`specialisation-packs/business-model-canvas`** — sen innovaatio-
-  patternikirjaston Financial Model -osiossa on data-monetisaatio-
-  patterneja (mm. `financial.rev.data_monetization`); tämän pakin
-  `data-monetization-model-selection` syventää valintaa niiden taakse.
-- **`strategic-thinking/hypothesis-driven-strategy`** — sama issue tree
-  -logiikka kuin tämän pakin Driver Tree -työkalussa, sovellettuna
-  yleisemmin strategisiin kysymyksiin.
+  the general executive storyline structure that
+  `data-storytelling-and-business-translation` specializes for data
+  findings.
+- **`specialisation-packs/business-model-canvas`** — its innovation
+  pattern library's Financial Model section has data monetization
+  patterns (e.g. `financial.rev.data_monetization`); this pack's
+  `data-monetization-model-selection` deepens the choice behind them.
+- **`strategic-thinking/hypothesis-driven-strategy`** — the same issue
+  tree logic as this pack's Driver Tree tool, applied more generally to
+  strategic questions.
 
-## Ankkurointi
+## Anchored in
 
-- Mahdollistaja vs. strateginen assetti -jaottelu ja Data & AI Design
-  Thinking -perinne (Driver Tree, Agile Value Assessment, "Systems over
-  Objects") — toimialan konsultointikäytäntö, usean lähteen synteesi 2026.
-- DALI-tyyppinen datalukutaitokehys (kansalais- ja ammattilaistason
-  datalukutaidon nelikenttä: Understanding, Acting, Engaging, Ethics &
-  Privacy).
-- Ackoff, Russell L. — DIKW-hierarkia (1989), sovellettuna Data →
-  Information → Insight → Action -tikapuuna.
-- Davenport, Thomas H. & Bean, Randy — Offense/Defense-kehys
-  datastrategialle.
-- Minto, Barbara — Pyramid Principle (1996) data-storytellingin
-  rakenteena.
-- Collins, Jim — flywheel-käsite (*Good to Great*, 2001), sovellettuna
-  data-/AI-kontekstiin.
-- Tilastotieteen ja koneoppimisen vakiintunut vinoumataksonomia
+- The enabler vs. strategic asset distinction and the Data & AI Design
+  Thinking tradition (Driver Tree, Agile Value Assessment, "Systems over
+  Objects") — industry consulting practice, a synthesis of multiple
+  sources, 2026.
+- A DALI-type data literacy framework (a citizen- and professional-level
+  four-quadrant data literacy model: Understanding, Acting, Engaging,
+  Ethics & Privacy).
+- Ackoff, Russell L. — the DIKW hierarchy (1989), applied here as a
+  Data → Information → Insight → Action ladder.
+- Davenport, Thomas H. & Bean, Randy — the Offense/Defense framework for
+  data strategy.
+- Minto, Barbara — the Pyramid Principle (1996) as the structure for data
+  storytelling.
+- Collins, Jim — the flywheel concept (*Good to Great*, 2001), applied to
+  the data/AI context.
+- The established bias taxonomy from statistics and machine learning
   (selection/survivorship/historical/measurement/aggregation bias).
-- Suoran ja epäsuoran datan monetisoinnin mallit — toimialan
-  konsultointikäytäntö, usean lähteen synteesi 2026.
+- Direct and indirect data monetization models — industry consulting
+  practice, a synthesis of multiple sources, 2026.
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  taustamateriaali, heuristiikkakokoelmat
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   an individual skill (name + description frontmatter)
+references/                  background material, heuristic collections
 ```
 
-Katso `../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin sisältöä.
+See `../meta/maturity_levels.md` for what the maturity levels mean, and
+`../AGENT_GUIDE.md` for how an agent should read and weight this pack's
+content.

@@ -4,35 +4,38 @@ owner_input_needed: true
 last_reviewed: 2026-08-04
 ---
 
-# Public Sector Pilot Scaling [SCAFFOLD — täydennettävä]
+# Public Sector Pilot Scaling [SCAFFOLD — to be completed]
 
-Miten julkisen sektorin AI-pilotti viedään kokeilusta skaalattuun käyttöön: hankintalogiikka, rahoitusmallit, poliittinen ja hallinnollinen konteksti.
+How a public-sector AI pilot moves from experiment to scaled use:
+procurement logic, funding models, political and administrative context.
 
-## Tila
+## Status
 
-Tämä erikoistumispakki on tyhjä runko. Sitä ei ole täytetty geneerisellä sisällöllä,
-koska se ei edustaisi todellista syväosaamistasi tällä alueella.
+This specialisation pack is an empty scaffold. It hasn't been filled with
+generic content, because that wouldn't represent your actual depth of
+expertise in this area.
 
-## Ehdotettu rakenne (kun täydennät)
+## Suggested structure (when you fill this in)
 
 ```
 public-sector-pilot-scaling/
-├── README.md              tämä tiedosto — päivitä status validoinnin myötä
-├── CLAUDE.md               (lisää kun ensimmäinen skilli on kirjoitettu)
-├── skills/                 erikoistumisalueen omat SKILL.md-tekniikat (name+description)
+├── README.md               this file — update status as it's validated
+├── CLAUDE.md                (add once the first skill is written)
+├── skills/                  this specialisation area's own SKILL.md techniques (name+description)
 │   └── <skill-id>/SKILL.md
-├── references/             omat mallipohjat, case-aineisto, lähteet
-└── cases/                  anonymisoidut/omat referenssitapaukset
+├── references/              your own templates, case material, sources
+└── cases/                   anonymized/own reference cases
 ```
 
-## Kysymyksiä, jotka auttavat aloittamaan täydentämisen
+## Questions to help you get started
 
-- Mitkä ovat 3–5 tekniikkaa/heuristiikkaa, joita käytät toistuvasti juuri tällä
-  erikoistumisalueella ja joita et löydä yleisistä business-kehyksistä?
-- Mitkä ovat tyypillisimmät virheet, joita näet muiden tekevän tällä alueella?
-- Onko sinulla 2–3 referenssitapausta (anonymisoituna), jotka havainnollistavat
-  tekniikkaa käytännössä?
+- What are the 3-5 techniques/heuristics you use repeatedly in this
+  specific specialisation area that you won't find in general business
+  frameworks?
+- What are the most common mistakes you see others make in this area?
+- Do you have 2-3 reference cases (anonymized) that illustrate the
+  technique in practice?
 
-Kun ensimmäinen skilli on lisätty ja käytetty kerran oikeassa tilanteessa, päivitä
-`status: placeholder` → `status: scaffold`, ja seuraa samaa kypsyyspolkua kuin ydinpakeissa
-(ks. `../../meta/maturity_levels.md`).
+Once the first skill has been added and used once in a real situation,
+update `status: placeholder` → `status: scaffold`, and follow the same
+maturity path as the core packs (see `../../meta/maturity_levels.md`).

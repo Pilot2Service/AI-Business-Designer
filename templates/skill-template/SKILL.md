@@ -1,44 +1,44 @@
 ---
 name: TODO-kebab-case-id
-description: "TODO: yhden lauseen kuvaus + milloin tätä käytetään."
+description: "TODO: a one-sentence description + when this is used."
 ---
 
 # TODO Skill Title
 
-*Tila: `scaffold` — ks. `../../../skills_index.json`.*
+*Status: `scaffold` — see `../../../skills_index.json`.*
 
-## Tarkoitus
+## Purpose
 
-TODO: mitä tämä skilli tekee ja milloin sitä käytetään.
+TODO: what this skill does and when it's used.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- TODO: lähde/kehys
+- TODO: source/framework
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
 1. TODO
 2. TODO
 3. TODO
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi.
-- Ei vahvista lukuja tai faktoja muistista.
-- TODO: skillikohtainen rajaus
+- Doesn't make the final decision for you.
+- Doesn't confirm figures or facts from memory.
+- TODO: skill-specific scope limit
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-TODO: omat heuristiikat, mallipohjat, case-esimerkit.
+TODO: your own heuristics, templates, case examples.
 
-## Jatka tästä
+## Continue from here
 
-- TODO: liittyvä skilli
+- TODO: related skill
 
-## Referenssit
+## References
 
 - TODO
 
 ---
-**Muistutus:** frontmatterissa vain `name` ja `description`. Muut tiedot
-`skills_index.json`:iin (aja `scripts/generate_index.py`).
+**Reminder:** frontmatter has only `name` and `description`. Everything
+else goes into `skills_index.json` (run `scripts/generate_index.py`).

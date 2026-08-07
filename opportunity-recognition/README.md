@@ -1,64 +1,68 @@
 # Opportunity Recognition
 
-Systemaattinen liiketoimintamahdollisuuksien tunnistaminen ja arviointi (Kirzner, Shane & Venkataraman) — täydennetty omistajan oman palvelun Opportunity Value Assessment -metodologialla.
+Systematic identification and assessment of business opportunities (Kirzner,
+Shane & Venkataraman) — supplemented with the owner's own Opportunity Value
+Assessment methodology.
 
-## Skillit tässä pakissa
+## Skills in this pack
 
-| Skilli | Kuvaus | Kypsyys |
+| Skill | Description | Maturity |
 |---|---|---|
-| `market-and-signal-scanning` | Systemaattinen ympäristön skannaus (markkina, teknologia, sääntely, kilpailu) mahdollisuuksien tunnistamiseksi. | `scaffold` |
-| `pattern-and-analogy-connector` | Capability Pattern Mapping: abstrahoi pintapuolisesti erilaiset casejoukot yhdeksi nimetyksi, toimialariippumattomaksi patterniksi, joka toimii diagnostisena kysymyksenä uudessa kontekstissa. | `scaffold` |
-| `opportunity-intake-elicitation` | Kerää jäsennellysti lähtötiedot tunnistetusta mahdollisuudesta hyvin muotoilluilla kysymyksillä. | `validated` |
-| `opportunity-evaluation-and-judgment` | Arvioi tunnistetun mahdollisuuden elinkelpoisuuden jäsennellysti ennen resurssien sitomista (yleinen scaffold). | `scaffold` |
-| `opportunity-value-assessment` | Sijoittaa mahdollisuuden houkuttelevuus × toteutettavuus -matriisiin ja arvioi sen 7 näkökulmasta — oma tuotteistettu kehys. | `validated` |
-| `opportunity-brief-writing` | Kirjoittaa arvioinnin 1-2-sivuiseksi Opportunity Brief -raportiksi. | `validated` |
-| `market-sizing-tam-sam-som` | Laskee markkinan koon ja aidosti saavutettavan osuuden kvantitatiivisesti. | `scaffold` |
-| `competitive-and-five-forces-mapping` | Kartoittaa kilpailudynamiikan ja toimialan rakenteelliset voimat. | `scaffold` |
+| `market-and-signal-scanning` | Systematic environmental scanning (market, technology, regulation, competition) to identify opportunities. | `scaffold` |
+| `pattern-and-analogy-connector` | Capability Pattern Mapping: abstracts superficially different sets of cases into one named, industry-agnostic pattern that acts as a diagnostic question in a new context. | `scaffold` |
+| `opportunity-intake-elicitation` | Collects structured input on an identified opportunity through well-designed questions. | `validated` |
+| `opportunity-evaluation-and-judgment` | Structurally assesses the viability of an identified opportunity before resources are committed (general scaffold). | `scaffold` |
+| `opportunity-value-assessment` | Places an opportunity in an attractiveness × feasibility matrix and assesses it from 7 angles — the owner's own productized framework. | `validated` |
+| `opportunity-brief-writing` | Writes the assessment up as a 1-2 page Opportunity Brief report. | `validated` |
+| `market-sizing-tam-sam-som` | Quantitatively sizes the market and the genuinely reachable share of it. | `scaffold` |
+| `competitive-and-five-forces-mapping` | Maps the competitive dynamics and structural forces of the industry. | `scaffold` |
 
-Kypsyys näkyy tarkasti `../skills_index.json`:ssa (frontmatterissa ei seurata
-kypsyyttä, ks. `../meta/frontmatter_schema.md`). Tämä pakki on repon ensimmäinen
-esimerkki ydinpakista, jossa yleiset tutkimuspohjaiset scaffold-skillit ja
-omistajan validoitu, tuotteistettu metodologia elävät rinnakkain samassa pakissa.
+Exact maturity is tracked in `../skills_index.json` (maturity isn't tracked
+in the frontmatter, see `../meta/frontmatter_schema.md`). This pack is the
+repo's first example of a core pack where generic, research-anchored
+scaffold skills and the owner's validated, productized methodology live
+side by side in the same pack.
 
-## Skillien looginen kulku (oma metodologia)
+## The skills' logical flow (owner's own methodology)
 
 ```
 opportunity-intake-elicitation → opportunity-value-assessment → opportunity-brief-writing
 ```
 
-Ks. myös `market-sizing-tam-sam-som` ja `competitive-and-five-forces-mapping`
-syventävinä tukiskilleinä `opportunity-value-assessment`-vaiheelle.
+See also `market-sizing-tam-sam-som` and `competitive-and-five-forces-mapping`
+as deeper-dive supporting skills for the `opportunity-value-assessment` stage.
 
-`pattern-and-analogy-connector`-skillin Capability Pattern Mapping -menetelmästä
-on konkreettinen, AI-ratkaisuihin sovellettu toteutus:
+The `pattern-and-analogy-connector` skill's Capability Pattern Mapping method
+has a concrete implementation applied to AI solutions:
 `../ai-strategy-and-governance/references/ai-capability-pattern-library.md`
-(13 patternia) ja sen käyttöskilli
+(13 patterns) and its usage skill
 `../ai-strategy-and-governance/skills/ai-capability-pattern-matching/SKILL.md`.
 
-## Ankkurointi
+## Anchored in
 
 - Business Opportunity Scout (buYoung)
 - Kirzner (1973/1979) — entrepreneurial alertness
-- Opportunity recognition as pattern recognition -kirjallisuus
+- Opportunity recognition as pattern recognition literature
 - PESTLE
 - Porter's Five Forces
 - SFIA — Business Situation Analysis
 - Tang, Kacmar & Busenitz — association and connection
 - Tang, Kacmar & Busenitz — evaluation and judgment
 - stratarts — market-opportunity-analyzer
-- omistajan oma palvelu — Opportunity Value Assessment -palvelu (oma tuote,
-  `opportunity-intake-elicitation`, `opportunity-value-assessment`,
+- the owner's own service — the Opportunity Value Assessment service (own
+  product, `opportunity-intake-elicitation`, `opportunity-value-assessment`,
   `opportunity-brief-writing`)
-- Mullins' Seven Domains Model, Timmons-malli, POEM-matriisi, NABC-malli,
-  Opportunity Canvas — ks. `references/opportunity-frameworks-review.md`
+- Mullins' Seven Domains Model, the Timmons model, the POEM matrix, the NABC
+  model, Opportunity Canvas — see `references/opportunity-frameworks-review.md`
 
-## Rakenne
+## Structure
 
 ```
-CLAUDE.md                    pakin jaetut suojaukset (lue aina ensin)
-skills/<skill-id>/SKILL.md   yksittäinen skilli (name + description -frontmatter)
-references/                  taustamateriaali, lähteet, omat mallit (täydennettävä)
+CLAUDE.md                    the pack's shared guardrails (always read first)
+skills/<skill-id>/SKILL.md   an individual skill (name + description frontmatter)
+references/                  background material, sources, own templates (to be filled in)
 ```
 
-Katso `../meta/maturity_levels.md` kypsyystasojen selityksille ja
-`../AGENT_GUIDE.md` sille, miten agentin tulee lukea ja painottaa tämän pakin sisältöä.
+See `../meta/maturity_levels.md` for what the maturity levels mean, and
+`../AGENT_GUIDE.md` for how an agent should read and weight this pack's
+content.

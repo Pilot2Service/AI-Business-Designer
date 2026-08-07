@@ -1,108 +1,107 @@
 ---
 name: ai-differentiator-solution-ideation
-description: "Ideoi 3 keskenään erilaista AI-natiivia ratkaisusuuntaa valitulle AI-differentiaattoritarpeelle (AI wedge) kolmella linssillä — kilpailija-, tulevaisuus- ja yhdistä-pisteet-linssi — jotta tiimi ei rakastu ensimmäiseen ideaan."
+description: "Ideates 3 distinct AI-native solution directions for the chosen AI differentiator need (AI wedge) through three lenses — competitor, future, and connect-the-dots — so the team doesn't fall in love with the first idea."
 ---
 
 # AI Differentiator Solution Ideation
 
-*Tila: `draft`, `source_layer: owner` — ks. `../../../../skills_index.json` ja
+*Status: `draft`, `source_layer: owner` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Estää yleisin ideointivirhe: tartutaan ensimmäiseen ratkaisuideaan joka
-tulee mieleen, eikä koskaan verrata sitä vaihtoehtoihin. Skilli pakottaa
-kolmen aidosti erilaisen AI-natiivin ratkaisusuunnan ideoinnin yhdelle
-valitulle AI-differentiaattoritarpeelle (AI wedge), käyttäen kolmea eri
-näkökulmaa (linssiä) jotta suunnat eivät ole vain sama idea eri sanoin.
+Prevent the most common ideation mistake: latching onto the first
+solution idea that comes to mind and never comparing it against
+alternatives. This skill forces the ideation of three genuinely different
+AI-native solution directions for one chosen AI differentiator need (AI
+wedge), using three different lenses so the directions aren't just the
+same idea in different words.
 
-## Perustuu
+## Based on
 
-- Ulkopuolisen "AI-first SaaS Product" -työpajan menetelmä, sovellettu
-  omistajan toimesta omaan caseen — ks.
-  `../../references/ai-first-saas-workshop-source.md` ja worked example
-  `../../cases/ai-decision-coach-mvp-case.md` kohta 5. **Huom:** sovellettu
-  toistaiseksi vain kerran (omistajan oma case) — ei laajasti validoitu.
-- Sähköpostimarkkinoinnin personointiesimerkki työpajasta havainnollistaa
-  "aidosti erilainen" -vaatimuksen: 1:1-historiapohjainen personointi vs.
-  1:1-kontekstuaalinen sosiaalinen personointi vs. 1:ryhmä-klusteripohjainen
-  personointi — kolme AI-natiivia lähestymistapaa samaan tarpeeseen
-  (relevanssi), ei kolme muunnelmaa samasta ideasta.
+- The methodology of an external "AI-first SaaS Product" workshop,
+  applied by the owner to one own case — see
+  `../../references/ai-first-saas-workshop-source.md` and the worked
+  example `../../cases/ai-decision-coach-mvp-case.md`, section 5. **Note:**
+  applied only once so far (the owner's own case) — not broadly validated.
+- The email-marketing personalization example from the workshop
+  illustrates the "genuinely different" requirement: 1:1 history-based
+  personalization vs. 1:1 contextual social personalization vs.
+  1:group cluster-based personalization — three AI-native approaches to
+  the same need (relevance), not three variations on the same idea.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be filled in further)
 
-1. **Ota lähtökohdaksi yksi valittu AI wedge**
-   (`../customer-vision-to-jtbd/SKILL.md`-skillistä) — älä ideoi
-   useammalle tarpeelle kerralla, se hajottaa vertailun.
-2. **Ideoi ratkaisusuunta 1: kilpailijalinssi.** Kysy: miten olemassa
-   olevat toimijat (TTOt, inkubaattorit, geneeriset AI-työkalut,
-   konsultit) ratkaisevat tätä tarvetta tänään, ja mitä AI mahdollistaisi
-   joka NIILLE ei ole mahdollista (skaala, jatkuvuus, personointi,
-   nopeus)? Tavoite: erottuminen olemassa olevasta kilpailusta.
-3. **Ideoi ratkaisusuunta 2: tulevaisuuslinssi.** Kysy: miten tämä
-   tarve ratkaistiin ENNEN (työpajoissa, malleilla, post-it-lapuilla,
-   yksin sovellettuina kehyksinä — raskas, energiaa kuluttava, aina
-   kontekstiin sovitettava prosessi), ja miten se ratkaistaan
-   TULEVAISUUDESSA kun konteksti rakentuu ja opetetaan jatkuvasti AI:lle,
-   AI-mentori kysyy oikeat kysymykset yhteisen ymmärryksen
-   saavuttamiseksi, ja käyttäjä on jatkuvassa vuorovaikutuksessa AI:n
-   kanssa joka tuottaa jatkuvasti pieniä rakennuspalikoita (esim. ICP-
-   määrittely, arvolupaus, tulomallihypoteesi)? Tavoite: kuvitella
-   ratkaisu, joka ei vain digitoi vanhaa prosessia vaan muuttaa itse
-   prosessin muotoa.
-4. **Ideoi ratkaisusuunta 3: yhdistä-pisteet-linssi.** Kysy: mitkä muut
-   erilliset tehtävät/aktiviteetit (a+b+c+d) tämä käyttäjä tekee tämän
-   tarpeen ympärillä, jotka voitaisiin YHDISTÄÄ yhdeksi AI-natiiviksi
-   kokemukseksi? Tavoite: ratkaisu joka syntyy usean erillisen askeleen
-   yhdistämisestä, ei yhden askeleen tehostamisesta.
-5. **Kirjaa jokaiselle kolmelle suunnalle:** nimi, AI-natiivi konsepti
-   (2-3 lausetta — miten se toimii), pääasiallinen output käyttäjälle, ja
-   miksi se on erottuva juuri kilpailijoihin/nykytilaan nähden (ei
-   kopioitavissa staattisella tarkistuslistalla tai geneerisellä
-   LLM-promptilla).
-6. **Vertaile kolmea suuntaa rinnakkain** taulukossa: ydinarvo / miksi
-   sopii valittuun AI wedgeen. Vastusta houkutusta valita heti — vie
-   kaikki kolme `../rice-scoring-and-mvp-synthesis/SKILL.md`-skilliin
-   objektiiviseen pisteytykseen ennen valintaa.
+1. **Start from one chosen AI wedge**
+   (from `../customer-vision-to-jtbd/SKILL.md`) — don't ideate for more
+   than one need at a time, it breaks the comparison.
+2. **Ideate solution direction 1: the competitor lens.** Ask: how do
+   existing players (TTOs, incubators, generic AI tools, consultants)
+   solve this need today, and what would AI make possible that ISN'T
+   possible for them (scale, continuity, personalization, speed)? Goal:
+   differentiation from existing competition.
+3. **Ideate solution direction 2: the future lens.** Ask: how was this
+   need solved BEFORE (via workshops, templates, sticky notes, frameworks
+   applied solo — a heavy, energy-draining process that always has to be
+   refitted to context), and how will it be solved in the FUTURE, when
+   context is continuously built and taught to AI, an AI mentor asks the
+   right questions to reach shared understanding, and the user is in
+   continuous interaction with AI that keeps producing small building
+   blocks (e.g. an ICP definition, a value proposition, a revenue-model
+   hypothesis)? Goal: imagine a solution that doesn't just digitize the
+   old process but changes the shape of the process itself.
+4. **Ideate solution direction 3: the connect-the-dots lens.** Ask: what
+   other separate tasks/activities (a+b+c+d) does this user do around
+   this need that could be COMBINED into a single AI-native experience?
+   Goal: a solution that emerges from combining several separate steps,
+   not from speeding up one step.
+5. **For each of the three directions, capture:** a name, the AI-native
+   concept (2-3 sentences — how it works), the primary output for the
+   user, and why it's distinctive relative to competitors/the status quo
+   (not replicable with a static checklist or a generic LLM prompt).
+6. **Compare the three directions side by side** in a table: core value /
+   why it fits the chosen AI wedge. Resist the urge to pick right away —
+   take all three to `../rice-scoring-and-mvp-synthesis/SKILL.md` for
+   objective scoring before choosing.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei valitse MVP:tä puolestasi — tuottaa kolme vertailukelpoista
-  vaihtoehtoa, valinta tehdään seuraavassa skillissä RICE-pisteytyksellä.
-- Ei arvioi teknistä toteutettavuutta tai rakennuskustannusta — vain
-  konseptin erottuvuutta. Toteutettavuus/effort arvioidaan
-  `../rice-scoring-and-mvp-synthesis/SKILL.md`-skillissä.
-- Ei takaa että kaikki kolme suuntaa ovat yhtä hyviä — tarkoituksella
-  tuottaa myös heikompia/riskialttiimpia vaihtoehtoja, jotta vertailu on
-  aito eikä keinotekoinen.
+- Does not choose the MVP for you — it produces three comparable
+  alternatives; the choice is made in the next skill via RICE scoring.
+- Does not assess technical feasibility or build cost — only the
+  distinctiveness of the concept. Feasibility/effort is assessed in
+  `../rice-scoring-and-mvp-synthesis/SKILL.md`.
+- Does not guarantee that all three directions are equally good —
+  it deliberately also produces weaker/riskier options, so the comparison
+  is genuine rather than artificial.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be filled in]
 
-Tämä skilli on sovellettu toistaiseksi yhteen caseen (omistajan oma case). Kun sovellat
-sitä useampaan eri liiketoimintaan, täydennä:
+This skill has so far been applied to one case (the owner's own case).
+As you apply it to more businesses, add:
 
-- omia lisälinssejä tai muunnelmia kolmesta linssistä, jotka ovat
-  osoittautuneet hyödyllisiksi
-- tyypillisiä sudenkuoppia (esim. milloin kolme suuntaa päätyvät liian
-  samankaltaisiksi ja miten sen huomaa)
-- konkreettisia esimerkkejä muista caseista `../../cases/`-kansioon
+- your own additional lenses or variations on the three lenses that have
+  proven useful
+- typical pitfalls (e.g. when the three directions end up too similar,
+  and how to notice that)
+- concrete examples from other cases in the `../../cases/` folder
 
-Kun tämä osio on täytetty useammalla caseella, nosta
-`skills_index.json`:n `maturity`-kenttä arvoon `validated`
-(ks. `../../../../meta/maturity_levels.md`).
+Once this section has been filled in with multiple cases, raise
+`skills_index.json`'s `maturity` field to `validated`
+(see `../../../../meta/maturity_levels.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä skilli samassa pakissa: `../customer-vision-to-jtbd/SKILL.md`
-  — tuottaa AI wedgen, jolle tässä ideoidaan.
-- Seuraava skilli samassa pakissa:
-  `../rice-scoring-and-mvp-synthesis/SKILL.md` — pisteyttää kolme suuntaa
-  ja valitsee MVP:n.
-- Worked example: `../../cases/ai-decision-coach-mvp-case.md` kohta 5.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Preceding skill in this pack: `../customer-vision-to-jtbd/SKILL.md`
+  — produces the AI wedge that is ideated on here.
+- Next skill in this pack:
+  `../rice-scoring-and-mvp-synthesis/SKILL.md` — scores the three
+  directions and selects the MVP.
+- Worked example: `../../cases/ai-decision-coach-mvp-case.md`, section 5.
+- The pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/ai-first-saas-workshop-source.md` — lähdetiedot
+- `../../references/ai-first-saas-workshop-source.md` — source information
 - `../../cases/ai-decision-coach-mvp-case.md` — worked example
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../CLAUDE.md` — the pack's shared guardrails

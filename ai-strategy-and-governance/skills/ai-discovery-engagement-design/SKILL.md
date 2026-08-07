@@ -1,149 +1,148 @@
 ---
 name: ai-discovery-engagement-design
-description: "Suunnittelee ja tuotteistaa AI-mahdollisuuksien tunnistamisen (discovery-vaiheen) maksulliseksi konsultointitoimeksiannoksi — 4-vaiheinen engagement-rakenne, kiinteähintaiset palvelutuotteet ja standardoitu luovutettava aineisto (Portfolio, Business Case, ATOM/Readiness Scorecard, Roadmap)."
+description: "Designs and productizes AI opportunity identification (the discovery phase) into a paid consulting engagement — a 4-phase engagement structure, fixed-price service products, and standardized deliverables (Portfolio, Business Case, ATOM/Readiness Scorecard, Roadmap)."
 ---
 
 # AI Discovery Engagement Design
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Auttaa AI Business Designeria (sisäisenä toimijana tai ulkoisena
-konsulttina) pakkaamaan tämän pakin muut skillit (tehtäväpilkkominen,
-opportunity-portfolio, feasibility, roadmap) yhdeksi selkeärajaiseksi,
-myytäväksi tai sisäisesti perustelluksi **discovery-toimeksiannoksi**:
-mitkä vaiheet, kuinka pitkään, mitä luovutetaan, ja millä tuotemuodolla.
-Tämä on tämän pakin "meta-skilli" — se ei tuota itse analyysiä vaan
-JÄSENTÄÄ prosessin, jonka aikana muut pakin skillit ajetaan.
+Helps an AI Business Designer (as an internal actor or an external
+consultant) package this pack's other skills (task decomposition,
+opportunity portfolio, feasibility, roadmap) into one clearly bounded,
+sellable or internally justified **discovery engagement**: what phases,
+how long, what's delivered, and in what product form. This is this
+pack's "meta-skill" — it doesn't produce the analysis itself, it
+STRUCTURES the process during which the pack's other skills are run.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Tutkimuskooste "Tekoälymahdollisuuksien ja -kapasiteetin
-  tunnistamismenetelmät, viitekehykset ja osaamiset liiketoiminnassa"
-  (2026) — asiantuntijapalvelutalojen myynti- ja palvelumallit,
-  tuotteistetut palvelut, luovutettava aineisto. Malli on yleistetty
-  suurten konsulttitalojen julkisesta AI-discovery-käytännöstä, ei
-  minkään yksittäisen talon tarkka kopio.
+- Research digest "Methods, Frameworks, and Competencies for Identifying
+  AI Opportunities and Capacity in Business" (2026) — professional-
+  services firms' sales and service models, productized services,
+  deliverables. The model is generalized from large consulting firms'
+  publicly known AI-discovery practice, not an exact copy of any single
+  firm.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Valitse tuotemuoto laajuuden mukaan.** Kaksi tyypillistä
-   kiinteähintaista palvelutuotetta:
-   - **AI Opportunity Sprint / Mapping (2–4 viikkoa)** — kevyempi:
-     2–3 työpajaa, prosessien läpivalaisu, priorisoitu AI-tiekartta.
-     Sopii kun asiakkaalla ei vielä ole selkeää käsitystä siitä missä
-     AI-mahdollisuudet ovat.
-   - **AI Maturity & Opportunity Audit (4–6 viikkoa)** — syvempi: yhdistää
-     mahdollisuuksien tunnistamisen tekniseen data-/infrastruktuuri-
-     valmiuteen ja hallintamalliin (AI Governance). Sopii kun asiakas
-     tarvitsee myös arvion omasta valmiudestaan, ei vain
-     mahdollisuuslistaa.
-   Älä myy/skaalaa kumpaakaan tuotemuotoa suurempana kuin asiakkaan
-   organisaation koko ja päätöksentekonopeus kestää — ylimitoitettu
-   discovery-vaihe on itsessään riski (analysis paralysis).
-2. **Rakenna toimeksianto neljällä vaiheella:**
-   - **Vaihe 1 — Alustus & intentio.** Executive-haastattelut,
-     tavoitetason ja AI-ambition asettaminen. Tuotos: yhteinen
-     ymmärrys siitä mitä "onnistuminen" tarkoittaa tälle toimeksiannolle.
-   - **Vaihe 2 — Discovery workshops & tehtäväanalyysi.** Prosessi- ja
-     data-auditoinnit, arvoketjun kartoitus sidosryhmien kanssa. Käytä
-     tässä vaiheessa
-     `../task-level-decomposition-and-automation-fit/SKILL.md`-skilliä
-     raakalistan tuottamiseen ja
+1. **Choose the product form based on scope.** Two typical fixed-price
+   service products:
+   - **AI Opportunity Sprint / Mapping (2–4 weeks)** — lighter: 2–3
+     workshops, a process walkthrough, a prioritized AI roadmap. Fits
+     when the client doesn't yet have a clear sense of where the AI
+     opportunities are.
+   - **AI Maturity & Opportunity Audit (4–6 weeks)** — deeper:
+     combines opportunity identification with technical data/
+     infrastructure readiness and a governance model (AI Governance).
+     Fits when the client also needs an assessment of their own
+     readiness, not just an opportunity list.
+   Don't sell/scale either product form larger than the client
+   organization's size and decision-making speed can sustain — an
+   oversized discovery phase is itself a risk (analysis paralysis).
+2. **Structure the engagement in four phases:**
+   - **Phase 1 — Kickoff & intent.** Executive interviews, setting the
+     ambition level and the AI ambition. Output: a shared
+     understanding of what "success" means for this engagement.
+   - **Phase 2 — Discovery workshops & task analysis.** Process and
+     data audits, mapping the value chain with stakeholders. In this
+     phase, use
+     `../task-level-decomposition-and-automation-fit/SKILL.md` to
+     produce the raw list and
      `../../../business-design-frameworks/skills/value-chain-mapping/SKILL.md`
-     -skilliä prosessitason kartoitukseen.
-   - **Vaihe 3 — Pisteytys, laskenta & portfolio.** Käyttötapausten
-     identifiointi, 5D-pisteytys ja business case -mallinnus. Käytä
-     `../ai-opportunity-portfolio/SKILL.md`-skilliä ja tarvittaessa
-     `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
-     -skilliä.
-   - **Vaihe 4 — Tekoälytiekartta & luovutus.** Priorisoitu AI Backlog,
-     investointilaskelmat, arkkitehtuurilinjaukset. Käytä
-     `../ai-capability-roadmap/SKILL.md`-skilliä.
-3. **Määritä luovutettava aineisto (deliverables) etukäteen, ennen
-   toimeksiannon aloitusta** — asiakas tietää tarkalleen mitä saa:
-   - **AI Opportunity Portfolio / Backlog** — luettelo luokitelluista ja
-     pisteytetyistä kohteista (ks. `../ai-opportunity-portfolio/SKILL.md`).
-   - **Detailed Business Cases** — ROI- ja säästölaskelmat, huomioiden
-     kokonaiskustannus (TCO, *Total Cost of Ownership* — sisältää
-     mallien inferenssikustannukset ja ylläpidon, ei vain
-     rakennuskustannusta).
-   - **AI Target Operating Model (ATOM) / Readiness Scorecard** — ks.
-     `../ai-capability-roadmap/SKILL.md` kohta "ATOM/Readiness
-     Scorecard" — kuvaus ihmisen ja tekoälyn työnjaosta sekä
-     organisaation valmiustasosta.
-   - **Strategic AI Roadmap** — ajoitettu suunnitelma kolmella
-     horisontilla (ks. `../ai-capability-roadmap/SKILL.md`).
-4. **Sovita toimeksiannon syvyys asiakkaan päätöksentekokypsyyteen.**
-   Jos asiakkaalla ei ole vielä valtuutettua päätöksentekijää tuloksille,
-   lyhennä Sprint-muotoon äläkä myy täyttä Auditia — täysi Audit ilman
-   selkeää päätöksentekijää tuottaa hyvän raportin joka jää hyllylle.
-5. **Aseta selkeä rajaus (out of scope) jo myyntivaiheessa.** Discovery-
-   toimeksianto EI sisällä toteutusta, PoC-rakentamista tai teknistä
-   arkkitehtuurisuunnittelua — nämä ovat erillisiä, discoveryn JÄLKEISIÄ
-   toimeksiantoja. Sekoittaminen johtaa scope creepiin ja epäselvään
-   hinnoitteluun.
-6. **Kirjaa toimeksiannon onnistumiskriteerit ennen aloitusta:**
-   toimitetaanko priorisoitu backlog, hyväksytäänkö se johtoryhmässä, ja
-   syntyykö sen pohjalta vähintään yksi käynnistetty investointipäätös.
-   Discovery-toimeksianto joka ei johda päätökseen on epäonnistunut
-   riippumatta analyysin laadusta.
+     for process-level mapping.
+   - **Phase 3 — Scoring, calculation & portfolio.** Identifying use
+     cases, 5D scoring, and business-case modeling. Use
+     `../ai-opportunity-portfolio/SKILL.md` and, where needed,
+     `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`.
+   - **Phase 4 — AI roadmap & delivery.** Prioritized AI Backlog,
+     investment calculations, architecture guidance. Use
+     `../ai-capability-roadmap/SKILL.md`.
+3. **Define the deliverables up front, before the engagement
+   starts** — the client knows exactly what they're getting:
+   - **AI Opportunity Portfolio / Backlog** — a list of classified and
+     scored items (see `../ai-opportunity-portfolio/SKILL.md`).
+   - **Detailed Business Cases** — ROI and savings calculations,
+     accounting for total cost of ownership (TCO — includes model
+     inference costs and maintenance, not just build cost).
+   - **AI Target Operating Model (ATOM) / Readiness Scorecard** — see
+     `../ai-capability-roadmap/SKILL.md`'s "ATOM/Readiness Scorecard"
+     section — a description of the human-AI division of labor and the
+     organization's readiness level.
+   - **Strategic AI Roadmap** — a scheduled plan across three
+     horizons (see `../ai-capability-roadmap/SKILL.md`).
+4. **Match the engagement's depth to the client's decision-making
+   maturity.** If the client doesn't yet have an empowered
+   decision-maker for the results, shorten it to the Sprint form and
+   don't sell the full Audit — a full Audit without a clear
+   decision-maker produces a good report that ends up on a shelf.
+5. **Set a clear scope boundary (out of scope) already at the sales
+   stage.** A discovery engagement does NOT include implementation,
+   PoC building, or technical architecture design — these are
+   separate engagements that come AFTER discovery. Mixing them leads
+   to scope creep and unclear pricing.
+6. **Record the engagement's success criteria before starting:** is a
+   prioritized backlog delivered, is it approved by the leadership
+   team, and does at least one funded investment decision result from
+   it. A discovery engagement that doesn't lead to a decision has
+   failed regardless of the quality of the analysis.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee itse analyysiä — organisoi PROSESSIN, jonka aikana pakin muut
-  skillit (task-level-decomposition, ai-opportunity-portfolio,
-  ai-use-case-feasibility-and-poc-scoping, ai-capability-roadmap)
-  tuottavat varsinaisen sisällön.
-- Ei sisällä hinnoittelusuosituksia tai kiinteitä euromääriä — ne
-  riippuvat markkinasta, toimialasta ja omasta kustannuspohjasta;
-  merkitse ne aina `[oletus — tarkista]` jos niitä joudutaan arvioimaan.
-- Ei korvaa `../../../opportunity-recognition/skills/opportunity-brief-writing/SKILL.md`
-  -skilliä yksittäisen mahdollisuuden dokumentoinnissa — tämä skilli
-  on ylemmän tason: se jäsentää koko toimeksiannon, ei yhtä
-  mahdollisuutta.
-- Ei sovi jokaiseen tilanteeseen — jos AI-mahdollisuudet on jo
-  tunnistettu ja tarvitaan vain yksi analyysi (ei koko monivaiheista
-  toimeksiantoa), käytä suoraan yksittäisiä skillejä ilman tätä
-  kehystä ympärillä.
+- Doesn't do the analysis itself — it organizes the PROCESS during
+  which the pack's other skills (task-level-decomposition,
+  ai-opportunity-portfolio, ai-use-case-feasibility-and-poc-scoping,
+  ai-capability-roadmap) produce the actual content.
+- Doesn't include pricing recommendations or fixed euro amounts — they
+  depend on the market, the industry, and your own cost base; always
+  mark them `[assumption — verify]` if they need to be estimated.
+- Doesn't replace `../../../opportunity-recognition/skills/opportunity-brief-writing/SKILL.md`
+  for documenting a single opportunity — this skill operates at a
+  higher level: it structures the whole engagement, not one
+  opportunity.
+- Doesn't fit every situation — if AI opportunities have already been
+  identified and only one analysis is needed (not a whole multi-phase
+  engagement), use the individual skills directly without this
+  framework around them.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä
-sisällä omaa kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä
-tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in
+here:
 
-- omat hinnoittelumallit ja -periaatteet (kiinteähintainen vs.
-  aikaveloitus, mitä sisältyy mihinkin tuotemuotoon)
-- konkreettiset myyntimateriaalit/tarjouspohjat (`../../references/`
-  -kansioon)
-- omia kokemuksia siitä, milloin Sprint riittää ja milloin tarvitaan
-  täysi Audit
-- referenssitapaukset omista toimeksiannoista
+- your own pricing models and principles (fixed-price vs. time-based,
+  what's included in which product form)
+- concrete sales materials/proposal templates (into
+  `../../references/`)
+- your own experience of when a Sprint is enough and when a full Audit
+  is needed
+- reference cases from your own engagements
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä
-`skills_index.json`:n `maturity`-kenttä arvoon `draft`, `validated` tai
-`canonical` (ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei
-lisätä uusia kenttiä** — `name` ja `description` ovat ainoat sallitut
-(ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only
+ones allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Käyttää alaskilleinä (vaihejärjestyksessä):
+- Uses as sub-skills (in phase order):
   `../task-level-decomposition-and-automation-fit/SKILL.md` →
   `../ai-opportunity-portfolio/SKILL.md` →
   `../ai-use-case-feasibility-and-poc-scoping/SKILL.md` →
   `../ai-capability-roadmap/SKILL.md`
-- Liittyvä skilli toisessa pakissa (business case -syvennys):
+- Related skill in another pack (business case deep-dive):
   `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
-- Liittyvä skilli toisessa pakissa (jos toimeksianto koskee julkista
-  sektoria): ks. `julkiset-hankinnat`-plugin tarjouspyyntöjen ja
-  hankintamenettelyjen osalta.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Related skill in another pack (if the engagement concerns the public
+  sector): see the `julkiset-hankinnat` plugin for tender and
+  procurement procedures.
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

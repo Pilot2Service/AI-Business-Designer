@@ -1,5 +1,7 @@
 # References — Prototyping & Demonstration
 
-Lisää tähän kansioon taustamateriaali, artikkelit, organisaatiokohtaiset mallipohjat ja case-aineisto, joihin tämän pakin skillit viittaavat — esim. omat Situation Slide- ja PR-FAQ-mallipohjat, demo-checklistit, vibe coding -työkaluvertailut.
+Add background material, articles, organization-specific templates, and case
+material here that this pack's skills refer to — e.g. your own Situation
+Slide and PR-FAQ templates, demo checklists, vibe coding tool comparisons.
 
-Tällä hetkellä tyhjä — täydennettävä omalla aineistolla.
+Currently empty — to be filled in with your own material.

@@ -1,57 +1,91 @@
 ---
 name: workshop-and-facilitation-design
-description: "Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen. Käytä kun tarvitset change & communication-tason tukea vastaavaan tehtävään."
+description: "Designs the structure of a cross-functional workshop or design-thinking session. Use when you need change & communication-level support for a comparable task."
 ---
 
 # Workshop & Facilitation Design
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Suunnittelee moniammatillisen työpajan tai design-thinking-session rakenteen.
+Designs the structure of a cross-functional workshop or design-thinking session.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Perplexity-tutkimus — työpajojen ja design-thinking-sessioiden vetäminen
+- Perplexity research — running workshops and design-thinking sessions
+- Design Council (2004) — the Double Diamond (Discover, Define, Develop,
+  Deliver): alternates divergent and convergent phases. A workshop meant to
+  both explore a problem and converge on a decision needs to make that phase
+  switch explicit to participants.
+- Kaner et al., *Facilitator's Guide to Participatory Decision-Making* — the
+  Diamond of Participation: a divergent zone (generating options), a "groan
+  zone" (the necessary, uncomfortable phase where the group aligns on
+  meaning before it can converge), and a convergent zone (narrowing to a
+  decision). A workshop that skips the groan zone produces premature,
+  brittle agreement.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **Clarify the workshop's single deliverable and where it sits on the
+   Double Diamond** — is this a Discover/Define session (diverge on the
+   problem, converge on a framing) or a Develop/Deliver session (diverge on
+   solutions, converge on a decision)? Mixing both in one session without
+   saying so confuses participants about when they're allowed to disagree.
+2. **Design the divergent phase first** — generate the widest reasonable set
+   of inputs (problems, ideas, options) before any evaluation. Introduce
+   evaluation criteria too early and the group anchors on the first idea.
+3. **Budget explicit time for the groan zone** (Kaner) — the point where
+   diverse inputs collide and the group has to build shared understanding
+   before it can converge. Rushing this step produces a decision that
+   unravels once people leave the room.
+4. **Design the convergent phase with an explicit decision rule** —
+   dot-voting, a scoring matrix, or a named decision-maker who breaks ties.
+   A workshop that diverges well but never states how convergence will
+   happen ends in a non-decision.
+5. **Sequence the agenda in blocks with a facilitator role and timing per
+   block**, not just a topic list — who's driving, how long, and what
+   artifact comes out of each block.
+6. **Plan the close: decision, owner, and next step, captured before people
+   leave the room.** A workshop that "generated great discussion" but ends
+   without a captured decision and owner hasn't produced a result.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei fasilitoi työpajaa puolestasi — suunnittelee rakenteen ja aikataulun fasilitaattorille.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't facilitate the workshop for you — it designs the structure and
+  timing for the facilitator.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../executive-narrative-and-storyline/SKILL.md` — Kääntää analyysin johdon päätöksentekoa palvelevaksi tarinaksi ja storylineksi.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../executive-narrative-and-storyline/SKILL.md`](../executive-narrative-and-storyline/SKILL.md) — Turns analysis into a narrative and storyline that serves executive decision-making.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

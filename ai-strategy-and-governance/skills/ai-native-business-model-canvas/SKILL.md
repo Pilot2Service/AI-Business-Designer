@@ -1,123 +1,131 @@
 ---
 name: ai-native-business-model-canvas
-description: "Suunnittelee siirtymän AI-enhanced-liiketoiminnasta AI-native-liiketoimintamalliin laajennetulla, tekoälyspesifillä Business Model Canvasilla. Käytä kun tarvitset ai strategy & governance-tason tukea vastaavaan tehtävään."
+description: "Designs the transition from an AI-enhanced business to an AI-native business model using an extended, AI-specific Business Model Canvas. Use when you need ai strategy & governance-level support for a comparable task."
 ---
 
 # AI-Native Business Model Canvas
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Suunnittelee siirtymän perinteisestä "AI-enhanced" (tekoälyllä parannellusta)
-liiketoiminnasta "AI-native" (tekoälynatiiviin) liiketoimintamalliin —
-liiketoimintamalliin, joka on rakennettu alusta alkaen tekoälyn varaan ja jonka
-koko arvotarjooma riippuu ML-ekosysteemistä.
+Designs the transition from a traditional "AI-enhanced" business (a
+business improved by AI) to an "AI-native" business model — a business
+model built on AI from the ground up, whose entire value proposition
+depends on the ML ecosystem.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
-  aikakaudella" (2026) — laajennettu AI Business Model Canvas
-- Business Model Canvas (Osterwalder & Pigneur) — pohjarakenne, jota tämä
-  kehys laajentaa neljällä AI-spesifillä linssillä
-- Käyttäjän toimittama tutkimusraportti "Tekoälymahdollisuuksien ja
-  -kapasiteetin tunnistamismenetelmät, viitekehykset ja osaamiset
-  liiketoiminnassa" (2026) — "AI Value Canvas" (sama neljän linssin
-  rakenne eri nimillä: Unique AI Value Proposition, Data Moat & Flywheel,
-  Human-AI Interaction Model, Cost of Compute vs. Marginal Revenue).
-  Tämä raportti vahvisti kolme jo olemassa ollutta linssiä (kohdat 1–3
-  alla) ja toi eksplisiittisesti esiin neljännen — Human-AI Interaction
-  Model (kohta 4 alla) — jota tämä skilli ei vielä käsitellyt omana
-  kohtanaan.
+- A research report supplied by the user, "AI Business Designer in the
+  Age of AI" (2026) — the extended AI Business Model Canvas
+- Business Model Canvas (Osterwalder & Pigneur) — the base structure
+  this framework extends with four AI-specific lenses
+- A research report supplied by the user, "Methods, Frameworks, and
+  Competencies for Identifying AI Opportunities and Capacity in
+  Business" (2026) — the "AI Value Canvas" (the same four-lens
+  structure under different names: Unique AI Value Proposition, Data
+  Moat & Flywheel, Human-AI Interaction Model, Cost of Compute vs.
+  Marginal Revenue). This report confirmed three lenses that already
+  existed (points 1–3 below) and explicitly surfaced a fourth — the
+  Human-AI Interaction Model (point 4 below) — which this skill hadn't
+  yet treated as its own point.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. **Arvolupaus (Value Proposition).** Määritä miten tekoäly personoi, skaalaa
-   tai luo uutta arvoa reaaliajassa — ei vain nopeuta olemassa olevaa prosessia.
-   Esimerkki: hyperpersonoitu oppimisalusta, joka mukauttaa sisältöä ja sävyä
-   käyttäjän tunnetilan mukaan. Testaa: jos tekoäly poistettaisiin, romahtaisiko
-   arvolupaus vai jäisikö se vain hitaammaksi? (Jälkimmäinen = AI-enhanced,
-   ei AI-native.)
-2. **Avainresurssit (Key Resources).** Tunnista proprietary data — uniikki data,
-   jota kilpailijat eivät voi helposti kopioida tai hankkia. Kartoita
-   algoritmit ja orkestrointikerros yrityksen ydinomaisuutena, ei
-   tukiprosessina.
-3. **Kustannusrakenne (Cost Structure).** Mallinna mallien kouluttamisen ja
-   pyörittämisen (inference-kustannukset) talous: pilvilaskennan hinnoittelu,
-   API-kustannukset skaalautuessa, ja miten nämä kustannukset käyttäytyvät
-   käyttäjä-/transaktiomäärän kasvaessa (lineaarisesti vai alilineaarisesti).
-4. **Ekosysteemi ja kumppanuudet.** Päätä mitä malleja/kyvykkyyksiä rakennetaan
-   itse (Build), mitä hyödynnetään valmiina rajapintoina (Utilize) ja keiden
-   kanssa partneroidutaan (Partner). Tähän päätökseen syvemmin:
-   `../build-vs-buy-vs-partner-ai/SKILL.md`.
-5. **Human-AI Interaction Model.** Päätä eksplisiittisesti, millä
-   vuorovaikutusmuodolla ihminen ja tekoäly toimivat yhdessä tässä
-   liiketoimintamallissa — tämä on erillinen valinta ihmisen
-   valvontatasosta (ks. alla):
-   - **Copilot** — tekoäly avustaa ihmisen ohjaamaa työtä reaaliaikaisesti,
-     ihminen pysyy ensisijaisena toimijana.
-   - **Autonomous Agent** — tekoäly suorittaa itsenäisesti rajatun
-     tehtäväkokonaisuuden, ihminen asettaa tavoitteen ja tarkistaa
-     tuloksen.
-   - **Generative Interface** — käyttöliittymä itsessään on generatiivinen
-     ja mukautuva, ei kiinteä (ks. laajemmin
+1. **Value Proposition.** Determine how AI personalizes, scales, or
+   creates new value in real time — not just speeds up an existing
+   process. Example: a hyper-personalized learning platform that
+   adapts content and tone to the user's emotional state. Test: if AI
+   were removed, would the value proposition collapse, or would it
+   just be slower? (The latter = AI-enhanced, not AI-native.)
+2. **Key Resources.** Identify proprietary data — unique data that
+   competitors can't easily copy or acquire. Map algorithms and the
+   orchestration layer as a core company asset, not a support process.
+3. **Cost Structure.** Model the economics of training and running
+   models (inference costs): cloud compute pricing, API costs at
+   scale, and how these costs behave as user/transaction volume grows
+   (linearly or sublinearly).
+4. **Ecosystem & Partnerships.** Decide what models/capabilities are
+   built in-house (Build), what's used through ready-made interfaces
+   (Utilize), and who to partner with (Partner). For a deeper look at
+   this decision: `../build-vs-buy-vs-partner-ai/SKILL.md`.
+5. **Human-AI Interaction Model.** Explicitly decide which interaction
+   mode humans and AI use to work together in this business model —
+   this is a separate choice from the level of human oversight (see
+   below):
+   - **Copilot** — AI assists human-driven work in real time, the
+     human remains the primary actor.
+   - **Autonomous Agent** — AI independently performs a bounded set of
+     tasks, the human sets the goal and checks the result.
+   - **Generative Interface** — the interface itself is generative and
+     adaptive rather than fixed (see
      `../../../specialisation-packs/ai-native-startup-design/skills/ai-native-conversational-os-design/SKILL.md`
-     keskustelevan käyttöliittymäarkkitehtuurin suunnitteluun, jos
-     tämä on valittu muoto).
-   Tämä valinta on eri kysymys kuin ihmisen valvonnan TASO
-   (in/on/outside-the-loop, ks.
+     for a broader treatment of designing a conversational interface
+     architecture, if this is the form chosen).
+   This choice is a different question from the LEVEL of human
+   oversight (in/on/outside-the-loop, see
    `../../../specialisation-packs/ai-native-startup-design/skills/closed-loop-process-and-human-oversight-design/SKILL.md`)
-   — vuorovaikutusmuoto kuvaa MITEN ihminen ja tekoäly toimivat yhdessä,
-   valvontataso kuvaa KUINKA PALJON ihminen tarkistaa. Käytä molempia
-   yhdessä: esim. "Autonomous Agent + human-on-the-loop" on validi
-   yhdistelmä.
-6. **Data flywheel -tarkistus.** Arvioi ruokkiiko käyttö dataa takaisin malliin
-   niin, että tuote paranee itsestään käytön myötä — tämä on yksi keskeisimmistä
-   eroista AI-enhanced- ja AI-native-mallin välillä.
-7. Tuota jäsennelty tulos (canvas-taulukko tai vastaava, ks. `../../references/`
-   kun lisätty) ja validoi se sidosryhmillä tai omalla kokemuspohjaisella
-   tarkistuslistalla.
+   — the interaction mode describes HOW humans and AI work together,
+   the oversight level describes HOW MUCH the human checks. Use both
+   together: e.g. "Autonomous Agent + human-on-the-loop" is a valid
+   combination.
+6. **Data flywheel check.** Assess whether usage feeds data back into
+   the model so the product improves on its own through use — this is
+   one of the key differences between an AI-enhanced and an AI-native
+   model.
+7. Produce a structured output (a canvas table or equivalent, see
+   `../../references/` once added) and validate it with stakeholders
+   or your own experience-based checklist.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista liiketoimintamallipäätöstä puolestasi — tuottaa jäsennellyn
-  luonnoksen ihmisen päätöksenteon tueksi.
-- Ei vahvista tarkkoja inference- tai pilvikustannuslukuja muistista — käyttää
-  käyttäjän antamia lähtöarvoja tai merkitsee oletuksen selvästi
-  (`[oletus — tarkista]`).
-- Ei tee build-vs-buy-vs-partner-päätöstä lopullisesti — jäsentää sen osana
-  canvasia mutta viittaa syvempään analyysiin toisessa skillissä.
-- Ei arvioi teknistä toteutettavuutta tai PoC-rajausta — se on
-  `ai-use-case-feasibility-and-poc-scoping`-skillin tehtävä.
+- Doesn't make the final business-model decision for you — it produces
+  a structured draft to support a human decision.
+- Doesn't confirm exact inference or cloud-cost figures from memory —
+  it uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't make the build-vs-buy-vs-partner decision finally — it
+  structures it as part of the canvas but points to a deeper analysis
+  in another skill.
+- Doesn't assess technical feasibility or PoC scoping — that's
+  `ai-use-case-feasibility-and-poc-scoping`'s job.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä
-omaa kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in
+here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon, esim. canvas-template)
-- referenssitapaukset / omat caset AI-native-liiketoimintamalleista
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into `../../references/`, e.g. a canvas
+  template)
+- reference cases / your own examples of AI-native business models
+- what this skill deliberately does *not* do (guardrails, common
+  mistakes) — add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see `../../../meta/maturity_levels.md`). **Don't add new
+fields to the frontmatter** — `name` and `description` are the only
+ones allowed (see `../../../meta/frontmatter_schema.md`).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä skilli samassa pakissa: `../ai-opportunity-portfolio/SKILL.md` —
-  Tunnistaa ja priorisoi AI-käyttötapaukset ennen liiketoimintamallin suunnittelua.
-- Samassa pakissa seuraavaksi: `../ai-use-case-feasibility-and-poc-scoping/SKILL.md`
-  — Määrittää AI-käyttötapauksen tekniset reunaehdot ja PoC-vaiheen rajauksen.
-- Syventävä skilli ekosysteemipäätökseen: `../build-vs-buy-vs-partner-ai/SKILL.md`
-- Liittyvä skilli toisessa pakissa (kun malli on validoitu ja tarvitaan täysi
-  liiketoimintaperustelu): `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Preceding skill in this pack: `../ai-opportunity-portfolio/SKILL.md`
+  — identifies and prioritizes AI use cases before business-model
+  design.
+- Next in this pack: `../ai-use-case-feasibility-and-poc-scoping/SKILL.md`
+  — determines the technical boundary conditions of an AI use case and
+  scopes the PoC phase.
+- A deeper-dive skill for the ecosystem decision:
+  `../build-vs-buy-vs-partner-ai/SKILL.md`
+- Related skill in another pack (once the model is validated and a
+  full business case is needed):
+  `../../../business-case-and-analysis/skills/business-case-builder/SKILL.md`
+- A ready-made skill chain for this situation: see `../../../playbooks/`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/` — the pack's shared background material
+- `../../CLAUDE.md` — the pack's shared guardrails

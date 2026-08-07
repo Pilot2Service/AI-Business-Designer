@@ -1,24 +1,28 @@
-# Change & Communication — jaetut suojaukset
+# Change & Communication — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+General guardrails (disclaimer, no fabricated numbers, premise-checking, making
+maturity visible) are collected in one place: **see
+[`../meta/shared-guardrails.md`](../meta/shared-guardrails.md) — read that first.**
+This file only contains what's genuinely specific to this pack.
 
 ---
 
-## Kypsyystaso tässä pakissa
+## Maturity in this pack
 
-Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
-`../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia, mutta omaa validoitua kokemusta ei vielä ole liitetty.
+This pack's skills are currently at `maturity: scaffold` (see
+[`../skills_index.json`](../skills_index.json) and
+[`../meta/maturity_levels.md`](../meta/maturity_levels.md)) — the structure and
+research anchoring are solid, but the owner's own validated field experience
+hasn't been attached yet.
 
-## Pakkikohtainen huomio
+## Pack-specific note
 
-Ei korvaa muutosjohtamisen ammattilaista laajoissa, riskialttiissa
-muutosohjelmissa.
+Does not replace a change-management professional in large, high-risk change
+programs.
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See [`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md) (what's
+allowed in a SKILL.md frontmatter) and
+[`../meta/skill_design_principles.md`](../meta/skill_design_principles.md)
+(what a good skill in this repo has to pass).

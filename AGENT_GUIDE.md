@@ -6,80 +6,86 @@ status: canonical
 
 # Agent Guide — AI Business Designer Skills
 
-Tämä tiedosto on kirjoitettu **agenteille** (Claude Code, Cowork, muut skill-yhteensopivat
-agentit), jotka käyttävät tätä pakkia kontekstina liiketoiminta-analyysi-, strategia- tai
-AI-strategiatehtävässä. Pakkikohtaiset `CLAUDE.md`-tiedostot täydentävät tätä
-skillikohtaisilla suojauksilla — lue molemmat.
+This file is written for **agents** (Claude Code, Cowork, other
+skill-compatible agents) that use this pack as context for a business
+analysis, strategy, or AI-strategy task. Pack-specific `CLAUDE.md` files
+complement this with skill-specific guardrails — read both.
 
-## 1. Mikä tämä on
+## 1. What this is
 
-Skills-pack, ei valmis vastaus. Jokainen SKILL.md opettaa yhden tarkkarajaisen
-tekniikan ja kertoo, mihin akateemiseen tai ammatilliseen kehykseen se ankkuroituu.
+A skills pack, not a finished answer. Every SKILL.md teaches one precisely
+scoped technique and states which academic or professional framework it's
+anchored to.
 
-## 2. Kaksi ohjaustasoa
+## 2. Two levels of guidance
 
-1. **`<pack>/skills/<skilli>/SKILL.md`** — mitä tehdään, vaihe vaiheelta. Kapea,
-   tehtäväkohtainen.
-2. **`<pack>/CLAUDE.md`** — pakin jaetut suojaukset: vastuuvapaus, ei keksittyjä lukuja,
-   premissien tarkistus, kypsyystason näkyväksi tekeminen. Luetaan aina ennen skilliä.
+1. **`<pack>/skills/<skill>/SKILL.md`** — what to do, step by step.
+   Narrow, task-specific.
+2. **`<pack>/CLAUDE.md`** — the pack's shared guardrails: disclaimer, no
+   fabricated numbers, premise check, making maturity visible. Always read
+   before running a skill.
 
-## 3. Kypsyys ja luotettavuus — lue skills_index.json, ei frontmatteria
+## 3. Maturity and trust — read skills_index.json, not the frontmatter
 
-SKILL.md-frontmatter sisältää **vain** `name` ja `description` (Claude Skill -formaatin
-vakiokentät). Kypsyys, lähdekerros ja se, tarvitaanko vielä omistajan omaa syötettä, ovat
-`skills_index.json`:ssa:
+SKILL.md frontmatter contains **only** `name` and `description` (the
+standard fields of the Claude Skill format). Maturity, source layer, and
+whether owner input is still needed live in `skills_index.json`:
 
-| Kenttä | Arvot | Merkitys agentille |
+| Field | Values | What it means for the agent |
 |---|---|---|
-| `maturity` | `scaffold` / `draft` / `validated` / `canonical` | Kuinka paljon tähän kannattaa nojata itsenäisenä totuutena |
-| `source_layer` | `research` / `owner` / `derived` | `research` = julkinen kehys. `owner` = omistajan validoitu kokemus, arvokkain. |
-| `owner_input_needed` | `true` / `false` | Jos `true`, tekniikka on vasta runko |
+| `maturity` | `scaffold` / `draft` / `validated` / `canonical` | How much to lean on this as standalone truth |
+| `source_layer` | `research` / `owner` / `derived` | `research` = public framework. `owner` = owner's validated experience, most valuable. |
+| `owner_input_needed` | `true` / `false` | If `true`, the technique is still just a scaffold |
 
-**Luottamushierarkia:** `canonical` > `validated` > `draft` > `scaffold`.
+**Trust hierarchy:** `canonical` > `validated` > `draft` > `scaffold`.
 
-## 4. Mitä tehdä kun skilli on `maturity: scaffold`
+## 4. What to do when a skill is `maturity: scaffold`
 
-Suurin osa tämän pakin skilleistä on scaffold-tasolla: rakenne ja ankkurointi ovat
-luotettavia, mutta `[OWNER INPUT]`-osio ei vielä sisällä omistajan omaa kokemusta.
+Most skills in this pack are at scaffold level: the structure and
+anchoring are reliable, but the `[OWNER INPUT]` section doesn't yet
+contain the owner's own experience.
 
-1. Käytä rakennetta ja ankkurointia normaalisti.
-2. Älä kuvittele omistajan henkilökohtaista kokemusta, heuristiikkaa tai case-esimerkkiä.
-   Sano ääneen, että tämä osa puuttuu.
-3. Jatka sillä mitä on saatavilla, mutta tee epävarmuus näkyväksi.
+1. Use the structure and anchoring normally.
+2. Don't imagine the owner's personal experience, heuristics, or case
+   examples. Say out loud that this part is missing.
+3. Continue with what's available, but make the uncertainty visible.
 
-## 5. Miten pakkia haetaan (retrieval)
+## 5. How to retrieve from this pack
 
-Älä lataa koko repoa kerralla. Käytä `skills_index.json`-tiedostoa valitaksesi 2–5
-relevanteinta skilliä. Lue kyseisen pakin `CLAUDE.md` samalla.
+Don't load the whole repo at once. Use `skills_index.json` to select the
+2-5 most relevant skills. Read that pack's `CLAUDE.md` at the same time.
 
-## 6. Tehtäväpohjainen navigointi
+## 6. Task-based navigation
 
-| Tehtävätyyppi | Ensisijainen pakki |
+| Task type | Primary pack |
 |---|---|
-| Liiketoimintamahdollisuuden tunnistus/arviointi | `opportunity-recognition` |
-| ROI/riskiperustelu investoinnille | `business-case-and-analysis` |
-| AI-käyttötapausten priorisointi | `ai-strategy-and-governance` |
-| Johdon esitys / muutosviestintä | `change-and-communication` |
-| Isomman ongelman jäsentäminen | `strategic-thinking` |
-| Monivaiheinen tehtävä | `playbooks/` — valmis skilliketju |
+| Identifying/assessing a business opportunity | `opportunity-recognition` |
+| ROI/risk case for an investment | `business-case-and-analysis` |
+| Prioritizing AI use cases | `ai-strategy-and-governance` |
+| Leadership presentation / change communication | `change-and-communication` |
+| Structuring a larger problem | `strategic-thinking` |
+| Multi-step task | `playbooks/` — a ready-made skill chain |
 
-## 7. Delegoitavat agentit — toinen mielipide ennen päätöstä
+## 7. Delegatable agents — a second opinion before a decision
 
-Neljä pakkia sisältää oman `agents/`-kansion (`business-case-and-analysis`,
+Four packs include their own `agents/` folder (`business-case-and-analysis`,
 `opportunity-recognition`, `business-design-frameworks`,
-`ai-strategy-and-governance`). Nämä ovat **read-only**-subagentteja jotka
-kutsutaan Task-työkalulla, eivät SKILL.md-tekniikoita: ne eivät tee analyysiä
-alusta, vaan tarkistavat/haastavat jo tehdyn analyysin ennen kuin se menee
-päätöksentekoon (ks. `meta/shared-guardrails.md` kohta 5 ja kunkin agentin
-oma `.md`). Käytä niitä kun skillin tuottama tulos on koossa mutta ennen kuin
-se esitetään ihmiselle hyväksyttäväksi — ne eivät korvaa ihmisen hyväksyntää,
-ne parantavat sitä mitä ihminen näkee ennen päätöstä.
+`ai-strategy-and-governance`). These are **read-only** subagents invoked
+via the Task tool, not SKILL.md techniques: they don't build an analysis
+from scratch — they review/challenge an analysis that's already been done,
+before it moves into a decision (see `meta/shared-guardrails.md` item 5
+and each agent's own `.md`). Use them once a skill's output is assembled
+but before it's presented to a human for approval — they don't replace
+human approval, they improve what the human sees before deciding.
 
-## 8. Mitä agentti ei saa tehdä
+## 8. What an agent must not do
 
-- Ei täytä `[OWNER INPUT]`-osioita geneerisellä tai kuvitellulla sisällöllä
-- Ei lisää uusia kenttiä SKILL.md-frontmatteriin (vain `name`+`description` sallittu)
-- Ei kohtele `scaffold`-tason sisältöä yhtä auktoritatiivisena kuin `validated`/`canonical`
-- Ei sekoita tätä pakkia valmiiksi vastaukseksi — se on konteksti oman osaamisen päälle
-- Ei anna `agents/`-kansion subagentin muokata mitään tiedostoa tai tehdä
-  lopullista päätöstä — ne palauttavat vain löydöstaulukon (ks. kohta 7)
+- Must not fill `[OWNER INPUT]` sections with generic or imagined content
+- Must not add new fields to SKILL.md frontmatter (only `name`+`description`
+  are allowed)
+- Must not treat `scaffold`-level content as equally authoritative as
+  `validated`/`canonical`
+- Must not mistake this pack for a finished answer — it's context on top of
+  your own expertise
+- Must not let an `agents/` subagent modify any file or make a final
+  decision — they only return a findings table (see item 7)

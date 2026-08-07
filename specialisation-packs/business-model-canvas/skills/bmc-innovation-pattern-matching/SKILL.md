@@ -1,115 +1,119 @@
 ---
 name: bmc-innovation-pattern-matching
-description: "Tunnistaa ja perustelee 3-5 yhteensopivaa liiketoimintamallin innovaatiopatternia (159 patternin julkisesta innovaatiokirjastosta) annetusta liiketoimintakontekstista, käyttäen asiantuntijan omaa neliosaista innovaatiotaksonomiaa (Financial/Operative/Value-based/Experience Model Innovations)."
+description: "Identifies and justifies 3-5 compatible business model innovation patterns (from the public 159-pattern innovation library) for a given business context, using the expert's own four-part innovation taxonomy (Financial/Operative/Value-based/Experience Model Innovations)."
 ---
 
 # BMC Innovation Pattern Matching
 
-*Tila: `validated`, `source_layer: owner` — ks. `../../../../skills_index.json` ja
+*Status: `validated`, `source_layer: owner` — see `../../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Auttaa löytämään liiketoimintamallille aidosti erottuvan, ei-triviaalin
-innovaatiosuunnan — ei geneeristä "lisää AI ja tilausmalli" -yhdistelmää,
-vaan perusteltu valikoima 3-5 keskenään yhteensopivaa patternia 159
-patternin kirjastosta, sijoitettuna asiantuntijan omaan neliosaiseen
-tulkintakehykseen siitä, MISTÄ suunnasta liiketoimintamallin innovaatio
-tyypillisesti tulee: talous, operatiivinen ylivoima, arvolupaus vai
-asiakaskokemus.
+Helps find a genuinely distinctive, non-trivial innovation direction for a
+business model — not a generic "add AI and a subscription model"
+combination, but a justified selection of 3-5 mutually compatible patterns
+from the 159-pattern library, placed within the expert's own four-part
+interpretive framework for WHERE business model innovation typically comes
+from: finance, operational superiority, the value proposition, or the
+customer experience.
 
-## Perustuu
+## Anchored in
 
-- Omistajan konsultointiasiantuntemus BMC-työstä,
-  huhtikuun 2026 asiantuntijahaastattelu (omistajan tutkimusmuistiinpanot,
+- The owner's consulting expertise in BMC work, from an April 2026 expert
+  interview (the owner's research notes,
   `30_domain_packs/bmc/tools/bmc_innovation_patterns.md`, `status: accepted`,
-  `confidence: high`). Asiantuntijan oma lainaus: "How a business model
+  `confidence: high`). The expert's own quote: "How a business model
   works as a source of business model innovation — how to make business
   model innovations using BMC — this requires clear choices in the canvas,
   followed by the ability to identify innovation patterns."
-- Julkisen innovaatiopatternikirjaston 159 patternin koneluettava kirjasto,
-  neljässä ryhmässä / 13 ala-mallissa — ks.
-  `../../references/bmc-innovation-pattern-library.md`. Kirjaston
-  neliosainen rakenne (Financial/Operating/Value/Experience Model) on
-  identtinen asiantuntijan oman taksonomian kanssa — nämä kaksi lähdettä
-  vahvistavat toisiaan, eivät ole ristiriidassa.
-- Kirjaston mukana tullut tehtäväspesifikaatio suositustyöstä — ks.
-  `../../references/bmc-source-material-notes.md` kohta 1.
+- The public innovation pattern library's machine-readable set of 159
+  patterns, in four groups / 13 sub-models — see
+  `../../references/bmc-innovation-pattern-library.md`. The library's
+  four-part structure (Financial/Operating/Value/Experience Model) is
+  identical to the expert's own taxonomy — these two sources reinforce
+  each other rather than conflict.
+- The task specification for the recommendation process that came with the
+  library — see `../../references/bmc-source-material-notes.md` section 1.
 
-## Rakenne
+## Method
 
-1. **Kerää liiketoimintakonteksti ennen patternien selaamista.** Tarvitset
-   vähintään: kohdeasiakasprofiili (ICP), ratkaisukategoria, markkinan
-   luonne (kilpailutilanne, kypsyysaste), ja alustava kustannusrakenteen
-   luonne (esim. korkea kiinteä pääoma vs. muuttuva kustannus). Ilman näitä
-   patternien valinta jää mielivaltaiseksi listaksi.
-2. **Tunnista ensin innovaatiosuunta asiantuntijan neliosaisella
-   taksonomialla** (`../../references/bmc-innovation-pattern-library.md`
-   alkuosa) — kysy: mistä TÄMÄN liiketoimintamallin erottuva arvo
-   todennäköisimmin syntyy?
-   - Talous (cost strategy + revenue model -yhdistelmä)
-   - Operatiivinen ylivoima (key activities + key partners -yhdistelmä)
-   - Arvolupaus (value proposition + customer segments -suhde)
-   - Asiakaskokemus (channels + customer relationships -yhdistelmä)
-   Useampi suunta voi olla relevantti, mutta valitse yksi PÄÄASIALLINEN
-   suunta ennen patternien selaamista — tämä estää "valitse kaikki hyvältä
-   kuulostavat" -virheen.
-3. **Selaa valitun ryhmän ala-malleja** `../../references/bmc-innovation-pattern-library.md`:stä
-   ja poimi 3-5 patternia, jotka:
-   - ovat kontekstuaalisesti relevantteja (eivät vain "kuulostavat hyvältä")
-   - eivät ole keskenään ristiriidassa (esim. Cost Leadership vs. Premium
-     Pricing samassa mallissa on ristiriita — ks. kohta 4)
-   - ovat toteutettavissa kuvatulla tiimikoolla/resursseilla
-4. **Tarkista ristiriidat eksplisiittisesti.** Kirjaston omat
-   säännöt (ks. `../../references/bmc-source-material-notes.md`) vaativat
-   ristiriitaisten patternien välttämistä — esim. kustannusjohtajuus- ja
-   premium-hinnoittelupatternit samassa suosituksessa ovat sisäisesti
-   ristiriitaisia, ellei ristiriitaa perustella eksplisiittisesti (esim.
-   segmentoitu hinnoittelu eri asiakasryhmille).
-5. **Kirjaa jokaiselle valitulle patternille:** `pattern_id` (täysi
-   polku, esim. `financial.cost.ai_as_a_service`), patternin nimi,
-   ala-malli, ja 2-3 lauseen perustelu SIITÄ, miksi juuri tämä pattern
-   sopii annettuun kontekstiin — ei patternin yleiskuvausta sellaisenaan.
-6. **Kirjaa `conflicts_avoided`**: mitkä ilmeiset mutta ristiriitaiset
-   patternit jätettiin tarkoituksella pois, ja miksi.
-7. **Kirjaa `assumptions`**: mitä oletuksia kontekstista tehtiin, jos
-   käyttäjän antama konteksti oli puutteellinen jollain ulottuvuudella.
-8. **Siirrä valitut patternit canvasille** — ks.
-   `../bmc-canvas-clarity-and-iteration/SKILL.md` seuraavasta vaiheesta
-   (variantin rakentaminen valittujen patternien pohjalta).
+1. **Gather the business context before browsing patterns.** You need at
+   least: the target customer profile (ICP), the solution category, the
+   nature of the market (competitive situation, maturity), and a rough
+   sense of the cost structure (e.g. high fixed capital vs. variable
+   cost). Without these, pattern selection becomes an arbitrary list.
+2. **First identify the innovation direction using the expert's four-part
+   taxonomy** (`../../references/bmc-innovation-pattern-library.md`
+   opening section) — ask: where is THIS business model's distinctive
+   value most likely to come from?
+   - Finance (cost strategy + revenue model combination)
+   - Operational superiority (key activities + key partners combination)
+   - Value proposition (value proposition + customer segments relationship)
+   - Customer experience (channels + customer relationships combination)
+   More than one direction may be relevant, but choose one PRIMARY
+   direction before browsing patterns — this prevents the "pick everything
+   that sounds good" mistake.
+3. **Browse the sub-models of the chosen group** in
+   `../../references/bmc-innovation-pattern-library.md` and pick 3-5
+   patterns that:
+   - are contextually relevant (not just "sound good")
+   - are not mutually contradictory (e.g. Cost Leadership vs. Premium
+     Pricing in the same model is a contradiction — see step 4)
+   - are achievable with the described team size/resources
+4. **Check for contradictions explicitly.** The library's own rules
+   (see `../../references/bmc-source-material-notes.md`) require avoiding
+   contradictory patterns — e.g. cost-leadership and premium-pricing
+   patterns in the same recommendation are internally contradictory unless
+   the contradiction is explicitly justified (e.g. segmented pricing for
+   different customer groups).
+5. **Record for each selected pattern:** the `pattern_id` (full path,
+   e.g. `financial.cost.ai_as_a_service`), the pattern name, the
+   sub-model, and a 2-3 sentence justification of WHY this particular
+   pattern fits the given context — not the pattern's generic description
+   as-is.
+6. **Record `conflicts_avoided`**: which obvious but contradictory
+   patterns were deliberately left out, and why.
+7. **Record `assumptions`**: what assumptions were made about the
+   context, if the context the user provided was incomplete on some
+   dimension.
+8. **Move the selected patterns onto the canvas** — see
+   `../bmc-canvas-clarity-and-iteration/SKILL.md` for the next step
+   (building a variant based on the selected patterns).
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei valitse patternia puolestasi lopullisesti — tuottaa perustellun
-  suosituksen 3-5 patternista, mutta liiketoimintamallin lopullinen valinta
-  on aina ihmisen päätös.
-- Ei tee taloudellista mallinnusta tai kannattavuuslaskelmaa valitulle
-  patternille — vain tunnistaa ja perustelee patternin sopivuuden.
-  Numeerinen validointi kuuluu myöhempiin, tarkempiin työkaluihin (ks.
-  `bmc_expert_profile.md`:n oma rajaus BMC:n roolista).
-  ks. myös `../bmc-tool-switching-decisions/SKILL.md`.
-- Ei korvaa `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`-skilliä
-  — tämä skilli on kapeampi ja pattern-kirjastoon sidottu, ei yleinen
-  AI-mahdollisuuksien portfolion priorisointityökalu.
-- Ei tuota patterneja tyhjästä — rajoittuu 159 patternin kirjastoon.
-  Jos konteksti vaatii patternia, jota kirjastossa ei ole, tunnista
-  puute eksplisiittisesti sen sijaan että keksit uuden patternin nimissä.
+- Doesn't choose a pattern for you as a final decision — it produces a
+  justified recommendation of 3-5 patterns, but the final choice of
+  business model is always a human decision.
+- Doesn't do financial modeling or profitability calculations for the
+  chosen pattern — it only identifies and justifies the pattern's fit.
+  Numerical validation belongs to later, more precise tools (see
+  `bmc_expert_profile.md`'s own scoping of the BMC's role).
+  See also `../bmc-tool-switching-decisions/SKILL.md`.
+- Doesn't replace `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+  — this skill is narrower and tied to the pattern library, not a general
+  AI-opportunity-portfolio prioritization tool.
+- Doesn't invent patterns from scratch — it is limited to the 159-pattern
+  library. If a context calls for a pattern that isn't in the library,
+  name the gap explicitly rather than inventing a new pattern in the
+  library's name.
 
-## Jatka tästä
+## Continue from here
 
-- Seuraava skilli samassa pakissa:
-  `../bmc-canvas-clarity-and-iteration/SKILL.md` — valittujen patternien
-  vieminen konkreettiseksi canvas-variantiksi ja variointilogiikka.
-- Liittyvä skilli samassa pakissa:
-  `../bmc-tool-switching-decisions/SKILL.md` — milloin siirtyä BMC:stä
-  tarkempaan työkaluun patternin validoimiseksi.
-- Liittyvä skilli toisessa pakissa:
+- Next skill in the same pack:
+  `../bmc-canvas-clarity-and-iteration/SKILL.md` — turning the selected
+  patterns into a concrete canvas variant, and the variation logic.
+- Related skill in the same pack:
+  `../bmc-tool-switching-decisions/SKILL.md` — when to move from the BMC
+  to a more precise tool to validate a pattern.
+- Related skill in another pack:
   `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- This pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/bmc-innovation-pattern-library.md` — 159 patternin
-  täysi kirjasto, neljä ryhmää, 13 ala-mallia
-- `../../references/bmc-source-material-notes.md` — lähdeaineiston tausta
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/bmc-innovation-pattern-library.md` — the full
+  159-pattern library, four groups, 13 sub-models
+- `../../references/bmc-source-material-notes.md` — source material background
+- `../../CLAUDE.md` — this pack's shared guardrails

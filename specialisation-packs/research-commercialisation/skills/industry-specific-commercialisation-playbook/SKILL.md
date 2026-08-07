@@ -1,51 +1,81 @@
 ---
 name: industry-specific-commercialisation-playbook
-description: "Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life sciences, deep tech, ohjelmisto, yhteiskunnalliset/humanistiset innovaatiot."
+description: "Tailor the commercialisation strategy and expectations by industry: life sciences, deep tech, software, societal/humanities-based innovations."
 ---
 
 # Industry-Specific Commercialisation Playbook
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Räätälöi kaupallistamisstrategia ja odotukset toimialan mukaan: life sciences, deep tech, ohjelmisto, yhteiskunnalliset/humanistiset innovaatiot.
+Tailor the commercialisation strategy and expectations by industry: life
+sciences, deep tech, software, societal/humanities-based innovations.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Different Paths by Industry" (s. 29-34) — case-esimerkit Vaccitech/BioNTech, IQM Finland/ArtiQ, DeepMind, UK:n Aspect-ohjelma.
+the owner's published commercialisation guide (owner, 2025). Chapter
+"Different Paths by Industry" (pp. 29-34) — case examples Vaccitech/BioNTech,
+IQM Finland/ArtiQ, DeepMind, the UK's Aspect programme.
 
-- Life sciences: pitkä (10+v), kallis, säädelty reitti; usein kumppanuus/osto isomman toimijan kanssa myöhemmin
-- Deep tech: prototyyppi- ja pilottivaiheet, erikoislaitteet, vahva IP-suoja etuna
-- Ohjelmisto: nopein sykli, matala pääomatarve, usein ei patentoitavaa
-- Yhteiskuntatieteet/humanistiset: IP-kevyt, "lean spin-out" -lähestyminen (UK:n Aspect-ohjelma)
+- Life sciences: a long (10+ years), expensive, regulated pathway; often
+  partnership/acquisition by a larger player later
+- Deep tech: prototype and pilot production stages, specialised equipment,
+  strong IP protection as an advantage
+- Software: the fastest cycle, low capital need, often nothing patentable
+- Social sciences/humanities: IP-light, "lean spin-out" approach (the UK's
+  Aspect programme)
 
-## Rakenne
+## Method
 
-1. Life sciences (lääkkeet/biotekniikka): odota 10+ vuoden reittiä ja merkittävää pääomaa; keskity varhaisvaiheen todisteisiin (prekliininen/Faasi 1) ja kumppanuuteen/ostoon myöhemmin. Yliopistoequity voi perustellusti olla korkeampi (jopa n. 25 %).
-2. Deep tech / engineering: odota prototyyppi- ja pilottituotantovaiheita, erikoislaitteita ja -tiloja. Vahva patenttisuoja on kilpailuetu. Hae toimialan syvää osaamista neuvonantajiksi — ohjelmistotaustainen mentori ei riitä.
-3. Ohjelmisto ja digitaaliset innovaatiot: nopein kehityssykli, matala alkupääoma, usein ei patentoitavaa (know-how/tekijänoikeus/first-mover). Yliopistoequity tyypillisesti matalampi (≤10 %). Nopeus ja jatkuva iterointi ratkaisevat, ei alkuperäinen IP.
-4. Yhteiskuntatieteet/humanistiset/"impact"-spin-outit: usein IP-kevyitä, matala pääomatarve, nopea tulonkerryttäminen konsultoinnilla tai palvelulla. "Lean spin-out": minimaalinen alkuinvestointi, nopea asiakasvuorovaikutus, iteratiivinen hienosäätö.
-5. Tunnista sääntely-ympäristö varhain kaikissa toimialoissa (FDA/EMA, finanssiregulaatio, energiasertifioinnit, koulutusalan hankintasäännöt) ja hanki kokenut neuvonantaja.
-6. Tiivistä oma toimialan "playbook": pharma = patentoi–prototyyppaa–julkaise–kumppanoidu (pitkä, pääomaintensiivinen); deep tech = patentoi–prototyyppaa–todista piloteissa–hae strategisia sijoittajia; software = rakenna nopeasti–hanki käyttäjiä–pivotoi–skaalaa; yhteiskunnallinen = todista vaikuttavuus–hae sekarahoitusta (grantit + tulot).
-7. Tutki oman alasi aiempia spin-outeja — mitä reittiä ne kulkivat? (ks. `../../references/case-studies.md`).
+1. Life sciences (pharma/biotech): expect a 10+ year pathway and significant
+   capital; focus on early-stage evidence (preclinical/Phase 1) and
+   partnership/acquisition later. University equity can justifiably be
+   higher (up to c. 25%).
+2. Deep tech / engineering: expect prototype and pilot production stages,
+   specialised equipment and facilities. Strong patent protection is a
+   competitive advantage. Seek deep industry expertise for advisors — a
+   software-background mentor is not enough.
+3. Software and digital innovations: the fastest development cycle, low
+   initial capital, often nothing patentable (know-how/copyright/first-mover
+   advantage). University equity is typically lower (≤10%). Speed and
+   continuous iteration are decisive, not the original IP.
+4. Social sciences/humanities/"impact" spin-outs: often IP-light, low capital
+   need, fast revenue generation through consulting or a service. "Lean
+   spin-out": minimal initial investment, fast customer interaction,
+   iterative refinement.
+5. Identify the regulatory environment early in every industry (FDA/EMA,
+   financial regulation, energy certifications, education sector procurement
+   rules) and secure an experienced advisor.
+6. Summarise your own industry "playbook": pharma = patent–prototype–
+   publish–partner (long, capital-intensive); deep tech = patent–prototype–
+   prove in pilots–seek strategic investors; software = build fast–acquire
+   users–pivot–scale; societal = prove impact–seek blended funding (grants +
+   revenue).
+7. Study prior spin-outs in your own field — which pathway did they take?
+   (see `../../references/case-studies.md`).
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee sääntelyluokittelua puolestasi (esim. EU AI Act -luokittelu tekoälyjärjestelmälle) — käytä erillistä sääntely-asiantuntemusta.
-- Ei anna tarkkaa aikataulu- tai kustannusarviota — esimerkit ovat suuntaa-antavia, eivät takuita.
+- Does not perform regulatory classification for you (e.g. EU AI Act
+  classification of an AI system) — use separate regulatory expertise.
+- Does not give a precise timeline or cost estimate — the examples are
+  indicative, not guarantees.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../funding-pathway-design/SKILL.md` — Rakenna rahoitusstrategia, joka yhdistää dilutoimattoman ja dilutoivan rahoituksen oikeassa järjestyksessä, ja hallitse runwayta.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../funding-pathway-design/SKILL.md` — Build a funding
+  strategy that combines non-dilutive and dilutive funding in the right
+  order, and manage runway.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

@@ -1,46 +1,47 @@
-# 360 Comparison Factors — mallipohja
+# 360 Comparison Factors — template
 
-Omistajan oma vertailutyökalu, jota
-`../skills/strategy-canvas-and-value-curve/SKILL.md` käyttää konkreettisena
-pisteytyspohjana strategiakartan (Blue Ocean Strategy Canvas) rakentamiseen.
-Alkuperäinen lähde: `360 COMPARISON FACTORS` (käyttäjän lataama taulukko).
+The owner's own comparison tool, which
+`../skills/strategy-canvas-and-value-curve/SKILL.md` uses as a concrete
+scoring template for building a strategy map (Blue Ocean Strategy Canvas).
+Original source: `360 COMPARISON FACTORS` (table uploaded by the user).
 
-## Asteikko
+## Scale
 
-0–2, toimijan tarjoaman tason mukaan kullakin tekijällä:
+0–2, based on the level offered by the player on each factor:
 
-| Arvo | Tulkinta |
+| Value | Interpretation |
 |---|---|
-| 0 | Heikko / ei tarjota tätä ominaisuutta tai tasoa lainkaan |
-| 1 | Keskitaso / toimialan tyypillinen standarditaso |
-| 2 | Vahva / selvästi toimialan keskitason yläpuolella, erottuva |
+| 0 | Weak / this feature or level isn't offered at all |
+| 1 | Mid-level / typical industry-standard level |
+| 2 | Strong / clearly above the industry average, distinctive |
 
-Asteikko on tarkoituksella karkea (0–2, ei esim. 1–10) — tavoite on nähdä
-**muoto** (missä kohtaa toimijat eroavat toisistaan), ei tuottaa
-näennäistarkkaa pisteytystä.
+The scale is deliberately coarse (0–2, not e.g. 1–10) — the goal is to see
+the **shape** (where players diverge from each other), not to produce a
+falsely precise score.
 
-## Esimerkkitekijät (10 kpl, alkuperäisestä 360-taulukosta)
+## Example factors (10, from the original 360 table)
 
-Nämä ovat esimerkki eivät kiinteä lista — täydennä tai korvaa oman toimialan
-relevanteilla tekijöillä (ks. skillin Rakenne-osion vaihe 2).
+These are an example, not a fixed list — add to or replace them with factors
+relevant to your own industry (see step 2 of the skill's Method section).
 
-1. Pricing (hinnoittelu)
-2. Quality (laatu)
-3. User Experience (käyttäjäkokemus)
-4. Design (muotoilu)
-5. Variety (valikoiman laajuus)
-6. Setup time (käyttöönottoaika)
-7. Self-service (itsepalveluaste)
-8. API interface (integraatiot/rajapinnat)
-9. Delivery time (toimitusaika)
-10. # of features (ominaisuuksien määrä)
+1. Pricing
+2. Quality
+3. User Experience
+4. Design
+5. Variety
+6. Setup time
+7. Self-service
+8. API interface
+9. Delivery time
+10. # of features
 
-## Esimerkkitäyttö (alkuperäisen 360-taulukon data)
+## Example data (from the original 360 table)
 
-Tämä on esimerkkiaineisto viiden toimijan vertailusta (oma ratkaisu + 4
-kilpailijaa) — havainnollistaa taulukon muotoa, ei yleistettävä tulos:
+This is example data from a comparison of five players (our own solution + 4
+competitors) — it illustrates the shape of the table, not a generalizable
+result:
 
-| Tekijä | Your Solution | Competitor A | Competitor B | Competitor C | Competitor D |
+| Factor | Your Solution | Competitor A | Competitor B | Competitor C | Competitor D |
 |---|---|---|---|---|---|
 | Pricing | 1 | 2 | 2 | 1 | 2 |
 | Quality | 1 | 0 | 1 | 2 | 1 |
@@ -53,26 +54,27 @@ kilpailijaa) — havainnollistaa taulukon muotoa, ei yleistettävä tulos:
 | Delivery time | 1 | 0 | 2 | 1 | 1 |
 | # of features | 0 | 1 | 2 | 1 | 2 |
 
-Tästä taulukosta rivit (tekijät) muodostavat strategiakartan x-akselin ja
-kunkin sarakkeen (toimijan) arvot pistemäärän y-akselille — sarake kerrallaan
-piirrettynä syntyy jokaisen toimijan arvokäyrä.
+From this table, the rows (factors) form the x-axis of the strategy map, and
+each column's (player's) values form the score on the y-axis — plotting one
+column at a time produces each player's value curve.
 
-## Tyhjä mallipohja täyttöä varten
+## Blank template to fill in
 
-| Tekijä | Oma ratkaisu | Kilpailija A | Kilpailija B | Kilpailija C | Kilpailija D |
+| Factor | Our solution | Competitor A | Competitor B | Competitor C | Competitor D |
 |---|---|---|---|---|---|
-| [tekijä 1] | | | | | |
-| [tekijä 2] | | | | | |
-| [tekijä 3] | | | | | |
-| [tekijä 4] | | | | | |
-| [tekijä 5] | | | | | |
-| [tekijä ...] | | | | | |
+| [factor 1] | | | | | |
+| [factor 2] | | | | | |
+| [factor 3] | | | | | |
+| [factor 4] | | | | | |
+| [factor 5] | | | | | |
+| [factor ...] | | | | | |
 
-## Käyttöohje
+## How to use
 
-1. Korvaa sarakeotsikot todellisilla vertailtavilla toimijoilla (3–6 riittää
-   — liian moni tekee kartasta lukukelvottoman).
-2. Korvaa/täydennä rivit oman toimialan kilpailutekijöillä.
-3. Pisteytä 0–2-asteikolla jokainen solu; merkitse oletukset selvästi.
-4. Vie taulukko strategiakartaksi (ks. pääskillin vaihe 4) — piirrä jokainen
-   sarake omaksi käyräksi samalle kuvaajalle.
+1. Replace the column headers with the actual players being compared (3–6 is
+   enough — too many makes the map unreadable).
+2. Replace/add rows with the competitive factors relevant to your own
+   industry.
+3. Score every cell on the 0–2 scale; mark assumptions clearly.
+4. Turn the table into a strategy map (see step 4 of the main skill) — plot
+   each column as its own curve on the same chart.

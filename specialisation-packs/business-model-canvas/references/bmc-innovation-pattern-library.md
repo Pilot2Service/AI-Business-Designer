@@ -1,16 +1,17 @@
-# BMC Innovation Pattern Library — 159 patternia
+# BMC Innovation Pattern Library — 159 patterns
 
-Lähde: julkinen liiketoimintamallin innovaatiopatternien kirjasto (159 patternia,
-JSON-muodossa). Jäsennetty omistajan omalla nelijakoisella taksonomialla
-(Financial / Operating / Value / Experience Model). Käytetään skillissä
+Source: a public business model innovation pattern library (159 patterns,
+in JSON format). Structured using the owner's own four-part taxonomy
+(Financial / Operating / Value / Experience Model). Used in the skill
 `../skills/bmc-innovation-pattern-matching/SKILL.md`.
 
-**Huom laskentaan:** alkuperäisen `Business-model-patterns-README.md`:n mukaan
-patterneja pitäisi olla 168; JSON:sta laskettu todellinen määrä on **159** —
-todennäköisesti README on kirjoitettu Revenue Modelin aiemmasta kaksiosaisesta
-versiosta (12+11=23), kun taas nykyisessä JSON:ssa Revenue Model on yksi 22
-patternin kokonaisuus. Käytä tätä (159) ajantasaisena totuutena; alkuperäinen
-README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
+**Note on the count:** according to the original
+`Business-model-patterns-README.md`, there should be 168 patterns; the
+actual count computed from the JSON is **159** — most likely the README
+was written against an earlier, two-part version of the Revenue Model
+(12+11=23), whereas in the current JSON the Revenue Model is a single
+22-pattern set. Treat this (159) as the up-to-date truth; the original
+README is preserved as-is in `bmc-source-material-notes.md`.
 
 ## 1. Financial Business Model Innovations (Financial Model)
 
@@ -18,7 +19,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Optimize cost structure by combining standardization, variable cost conversion, and scale advantages. Key metrics: cost per unit, fixed-to-variable ratio, modularity index.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `financial.cost.asset_standardization` | Asset Standardization | Reduce operating costs and increase modularity by standardizing assets. Track time-to-deploy and interoperability success rate. |
 | `financial.cost.cost_leadership` | Cost Leadership (No Frills) | Maintain lowest possible variable costs to offer high volumes at low prices, measuring margin-per-unit and market penetration. |
@@ -40,7 +41,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Innovate revenue streams through dynamic pricing, subscriptions, and AI-driven monetization.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `financial.rev.add_on_services` | Add On Financial Services | Offer core products with minimal margin, monetize adjunct services. Track attach rate and service ARPU. |
 | `financial.rev.ad_based_auction` | Advertising-Based Auction | Provide free or low-cost services funded by auction-based ads. Metrics: eCPM, fill rate, user engagement. |
@@ -71,7 +72,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Orchestrate processes to maximize throughput, quality, and adaptability. Incorporate AI-driven optimization where possible.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `operating.chain.crowdsourcing` | Crowdsourcing | Distribute tasks to a large crowd via digital platforms. Monitor task completion rate and quality score. |
 | `operating.chain.flexible_manufacturing` | Flexible Manufacturing | Rapidly reconfigure production lines. Metrics: changeover time and capacity utilization. |
@@ -92,7 +93,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Leverage talent, data, and technology assets. Integrate AI models as strategic resources.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `operating.resources.competency_center` | Competency Center | Centralize expertise in shared hubs. Monitor utilization and knowledge transfer. |
 | `operating.resources.corporate_university` | Corporate University | Train staff continuously. Metrics: skill adoption and learning ROI. |
@@ -108,7 +109,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Build ecosystems of strategic alliances, co-innovation and AI-data-sharing partners.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `operating.partners.affiliation` | Affiliation | Revenue share with referral partners. Monitor partner referral volume. |
 | `operating.partners.alliances` | Alliances | Joint ventures for shared R&D. Metrics: joint project ROI. |
@@ -130,7 +131,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Define the core promise of value, tailored by AI-driven insights.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `value.prop.added_functionality` | Added Functionality | Integrate new features identified by usage analytics. Metrics: feature adoption and satisfaction. |
 | `value.prop.adjacent_jobs` | Adjacent Jobs to be Done | Expand into related tasks using AI-based job mapping. Monitor cross-sell revenue. |
@@ -153,7 +154,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Create ecosystems of products and services with AI-enabled interoperability.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `value.product.complements` | Complements | Cross-sell AI-driven adjunct products. Track bundle attach rate. |
 | `value.product.ecosystem_play` | Ecosystem Play | Build AI-platform APIs to attract partners. Metrics: developer adoption. |
@@ -171,7 +172,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Deliver services augmented by AI, ensuring scalability and personalization.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `value.service.added_value` | Added Value | Offer AI-based analytics as a service. Metrics: uptake and insight accuracy. |
 | `value.service.automatic_adjustment` | Automatic Adjustment | AI dynamically adjusts service parameters. Track adjustment frequency and success. |
@@ -193,7 +194,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Leverage AI to personalize and optimize delivery channels.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `experience.channels.context_specific` | Context-Specific | AI selects optimal delivery context (time/place). Track context-match accuracy. |
 | `experience.channels.cross_selling` | Cross Selling | AI-driven upsell recommendations. Monitor attach rate lift. |
@@ -214,7 +215,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Deepen engagement via AI-personalized experiences.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `experience.engagement.augmented_reality` | Augmented Reality | AR overlays powered by AI. Monitor engagement duration. |
 | `experience.engagement.community_belonging` | Community & Belonging | AI-moderated social platforms. Track community growth. |
@@ -235,7 +236,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Shape relationships with AI-enabled automation and personalization.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `experience.relationships.automated_services` | Automated Services | Combine self-service with AI. Metrics: automation ratio. |
 | `experience.relationships.co_creation` | Co-creation | AI-facilitated joint design. Track co-creation sessions. |
@@ -251,7 +252,7 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 *Amplify brand via AI-driven content and experiences.*
 
-| ID | Nimi | Kuvaus |
+| ID | Name | Description |
 |---|---|---|
 | `experience.brand.architecture` | Brand Architecture | Structure brand ecosystem with AI coherence checks. Metrics: brand equity. |
 | `experience.brand.leverage` | Brand Leverage | Extend brand via AI-curated sub-labels. Track sub-brand uptake. |
@@ -265,16 +266,16 @@ README säilytetty sellaisenaan `bmc-source-material-notes.md`:ssä.
 
 ---
 
-**Yhteensä: 159 patternia.**
+**Total: 159 patterns.**
 
-## Käyttösäännöt
+## Usage rules
 
 - Select 3–5 patterns per scenario, output full JSON path per pattern
 - Avoid conflicting patterns (e.g. Cost Leadership vs. Premium Pricing)
 - Ensure ethical compliance (data privacy, non‐exploitative)
 - Validate feasibility against scale and resources
 
-Tulostusskeema (`aiUsage.outputSchema`):
+Output schema (`aiUsage.outputSchema`):
 
 ```json
 {

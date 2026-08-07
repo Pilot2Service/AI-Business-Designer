@@ -1,49 +1,72 @@
 ---
 name: commercialisation-journey-roadmap
-description: "Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoinen roadmap, joka yhdistää vaiheportaat ketterään iterointiin."
+description: "Structure the entire commercialisation journey into five stages and build an actionable roadmap that ties stage gates to agile iteration."
 ---
 
 # Commercialisation Journey Roadmap
 
-*Tila: `validated` — omistajan julkaistuun käsikirjaan ankkuroitu
-sisältö, ei tutkimustason scaffold. Ks. `../../../../skills_index.json`
-ja `../../../../meta/maturity_levels.md`.*
+*Status: `validated` — content anchored in the owner's published handbook, not
+a research-level scaffold. See `../../../../skills_index.json` and
+`../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Jäsennä koko kaupallistamismatka viiteen vaiheeseen ja rakenna toteutuskelpoinen roadmap, joka yhdistää vaiheportaat ketterään iterointiin.
+Structure the entire commercialisation journey into five stages and build an
+actionable roadmap that ties stage gates to agile iteration.
 
-## Perustuu
+## Based on
 
-omistajan julkaisema kaupallistamisopas (omistaja, 2025). Luku "Planning Your Commercialisation Journey" (s. 45-49).
+the owner's published commercialisation guide (owner, 2025). Chapter
+"Planning Your Commercialisation Journey" (pp. 45-49).
 
-- EIT Digital -yrittäjyysohjelma: mahdollisuuden tunnistamisesta konseptiin ja validointiin ennen venturea
-- Suomen Research to Business (omistajan oma case) -rahoitusohjelma: kaupallistamispotentiaalin tunnistaminen, asiakasrelevanssin todistaminen, markkinareitin kartoitus
+- EIT Digital entrepreneurship programme: from opportunity recognition to
+  concept and validation before a venture
+- Finland's Research to Business (the owner's own case) funding programme:
+  identifying commercialisation potential, proving customer relevance,
+  mapping the route to market
 
-## Rakenne
+## Method
 
-1. Vaihe 1 — Mahdollisuuden tunnistaminen: mikä ongelma, kenelle (ks. `research-opportunity-recognition`). Jos vakuuttavaa käyttötapausta ei löydy, pivotoi sovellukseen tai suuntaa tutkimusta uudelleen.
-2. Vaihe 2 — Konseptin kehitys: muotoile arvolupaus, kohdeasiakas, karkea liiketoimintamalli ja kirjaa keskeiset oletukset, joiden tulee pitää paikkansa.
-3. Vaihe 3 — Validointi (proof of concept): testaa kriittiset oletukset teknisesti (prototyyppi/koe relevantissa ympäristössä) ja kaupallisesti (pilotit, aiesopimukset/LOI:t, focus-ryhmät). Jos data ei rohkaise, tarkenna konseptia tai pivotoi lean startup -hengessä.
-4. Vaihe 4 — Strategia ja liiketoimintasuunnittelu: valitse reitti (ks. `spinout-vs-licensing-pathway`), tarkenna go-to-market, hinnoittelu, IP-strategia, sääntelyreitti ja rahoitussuunnitelma validoidulla datalla.
-5. Vaihe 5 — Toteutusroadmap: käännä suunnitelma konkreettisiksi virstanpylväiksi aikataulutettuna (esim. "toimiva prototyyppi Q2", "10 pilottiasiakasta Q4") — pidä roadmap ketterästi päivitettävänä, ei staattisena asiakirjana.
-6. Ota mukaan moninäkökulmainen validointi koko matkan ajan: asiakkaat, toimialamentorit, TTO, sijoittajat — älä tee suunnittelua vain sisäisesti.
-7. Hyödynnä olemassa olevia vastaavia tukipalveluita (mahdollisuuden tunnistamistyöpajat, markkinatutkimusapu, liikekonseptikoulutus), jos organisaatiossasi sellaisia on.
+1. Stage 1 — Opportunity recognition: what problem, for whom (see
+   `research-opportunity-recognition`). If no compelling use case is found,
+   pivot the application or redirect the research.
+2. Stage 2 — Concept development: articulate the value proposition, target
+   customer, a rough business model, and record the key assumptions that
+   must hold true.
+3. Stage 3 — Validation (proof of concept): test the critical assumptions
+   technically (prototype/experiment in a relevant environment) and
+   commercially (pilots, LOIs, focus groups). If the data doesn't encourage,
+   refine the concept or pivot in the lean-startup spirit.
+4. Stage 4 — Strategy and business planning: choose the pathway (see
+   `spinout-vs-licensing-pathway`), refine go-to-market, pricing, IP
+   strategy, regulatory pathway, and funding plan using validated data.
+5. Stage 5 — Execution roadmap: turn the plan into concrete, time-boxed
+   milestones (e.g. "working prototype Q2," "10 pilot customers Q4") — keep
+   the roadmap agile and updatable, not a static document.
+6. Involve multi-perspective validation throughout the journey: customers,
+   industry mentors, the TTO, investors — don't plan purely internally.
+7. Use existing equivalent support services (opportunity recognition
+   workshops, market research help, business concept training) if your
+   organisation offers them.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei korvaa yksittäisten vaiheiden syväsukellusta — jokainen vaihe linkittyy omaan tarkempaan skilliinsä tässä pakissa.
-- Ei tee vaiheiden aikataulutusta puolestasi ilman lähtötietoja.
+- Does not replace a deep dive into individual stages — each stage links to
+  its own, more detailed skill in this pack.
+- Does not schedule the stages for you without baseline data.
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../founding-team-design-and-agreements/SKILL.md` — Rakenna tasapainoinen perustajatiimi ja sovi yhteispelin säännöt (Founders' Agreement) ennen kuin erimielisyydet syntyvät.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
-- Koko matkan yleiskatsaus: `../commercialisation-journey-roadmap/SKILL.md`
+- Next in this pack: `../founding-team-design-and-agreements/SKILL.md` —
+  Build a balanced founding team and agree the rules of engagement
+  (Founders' Agreement) before disagreements arise.
+- Pack's shared guardrails: `../../CLAUDE.md`
+- Overview of the full journey: `../commercialisation-journey-roadmap/SKILL.md`
 
-## Referenssit
+## References
 
-- `../../references/case-studies.md` — 7 spin-out-esimerkkiä eri toimialoilta ja alueilta
-- `../../references/terminology.md` — käsikirjan sanasto
-- `../../references/sources.md` — käsikirjan omat lähdeviittaukset
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/case-studies.md` — 7 spin-out examples from different
+  industries and regions
+- `../../references/terminology.md` — the handbook's glossary
+- `../../references/sources.md` — the handbook's own source references
+- `../../CLAUDE.md` — the pack's shared guardrails

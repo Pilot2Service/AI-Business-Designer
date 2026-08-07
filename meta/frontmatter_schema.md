@@ -1,32 +1,34 @@
 # Frontmatter Schema
 
-Kaikki `SKILL.md`-tiedostot käyttävät **ainoastaan** näitä kahta kenttää:
+All `SKILL.md` files use **only** these two fields:
 
 ```yaml
 ---
-name: kebab-case-skill-id          # pakollinen, sama kuin kansion nimi
-description: "..."                  # pakollinen — milloin ja miksi tätä käytetään
+name: kebab-case-skill-id          # required, matches the folder name
+description: "..."                  # required — when and why to use this
 ---
 ```
 
-Ei muita kenttiä. Ei `maturity`, ei `pack`, ei `grounded_in`, ei `last_reviewed`.
+No other fields. No `maturity`, no `pack`, no `grounded_in`, no
+`last_reviewed`.
 
-**Miksi:** `name` ja `description` ovat Claude Agent Skills -formaatin (nyt ~26
-työkalun standardi) vakiokentät. Lisäkentät eivät riko mitään, mutta ne sitovat skillin
-tämän repon omaan skeemaan ja hajauttavat totuuden useaan paikkaan. Pidä yksi totuuden
-lähde:
+**Why:** `name` and `description` are the standard fields of the Claude
+Agent Skills format (now a standard across ~26 tools). Extra fields don't
+break anything, but they tie the skill to this repo's own schema and spread
+the source of truth across multiple places. Keep one source of truth:
 
-| Tieto | Missä elää |
+| Information | Where it lives |
 |---|---|
-| Kypsyys, lähdekerros, ankkurointi, omistajan syötteen tarve | `skills_index.json` (generoitu, ks. `../scripts/generate_index.py`) |
-| Rakenne, tekniikka, mitä EI tee, jatkolinkit | SKILL.md:n leipäteksti |
-| Pakkitason suojaukset | `<pack>/CLAUDE.md` |
+| Maturity, source layer, anchoring, need for owner input | `skills_index.json` (generated, see `../scripts/generate_index.py`) |
+| Method, technique, what it does NOT do, follow-on links | SKILL.md body text |
+| Pack-level guardrails | `<pack>/CLAUDE.md` |
 
-Tämä konvensio omaksuttu toisen, tuotantokäytössä olevan Claude-plugin-
-markkinapaikan CONTRIBUTING.md:stä: "Frontmatterissa vain `name` ja
-`description` — ei muita kenttiä."
+This convention is adopted from another, production-deployed Claude plugin
+marketplace's CONTRIBUTING.md: "Frontmatter has only `name` and
+`description` — no other fields."
 
-## marketplace.json ja plugin.json
+## marketplace.json and plugin.json
 
-Näissä (repon omaa hallintoa, ei SKILL.md) saa olla enemmän kenttiä: `$schema`, `name`,
-`displayName`, `description`, `version`, `author`/`owner`.
+These (the repo's own governance files, not SKILL.md) are allowed more
+fields: `$schema`, `name`, `displayName`, `description`, `version`,
+`author`/`owner`.

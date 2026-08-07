@@ -1,21 +1,22 @@
-# Business Model Canvas — jaetut suojaukset
+# Business Model Canvas — shared guardrails
 
-Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
-kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
-**ks. `../../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
-sen, mikä on aidosti pakkikohtaista tässä pakissa.
+The general guardrails (disclaimer, no invented figures, premise checking, the
+principle of making maturity level visible) are collected in one place:
+**see `../../meta/shared-guardrails.md` — read it first.** This file contains
+only what is genuinely pack-specific here.
 
 ---
 
-## Tämä pakki on kaksikerroksinen — tee kerros näkyväksi joka kerta
+## This pack has two layers — make the layer visible every time
 
-Tämän pakin seitsemästä skillistä **kolme on `validated`/`owner`-tasoa** (suoraan
-omistajan huhtikuun 2026 konsultointihaastattelusta, omistajan tutkimuskerroksen
-asiantuntijakerros) ja **neljä on `scaffold`/`research`-tasoa** (tunnettujen BMC-
-lähteiden — Jeffries, Williams, van der Linden, Blank/Strategyzer, Ash Maurya —
-esitäytetty synteesi, jota omistaja ei ole vielä validoinut omalla kokemuksellaan).
+Of this pack's seven skills, **three are `validated`/`owner` level**
+(straight from the owner's April 2026 consulting interview, the owner's
+expert research layer) and **four are `scaffold`/`research` level** (a
+pre-filled synthesis of well-known BMC sources — Jeffries, Williams, van der
+Linden, Blank/Strategyzer, Ash Maurya — that the owner has not yet validated
+with their own experience).
 
-| Skilli | Taso |
+| Skill | Level |
 |---|---|
 | `bmc-innovation-pattern-matching` | `validated` / `owner` |
 | `bmc-canvas-clarity-and-iteration` | `validated` / `owner` |
@@ -25,39 +26,41 @@ esitäytetty synteesi, jota omistaja ei ole vielä validoinut omalla kokemuksell
 | `bmc-tool-switching-decisions` | `scaffold` / `research` |
 | `bmc-client-language-translation` | `scaffold` / `research` |
 
-**Kun käytät `scaffold`-tason skilliä, sano se ääneen.** Älä esitä
-tutkimuskerroksen sisältöä ("van der Linden suosittelee...") omistajan omana,
-käytännössä testattuna näkemyksenä. Kun kaksi skilliä käsittelevät samaa aihetta eri
-tasoilta (esim. canvasin valmiuskriteerit: `bmc-canvas-clarity-and-iteration` omistajan
-oma vs. `bmc-canvas-diagnostic-reading` tutkimuskerroksen laajempi rubriikki),
-priorisoi `validated`/`owner`-skilliä ja käytä `scaffold`-skilliä täydentävänä, et
-korvaavana lähteenä — ks. `../../meta/maturity_levels.md`: "canonical > validated >
-draft > scaffold".
+**When you use a `scaffold`-level skill, say so out loud.** Don't present
+research-layer content ("van der Linden recommends...") as the owner's own,
+practice-tested view. When two skills cover the same topic at different
+levels (e.g. canvas readiness criteria: `bmc-canvas-clarity-and-iteration`'s
+owner-level view vs. `bmc-canvas-diagnostic-reading`'s broader research-layer
+rubric), prioritize the `validated`/`owner` skill and use the `scaffold`
+skill as a supplementary, not a replacement, source — see
+`../../meta/maturity_levels.md`: "canonical > validated > draft > scaffold".
 
-## Ristiriitatilanteessa asiantuntijakerros voittaa
+## In case of conflict, the expert layer wins
 
-omistajan tutkimuskerroksen oma sääntö (`AGENT_GUIDE.md`): kun tutkimuskerros ja
-asiantuntijakerros ovat eri linjoilla samasta aiheesta, asiantuntijakerros voittaa.
-Tämä pakki noudattaa samaa periaatetta: jos `scaffold`-skillin tutkimuspohjainen
-ohje on ristiriidassa `validated`-skillin omistajan oman näkemyksen kanssa, käytä
-`validated`-skilliä.
+The owner's research layer has its own rule (`AGENT_GUIDE.md`): when the
+research layer and the expert layer disagree on the same topic, the expert
+layer wins. This pack follows the same principle: if a `scaffold` skill's
+research-based guidance conflicts with a `validated` skill's own view from
+the owner, use the `validated` skill.
 
-## Vastuuvapaus tässä pakissa — canvas on ajattelutyökalu
+## Disclaimer for this pack — the canvas is a thinking tool
 
-Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi, tämän koko pakin ydinviesti
-(`bmc-antipattern-and-misunderstanding-correction`) on että BMC EI korvaa
-liiketoimintasuunnitelmaa, tuotespesifikaatiota tai taloudellista mallinnusta. Älä
-esitä minkään tämän pakin skillin tuottamaa canvasia, patternsuositusta tai
-diagnoosia valmiina liiketoimintapäätöksenä.
+In addition to the general disclaimer (`shared-guardrails.md`), this whole
+pack's core message (`bmc-antipattern-and-misunderstanding-correction`) is
+that the BMC does NOT replace a business plan, a product specification, or
+financial modeling. Don't present any canvas, pattern recommendation, or
+diagnosis produced by a skill in this pack as a finished business decision.
 
-## Ei keksitä patterneja tai lähteitä
+## Don't invent patterns or sources
 
-`bmc-innovation-pattern-matching`-skilli rajoittuu 159 patternin julkiseen
-kirjastoon (`references/bmc-innovation-pattern-library.md`). Jos konteksti vaatisi
-patternia jota kirjastossa ei ole, tunnista puute eksplisiittisesti — älä keksi
-uutta patternia kirjaston nimissä äläkä anna sille valeteknistä `pattern_id`-polkua.
+The `bmc-innovation-pattern-matching` skill is limited to the public
+159-pattern library (`references/bmc-innovation-pattern-library.md`). If a
+context would call for a pattern that isn't in the library, name the gap
+explicitly — don't invent a new pattern in the library's name or give it a
+fake-looking `pattern_id` path.
 
-## Jaetut standardit
+## Shared standards
 
-Katso `../../meta/frontmatter_schema.md` (mitä SKILL.md-frontmatteriin saa laittaa) ja
-`../../meta/skill_design_principles.md` (mitä hyvä skilli tässä repossa läpäisee).
+See `../../meta/frontmatter_schema.md` (what's allowed in a SKILL.md
+frontmatter) and `../../meta/skill_design_principles.md` (what a good skill
+in this repo needs to pass).

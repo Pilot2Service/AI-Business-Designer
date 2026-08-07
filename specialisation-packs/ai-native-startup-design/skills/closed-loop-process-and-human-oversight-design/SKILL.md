@@ -1,109 +1,108 @@
 ---
 name: closed-loop-process-and-human-oversight-design
-description: "Jäsentää liiketoimintaprosessit avoimiksi tai suljetuiksi silmukoiksi (open/closed loop) ja päättää ihmisen roolin (in-the-loop / on-the-loop / outside-the-loop) kussakin — mentaalimalli AI-agenttien vastuualueiden suunnitteluun."
+description: "Structures business processes as open or closed loops and decides the human's role (in-the-loop / on-the-loop / outside-the-loop) in each — a mental model for designing AI agents' areas of responsibility."
 ---
 
 # Closed-Loop Process & Human Oversight Design
 
-*Tila: `validated`, `source_layer: owner` — ks. `../../../skills_index.json` ja
+*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
 `../../../../meta/maturity_levels.md`.*
 
-## Tarkoitus
+## Purpose
 
-Auttaa näkemään liiketoiminnan prosessien kokoelmana, joista osa on
-"avoimia silmukoita" (suoritetaan, ei opita) ja osa voisi olla "suljettuja
-silmukoita" (suoritetaan, mitataan, säädetään automaattisesti seuraavalla
-kierroksella). Skilli antaa kielen ja päätöskehyksen sille, mitkä prosessit
-kannattaa suunnitella suljetuiksi silmukoiksi, ja missä kohtaa ihmisen
-tulee pysyä mukana päätöksenteossa — kolmiportaisella
-in-the-loop/on-the-loop/outside-the-loop-mallilla.
+Help you see the business as a collection of processes, some of which are
+"open loops" (executed, not learned from) and some of which could be
+"closed loops" (executed, measured, automatically adjusted on the next
+cycle). This skill provides the language and decision framework for
+which processes are worth designing as closed loops, and where the
+human needs to stay involved in decision-making — via a three-tier
+in-the-loop/on-the-loop/outside-the-loop model.
 
-## Perustuu
+## Based on
 
-- Omistajan AI-native Business Design -työpaja
-  (omistajan oma työpaja), pidetty 1.–2.6.2026, Day 1 —
-  Session 1 "AI as the operating system your company runs on": avoin
-  silmukka (Input → Execution → Output, ei systemaattista palautetta) vs.
-  suljettu silmukka (Input → Execution → Output → Feedback → Adjustment →
-  takaisin Inputiin); ydinajatus "yrityksesi ei ole yksi suljettu silmukka
-  — sen pitäisi olla joukko suljettuja silmukoita", kukin agenttien
-  ajamana ja orkestroituna yhteen.
-- Human-in-the-loop / human-on-the-loop / human-outside-the-loop
-  -kolmijako ihmisen valvonnan tasosta AI-prosessissa.
-- Agentti-, orkestrointi- ja työkalu-/agenttirekisterikäsitteet, sellaisina
-  kuin työpaja ne esittää.
+- The owner's AI-native Business Design workshop
+  (the owner's own workshop), run 1–2 June 2026, Day 1 —
+  Session 1 "AI as the operating system your company runs on": the open
+  loop (Input → Execution → Output, no systematic feedback) vs. the
+  closed loop (Input → Execution → Output → Feedback → Adjustment → back
+  to Input); the core idea that "your company isn't one closed loop —
+  it should be a set of closed loops," each run by agents and
+  orchestrated together.
+- The human-in-the-loop / human-on-the-loop / human-outside-the-loop
+  three-way split on the level of human oversight in an AI process.
+- Agent, orchestration, and tool/agent-registry concepts, as presented by
+  the workshop.
 
-## Rakenne
+## Method
 
-1. **Valitse tarkasteltava prosessi.** Esim. tilausten käsittely,
-   asiakastuki, sisällöntuotanto, laadunvarmistus, myynnin seuranta.
-2. **Piirrä prosessi nykytilassa.** Onko se avoin silmukka — Input →
-   Execution → Output ilman systemaattista palautetta, joka muuttaisi
-   seuraavaa kierrosta — vai onko siinä jo osittainen palautemekanismi?
-   Useimmat yritykset ja useimmat osat yrityksistä toimivat avoimina
-   silmukoina: opittu tieto valuu pois joka kierroksella sen sijaan että
-   se parantaisi seuraavaa.
-3. **Suunnittele suljettu silmukka.** Lisää Feedback- ja Adjustment-
-   vaiheet: Input → Execution → Output → Feedback → Adjustment → (takaisin
-   Inputiin). Suljettu silmukka on itsesäätelevä — se tarkkailee omaa
-   tulostaan ja säätää toimintaansa pitääkseen tavoitteen saavutettuna.
-4. **Anna silmukalle selkeä, mitattava tavoite.** Suljettu silmukka
-   toimii vain, jos se tietää mitä sen pitää saavuttaa ja pystyy
-   mittaamaan edistymistä sitä kohti.
-5. **Päätä ihmisen sijainti suhteessa silmukkaan** kolmesta
-   vaihtoehdosta:
-   - **Human-in-the-loop** — ihminen tarkistaa/hyväksyy jokaisen askeleen
-     ennen etenemistä. Korkein kontrolli, hitain, sopii korkean panoksen
-     tai vielä testaamattomiin prosesseihin.
-   - **Human-on-the-loop** — prosessi pyörii itsenäisesti, ihminen valvoo
-     ja voi puuttua tarvittaessa. Hyvä välitaso, kun silmukka on
-     osoittautunut luotettavaksi.
-   - **Human-outside-the-loop** — prosessi toimii täysin automaattisesti
-     ilman ihmistä yksittäisessä tapauksessa. Nopein ja skaalautuvin,
-     sopii vain kun silmukka on luotettu ja virheen hinta on matala.
-6. **Arvioi rehellisesti, onko työnkulku aidosti closed-loop-muotoinen**
-   ennen kuin lähdet automatisoimaan: onko sillä selkeä tavoite,
-   koneluettavat syötteet, hyvin määritellyt työkalut joita agentti voi
-   käyttää, ja mitattava onnistumissignaali? Jos työ on pääosin hiljaista
-   ihmisarviointia ilman näitä, dokumentoi prosessi ensin manuaalisena
-   äläkä yritä automatisoida sitä suoraan.
-7. **Kun useampi silmukka on suunniteltu:** kirjaa työkalu-/
-   agenttirekisteri — mitä agentteja/työkaluja on käytössä, mitä kukin
-   tekee, ja miten työ reititetään oikeaan paikkaan. Mieti orkestrointia:
-   miten erilliset silmukat koordinoituvat isommaksi, johdonmukaiseksi
-   kokonaisuudeksi.
+1. **Choose a process to examine.** E.g. order processing, customer
+   support, content production, quality assurance, sales tracking.
+2. **Map the process as it currently stands.** Is it an open loop — Input
+   → Execution → Output with no systematic feedback that would change
+   the next cycle — or does it already have a partial feedback
+   mechanism? Most companies, and most parts of most companies, run as
+   open loops: learned information leaks away each cycle instead of
+   improving the next one.
+3. **Design the closed loop.** Add Feedback and Adjustment stages: Input
+   → Execution → Output → Feedback → Adjustment → (back to Input). A
+   closed loop is self-regulating — it watches its own output and
+   adjusts its behavior to keep hitting the target.
+4. **Give the loop a clear, measurable goal.** A closed loop only works
+   if it knows what it needs to achieve and can measure progress toward
+   it.
+5. **Decide the human's position relative to the loop**, from three
+   options:
+   - **Human-in-the-loop** — a human reviews/approves every step before
+     it proceeds. Highest control, slowest, suited to high-stakes or
+     still-untested processes.
+   - **Human-on-the-loop** — the process runs independently, a human
+     monitors and can intervene when needed. A good middle ground once
+     the loop has proven reliable.
+   - **Human-outside-the-loop** — the process runs fully automatically
+     with no human in any individual case. Fastest and most scalable,
+     suited only for a trusted loop where the cost of error is low.
+6. **Honestly assess whether the workflow is genuinely closed-loop
+   shaped** before you set out to automate it: does it have a clear
+   goal, machine-readable inputs, well-defined tools an agent can use,
+   and a measurable success signal? If the work is mostly quiet human
+   judgment without these, document the process manually first rather
+   than trying to automate it directly.
+7. **Once multiple loops have been designed:** record a tool/agent
+   registry — which agents/tools are in use, what each does, and how work
+   is routed to the right place. Think about orchestration: how the
+   separate loops coordinate into a bigger, coherent whole.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei suosittele automatisoimaan kaikkea — pääviesti on päinvastainen:
-  tavoite on poistaa ihmisen arvostelukyvyn *pullonkaula* niistä
-  kohdista, joissa sitä ei aidosti tarvita, ei poistaa arvostelukykyä
-  kokonaan sieltä missä sitä tarvitaan.
-- Ei arvioi yksittäisen AI-työkalun teknistä toteutettavuutta — ks.
-  `../ai-native-tool-stack-selection/SKILL.md` ja
+- Does not recommend automating everything — the main message is the
+  opposite: the goal is to remove the *bottleneck* of human judgment
+  from the places where it isn't genuinely needed, not to remove
+  judgment entirely from where it is needed.
+- Does not assess a specific AI tool's technical feasibility — see
+  `../ai-native-tool-stack-selection/SKILL.md` and
   `../../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`.
-- Ei korvaa vastuullisen tekoälyn hallintotarkistusta korkean riskin
-  käyttötapauksissa — ks.
+- Does not replace a responsible-AI governance check for high-risk use
+  cases — see
   `../../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
-  ja tarvittaessa erillinen EU AI Act -sääntelyasiantuntemus (ei sisälly
-  tähän skills-pakkiin).
+  and, if needed, separate EU AI Act regulatory expertise (not included
+  in this skills pack).
 
-## Jatka tästä
+## Continue from here
 
-- Edeltävä/liittyvä skilli samassa pakissa:
-  `../ai-native-opportunity-scan/SKILL.md` (agenttisuuden tunnistus-
-  kriteeri, jota tämä skilli syventää).
-- Liittyvä skilli toisessa pakissa:
+- Preceding/related skill in this pack:
+  `../ai-native-opportunity-scan/SKILL.md` (the agentic-ness
+  identification criterion that this skill deepens).
+- Related skill in another pack:
   `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
-  (Agenttisuuden aste -vaihe),
+  (the "Degree of Agenticness" stage),
   `../../../../ai-strategy-and-governance/skills/responsible-ai-and-governance-check/SKILL.md`
-- Liittyvä skilli toisessa pakissa:
+- Related skill in another pack:
   `../../../../business-design-frameworks/skills/value-chain-mapping/SKILL.md`
-  — täydentävä tapa jäsentää samaa liiketoimintaa arvoketjuna prosessien
-  sijaan.
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+  — a complementary way to structure the same business as a value chain
+  rather than as processes.
+- The pack's shared guardrails: `../../CLAUDE.md`
 
-## Referenssit
+## References
 
-- `../../references/workshop-source.md` — lähdetiedot
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../references/workshop-source.md` — source information
+- `../../CLAUDE.md` — the pack's shared guardrails
