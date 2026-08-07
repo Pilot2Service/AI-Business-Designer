@@ -1,9 +1,13 @@
 # AI Business Designer — Skills
 
-A skills pack for Claude Code and Cowork that helps you do structured business
-design work — spotting and sizing opportunities, building a decision-ready
-business case, prioritizing AI initiatives, and framing a demo without
-overpromising — instead of ad hoc prompting.
+A skills pack for Claude Code and Cowork that helps business designers,
+consultants, and entrepreneurs do higher-quality business planning, analysis,
+and problem definition — spotting and sizing opportunities, building a
+decision-ready business case, prioritizing AI initiatives, and framing a demo
+without overpromising — instead of ad hoc prompting. Taken as a whole, the
+pack also works as a map of the competence field around AI-assisted business
+design: what the discipline actually consists of, broken into named,
+independently usable pieces.
 
 `8 core packs · 3 populated specialisation packs · 78 skills · 4 audit agents
 · self-contained (no required external services) · CI-validated · MIT license`
@@ -19,6 +23,17 @@ both: each skill is a narrow, named technique anchored to a public framework
 or method (cited in the skill itself), and every output is explicitly framed
 as a decision-support draft, not a finished decision — assumptions are marked,
 not hidden.
+
+**On depth — read this before you assume more than is here.** The pack
+includes a number of heuristics and decision rules, drawn from general
+practice and from the owner's own experience. It does **not** contain deep
+proprietary playbooks, hard-won pricing/negotiation heuristics, or strong,
+opinionated value judgments about how business should be done — the kind of
+thing a consultancy keeps for paying clients. In that sense this pack is
+intentionally open and general-purpose rather than a proprietary methodology
+in disguise. Where a technique *does* come from the owner's own validated
+experience rather than a public framework, that's marked explicitly — see
+below — precisely so you're never guessing which parts carry more weight.
 
 The pack is also honest about where it stands. Some techniques are converted
 directly from the owner's own, previously used and validated methodology
@@ -50,6 +65,12 @@ Then install whichever packs match your task (e.g. `opportunity-recognition`,
 including what a good first run looks like: [`QUICKSTART.md`](QUICKSTART.md).
 
 ## What's inside
+
+Eight core packs cover the parts of AI-assisted business design that come up
+across most engagements; four specialisation packs go deeper into a specific
+situation (research commercialisation, AI-native startups, Business Model
+Canvas facilitation, public-sector pilots). Read the two tables below as much
+as a map of the discipline as a list of what to install.
 
 ### Core packs
 
@@ -190,6 +211,21 @@ ai-business-designer-skills/
 ```
 
 </details>
+
+## About this project
+
+This repository serves two purposes at once. First, and primarily, it's a
+working tool — skills meant to actually be installed and used. Second, it's a
+deliberate demonstration piece: of what a modern AI Business Designer's skill
+set looks like broken down into its component parts, and of the ability to
+design, structure, and maintain a production-quality, skills-based AI toolkit
+— the context-engineering decisions (maturity tracking instead of unverifiable
+confidence claims, a single source for shared guardrails instead of drift
+across a dozen copies, delegatable audit agents instead of a single pass of
+self-review, CI validation instead of an honor system) that make a toolkit
+like this trustworthy rather than just extensive. If you're evaluating this
+repository rather than using it, that structure is the part worth looking at
+closely.
 
 ## License & author
 
