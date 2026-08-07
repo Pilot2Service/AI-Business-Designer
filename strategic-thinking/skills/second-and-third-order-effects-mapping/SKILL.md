@@ -1,102 +1,101 @@
 ---
 name: second-and-third-order-effects-mapping
-description: "Ennakoi strategisen päätöksen tai AI-ratkaisun toisen ja kolmannen kertaluvun vaikutuksia — miten se muuttaa asiakaskäyttäytymistä, kilpailukenttää ja omaa organisaatiota ajan myötä, suoran ensivaikutuksen lisäksi."
+description: "Anticipates the second- and third-order effects of a strategic decision or AI solution — how it changes customer behavior, the competitive landscape, and your own organization over time, beyond the direct first-order effect."
 ---
 
 # Second- & Third-Order Effects Mapping
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Nostaa esiin päätöksen tai ratkaisun vaikutukset, jotka jäävät helposti
-huomaamatta koska ne eivät ole välittömiä: mitä ensimmäinen vaikutus
-laukaisee seuraavaksi (toinen kertaluku), ja mitä se puolestaan laukaisee
-laajemmin markkinassa, kilpailussa tai sääntelyssä (kolmas kertaluku).
-Useimmat päätökset arvioidaan vain ensimmäisen kertaluvun vaikutuksen
-perusteella — tämä skilli pakottaa katsomaan pidemmälle.
+Surfaces the effects of a decision or solution that are easy to miss because
+they aren't immediate: what the first effect triggers next (second order),
+and what that in turn triggers more broadly in the market, competition, or
+regulation (third order). Most decisions are evaluated only on their
+first-order effect — this skill forces the view further out.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Systeemiajattelu ja "second-order thinking" -tekniikka strategisessa
-  päätöksenteossa (yleisesti tunnettu, mm. konsultoinnin "consequence
-  scanning" -käytäntö).
-- Liedtka (1998) — systeeminäkökulma (systems perspective) ja thinking in
-  time; samat juuret kuin `../scenario-and-foresight/SKILL.md`, mutta
-  tämä skilli operationalisoi nimenomaan kertaluku-ajattelun yhden
-  päätöksen ympärille sen sijaan että rakentaisi laajempia vaihtoehtoisia
-  tulevaisuuksia.
-- Käyttäjän toimittama tutkimusraportti "AI Business Designer tekoälyn
-  aikakaudella" (2026) — nostaa tämän eksplisiittisesti esiin AI-ratkaisun
-  business case -arvioinnin yhteydessä: miten ratkaisu muuttaa
-  asiakaskäyttäytymistä pitkällä aikavälillä, ja millaisia uusia
-  kilpailijoita se voi houkutella markkinalle.
+- Systems thinking and "second-order thinking" technique in strategic
+  decision-making (widely known, e.g. the "consequence scanning" practice in
+  consulting).
+- Liedtka (1998) — systems perspective and thinking in time; the same roots
+  as [`../scenario-and-foresight/SKILL.md`](../scenario-and-foresight/SKILL.md),
+  but this skill operationalizes order-of-effect thinking specifically around
+  one decision, rather than building broader alternative futures.
+- A research report on AI Business Designer skills for the age of AI,
+  supplied by the pack owner (2026) — explicitly raises this in the context
+  of evaluating an AI solution's business case: how the solution changes
+  customer behavior over the long run, and what new competitors it might
+  attract into the market.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tarkasteltava päätös tai ratkaisu (esim. uusi AI-ominaisuus,
-   hinnoittelumuutos, automaatio, uusi liiketoimintamalli).
-2. Kartoita **ensimmäisen kertaluvun vaikutus**: mikä on suora, välitön
-   seuraus? Tämä on yleensä ainoa vaikutus, joka huomioidaan
-   päätöksenteossa oletusarvoisesti.
-3. Kartoita **toisen kertaluvun vaikutukset**: mitä ensimmäinen vaikutus
-   laukaisee seuraavaksi? Esimerkiksi miten asiakas todella *muuttaa*
-   käyttäytymistään kun ratkaisu on ollut käytössä pidempään — ei vain
-   ensireaktio.
-4. Kartoita **kolmannen kertaluvun vaikutukset**: mitä toisen kertaluvun
-   muutokset laukaisevat laajemmin — kilpailijoiden reaktiot, uudet
-   markkinatulokkaat, sääntelyn kiristyminen, sidosryhmien odotusten
-   muutos?
-5. Kunkin kertaluvun kohdalla kysy erikseen: keneen tämä vaikuttaa
-   (asiakas, kilpailija, oma organisaatio, sääntelijä, laajempi
-   ekosysteemi), ja onko vaikutus todennäköisesti positiivinen,
-   negatiivinen vai ambivalentti?
-6. Tunnista, mitkä toisen/kolmannen kertaluvun vaikutuksista ovat
-   riittävän todennäköisiä ja merkittäviä muuttaakseen alkuperäistä
-   päätöstä — palaa tarvittaessa päätökseen ja säädä sitä.
-7. Tuota jäsennelty vaikutusketju (1. → 2. → 3. kertaluku)
-   päätöksenteon tueksi; merkitse selvästi mikä on perusteltu päättely ja
-   mikä spekulaatio (`[oletus — tarkista]`).
+1. **Name the decision or solution under review** (e.g. a new AI feature, a
+   pricing change, automation, a new business model).
+2. **Map the first-order effect**: what's the direct, immediate consequence?
+   This is usually the only effect considered in decision-making by default.
+3. **Map the second-order effects**: what does the first effect trigger next?
+   For example, how does the customer actually *change* their behavior once
+   the solution has been in use for a while — not just their first reaction.
+4. **Map the third-order effects**: what do the second-order changes trigger
+   more broadly — competitor reactions, new market entrants, tighter
+   regulation, shifting stakeholder expectations?
+5. **For each order, ask separately**: who is affected (customer, competitor,
+   your own organization, regulator, the wider ecosystem), and is the effect
+   likely positive, negative, or ambivalent?
+6. **Identify which second-/third-order effects are likely and significant
+   enough to change the original decision** — go back and adjust the
+   decision if needed.
+7. **Produce a structured effect chain (1st → 2nd → 3rd order)** to support
+   the decision; mark clearly what's reasoned inference and what's
+   speculation (`[assumption — verify]`).
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei ennusta tulevaisuutta varmuudella — toisen/kolmannen kertaluvun
-  vaikutukset ovat uskottavia hypoteeseja, ei todennäköisyyslaskelmia.
-- Ei korvaa `../scenario-and-foresight/SKILL.md`-skilliä — tämä skilli
-  seuraa yhden päätöksen vaikutusketjua eteenpäin, scenario-and-foresight
-  rakentaa vaihtoehtoisia tulevaisuuksia laajemmasta epävarmuudesta.
-- Ei tee päätöstä puolestasi — nostaa esiin vaikutuksia joita ei muuten
-  huomioitaisi, itse päätös jää ihmiselle.
+- Doesn't predict the future with certainty — second-/third-order effects are
+  plausible hypotheses, not probability calculations.
+- Doesn't replace [`../scenario-and-foresight/SKILL.md`](../scenario-and-foresight/SKILL.md)
+  — this skill follows one decision's effect chain forward; scenario-and-foresight
+  builds alternative futures from broader uncertainty.
+- Doesn't make the decision for you — it surfaces effects that would
+  otherwise go unnoticed; the decision itself stays with the human.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt siitä, kuinka pitkälle vaikutusketjua kannattaa
-  seurata ennen kuin se muuttuu liian spekulatiiviseksi
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset, joissa 2./3. kertaluvun vaikutus
-  muutti alkuperäistä päätöstä
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb for how far down the effect chain it's worth going
+  before it turns too speculative to be useful
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples where a second-/third-order effect
+  changed the original decision
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa: `../scenario-and-foresight/SKILL.md` (täydentävä,
-  laajempi epävarmuuden käsittely), `../strategic-options-evaluation/SKILL.md`
-  (vie vaikutusketjun havainnot vaihtoehtojen vertailuun).
-- Liittyvä skilli toisessa pakissa:
-  `../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`,
-  `../../../business-case-and-analysis/skills/risk-matrix-and-mitigation/SKILL.md`
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- In this pack: [`../scenario-and-foresight/SKILL.md`](../scenario-and-foresight/SKILL.md)
+  (complementary, handles broader uncertainty),
+  [`../strategic-options-evaluation/SKILL.md`](../strategic-options-evaluation/SKILL.md)
+  (carries the effect-chain findings into an options comparison).
+- Related skill in another pack:
+  [`../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`](../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md),
+  [`../../../business-case-and-analysis/skills/risk-matrix-and-mitigation/SKILL.md`](../../../business-case-and-analysis/skills/risk-matrix-and-mitigation/SKILL.md)
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

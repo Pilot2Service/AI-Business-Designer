@@ -1,58 +1,87 @@
 ---
 name: strategic-options-evaluation
-description: "Vertailee strategisia vaihtoehtoja jäsennellysti (vaikutus/vaiva, riski, resurssit) päätöksenteon tueksi. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään."
+description: "Compares strategic options in a structured way (impact/effort, risk, resources) to support a decision. Use when you need strategic-thinking-level support for a comparable task."
 ---
 
 # Strategic Options Evaluation
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Vertailee strategisia vaihtoehtoja jäsennellysti (vaikutus/vaiva, riski, resurssit) päätöksenteon tueksi.
+Compares strategic options in a structured way — impact, effort, risk, and
+resource fit — so a decision is made against a consistent set of criteria
+instead of whichever option was argued for most persuasively.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - McKinsey — structured problem solving
-- Liedtka (1998) — intelligent opportunism
+- Liedtka (1998) — intelligent opportunism: staying alert to good options that
+  emerge outside the original plan, and evaluating them with the same rigor
+  as the options that were planned for.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **List the real options, including "do nothing."** An evaluation with only
+   one live option isn't a comparison — make sure at least one genuine
+   alternative, including the status quo, is on the table.
+2. **Fix a small, consistent set of comparison dimensions before scoring any
+   option** — typically impact, effort/cost, risk, reversibility, and
+   resource/capability fit. Deciding the dimensions after seeing the options
+   invites motivated reasoning toward a preferred one.
+3. **Score each option on each dimension independently.** Resist collapsing
+   straight to a single overall ranking before the dimension-level picture is
+   visible — a lot of the useful information is in *where* options diverge,
+   not just which one wins on average.
+4. **Plot the options on at least two views** (e.g. impact vs. effort, and
+   impact vs. risk) rather than relying on a single composite score — a
+   single number hides trade-offs a decision-maker needs to see.
+5. **Separate reversible from irreversible options explicitly.** A
+   high-impact but reversible option (a pilot, a limited rollout) can
+   reasonably beat a similarly-scored irreversible one, even at the same
+   "impact" score — reversibility changes the real risk, not just the
+   variance.
+6. **Produce a decision-ready comparison, not a recommendation disguised as
+   analysis** — the output should make the trade-offs legible enough that a
+   different, reasonable person could look at the same table and pick
+   differently for defensible reasons.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei tee lopullista valintaa puolestasi — jäsentää vaihtoehdot vertailukelpoiseksi päätöksentekoaineistoksi.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't make the final choice for you — it structures the options into
+  decision-ready, comparable material.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Kun tämä vaihe on valmis, siirry pakkiin `../../../opportunity-recognition/skills/market-and-signal-scanning/SKILL.md`
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Once this step is done, move to [`../../../opportunity-recognition/skills/market-and-signal-scanning/SKILL.md`](../../../opportunity-recognition/skills/market-and-signal-scanning/SKILL.md)
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

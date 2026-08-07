@@ -1,57 +1,87 @@
 ---
 name: scenario-and-foresight
-description: "Rakentaa vaihtoehtoisia tulevaisuusskenaarioita ja testaa strategian kestävyyttä niitä vasten. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään."
+description: "Builds alternative future scenarios and stress-tests a strategy against them. Use when you need strategic-thinking-level support for a comparable task."
 ---
 
 # Scenario & Foresight Thinking
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Rakentaa vaihtoehtoisia tulevaisuusskenaarioita ja testaa strategian kestävyyttä niitä vasten.
+Builds alternative future scenarios and stress-tests a strategy against them
+— not to predict which future will happen, but to check whether a strategy
+survives more than one plausible version of it.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
 - Liedtka (1998) — thinking in time
+- Schwartz (1991), *The Art of the Long View* — the classic scenario-planning
+  method: identify the driving forces of change, separate the predictable
+  ones from the genuinely uncertain ones, and build a small set of
+  internally consistent, divergent scenarios around the two most critical
+  uncertainties (commonly structured as a 2×2 matrix).
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **List the driving forces relevant to the strategic question** — trends,
+   technologies, regulatory shifts, competitor moves, customer behavior
+   changes.
+2. **Separate predetermined elements from critical uncertainties.** Some
+   forces are near-certain (demographics, already-committed regulation);
+   others are genuinely unknown. Scenario planning is built around the
+   uncertain ones — treating a predetermined element as uncertain wastes the
+   exercise.
+3. **Select the two most impactful, most uncertain forces.** Cross them to
+   form a 2×2 grid — this produces four internally consistent, meaningfully
+   different scenarios rather than a single "optimistic/pessimistic" spectrum.
+4. **Name and flesh out each of the four scenarios** with enough concrete
+   detail that someone could recognize which one is unfolding from early
+   signals — a scenario that's too abstract to recognize in practice isn't
+   doing its job.
+5. **Stress-test the strategy against each scenario**, not just the expected
+   one. Where does the strategy hold up? Where does it quietly assume a
+   single future?
+6. **Identify no-regret moves and early-warning indicators** — actions that
+   make sense across all four scenarios, and signals worth monitoring that
+   would indicate which scenario is actually materializing.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei ennusta tulevaisuutta — rakentaa uskottavia vaihtoehtoja stressitestiä varten, ei todennäköisyyksiä.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't predict the future — it builds plausible alternatives for a stress
+  test, not probabilities.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../strategic-options-evaluation/SKILL.md` — Vertailee strategisia vaihtoehtoja jäsennellysti (vaikutus/vaiva, riski, resurssit) päätöksenteon tueksi.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../strategic-options-evaluation/SKILL.md`](../strategic-options-evaluation/SKILL.md) — Compares strategic options in a structured way (impact/effort, risk, resources) to support a decision.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

@@ -1,57 +1,89 @@
 ---
 name: strategic-intent-framing
-description: "Muotoilee kirkkaan strategisen tarkoituksen, joka fokusoi energian ja karsii häiriöt. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään."
+description: "Frames a clear strategic intent that focuses energy and cuts out noise. Use when you need strategic-thinking-level support for a comparable task."
 ---
 
 # Strategic Intent Framing
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Muotoilee kirkkaan strategisen tarkoituksen, joka fokusoi energian ja karsii häiriöt.
+Frames a clear strategic intent that focuses energy and cuts out noise — a
+stable point of view about the leadership position an organization wants to
+reach, distinct from both a vague mission statement and a fully worked-out
+plan.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- Liedtka (1998) — intent-focused
+- Hamel & Prahalad (1989), "Strategic Intent," *Harvard Business Review* — the
+  original source of the term. Strategic intent is deliberately ambitious
+  relative to current resources and capabilities; the resulting "misfit"
+  between ambition and resources is what galvanizes the organization, rather
+  than a comfortable plan sized to what's already available.
+- Liedtka (1998) — intent-focused: strategic thinking is intent-driven rather
+  than merely fit-driven — it asks what future the organization is trying to
+  create, not only what current resources allow.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **State the desired leadership position in one sentence.** Not a mission
+   ("we help X do Y") but a specific, contestable claim about where the
+   organization intends to stand relative to competitors or the market in a
+   defined timeframe.
+2. **Check for productive misfit.** Does the intent require the organization
+   to become more capable than it currently is? An intent that's already
+   achievable with today's resources isn't doing its job — it isn't creating
+   the stretch that focuses effort.
+3. **Define what "winning" concretely looks like.** Hamel & Prahalad's
+   point: strategic intent needs an unambiguous win criterion, not an open
+   aspiration — otherwise it can't focus decisions or be tested against
+   reality later.
+4. **Set interim milestones that build the specific capabilities the intent
+   requires** — not just revenue or timeline milestones, but capability
+   milestones ("by Q3 we can do X we currently can't").
+5. **Pressure-test for focus, not just ambition.** A good strategic intent
+   should make some decisions obviously wrong. If the intent doesn't rule
+   anything out, it isn't yet focused enough to be useful.
+6. **Write it down in a form that travels** — short enough to be repeated
+   accurately by someone who wasn't in the room when it was framed.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei korvaa organisaation virallista strategiaprosessia tai hallituksen hyväksyntää.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't replace an organization's formal strategy process or board
+  approval.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../hypothesis-driven-strategy/SKILL.md` — Jäsentää strategisen ongelman MECE-periaatteella ja issue tree -rakenteella, testaa hypoteeseja datalla.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../hypothesis-driven-strategy/SKILL.md`](../hypothesis-driven-strategy/SKILL.md) — Structures a strategic problem with MECE and an issue tree, then tests the hypotheses against data.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

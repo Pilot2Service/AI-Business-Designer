@@ -659,7 +659,7 @@
       "id": "hypothesis-driven-strategy",
       "pack": "strategic-thinking",
       "title": "Hypothesis-Driven Strategy",
-      "description": "Jäsentää strategisen ongelman MECE-periaatteella ja issue tree -rakenteella, testaa hypoteeseja datalla. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "description": "Structures a strategic problem with MECE and an issue tree, then tests the hypotheses against data. Use when you need strategic-thinking-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -673,7 +673,7 @@
       "id": "scenario-and-foresight",
       "pack": "strategic-thinking",
       "title": "Scenario & Foresight Thinking",
-      "description": "Rakentaa vaihtoehtoisia tulevaisuusskenaarioita ja testaa strategian kestävyyttä niitä vasten. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "description": "Builds alternative future scenarios and stress-tests a strategy against them. Use when you need strategic-thinking-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -686,7 +686,7 @@
       "id": "second-and-third-order-effects-mapping",
       "pack": "strategic-thinking",
       "title": "Second And Third Order Effects Mapping",
-      "description": "Ennakoi strategisen päätöksen tai AI-ratkaisun toisen ja kolmannen kertaluvun vaikutuksia — miten se muuttaa asiakaskäyttäytymistä, kilpailukenttää ja omaa organisaatiota ajan myötä, suoran ensivaikutuksen lisäksi.",
+      "description": "Anticipates the second- and third-order effects of a strategic decision or AI solution — how it changes customer behavior, the competitive landscape, and your own organization over time, beyond the direct first-order effect.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -697,7 +697,7 @@
       "id": "strategic-intent-framing",
       "pack": "strategic-thinking",
       "title": "Strategic Intent Framing",
-      "description": "Muotoilee kirkkaan strategisen tarkoituksen, joka fokusoi energian ja karsii häiriöt. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "description": "Frames a clear strategic intent that focuses energy and cuts out noise. Use when you need strategic-thinking-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -710,7 +710,7 @@
       "id": "strategic-options-evaluation",
       "pack": "strategic-thinking",
       "title": "Strategic Options Evaluation",
-      "description": "Vertailee strategisia vaihtoehtoja jäsennellysti (vaikutus/vaiva, riski, resurssit) päätöksenteon tueksi. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "description": "Compares strategic options in a structured way (impact/effort, risk, resources) to support a decision. Use when you need strategic-thinking-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -724,7 +724,7 @@
       "id": "systems-mapping",
       "pack": "strategic-thinking",
       "title": "Systems Mapping",
-      "description": "Kartoittaa arvonluonnin kokonaisjärjestelmän ja sen riippuvuudet ennen ratkaisun muotoilua. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään.",
+      "description": "Maps the full value-creating system and its dependencies before you design a solution. Use when you need strategic-thinking-level support for a comparable task.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [

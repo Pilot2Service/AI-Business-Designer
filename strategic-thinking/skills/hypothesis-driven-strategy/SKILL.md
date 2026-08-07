@@ -1,58 +1,87 @@
 ---
 name: hypothesis-driven-strategy
-description: "Jäsentää strategisen ongelman MECE-periaatteella ja issue tree -rakenteella, testaa hypoteeseja datalla. Käytä kun tarvitset strategic thinking-tason tukea vastaavaan tehtävään."
+description: "Structures a strategic problem with MECE and an issue tree, then tests the hypotheses against data. Use when you need strategic-thinking-level support for a comparable task."
 ---
 
 # Hypothesis-Driven Strategy
 
-*Tila: `scaffold` — ks. `../../../skills_index.json` ja `../../../meta/maturity_levels.md`.*
+*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
 
-## Tarkoitus
+## Purpose
 
-Jäsentää strategisen ongelman MECE-periaatteella ja issue tree -rakenteella, testaa hypoteeseja datalla.
+Structures a strategic problem with MECE and an issue tree, then tests the
+resulting hypotheses against data — instead of either guessing an answer or
+trying to analyze everything before forming a point of view.
 
-## Ankkurointi tutkimukseen
+## Anchored in research
 
-- McKinsey — MECE / issue tree / hypoteesivetoinen ongelmanratkaisu
+- McKinsey — MECE / issue trees / hypothesis-driven problem solving
 - Liedtka (1998) — hypothesis-driven
+- Conn & McLean (2018), *Bulletproof Problem Solving* — a detailed, published
+  account of this exact method: state a hypothesis early, break it into a
+  MECE issue tree, and prioritize the branches by how cheaply and decisively
+  they can be tested.
 
-## Rakenne (luonnos — täydennettävä)
+## Method (draft — to be expanded)
 
-1. Määritä tilanne/konteksti, johon tätä skilliä sovelletaan.
-2. Käy läpi ankkuroinnin mukainen tekniikka vaihe vaiheelta.
-3. Tuota jäsennelty tulos (ks. `../../references/` kun lisätty).
-4. Validoi tulos sidosryhmillä tai omalla kokemuspohjaisella tarkistuslistalla.
+1. **State an initial hypothesis** — your best current answer to the strategic
+   question, stated specifically enough to be provably wrong. "We should grow"
+   is not a hypothesis; "we should grow by expanding into segment X before
+   competitor Y does" is.
+2. **Break the question behind the hypothesis into a MECE issue tree.** Each
+   branch should be a sub-question that must be true for the hypothesis to
+   hold, and the branches together should cover the question completely
+   without overlapping (Mutually Exclusive, Collectively Exhaustive).
+3. **For each branch, define the minimum evidence that would prove or
+   disprove it** — not "more data is better," but the smallest, cheapest,
+   most diagnostic piece of evidence that would move your confidence.
+4. **Prioritize branches by diagnostic value, not by ease of access.** Test
+   the branch most likely to kill the hypothesis first — a hypothesis that
+   survives its own strongest challenge is far more useful than one that was
+   only ever tested against easy questions.
+5. **Update the hypothesis as evidence comes in.** This is iterative, not a
+   single pass: a disproven branch should change the hypothesis itself, not
+   just get logged as a caveat.
+6. **Stop when the hypothesis is decision-ready**, not when the tree is
+   exhaustively filled in — the goal is a defensible point of view fast
+   enough to act on, not total analysis.
 
-## Mitä tämä skilli EI tee
+## What this skill does NOT do
 
-- Ei tee lopullista päätöstä puolestasi — tuottaa jäsennellyn luonnoksen ihmisen
-  päätöksenteon tueksi.
-- Ei vahvista lukuja, markkinatietoa tai kilpailijadataa muistista — käyttää käyttäjän
-  antamia lähtöarvoja tai merkitsee oletuksen selvästi (`[oletus — tarkista]`).
-- Ei tee datan keräystä tai analyysiä puolestasi — jäsentää kysymykset, joihin data pitää hakea.
+- Doesn't make the final decision for you — it produces a structured draft to
+  support a human decision.
+- Doesn't confirm figures, market data, or competitor data from memory — it
+  uses the inputs you provide, or marks an assumption clearly
+  (`[assumption — verify]`).
+- Doesn't collect or analyze data on your own behalf — it structures the
+  questions the data needs to answer.
 
-## [OWNER INPUT — täydennettävä]
+## [OWNER INPUT — to be completed]
 
-Tämä skilli on rakenteellinen luonnos (`maturity: scaffold`). Se ei vielä sisällä omaa
-kokemustasi, heuristiikkojasi tai case-esimerkkejä. Täydennä tähän:
+This skill is a structural draft (`maturity: scaffold`). It doesn't yet
+contain your own experience, heuristics, or case examples. Fill in here:
 
-- omat nyrkkisäännöt ja heuristiikat tässä tekniikassa
-- konkreettiset mallipohjat (`../../references/`-kansioon)
-- referenssitapaukset / omat caset
-- mitä tässä ei tehdä (guardrailsit, tyypilliset virheet) — täydennä yllä olevaa listaa
+- your own rules of thumb and heuristics for this technique
+- concrete templates (into [`../../references/`](../../references/))
+- reference cases / your own examples
+- what this skill deliberately does *not* do (guardrails, common mistakes) —
+  add to the list above
 
-Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_index.json`:n
-`maturity`-kenttä arvoon `draft`, `validated` tai `canonical`
-(ks. `../../../meta/maturity_levels.md`). **Frontmatteriin ei lisätä uusia kenttiä** —
-`name` ja `description` ovat ainoat sallitut (ks. `../../../meta/frontmatter_schema.md`).
+Once this section is filled in and validated in practice, update the
+`maturity` field in `skills_index.json` to `draft`, `validated`, or
+`canonical` (see
+[`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
+**Don't add new fields to the frontmatter** — `name` and `description` are
+the only ones allowed (see
+[`../../../meta/frontmatter_schema.md`](../../../meta/frontmatter_schema.md)).
 
-## Jatka tästä
+## Continue from here
 
-- Samassa pakissa seuraavaksi: `../scenario-and-foresight/SKILL.md` — Rakentaa vaihtoehtoisia tulevaisuusskenaarioita ja testaa strategian kestävyyttä niitä vasten.
-- Valmis skilliketju tähän tilanteeseen: ks. `../../../playbooks/`
-- Pakin jaetut suojaukset: `../../CLAUDE.md`
+- Next in this pack: [`../scenario-and-foresight/SKILL.md`](../scenario-and-foresight/SKILL.md) — Builds alternative future scenarios and stress-tests a strategy against them.
+- A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
-## Referenssit
+## References
 
-- `../../references/` — pakin yhteinen taustamateriaali
-- `../../CLAUDE.md` — pakin jaetut suojaukset
+- [`../../references/`](../../references/) — the pack's shared background material
+- [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails
