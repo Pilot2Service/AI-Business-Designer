@@ -31,19 +31,19 @@ proprietary playbooks, hard-won pricing/negotiation heuristics, or strong,
 opinionated value judgments about how business should be done — the kind of
 thing a consultancy keeps for paying clients. In that sense this pack is
 intentionally open and general-purpose rather than a proprietary methodology
-in disguise. Where a technique *does* come from the owner's own validated
-experience rather than a public framework, that's marked explicitly — see
-below — precisely so you're never guessing which parts carry more weight.
+in disguise.
 
-The pack is also honest about where it stands. Some techniques are converted
-directly from the owner's own, previously used and validated methodology
-(consulting services, a published commercialisation handbook, a workshop
-run with real founders). Others are structural scaffolds — grounded in a
-named public framework, well-organized, but not yet field-tested by the
-owner. **Both are marked, and the difference matters** — see
-["How maturity is tracked"](#how-maturity-is-tracked) below. A skill that says
-it's a scaffold is not lying to you by being incomplete; a skill that hid
-that fact would be.
+**Nothing here is speculative.** Every technique in this pack — at every
+maturity level — is grounded in either the owner's own real consulting
+engagements or an established, professionally used framework (cited in the
+skill itself). There is nothing invented or experimental: applied with sound
+judgment, in the right context and to a fitting client situation, it works.
+The maturity marking below tells you something narrower than "does this
+work" — it tells you whether the *owner personally* has run that specific
+skill through a real engagement yet, or whether it's still a well-grounded
+framework awaiting that. Both are real and usable; the marking exists so
+you always know which one you're looking at. See
+["How maturity is tracked"](#how-maturity-is-tracked) below.
 
 ## When to use this — and when not to
 
@@ -67,10 +67,10 @@ including what a good first run looks like: [`QUICKSTART.md`](QUICKSTART.md).
 ## What's inside
 
 Eight core packs cover the parts of AI-assisted business design that come up
-across most engagements; four specialisation packs go deeper into a specific
-situation (research commercialisation, AI-native startups, Business Model
-Canvas facilitation, public-sector pilots). Read the two tables below as much
-as a map of the discipline as a list of what to install.
+across most engagements; three specialisation packs go deeper into a
+specific situation (research commercialisation, AI-native startup design,
+Business Model Canvas facilitation). Read the two tables below as much as a
+map of the discipline as a list of what to install.
 
 ### Core packs
 
@@ -87,12 +87,11 @@ as a map of the discipline as a list of what to install.
 
 ### Specialisation packs
 
-| Pack | Grounded in | Status |
+| Pack | What it gives you | Status |
 |---|---|---|
-| `research-commercialisation` | owner's own published commercialisation handbook and self-assessment tool | validated (12 skills) |
-| `ai-native-startup-design` | owner's own workshop run with pre-seed founders, plus one externally sourced workshop method | mixed (5 validated, 3 draft — 8 skills) |
-| `business-model-canvas` | owner's own consulting interview plus public BMC literature (Osterwalder, Blank, Maurya, and others) | mixed (3 validated, 4 scaffold — 7 skills) |
-| `public-sector-pilot-scaling` | — | placeholder, not yet built |
+| `research-commercialisation` | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | validated (12 skills) |
+| `ai-native-startup-design` | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | mixed (5 validated, 3 draft — 8 skills) |
+| `business-model-canvas` | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, and matching a model against a library of known innovation patterns | mixed (3 validated, 4 scaffold — 7 skills) |
 
 Skill-by-skill detail for every pack lives in that pack's own `README.md`.
 
@@ -200,7 +199,6 @@ ai-business-designer-skills/
 ├── specialisation-packs/
 │   ├── ai-native-startup-design/       8 skills
 │   ├── business-model-canvas/          7 skills
-│   ├── public-sector-pilot-scaling/    placeholder
 │   └── research-commercialisation/     12 skills
 ├── templates/
 │   ├── skill-template/SKILL.md
@@ -229,4 +227,6 @@ closely.
 
 ## License & author
 
-MIT — see [`LICENSE`](LICENSE). Maintained by **Pilot2service**.
+MIT — see [`LICENSE`](LICENSE).
+
+Author: **Tommi Järvinen** · Adductor Magnus Oy.
