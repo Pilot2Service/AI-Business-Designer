@@ -1,196 +1,196 @@
 # AI Business Designer — Skills
 
-**8 ydinpakkia · 3 täytettyä erikoistumispakkia · 78 skilliä · 4 audit-agenttia ·
-itsenäinen (ei ulkoisia riippuvuuksia) · CI-validoitu · MIT**
+A skills pack for Claude Code and Cowork that helps you do structured business
+design work — spotting and sizing opportunities, building a decision-ready
+business case, prioritizing AI initiatives, and framing a demo without
+overpromising — instead of ad hoc prompting.
 
-**Versio:** 0.17.0 · **Tila:** 8 ydinpakkia (pääosin scaffold, osin validated) + 3 täytettyä erikoistumispakkia (`research-commercialisation`, `ai-native-startup-design`, `business-model-canvas`)
+`8 core packs · 3 populated specialisation packs · 78 skills · 4 audit agents
+· self-contained (no required external services) · CI-validated · MIT license`
 
-Uusi tässä repossa? Aloita [`QUICKSTART.md`](QUICKSTART.md):stä — yksi polku, viisi
-minuuttia, ensimmäinen skilli ajossa.
+New here? [`QUICKSTART.md`](QUICKSTART.md) gets you from zero to your first
+skill run in about five minutes.
 
-Tämä on AI Business Designer -roolin skills-pack Claude Code / Cowork -ympäristöön.
-Se yhdistää strategisen liiketoimintaosaamisen, opportunity recognitionin, business case
--laadinnan ja AI-strategian yhdeksi systemaattiseksi, koneluettavaksi skills-kokoelmaksi.
+## Why this exists
 
-> **Tärkeää:** jokainen tämän pakin tuottama analyysi, laskelma tai suositus on
-> päätöksenteon tueksi tehty luonnos — ei valmis päätös eikä korvaa toimialan tai
-> talouden ammattilaisen vahvistusta. Ihminen tekee päätöksen ja kantaa siitä vastuun.
+Most "business strategy" prompting is either too generic to be useful or
+too confident about numbers nobody actually verified. This pack tries to fix
+both: each skill is a narrow, named technique anchored to a public framework
+or method (cited in the skill itself), and every output is explicitly framed
+as a decision-support draft, not a finished decision — assumptions are marked,
+not hidden.
 
-Rakennettu kolmen työvaiheen pohjalta:
+The pack is also honest about where it stands. Some techniques are converted
+directly from the owner's own, previously used and validated methodology
+(consulting services, a published commercialisation handbook, a workshop
+run with real founders). Others are structural scaffolds — grounded in a
+named public framework, well-organized, but not yet field-tested by the
+owner. **Both are marked, and the difference matters** — see
+["How maturity is tracked"](#how-maturity-is-tracked) below. A skill that says
+it's a scaffold is not lying to you by being incomplete; a skill that hid
+that fact would be.
 
-1. **Markkinakartoitus** olemassa olevista business/AI-strategy-skills-packeista
-   (avoimet GitHub-repot, skills-markkinapaikat, Claude-ekosysteemi).
-2. **Markkinan taito-odotusten tutkimus** (mm. WEF Future of Jobs, LinkedIn
-   Skills on the Rise, SFIA, IIBA/BABOK, ja akateeminen opportunity
-   recognition -kirjallisuus).
-3. **Rakenteellinen referenssi:** kypsyystaso- ja agent-guide-ajattelu
-   omasta aiemmasta työstä, sekä rakenneanalyysi toisesta, tuotantokäytössä
-   olevasta suomalaisesta Claude-plugin-markkinapaikasta, josta tämä repo
-   omaksui: minimaalisen frontmatterin (vain `name`+`description`), pakkitason
-   `CLAUDE.md`-suojauskerroksen, "mitä tämä EI tee" -rajaukset ja
-   generointi/validointi-skriptimallin.
+## When to use this — and when not to
 
-## Rakenne
+| Use it when... | Don't reach for it when... |
+|---|---|
+| You're in Claude Code / Cowork doing business opportunity, business case, AI-strategy, or change-communication work and want a structured technique instead of a blank page | You need legal, tax, regulatory, or financial advice — that requires a licensed professional, not a skills pack |
+| You want to know *how confident* to be in a given technique before you rely on it | You want a single number or decision handed to you with no visible reasoning — that's not what this produces, by design |
+| You want something that works offline, with your own numbers, no external accounts required | Your task is software engineering — this pack is about business design, not code |
+
+## Quick start
+
+```
+/plugin marketplace add <path or URL to this repository>
+/plugin
+```
+
+Then install whichever packs match your task (e.g. `opportunity-recognition`,
+`business-case-and-analysis`) from the Discover tab. Full walkthrough,
+including what a good first run looks like: [`QUICKSTART.md`](QUICKSTART.md).
+
+## What's inside
+
+### Core packs
+
+| Pack | Helps you... | Status |
+|---|---|---|
+| `strategic-thinking` | break down a fuzzy problem into a testable hypothesis (MECE / issue trees) | scaffold |
+| `opportunity-recognition` | scan, evaluate, size, and write up a business opportunity | mixed — 3 of 8 skills validated from a real, previously operated service methodology |
+| `business-case-and-analysis` | build an ROI/NPV business case with risks and assumptions made explicit | scaffold |
+| `ai-strategy-and-governance` | prioritize AI use cases, scope a PoC, and check responsible-AI readiness | scaffold |
+| `change-and-communication` | plan change management and executive communication | scaffold |
+| `business-design-frameworks` | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | mixed — 1 of 5 skills validated |
+| `prototyping-and-demonstration` | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | scaffold |
+| `data-strategy-and-literacy` | diagnose data's role in a business and read data critically before trusting it | scaffold |
+
+### Specialisation packs
+
+| Pack | Grounded in | Status |
+|---|---|---|
+| `research-commercialisation` | owner's own published commercialisation handbook and self-assessment tool | validated (12 skills) |
+| `ai-native-startup-design` | owner's own workshop run with pre-seed founders, plus one externally sourced workshop method | mixed (5 validated, 3 draft — 8 skills) |
+| `business-model-canvas` | owner's own consulting interview plus public BMC literature (Osterwalder, Blank, Maurya, and others) | mixed (3 validated, 4 scaffold — 7 skills) |
+| `public-sector-pilot-scaling` | — | placeholder, not yet built |
+
+Skill-by-skill detail for every pack lives in that pack's own `README.md`.
+
+## How maturity is tracked
+
+Every skill's frontmatter only ever contains `name` and `description` — no
+confidence claims live there. Instead, `skills_index.json` tracks two things
+for every skill: `maturity` (`scaffold` → `draft` → `validated` → `canonical`)
+and `source_layer` (`research` = built from a public framework,
+`owner` = converted from the owner's own field-tested experience). Claude is
+instructed (`AGENT_GUIDE.md`) to say out loud which one it's using and to
+never present a scaffold skill's structure as if it were validated
+experience. Details: [`meta/maturity_levels.md`](meta/maturity_levels.md).
+
+## Delegatable agents
+
+Four packs include a read-only subagent (`agents/*.md`) that you can invoke
+separately (via the Task tool) to stress-test a skill's output *before* it
+goes to a decision-maker — a second, independent pass, not a rubber stamp.
+
+| Agent | Pack | What it checks |
+|---|---|---|
+| `assumption-stress-tester` | `business-case-and-analysis` | Adversarially challenges a business case's assumptions before the number goes to leadership |
+| `market-sizing-cross-validator` | `opportunity-recognition` | Cross-checks a TAM/SAM/SOM calculation with an independent top-down/bottom-up method |
+| `competitive-blind-spot-scanner` | `business-design-frameworks` | Looks for un-scanned competitors or angles in a competitive/positioning analysis |
+| `ai-initiative-readiness-auditor` | `ai-strategy-and-governance` | Audits an AI initiative's scoring and governance checklist for gaps before approval |
+
+None of these agents edit anything — each returns a findings table for a
+human to act on.
+
+## Optional external data (not a dependency)
+
+This pack never requires an external service to function — every skill works
+with numbers you provide, and marks assumptions explicitly when you don't
+have one. If your environment happens to have a relevant data MCP connected
+(e.g. a market-sizing data source), the `market-sizing-tam-sam-som` skill and
+its cross-validator agent can use it instead of, or to cross-check, an
+assumption. See [`meta/external-data-mcp.md`](meta/external-data-mcp.md) for
+the (unaudited, third-party) candidates considered.
+
+## Quality assurance
+
+```
+python3 scripts/generate_index.py   # rebuilds skills_index.json from disk
+python3 scripts/validate.py         # checks structure + frontmatter
+```
+
+`.github/workflows/validate.yml` runs both automatically on every push and
+pull request, so a broken frontmatter or an out-of-sync index blocks the
+merge without anyone having to remember to check by hand.
+
+## A note on language
+
+The skill instructions themselves (`SKILL.md`, `CLAUDE.md`, reference files)
+are written in Finnish — that's the language the owner works and validates
+in. This doesn't limit how you can use the pack: Claude will still read the
+Finnish instructions and respond to you in whichever language you use.
+
+## Contributing
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to add a skill, fill in an
+`[OWNER INPUT]` section, or raise a skill's maturity level once it's actually
+been used.
+
+<details>
+<summary>Full repository layout</summary>
 
 ```
 ai-business-designer-skills/
 ├── README.md
-├── QUICKSTART.md                      aloita tästä — yksi polku, yksi skilli, 5 min
-├── AGENT_GUIDE.md
+├── QUICKSTART.md                      start here
+├── AGENT_GUIDE.md                     how an agent should use this pack
 ├── CONTRIBUTING.md
 ├── CHANGELOG.md
 ├── LICENSE
-├── skills_index.json                  koneluettava indeksi (generoitu — älä muokkaa käsin)
+├── skills_index.json                  machine-readable index (generated — don't hand-edit)
 ├── .claude-plugin/
-│   └── marketplace.json               listaa kaikki pluginit (pakit)
+│   └── marketplace.json               lists every installable pack
 ├── .github/workflows/
-│   └── validate.yml                   CI: generate_index.py + validate.py jokaisessa pushissa
+│   └── validate.yml                   CI: generate_index.py + validate.py on every push
 ├── scripts/
-│   ├── generate_index.py              rakentaa skills_index.json levyltä ja frontmattereista
-│   └── validate.py                    tarkistaa rakenteen ja frontmatterin ennen commitia
+│   ├── generate_index.py
+│   └── validate.py
 ├── meta/
 │   ├── repo_purpose.md
 │   ├── skill_design_principles.md
-│   ├── frontmatter_schema.md          name + description — EI muita kenttiä
+│   ├── frontmatter_schema.md          name + description only — nothing else allowed
 │   ├── maturity_levels.md
-│   ├── competency_map.md              taitomatriisi ↔ tutkimuslähteet
-│   ├── shared-guardrails.md           yksi lähde: vastuuvapaus, ei keksittyjä lukuja, premissientarkistus
-│   └── external-data-mcp.md           valinnaiset ulkoiset data-MCP:t (ei riippuvuuksia)
-├── strategic-thinking/                [plugin] 6 skilliä
+│   ├── competency_map.md
+│   ├── shared-guardrails.md           single source for the disclaimers every pack shares
+│   └── external-data-mcp.md
+├── strategic-thinking/                [plugin] 6 skills
 │   ├── .claude-plugin/plugin.json
-│   ├── CLAUDE.md                      pakin jaetut suojaukset (varaverkko)
+│   ├── CLAUDE.md                      pack-wide guardrails (a safety net, not the main mechanism)
 │   ├── README.md
-│   ├── skills/<skill-id>/SKILL.md     frontmatter: vain name + description
+│   ├── skills/<skill-id>/SKILL.md
 │   └── references/
-├── opportunity-recognition/           [plugin] 8 skilliä + agents/market-sizing-cross-validator.md
-├── business-case-and-analysis/        [plugin] 6 skilliä + agents/assumption-stress-tester.md
-├── ai-strategy-and-governance/        [plugin] 11 skilliä + agents/ai-initiative-readiness-auditor.md
-├── change-and-communication/          [plugin] 4 skilliä
-├── business-design-frameworks/        [plugin] 5 skilliä + agents/competitive-blind-spot-scanner.md
-├── prototyping-and-demonstration/     [plugin] 5 skilliä
-├── data-strategy-and-literacy/        [plugin] 6 skilliä
-├── specialisation-packs/              omat erikoistumisalueet
-│   ├── ai-native-startup-design/       [mixed] 8 skilliä (5 validated + 3 draft) — ks. alla
-│   ├── business-model-canvas/          [mixed] 7 skilliä (3 validated + 4 scaffold) — ks. alla
-│   ├── public-sector-pilot-scaling/    [placeholder — täydennettävä]
-│   └── research-commercialisation/     [validated] 12 skilliä — ks. alla
+├── opportunity-recognition/           [plugin] 8 skills + agents/market-sizing-cross-validator.md
+├── business-case-and-analysis/        [plugin] 6 skills + agents/assumption-stress-tester.md
+├── ai-strategy-and-governance/        [plugin] 11 skills + agents/ai-initiative-readiness-auditor.md
+├── change-and-communication/          [plugin] 4 skills
+├── business-design-frameworks/        [plugin] 5 skills + agents/competitive-blind-spot-scanner.md
+├── prototyping-and-demonstration/     [plugin] 5 skills
+├── data-strategy-and-literacy/        [plugin] 6 skills
+├── specialisation-packs/
+│   ├── ai-native-startup-design/       8 skills
+│   ├── business-model-canvas/          7 skills
+│   ├── public-sector-pilot-scaling/    placeholder
+│   └── research-commercialisation/     12 skills
 ├── templates/
 │   ├── skill-template/SKILL.md
 │   └── specialisation-pack-template/README.md
-└── playbooks/                         skillien ketjutusohjeet tehtävätyypeittäin
+└── playbooks/                         pre-built skill chains for common tasks
     ├── idea-to-decision.md
     └── ai-initiative-scoping.md
 ```
 
-## Agentit (delegoitavat audit-roolit)
+</details>
 
-Neljä read-only-agenttia täydentää skillejä: skilli tuottaa analyysin, agentti haastaa
-tai ristiintarkistaa sen ennen kuin se menee päätöksentekoon. Kutsutaan Task-työkalulla
-(`<pakki>:<agentti>`), eivät muokkaa mitään — palauttavat vain löydöstaulukon.
+## License & author
 
-| Agentti | Pakki | Tehtävä |
-|---|---|---|
-| `assumption-stress-tester` | `business-case-and-analysis` | Haastaa business casen oletukset adversariaalisesti ennen kuin luku menee johdolle |
-| `market-sizing-cross-validator` | `opportunity-recognition` | Ristiintarkistaa TAM/SAM/SOM-laskelman logiikan ja lähteet usealla riippumattomalla menetelmällä |
-| `competitive-blind-spot-scanner` | `business-design-frameworks` | Etsii kilpailu-/five forces -analyysin katvealueet ja tarkistamattomat suunnat |
-| `ai-initiative-readiness-auditor` | `ai-strategy-and-governance` | Auditoi AI-aloitteen opportunity-portfolion 5 ulottuvuutta ja governance-tarkistuslistaa vasten ennen hyväksyntää |
-
-Ks. kunkin agentin oma `.md` pakin `agents/`-kansiossa täydelliset ohjeet ja tulostusmuoto.
-
-## Käyttöönotto (Claude Code / Cowork)
-
-```
-/plugin marketplace add <tämän repon polku tai GitHub-osoite>
-/plugin
-```
-
-Valitse Discover-välilehdeltä haluamasi pakit (esim. `strategic-thinking`,
-`business-case-and-analysis`).
-
-## Laadunvarmistus
-
-```
-python3 scripts/generate_index.py
-python3 scripts/validate.py
-```
-
-Tarkistaa: jokaisen SKILL.md- ja agents/*.md-frontmatterin (vain sallitut kentät), että
-jokaisella pakilla on `CLAUDE.md`+`README.md`+`.claude-plugin/plugin.json`, ja että
-`skills_index.json` vastaa levyllä olevia tiedostoja. Aja tämä ennen kuin lisäät tai
-muutat skillejä, ja aja `python3 scripts/generate_index.py` sen jälkeen kun olet lisännyt
-uuden skillin — älä muokkaa `skills_index.json`:ia käsin.
-
-**CI:** `.github/workflows/validate.yml` ajaa saman tarkistuksen automaattisesti
-jokaisessa pushissa ja pull requestissa — rikkinäinen frontmatter tai indeksin
-epäsynkronointi estää mergen ilman että kukaan tarkistaa sitä käsin.
-
-## Tila ja jatkokehitys
-
-Repossa on nyt 8 ydinpakkia (51 skilliä, joista 47 `scaffold`- ja 4 `validated`-tasolla)
-ja 3 erikoistumispaikkaa. Suurin osa ydinskilleistä on edelleen `scaffold`-tasolla:
-rakenne, ankkurointi ja kysymysrunko on valmis, mutta omat heuristiikat, mallipohjat ja
-case-esimerkit puuttuvat vielä (merkitty `[OWNER INPUT — täydennettävä]` jokaisessa
-SKILL.md:ssä, ja kypsyys näkyy `skills_index.json`:ssa — ei enää frontmatterissa).
-Poikkeuksena `opportunity-recognition`-pakin 3 owner-skilliä (oma metodologia) ja
-`business-design-frameworks`-pakin `strategy-canvas-and-value-curve` (Blue Ocean
-Strategy + oma 360-vertailutyökalu).
-
-`business-design-frameworks/` on tarkoituksella avoin ja kasvava kokoelma
-liiketoiminnan jäsentämis- ja mallinnustapoja (kerrokset, arvoketjut,
-kategoriamallinnus, strategiakartat/arvokäyrät) — sitä täydennetään jatkossa uusilla
-malleilla sitä mukaa kun niitä tunnistetaan.
-
-`prototyping-and-demonstration/` vastaa kysymykseen "miten mahdollisuus
-tehdään konkreettiseksi ja uskottavaksi": nopea protoilu (AI-avusteinen
-"vibe coding"), demon/PoC:n oikea kehystäminen asiakkaalle (PoC vs.
-Pilotti vs. MVP, "pilot purgatory" -riskin torjunta), demon esitystaito
-(Great Demo! -metodologia) ja tarina (Amazon Working Backwards/PR-FAQ),
-sekä silta demosta business caseen ja ROI-laskelmaan.
-
-Uusin ydinpakki, `data-strategy-and-literacy/`, vastaa kysymykseen "mitä
-data organisaatiossa oikeasti on ja miten sitä pitäisi kohdella": datan
-roolin diagnostiikka (mahdollistaja vs. strateginen assetti),
-datalukutaidon nelikenttäarviointi, datan kriittinen lukeminen (bias,
-laatu, edustavuus), data-storytelling liiketoimintakielelle, Data & AI
--strategian muotoilu (Driver Tree, Agile Value Assessment) ja datan
-monetisointimallin valinta (suora vs. epäsuora, Data Flywheel-
-toteutettavuustarkistus).
-
-`specialisation-packs/` sisältää neljä paikkaa erikoistumisalueille:
-`public-sector-pilot-scaling` on yhä placeholder. Kolme muuta on täytetty:
-
-- **`research-commercialisation`** (`validated`/`owner`) — 12 skilliä,
-  konvertoitu omistajan julkaisemasta kaupallistamisoppaasta ja
-  AFCA-itsearviointityökalusta — ks.
-  `specialisation-packs/research-commercialisation/README.md`.
-- **`ai-native-startup-design`** (sekoitettu: 5 `validated`/`owner` + 3
-  `draft`/`owner`) — 8 skilliä. Runko konvertoitu omistajan
-  fasilitoimasta *AI-native Business Design* -työpajasta pre-startup-
-  perustajille (1.–2.6.2026): AI-mahdollisuuksien tunnistus, ICP/JTBD-
-  asiakasymmärrys, rakennusagentille annettava PRD, closed-loop-
-  prosessisuunnittelu ja AI-työkalupinon valinta. Syvennetty ja
-  laajennettu ulkopuolisen *AI-first SaaS Product* -työpajan menetelmällä
-  (5+2 tarveteemapisteytys, AI wedge -valinta, ratkaisuideointi, RICE-
-  MVP-valinta, keskusteleva OS-arkkitehtuuri), sovellettuna omistajan
-  omaan caseen — ks.
-  `specialisation-packs/ai-native-startup-design/README.md`.
-- **`business-model-canvas`** (sekoitettu: 3 `validated`/`owner` + 4
-  `scaffold`/`research`) — 7 skilliä, yhdistää julkisen 159 patternin
-  innovaatiokirjaston omistajan omaan, huhtikuun 2026
-  konsultointihaastattelusta poimittuun BMC-metodologiaan
-  (omistajan oma, ei-julkinen tutkimustyö) ja tunnettujen BMC-lähteiden
-  (Jeffries, van der Linden, Blank, Ash Maurya) tutkimuspohjaiseen
-  synteesiin — ks.
-  `specialisation-packs/business-model-canvas/README.md`.
-
-## Ulkoiset datalähteet (valinnainen, ei riippuvuus)
-
-Tämä repo ei vaadi mitään ulkoista MCP-palvelinta toimiakseen — kaikki skillit toimivat
-itsenäisesti käyttäjän antamalla lähtödatalla. Jos ympäristössä on kytketty relevantti
-data-MCP (esim. markkinakoko-/talousdatalähde), kyseinen skilli voi käyttää sitä
-oletusten sijaan tai niiden ristiintarkistukseen. Ks. `meta/external-data-mcp.md`
-kandidaattilistaus ja käyttöperiaate.
-
-## Lisenssi
-
-MIT — vapaasti muokattavissa ja jaettavissa.
+MIT — see [`LICENSE`](LICENSE). Maintained by **Pilot2service**.
