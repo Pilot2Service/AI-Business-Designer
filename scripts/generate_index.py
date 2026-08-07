@@ -52,6 +52,31 @@ def parse_frontmatter(text):
     return data, extra_keys
 
 
+def find_agents(pack_dir_full, pack_name):
+    """Agents (<pack>/agents/<agent-id>.md) are delegatable, read-only subagents —
+    indexed separately from skills since they use a wider frontmatter (tools/model
+    allowed in addition to name+description, ks. scripts/validate.py)."""
+    agents_dir = os.path.join(pack_dir_full, "agents")
+    out = []
+    if not os.path.isdir(agents_dir):
+        return out
+    for fname in sorted(os.listdir(agents_dir)):
+        if not fname.endswith(".md"):
+            continue
+        agent_id = fname[:-3]
+        with open(os.path.join(agents_dir, fname), encoding="utf-8") as f:
+            text = f.read()
+        fm, _ = parse_frontmatter(text)
+        fm = fm or {}
+        out.append({
+            "id": agent_id,
+            "pack": pack_name,
+            "description": fm.get("description", ""),
+            "path": os.path.relpath(os.path.join(agents_dir, fname), ROOT),
+        })
+    return out
+
+
 def load_existing_index():
     path = os.path.join(ROOT, "skills_index.json")
     if not os.path.exists(path):
@@ -114,6 +139,7 @@ def main():
     existing = load_existing_index()
     packs = find_pack_dirs()
     skills = []
+    agents = []
     errors = []
 
     def index_skills_dir(skills_dir, pack_name):
@@ -149,20 +175,23 @@ def main():
 
     for pack in packs:
         index_skills_dir(os.path.join(ROOT, pack["dir"], "skills"), pack["name"])
+        agents.extend(find_agents(os.path.join(ROOT, pack["dir"]), pack["name"]))
 
     specialisation_packs = find_specialisation_packs()
     for sp in specialisation_packs:
         src = find_specialisation_pack_skill_source(sp["dir"])
         index_skills_dir(os.path.join(ROOT, "specialisation-packs", sp["dir"], "skills"), src["name"])
+        agents.extend(find_agents(os.path.join(ROOT, "specialisation-packs", sp["dir"]), src["name"]))
 
     index = {
         "repo": "ai-business-designer-skills",
-        "version": "0.16.0",
+        "version": "0.17.0",
         "generated": "auto",
         "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
         "packs": [{"dir": p["dir"], "name": p["name"], "title": p["title"]} for p in packs],
         "specialisation_packs": specialisation_packs,
         "skills": skills,
+        "agents": agents,
     }
 
     if errors:
@@ -174,7 +203,7 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(index, f, ensure_ascii=False, indent=2)
         f.write("\n")
-    print(f"Kirjoitettu {out_path} — {len(skills)} skilliä, {len(packs)} pakkia.")
+    print(f"Kirjoitettu {out_path} — {len(skills)} skilliä, {len(packs)} pakkia, {len(agents)} agenttia.")
     return 1 if errors else 0
 
 

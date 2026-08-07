@@ -63,9 +63,23 @@ relevanteinta skilliä. Lue kyseisen pakin `CLAUDE.md` samalla.
 | Isomman ongelman jäsentäminen | `strategic-thinking` |
 | Monivaiheinen tehtävä | `playbooks/` — valmis skilliketju |
 
-## 7. Mitä agentti ei saa tehdä
+## 7. Delegoitavat agentit — toinen mielipide ennen päätöstä
+
+Neljä pakkia sisältää oman `agents/`-kansion (`business-case-and-analysis`,
+`opportunity-recognition`, `business-design-frameworks`,
+`ai-strategy-and-governance`). Nämä ovat **read-only**-subagentteja jotka
+kutsutaan Task-työkalulla, eivät SKILL.md-tekniikoita: ne eivät tee analyysiä
+alusta, vaan tarkistavat/haastavat jo tehdyn analyysin ennen kuin se menee
+päätöksentekoon (ks. `meta/shared-guardrails.md` kohta 5 ja kunkin agentin
+oma `.md`). Käytä niitä kun skillin tuottama tulos on koossa mutta ennen kuin
+se esitetään ihmiselle hyväksyttäväksi — ne eivät korvaa ihmisen hyväksyntää,
+ne parantavat sitä mitä ihminen näkee ennen päätöstä.
+
+## 8. Mitä agentti ei saa tehdä
 
 - Ei täytä `[OWNER INPUT]`-osioita geneerisellä tai kuvitellulla sisällöllä
 - Ei lisää uusia kenttiä SKILL.md-frontmatteriin (vain `name`+`description` sallittu)
 - Ei kohtele `scaffold`-tason sisältöä yhtä auktoritatiivisena kuin `validated`/`canonical`
 - Ei sekoita tätä pakkia valmiiksi vastaukseksi — se on konteksti oman osaamisen päälle
+- Ei anna `agents/`-kansion subagentin muokata mitään tiedostoa tai tehdä
+  lopullista päätöstä — ne palauttavat vain löydöstaulukon (ks. kohta 7)

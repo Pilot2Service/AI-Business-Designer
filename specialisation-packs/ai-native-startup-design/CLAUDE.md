@@ -1,33 +1,24 @@
 # AI-Native Startup Design — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi.
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
-## Vastuuvapaus — suunnitteluluonnos, ei valmis tuote eikä sijoituspäätös
+## Vastuuvapaus tässä pakissa — ei sijoituspäätöstä
 
-**Jokainen tuotos (mahdollisuusarvio, PRD, työkaluvalinta, prosessisuunnitelma) on
-päätöksenteon tueksi tehty luonnos, ei itse päätös.** Mitä rakennetaan, millä
+Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi: mitä rakennetaan, millä
 työkaluilla, ja millä resursseilla, on aina perustajan/tiimin oma päätös.
-
-- Älä esitä AI:n tuottamaa priorisointia, PRD:tä tai työkaluvalintaa lopullisena
-  totuutena — se on lähtökohta, jonka ihminen tarkistaa ja hyväksyy.
-- Tunnista epävarmuus avoimesti — jos lähtötieto (oma liiketoimintakonteksti) on
-  ohut, sano se, äläkä täytä aukkoja arvauksella.
-- Toteutettavuus-, potentiaali- ja priorisointiarviot (ks.
-  `skills/ai-native-opportunity-scan/SKILL.md`) ovat AI:n arvioita, eivät
-  validoitua markkinatietoa.
+Toteutettavuus-, potentiaali- ja priorisointiarviot (ks.
+`skills/ai-native-opportunity-scan/SKILL.md`) ovat AI:n arvioita, eivät validoitua
+markkinatietoa.
 
 ## Ei keksitä lukuja tai faktoja — ja työkalutieto vanhenee erityisen nopeasti
 
-Tämän pakin sisältö jakautuu kahteen kerrokseen, joita tulee käsitellä eri tavoin:
+Yleisen periaatteen lisäksi, tämän pakin sisältö jakautuu kahteen kerrokseen, joita
+tulee käsitellä eri tavoin:
 
 1. **Menetelmä** (mindset, closed-loop-ajattelu, ICP/JTBD/Need Themes, PRD-rakenne)
    on suhteellisen pysyvää — ankkuroitu omistajan pidettyyn työpajaan
@@ -38,14 +29,14 @@ Tämän pakin sisältö jakautuu kahteen kerrokseen, joita tulee käsitellä eri
    johtavat tuotteet vaihtuvat. Älä esitä näitä nimiä nykyhetken totuutena — ohjaa
    käyttäjä aina tarkistamaan työkalun senhetkinen tila ennen sitoutumista.
 
-## Premissien tarkistus
+## Premissien tarkistus tässä pakissa
 
 Jos käyttäjän esittämä fakta (esim. "meillä on jo tekninen kumppani", "olemme jo
 valinneet backendin") on olennainen lopputuloksen kannalta, käytä sitä sellaisenaan
 äläkä ohita sitä yleisellä oletuksella — nämä skillit on suunniteltu ei-tekniselle
 pre-startup-founderille, mutta moni käyttäjä on jo pidemmällä.
 
-## Kypsyystaso näkyväksi — pakki on nyt kaksitasoinen
+## Kypsyystaso tässä pakissa — kaksitasoinen
 
 Kaikki tämän pakin skillit ovat `source_layer: owner` (ks.
 `../../skills_index.json` ja `../../meta/maturity_levels.md`), mutta pakissa on

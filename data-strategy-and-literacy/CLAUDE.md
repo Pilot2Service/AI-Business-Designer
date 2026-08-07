@@ -1,13 +1,9 @@
 # Data Strategy & Literacy — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi.
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
@@ -44,33 +40,19 @@ mihin liiketoimintamalliin se kytketään) on **hyökkäyspeliä**: se tuottaa u
 mutta epäonnistuu ilman toimivaa governancea altaan pohjana. Älä esitä jompaakumpaa
 korvaajana toiselle asiakkaalle — ne ovat molemmat tarpeen, eri syistä.
 
-## Ei keksitä lukuja tai faktoja
+## Vastuuvapaus tässä pakissa — myös sääntelyvastuu
 
-Älä tuota tarkkoja datan laatu-, kattavuus- tai arvolukuja muistista tai arvauksena
-esittäen niitä vahvistettuina. Kaksi hyväksyttyä tapaa:
-
-1. **Käyttäjän antama lähtöarvo tai mitattu havainto** — käytä sitä ja mainitse lähde
-   ja mittausolosuhteet (esim. otoskoko, ajanjakso, kattavuus).
-2. **Läpinäkyvä oletus** — merkitse selvästi `[oletus — tarkista]` luvun viereen, älä
-   kappaleen loppuun yleisenä varauksena.
-
-## Vastuuvapaus — luonnos, ei päätös
-
-**Jokainen tuotos on päätöksenteon tueksi tehty luonnos, ei itse päätös.** Datan
-roolin diagnoosin, monetisointisuosituksen tai strategiakartan tekee tämä skilli;
-päätöksen ja sen seuraukset (mukaan lukien tietosuoja- ja sääntelyvastuu) kantaa aina
-ihminen, jolla on siihen valtuudet ja vastuu organisaatiossa. Datan monetisointiin ja
+Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi: datan monetisointiin ja
 käsittelyyn liittyvät yksityisyys- ja sääntelykysymykset (esim. GDPR) vaativat
 erillisen tietosuoja-asiantuntemuksen — tämä pakki ei korvaa sitä.
 
-## Kypsyystaso näkyväksi
+## Kypsyystaso tässä pakissa
 
 Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
 `../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
 tutkimuspohjaisia (datalukutaitokehykset, data-arvoketjun ja Data & AI -strategian
 kirjallisuus, monetisointimallien synteesi), mutta omaa validoitua konsultointi-
-kokemusta ei vielä ole liitetty. Kun käytät tämän pakin skillejä, tee tämä näkyväksi
-äläkä esitä `[OWNER INPUT]`-osion puuttumista täydellisenä osaamisena.
+kokemusta ei vielä ole liitetty.
 
 ## Jaetut standardit
 

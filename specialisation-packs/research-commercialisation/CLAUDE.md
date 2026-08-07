@@ -1,26 +1,17 @@
 # Research Commercialisation — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi.
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
-## Vastuuvapaus — luonnos, ei päätös
+## Vastuuvapaus tässä pakissa
 
-**Jokainen tuotos on päätöksenteon tueksi tehty luonnos, ei itse päätös.** Reitin
-valinta (spin-out vs. lisensointi), rahoitusstrategia, equity-jako tai muu
-kaupallistamispäätös on aina tutkijan/tiimin ja heidän TTO:nsa/juristinsa vastuulla.
-
-- Älä esitä analyysia tai suositusta lopullisena totuutena.
-- Tunnista epävarmuus avoimesti — jos lähtötieto on ohut tai oletuksenvarainen, sano se.
-- Ennen kuin roadmap, rahoitussuunnitelma tai tiimisopimus viedään päätöksentekoon:
-  **ihminen tarkistaa ja hyväksyy.**
+Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi: reitin valinta (spin-out
+vs. lisensointi), rahoitusstrategia, equity-jako tai muu kaupallistamispäätös on
+aina tutkijan/tiimin ja heidän TTO:nsa/juristinsa vastuulla.
 
 ## Ei keksitä lukuja tai faktoja — myös ankkurikäsikirjan ulkopuolella
 
@@ -38,7 +29,7 @@ verrattuna pelkkään tutkimustason scaffoldiin, mutta ei poista vastuuta:
    käyttäjä tarvitsee ajantasaisen tiedon tietystä ohjelmasta, ohjaa tarkistamaan
    se suoraan rahoittajalta äläkä esitä käsikirjan lukua nykyhetken totuutena.
 
-## Premissien tarkistus
+## Premissien tarkistus tässä pakissa
 
 Jos käyttäjän esittämä fakta (esim. "yliopistoni ei vaadi keksintöilmoitusta",
 "meillä ei ole TTO:ta") on olennainen lopputuloksen kannalta mutta poikkeaa
@@ -46,7 +37,7 @@ käsikirjan yleisestä mallista, nosta se esiin sen sijaan että jatkat hiljaa
 oletuksen varassa — instituutioiden käytännöt vaihtelevat merkittävästi (ks.
 `skills/ip-disclosure-and-ownership-check/SKILL.md`).
 
-## Kypsyystaso näkyväksi
+## Kypsyystaso tässä pakissa
 
 Tämän pakin skillit ovat `maturity: validated` -tasolla (ks. `../../skills_index.json`
 ja `../../meta/maturity_levels.md`) — sisältö on omistajan julkaistuun, käytännössä

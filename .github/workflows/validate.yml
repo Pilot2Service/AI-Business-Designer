@@ -1,0 +1,44 @@
+name: validate
+
+# Jokainen push ja pull request ajaa saman kahden skriptin ketjun jonka Contributing
+# ohjeistaa ajamaan käsin ennen commitia. Tämä ei korvaa scripts/validate.py:tä — se
+# vain varmistaa, ettei kukaan unohda ajaa sitä.
+#
+# Kaksi erillistä tarkistusta:
+#   1. generate_index.py ei muuta skills_index.json:ia (jos muuttaisi, joku on
+#      unohtanut ajaa sen ennen commitia tai muokannut indeksiä käsin — molemmat
+#      kiellettyjä CONTRIBUTING.md:n mukaan).
+#   2. validate.py palauttaa 0 (rakenne, frontmatterit, marketplace.json ja
+#      skills_index.json ovat sisäisesti konsistentteja).
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+  workflow_dispatch: {}
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Regeneroi skills_index.json ja tarkista ettei se muutu
+        run: |
+          python3 scripts/generate_index.py
+          if ! git diff --quiet -- skills_index.json; then
+            echo "::error::skills_index.json on eri kuin generate_index.py tuottaisi."
+            echo "Aja 'python3 scripts/generate_index.py' paikallisesti ja committaa tulos."
+            git diff -- skills_index.json
+            exit 1
+          fi
+
+      - name: Aja validate.py
+        run: python3 scripts/validate.py

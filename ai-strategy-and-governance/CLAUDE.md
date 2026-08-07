@@ -1,54 +1,22 @@
 # AI Strategy & Governance — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi. (Periaate lainattu ja sovellettu claude-for-legal-finland
-> -repon CONTRIBUTING.md:stä.)
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
-## Vastuuvapaus — luonnos, ei päätös
-
-**Jokainen tuotos on päätöksenteon tueksi tehty luonnos, ei itse päätös.** Analyysin,
-priorisoinnin tai suosituksen tekee tämä skilli; päätöksen ja sen seuraukset kantaa aina
-ihminen, jolla on siihen valtuudet ja vastuu organisaatiossa.
-
-- Älä esitä laskelmaa tai suositusta lopullisena totuutena.
-- Tunnista epävarmuus avoimesti — jos lähtötieto on ohut tai oletuksenvarainen, sano se.
-- Ennen kuin business case, roadmap tai suositus viedään päätöksentekoon: **ihminen
-  tarkistaa ja hyväksyy.**
-
-## Ei keksitä lukuja tai faktoja
-
-Älä tuota tarkkoja markkinakoko-, ROI-, kilpailija- tai muita lukuja muistista tai
-arvauksena esittäen niitä vahvistettuina. Kaksi hyväksyttyä tapaa:
-
-1. **Käyttäjän antama lähtöarvo** — käytä sitä ja mainitse lähde.
-2. **Läpinäkyvä oletus** — merkitse selvästi `[oletus — tarkista]` luvun viereen, älä
-   kappaleen loppuun yleisenä varauksena.
-
-## Premissien tarkistus
-
-Jos käyttäjän esittämä liiketoimintafakta (markkinan koko, kilpailutilanne, sisäinen
-prosessi) on olennainen lopputuloksen kannalta mutta epävarma, nosta se esiin ennen kuin
-rakennat analyysin sen varaan. Älä jatka hiljaa väärän oletuksen pohjalta.
-
-## Kypsyystaso näkyväksi
+## Kypsyystaso tässä pakissa
 
 Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
 `../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
-tutkimuspohjaisia, mutta omaa validoitua kokemusta ei vielä ole liitetty. Kun käytät
-tämän pakin skillejä, tee tämä näkyväksi äläkä esitä `[OWNER INPUT]`-osion puuttumista
-täydellisenä osaamisena.
+tutkimuspohjaisia, mutta omaa validoitua kokemusta ei vielä ole liitetty.
 
 ## Pakkikohtainen huomio
 
-Ei korvaa juridista EU AI Act -compliance-arviota — syvempään analyysiin tarvitaan erillinen sääntely-asiantuntemus.
+Ei korvaa juridista EU AI Act -compliance-arviota — syvempään analyysiin tarvitaan
+erillinen sääntely-asiantuntemus.
 
 Tässä pakissa on useita samankaltaisia kolmi-/nelijaotteluja, jotka
 vastaavat ERI kysymyksiin — älä sekoita niitä keskenään:
@@ -63,6 +31,7 @@ vastaavat ERI kysymyksiin — älä sekoita niitä keskenään:
   "kuinka SYVÄLLE organisaatiota tämän toteutus koskettaa".
 - **Horisontti 1/2/3** (`ai-capability-roadmap`) — vastaa "MILLOIN tämä
   toteutetaan".
+
 Kun viittaat johonkin näistä, käytä oikeaa termiä äläkä käytä niitä
 toistensa synonyymeinä — ne korreloivat mutta eivät ole sama luokitus.
 
@@ -76,6 +45,11 @@ Raakalistan kokoamiseen on kaksi täydentävää, EI kilpailevaa, lähestymistap
   kyvykkyyspatternikirjaston (`references/ai-capability-pattern-library.md`)
   diagnostiset kysymykset ennen tarkkaa prosessikuvausta. Nopeampi
   ensimmäinen kartoitus, vaatii validoinnin ennen pisteytystä.
+
+Tämän pakin `ai-initiative-readiness-auditor`-agentti (ks. `agents/`) auditoi
+`ai-opportunity-portfolio`-skillin 5 ulottuvuutta ja `responsible-ai-and-
+governance-check`-tarkistuslistaa vasten ennen kuin aloite viedään hyväksyntään —
+se ei korvaa yllä mainittua juridista compliance-arviota.
 
 ## Jaetut standardit
 

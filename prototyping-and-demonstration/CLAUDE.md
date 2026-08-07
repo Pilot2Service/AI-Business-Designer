@@ -1,13 +1,9 @@
 # Prototyping & Demonstration — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi.
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
@@ -59,39 +55,20 @@ niiden PITÄÄ tehdä riski näkyväksi jo demo-/PoC-vaiheen kehystyksessä (ks.
 `skills/demo-framing-and-expectation-setting/SKILL.md`) — älä anna asiakkaan
 uskoa, että onnistunut demo tarkoittaa automaattista tuotantoon etenemistä.
 
-## Vastuuvapaus — luonnos, ei päätös
+## Ei keksitä lukuja tässä pakissa — skaalautumisoletus erikseen
 
-**Jokainen tuotos on päätöksenteon tueksi tehty luonnos, ei itse päätös.** Analyysin,
-kehystyksen tai suosituksen tekee tämä skilli; päätöksen ja sen seuraukset kantaa aina
-ihminen, jolla on siihen valtuudet ja vastuu organisaatiossa.
+Yleisen periaatteen (`shared-guardrails.md`) lisäksi: PoC-mittakaavan tulos
+(esim. "säästi 2 tuntia 10 tapauksessa") ei ekstrapoloidu suoraviivaisesti
+tuotantomittakaavaan ilman selkeää, näkyväksi merkittyä oletusta siitä, miksi
+skaalautuminen olisi lineaarista.
 
-- Älä esitä demon tulosta tai ROI-arviota lopullisena totuutena.
-- Tunnista epävarmuus avoimesti — jos lähtötieto on ohut tai oletuksenvarainen, sano se.
-- Ennen kuin demo-tulos tai sen pohjalta laskettu ROI-arvio viedään
-  päätöksentekoon: **ihminen tarkistaa ja hyväksyy.**
-
-## Ei keksitä lukuja tai faktoja
-
-Älä tuota tarkkoja ROI-, aikasäästö- tai muita lukuja muistista tai arvauksena
-esittäen niitä vahvistettuina. Kaksi hyväksyttyä tapaa:
-
-1. **Käyttäjän antama lähtöarvo tai demossa mitattu havainto** — käytä sitä ja
-   mainitse lähde ja mittausolosuhteet (esim. otoskoko, testiympäristö).
-2. **Läpinäkyvä oletus** — merkitse selvästi `[oletus — tarkista]` luvun viereen,
-   älä kappaleen loppuun yleisenä varauksena. Muista erityisesti: PoC-mittakaavan
-   tulos (esim. "säästi 2 tuntia 10 tapauksessa") ei ekstrapoloidu suoraviivaisesti
-   tuotantomittakaavaan ilman selkeää oletusta siitä, miksi skaalautuminen olisi
-   lineaarista.
-
-## Kypsyystaso näkyväksi
+## Kypsyystaso tässä pakissa
 
 Tämän pakin skillit ovat tällä hetkellä `maturity: scaffold` -tasolla (ks.
 `../skills_index.json` ja `../meta/maturity_levels.md`) — rakenne ja ankkurointi ovat
 tutkimuspohjaisia (Great Demo! -metodologia, vibe coding -käytännöt, PoC/Pilot/MVP-
 kirjallisuus, Amazon Working Backwards, prototyyppifideliteetti-tutkimus), mutta omaa
-validoitua konsultointikokemusta ei vielä ole liitetty. Kun käytät tämän pakin
-skillejä, tee tämä näkyväksi äläkä esitä `[OWNER INPUT]`-osion puuttumista
-täydellisenä osaamisena.
+validoitua konsultointikokemusta ei vielä ole liitetty.
 
 ## Jaetut standardit
 

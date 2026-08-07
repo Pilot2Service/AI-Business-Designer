@@ -25,6 +25,7 @@ REQUIRED_PACK_FILES = ["README.md", "CLAUDE.md", os.path.join(".claude-plugin", 
 
 errors = []
 warnings = []
+agent_count = 0
 
 
 def parse_frontmatter_keys(text, path):
@@ -55,7 +56,47 @@ def _check_skill_frontmatter(name, skill_id, skill_md):
         errors.append(f"{skill_md}: missing required frontmatter keys {missing}")
 
 
+AGENT_ALLOWED_KEYS = ("name", "description", "tools", "model")
+AGENT_REQUIRED_KEYS = ("name", "description")
+
+
+def _check_agent_frontmatter(pack_name, agent_file):
+    """Agents (<pack>/agents/<agent-id>.md) are delegatable, read-only subagents —
+    a different mechanism from skills, so a different (slightly wider) frontmatter
+    contract applies: name + description required, tools/model optional, nothing
+    else."""
+    agent_id = os.path.splitext(os.path.basename(agent_file))[0]
+    with open(agent_file, encoding="utf-8") as f:
+        text = f.read()
+    keys = parse_frontmatter_keys(text, agent_file)
+    extra = [k for k in keys if k not in AGENT_ALLOWED_KEYS]
+    missing = [k for k in AGENT_REQUIRED_KEYS if k not in keys]
+    if extra:
+        errors.append(f"{agent_file}: forbidden frontmatter keys {extra} (allowed: {list(AGENT_ALLOWED_KEYS)})")
+    if missing:
+        errors.append(f"{agent_file}: missing required frontmatter keys {missing}")
+    m = re.search(r"^name:\s*(.+)$", text, re.MULTILINE)
+    if m and m.group(1).strip() != agent_id:
+        errors.append(f"{agent_file}: frontmatter name '{m.group(1).strip()}' != filename '{agent_id}'")
+    if "tools" not in keys:
+        warnings.append(f"{agent_file}: no 'tools' field — agent will inherit full tool access, prefer an explicit read-only list")
+
+
+def check_agents_in(pack_id, pack_dir):
+    agents_dir = os.path.join(pack_dir, "agents")
+    if not os.path.isdir(agents_dir):
+        return 0
+    count = 0
+    for fname in sorted(os.listdir(agents_dir)):
+        if not fname.endswith(".md"):
+            continue
+        _check_agent_frontmatter(pack_id, os.path.join(agents_dir, fname))
+        count += 1
+    return count
+
+
 def check_packs():
+    global agent_count
     packs = []
     for name in sorted(os.listdir(ROOT)):
         full = os.path.join(ROOT, name)
@@ -69,6 +110,8 @@ def check_packs():
                 errors.append(f"pack '{name}': missing required file {req}")
         if re.match(r"^\d", name):
             errors.append(f"pack '{name}': numeric prefix not allowed (see CONTRIBUTING.md)")
+
+        agent_count += check_agents_in(name, full)
 
         skills_dir = os.path.join(full, "skills")
         if not os.path.isdir(skills_dir):
@@ -84,6 +127,7 @@ def check_specialisation_pack_skills():
     aren't installable plugins in their own right, but once they have a non-empty
     skills/ directory, the same frontmatter contract applies, and README.md +
     CLAUDE.md become required (mirrors REQUIRED_PACK_FILES minus plugin.json)."""
+    global agent_count
     base = os.path.join(ROOT, "specialisation-packs")
     if not os.path.isdir(base):
         return
@@ -102,6 +146,7 @@ def check_specialisation_pack_skills():
             errors.append(f"pack '{pack_id}': missing required file README.md")
         if not os.path.exists(os.path.join(full, "CLAUDE.md")):
             errors.append(f"pack '{pack_id}': missing required file CLAUDE.md (required once skills/ is populated)")
+        agent_count += check_agents_in(pack_id, full)
         for skill_id in sorted(os.listdir(skills_dir)):
             _check_skill_frontmatter(pack_id, skill_id, os.path.join(skills_dir, skill_id, "SKILL.md"))
 
@@ -167,6 +212,26 @@ def check_skills_index():
         for name in sorted(os.listdir(spec_base)):
             check_orphans_in(os.path.join(spec_base, name, "skills"))
 
+    # same orphan check for agents/*.md
+    indexed_agent_ids = {a["id"] for a in idx.get("agents", [])}
+
+    def check_agent_orphans_in(agents_dir):
+        if not os.path.isdir(agents_dir):
+            return
+        for fname in os.listdir(agents_dir):
+            if fname.endswith(".md") and fname[:-3] not in indexed_agent_ids:
+                errors.append(f"agent '{fname[:-3]}' on disk but missing from skills_index.json — run scripts/generate_index.py")
+
+    for name in sorted(os.listdir(ROOT)):
+        full = os.path.join(ROOT, name)
+        if not os.path.isdir(full) or name in NON_PACK_DIRS or name.startswith("."):
+            continue
+        check_agent_orphans_in(os.path.join(full, "agents"))
+
+    if os.path.isdir(spec_base):
+        for name in sorted(os.listdir(spec_base)):
+            check_agent_orphans_in(os.path.join(spec_base, name, "agents"))
+
 
 def main():
     packs = check_packs()
@@ -183,7 +248,7 @@ def main():
         for e in errors:
             print("  -", e)
         return 1
-    print(f"OK — {len(packs)} pakkia validoitu, ei virheitä.")
+    print(f"OK — {len(packs)} pakkia ja {agent_count} agenttia validoitu, ei virheitä.")
     return 0
 
 

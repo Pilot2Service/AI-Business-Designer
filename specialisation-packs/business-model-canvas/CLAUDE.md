@@ -1,13 +1,9 @@
 # Business Model Canvas — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi.
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
@@ -46,13 +42,13 @@ Tämä pakki noudattaa samaa periaatetta: jos `scaffold`-skillin tutkimuspohjain
 ohje on ristiriidassa `validated`-skillin omistajan oman näkemyksen kanssa, käytä
 `validated`-skilliä.
 
-## Vastuuvapaus — canvas on ajattelutyökalu, ei valmis liiketoimintasuunnitelma
+## Vastuuvapaus tässä pakissa — canvas on ajattelutyökalu
 
-Tämän koko pakin ydinviesti (`bmc-antipattern-and-misunderstanding-correction`) on
-että BMC EI korvaa liiketoimintasuunnitelmaa, tuotespesifikaatiota tai taloudellista
-mallinnusta. Älä esitä minkään tämän pakin skillin tuottamaa canvasia, pattern­
-suositusta tai diagnoosia valmiina liiketoimintapäätöksenä — se on aina päätöksen­
-teon tukena oleva luonnos, jonka ihminen tarkistaa.
+Yleisen vastuuvapauden (`shared-guardrails.md`) lisäksi, tämän koko pakin ydinviesti
+(`bmc-antipattern-and-misunderstanding-correction`) on että BMC EI korvaa
+liiketoimintasuunnitelmaa, tuotespesifikaatiota tai taloudellista mallinnusta. Älä
+esitä minkään tämän pakin skillin tuottamaa canvasia, patternsuositusta tai
+diagnoosia valmiina liiketoimintapäätöksenä.
 
 ## Ei keksitä patterneja tai lähteitä
 

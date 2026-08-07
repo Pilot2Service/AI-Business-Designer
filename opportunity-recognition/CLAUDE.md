@@ -1,44 +1,13 @@
 # Opportunity Recognition — jaetut suojaukset
 
-Tämän tiedoston ohjeet koskevat **jokaista** tämän pakin skilliä. Yksittäinen skilli
-(`skills/<nimi>/SKILL.md`) kertoo *mitä* tehdään; tämä tiedosto on **varaverkko**, joka
-estää tyypilliset virheet riippumatta siitä, mikä skilli on käynnissä.
-
-> **Suunnitteluperiaate:** oikea toiminta kuuluu SKILL.md:hen, ei tänne. Jos skillin
-> oikea lopputulos riippuu siitä, että jokin tämän tiedoston suojaus pelastaa virheen,
-> vika on skillissä — vie tieto sinne. Nämä suojaukset ovat henkivakuutus, eivät
-> ensisijainen mekanismi. (Periaate lainattu ja sovellettu claude-for-legal-finland
-> -repon CONTRIBUTING.md:stä.)
+Yleiset suojaukset (vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus,
+kypsyystason näkyväksi tekemisen periaate) ovat koostettu yhteen paikkaan:
+**ks. `../meta/shared-guardrails.md` — lue se ensin.** Tämä tiedosto sisältää vain
+sen, mikä on aidosti pakkikohtaista tässä pakissa.
 
 ---
 
-## Vastuuvapaus — luonnos, ei päätös
-
-**Jokainen tuotos on päätöksenteon tueksi tehty luonnos, ei itse päätös.** Analyysin,
-priorisoinnin tai suosituksen tekee tämä skilli; päätöksen ja sen seuraukset kantaa aina
-ihminen, jolla on siihen valtuudet ja vastuu organisaatiossa.
-
-- Älä esitä laskelmaa tai suositusta lopullisena totuutena.
-- Tunnista epävarmuus avoimesti — jos lähtötieto on ohut tai oletuksenvarainen, sano se.
-- Ennen kuin business case, roadmap tai suositus viedään päätöksentekoon: **ihminen
-  tarkistaa ja hyväksyy.**
-
-## Ei keksitä lukuja tai faktoja
-
-Älä tuota tarkkoja markkinakoko-, ROI-, kilpailija- tai muita lukuja muistista tai
-arvauksena esittäen niitä vahvistettuina. Kaksi hyväksyttyä tapaa:
-
-1. **Käyttäjän antama lähtöarvo** — käytä sitä ja mainitse lähde.
-2. **Läpinäkyvä oletus** — merkitse selvästi `[oletus — tarkista]` luvun viereen, älä
-   kappaleen loppuun yleisenä varauksena.
-
-## Premissien tarkistus
-
-Jos käyttäjän esittämä liiketoimintafakta (markkinan koko, kilpailutilanne, sisäinen
-prosessi) on olennainen lopputuloksen kannalta mutta epävarma, nosta se esiin ennen kuin
-rakennat analyysin sen varaan. Älä jatka hiljaa väärän oletuksen pohjalta.
-
-## Kypsyystaso näkyväksi
+## Kypsyystaso tässä pakissa
 
 Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
 `../meta/maturity_levels.md`):
@@ -53,12 +22,16 @@ Tämän pakin kypsyystaso on **sekoitettu** (ks. `../skills_index.json` ja
   — konvertoitu suoraan omistajan oman palvelun tuotteistetusta
   Opportunity Value Assessment -metodologiasta.
 
-Kun käytät tämän pakin skillejä, tee kypsyystaso näkyväksi äläkä esitä
-scaffold-skillien `[OWNER INPUT]`-osion puuttumista täydellisenä osaamisena.
-
 ## Pakkikohtainen huomio
 
-Ei korvaa toimialan syvällistä asiantuntemusta — nostaa esiin mahdollisuuksia arvioitavaksi, ei takaa niiden toteutuskelpoisuutta.
+Ei korvaa toimialan syvällistä asiantuntemusta — nostaa esiin mahdollisuuksia
+arvioitavaksi, ei takaa niiden toteutuskelpoisuutta.
+
+Tämän pakin `market-sizing-cross-validator`-agentti (ks. `agents/`) ristiintarkistaa
+`market-sizing-tam-sam-som`-skillin tuottaman laskelman ennen kuin lukua käytetään
+business casessa tai esitetään johdolle — ks. myös `../meta/external-data-mcp.md`
+valinnaisista ulkoisista datalähteistä joita agentti voi hyödyntää jos ne on
+kytketty.
 
 ## Jaetut standardit
 

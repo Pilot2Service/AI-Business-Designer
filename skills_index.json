@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — älä muokkaa käsin",
   "packs": [
@@ -1105,6 +1105,32 @@
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/research-commercialisation/skills/tto-engagement-strategy/SKILL.md"
+    }
+  ],
+  "agents": [
+    {
+      "id": "ai-initiative-readiness-auditor",
+      "pack": "ai-strategy-and-governance",
+      "description": "Auditoi AI-aloitteen ai-opportunity-portfolio-skillin 5 pisteytysulottuvuutta ja responsible-ai-and-governance-check-tarkistuslistaa vasten ennen kuin aloite viedään hyväksyntään. Käytä tätä agenttia kun AI-aloitteen portfolio-pisteytys ja/tai governance-tarkistus on tehty mutta ennen kuin ne kootaan lopulliseksi suositukseksi johdolle. Ei muokkaa aloitetta — palauttaa aukkotaulukon pisteytysulottuvuuksittain.",
+      "path": "ai-strategy-and-governance/agents/ai-initiative-readiness-auditor.md"
+    },
+    {
+      "id": "assumption-stress-tester",
+      "pack": "business-case-and-analysis",
+      "description": "Adversariaalinen toinen mielipide valmiille tai lähes valmiille business caselle. Käytä tätä agenttia ennen kuin business case, ROI-laskelma tai investointisuositus viedään päätöksentekoon — se lukee dokumentin tuoreena, ei ole osallistunut sen laadintaan, ja etsii aktiivisesti mikä siinä todennäköisimmin on väärin. Ei muokkaa dokumenttia — palauttaa löydöstaulukon. Eri tehtävä kuin assumption-and-evidence-audit-skilli, joka on menetelmä caseä RAKENNETTAESSA; tämä agentti on riippumaton tarkistus SEN JÄLKEEN kun case on jo koossa.",
+      "path": "business-case-and-analysis/agents/assumption-stress-tester.md"
+    },
+    {
+      "id": "competitive-blind-spot-scanner",
+      "pack": "business-design-frameworks",
+      "description": "Etsii kilpailu- tai asemointianalyysin (five forces, strategy canvas / value curve, kategoriamallinnus) katvealueet ja tarkistamattomat suunnat ennen kuin analyysi esitetään valmiina kuvana toimialasta. Käytä tätä agenttia kun competitive-and-five-forces-mapping- tai strategy-canvas-and-value-curve-skillin tulos on koossa. Ei muokkaa analyysiä — palauttaa katvealuetaulukon.",
+      "path": "business-design-frameworks/agents/competitive-blind-spot-scanner.md"
+    },
+    {
+      "id": "market-sizing-cross-validator",
+      "pack": "opportunity-recognition",
+      "description": "Ristiintarkistaa TAM/SAM/SOM-laskelman logiikan, lähteet ja johdonmukaisuuden vähintään kahdella riippumattomalla menetelmällä ennen kuin lukua käytetään business casessa tai esitetään johdolle. Käytä tätä agenttia kun market-sizing-tam-sam-som-skillin (tai minkä tahansa muun markkinakokolaskelman) tulos on valmis mutta ei vielä lukittu. Ei muokkaa laskelmaa — palauttaa ristiintarkistustaulukon ja luottamustason.",
+      "path": "opportunity-recognition/agents/market-sizing-cross-validator.md"
     }
   ]
 }

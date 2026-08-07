@@ -1,5 +1,76 @@
 # Changelog
 
+## 0.17.0 — 2026-08-07
+
+**Infrastruktuuripäivitys** — meta-tason vertailuanalyysi
+(`claude-for-legal-finland` ja muut hyvin rakennetut avoimet Claude
+skills-repot) osoitti, että sisällössä (78 skilliä) tämä repo oli jo samaa
+kokoluokkaa, mutta jäljessä infrastruktuurissa: ei CI-validointia, ei
+jaettua juuritason standardidokumenttia, ei tilastoriviä READMEssä, ei
+delegoitavaa agentti-kerrosta, ei yhden-polun aloitusopasta. Tämä versio
+korjaa kaikki nämä.
+
+**CI-validointi.** `.github/workflows/validate.yml` ajaa
+`generate_index.py` + `validate.py` jokaisessa pushissa ja pull requestissa
+— tarkistaa myös ettei `skills_index.json` ole eronnut levyllä olevasta
+todellisuudesta. Rikkinäinen frontmatter tai epäsynkronoitu indeksi estää
+mergen automaattisesti.
+
+**Jaetut standardit — yksi lähde, ei kaksitoista kopiota.**
+`meta/shared-guardrails.md` on nyt ainoa lähde toistuville suojauksille
+(vastuuvapaus, ei keksittyjä lukuja, premissien tarkistus, kypsyystason
+näkyväksi tekeminen, agenttien read-only-periaate). Kaikki 11 pakin
+`CLAUDE.md`-tiedostoa (8 ydinpakkia + 3 täytettyä erikoistumispakkia)
+refaktoroitu viittaamaan tähän — jäljelle jää vain aidosti pakkikohtainen
+sisältö. Vähentää ylläpitotaakkaa ja poistaa driftiriskin kun suojauksia
+päivitetään.
+
+**QUICKSTART.md.** Yhden polun aloitusopas: asenna marketplace → valitse
+yksi pakki tehtävän mukaan → aja yksi skilli → mitä pitäisi tulla ulos
+(rakenteinen luonnos, näkyvät oletukset, näkyvä kypsyystaso, ei lopullista
+päätöstä).
+
+**Neljä delegoitavaa audit-agenttia** (`agents/*.md`, read-only, Task-työkalulla
+kutsuttavia) — analoginen `claude-for-legal-finland`-repon kuuteen agenttiin,
+mutta liiketoimintasuunnittelun kontekstiin: skilli tuottaa analyysin,
+agentti haastaa tai ristiintarkistaa sen ennen kuin se menee
+päätöksentekoon.
+
+- `business-case-and-analysis/agents/assumption-stress-tester` —
+  adversariaalinen toinen mielipide valmiille business caselle; eri rooli
+  kuin `assumption-and-evidence-audit`-skilli (joka on menetelmä caseä
+  RAKENNETTAESSA — agentti on riippumaton tarkistus SEN JÄLKEEN).
+- `opportunity-recognition/agents/market-sizing-cross-validator` —
+  ristiintarkistaa TAM/SAM/SOM-laskelman top-down- ja bottom-up-menetelmillä,
+  antaa luottamustason (KORKEA/KOHTALAINEN/MATALA).
+- `business-design-frameworks/agents/competitive-blind-spot-scanner` —
+  etsii kilpailu-/asemointianalyysin (five forces, strategy canvas)
+  katvealueet; toimii sekä oman pakin että `opportunity-recognition`-pakin
+  tuotosten päällä.
+- `ai-strategy-and-governance/agents/ai-initiative-readiness-auditor` —
+  auditoi AI-aloitteen `ai-opportunity-portfolio`-pisteytyksen ja
+  `responsible-ai-and-governance-check`-tarkistuslistan huolellisuuden ennen
+  hyväksyntää.
+
+`scripts/validate.py` laajennettu tarkistamaan agenttien frontmatter (oma,
+skilliä sallivampi kenttäjoukko: `name`+`description` pakollisia,
+`tools`/`model` sallittuja) ja agentti-orpojen puuttuminen indeksistä.
+`scripts/generate_index.py` indeksoi nyt myös agentit `skills_index.json`:n
+uuteen `agents`-kenttään.
+
+**Ulkoiset data-MCP:t — dokumentoitu, ei riippuvuus.**
+`meta/external-data-mcp.md` listaa kandidaatteja (ensisijaisesti Market
+Sizing MCP Server / TAM-MCP-Server, 8 talousdatalähdettä: Alpha Vantage,
+BLS, Census, FRED, IMF, Nasdaq Data Link, OECD, World Bank) joita
+`market-sizing-tam-sam-som`-skilli ja `market-sizing-cross-validator`-agentti
+voivat käyttää jos käyttäjän ympäristössä sellainen on kytketty. Ei
+pakollinen — repo säilyy täysin itsenäisenä, kuten v0.15.0:ssa
+vahvistettiin.
+
+**README** sai mitattavan tilastorivin ("8 ydinpakkia · 3 täytettyä
+erikoistumispakkia · 78 skilliä · 4 audit-agenttia · itsenäinen · CI-validoitu
+· MIT"), uuden Agentit-taulukon ja linkin QUICKSTART.md:hen.
+
 ## 0.16.0 — 2026-08-06
 
 **Uusi ydinpakki**, `data-strategy-and-literacy/` (6 skilliä, `maturity:

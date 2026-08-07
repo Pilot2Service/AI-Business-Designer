@@ -56,3 +56,10 @@ Kun tämä osio on täytetty ja validoitu käytännössä, päivitä `skills_ind
 
 - `../../references/` — pakin yhteinen taustamateriaali
 - `../../CLAUDE.md` — pakin jaetut suojaukset
+- `../../../meta/external-data-mcp.md` — valinnainen ulkoinen data-MCP (Market
+  Sizing MCP Server / TAM-MCP-Server) laskelman pohjadataksi tai
+  ristiintarkistukseksi, jos käyttäjän ympäristössä sellainen on kytkettynä. Ei
+  riippuvuus — skilli toimii ilmankin.
+- `../agents/market-sizing-cross-validator.md` — delegoitava agentti joka
+  ristiintarkistaa tämän skillin tuottaman laskelman ennen kuin lukua käytetään
+  business casessa
