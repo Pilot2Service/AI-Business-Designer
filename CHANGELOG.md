@@ -44,6 +44,18 @@ is not covered in Anthropic's published Claude Code docs, so that
 subsection is now explicitly flagged as unverified/best-effort rather
 than stated as fact. QUICKSTART.md updated to match.
 
+Fourth pass: the author's name now appears at the very top of the hero
+("Built by Tommi Järvinen · v0.18.0 · MIT"), not just in the footer.
+Added a new "Before you dive in" section right after the hero — "Who
+this is for" (business/service designers not already fluent in
+demanding technical product/service environments; useful for someone
+early in an AI business design career or a consultant moving into the
+AI domain; senior AI business designers likely already have something
+comparable) and "What 'AI business design' actually means" (shaping
+business models, products, processes, and services where AI plays a
+meaningfully large role, from AI-native work to updating existing ways
+of working for the AI era).
+
 ## 0.18.0 — 2026-08-07
 
 **Full English translation.** The entire repo — all 8 core packs, all 3
