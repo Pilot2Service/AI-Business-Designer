@@ -3,16 +3,30 @@
 ## Unreleased
 
 **GitHub Pages landing site.** Added `docs/index.html` — a single-page,
-no-build-step landing site mirroring the trust-mechanism framing from the
-README (anchored-not-assumed, visible maturity, explicit scope limits,
-human decision gate), plus tables for all 8 core packs, 3 specialisation
-packs, and 4 delegatable agents, all linking through to their GitHub
-detail pages. Includes a generated `docs/og-image.png` for social-preview
-cards and a `docs/.nojekyll` marker so GitHub Pages serves the file
-directly without a Jekyll build. Root `README.md` now links to the live
-site. Requires enabling GitHub Pages once in repo Settings (Source:
-Deploy from a branch, `main` / `docs`) — see the setup note in the PR/commit
-this shipped in.
+no-build-step landing site, dark theme, plus tables for all 8 core
+packs, 3 specialisation packs, and 4 delegatable agents, all linking
+through to their GitHub detail pages. Includes a generated
+`docs/og-image.png` for social-preview cards and a `docs/.nojekyll`
+marker so GitHub Pages serves the file directly without a Jekyll build.
+Root `README.md` now links to the live site. Requires enabling GitHub
+Pages once in repo Settings (Source: Deploy from a branch, `main` /
+`docs`).
+
+First draft was reworked after review for clarity: the opening line now
+states plainly what this is (a personal, open-source AI business design
+skills collection) before anything else; added a "How this is organized"
+section explaining the pack → skill → agent relationship; added an
+explicit callout clarifying that "scaffold" status means complete and
+usable — grounded in a public framework rather than the author's own
+field-tested experience — not unfinished; simplified the agents section
+heading; removed a generic numbered-workflow section that didn't add
+information; clarified the install section's prerequisite (Claude Code
+or Cowork required); and fully rewrote "About this project" in a
+first-person, personal-project voice — not a commercial product, no
+maintenance guarantee, built from 15+ years of commercialization,
+productization, and service-development experience. Visual design
+switched to a black background with light gray text and a bright accent
+color, per the author's preference.
 
 ## 0.18.0 — 2026-08-07
 
