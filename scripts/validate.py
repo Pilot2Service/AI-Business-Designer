@@ -2,9 +2,8 @@
 """
 validate.py — structural + frontmatter gate for the AI Business Designer skills repo.
 
-Run before every commit (and wire into CI once this repo has one). Exit code 1 on any
-failure, matching the [redacted]/claude-for-legal-finland convention of a validator
-that must be green before push.
+Run before every commit (and wired into CI). Exit code 1 on any failure — this must
+be green before push.
 
 Usage:
     python3 scripts/validate.py
