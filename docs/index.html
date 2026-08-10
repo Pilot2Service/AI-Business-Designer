@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Business Designer — Skills for Claude Code &amp; Cowork</title>
+<meta name="description" content="Open-source skills pack for AI-assisted business design: opportunity recognition, business case building, AI strategy, and change communication. 8 core packs, 3 specialisation packs, 78 skills, 4 audit agents, MIT license.">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Business Designer">
+<meta property="og:title" content="AI Business Designer — Skills for Claude Code &amp; Cowork">
+<meta property="og:description" content="Structured business design techniques anchored in named frameworks or real consulting experience — never presented as more confident than it is. 8 core packs, 3 specialisation packs, 78 skills, 4 audit agents.">
+<meta property="og:image" content="https://pilot2service.github.io/AI-Business-Designer/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="https://pilot2service.github.io/AI-Business-Designer/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Business Designer — Skills for Claude Code &amp; Cowork">
+<meta name="twitter:description" content="Structured business design techniques anchored in named frameworks or real consulting experience. 8 core packs, 78 skills, 4 audit agents, MIT license.">
+<meta name="twitter:image" content="https://pilot2service.github.io/AI-Business-Designer/og-image.png">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23101420'/%3E%3Ctext x='50' y='68' font-size='58' font-family='Georgia,serif' fill='%236384ff' text-anchor='middle'%3EA%3C/text%3E%3C/svg%3E">
+
+<style>
+  :root{
+    --bg:#fafaf9;
+    --bg-alt:#f2f2f0;
+    --panel:#ffffff;
+    --border:#e4e4e1;
+    --text:#17181c;
+    --text-muted:#5b5f6a;
+    --text-faint:#8a8e99;
+    --accent:#3d4dff;
+    --accent-dark:#2b39d1;
+    --accent-soft:#eef0ff;
+    --code-bg:#101420;
+    --code-text:#e8eaf5;
+    --radius:10px;
+    --maxw:980px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  code, pre{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+    font-size:0.92em;
+  }
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px;}
+
+  /* Nav */
+  nav.topbar{
+    position:sticky;top:0;z-index:10;
+    background:rgba(250,250,249,0.9);
+    backdrop-filter:blur(8px);
+    border-bottom:1px solid var(--border);
+  }
+  nav.topbar .wrap{
+    display:flex;align-items:center;justify-content:space-between;
+    padding-top:14px;padding-bottom:14px;
+  }
+  nav.topbar .brand{font-weight:700;font-size:15px;letter-spacing:0.01em;color:var(--text);}
+  nav.topbar .links{display:flex;gap:22px;font-size:14px;}
+  nav.topbar .links a{color:var(--text-muted);}
+  nav.topbar .links a:hover{color:var(--accent);text-decoration:none;}
+
+  /* Hero */
+  header.hero{padding:72px 0 56px;border-bottom:1px solid var(--border);}
+  .badge-line{
+    display:inline-block;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    font-size:12.5px;letter-spacing:0.06em;color:var(--accent-dark);
+    background:var(--accent-soft);border:1px solid #d7dbff;
+    padding:5px 12px;border-radius:999px;margin-bottom:22px;
+  }
+  header.hero h1{
+    font-size:clamp(32px,5vw,46px);
+    line-height:1.12;margin:0 0 20px;font-weight:800;letter-spacing:-0.01em;
+    max-width:780px;
+  }
+  header.hero p.lead{
+    font-size:18px;color:var(--text-muted);max-width:680px;margin:0 0 32px;
+  }
+  .stats-row{
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:14px;color:var(--text-faint);
+    border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+    padding:16px 0;margin-bottom:32px;
+  }
+  .stats-row b{color:var(--text);font-weight:700;}
+  .cta{display:flex;gap:14px;flex-wrap:wrap;}
+  .btn{
+    display:inline-block;padding:11px 20px;border-radius:8px;font-size:14.5px;font-weight:600;
+    border:1px solid var(--border);color:var(--text);
+  }
+  .btn:hover{text-decoration:none;border-color:var(--accent);}
+  .btn.primary{background:var(--text);color:#fff;border-color:var(--text);}
+  .btn.primary:hover{background:#000;}
+
+  section{padding:56px 0;border-bottom:1px solid var(--border);}
+  section:last-of-type{border-bottom:none;}
+  .eyebrow{
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size:12.5px;color:var(--text-faint);letter-spacing:0.08em;margin-bottom:8px;
+  }
+  h2{font-size:26px;margin:0 0 8px;font-weight:800;letter-spacing:-0.01em;}
+  h2 + p.section-sub{color:var(--text-muted);margin:0 0 32px;max-width:620px;}
+  h3.sub{font-size:15px;text-transform:uppercase;letter-spacing:0.05em;color:var(--text-faint);margin:32px 0 14px;}
+  h3.sub:first-of-type{margin-top:0;}
+
+  /* Mechanism cards */
+  .grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
+  .card{
+    background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px;
+  }
+  .card h4{margin:0 0 8px;font-size:15px;font-weight:700;}
+  .card p{margin:0;font-size:13.5px;color:var(--text-muted);}
+
+  /* Tables */
+  table{width:100%;border-collapse:collapse;font-size:14.5px;margin-bottom:8px;}
+  th{
+    text-align:left;font-size:12px;text-transform:uppercase;letter-spacing:0.04em;
+    color:var(--text-faint);font-weight:600;padding:0 14px 10px;border-bottom:1px solid var(--border);
+  }
+  td{padding:14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  tr:last-child td{border-bottom:none;}
+  td.pack-name{white-space:nowrap;font-weight:600;}
+  td.pack-name code{background:none;font-weight:700;color:var(--text);}
+  .status{
+    display:inline-block;font-size:11.5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
+    padding:2px 8px;border-radius:5px;white-space:nowrap;
+  }
+  .status.scaffold{background:#f0f0ee;color:var(--text-faint);}
+  .status.mixed{background:#fff3e0;color:#9a5b00;}
+  .status.validated{background:#e6f7ee;color:#0a7d43;}
+
+  /* Workflow */
+  ol.workflow{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:16px;counter-reset:step;}
+  ol.workflow li{
+    counter-increment:step;position:relative;
+    background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px 18px 18px;
+  }
+  ol.workflow li::before{
+    content:counter(step);
+    display:inline-flex;align-items:center;justify-content:center;
+    width:26px;height:26px;border-radius:50%;
+    background:var(--accent);color:#fff;font-size:13px;font-weight:700;
+    margin-bottom:12px;
+  }
+  ol.workflow li strong{display:block;font-size:14.5px;margin-bottom:4px;}
+  ol.workflow li span{font-size:13px;color:var(--text-muted);}
+
+  /* Install */
+  pre.install{
+    background:var(--code-bg);color:var(--code-text);border-radius:var(--radius);
+    padding:20px 22px;overflow-x:auto;margin:0 0 16px;
+  }
+  pre.install code{color:var(--code-text);}
+  .install-note{font-size:14px;color:var(--text-muted);}
+
+  /* About / disclaimer */
+  .about p{max-width:700px;color:var(--text-muted);}
+  .disclaimer{
+    background:var(--bg-alt);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px 22px;font-size:13.5px;color:var(--text-muted);max-width:100%;margin-top:24px;
+  }
+  .disclaimer strong{color:var(--text);}
+
+  footer{padding:36px 0 60px;font-size:13.5px;color:var(--text-faint);}
+  footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;}
+  footer a{color:var(--text-muted);}
+
+  @media (max-width:820px){
+    .grid-4{grid-template-columns:repeat(2,1fr);}
+    ol.workflow{grid-template-columns:repeat(2,1fr);}
+    nav.topbar .links{display:none;}
+    table{font-size:13.5px;}
+  }
+  @media (max-width:520px){
+    .grid-4{grid-template-columns:1fr;}
+    ol.workflow{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+
+<nav class="topbar">
+  <div class="wrap">
+    <div class="brand">AI Business Designer</div>
+    <div class="links">
+      <a href="#packs">Packs</a>
+      <a href="#agents">Agents</a>
+      <a href="#install">Install</a>
+      <a href="#about">About</a>
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer">GitHub</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge-line">v0.18.0 · MIT · Adductor Magnus Oy</span>
+    <h1>Structured business design techniques for Claude Code &amp; Cowork</h1>
+    <p class="lead">
+      An open-source skills pack for AI-assisted business design — spotting and
+      sizing opportunities, building a decision-ready business case,
+      prioritizing AI initiatives, and framing a demo without overpromising.
+      Every technique is anchored to a named framework or the author's own
+      validated consulting experience — never presented as more confident
+      than it is.
+    </p>
+    <div class="stats-row">
+      <b>8</b> core packs&nbsp; · &nbsp;<b>3</b> specialisation packs&nbsp; · &nbsp;<b>78</b> skills&nbsp; · &nbsp;<b>4</b> audit agents&nbsp; · &nbsp;self-contained&nbsp; · &nbsp;CI-validated&nbsp; · &nbsp;MIT license
+    </div>
+    <div class="cta">
+      <a class="btn primary" href="https://github.com/Pilot2Service/AI-Business-Designer">Open on GitHub</a>
+      <a class="btn" href="#install">Quick start</a>
+      <a class="btn" href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/QUICKSTART.md">Full walkthrough</a>
+    </div>
+  </div>
+</header>
+
+<section id="trust">
+  <div class="wrap">
+    <div class="eyebrow">01</div>
+    <h2>Trust is built from mechanisms</h2>
+    <p class="section-sub">Not from an honor system. Four things hold every skill in this pack to the same discipline.</p>
+    <div class="grid-4">
+      <div class="card">
+        <h4>Anchored, not assumed</h4>
+        <p>Every skill cites a named framework (Porter, Kirzner, Liedtka, BABOK, Minto, and others) or the author's own field-tested engagement — nothing invented from scratch.</p>
+      </div>
+      <div class="card">
+        <h4>Maturity is visible</h4>
+        <p><code>scaffold → draft → validated → canonical</code>. Claude states outright which one it's using and never presents a scaffold as validated experience.</p>
+      </div>
+      <div class="card">
+        <h4>Explicit scope limits</h4>
+        <p>Every skill states what it does <em>not</em> do. No fabricated numbers — unverifiable figures are marked <code>[assumption — verify]</code>, never presented as fact.</p>
+      </div>
+      <div class="card">
+        <h4>Human decision gate</h4>
+        <p>Every output is a decision-support draft, not a decision. A qualified human reviews, decides, and carries the accountability.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="packs">
+  <div class="wrap">
+    <div class="eyebrow">02</div>
+    <h2>Packs by category</h2>
+    <p class="section-sub">Eight core packs cover the parts of AI-assisted business design that come up across most engagements. Three specialisation packs go deeper into a specific situation. Click a pack to see its skill-by-skill detail on GitHub.</p>
+
+    <h3 class="sub">Core packs</h3>
+    <table>
+      <thead><tr><th>Pack</th><th>Helps you...</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/strategic-thinking/README.md"><code>strategic-thinking</code></a></td>
+          <td>Break down a fuzzy problem into a testable hypothesis (MECE / issue trees). 6 skills.</td>
+          <td><span class="status scaffold">scaffold</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/README.md"><code>opportunity-recognition</code></a></td>
+          <td>Scan, evaluate, size, and write up a business opportunity. 8 skills.</td>
+          <td><span class="status mixed">mixed — 3/8 validated</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md"><code>business-case-and-analysis</code></a></td>
+          <td>Build an ROI/NPV business case with risks and assumptions made explicit. 6 skills.</td>
+          <td><span class="status scaffold">scaffold</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md"><code>ai-strategy-and-governance</code></a></td>
+          <td>Prioritize AI use cases, scope a PoC, check responsible-AI readiness. 11 skills.</td>
+          <td><span class="status scaffold">scaffold</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/change-and-communication/README.md"><code>change-and-communication</code></a></td>
+          <td>Plan change management and executive communication. 4 skills.</td>
+          <td><span class="status scaffold">scaffold</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-design-frameworks/README.md"><code>business-design-frameworks</code></a></td>
+          <td>Apply classic business/value-modeling frameworks — value chain, strategy canvas, category design. An intentionally growing collection. 5 skills.</td>
+          <td><span class="status mixed">mixed — 1/5 validated</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/prototyping-and-demonstration/README.md"><code>prototyping-and-demonstration</code></a></td>
+          <td>Frame and deliver a credible demo or PoC without creating false expectations of production-readiness. 5 skills.</td>
+          <td><span class="status scaffold">scaffold</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/data-strategy-and-literacy/README.md"><code>data-strategy-and-literacy</code></a></td>
+          <td>Diagnose data's role in a business and read data critically before trusting it. 6 skills.</td>
+          <td><span class="status scaffold">scaffold</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3 class="sub">Specialisation packs</h3>
+    <table>
+      <thead><tr><th>Pack</th><th>What it gives you</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/research-commercialisation/README.md"><code>research-commercialisation</code></a></td>
+          <td>A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, team/equity questions, plus a working self-assessment tool.</td>
+          <td><span class="status validated">validated — 12 skills</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/ai-native-startup-design/README.md"><code>ai-native-startup-design</code></a></td>
+          <td>A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design, and a tool-stack decision.</td>
+          <td><span class="status mixed">mixed — 5 validated, 3 draft</span></td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/business-model-canvas/README.md"><code>business-model-canvas</code></a></td>
+          <td>Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings, matching a model against a library of known innovation patterns.</td>
+          <td><span class="status mixed">mixed — 3 validated, 4 scaffold</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="agents">
+  <div class="wrap">
+    <div class="eyebrow">03</div>
+    <h2>Delegatable agents</h2>
+    <p class="section-sub">Four packs include a read-only subagent you can invoke separately to stress-test a skill's output before it goes to a decision-maker — a second, independent pass, not a rubber stamp. None of them edit anything; each returns a findings table for a human to act on.</p>
+    <table>
+      <thead><tr><th>Agent</th><th>Pack</th><th>What it checks</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/agents/assumption-stress-tester.md"><code>assumption-stress-tester</code></a></td>
+          <td><code>business-case-and-analysis</code></td>
+          <td>Adversarially challenges a business case's assumptions before the number goes to leadership.</td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/agents/market-sizing-cross-validator.md"><code>market-sizing-cross-validator</code></a></td>
+          <td><code>opportunity-recognition</code></td>
+          <td>Cross-checks a TAM/SAM/SOM calculation with an independent top-down/bottom-up method.</td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-design-frameworks/agents/competitive-blind-spot-scanner.md"><code>competitive-blind-spot-scanner</code></a></td>
+          <td><code>business-design-frameworks</code></td>
+          <td>Looks for un-scanned competitors or angles in a competitive/positioning analysis.</td>
+        </tr>
+        <tr>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/agents/ai-initiative-readiness-auditor.md"><code>ai-initiative-readiness-auditor</code></a></td>
+          <td><code>ai-strategy-and-governance</code></td>
+          <td>Audits an AI initiative's scoring and governance checklist for gaps before approval.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="workflow">
+  <div class="wrap">
+    <div class="eyebrow">04</div>
+    <h2>From idea to a human decision</h2>
+    <ol class="workflow">
+      <li><strong>Install</strong><span>Add the marketplace, pick a pack for the task at hand.</span></li>
+      <li><strong>Run a skill</strong><span>A structured draft — visible assumptions, visible maturity, no final decision.</span></li>
+      <li><strong>Cross-check</strong><span>A delegatable agent stress-tests the result before it moves forward.</span></li>
+      <li><strong>Human decides</strong><span>Reviews, approves, and carries the accountability.</span></li>
+    </ol>
+  </div>
+</section>
+
+<section id="install">
+  <div class="wrap">
+    <div class="eyebrow">05</div>
+    <h2>Installation</h2>
+    <p class="section-sub">Claude Code or Cowork — same principle, different UI.</p>
+    <pre class="install"><code>/plugin marketplace add Pilot2Service/AI-Business-Designer
+/plugin</code></pre>
+    <p class="install-note">
+      The first command registers this repository's marketplace catalog
+      (<code>ai-business-designer-skills</code>); the second opens the interactive
+      menu — choose <strong>Browse and install plugins</strong>, pick the packs you
+      need, and install. Full walkthrough, including what a good first run
+      looks like: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/QUICKSTART.md">QUICKSTART.md</a>.
+    </p>
+  </div>
+</section>
+
+<section id="about">
+  <div class="wrap">
+    <div class="eyebrow">06</div>
+    <h2>About this project</h2>
+    <div class="about">
+      <p>
+        This repository serves two purposes at once. First, and primarily,
+        it's a working tool — skills meant to actually be installed and
+        used. Second, it's a deliberate demonstration piece: of what a
+        modern AI Business Designer's skill set looks like broken down into
+        its component parts, and of the ability to design, structure, and
+        maintain a production-quality, skills-based AI toolkit — maturity
+        tracking instead of unverifiable confidence claims, a single source
+        for shared guardrails instead of drift across a dozen copies,
+        delegatable audit agents instead of a single pass of self-review,
+        CI validation instead of an honor system.
+      </p>
+      <p>
+        The pack includes heuristics and decision rules drawn from general
+        practice and from the author's own consulting experience. It does
+        <strong>not</strong> contain deep proprietary playbooks, hard-won
+        pricing/negotiation heuristics, or strong, opinionated value
+        judgments about how business should be done — the kind of thing a
+        consultancy keeps for paying clients. It's intentionally open and
+        general-purpose.
+      </p>
+    </div>
+    <div class="disclaimer">
+      <strong>Every output is a draft, not a decision.</strong> This pack
+      does not provide legal, tax, regulatory, or financial advice — that
+      requires a licensed professional. Assumptions are marked, not hidden;
+      maturity is stated, not implied. A qualified human always reviews,
+      decides, and carries the accountability for what this pack helps
+      produce.
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div>MIT © 2026 Adductor Magnus Oy · Author: Tommi Järvinen</div>
+    <div>
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer">GitHub</a> ·
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/CHANGELOG.md">Changelog</a> ·
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer/releases/tag/v0.18.0">v0.18.0</a> ·
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/LICENSE">License</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

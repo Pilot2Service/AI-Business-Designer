@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+
+**GitHub Pages landing site.** Added `docs/index.html` — a single-page,
+no-build-step landing site mirroring the trust-mechanism framing from the
+README (anchored-not-assumed, visible maturity, explicit scope limits,
+human decision gate), plus tables for all 8 core packs, 3 specialisation
+packs, and 4 delegatable agents, all linking through to their GitHub
+detail pages. Includes a generated `docs/og-image.png` for social-preview
+cards and a `docs/.nojekyll` marker so GitHub Pages serves the file
+directly without a Jekyll build. Root `README.md` now links to the live
+site. Requires enabling GitHub Pages once in repo Settings (Source:
+Deploy from a branch, `main` / `docs`) — see the setup note in the PR/commit
+this shipped in.
+
 ## 0.18.0 — 2026-08-07
 
 **Full English translation.** The entire repo — all 8 core packs, all 3

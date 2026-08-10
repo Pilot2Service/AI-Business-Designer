@@ -1,5 +1,7 @@
 # AI Business Designer — Skills
 
+🌐 [Browse the pack online](https://pilot2service.github.io/AI-Business-Designer/)
+
 A skills pack for Claude Code and Cowork that helps business designers,
 consultants, and entrepreneurs do higher-quality business planning, analysis,
 and problem definition — spotting and sizing opportunities, building a
