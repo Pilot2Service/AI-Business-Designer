@@ -56,6 +56,14 @@ business models, products, processes, and services where AI plays a
 meaningfully large role, from AI-native work to updating existing ways
 of working for the AI era).
 
+Fifth pass: simplified and shortened both "Before you dive in"
+paragraphs — same content, plainer language, roughly a third shorter.
+Added a new "A quick example" section right below it: a concrete
+3-step walkthrough chaining `opportunity-recognition` →
+`ai-strategy-and-governance` → `business-case-and-analysis`, each step
+linked to its pack's README, to make "how this is organized" tangible
+instead of abstract.
+
 ## 0.18.0 — 2026-08-07
 
 **Full English translation.** The entire repo — all 8 core packs, all 3

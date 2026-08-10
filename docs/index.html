@@ -127,6 +127,24 @@
   .card h4{margin:0 0 8px;font-size:15px;font-weight:700;color:var(--text);}
   .card p{margin:0;font-size:13.5px;color:var(--text-muted);max-width:none;}
 
+  .step-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:8px;}
+  .step{
+    background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px;
+  }
+  .step .step-num{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:26px;height:26px;border-radius:50%;
+    background:var(--accent);color:#04140f;font-size:13px;font-weight:700;
+    margin-bottom:12px;
+  }
+  .step h4{margin:0 0 4px;font-size:15px;font-weight:700;color:var(--text);}
+  .step .step-pack{
+    display:block;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:12px;color:var(--text-faint);margin-bottom:8px;
+  }
+  .step p{margin:0;font-size:13.5px;color:var(--text-muted);max-width:none;}
+
   .callout{
     background:var(--bg-alt);border:1px solid var(--border);border-left:3px solid var(--accent);
     border-radius:var(--radius);padding:18px 20px;margin:0 0 28px;font-size:14.5px;color:var(--text-muted);
@@ -167,6 +185,7 @@
 
   @media (max-width:820px){
     .grid-4{grid-template-columns:repeat(2,1fr);}
+    .step-grid{grid-template-columns:1fr;}
     nav.topbar .links{display:none;}
     table{font-size:13.5px;}
   }
@@ -182,6 +201,7 @@
     <div class="brand">AI Business Designer</div>
     <div class="links">
       <a href="#intro">Who it's for</a>
+      <a href="#example">Example</a>
       <a href="#how">How it works</a>
       <a href="#packs">Packs</a>
       <a href="#agents">Agents</a>
@@ -219,25 +239,48 @@
     <h2>Before you dive in</h2>
     <h3 class="sub">Who this is for</h3>
     <p>
-      Business designers and service designers who aren't already fluent
-      in demanding, technical product and service environments — the
-      AI-heavy end of the discipline. If you're early in an AI business
-      design career, or a consultant moving into the AI domain from a
-      different background, this is meant to give you a running start.
-      Most senior AI business designers already carry something at least
-      this developed in their own toolkit; if that's you, you'll likely
-      recognize the shape of it even where the specifics differ.
+      Business and service designers who aren't yet fully at home in
+      demanding, technical AI environments. It's a running start if
+      you're early in an AI business design career, or moving into AI
+      from a different background. Already senior in this field? You
+      probably have something similar in your own toolkit already — you'll
+      recognize the shape of it.
     </p>
     <h3 class="sub">What "AI business design" actually means</h3>
     <p>
-      Shaping business models, products, processes, and services where AI
-      plays a meaningfully large role — everything from designing
-      something AI-native starting from a blank page, to updating an
-      existing way of working for the AI era. It sits between classic
-      business/service design and hands-on AI capability, and this pack is
-      meant as the AI-specific layer on top of the frameworks you already
-      know.
+      Designing business models, products, and processes where AI plays a
+      real role — from AI-native ideas built from scratch, to updating how
+      things already work for the AI era. Think of this pack as the
+      AI-specific layer on top of the business and service design
+      frameworks you already know.
     </p>
+  </div>
+</section>
+
+<section id="example">
+  <div class="wrap">
+    <h2>A quick example</h2>
+    <p class="section-sub">Three packs, chained together, on the question that comes up most: is there a real opportunity here, and does the business case hold up?</p>
+    <div class="step-grid">
+      <div class="step">
+        <span class="step-num">1</span>
+        <h4>Recognize the opportunity</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/README.md">opportunity-recognition</a></span>
+        <p>Scan the market, size it, and decide if it's worth pursuing at all.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">2</span>
+        <h4>Shape the AI angle</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md">ai-strategy-and-governance</a></span>
+        <p>Work out what AI actually adds here, and scope it into something concrete and buildable.</p>
+      </div>
+      <div class="step">
+        <span class="step-num">3</span>
+        <h4>Build the business case</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md">business-case-and-analysis</a></span>
+        <p>Turn it into numbers and a recommendation leadership can actually decide on.</p>
+      </div>
+    </div>
   </div>
 </section>
 
