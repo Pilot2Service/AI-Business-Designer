@@ -6,8 +6,11 @@ packs: [`README.md`](README.md). How an agent uses this pack:
 
 ## 1. Install the marketplace
 
-In a Claude Code environment (Cowork installs plugins from its own
-connector panel — the principle is the same, the UI differs):
+Nothing to download by hand — no ZIP, no `git clone`. You point Claude
+Code or Cowork at this GitHub repo and it fetches what it needs on its
+own: [`github.com/Pilot2Service/AI-Business-Designer`](https://github.com/Pilot2Service/AI-Business-Designer)
+
+**In Claude Code (terminal):**
 
 ```
 /plugin marketplace add Pilot2Service/AI-Business-Designer
@@ -19,7 +22,17 @@ GitHub in `owner/repo` form (the marketplace name comes from the file:
 `ai-business-designer-skills`) — it doesn't clone the whole repo locally,
 it registers the catalog. The second command opens a menu: choose
 **Browse and install plugins**, select the marketplace, and install the
-packs you want one at a time.
+packs you want one at a time. Only the packs you actually install get
+pulled onto your machine.
+
+**In Cowork (desktop app):** open Cowork, look for a **Customize** or
+**Plugins** area (exact wording can shift between app versions), choose
+**Add marketplace**, and paste `Pilot2Service/AI-Business-Designer` or
+the GitHub link above. From there, browse and install packs the same
+way. If that menu isn't where you expect, check Cowork's own
+settings/help for "plugin marketplace" — this is the one part of this
+guide I can't fully verify against Anthropic's published docs, since
+Cowork's UI isn't documented there in the same detail as the CLI.
 
 ## 2. Pick one pack
 

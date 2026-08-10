@@ -34,6 +34,16 @@ adds a commercial-interest contact block: licensing this or the full
 specialisation packs, or engaging the author's context-engineering
 expertise directly (tommi@firstkiss.co).
 
+Third pass: fixed the Install section, which had no visible GitHub link
+and no separate guidance for Cowork vs. Claude Code. Verified the Claude
+Code CLI flow against docs.claude.com/en/docs/claude-code/plugin-marketplaces
+directly (marketplace-add registers the catalog without cloning; install
+pulls only the chosen pack) and added an explicit "nothing to download
+by hand" line plus a visible repo link. Cowork's exact plugin-menu wording
+is not covered in Anthropic's published Claude Code docs, so that
+subsection is now explicitly flagged as unverified/best-effort rather
+than stated as fact. QUICKSTART.md updated to match.
+
 ## 0.18.0 — 2026-08-07
 
 **Full English translation.** The entire repo — all 8 core packs, all 3

@@ -373,20 +373,45 @@
   <div class="wrap">
     <h2>Install it</h2>
     <p class="section-sub">
-      This is a plugin for Claude Code or Cowork, not a standalone app — if
-      you already have one of those set up, paste these two lines in:
+      Nothing to download by hand — no ZIP, no <code>git clone</code>. You
+      point Claude Code or Cowork at the GitHub repo below and it fetches
+      what it needs on its own:
     </p>
+    <p style="margin:0 0 28px;">
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer" style="font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;">github.com/Pilot2Service/AI-Business-Designer</a>
+    </p>
+
+    <h3 class="sub">In Claude Code (terminal)</h3>
     <pre class="install"><code>/plugin marketplace add Pilot2Service/AI-Business-Designer
 /plugin</code></pre>
     <p class="install-note">
-      The first command registers this repository's marketplace catalog
-      (<code>ai-business-designer-skills</code>); the second opens the
-      interactive menu — choose <strong>Browse and install plugins</strong>,
-      pick the packs you need, and install. Don't have Claude Code or
-      Cowork yet? Set one of those up first (see
-      <a href="https://docs.claude.com">docs.claude.com</a>), then come
-      back here. Full walkthrough, including what a good first run looks
-      like: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/QUICKSTART.md">QUICKSTART.md</a>.
+      The first command registers this repository's catalog
+      (<code>ai-business-designer-skills</code>) by reading
+      <code>marketplace.json</code> straight from GitHub — nothing is
+      cloned to your machine at this step. The second command opens the
+      plugin manager: choose <strong>Browse and install plugins</strong>,
+      pick the marketplace, then install the specific packs you want. Only
+      the packs you actually install get pulled onto your machine.
+    </p>
+
+    <h3 class="sub">In Cowork (desktop app)</h3>
+    <p class="install-note">
+      Open Cowork, look for a <strong>Customize</strong> or
+      <strong>Plugins</strong> area (exact wording can shift between app
+      versions), choose <strong>Add marketplace</strong>, and paste
+      <code>Pilot2Service/AI-Business-Designer</code> or the GitHub link
+      above. From there, browse and install packs the same way. If that
+      menu isn't where you expect, check Cowork's own settings/help for
+      "plugin marketplace" — this is the one part of this page I can't
+      fully verify against Anthropic's published docs, since Cowork's UI
+      isn't documented there in the same detail as the CLI.
+    </p>
+
+    <p class="install-note">
+      Don't have Claude Code or Cowork yet? Set one of those up first
+      (see <a href="https://docs.claude.com">docs.claude.com</a>), then
+      come back here. Full walkthrough, including what a good first run
+      looks like: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/QUICKSTART.md">QUICKSTART.md</a>.
     </p>
   </div>
 </section>
