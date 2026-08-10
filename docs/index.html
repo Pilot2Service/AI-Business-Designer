@@ -34,8 +34,6 @@
     --accent:#35e0b3;
     --accent-soft:rgba(53,224,179,0.12);
     --accent-border:rgba(53,224,179,0.35);
-    --amber:#e0a935;
-    --amber-soft:rgba(224,169,53,0.12);
     --code-bg:#000000;
     --code-text:#dcdce2;
     --radius:10px;
@@ -144,13 +142,10 @@
   tr:last-child td{border-bottom:none;}
   td.pack-name{white-space:nowrap;font-weight:600;}
   td.pack-name code{background:none;font-weight:700;color:var(--text);}
-  .status{
-    display:inline-block;font-size:11.5px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;
-    padding:2px 8px;border-radius:5px;white-space:nowrap;
+  .skill-count{
+    font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+    font-size:14px;color:var(--text-faint);
   }
-  .status.scaffold{background:#1c1c21;color:var(--text-faint);border:1px solid var(--border);}
-  .status.mixed{background:var(--amber-soft);color:var(--amber);}
-  .status.validated{background:var(--accent-soft);color:var(--accent);}
 
   pre.install{
     background:var(--code-bg);color:var(--code-text);border:1px solid var(--border);border-radius:var(--radius);
@@ -247,7 +242,7 @@
       </div>
       <div class="card">
         <h4>You can see how solid each one is</h4>
-        <p><code>scaffold → draft → validated → canonical</code>. Claude states outright which one it's using — see the note below on what that actually means.</p>
+        <p><code>scaffold → draft → validated → canonical</code>. Every skill's own page states which one it's grounded in, and Claude says so out loud when it uses it.</p>
       </div>
       <div class="card">
         <h4>Each one states its own limits</h4>
@@ -266,86 +261,79 @@
     <h2>Browse the packs</h2>
     <p class="section-sub">Eight core packs cover situations that come up across most business-design work; three specialisation packs go deeper into one specific one. Click any pack name for its full skill-by-skill breakdown on GitHub.</p>
 
-    <div class="callout">
-      <strong>A note on the status column, because it reads stricter than it is:</strong>
-      "scaffold" doesn't mean unfinished or unreliable. Every skill, at every
-      status, is a complete, ready-to-use technique — the label only tells
-      you which kind of grounding it has. <strong>scaffold</strong> = built
-      on a named public framework I haven't personally run through a real
-      client engagement yet. <strong>validated</strong> = a technique I've
-      used and refined myself, repeatedly, in real work. Both are safe to
-      use for what they claim to be — this exists so you always know which
-      one you're looking at, not to flag something as broken.
-    </div>
-
     <h3 class="sub">Core packs</h3>
     <table>
-      <thead><tr><th>Pack</th><th>Helps you...</th><th>Status</th></tr></thead>
+      <thead><tr><th>Pack</th><th>Helps you...</th><th>Skills</th></tr></thead>
       <tbody>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/strategic-thinking/README.md"><code>strategic-thinking</code></a></td>
-          <td>Break down a fuzzy problem into a testable hypothesis (MECE / issue trees). 6 skills.</td>
-          <td><span class="status scaffold">scaffold</span></td>
+          <td>Break down a fuzzy problem into a testable hypothesis (MECE / issue trees).</td>
+          <td><span class="skill-count">6</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/README.md"><code>opportunity-recognition</code></a></td>
-          <td>Scan, evaluate, size, and write up a business opportunity. 8 skills.</td>
-          <td><span class="status mixed">mixed — 3/8 validated</span></td>
+          <td>Scan, evaluate, size, and write up a business opportunity.</td>
+          <td><span class="skill-count">8</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md"><code>business-case-and-analysis</code></a></td>
-          <td>Build an ROI/NPV business case with risks and assumptions made explicit. 6 skills.</td>
-          <td><span class="status scaffold">scaffold</span></td>
+          <td>Build an ROI/NPV business case with risks and assumptions made explicit.</td>
+          <td><span class="skill-count">6</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md"><code>ai-strategy-and-governance</code></a></td>
-          <td>Prioritize AI use cases, scope a PoC, check responsible-AI readiness. 11 skills.</td>
-          <td><span class="status scaffold">scaffold</span></td>
+          <td>Prioritize AI use cases, scope a PoC, check responsible-AI readiness.</td>
+          <td><span class="skill-count">11</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/change-and-communication/README.md"><code>change-and-communication</code></a></td>
-          <td>Plan change management and executive communication. 4 skills.</td>
-          <td><span class="status scaffold">scaffold</span></td>
+          <td>Plan change management and executive communication.</td>
+          <td><span class="skill-count">4</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-design-frameworks/README.md"><code>business-design-frameworks</code></a></td>
-          <td>Apply classic business/value-modeling frameworks — value chain, strategy canvas, category design. An intentionally growing collection. 5 skills.</td>
-          <td><span class="status mixed">mixed — 1/5 validated</span></td>
+          <td>Apply classic business/value-modeling frameworks — value chain, strategy canvas, category design. An intentionally growing collection.</td>
+          <td><span class="skill-count">5</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/prototyping-and-demonstration/README.md"><code>prototyping-and-demonstration</code></a></td>
-          <td>Frame and deliver a credible demo or PoC without creating false expectations of production-readiness. 5 skills.</td>
-          <td><span class="status scaffold">scaffold</span></td>
+          <td>Frame and deliver a credible demo or PoC without creating false expectations of production-readiness.</td>
+          <td><span class="skill-count">5</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/data-strategy-and-literacy/README.md"><code>data-strategy-and-literacy</code></a></td>
-          <td>Diagnose data's role in a business and read data critically before trusting it. 6 skills.</td>
-          <td><span class="status scaffold">scaffold</span></td>
+          <td>Diagnose data's role in a business and read data critically before trusting it.</td>
+          <td><span class="skill-count">6</span></td>
         </tr>
       </tbody>
     </table>
 
     <h3 class="sub">Specialisation packs</h3>
     <table>
-      <thead><tr><th>Pack</th><th>What it gives you</th><th>Status</th></tr></thead>
+      <thead><tr><th>Pack</th><th>What it gives you</th><th>Skills</th></tr></thead>
       <tbody>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/research-commercialisation/README.md"><code>research-commercialisation</code></a></td>
           <td>A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, team/equity questions, plus a working self-assessment tool.</td>
-          <td><span class="status validated">validated — 12 skills</span></td>
+          <td><span class="skill-count">12</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/ai-native-startup-design/README.md"><code>ai-native-startup-design</code></a></td>
           <td>A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design, and a tool-stack decision.</td>
-          <td><span class="status mixed">mixed — 5 validated, 3 draft</span></td>
+          <td><span class="skill-count">8</span></td>
         </tr>
         <tr>
           <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/business-model-canvas/README.md"><code>business-model-canvas</code></a></td>
           <td>Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings, matching a model against a library of known innovation patterns.</td>
-          <td><span class="status mixed">mixed — 3 validated, 4 scaffold</span></td>
+          <td><span class="skill-count">7</span></td>
         </tr>
       </tbody>
     </table>
+    <p style="font-size:13px;color:var(--text-faint);margin-top:8px;">
+      Note: the specialisation packs published here are a subset — get in
+      touch (see <a href="#about">About this project</a>) if you're
+      interested in the fuller versions.
+    </p>
   </div>
 </section>
 
@@ -422,8 +410,9 @@
       </p>
       <p>
         This is a <strong>personal project, not a commercial product</strong>.
-        There's no promise of ongoing maintenance for this public version,
-        and it isn't exhaustive — it contains the heuristics and decision
+        I keep updating and refining it as my own work evolves, but there's
+        no fixed roadmap or release schedule behind the public version — it
+        isn't exhaustive either. It contains the heuristics and decision
         models I actually reach for in client engagements, not a complete
         map of the field.
       </p>
@@ -434,6 +423,16 @@
         show what I can actually do, and how I see this context-engineering
         discipline developing.
       </p>
+    </div>
+    <div class="callout">
+      <strong>Interested in commercial use?</strong> If you'd like a
+      commercial license for a pack like this — or for the specialisation
+      packs in full (what's published here is only part of them) — or
+      you're interested in bringing this kind of context-engineering work
+      into your own organization or area of expertise (a deep, specialist
+      context layer that lets demanding expert work get done reliably with
+      AI assistance), get in touch:
+      <a href="mailto:tommi@firstkiss.co">tommi@firstkiss.co</a>.
     </div>
     <div class="disclaimer">
       <strong>Every output is a draft, not a decision.</strong> This pack

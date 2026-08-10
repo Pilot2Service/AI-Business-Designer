@@ -15,18 +15,24 @@ Pages once in repo Settings (Source: Deploy from a branch, `main` /
 First draft was reworked after review for clarity: the opening line now
 states plainly what this is (a personal, open-source AI business design
 skills collection) before anything else; added a "How this is organized"
-section explaining the pack → skill → agent relationship; added an
-explicit callout clarifying that "scaffold" status means complete and
-usable — grounded in a public framework rather than the author's own
-field-tested experience — not unfinished; simplified the agents section
-heading; removed a generic numbered-workflow section that didn't add
-information; clarified the install section's prerequisite (Claude Code
-or Cowork required); and fully rewrote "About this project" in a
-first-person, personal-project voice — not a commercial product, no
-maintenance guarantee, built from 15+ years of commercialization,
-productization, and service-development experience. Visual design
-switched to a black background with light gray text and a bright accent
-color, per the author's preference.
+section explaining the pack → skill → agent relationship; simplified the
+agents section heading; removed a generic numbered-workflow section that
+didn't add information; clarified the install section's prerequisite
+(Claude Code or Cowork required); and fully rewrote "About this project"
+in a first-person, personal-project voice. Visual design switched to a
+black background with light gray text and a bright accent color, per the
+author's preference.
+
+Second pass: removed the per-pack "status" column and its explanatory
+callout entirely — the author has in fact used all of the packs shown,
+so a scaffold/validated rollup on the public site risked implying
+otherwise about packs that haven't been personally field-tested by him
+specifically. Replaced the status column with a plain skill count per
+pack. "About this project" now frames maintenance honestly (updated and
+refined on an ongoing basis, no fixed roadmap or release schedule) and
+adds a commercial-interest contact block: licensing this or the full
+specialisation packs, or engaging the author's context-engineering
+expertise directly (tommi@firstkiss.co).
 
 ## 0.18.0 — 2026-08-07
 
