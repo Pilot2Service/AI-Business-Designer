@@ -13,7 +13,9 @@
       "description": "Systemic, hypothesis-driven strategic thinking (Liedtka 1998; McKinsey MECE / issue trees).",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/strategic-thinking/README.md"
     },
     {
       "name": "opportunity-recognition",
@@ -22,7 +24,9 @@
       "description": "Systematic identification and assessment of business opportunities (Kirzner, Shane & Venkataraman); also includes the owner's validated Opportunity Value Assessment methodology and the Capability Pattern Mapping abstraction method for identifying analogies.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/README.md"
     },
     {
       "name": "business-case-and-analysis",
@@ -31,7 +35,9 @@
       "description": "Building decision-ready business cases and analyses (BABOK, PMI).",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md"
     },
     {
       "name": "ai-strategy-and-governance",
@@ -40,7 +46,9 @@
       "description": "Identifying AI opportunities from the task level (SML/Dual Decomposition) or via diagnostic questions from 13 curated AI capability patterns (cross-checked against two independent industry AI use-case reports), through to 5-dimensional scoring and 2x2 prioritization, identifying transformative Value Play opportunities, AI-native business models, roadmaps (3 horizons), and responsible adoption — including productizing discovery engagements.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md"
     },
     {
       "name": "change-and-communication",
@@ -49,7 +57,9 @@
       "description": "Change management, facilitation, and executive communication amid uncertainty.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/change-and-communication/README.md"
     },
     {
       "name": "business-design-frameworks",
@@ -58,7 +68,9 @@
       "description": "A growing collection of ways to structure and model business, value creation, and positioning (layer models, value chains, category modeling, strategy canvases/value curves, and more to come).",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-design-frameworks/README.md"
     },
     {
       "name": "prototyping-and-demonstration",
@@ -67,7 +79,9 @@
       "description": "Fast, credible prototyping (including AI-assisted \"vibe coding\"), correctly framing a demo/PoC/pilot to manage customer expectations, demo delivery craft (Great Demo! methodology) and storytelling (Amazon Working Backwards/PR-FAQ), and the bridge from demo/PoC to a business case and ROI calculation.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/prototyping-and-demonstration/README.md"
     },
     {
       "name": "data-strategy-and-literacy",
@@ -76,7 +90,9 @@
       "description": "Diagnosing the role of data (enabler vs. strategic asset), a four-quadrant data literacy assessment, critical reading of data (bias, quality, representativeness), data storytelling for business audiences, Data & AI strategy design (Driver Tree, Agile Value Assessment), and selecting a data monetization model (direct vs. indirect, Data Flywheel).",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/data-strategy-and-literacy/README.md"
     },
     {
       "name": "human-ai-collaboration-design",
@@ -85,7 +101,9 @@
       "description": "Designing intentional, accountable human-AI partnership: a four-level HITL maturity model with confidence-score routing, behavioral/tone specification for AI outputs, accuracy guardrails and grounding against sycophancy, override-rate auditing and the AI Flywheel, and protecting expert agency and apprenticeship pathways from AI erosion.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/human-ai-collaboration-design/README.md"
     },
     {
       "name": "specialisation-ai-native-startup-design",
@@ -94,7 +112,9 @@
       "description": "How to design an AI-native product/business from the ground up: AI opportunity identification, ICP/JTBD customer understanding, 5+2 need-theme scoring and AI wedge selection, solution ideation, RICE-based MVP selection, a PRD for a build agent, conversational OS architecture, closed-loop process design, and AI tool-stack selection. Anchored in the owner's AI-native Business Design workshop and an external AI-first SaaS Product methodology.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/ai-native-startup-design/README.md"
     },
     {
       "name": "specialisation-business-model-canvas",
@@ -103,7 +123,9 @@
       "description": "BMC consulting expertise: a public 159-pattern innovation library, the owner's own variation/clarity logic and antipattern detection, plus research-based support for session facilitation, canvas diagnostics, tool selection, and client-language interpretation.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/business-model-canvas/README.md"
     },
     {
       "name": "specialisation-public-sector-pilot-scaling",
@@ -112,7 +134,9 @@
       "description": "[SCAFFOLD — to be completed with real expertise] Public Sector Pilot Scaling",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/public-sector-pilot-scaling/README.md"
     },
     {
       "name": "specialisation-research-commercialisation",
@@ -121,7 +145,9 @@
       "description": "Research commercialisation: from opportunity recognition to the spin-out/licensing choice, IP, TTO collaboration, funding, and team building. Anchored in the owner's published commercialisation guide and the AFCA self-assessment.",
       "author": {
         "name": "Pilot2service"
-      }
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/research-commercialisation/README.md"
     }
   ]
 }
