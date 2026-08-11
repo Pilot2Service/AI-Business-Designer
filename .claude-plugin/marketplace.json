@@ -128,6 +128,17 @@
       "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/business-model-canvas/README.md"
     },
     {
+      "name": "specialisation-public-sector-ai-service-design",
+      "displayName": "Public Sector AI Service Design",
+      "source": "./specialisation-packs/public-sector-ai-service-design",
+      "description": "A public-sector lens on top of the core AI-strategy, business-case, and stakeholder-mapping skills: screening AI ideas for public value and mandate fit, mapping the distinct stakeholder types and veto points in public organizations, navigating procurement and public funding, regulatory and equity guardrails for citizen-facing AI, and a six-element decision-readiness model for presenting an AI proposal to a public decision body.",
+      "author": {
+        "name": "Pilot2service"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/public-sector-ai-service-design/README.md"
+    },
+    {
       "name": "specialisation-research-commercialisation",
       "displayName": "Research Commercialisation",
       "source": "./specialisation-packs/research-commercialisation",

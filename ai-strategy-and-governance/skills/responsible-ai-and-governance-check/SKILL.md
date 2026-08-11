@@ -124,6 +124,14 @@ ones allowed (see `../../../meta/frontmatter_schema.md`).
 - Next in this pack: `../build-vs-buy-vs-partner-ai/SKILL.md` —
   structures the decision to build in-house, buy off a platform, or
   partner on an AI solution.
+- If the deployer is a public body: the transparency, fairness, and
+  human-oversight bar is generally higher for citizen-facing decisions —
+  see
+  `../../../specialisation-packs/public-sector-ai-service-design/skills/ps-regulatory-and-ethical-guardrails-for-public-ai/SKILL.md`
+  for the public-sector-specific triage on top of this check, and
+  `../../../specialisation-packs/public-sector-ai-service-design/skills/ps-community-and-equity-impact-assessment/SKILL.md`
+  for the differential-impact check referenced in step 3's fairness
+  lens.
 - A ready-made skill chain for this situation: see `../../../playbooks/`
 - This pack's shared guardrails: `../../CLAUDE.md`
 

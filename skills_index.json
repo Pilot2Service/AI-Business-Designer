@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — do not hand-edit",
   "packs": [
@@ -60,6 +60,12 @@
     {
       "dir": "business-model-canvas",
       "title": "Business Model Canvas",
+      "status": "placeholder",
+      "owner_input_needed": true
+    },
+    {
+      "dir": "public-sector-ai-service-design",
+      "title": "Public Sector AI Service Design",
       "status": "placeholder",
       "owner_input_needed": true
     },
@@ -1168,6 +1174,83 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-tool-switching-decisions/SKILL.md"
+    },
+    {
+      "id": "ps-ai-opportunity-screening-for-public-value",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Ai Opportunity Screening For Public Value",
+      "description": "Screens a raw AI idea for public-sector fit before it enters formal opportunity scoring: checks mandate alignment, identifies which type of public value it targets, and runs the 'would this survive being on the front page' test. Use when a public-sector or non-profit client brings an AI idea and you need to know if it's worth taking to full scoring.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-ai-opportunity-screening-for-public-value/SKILL.md"
+    },
+    {
+      "id": "ps-community-and-equity-impact-assessment",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Community And Equity Impact Assessment",
+      "description": "Checks an AI-enabled public service design for differential impact across community groups before launch: digital divide, accessibility, and disparate-treatment risk. Use before a public-facing AI service goes live, or when a proposal claims a general improvement and hasn't yet been checked group by group.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-community-and-equity-impact-assessment/SKILL.md"
+    },
+    {
+      "id": "ps-decision-readiness-and-public-communication",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Decision Readiness And Public Communication",
+      "description": "A six-element model for presenting an AI proposal so a public decision body (council, board, steering group) can actually approve it: options, relevancy and focus, trust, urgency, strategic alignment, and public-sector decision dynamics. Use when preparing to bring an AI initiative to a public decision-maker for a go/no-go or funding decision.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-decision-readiness-and-public-communication/SKILL.md"
+    },
+    {
+      "id": "ps-procurement-and-public-funding-navigation",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Procurement And Public Funding Navigation",
+      "description": "Flags when an AI idea has crossed from 'just build it' into public-procurement or public-funding territory, and what that changes about timeline, vendor choice, and design freedom. Use when scoping or building an AI solution for a public body, before committing to a build-vs-buy path or a delivery timeline.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-procurement-and-public-funding-navigation/SKILL.md"
+    },
+    {
+      "id": "ps-public-value-business-case-framing",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Public Value Business Case Framing",
+      "description": "Reframes an AI business case around the four public-value types (efficiency, service quality, equity, trust/legitimacy) instead of defaulting to a private-sector ROI story, and shows how to combine cost-avoidance and non-financial value in one case a public decision body can act on. Use after opportunity screening, before or alongside building the full business case.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-public-value-business-case-framing/SKILL.md"
+    },
+    {
+      "id": "ps-regulatory-and-ethical-guardrails-for-public-ai",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Regulatory And Ethical Guardrails For Public Ai",
+      "description": "Frames the distinct regulatory and ethical stakes of public-facing AI - higher transparency and accountability bar, disparate-impact risk, due-process concerns when AI touches decisions about individuals - and identifies when a question needs real regulatory or legal expertise rather than general reasoning. Use early when scoping any AI system that will touch citizen-facing decisions or services.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-regulatory-and-ethical-guardrails-for-public-ai/SKILL.md"
+    },
+    {
+      "id": "ps-stakeholder-and-political-landscape-mapping",
+      "pack": "specialisation-packs/public-sector-ai-service-design",
+      "title": "Ps Stakeholder And Political Landscape Mapping",
+      "description": "Extends power/interest stakeholder mapping with the actor types specific to public-sector projects (elected officials, civil servants, unions, oversight bodies, citizens) and their distinct veto points and time horizons. Use when scoping an AI initiative for a public body and 'who's the sponsor' isn't a single, simple answer.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/public-sector-ai-service-design/skills/ps-stakeholder-and-political-landscape-mapping/SKILL.md"
     },
     {
       "id": "academic-entrepreneur-role-choice",

@@ -11,7 +11,7 @@ pack also works as a map of the competence field around AI-assisted business
 design: what the discipline actually consists of, broken into named,
 independently usable pieces.
 
-`9 core packs · 3 populated specialisation packs · 99 skills · 4 audit agents
+`9 core packs · 4 populated specialisation packs · 106 skills · 4 audit agents
 · self-contained (no required external services) · CI-validated · MIT license`
 
 New here? [`QUICKSTART.md`](QUICKSTART.md) gets you from zero to your first
@@ -72,9 +72,10 @@ and install. Full walkthrough, including what a good first run looks like:
 ## What's inside
 
 Nine core packs cover the parts of AI-assisted business design that come up
-across most engagements; three specialisation packs go deeper into a
+across most engagements; four specialisation packs go deeper into a
 specific situation (research commercialisation, AI-native startup design,
-Business Model Canvas facilitation). Read the two tables below as much as a
+Business Model Canvas facilitation, public-sector AI service design). Read
+the two tables below as much as a
 map of the discipline as a list of what to install — **click a pack name to
 see its actual skill-by-skill list** (every skill in this repo, named and
 described in one line, lives in that pack's own `README.md`; nothing here is
@@ -101,6 +102,7 @@ just a number).
 | [`research-commercialisation`](specialisation-packs/research-commercialisation/README.md) | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | 12 |
 | [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | 8 |
 | [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, matching a model against a library of known innovation patterns, a set of resilience/risk heuristics (economics prototyping, organizational-resistance mapping, channel economics, operational risk scanning), and two AI-native facilitation techniques (AI-drafted starting canvas, AI-scaled customer interviewing) | 19 |
+| [`public-sector-ai-service-design`](specialisation-packs/public-sector-ai-service-design/README.md) | A public-sector lens on top of the core AI-strategy, business-case, and stakeholder skills: screening AI ideas for public value and mandate fit, mapping the distinct stakeholder types and veto points in public organizations, navigating procurement and public funding, regulatory and equity guardrails for citizen-facing AI, and a six-element decision-readiness model for public decision bodies | 7 |
 
 ## How maturity is tracked
 
@@ -209,6 +211,7 @@ ai-business-designer-skills/
 ├── specialisation-packs/
 │   ├── ai-native-startup-design/       8 skills
 │   ├── business-model-canvas/          19 skills
+│   ├── public-sector-ai-service-design/ 7 skills
 │   └── research-commercialisation/     12 skills
 ├── templates/
 │   ├── skill-template/SKILL.md

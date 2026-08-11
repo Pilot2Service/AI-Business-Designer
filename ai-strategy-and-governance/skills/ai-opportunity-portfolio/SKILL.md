@@ -198,6 +198,10 @@ ones allowed (see `../../../meta/frontmatter_schema.md`).
   — a more general, non-AI-specific opportunity assessment model.
 - If the whole process is run as a paid consulting engagement:
   `../ai-discovery-engagement-design/SKILL.md`
+- If the client is a public-sector or non-profit body: pre-screen with
+  `../../../specialisation-packs/public-sector-ai-service-design/skills/ps-ai-opportunity-screening-for-public-value/SKILL.md`
+  before or alongside this skill — public-value fit and mandate
+  alignment change how the Business Impact dimension should be weighted.
 - A ready-made skill chain for this situation: see `../../../playbooks/`
 - This pack's shared guardrails: `../../CLAUDE.md`
 

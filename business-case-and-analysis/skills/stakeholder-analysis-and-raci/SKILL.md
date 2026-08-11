@@ -73,6 +73,13 @@ the only ones allowed (see
 ## Continue from here
 
 - Next in this pack: [`../assumption-and-evidence-audit/SKILL.md`](../assumption-and-evidence-audit/SKILL.md) — Tests assumptions and identifies evidence gaps before a recommendation is locked in.
+- For a public-sector, municipal, or non-profit client: extend this
+  method with
+  [`../../../specialisation-packs/public-sector-ai-service-design/skills/ps-stakeholder-and-political-landscape-mapping/SKILL.md`](../../../specialisation-packs/public-sector-ai-service-design/skills/ps-stakeholder-and-political-landscape-mapping/SKILL.md)
+  — public-sector stakeholders split across distinct actor types
+  (elected officials, civil servants, unions, oversight bodies) with
+  different veto points that a generic power/interest grid doesn't
+  distinguish on its own.
 - A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
 - This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 

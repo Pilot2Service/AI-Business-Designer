@@ -81,6 +81,12 @@ the only ones allowed (see
   — translates the demo's results into validated ROI inputs with a
   transparent assumption chain before they're used here.
 - A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
+- If the case is for a public-sector, municipal, or non-profit client:
+  frame the value case first with
+  [`../../../specialisation-packs/public-sector-ai-service-design/skills/ps-public-value-business-case-framing/SKILL.md`](../../../specialisation-packs/public-sector-ai-service-design/skills/ps-public-value-business-case-framing/SKILL.md)
+  — public value (efficiency, service quality, equity, trust) often
+  doesn't reduce to a pure ROI story the way this skill's default
+  economics section assumes.
 - This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 
 ## References

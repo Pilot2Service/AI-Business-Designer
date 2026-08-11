@@ -1,5 +1,40 @@
 # Changelog
 
+## 0.23.0 — 2026-08-11
+
+**New specialisation pack: `public-sector-ai-service-design` (7 skills).**
+The owner supplied six PDFs containing the Pilot2Service commercialisation
+framework — the owner's own published, commercially licensed toolkit
+(20 planning modules, a 3-sprint project model, a 4-format communication
+frame) for taking a public-sector pilot through a commercialisation
+decision. Since the owner holds full rights to this material, using it was
+a business choice rather than a legal question; the choice made here was
+deliberately narrow: adapt only the genuinely public-sector-specific
+*principles* — most directly, a six-element decision-readiness model for
+presenting proposals to public decision bodies, found in the source's
+Communication Frame chapter — rewritten as transferable method, not
+reproduced from the source's exact questions, task lists, or deliverable
+templates. The rest of this pack (opportunity screening, stakeholder and
+political-landscape mapping, procurement/funding navigation, regulatory
+and equity guardrails, public-value business case framing) was written
+fresh, extending existing core-pack skills (`ai-opportunity-portfolio`,
+`stakeholder-analysis-and-raci`, `business-case-builder`,
+`responsible-ai-and-governance-check`) with the public-sector-specific
+delta rather than duplicating them. Full sourcing and scope-decision
+detail: `specialisation-packs/public-sector-ai-service-design/references/source-notes.md`.
+
+The larger, deeper body of the Pilot2Service source material (the full
+20-module workbook, project model, and deliverable templates) was
+deliberately held back — it's rich enough to justify its own, separate,
+standalone specialisation pack focused on post-pilot commercialisation
+planning, and that packaging decision is intentionally being made
+separately rather than folded into this smaller pack.
+
+Cross-linked into `ai-opportunity-portfolio`, `business-case-builder`,
+`stakeholder-analysis-and-raci`, and `responsible-ai-and-governance-check`
+so a user working a public-sector engagement from a core pack discovers
+the new pack at the right point.
+
 ## 0.22.0 — 2026-08-11
 
 **New core pack: `human-ai-collaboration-design` (5 skills) — plus 4
