@@ -1,5 +1,85 @@
 # Changelog
 
+## 0.22.0 — 2026-08-11
+
+**New core pack: `human-ai-collaboration-design` (5 skills) — plus 4
+enhancements to existing skills.** The owner supplied two documents
+("Chief Calibration: AI Business Design Heuristics and Operating Models"
+and "HITL AI Design and Partnership Architecture") plus a pasted five-
+section overview, with an explicit instruction that the Human-in-the-Loop
+theme should become its own pack rather than be folded into existing
+skills — this repo already had two lighter HITL-adjacent skills
+(`specialisation-packs/ai-native-startup-design/closed-loop-process-and-human-oversight-design`
+and `ai-strategy-and-governance/ai-output-curation-and-quality-control`),
+but neither reached the operational depth the new material asked for: a
+four-level maturity model, confidence-score routing, override-rate
+diagnostics in both directions, a named accountable calibration owner, and
+an explicit apprenticeship-risk concern. Full selection reasoning,
+overlap-with-existing-skills analysis, and detailed source-verification
+notes (including one attribution — "Curt Strovink" — that could not be
+confirmed as an identifiable person and was dropped) are in the new
+`human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md`.
+
+5 new skills in `human-ai-collaboration-design`, mapped directly onto the
+five named sub-documents the source material was itself structured
+around:
+
+- `hitl-maturity-and-confidence-routing` — a four-level HITL maturity
+  model (Smoke-and-Mirrors → Reactive → Intentionally Designed →
+  Collaborative Intelligence), a confidence-score routing table, a named
+  accountable calibration owner, the one-click-override design
+  requirement, and the "Clippy 2.0" over-personification anti-pattern.
+  Grounded in Su Belagodu's public HITL commentary (verified real person
+  and area of work; specific quotes flagged as unconfirmed) and an
+  independent Databricks industry source.
+- `ai-behavioral-specification-design` — specifies an AI's sentiment,
+  tone, and precision ("temperature") as an explicit design artifact (a
+  "Behavioral Document"), including redirect-not-silence guardrail
+  behavior and "prompt trees" replacing static service blueprints.
+- `ai-accuracy-guardrails-and-grounding-design` — absolute guardrails and
+  grounding against a named source of truth to counter sycophancy,
+  weighed against "tokonomics" (the cost/latency price of guardrail
+  complexity).
+- `hitl-override-metrics-and-feedback-audit` — override-rate and
+  override-accuracy auditing (catching both under-5% automation bias and
+  over-30% model under-performance), and the feedback loop that turns
+  human corrections into the "AI Flywheel."
+- `expert-agency-and-apprenticeship-protection` — a hard boundary around
+  decisions AI may never make autonomously, and the "apprenticeship risk"
+  that erodes an organization's future ability to supervise its own AI.
+  The source material's "Curt Strovink" attribution could not be verified
+  and was replaced with independently confirmed 2026 sources on the same
+  concern (American Recruiting & Consulting Group, SPARK6, and
+  peer-reviewed novice-risk research).
+
+4 enhancements to existing skills, where the source material overlapped
+enough with existing territory that a new skill would have duplicated
+rather than filled a gap:
+
+- `ai-strategy-and-governance/task-level-decomposition-and-automation-fit`
+  — added a deterministic/probabilistic worked example to the error-
+  tolerance SML criterion.
+- `prototyping-and-demonstration/rapid-prototype-and-vibe-coding-craft` —
+  added the "kill mandate" principle and sharpened the high-fidelity-
+  prototype-trap guidance.
+- `ai-strategy-and-governance/ai-reshuffle-opportunity-framing` — added a
+  premise-check caution that AI amplifies existing organizational
+  weaknesses rather than fixing them, grounded in independent 2026 Forbes
+  Technology Council and academic sources (not in the unverified named
+  attribution the source material used).
+- `change-and-communication/workshop-and-facilitation-design` — added a
+  brief note on a real-time, cross-disciplinary collaboration format as
+  an alternative to a staged workshop for fast AI-prototyping cycles,
+  with the specific named model and people from the source material
+  dropped for insufficient sourcing (per this repo's established
+  practice — see the "CallUp AI" entry in the new pack's research doc).
+
+The two existing HITL-adjacent skills were kept as-is and cross-linked
+forward to the new pack rather than rewritten or superseded — see the new
+pack's `CLAUDE.md` for why both layers stay.
+
+Repo now stands at 9 core packs, 99 skills (up from 94).
+
 ## 0.21.0 — 2026-08-11
 
 **AI-native reshuffle heuristics — 6 new skills, 2 enhancements.** The

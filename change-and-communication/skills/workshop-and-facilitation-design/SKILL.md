@@ -47,6 +47,18 @@ Designs the structure of a cross-functional workshop or design-thinking session.
 6. **Plan the close: decision, owner, and next step, captured before people
    leave the room.** A workshop that "generated great discussion" but ends
    without a captured decision and owner hasn't produced a result.
+7. **For fast-moving AI prototyping specifically, consider a real-time,
+   cross-disciplinary working session instead of a staged workshop.**
+   When development, design, and business stakeholders review and adjust
+   an AI prototype together, live, in the same physical or digital space,
+   feedback is immediate and the discover/decide cycle above can compress
+   into hours instead of a multi-day workshop cadence. This isn't a
+   replacement for the structure above — it's a format choice for when the
+   material under discussion (a working prototype that can be poked at
+   directly) makes live, side-by-side reaction more valuable than a
+   scheduled agenda with prepared materials. Use it for prototype review
+   and refinement cycles specifically, not for the initial problem-framing
+   work that still benefits from the Double Diamond structure in step 1.
 
 ## What this skill does NOT do
 
@@ -85,4 +97,9 @@ the only ones allowed (see
 ## References
 
 - [`../../references/`](../../references/) — the pack's shared background material
+- Step 7's real-time cross-disciplinary format is grounded in the general
+  underlying idea only (live, siloless collaboration beats staged
+  handoffs) rather than in a specific named model — a named model and its
+  attributed originators could not be independently verified, see
+  [`../../../human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md`](../../../human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md)
 - [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

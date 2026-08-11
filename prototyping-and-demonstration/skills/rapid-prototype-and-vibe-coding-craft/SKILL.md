@@ -33,7 +33,15 @@ skill helps you pick the right fidelity level and use AI-assisted coding
    human correction." Example of a bad (too broad) hypothesis: "AI could
    help with the purchase-invoice process." If you can't state the
    hypothesis in one sentence that can be scored yes/no, you're still too
-   early for prototyping.
+   early for prototyping. Keep the framing explicit throughout the build: a
+   prototype is a tool to reduce strategic uncertainty about whether this
+   is worth building for real, not a rough draft of the eventual product —
+   treating it as the latter is what causes scope and polish to creep in
+   past what the hypothesis actually needs. Give the team an explicit
+   **kill mandate**: the authority and standing instruction to drop a
+   prototype early once it's clear it won't prove the hypothesis, rather
+   than continuing to invest in something already known not to work
+   because stopping feels like admitting failure.
 2. **Choose the fidelity level based on the hypothesis, not convenience:**
    - **Low fidelity** (a static mockup, a hand-built example, no working
      code) — enough when the question is structural: does the user
@@ -48,7 +56,14 @@ skill helps you pick the right fidelity level and use AI-assisted coding
    - **High fidelity** — only once a lower level has already validated the
      idea and the next question concerns the real user experience in a
      production-like environment. This usually isn't the job of a
-     consultant's first demo.
+     consultant's first demo. Watch for the high-fidelity trap: once a
+     prototype looks visually finished, stakeholders reliably start
+     discussing button colors and copy wording instead of the strategic
+     question the prototype was built to answer — the moment a review
+     conversation shifts from "does this prove the hypothesis" to
+     cosmetic detail, the prototype has done its job too well for its own
+     fidelity level, and it's a sign to either name the shift explicitly
+     or deliberately roughen the finish back down.
 3. **Choose the tool by task type, don't use one tool for everything.** A
    rough rule of thumb: a full-stack application sketch → a general-purpose
    AI coding agent; complex editing/refactoring of existing code → an agent
@@ -143,5 +158,11 @@ the only ones allowed (see
 - Prototype fidelity research (UX research tradition: low-fidelity
   prototypes reveal a large share of structural problems at a fraction of
   the cost of high fidelity)
+- The "kill mandate" and "reduces strategic uncertainty, not a pre-version
+  of the product" framing in step 1 is attributed in its source material
+  to AI-engineering practitioner Joshua Ebner; his general practice area
+  is confirmed, the exact quote is not — see
+  [`../../../human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md`](../../../human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md)
+  for the verification detail
 - [`../../references/`](../../references/) — the pack's shared background material
 - [`../../CLAUDE.md`](../../CLAUDE.md) — the pack's shared guardrails

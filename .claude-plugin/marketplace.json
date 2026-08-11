@@ -79,6 +79,15 @@
       }
     },
     {
+      "name": "human-ai-collaboration-design",
+      "displayName": "Human-AI Collaboration Design",
+      "source": "./human-ai-collaboration-design",
+      "description": "Designing intentional, accountable human-AI partnership: a four-level HITL maturity model with confidence-score routing, behavioral/tone specification for AI outputs, accuracy guardrails and grounding against sycophancy, override-rate auditing and the AI Flywheel, and protecting expert agency and apprenticeship pathways from AI erosion.",
+      "author": {
+        "name": "Pilot2service"
+      }
+    },
+    {
       "name": "specialisation-ai-native-startup-design",
       "displayName": "AI-Native Startup Design",
       "source": "./specialisation-packs/ai-native-startup-design",

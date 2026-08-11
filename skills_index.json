@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.21.0",
+  "version": "0.22.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — do not hand-edit",
   "packs": [
@@ -28,6 +28,11 @@
       "dir": "data-strategy-and-literacy",
       "name": "data-strategy-and-literacy",
       "title": "Data Strategy & Literacy"
+    },
+    {
+      "dir": "human-ai-collaboration-design",
+      "name": "human-ai-collaboration-design",
+      "title": "Human-AI Collaboration Design"
     },
     {
       "dir": "opportunity-recognition",
@@ -514,6 +519,61 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "data-strategy-and-literacy/skills/data-storytelling-and-business-translation/SKILL.md"
+    },
+    {
+      "id": "ai-accuracy-guardrails-and-grounding-design",
+      "pack": "human-ai-collaboration-design",
+      "title": "Ai Accuracy Guardrails And Grounding Design",
+      "description": "Designs absolute guardrails and grounds AI outputs against a named source of truth to counter sycophancy and hallucination, weighed against \\\"tokonomics\\\" — the cost, latency, and token price of every added guardrail instruction — so safety is achieved with the minimum instruction footprint, not the maximum.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "human-ai-collaboration-design/skills/ai-accuracy-guardrails-and-grounding-design/SKILL.md"
+    },
+    {
+      "id": "ai-behavioral-specification-design",
+      "pack": "human-ai-collaboration-design",
+      "title": "Ai Behavioral Specification Design",
+      "description": "Specifies an AI's sentiment, tone, and precision (\\\"temperature\\\") as an explicit design artifact — a Behavioral Document — instead of leaving it implicit; includes how the AI should redirect rather than go silent when it hits a guardrail, and \\\"prompt trees\\\" as the dynamic replacement for a static service blueprint.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "human-ai-collaboration-design/skills/ai-behavioral-specification-design/SKILL.md"
+    },
+    {
+      "id": "expert-agency-and-apprenticeship-protection",
+      "pack": "human-ai-collaboration-design",
+      "title": "Expert Agency And Apprenticeship Protection",
+      "description": "Draws an explicit boundary around decisions AI may never make autonomously (high-stakes agency), and protects the junior-expertise pipeline against being silently automated away — the apprenticeship risk that erodes an organization's future ability to supervise and validate its own AI.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "human-ai-collaboration-design/skills/expert-agency-and-apprenticeship-protection/SKILL.md"
+    },
+    {
+      "id": "hitl-maturity-and-confidence-routing",
+      "pack": "human-ai-collaboration-design",
+      "title": "Hitl Maturity And Confidence Routing",
+      "description": "Classifies an AI process against a four-level Human-in-the-Loop maturity model (Smoke-and-Mirrors, Reactive HOTL, Intentionally Designed, Collaborative Intelligence) and designs a confidence-score routing table that sends work to automation, assisted validation, or human escalation — with the override-rate red flags that catch a stalled or fake HITL setup and a named accountable calibration owner.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "human-ai-collaboration-design/skills/hitl-maturity-and-confidence-routing/SKILL.md"
+    },
+    {
+      "id": "hitl-override-metrics-and-feedback-audit",
+      "pack": "human-ai-collaboration-design",
+      "title": "Hitl Override Metrics And Feedback Audit",
+      "description": "Audits a human-AI partnership's health with override-rate and override-accuracy metrics (catching both automation bias and an under-performing model), and designs the feedback loop that turns human corrections into structured model-improvement input — the AI Flywheel and bidirectional learning.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "human-ai-collaboration-design/skills/hitl-override-metrics-and-feedback-audit/SKILL.md"
     },
     {
       "id": "competitive-and-five-forces-mapping",

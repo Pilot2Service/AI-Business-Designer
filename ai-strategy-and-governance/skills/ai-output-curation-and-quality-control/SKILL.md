@@ -40,13 +40,26 @@ AI's output toward an on-brand, coherent, reliable result ("curator").
    no longer produce content from scratch, but assess, correct, and
    approve/reject the AI's output.
 5. Build a checklist or rubric that the curator uses consistently — a
-   subjective "feels right" doesn't scale.
+   subjective "feels right" doesn't scale. For a fuller specification of
+   what "on-brand and correct" means in AI-behavioral terms — tone,
+   precision, and how the AI should redirect rather than just fail when it
+   hits a limit — see
+   `../../../human-ai-collaboration-design/skills/ai-behavioral-specification-design/SKILL.md`
+   and
+   `../../../human-ai-collaboration-design/skills/ai-accuracy-guardrails-and-grounding-design/SKILL.md`.
 6. Design a feedback loop: how the curator's corrections are fed back
    into the prompt or system so the same mistakes don't recur
    (closed-loop thinking).
 7. Track quality over time: what share of AI outputs pass through
    without correction — this tells you whether the process is maturing
-   toward less human oversight or not.
+   toward less human oversight or not. For the full audit methodology
+   behind this step — override-rate thresholds in both directions,
+   override accuracy, and turning corrections into a structured feedback
+   loop — see
+   `../../../human-ai-collaboration-design/skills/hitl-override-metrics-and-feedback-audit/SKILL.md`.
+   A pass-through rate alone can mislead the same way a raw override rate
+   can: a very low correction rate can mean excellent AI output, or it can
+   mean curators have started rubber-stamping.
 8. **Reference case for the creator-to-curator shift at business-model
    scale, not just individual-output scale:** Shutterstock, when free
    and unlimited AI-generated images threatened its core licensing
@@ -102,6 +115,11 @@ ones allowed (see `../../../meta/frontmatter_schema.md`).
   `../../../specialisation-packs/ai-native-startup-design/skills/closed-loop-process-and-human-oversight-design/SKILL.md`,
   `../../../change-and-communication/skills/workshop-and-facilitation-design/SKILL.md`
   (training the curator team).
+- **For deeper operational governance once curation is live**:
+  `../../../human-ai-collaboration-design/skills/hitl-override-metrics-and-feedback-audit/SKILL.md`
+  (deepens step 7), `../../../human-ai-collaboration-design/skills/ai-behavioral-specification-design/SKILL.md`
+  and `../../../human-ai-collaboration-design/skills/ai-accuracy-guardrails-and-grounding-design/SKILL.md`
+  (deepen step 5's rubric).
 - A ready-made skill chain for this situation: see `../../../playbooks/`
 - This pack's shared guardrails: `../../CLAUDE.md`
 

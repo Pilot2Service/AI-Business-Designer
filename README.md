@@ -11,7 +11,7 @@ pack also works as a map of the competence field around AI-assisted business
 design: what the discipline actually consists of, broken into named,
 independently usable pieces.
 
-`8 core packs · 3 populated specialisation packs · 94 skills · 4 audit agents
+`9 core packs · 3 populated specialisation packs · 99 skills · 4 audit agents
 · self-contained (no required external services) · CI-validated · MIT license`
 
 New here? [`QUICKSTART.md`](QUICKSTART.md) gets you from zero to your first
@@ -71,7 +71,7 @@ and install. Full walkthrough, including what a good first run looks like:
 
 ## What's inside
 
-Eight core packs cover the parts of AI-assisted business design that come up
+Nine core packs cover the parts of AI-assisted business design that come up
 across most engagements; three specialisation packs go deeper into a
 specific situation (research commercialisation, AI-native startup design,
 Business Model Canvas facilitation). Read the two tables below as much as a
@@ -92,6 +92,7 @@ just a number).
 | [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | 5 |
 | [`prototyping-and-demonstration`](prototyping-and-demonstration/README.md) | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | 5 |
 | [`data-strategy-and-literacy`](data-strategy-and-literacy/README.md) | diagnose data's role in a business and read data critically before trusting it | 6 |
+| [`human-ai-collaboration-design`](human-ai-collaboration-design/README.md) | design and audit intentional human-AI oversight — HITL maturity and confidence routing, AI behavioral/accuracy specification, override-rate auditing, and protecting expert agency | 5 |
 
 ### Specialisation packs
 
@@ -204,6 +205,7 @@ ai-business-designer-skills/
 ├── business-design-frameworks/        [plugin] 5 skills + agents/competitive-blind-spot-scanner.md
 ├── prototyping-and-demonstration/     [plugin] 5 skills
 ├── data-strategy-and-literacy/        [plugin] 6 skills
+├── human-ai-collaboration-design/     [plugin] 5 skills
 ├── specialisation-packs/
 │   ├── ai-native-startup-design/       8 skills
 │   ├── business-model-canvas/          19 skills

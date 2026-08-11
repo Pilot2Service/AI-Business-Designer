@@ -82,11 +82,21 @@ the same book, built on the historical shipping container.
    position supports a subscription-only, ~$500M ARR business with
    enterprise and API tiers — a business model automation alone
    wouldn't have created.
-6. **Hand off framed opportunities to scoring.** Once an opportunity is
-   explicitly located on the 1st/2nd/3rd-order scale, it's ready for
-   `ai-opportunity-portfolio`'s 5-dimension scoring — this skill doesn't
-   replace that scoring, it makes sure what enters it is honestly
-   framed first.
+6. **Check whether the opportunity assumes a strategy that isn't actually
+   clear yet.** AI doesn't fix organizational weaknesses, it amplifies
+   whatever is already there — a well-documented 2026 concern, not a
+   one-off warning (see References). If the team's strategic direction on
+   this part of the business is genuinely unclear, an AI initiative built
+   on top of it won't produce clarity, it will produce louder, faster
+   output at whatever quality the underlying strategy already had —
+   "strategic noise" at scale rather than strategic advantage. If this
+   opportunity depends on a strategic premise the team hasn't actually
+   agreed on, name that gap before scoring the opportunity, not after.
+7. **Hand off framed opportunities to scoring.** Once an opportunity is
+   explicitly located on the 1st/2nd/3rd-order scale and step 6's premise
+   check is clear, it's ready for `ai-opportunity-portfolio`'s
+   5-dimension scoring — this skill doesn't replace that scoring, it
+   makes sure what enters it is honestly framed first.
 
 ## What this skill does NOT do
 
@@ -132,5 +142,13 @@ the same book, built on the historical shipping container.
 
 - `../../references/ai-native-reshuffle-heuristics-research.md` —
   selection and grounding notes for this skill and its siblings
+- Forbes Technology Council, "AI Won't Fix Organizational Weaknesses — It
+  Will Amplify Them" (Aug 2026), and independent 2026 research on AI as a
+  "strategic amplifier" — grounding for step 6's weakness-amplification
+  caution (attributed to these independent sources rather than to a
+  specific named individual whose exact quote on this point could not be
+  verified — see
+  `../../../human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md`
+  for the verification detail)
 - `../../references/` — the pack's shared background material
 - `../../CLAUDE.md` — the pack's shared guardrails

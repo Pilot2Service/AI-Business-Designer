@@ -97,6 +97,14 @@ in-the-loop/on-the-loop/outside-the-loop model.
   `../../../../business-design-frameworks/skills/value-chain-mapping/SKILL.md`
   — a complementary way to structure the same business as a value chain
   rather than as processes.
+- **Once a loop is live and needs deeper operational governance**, not
+  just this initial design choice: `../../../../human-ai-collaboration-design/skills/hitl-maturity-and-confidence-routing/SKILL.md`
+  — a four-level maturity model with confidence-score routing, a named
+  accountable calibration owner, and override-rate diagnostics. This
+  skill's simple in/on/outside-the-loop model is still the right starting
+  point for an early-stage design decision; the linked skill is the
+  deeper layer for once the process has real usage data to calibrate
+  against.
 - The pack's shared guardrails: `../../CLAUDE.md`
 
 ## References

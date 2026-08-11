@@ -75,7 +75,14 @@ best ones.
    - **Error tolerance** — can the process tolerate a non-deterministic,
      probability-based result (e.g. a draft, a proposal), or does it
      require 100% deterministic accuracy (e.g. drug dosing, statutory
-     reporting)?
+     reporting)? A quick illustrative split, useful for calibrating this
+     judgment: billing logic and access/permissions decisions are
+     deterministic — no error margin is acceptable, and the routing in
+     `../../../human-ai-collaboration-design/skills/hitl-maturity-and-confidence-routing/SKILL.md`
+     should treat them accordingly; content summarization and creative
+     ideation are probabilistic — they benefit from linguistic flexibility
+     and contextual synthesis, and forcing deterministic precision onto
+     them wastes the model's actual strength.
    - **Time scale and response time** — does the task require a
      split-second reaction (real-time) or deep, long-term
      deliberation?
@@ -150,4 +157,7 @@ ones allowed (see `../../../meta/frontmatter_schema.md`).
 ## References
 
 - `../../references/` — the pack's shared background material
+- `../../../human-ai-collaboration-design/references/hitl-partnership-heuristics-research.md` —
+  grounding for the deterministic/probabilistic worked example added to
+  the error-tolerance criterion
 - `../../CLAUDE.md` — the pack's shared guardrails
