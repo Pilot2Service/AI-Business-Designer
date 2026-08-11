@@ -11,7 +11,7 @@ pack also works as a map of the competence field around AI-assisted business
 design: what the discipline actually consists of, broken into named,
 independently usable pieces.
 
-`8 core packs · 3 populated specialisation packs · 78 skills · 4 audit agents
+`8 core packs · 3 populated specialisation packs · 94 skills · 4 audit agents
 · self-contained (no required external services) · CI-validated · MIT license`
 
 New here? [`QUICKSTART.md`](QUICKSTART.md) gets you from zero to your first
@@ -87,7 +87,7 @@ just a number).
 | [`strategic-thinking`](strategic-thinking/README.md) | break down a fuzzy problem into a testable hypothesis (MECE / issue trees) | 6 |
 | [`opportunity-recognition`](opportunity-recognition/README.md) | scan, evaluate, size, and write up a business opportunity | 8 |
 | [`business-case-and-analysis`](business-case-and-analysis/README.md) | build an ROI/NPV business case with risks and assumptions made explicit | 6 |
-| [`ai-strategy-and-governance`](ai-strategy-and-governance/README.md) | prioritize AI use cases, scope a PoC, and check responsible-AI readiness | 11 |
+| [`ai-strategy-and-governance`](ai-strategy-and-governance/README.md) | prioritize AI use cases, scope a PoC, and check responsible-AI readiness — including a premise check for whether an idea is real reshuffle or just automation | 15 |
 | [`change-and-communication`](change-and-communication/README.md) | plan change management and executive communication | 4 |
 | [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | 5 |
 | [`prototyping-and-demonstration`](prototyping-and-demonstration/README.md) | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | 5 |
@@ -99,7 +99,7 @@ just a number).
 |---|---|---|
 | [`research-commercialisation`](specialisation-packs/research-commercialisation/README.md) | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | 12 |
 | [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | 8 |
-| [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, and matching a model against a library of known innovation patterns | 7 |
+| [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, matching a model against a library of known innovation patterns, a set of resilience/risk heuristics (economics prototyping, organizational-resistance mapping, channel economics, operational risk scanning), and two AI-native facilitation techniques (AI-drafted starting canvas, AI-scaled customer interviewing) | 19 |
 
 ## How maturity is tracked
 
@@ -199,14 +199,14 @@ ai-business-designer-skills/
 │   └── references/
 ├── opportunity-recognition/           [plugin] 8 skills + agents/market-sizing-cross-validator.md
 ├── business-case-and-analysis/        [plugin] 6 skills + agents/assumption-stress-tester.md
-├── ai-strategy-and-governance/        [plugin] 11 skills + agents/ai-initiative-readiness-auditor.md
+├── ai-strategy-and-governance/        [plugin] 15 skills + agents/ai-initiative-readiness-auditor.md
 ├── change-and-communication/          [plugin] 4 skills
 ├── business-design-frameworks/        [plugin] 5 skills + agents/competitive-blind-spot-scanner.md
 ├── prototyping-and-demonstration/     [plugin] 5 skills
 ├── data-strategy-and-literacy/        [plugin] 6 skills
 ├── specialisation-packs/
 │   ├── ai-native-startup-design/       8 skills
-│   ├── business-model-canvas/          7 skills
+│   ├── business-model-canvas/          19 skills
 │   └── research-commercialisation/     12 skills
 ├── templates/
 │   ├── skill-template/SKILL.md

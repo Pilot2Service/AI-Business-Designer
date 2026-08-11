@@ -1,9 +1,3 @@
----
-status: validated
-owner_input_needed: false
-last_reviewed: 2026-08-04
----
-
 # Research Commercialisation
 
 How to turn a research result or IP into a commercialisable product, service,

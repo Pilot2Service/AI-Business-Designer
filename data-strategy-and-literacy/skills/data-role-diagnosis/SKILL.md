@@ -1,6 +1,6 @@
 ---
 name: data-role-diagnosis
-description: "Diagnoses and justifies whether data functions in the organization as an enabler (cost, operational efficiency) or as a strategic asset (revenue-generating, monetizable, defensible) — using heuristic tests (resale, flywheel, defensibility) and the Offense/Defense framework. Use before designing a data strategy or an AI business model, when you need to determine what role data plays in the organization TODAY and what role it SHOULD play."
+description: "Diagnoses and justifies whether data functions in the organization as an enabler (cost, operational efficiency) or as a strategic asset (revenue-generating, monetizable, defensible) — using heuristic tests (resale, flywheel, defensibility, relevance) and the Offense/Defense framework. Use before designing a data strategy or an AI business model, when you need to determine what role data plays in the organization TODAY and what role it SHOULD play."
 ---
 
 # Data Role Diagnosis
@@ -33,6 +33,12 @@ right now.
   business mechanism, applied here to data's self-reinforcing value loop
   (see point 3 below and
   `../data-monetization-model-selection/SKILL.md`).
+- The relevance test (added later) is not tied to a verified named
+  source — see
+  `../../../ai-strategy-and-governance/references/ai-native-reshuffle-heuristics-research.md`
+  for why its original attribution couldn't be confirmed and was
+  deliberately dropped, while the underlying test was kept because the
+  point stands on its own.
 
 ## Method
 
@@ -47,7 +53,7 @@ right now.
    replicate with capital alone?"* If yes, the data is a potential
    strategic asset — but potential alone isn't enough; it needs to be
    validated with the tests in point 3.
-3. **Validate the asset claim with three tests before you believe it:**
+3. **Validate the asset claim with four tests before you believe it:**
    - **Resale test:** is there a party that would pay for this data or an
      insight derived from it TODAY, without you first having to build
      anything new? If not, this is potential, not a present-day asset.
@@ -62,6 +68,23 @@ right now.
      or does it require this specific data, unavailable elsewhere? If a
      competitor could reach the same outcome with money alone without
      this data, the asset isn't as defensible as assumed.
+   - **Relevance test:** is this specifically the data type with genuine
+     predictive power for the target outcome, or just the data the
+     organization happens to already have, for a different reason? This
+     catches a common and easy-to-miss mistake: owning ADJACENT data
+     (e.g. purchase-behavior data) doesn't mean the organization is
+     positioned for an AI use case that actually needs a DIFFERENT kind
+     of data (e.g. health or biometric data for genuinely personalized
+     recommendations) — the two can look similar enough in a slide to
+     pass unquestioned, but only one of them has real predictive value
+     for the stated goal. Ask directly: if a well-resourced competitor
+     started from zero but had access to the RIGHT data type instead of
+     ours, would they out-predict us despite the head start we think we
+     have? This illustrative failure mode (owning consumer purchase
+     data while believing it substitutes for health/microbiome data in
+     a personalization use case) is a plausible, cautionary example, not
+     an independently verified case — treat it as illustrative rather
+     than a confirmed citation.
 4. **Place the diagnosis on an Offense/Defense matrix** with two axes:
    current maturity (low/high data governance) and targeted role
    (enabler/asset). This exposes a common trap: the organization tries to
@@ -133,5 +156,7 @@ allowed (see `../../../meta/frontmatter_schema.md`).
 
 - `../../references/data-role-heuristics.md` — a broader collection of
   diagnostic questions and examples
+- `../../../ai-strategy-and-governance/references/ai-native-reshuffle-heuristics-research.md` —
+  grounding notes for the relevance test
 - `../../references/` — the pack's shared background material
 - `../../CLAUDE.md` — the pack's shared guardrails

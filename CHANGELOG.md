@@ -1,5 +1,187 @@
 # Changelog
 
+## 0.21.0 — 2026-08-11
+
+**AI-native reshuffle heuristics — 6 new skills, 2 enhancements.** The
+owner collected a second batch of material on how experts (Sangeet
+Paul Choudary, Alex Osterwalder, Howard Yu, and a Strategyzer-affiliated
+practitioner) frame AI as a restructuring of industries and business
+models, not just a productivity tool. Each of the 12 items (10
+heuristics + 2 case examples) was checked against the pack's then-88
+skills before anything was written; one item (Sensing → Sensemaking)
+turned out to be an exact duplicate of `bmc-sensemaking-question-mapping`
+(written the previous session from a different but overlapping source
+list) and was skipped entirely. Full selection reasoning and sourcing
+is in the new
+`ai-strategy-and-governance/references/ai-native-reshuffle-heuristics-research.md`.
+
+4 new skills in `ai-strategy-and-governance`:
+
+- `ai-reshuffle-opportunity-framing` — tests whether an AI opportunity
+  is framed as automating an existing process or as a genuine
+  value-chain reshuffle, using the shipping-container three-orders-of-
+  effect model, before it enters `ai-opportunity-portfolio` scoring.
+  Merges two of the owner's original items, since both trace to the
+  same source and level of the same framework (Sangeet Paul Choudary,
+  *Reshuffle*, 2025 Thinkers50 Strategy Award).
+- `capability-commoditization-tracking` — a recurring check on which
+  capabilities are commoditizing under AI vs. becoming newly
+  complementary, redirecting investment accordingly. Grounded in two
+  independent named sources reaching the same point (Choudary's
+  *Reshuffle* and Howard Yu's LEAP thesis, IMD, 2023 Thinkers50
+  Strategy Award).
+- `conways-law-ai-architecture-check` — diagnoses whether an
+  organization's communication structure will get mirrored in its AI
+  system, and applies the resequencing rule (structure before build,
+  not after). Grounded in Conway's Law (1967) and an active,
+  independently-arrived-at 2026 discourse extending it to AI
+  specifically.
+- `workshop-to-agent-productization` — converts a company's own
+  recorded/written expert material into an interactive AI agent for
+  Q&A and upsell. No single named source; grounded in mainstream 2026
+  transcription and conversational-agent tooling instead.
+
+2 new skills in `specialisation-packs/business-model-canvas`:
+
+- `bmc-ai-assisted-draft-starting` — starts a session from an
+  AI-generated first-draft canvas and brand audit instead of a blank
+  page; the team edits rather than generates. Source practitioner
+  independently identified as a real, Strategyzer-affiliated BMG
+  facilitator and *Value Proposition Design* contributor — meaningfully
+  stronger sourcing than the earlier, unverifiable "Paris Thomas"
+  attribution on the two-week experiment rule, though the specific
+  "start from edit" phrase itself couldn't be independently located.
+- `bmc-ai-scaled-customer-interviewing` — uses AI-moderated interviews
+  to run customer discovery at a scale no human team could match, then
+  filters the aggregate for outliers worth a personal follow-up.
+  Grounded independently of any named attribution, in well-documented
+  2026 adoption data (roughly 40% of B2B SaaS product teams running
+  AI-moderated interviews monthly, up from under 10% in 2024).
+
+2 enhancements to existing skills, chosen over new skills because each
+overlapped enough with an existing skill's territory that a third,
+adjacent skill would have meant restating the same ground:
+
+- `data-role-diagnosis` gains a fourth asset-validation test —
+  **relevance** — alongside the existing resale/flywheel/defensibility
+  tests: does the organization's data have genuine predictive power for
+  the target AI outcome, or is it just the data the organization
+  happens to already have for a different reason. The original
+  attribution to Alex Osterwalder and a specific skincare/microbiome
+  example could not be independently verified despite a direct search
+  — kept as an illustrative, explicitly unattributed example rather
+  than a sourced citation, consistent with this repo's no-fabrication
+  standard.
+- `ai-native-business-model-canvas`'s data-flywheel check (Method step
+  6) is deepened with the proprietary learning-engine principle: the
+  durable AI-native moat is the continuous, proprietary INTEGRATION of
+  modules across the full chain (experimentation through go-to-market
+  signal), not any single AI module, which commoditizes once unbundled.
+  The original heuristic's vague "chemicals" example was replaced with
+  a verified, named, independently-confirmed case: Recursion
+  Pharmaceuticals' proprietary wet-lab feedback loop. Cross-referenced
+  against `data-monetization-model-selection`'s existing four-point
+  flywheel checklist (validates whether a flywheel claim is real; this
+  step is about designing the architecture so it can be).
+
+Case examples used as grounding rather than standalone skills: Perplexity
+AI (verified current 2026 figures — subscription-only since February
+2026, ~$500M ARR) illustrates `ai-reshuffle-opportunity-framing`'s
+3rd-order-effect case; Shutterstock (verified six-year OpenAI
+training-data agreement, Contributor Fund) illustrates
+`capability-commoditization-tracking` and was also added as a
+strategic-scale worked example to the existing
+`ai-output-curation-and-quality-control` skill.
+
+Pack READMEs and CLAUDE.md files updated for the new skill counts and
+cross-pack relationships. Root README, `docs/index.html` updated for
+the new total (94 skills; `ai-strategy-and-governance` 11 → 15,
+`business-model-canvas` 17 → 19).
+
+## 0.20.0 — 2026-08-11
+
+**Business Model Canvas pack grows from 7 to 17 skills — resilience and
+risk heuristics.** The owner collected 13 heuristics used by experienced
+BMC practitioners for resilience assessment, risk-spotting, and steering
+experimentation — well beyond the canvas's usual role as a static
+planning template. Each was checked against this pack's existing 7
+skills, its 159-pattern library, and its stated client profile
+(early-stage/growth-stage companies, not large-enterprise innovation
+units), and independently grounded wherever possible before writing
+anything. Full selection reasoning, sourcing, and the 3 heuristics left
+out (with why) is in the new
+`specialisation-packs/business-model-canvas/references/bmc-resilience-heuristics-research.md`.
+
+10 new skills, all comprehensive and complete (not scaffolded — internal
+`maturity`/`source_layer` tracking still applies per the usual
+convention, but the skill content itself is fully written):
+
+- `bmc-hunting-zone-definition` — bounds bottom-up exploration with a
+  one-sentence direction (megatrend × assets × segment) before any
+  canvas work starts (Binns/O'Reilly/Tushman's *Corporate Explorer*).
+- `bmc-economic-prototyping` — forces pricing and unit economics into a
+  live, testable prototype from the first session, with a
+  willingness-to-pay test menu including the Van Westendorp method.
+- `bmc-revenue-quality-scoring` — scores Revenue Streams -3 to +3 on
+  predictability, not size (Strategyzer's Revenue Resilience concept).
+- `bmc-channel-economics-check` — puts real CAC and payback period
+  against every Channel, checked against actual budget and runway.
+- `bmc-antibody-and-sandbox-design` — maps organizational-rejection
+  triggers for a new model and designs a protected sandbox (the
+  "corporate antibodies" concept, HBR 2012 and others).
+- `bmc-operational-risk-scanning` — reads Key Partners/Activities/
+  Resources as a third-party access and operational risk surface.
+- `bmc-tech-level-repositioning` — tests winning by deliberately moving
+  up or down the technology-sophistication axis (Osterwalder's *The
+  Invincible Company* "Low Tech to High Tech" pattern; Nintendo Wii and
+  TRISA as the two directional cases).
+- `bmc-experiment-method-selection` — build-vs-proxy decision gate for
+  testing a hypothesis (build now if achievable in about two weeks,
+  otherwise a landing page / clickable mockup / Wizard of Oz / pre-order
+  instead) — grounded in Ash Maurya's Lean Startup tradition; the
+  owner's original "Paris Thomas" attribution for this rule could not be
+  independently verified and was deliberately left out.
+- `bmc-proxy-expert-validation` — uses adjacent professionals (not the
+  target customer directly) as a fast validation source, grounded in the
+  Blank/Fitzpatrick customer-development tradition; generalized beyond
+  the owner's original "salesperson dinner" framing, which likewise
+  couldn't be independently verified as a named source.
+- `bmc-sensemaking-question-mapping` — builds the canvas as open
+  questions instead of filled-in answers, distinguishing a missing-data
+  gap from an unresolved-interpretation gap (Weick's sensemaking theory
+  applied to the current AI-era "sensing is cheap, sensemaking is
+  scarce" discourse). Flagged in the research doc as needing the most
+  concretizing work of the ten — the weakest on the pack's own
+  concreteness test — and written accordingly, with explicit mechanics
+  (the "could an AI have produced this" test, cost-of-being-wrong
+  question sequencing) rather than staying at the level of a reframe.
+
+One existing skill enhanced rather than duplicated: `bmc-canvas-diagnostic-reading`
+gains a 7th diagnostic rule, DR-07 (gravity/lock-in check), grounded in
+Osterwalder's "Gravity Creators" pattern — not a new skill, because the
+underlying mechanism (`operating.chain.lock_in`,
+`experience.relationships.switching_costs`) was already in the
+159-pattern library and reachable through `bmc-innovation-pattern-matching`.
+
+Two heuristics were evaluated and explicitly not built: a McGrath/
+Osterwalder "50% leadership time" organizational-capacity rule (doesn't
+touch a specific canvas, and the exact test couldn't be independently
+verified) and a corporate VC portfolio approach (well-documented, but
+requires an innovation-department scale that doesn't match this pack's
+stated client profile — flagged as a candidate for a future
+corporate-innovation-scale pack instead).
+
+Pack README and CLAUDE.md updated for the new skill count and the
+resulting three-layer structure (owner's expert interview / research
+synthesis of BMC sources / owner-collected heuristics with external
+grounding). Root README, QUICKSTART cross-references, and
+`docs/index.html` updated for the new total (88 skills). In the course
+of this work, found and removed two more leftover `status`/
+`owner_input_needed` frontmatter blocks in `research-commercialisation/README.md`
+and `ai-native-startup-design/README.md` that the 0.19.0 status-disclosure
+removal had missed (they live in README frontmatter, not the body text
+that pass's regex swept).
+
 ## 0.19.0 — 2026-08-11
 
 **Maturity is now a private tracking tool, not a public status label.**

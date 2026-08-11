@@ -106,6 +106,11 @@ customer experience.
   to a more precise tool to validate a pattern.
 - Related skill in another pack:
   `../../../../ai-strategy-and-governance/skills/ai-opportunity-portfolio/SKILL.md`
+- Related skills in the same pack: `../bmc-tech-level-repositioning/SKILL.md`
+  (a repositioning direction not currently in the pattern library, run
+  alongside pattern selection) and `../bmc-revenue-quality-scoring/SKILL.md`
+  (uses the `financial.rev.*` patterns here for revenue-stream conversion
+  ideas).
 - This pack's shared guardrails: `../../CLAUDE.md`
 
 ## References

@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.19.0",
+  "version": "0.21.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — do not hand-edit",
   "packs": [
@@ -49,13 +49,13 @@
     {
       "dir": "ai-native-startup-design",
       "title": "AI-Native Startup Design",
-      "status": "validated",
-      "owner_input_needed": false
+      "status": "placeholder",
+      "owner_input_needed": true
     },
     {
       "dir": "business-model-canvas",
       "title": "Business Model Canvas",
-      "status": "validated",
+      "status": "placeholder",
       "owner_input_needed": true
     },
     {
@@ -67,8 +67,8 @@
     {
       "dir": "research-commercialisation",
       "title": "Research Commercialisation",
-      "status": "validated",
-      "owner_input_needed": false
+      "status": "placeholder",
+      "owner_input_needed": true
     }
   ],
   "skills": [
@@ -148,6 +148,17 @@
       "path": "ai-strategy-and-governance/skills/ai-output-curation-and-quality-control/SKILL.md"
     },
     {
+      "id": "ai-reshuffle-opportunity-framing",
+      "pack": "ai-strategy-and-governance",
+      "title": "Ai Reshuffle Opportunity Framing",
+      "description": "Tests whether an AI opportunity is framed as automating an existing process (1st-order) or as a genuine value-chain reshuffle (3rd-order) using the shipping-container three-orders-of-effect model, before it enters scoring — catches the most common AI-strategy mistake: applying AI to unchanged structures instead of asking what AI changes about where value sits.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/ai-reshuffle-opportunity-framing/SKILL.md"
+    },
+    {
       "id": "ai-use-case-feasibility-and-poc-scoping",
       "pack": "ai-strategy-and-governance",
       "title": "AI Use Case Feasibility & PoC Scoping",
@@ -172,6 +183,28 @@
       ],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md"
+    },
+    {
+      "id": "capability-commoditization-tracking",
+      "pack": "ai-strategy-and-governance",
+      "title": "Capability Commoditization Tracking",
+      "description": "Tracks which of the organization's capabilities are becoming commoditized by AI (cheap, reproducible by a prompt) versus which are becoming newly complementary (valuable precisely because AI makes them combinable with other domains), and redirects investment away from the former toward the latter before the market forces the move.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/capability-commoditization-tracking/SKILL.md"
+    },
+    {
+      "id": "conways-law-ai-architecture-check",
+      "pack": "ai-strategy-and-governance",
+      "title": "Conways Law Ai Architecture Check",
+      "description": "Diagnoses whether an organization's communication structure will get mirrored in whatever AI system it builds — fragmented teams produce fragmented, siloed AI tools with no shared capability — and applies the resequencing rule: decide on org structure before building the AI architecture, not after.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/conways-law-ai-architecture-check/SKILL.md"
     },
     {
       "id": "responsible-ai-and-governance-check",
@@ -208,6 +241,17 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "ai-strategy-and-governance/skills/task-level-decomposition-and-automation-fit/SKILL.md"
+    },
+    {
+      "id": "workshop-to-agent-productization",
+      "pack": "ai-strategy-and-governance",
+      "title": "Workshop To Agent Productization",
+      "description": "Converts a company's own unique expert material — a recorded workshop, a proprietary methodology session, a training deck — into an interactive AI agent customers can query, so it works as a learning aid AND a low-effort upsell/retention touchpoint instead of sitting unused as a static recording.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "ai-strategy-and-governance/skills/workshop-to-agent-productization/SKILL.md"
     },
     {
       "id": "assumption-and-evidence-audit",
@@ -453,7 +497,7 @@
       "id": "data-role-diagnosis",
       "pack": "data-strategy-and-literacy",
       "title": "Data Role Diagnosis",
-      "description": "Diagnoses and justifies whether data functions in the organization as an enabler (cost, operational efficiency) or as a strategic asset (revenue-generating, monetizable, defensible) — using heuristic tests (resale, flywheel, defensibility) and the Offense/Defense framework. Use before designing a data strategy or an AI business model, when you need to determine what role data plays in the organization TODAY and what role it SHOULD play.",
+      "description": "Diagnoses and justifies whether data functions in the organization as an enabler (cost, operational efficiency) or as a strategic asset (revenue-generating, monetizable, defensible) — using heuristic tests (resale, flywheel, defensibility, relevance) and the Offense/Defense framework. Use before designing a data strategy or an AI business model, when you need to determine what role data plays in the organization TODAY and what role it SHOULD play.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -847,6 +891,39 @@
       "path": "specialisation-packs/ai-native-startup-design/skills/rice-scoring-and-mvp-synthesis/SKILL.md"
     },
     {
+      "id": "bmc-ai-assisted-draft-starting",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Ai Assisted Draft Starting",
+      "description": "Starts a BMC session from an AI-generated first-draft canvas and brand audit instead of a blank page — the team's real work becomes editing, rejecting, and enriching the draft rather than generating it from nothing, which is faster and surfaces disagreement earlier.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-ai-assisted-draft-starting/SKILL.md"
+    },
+    {
+      "id": "bmc-ai-scaled-customer-interviewing",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Ai Scaled Customer Interviewing",
+      "description": "Uses AI-moderated interviews to run customer discovery conversations at a scale no human team could match — hundreds of short interviews in parallel — then treats the aggregate as a filter: mines it for the most interesting outliers and patterns, and follows up on those personally.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-ai-scaled-customer-interviewing/SKILL.md"
+    },
+    {
+      "id": "bmc-antibody-and-sandbox-design",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Antibody And Sandbox Design",
+      "description": "Reads a new business model for organizational-rejection triggers — margin conflict, sales-process conflict, cannibalization fear — inside the client's own organization, and designs a protected sandbox so internal 'antibodies' don't kill the experiment before it's tested.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-antibody-and-sandbox-design/SKILL.md"
+    },
+    {
       "id": "bmc-antipattern-and-misunderstanding-correction",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Antipattern And Misunderstanding Correction",
@@ -879,12 +956,23 @@
       "id": "bmc-canvas-diagnostic-reading",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Canvas Diagnostic Reading",
-      "description": "Reads a finished BMC canvas as a diagnostic instrument using six research-based rules (Hook Rule, value-cost consistency, segment specificity, evidence grade, defensive canvas, missing block) and a four-dimension quality rubric.",
+      "description": "Reads a finished BMC canvas as a diagnostic instrument using seven research-based rules (Hook Rule, value-cost consistency, segment specificity, evidence grade, defensive canvas, missing block, gravity/lock-in check) and a four-dimension quality rubric.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-canvas-diagnostic-reading/SKILL.md"
+    },
+    {
+      "id": "bmc-channel-economics-check",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Channel Economics Check",
+      "description": "Puts a real cost-to-acquire against every Channel on the canvas and checks it against the company's actual budget, payback period, and cash runway — so channels get chosen on economics, not just descriptive fit or trend appeal.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-channel-economics-check/SKILL.md"
     },
     {
       "id": "bmc-client-language-translation",
@@ -896,6 +984,39 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-client-language-translation/SKILL.md"
+    },
+    {
+      "id": "bmc-economic-prototyping",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Economic Prototyping",
+      "description": "Forces pricing, unit economics, and revenue-model assumptions into a live, testable form at the start of BMC work — a dynamic numbers prototype and a willingness-to-pay test — instead of leaving Revenue Streams and Cost Structure as an afterthought.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-economic-prototyping/SKILL.md"
+    },
+    {
+      "id": "bmc-experiment-method-selection",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Experiment Method Selection",
+      "description": "Decides HOW to test a BMC hypothesis based on real build effort — build and test immediately if a working version is achievable in about two weeks, otherwise choose a cheaper proxy method (landing page, clickable mockup, Wizard of Oz, pre-order) instead of starting to build.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-experiment-method-selection/SKILL.md"
+    },
+    {
+      "id": "bmc-hunting-zone-definition",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Hunting Zone Definition",
+      "description": "Defines a one-sentence 'hunting zone' — megatrend × owned or acquirable assets × attractive customer segment — before sketching any BMC, so bottom-up business model experimentation stays bounded and comparable instead of producing scattered, unrelated one-off canvases.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-hunting-zone-definition/SKILL.md"
     },
     {
       "id": "bmc-innovation-pattern-matching",
@@ -912,6 +1033,50 @@
       "path": "specialisation-packs/business-model-canvas/skills/bmc-innovation-pattern-matching/SKILL.md"
     },
     {
+      "id": "bmc-operational-risk-scanning",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Operational Risk Scanning",
+      "description": "Reads Key Partners, Key Activities, and Key Resources as an operational risk and third-party access surface — not just an operating description — to catch vendor-access, concentration, and bus-factor vulnerabilities that standard BMC facilitation misses.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-operational-risk-scanning/SKILL.md"
+    },
+    {
+      "id": "bmc-proxy-expert-validation",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Proxy Expert Validation",
+      "description": "Finds people who professionally interact with your target customer's Jobs, Pains, and Gains every day — salespeople, support staff, brokers, consultants adjacent to your category — and interviews them as a fast, cheap, pattern-rich validation source before or alongside direct customer interviews.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-proxy-expert-validation/SKILL.md"
+    },
+    {
+      "id": "bmc-revenue-quality-scoring",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Revenue Quality Scoring",
+      "description": "Scores each Revenue Stream and its matching Customer Relationship on a -3 to +3 resilience scale — recurring/contractual vs. one-off/unpredictable — instead of raw size, to reveal how fragile a model's top line actually is before it's mistaken for strength.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-revenue-quality-scoring/SKILL.md"
+    },
+    {
+      "id": "bmc-sensemaking-question-mapping",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Sensemaking Question Mapping",
+      "description": "Builds the BMC as a structured set of open, falsifiable questions per block instead of filled-in answers, and distinguishes 'we lack data' gaps from 'we haven't interpreted contradictory signals' gaps — shifting effort from collecting more information (cheap, AI-abundant) to asking better questions (the actual scarce skill).",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-sensemaking-question-mapping/SKILL.md"
+    },
+    {
       "id": "bmc-session-facilitation-design",
       "pack": "specialisation-packs/business-model-canvas",
       "title": "Bmc Session Facilitation Design",
@@ -921,6 +1086,17 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "specialisation-packs/business-model-canvas/skills/bmc-session-facilitation-design/SKILL.md"
+    },
+    {
+      "id": "bmc-tech-level-repositioning",
+      "pack": "specialisation-packs/business-model-canvas",
+      "title": "Bmc Tech Level Repositioning",
+      "description": "Tests whether a business model can win by deliberately moving up (automating what's manual) or down (stripping out over-engineered technology) the technology-sophistication axis of Key Resources, Key Activities, and the Value Proposition — the win comes from business-model fit, not the tech level itself.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/business-model-canvas/skills/bmc-tech-level-repositioning/SKILL.md"
     },
     {
       "id": "bmc-tool-switching-decisions",

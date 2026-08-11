@@ -47,6 +47,22 @@ AI's output toward an on-brand, coherent, reliable result ("curator").
 7. Track quality over time: what share of AI outputs pass through
    without correction — this tells you whether the process is maturing
    toward less human oversight or not.
+8. **Reference case for the creator-to-curator shift at business-model
+   scale, not just individual-output scale:** Shutterstock, when free
+   and unlimited AI-generated images threatened its core licensing
+   business, didn't try to compete as a creator of stock images against
+   free generation — it repositioned the whole company around curation
+   and governance instead: a six-year training-data agreement with
+   OpenAI, a Contributor Fund compensating artists whose work trains
+   the models, and a pitch to enterprise customers built around
+   content-usage governance and legal safety rather than image supply
+   alone (independently confirmed: a real, current six-year agreement
+   and an active contributor-compensation program). This is the same
+   shift this skill designs at the level of a single output-review
+   process, applied instead at the level of an entire business
+   repositioning around curation — worth using with a client who's
+   asking "should we compete with AI or curate around it" at a strategic
+   level, not just a process level.
 
 ## What this skill does NOT do
 
@@ -91,5 +107,7 @@ ones allowed (see `../../../meta/frontmatter_schema.md`).
 
 ## References
 
+- `../../references/ai-native-reshuffle-heuristics-research.md` —
+  grounding for the Shutterstock reference case in Method step 8
 - `../../references/` — the pack's shared background material
 - `../../CLAUDE.md` — the pack's shared guardrails

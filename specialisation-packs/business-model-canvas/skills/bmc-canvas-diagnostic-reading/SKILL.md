@@ -1,6 +1,6 @@
 ---
 name: bmc-canvas-diagnostic-reading
-description: "Reads a finished BMC canvas as a diagnostic instrument using six research-based rules (Hook Rule, value-cost consistency, segment specificity, evidence grade, defensive canvas, missing block) and a four-dimension quality rubric."
+description: "Reads a finished BMC canvas as a diagnostic instrument using seven research-based rules (Hook Rule, value-cost consistency, segment specificity, evidence grade, defensive canvas, missing block, gravity/lock-in check) and a four-dimension quality rubric."
 ---
 
 # BMC Canvas Diagnostic Reading
@@ -24,7 +24,12 @@ interview)
 `canvas_quality_rubric.md`, `antipatterns/counterexamples.md` — all
 `status: template`, `source: research_layer`), a synthesis drawing on
 van der Linden, Jeffries, Williams, and general facilitation practice.
-`[EXPERT INPUT]` sections are not yet filled in.
+`[EXPERT INPUT]` sections are not yet filled in. DR-07 (added later) is
+additionally grounded in Osterwalder & Pigneur's *The Invincible
+Company* (2020) "Gravity Creators" pattern — see
+`../../references/bmc-resilience-heuristics-research.md` for why this
+became an added rule on an existing skill rather than a new standalone
+one.
 
 **Note:** This is different from
 `../bmc-canvas-clarity-and-iteration/SKILL.md`'s owner-validated
@@ -85,12 +90,34 @@ different questions.
    by conflating it with channels, which reveals that the nature of the
    interaction (transactional vs. relational, high-touch vs. automated)
    hasn't been thought through yet.
-7. **Use the four-dimension rubric for a final score** (each 1-5):
+7. **DR-07 — Gravity/lock-in check.** Ask directly: once a customer is
+   won, is there anything about this model that makes leaving
+   meaningfully harder or less attractive than arriving was — a
+   switching cost, a data-portability friction, an ecosystem effect,
+   accumulated personal investment (the Apple iPod/iTunes pattern)? Or
+   is the model a wide-open door, where a competitor one feature ahead
+   can take the customer with no friction at all? A canvas can pass
+   every other rule and still be fragile for this reason alone — a
+   model with no gravity is vulnerable to exactly the kind of disruption
+   that looks irrelevant right up until it isn't (the canonical case:
+   the iPod's absence of any real gravity once Spotify removed the need
+   to "own" a music library at all). This check corresponds to two
+   patterns already in this pack's library —
+   `operating.chain.lock_in` and `experience.relationships.switching_costs`
+   in `../../references/bmc-innovation-pattern-library.md` — use
+   `../bmc-innovation-pattern-matching/SKILL.md` to find or strengthen a
+   gravity mechanism if this check comes back negative, rather than
+   inventing one ad hoc.
+8. **Use the four-dimension rubric for a final score** (each 1-5):
    segment specificity, value proposition quality, internal consistency,
    evidence honesty. Interpretation: 16-20 = strong canvas, ready for
    the testing phase. 11-15 = workable, needs fixes before testing.
-   6-10 = significant rework needed. Below 6 = start over.
-8. **Watch for two counterexamples that look like good work but
+   6-10 = significant rework needed. Below 6 = start over. (DR-07 is a
+   pass/fail gravity check, not part of this four-dimension score — a
+   canvas can score well here and still fail DR-07, and that combination
+   is itself a useful, specific finding to report: "well-built but
+   structurally easy to leave.")
+9. **Watch for two counterexamples that look like good work but
    aren't:** (C-01) a specific but still wrong segment — specificity
    doesn't guarantee validity if the segment is too small, internally
    heterogeneous, or limited to the founder's own network; test: can the
@@ -126,6 +153,8 @@ different questions.
 - Which empty block (DR-06) tells you the most, in your experience?
 - How does your own quality assessment work — which dimension weighs
   the most?
+- What's the clearest real case where DR-07 caught a fragile model that
+  otherwise looked strong on every other rule?
 
 ## Continue from here
 
@@ -140,4 +169,9 @@ different questions.
 ## References
 
 - `../../references/bmc-source-material-notes.md` — source material background
+- `../../references/bmc-resilience-heuristics-research.md` — grounding
+  and rationale for DR-07
+- `../../references/bmc-innovation-pattern-library.md` — the
+  `operating.chain.lock_in` / `experience.relationships.switching_costs`
+  patterns DR-07 checks against
 - `../../CLAUDE.md` — this pack's shared guardrails

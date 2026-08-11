@@ -27,6 +27,17 @@ depends on the ML ecosystem.
   existed (points 1–3 below) and explicitly surfaced a fourth — the
   Human-AI Interaction Model (point 4 below) — which this skill hadn't
   yet treated as its own point.
+- The proprietary learning-engine principle in Method step 6 (added
+  later) is grounded in current AI-moat/data-engine discourse (Y
+  Combinator's "7 Real Moats for AI Startups," McKinsey's "From AI
+  Table Stakes to AI Advantage," among others), consistently making the
+  same point: proprietary, accumulating feedback loops are the durable
+  moat, not the underlying algorithms, which commoditize faster than
+  data streams do. Recursion Pharmaceuticals is used as the reference
+  case — see
+  `../../references/ai-native-reshuffle-heuristics-research.md` for
+  the full grounding and why this was added as a deepening of an
+  existing step rather than a new skill.
 
 ## Method
 
@@ -67,10 +78,35 @@ depends on the ML ecosystem.
    the oversight level describes HOW MUCH the human checks. Use both
    together: e.g. "Autonomous Agent + human-on-the-loop" is a valid
    combination.
-6. **Data flywheel check.** Assess whether usage feeds data back into
-   the model so the product improves on its own through use — this is
-   one of the key differences between an AI-enhanced and an AI-native
-   model.
+6. **Data flywheel check — and the proprietary learning-engine
+   principle behind it.** Assess whether usage feeds data back into the
+   model so the product improves on its own through use — this is one
+   of the key differences between an AI-enhanced and an AI-native
+   model. Go one level deeper than the check itself: the durable moat
+   in an AI-native business is essentially never a single AI module on
+   its own — individual modules commoditize quickly once unbundled,
+   because a competitor can assemble an equivalent module from the same
+   commodity building blocks. The moat is the CONTINUOUS, PROPRIETARY
+   INTEGRATION of modules into one feedback loop spanning the full
+   chain — from experimentation, through delivery, to the go-to-market
+   signal that comes back from real usage — getting measurably stronger
+   with every transaction. A well-documented reference case: Recursion
+   Pharmaceuticals records millions of cellular images to train models
+   on how diseases change cell morphology — a proprietary "wet-lab"
+   feedback loop independently assessed as more durable than the
+   algorithms it runs, precisely because the algorithms alone are
+   increasingly commoditized while the integrated, accumulating dataset
+   isn't. When evaluating a canvas's Key Resources and this flywheel
+   check together, ask explicitly: if a competitor could buy or copy
+   every individual AI module this business uses, would the business
+   still have an advantage? If the honest answer is no, the "moat" is
+   an illusion built on components, not on an integrated loop. Once a
+   flywheel is DESIGNED this way, validate whether the claim actually
+   holds using `../../../data-strategy-and-literacy/skills/data-monetization-model-selection/SKILL.md`'s
+   four-point flywheel checklist (unique collection channel, measurable
+   model improvement, observable UX improvement, the loop closing as
+   growth) — that skill audits whether a flywheel claim is real; this
+   step is about designing the architecture so it can be.
 7. Produce a structured output (a canvas table or equivalent, see
    `../../references/` once added) and validate it with stakeholders
    or your own experience-based checklist.
@@ -123,5 +159,8 @@ ones allowed (see `../../../meta/frontmatter_schema.md`).
 
 ## References
 
+- `../../references/ai-native-reshuffle-heuristics-research.md` —
+  grounding notes for the proprietary learning-engine principle in
+  step 6
 - `../../references/` — the pack's shared background material
 - `../../CLAUDE.md` — the pack's shared guardrails

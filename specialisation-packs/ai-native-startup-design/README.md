@@ -1,9 +1,3 @@
----
-status: validated
-owner_input_needed: false
-last_reviewed: 2026-08-06
----
-
 # AI-Native Startup Design
 
 How to design an AI-native product/business from the ground up in the age

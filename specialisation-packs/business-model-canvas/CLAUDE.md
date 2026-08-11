@@ -7,19 +7,33 @@ only what is genuinely pack-specific here.
 
 ---
 
-## This pack has two layers
+## This pack has three layers
 
-Three of this pack's seven skills come straight from the owner's April 2026
-consulting interview (the owner's expert layer); the other four are built
-on a synthesis of well-known BMC sources (Jeffries, Williams, van der
-Linden, Blank/Strategyzer, Ash Maurya). Don't present the research-layer
-content ("van der Linden recommends...") as the owner's own, practice-tested
-view — attribute it to its actual source. When two skills cover the same
-topic (e.g. canvas readiness criteria: `bmc-canvas-clarity-and-iteration`'s
-expert-layer view vs. `bmc-canvas-diagnostic-reading`'s broader
-research-layer rubric) and they conflict, the expert layer wins — use
-`bmc-canvas-clarity-and-iteration`, and treat the other as a supplementary
-source, not a replacement.
+Three of this pack's 19 skills come straight from the owner's April 2026
+consulting interview (the owner's expert layer). Four are built on a
+synthesis of well-known BMC sources (Jeffries, Williams, van der Linden,
+Blank/Strategyzer, Ash Maurya) — the original research layer. The
+remaining twelve (`bmc-hunting-zone-definition`, `bmc-economic-prototyping`,
+`bmc-revenue-quality-scoring`, `bmc-channel-economics-check`,
+`bmc-antibody-and-sandbox-design`, `bmc-operational-risk-scanning`,
+`bmc-tech-level-repositioning`, `bmc-experiment-method-selection`,
+`bmc-proxy-expert-validation`, `bmc-sensemaking-question-mapping`,
+`bmc-ai-assisted-draft-starting`, `bmc-ai-scaled-customer-interviewing`)
+are a third category: heuristics the owner personally collected from
+practitioner sources, each independently grounded in a named external
+framework or case (Strategyzer, HBR, Osterwalder's *The Invincible
+Company*, Ash Maurya, Binns/O'Reilly/Tushman's *Corporate Explorer*,
+Karl Weick, current 2026 AI-customer-research tooling data, and others
+— see `../../references/bmc-resilience-heuristics-research.md` and
+`../../../ai-strategy-and-governance/references/ai-native-reshuffle-heuristics-research.md`
+for the grounding of each). Don't present research-layer or heuristic-layer
+content as the owner's own, practice-tested view — attribute it to its
+actual source, exactly as each skill's "Anchored in research" section
+does. When two skills cover the same topic (e.g. canvas readiness
+criteria: `bmc-canvas-clarity-and-iteration`'s expert-layer view vs.
+`bmc-canvas-diagnostic-reading`'s broader research-layer rubric) and they
+conflict, the expert layer wins — use `bmc-canvas-clarity-and-iteration`,
+and treat the other as a supplementary source, not a replacement.
 
 ## Disclaimer for this pack — the canvas is a thinking tool
 
