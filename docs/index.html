@@ -164,6 +164,11 @@
     font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
     font-size:14px;color:var(--text-faint);
   }
+  .new-tag{
+    display:inline-block;font-size:10px;font-weight:700;letter-spacing:0.04em;
+    color:#04140f;background:var(--accent);border-radius:4px;padding:2px 6px;
+    margin-left:8px;vertical-align:middle;
+  }
 
   pre.install{
     background:var(--code-bg);color:var(--code-text);border:1px solid var(--border);border-radius:var(--radius);
@@ -201,7 +206,7 @@
     <div class="brand">AI Business Designer</div>
     <div class="links">
       <a href="#intro">Who it's for</a>
-      <a href="#example">Example</a>
+      <a href="#usecases">Use cases</a>
       <a href="#how">How it works</a>
       <a href="#packs">Packs</a>
       <a href="#agents">Agents</a>
@@ -237,6 +242,21 @@
 <section id="intro">
   <div class="wrap">
     <h2>Before you dive in</h2>
+    <div class="callout">
+      <strong>Newest in the pack (Aug 2026):</strong> a full core pack on
+      designing accountable human-AI oversight —
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/human-ai-collaboration-design/README.md"><code>human-ai-collaboration-design</code></a>
+      (a four-level HITL maturity model with confidence-score routing,
+      AI behavioral/accuracy specification, override-rate auditing, and
+      protecting expert agency and apprenticeship pipelines from silent
+      erosion). Also recently expanded:
+      <code>ai-strategy-and-governance</code> picked up a premise check for
+      whether an AI idea is a genuine value-chain reshuffle or just
+      automation, and <code>business-model-canvas</code> grew a set of
+      resilience/risk heuristics plus two AI-native facilitation
+      techniques. Full detail in the
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/CHANGELOG.md">changelog</a>.
+    </div>
     <h3 class="sub">Who this is for</h3>
     <p>
       Business and service designers who aren't yet fully at home in
@@ -257,28 +277,35 @@
   </div>
 </section>
 
-<section id="example">
+<section id="usecases">
   <div class="wrap">
-    <h2>A quick example</h2>
-    <p class="section-sub">Three packs, chained together, on the question that comes up most: is there a real opportunity here, and does the business case hold up?</p>
+    <h2>When to use this pack</h2>
+    <p class="section-sub">Five situations where reaching for this pack — instead of prompting from scratch — actually pays off. Each chains two or three packs together.</p>
     <div class="step-grid">
       <div class="step">
-        <span class="step-num">1</span>
-        <h4>Recognize the opportunity</h4>
-        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/README.md">opportunity-recognition</a></span>
-        <p>Scan the market, size it, and decide if it's worth pursuing at all.</p>
+        <h4>Screen a pile of raw AI ideas</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/opportunity-recognition/README.md">opportunity-recognition</a> → <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md">ai-strategy-and-governance</a> → <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md">business-case-and-analysis</a></span>
+        <p>You've got a handful of AI ideas and no reliable way yet to tell which deserve real investment. Scan and size the opportunity, test whether it's a genuine value-chain reshuffle or just automation, score it against a 5-dimension model, then build the business case for the top pick — a scored shortlist, not a gut call.</p>
       </div>
       <div class="step">
-        <span class="step-num">2</span>
-        <h4>Shape the AI angle</h4>
-        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md">ai-strategy-and-governance</a></span>
-        <p>Work out what AI actually adds here, and scope it into something concrete and buildable.</p>
+        <h4>Design human oversight before you ship <span class="new-tag">NEW</span></h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/human-ai-collaboration-design/README.md">human-ai-collaboration-design</a> → <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md">ai-strategy-and-governance</a></span>
+        <p>An AI feature is about to go from prototype to production, and "a human checks it" isn't an actual design yet. Classify the process against a four-level HITL maturity model, build a confidence-score routing table with a named calibration owner, and specify the AI's behavior and guardrails — a concrete oversight architecture, not an aspirational policy line.</p>
       </div>
       <div class="step">
-        <span class="step-num">3</span>
-        <h4>Build the business case</h4>
-        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md">business-case-and-analysis</a></span>
-        <p>Turn it into numbers and a recommendation leadership can actually decide on.</p>
+        <h4>Facilitate a Business Model Canvas session that holds up</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/business-model-canvas/README.md">business-model-canvas</a></span>
+        <p>You're running — or reviewing — a client's Business Model Canvas and need to know if it's actually sound, not just filled in. Run the session, diagnose the finished canvas against seven known failure patterns, and match it against a 159-pattern innovation library — a canvas stress-tested, not just consultant intuition.</p>
+      </div>
+      <div class="step">
+        <h4>Build and pitch a fast AI prototype</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/prototyping-and-demonstration/README.md">prototyping-and-demonstration</a> → <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/business-case-and-analysis/README.md">business-case-and-analysis</a></span>
+        <p>You need a credible AI prototype fast, and a demo that proves one specific point without overpromising production-readiness. Build the narrowest prototype that proves the hypothesis, frame it honestly for the audience, deliver it, then bridge straight into the ROI conversation.</p>
+      </div>
+      <div class="step">
+        <h4>Turn an AI-native startup idea into a buildable spec</h4>
+        <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/ai-native-startup-design/README.md">ai-native-startup-design</a> → <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/human-ai-collaboration-design/README.md">human-ai-collaboration-design</a></span>
+        <p>You have an AI-native product idea and need to go from customer insight to something a build agent can actually act on. Go from JTBD to a scored MVP to a PRD — with the human-oversight layer designed in from the start, not bolted on afterward.</p>
       </div>
     </div>
   </div>
@@ -330,7 +357,7 @@
 <section id="packs">
   <div class="wrap">
     <h2>Browse the packs</h2>
-    <p class="section-sub">Eight core packs cover situations that come up across most business-design work; three specialisation packs go deeper into one specific one. Click any pack name for its full skill-by-skill breakdown on GitHub.</p>
+    <p class="section-sub">Nine core packs cover situations that come up across most business-design work; three specialisation packs go deeper into one specific one. Click any pack name for its full skill-by-skill breakdown on GitHub.</p>
 
     <h3 class="sub">Core packs</h3>
     <table>
@@ -377,7 +404,7 @@
           <td><span class="skill-count">6</span></td>
         </tr>
         <tr>
-          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/human-ai-collaboration-design/README.md"><code>human-ai-collaboration-design</code></a></td>
+          <td class="pack-name"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/human-ai-collaboration-design/README.md"><code>human-ai-collaboration-design</code></a><span class="new-tag">NEW</span></td>
           <td>Design and audit intentional human-AI oversight — HITL maturity and confidence routing, AI behavioral/accuracy specification, override-rate auditing, and protecting expert agency.</td>
           <td><span class="skill-count">5</span></td>
         </tr>
