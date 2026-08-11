@@ -5,8 +5,6 @@ description: "Reads a given dataset or report critically before it's used as the
 
 # Data Bias & Quality Critical Reading
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Prevents the most common and costliest data error: accepting data as
@@ -33,7 +31,7 @@ before that moment.
   tradition): a metric is useless for decision-making if it wouldn't
   change any decision regardless of which direction it moves.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Ask the provenance questions first** for every significant dataset:
    where does this data come from, who collected it and why, and who
@@ -95,10 +93,9 @@ before that moment.
   assessment on data you provide, or marks an assumption clearly
   (`[assumption — verify]`).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own examples of biases you've found in client data and what they
   would have caused if they hadn't been noticed

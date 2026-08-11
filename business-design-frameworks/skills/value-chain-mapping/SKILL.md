@@ -5,8 +5,6 @@ description: "Structures a business's activities according to Porter's value cha
 
 # Value Chain Mapping
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Structures a business's activities according to Michael Porter's value
@@ -29,7 +27,7 @@ built.
 - Same theoretical family: Porter's Five Forces, see
   `../../../opportunity-recognition/skills/competitive-and-five-forces-mapping/SKILL.md`.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **List the organization's primary activities** across Porter's five
    categories: **inbound logistics** (receiving and storing inputs/raw
@@ -79,10 +77,9 @@ built.
 - Doesn't replace industry-specific deep analysis — the generic model
   always needs to be adapted to context.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb for where in the value chain hidden competitive
   advantage most often turns up in different industries

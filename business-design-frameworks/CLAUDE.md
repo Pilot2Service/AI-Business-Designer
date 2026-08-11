@@ -1,7 +1,6 @@
 # Business Design Frameworks — shared guardrails
 
-General guardrails (disclaimer, no fabricated numbers, premise-checking, making
-maturity visible) are collected in one place: **see
+General guardrails (disclaimer, no fabricated numbers, premise-checking, keeping maturity as an internal note) are collected in one place: **see
 `../meta/shared-guardrails.md` — read that first.** This file only contains
 what's genuinely specific to this pack.
 
@@ -29,20 +28,6 @@ In addition to the general disclaimer (`shared-guardrails.md`): these are
 thinking aids (mental models). Don't present the output of a modeling exercise
 as the final truth or the one correct structure — several models can produce
 different, equally valid perspectives on the same business.
-
-## Maturity in this pack
-
-This pack's maturity is **mixed** (see `../skills_index.json` and
-`../meta/maturity_levels.md`):
-
-- `layer-based-business-structuring`, `value-chain-mapping`,
-  `category-definition-and-modeling` are `maturity: scaffold` — the
-  structure and research anchoring are research-based (classic business
-  frameworks), but the owner's own validated experience hasn't been
-  attached yet.
-- `strategy-canvas-and-value-curve` is `maturity: validated`,
-  `source_layer: owner` — Blue Ocean Strategy theory combined with the
-  owner's productized 360 Comparison Factors comparison tool.
 
 ## Pack-specific note
 

@@ -5,8 +5,6 @@ description: "Designs a quality-control and curation process for AI-generated co
 
 # AI Output Curation & Quality Control
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Designs a process for assessing, correcting, and approving AI-generated
@@ -25,7 +23,7 @@ AI's output toward an on-brand, coherent, reliable result ("curator").
   — this skill applies the same model specifically to content/output
   quality, rather than general process design.
 
-## Method (draft — to be expanded)
+## Method
 
 1. Define what the AI produces (text, code, image, decision
    recommendation, classification) and what it's used for — an
@@ -62,11 +60,9 @@ AI's output toward an on-brand, coherent, reliable result ("curator").
 - Doesn't make the final approve/reject decision for you on an
   individual output.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb for when spot-check oversight is enough vs.
   when 100% checking is needed

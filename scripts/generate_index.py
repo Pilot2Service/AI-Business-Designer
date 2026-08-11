@@ -185,7 +185,7 @@ def main():
 
     index = {
         "repo": "ai-business-designer-skills",
-        "version": "0.18.0",
+        "version": "0.19.0",
         "generated": "auto",
         "generated_by": "scripts/generate_index.py — do not hand-edit",
         "packs": [{"dir": p["dir"], "name": p["name"], "title": p["title"]} for p in packs],

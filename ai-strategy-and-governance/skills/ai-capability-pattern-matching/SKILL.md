@@ -5,8 +5,6 @@ description: "Uses a ready-made, research-based library of 13 AI capability patt
 
 # AI Capability Pattern Matching
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Produces a raw list of AI opportunity candidates **top-down,
@@ -40,7 +38,7 @@ a specific process has been selected for closer examination.
   — the general Capability Pattern Mapping abstraction method, of
   which the pattern library is the concrete AI application.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Before the meeting: select the 4–6 most relevant patterns** from
    the pattern library based on the client's industry/situation (not
@@ -99,13 +97,10 @@ a specific process has been selected for closer examination.
   same method (see the final section of
   `../../references/ai-capability-pattern-library.md`).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). The pattern
-library is built on a research basis (from two independent industry AI
-use-case reports), but your own practical experience of which patterns
-work best in which client situations hasn't been attached yet. Fill in
-here:
+The pattern library is built on a research basis (from two independent
+industry AI use-case reports). Areas to keep deepening with real practice:
 
 - your own observations on which patterns resonate most often with
   which types of clients

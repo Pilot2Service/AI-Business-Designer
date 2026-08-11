@@ -13,7 +13,7 @@ Every SKILL.md should pass these six tests:
    experience — not neither?
 4. **Maturity honesty test** — Does the skill clearly separate what's
    research-grounded structure from what's still unfilled with your own
-   experience (`[OWNER INPUT]`)?
+   experience (`Refinement notes`)?
 5. **Scope test** — Does the skill also state what it does NOT do? A skill
    without stated limits invites the user to trust it more broadly than
    they should.

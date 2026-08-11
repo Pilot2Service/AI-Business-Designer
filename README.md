@@ -82,35 +82,37 @@ just a number).
 
 ### Core packs
 
-| Pack | Helps you... | Status |
+| Pack | Helps you... | Skills |
 |---|---|---|
-| [`strategic-thinking`](strategic-thinking/README.md) | break down a fuzzy problem into a testable hypothesis (MECE / issue trees) | scaffold |
-| [`opportunity-recognition`](opportunity-recognition/README.md) | scan, evaluate, size, and write up a business opportunity | mixed — 3 of 8 skills validated from a real, previously operated service methodology |
-| [`business-case-and-analysis`](business-case-and-analysis/README.md) | build an ROI/NPV business case with risks and assumptions made explicit | scaffold |
-| [`ai-strategy-and-governance`](ai-strategy-and-governance/README.md) | prioritize AI use cases, scope a PoC, and check responsible-AI readiness | scaffold |
-| [`change-and-communication`](change-and-communication/README.md) | plan change management and executive communication | scaffold |
-| [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | mixed — 1 of 5 skills validated |
-| [`prototyping-and-demonstration`](prototyping-and-demonstration/README.md) | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | scaffold |
-| [`data-strategy-and-literacy`](data-strategy-and-literacy/README.md) | diagnose data's role in a business and read data critically before trusting it | scaffold |
+| [`strategic-thinking`](strategic-thinking/README.md) | break down a fuzzy problem into a testable hypothesis (MECE / issue trees) | 6 |
+| [`opportunity-recognition`](opportunity-recognition/README.md) | scan, evaluate, size, and write up a business opportunity | 8 |
+| [`business-case-and-analysis`](business-case-and-analysis/README.md) | build an ROI/NPV business case with risks and assumptions made explicit | 6 |
+| [`ai-strategy-and-governance`](ai-strategy-and-governance/README.md) | prioritize AI use cases, scope a PoC, and check responsible-AI readiness | 11 |
+| [`change-and-communication`](change-and-communication/README.md) | plan change management and executive communication | 4 |
+| [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | 5 |
+| [`prototyping-and-demonstration`](prototyping-and-demonstration/README.md) | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | 5 |
+| [`data-strategy-and-literacy`](data-strategy-and-literacy/README.md) | diagnose data's role in a business and read data critically before trusting it | 6 |
 
 ### Specialisation packs
 
-| Pack | What it gives you | Status |
+| Pack | What it gives you | Skills |
 |---|---|---|
-| [`research-commercialisation`](specialisation-packs/research-commercialisation/README.md) | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | validated (12 skills) |
-| [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | mixed (5 validated, 3 draft — 8 skills) |
-| [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, and matching a model against a library of known innovation patterns | mixed (3 validated, 4 scaffold — 7 skills) |
+| [`research-commercialisation`](specialisation-packs/research-commercialisation/README.md) | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | 12 |
+| [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | 8 |
+| [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, and matching a model against a library of known innovation patterns | 7 |
 
 ## How maturity is tracked
 
 Every skill's frontmatter only ever contains `name` and `description` — no
-confidence claims live there. Instead, `skills_index.json` tracks two things
-for every skill: `maturity` (`scaffold` → `draft` → `validated` → `canonical`)
-and `source_layer` (`research` = built from a public framework,
-`owner` = converted from the owner's own field-tested experience). Claude is
-instructed (`AGENT_GUIDE.md`) to say out loud which one it's using and to
-never present a scaffold skill's structure as if it were validated
-experience. Details: [`meta/maturity_levels.md`](meta/maturity_levels.md).
+confidence claims live there. Internally, `skills_index.json` tracks two
+things for every skill as the owner's own refinement backlog: `maturity`
+(`scaffold` → `draft` → `validated` → `canonical`) and `source_layer`
+(`research` = built from a public framework, `owner` = converted from the
+owner's own field-tested experience). This isn't a completeness rating
+surfaced in the pack's own documentation — every skill, at every level, is
+grounded in either a named professional framework or the owner's real
+practice, never invented. Details:
+[`meta/maturity_levels.md`](meta/maturity_levels.md).
 
 ## Delegatable agents
 
@@ -158,9 +160,9 @@ will respond to you in whichever language you use.
 
 ## Contributing
 
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to add a skill, fill in an
-`[OWNER INPUT]` section, or raise a skill's maturity level once it's actually
-been used.
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for how to add a skill, fill in a
+`Refinement notes` section, or raise a skill's maturity level once it's
+actually been used.
 
 <details>
 <summary>Full repository layout</summary>

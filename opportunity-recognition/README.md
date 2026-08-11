@@ -6,22 +6,21 @@ Assessment methodology.
 
 ## Skills in this pack
 
-| Skill | Description | Maturity |
-|---|---|---|
-| `market-and-signal-scanning` | Systematic environmental scanning (market, technology, regulation, competition) to identify opportunities. | `scaffold` |
-| `pattern-and-analogy-connector` | Capability Pattern Mapping: abstracts superficially different sets of cases into one named, industry-agnostic pattern that acts as a diagnostic question in a new context. | `scaffold` |
-| `opportunity-intake-elicitation` | Collects structured input on an identified opportunity through well-designed questions. | `validated` |
-| `opportunity-evaluation-and-judgment` | Structurally assesses the viability of an identified opportunity before resources are committed (general scaffold). | `scaffold` |
-| `opportunity-value-assessment` | Places an opportunity in an attractiveness × feasibility matrix and assesses it from 7 angles — the owner's own productized framework. | `validated` |
-| `opportunity-brief-writing` | Writes the assessment up as a 1-2 page Opportunity Brief report. | `validated` |
-| `market-sizing-tam-sam-som` | Quantitatively sizes the market and the genuinely reachable share of it. | `scaffold` |
-| `competitive-and-five-forces-mapping` | Maps the competitive dynamics and structural forces of the industry. | `scaffold` |
+| Skill | Description |
+|---|---|
+| `market-and-signal-scanning` | Systematic environmental scanning (market, technology, regulation, competition) to identify opportunities. |
+| `pattern-and-analogy-connector` | Capability Pattern Mapping: abstracts superficially different sets of cases into one named, industry-agnostic pattern that acts as a diagnostic question in a new context. |
+| `opportunity-intake-elicitation` | Collects structured input on an identified opportunity through well-designed questions. |
+| `opportunity-evaluation-and-judgment` | Structurally assesses the viability of an identified opportunity before resources are committed. |
+| `opportunity-value-assessment` | Places an opportunity in an attractiveness × feasibility matrix and assesses it from 7 angles — the owner's own productized framework. |
+| `opportunity-brief-writing` | Writes the assessment up as a 1-2 page Opportunity Brief report. |
+| `market-sizing-tam-sam-som` | Quantitatively sizes the market and the genuinely reachable share of it. |
+| `competitive-and-five-forces-mapping` | Maps the competitive dynamics and structural forces of the industry. |
 
-Exact maturity is tracked in `../skills_index.json` (maturity isn't tracked
-in the frontmatter, see `../meta/frontmatter_schema.md`). This pack is the
-repo's first example of a core pack where generic, research-anchored
-scaffold skills and the owner's validated, productized methodology live
-side by side in the same pack.
+This pack combines generic, framework-anchored skills with the owner's own
+validated, productized Opportunity Value Assessment methodology
+(`opportunity-intake-elicitation` → `opportunity-value-assessment` →
+`opportunity-brief-writing`) side by side.
 
 ## The skills' logical flow (owner's own methodology)
 

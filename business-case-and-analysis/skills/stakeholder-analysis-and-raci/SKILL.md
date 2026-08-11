@@ -5,8 +5,6 @@ description: "Maps stakeholders on a power/interest matrix and assigns responsib
 
 # Stakeholder Analysis & RACI
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Maps stakeholders on a power/interest matrix and assigns responsibilities with RACI.
@@ -16,7 +14,7 @@ Maps stakeholders on a power/interest matrix and assigns responsibilities with R
 - BABOK — stakeholder analysis
 - 45ck — raci-matrix / power-interest-grid
 
-## Method (draft — to be expanded)
+## Method
 
 1. **List every stakeholder or stakeholder group touched by the
    initiative** — BABOK's categories are a useful checklist: sponsor, domain
@@ -54,10 +52,9 @@ Maps stakeholders on a power/interest matrix and assigns responsibilities with R
 - Doesn't identify an organization's stakeholders for you without you naming
   the real actors involved.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -65,9 +62,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

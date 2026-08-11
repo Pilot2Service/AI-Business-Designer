@@ -5,9 +5,6 @@ description: "Scores multiple solution directions with the RICE model (Reach, Im
 
 # RICE Scoring and MVP Synthesis
 
-*Status: `draft`, `source_layer: owner` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Turn a comparison of multiple solution alternatives into an objective,
@@ -81,7 +78,7 @@ the PRD (one chosen direction).
   2-3 already-identified solution directions, not a full assessment of
   an opportunity from scratch.
 
-## [OWNER INPUT — to be filled in]
+## Refinement notes
 
 This skill has so far been applied to one case (the owner's own case).
 As you apply it to more businesses, add:

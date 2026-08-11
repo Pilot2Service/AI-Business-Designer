@@ -15,13 +15,8 @@ added over time as they're identified and refined.
 | `strategy-canvas-and-value-curve` | Structures competitors/alternatives on shared competitive factors (Blue Ocean Strategy Canvas), identifies the industry's "as-is curve," and looks for ways to break away from it using the ERRC grid. |
 | `customer-journey-and-ai-touchpoint-mapping` | Maps the customer's service journey and its friction points, and places AI on the journey only where it genuinely creates value. |
 
-`layer-based-business-structuring`, `value-chain-mapping`,
-`category-definition-and-modeling`, and
-`customer-journey-and-ai-touchpoint-mapping` are `maturity: scaffold`;
-`strategy-canvas-and-value-curve` is `maturity: validated`,
-`source_layer: owner` (anchored in the owner's 360 Comparison Factors tool)
-— see `../skills_index.json` for current maturity (maturity isn't tracked
-in the frontmatter, see `../meta/frontmatter_schema.md`).
+`strategy-canvas-and-value-curve` is additionally anchored in the owner's
+own 360 Comparison Factors tool, used in real client work.
 
 ## How the skills flow together
 

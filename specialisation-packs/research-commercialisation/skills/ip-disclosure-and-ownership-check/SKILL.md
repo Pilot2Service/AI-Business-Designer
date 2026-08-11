@@ -5,10 +5,6 @@ description: "Establish who owns the IP arising from a research result and make 
 
 # IP Disclosure & Ownership Check
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Establish who owns the IP arising from a research result and make a timely

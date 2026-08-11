@@ -13,10 +13,6 @@ Building decision-ready business cases and analyses (BABOK, PMI).
 | `roi-npv-sensitivity-model` | Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios. |
 | `risk-matrix-and-mitigation` | Identifies and scores risks (probability × impact) and designs mitigations. |
 
-All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
-for current maturity (maturity isn't tracked in the frontmatter — see
-[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
-
 ## Anchored in
 
 - 45ck — assumption-extractor / evidence-gap-review

@@ -5,8 +5,6 @@ description: "Maps the competitive dynamics and structural forces of an industry
 
 # Competitive & Five Forces Mapping
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Maps the competitive dynamics and structural forces of an industry — not to
@@ -24,7 +22,7 @@ for shifting that structure actually are.
   profitability is a function of the combined strength of these five forces,
   not just of head-to-head rivalry.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Define the industry boundary.** Five Forces analysis is only as good as
    the boundary you draw around "the industry" — too broad a definition
@@ -79,10 +77,9 @@ for shifting that structure actually are.
   of the analysis is to identify which force(s) actually bind in this
   specific industry, not to score all five uniformly.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into `../../references/`)

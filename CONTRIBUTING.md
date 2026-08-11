@@ -20,8 +20,8 @@ from a structural analysis of another Claude plugin marketplace.)
    skill-specific scope limit in addition to the general ones.
 5. Add `Continue from here` links: which skill this naturally leads to
    next (within the same pack and, where relevant, into another pack).
-6. Leave the `[OWNER INPUT — to be completed]` section open until you
-   actually have your own, validated content for it. Don't fill it with
+6. Leave the `Refinement notes` section's open prompts unanswered until you
+   actually have your own, validated content for them. Don't fill them with
    generic text.
 7. **Run `python3 scripts/generate_index.py`** — updates `skills_index.json`
    from disk and frontmatter. Don't edit `skills_index.json` by hand.
@@ -36,12 +36,14 @@ it to the `specialisation-packs/` folder. Follow the same `skills/` +
 
 ## Raising a skill's maturity
 
-Once the `[OWNER INPUT]` section is filled in and the skill has been used at
-least once in a real situation: update `skills_index.json`'s `maturity:
-scaffold` → `draft` (rerun generate_index.py after documenting, or update
-by hand and validate). Once the content has been validated across several
-situations: → `validated`. `canonical` is reserved for established
-techniques elevated to the organization's official standard.
+This is a private, internal tracking step — it isn't announced anywhere in
+the skill's own documentation (see `meta/maturity_levels.md`). Once the
+`Refinement notes` section's prompts are answered and the skill has been
+used at least once in a real situation: update `skills_index.json`'s
+`maturity: scaffold` → `draft` (rerun generate_index.py after documenting,
+or update by hand and validate). Once the content has been validated
+across several situations: → `validated`. `canonical` is reserved for
+established techniques elevated to the organization's official standard.
 
 ## Naming conventions
 

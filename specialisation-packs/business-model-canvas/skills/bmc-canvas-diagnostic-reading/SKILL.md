@@ -5,9 +5,6 @@ description: "Reads a finished BMC canvas as a diagnostic instrument using six r
 
 # BMC Canvas Diagnostic Reading
 
-*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Provides a systematic way to read a finished (or nearly finished) BMC
@@ -37,7 +34,7 @@ This skill's six rules are more precise and analytical ("is the canvas
 internally consistent and evidence-based?"). Use both — they answer
 different questions.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **DR-01 — Hook Rule.** Every element on the right side needs a
    matching hook on the left — and vice versa. If customer relationships
@@ -116,7 +113,7 @@ different questions.
   scoring and diagnostics; the decision to move to the testing phase is a
   human one.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
 - What's the most common hook error (DR-01) you find in practice?
 - What's the most common value-cost contradiction (DR-02) you see, and

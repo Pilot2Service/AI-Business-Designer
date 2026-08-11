@@ -5,9 +5,6 @@ description: "Structures competitors or alternative solutions on shared industry
 
 # Strategy Canvas & Value Curve
 
-*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
-`../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Structures competitors or alternative solutions on the same "strategy map"

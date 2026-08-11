@@ -13,23 +13,18 @@ antipatterns and client misunderstandings, and research-based support for
 session facilitation, diagnostic reading of a canvas, tool selection, and
 interpreting client language.
 
-## Status
+## Sources
 
 This pack combines two sources supplied by the owner:
 
 1. **A public, machine-readable 159-pattern innovation library** — see
    `references/bmc-innovation-pattern-library.md`.
 2. **The owner's own, non-public research work** — an ongoing project to
-   capture BMC consulting expertise. It contains both genuinely validated
-   expert content drawn from a consulting interview conducted in April 2026,
-   and a pre-filled, not-yet-completed research layer synthesized from
-   well-known BMC sources (Jeffries, Williams, van der Linden,
-   Blank/Strategyzer, Ash Maurya).
-
-For this reason, three of the pack's seven skills are `validated`/`owner`
-level and four are `scaffold`/`research` level — see `CLAUDE.md` and
-`references/bmc-source-material-notes.md` for the full explanation of the
-split.
+   capture BMC consulting expertise, including expert content drawn from a
+   consulting interview conducted in April 2026 and a research layer
+   synthesized from well-known BMC sources (Jeffries, Williams, van der
+   Linden, Blank/Strategyzer, Ash Maurya). See `CLAUDE.md` and
+   `references/bmc-source-material-notes.md` for the full background.
 
 ## Client profile (anchored in the expert)
 
@@ -45,15 +40,15 @@ these require more precise tools.
 
 ## Skills in this pack
 
-| Skill | Level | Description |
-|---|---|---|
-| `bmc-innovation-pattern-matching` | `validated` | Identifies 3-5 compatible innovation patterns from the 159-pattern library, using the expert's own four-part taxonomy. |
-| `bmc-canvas-clarity-and-iteration` | `validated` | Variation logic, detecting when a team is stuck, clarity-before-depth readiness criteria. |
-| `bmc-antipattern-and-misunderstanding-correction` | `validated` | Five working-method antipatterns + four client misunderstandings about the BMC's role, with direct corrective moves for each. |
-| `bmc-session-facilitation-design` | `scaffold` | Session structure: starting point, fill-in order, length/team composition, evidence color-coding. |
-| `bmc-canvas-diagnostic-reading` | `scaffold` | Six diagnostic rules (Hook Rule, etc.) + a four-dimension quality rubric. |
-| `bmc-tool-switching-decisions` | `scaffold` | When to move to the VPC, Lean Canvas, Mission Model Canvas, or financial modeling. |
-| `bmc-client-language-translation` | `scaffold` | Interpreting client phrases + the three most common conceptual misunderstandings. |
+| Skill | Description |
+|---|---|
+| `bmc-innovation-pattern-matching` | Identifies 3-5 compatible innovation patterns from the 159-pattern library, using the expert's own four-part taxonomy. |
+| `bmc-canvas-clarity-and-iteration` | Variation logic, detecting when a team is stuck, clarity-before-depth readiness criteria. |
+| `bmc-antipattern-and-misunderstanding-correction` | Five working-method antipatterns + four client misunderstandings about the BMC's role, with direct corrective moves for each. |
+| `bmc-session-facilitation-design` | Session structure: starting point, fill-in order, length/team composition, evidence color-coding. |
+| `bmc-canvas-diagnostic-reading` | Six diagnostic rules (Hook Rule, etc.) + a four-dimension quality rubric. |
+| `bmc-tool-switching-decisions` | When to move to the VPC, Lean Canvas, Mission Model Canvas, or financial modeling. |
+| `bmc-client-language-translation` | Interpreting client phrases + the three most common conceptual misunderstandings. |
 
 ## Logical flow through the skills
 

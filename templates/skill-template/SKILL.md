@@ -5,8 +5,6 @@ description: "TODO: a one-sentence description + when this is used."
 
 # TODO Skill Title
 
-*Status: `scaffold` — see `../../../skills_index.json`.*
-
 ## Purpose
 
 TODO: what this skill does and when it's used.
@@ -15,7 +13,7 @@ TODO: what this skill does and when it's used.
 
 - TODO: source/framework
 
-## Method (draft — to be expanded)
+## Method
 
 1. TODO
 2. TODO
@@ -27,9 +25,12 @@ TODO: what this skill does and when it's used.
 - Doesn't confirm figures or facts from memory.
 - TODO: skill-specific scope limit
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-TODO: your own heuristics, templates, case examples.
+TODO: your own heuristics, templates, case examples. This is an internal
+working note, not something the skill's own documentation surfaces as a
+completeness claim — track actual depth privately via the `maturity` field
+in `skills_index.json` (see `../../../meta/maturity_levels.md`).
 
 ## Continue from here
 

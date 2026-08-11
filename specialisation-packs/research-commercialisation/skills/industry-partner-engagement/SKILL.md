@@ -5,10 +5,6 @@ description: "Bring industry partners into commercialisation early so the produc
 
 # Industry Partner Engagement
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Bring industry partners into commercialisation early so the product and

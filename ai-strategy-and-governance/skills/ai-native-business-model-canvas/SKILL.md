@@ -5,8 +5,6 @@ description: "Designs the transition from an AI-enhanced business to an AI-nativ
 
 # AI-Native Business Model Canvas
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Designs the transition from a traditional "AI-enhanced" business (a
@@ -30,7 +28,7 @@ depends on the ML ecosystem.
   Human-AI Interaction Model (point 4 below) — which this skill hadn't
   yet treated as its own point.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Value Proposition.** Determine how AI personalizes, scales, or
    creates new value in real time — not just speeds up an existing
@@ -90,11 +88,9 @@ depends on the ML ecosystem.
 - Doesn't assess technical feasibility or PoC scoping — that's
   `ai-use-case-feasibility-and-poc-scoping`'s job.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into `../../references/`, e.g. a canvas

@@ -5,8 +5,6 @@ description: "Structurally assesses the viability of an identified opportunity b
 
 # Opportunity Evaluation & Judgment
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Structurally assesses the viability of an identified opportunity before
@@ -31,7 +29,7 @@ the noticing done in `market-and-signal-scanning` and the connecting done in
   investigation of a business situation or problem to identify options,
   risks, and success criteria before a course of action is chosen.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **State the opportunity as a testable claim, not a description.** Before
    evaluating, restate the opportunity as a specific claim that could turn
@@ -79,10 +77,9 @@ the noticing done in `market-and-signal-scanning` and the connecting done in
   a testable claim and naming the evaluation criteria — doing so invites
   post-hoc rationalization of a conclusion already reached informally.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into `../../references/`)

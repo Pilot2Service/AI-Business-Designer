@@ -5,9 +5,6 @@ description: "Decides when to move from the BMC to another tool (Value Propositi
 
 # BMC Tool Switching Decisions
 
-*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Helps recognize when the BMC is no longer (or never was) the right tool
@@ -25,7 +22,7 @@ interview)
 Jeffries, Strategyzer, Ash Maurya (Lean Canvas), Blank (Mission Model
 Canvas), and van der Linden.
 
-## Method (draft — to be expanded)
+## Method
 
 ### A. When to switch tools
 
@@ -103,7 +100,7 @@ Canvas), and van der Linden.
   concept as a threshold criterion but doesn't repeat the full
   diagnostics.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
 - When do you bring in the VPC? Do you use it routinely before the BMC,
   or only when the BMC gets stuck?

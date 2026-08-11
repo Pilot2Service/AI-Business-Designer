@@ -21,10 +21,6 @@ of the `ai-strategy-and-governance`, `business-case-and-analysis`, and
 | `data-ai-strategy-design-and-prioritization` | Designs a Data & AI strategy with a Driver Tree tool and prioritizes investments with a Data Readiness × Strategic Value matrix. |
 | `data-monetization-model-selection` | Selects a direct (DaaS, Insight-as-a-Service, data exchange) or indirect (product enrichment, optimization, risk mitigation, Data Flywheel) monetization model with a decision tree. |
 
-All `maturity: scaffold` — see `../skills_index.json` for current maturity
-(maturity isn't tracked in the frontmatter, see
-`../meta/frontmatter_schema.md`).
-
 ## Logical flow of the skills
 
 ```

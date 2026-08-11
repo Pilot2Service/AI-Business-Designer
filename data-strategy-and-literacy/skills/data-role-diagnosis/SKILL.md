@@ -5,8 +5,6 @@ description: "Diagnoses and justifies whether data functions in the organization
 
 # Data Role Diagnosis
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Prevents the most common confusion in data strategy discussions: talking
@@ -36,7 +34,7 @@ right now.
   (see point 3 below and
   `../data-monetization-model-selection/SKILL.md`).
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Ask the enabler question for every significant data source:** *"Does
    this data help us do what we already do faster, cheaper, or better?"*
@@ -99,10 +97,9 @@ right now.
   uses the inputs you provide, or marks an assumption clearly
   (`[assumption — verify]`).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own examples of a client overvaluing the asset-value of their
   data (which test would have revealed this in advance)

@@ -5,9 +5,6 @@ description: "Designs the conversational UI architecture for an AI-native produc
 
 # AI-Native Conversational OS Design
 
-*Status: `draft`, `source_layer: owner` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Provide a concrete, reusable architecture model for how an AI-native
@@ -115,7 +112,7 @@ set of screens, it's a thinking partner.
   shape. Use it only when the core value is AI interpretation/reasoning,
   not displaying data.
 
-## [OWNER INPUT — to be filled in]
+## Refinement notes
 
 This skill has so far been applied to one case (the owner's Decision
 Coach). As you apply it to more products, add:

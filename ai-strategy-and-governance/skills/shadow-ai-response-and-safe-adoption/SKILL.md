@@ -5,8 +5,6 @@ description: "Identifies unauthorized/unofficial AI tool usage already happening
 
 # Shadow AI Response & Safe Adoption
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Maps the AI tool usage employees are already doing without official
@@ -22,7 +20,7 @@ it — instead of, or alongside, banning it.
 - General "Shadow IT" literature and practice, extended to the context
   of AI tools.
 
-## Method (draft — to be expanded)
+## Method
 
 1. Map the extent of Shadow AI: what AI tools employees are already
    using without official approval or visibility (surveys, usage data,
@@ -58,11 +56,9 @@ it — instead of, or alongside, banning it.
   suppressing.
 - Doesn't make the final tool or policy decision for you.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb for when Shadow AI should be formalized vs.
   when it should be shut down

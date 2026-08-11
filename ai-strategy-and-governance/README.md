@@ -19,10 +19,6 @@ business.
 | `shadow-ai-response-and-safe-adoption` | Identifies unauthorized AI tool usage (Shadow AI) and replaces it with a safe, ROI-justified official solution. |
 | `ai-output-curation-and-quality-control` | Designs a quality-control and curation process for AI outputs — the shift from creator to curator. |
 
-All `maturity: scaffold` — see `../skills_index.json` for current maturity
-(maturity isn't tracked in the frontmatter, see
-`../meta/frontmatter_schema.md`).
-
 ## Anchored in
 
 - EU AI Act (Regulation (EU) 2024/1689)

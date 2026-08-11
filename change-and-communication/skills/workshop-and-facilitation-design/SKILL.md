@@ -5,8 +5,6 @@ description: "Designs the structure of a cross-functional workshop or design-thi
 
 # Workshop & Facilitation Design
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Designs the structure of a cross-functional workshop or design-thinking session.
@@ -25,7 +23,7 @@ Designs the structure of a cross-functional workshop or design-thinking session.
   decision). A workshop that skips the groan zone produces premature,
   brittle agreement.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Clarify the workshop's single deliverable and where it sits on the
    Double Diamond** — is this a Discover/Define session (diverge on the
@@ -60,10 +58,9 @@ Designs the structure of a cross-functional workshop or design-thinking session.
 - Doesn't facilitate the workshop for you — it designs the structure and
   timing for the facilitator.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -71,9 +68,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

@@ -5,10 +5,6 @@ description: "Writes the results of an opportunity assessment into a concise 1-2
 
 # Opportunity Brief Writing
 
-*Status: `validated` — content anchored in the report template of the
-owner's own Opportunity Value Assessment product. See
-`../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Writes the assessment produced by the `opportunity-value-assessment` skill

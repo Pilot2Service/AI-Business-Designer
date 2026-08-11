@@ -1,18 +1,11 @@
 # AI Strategy & Governance — shared guardrails
 
 General guardrails (disclaimer, no fabricated numbers, premise-checking, the
-principle of making maturity visible) are collected in one place: **see
+principle of keeping maturity as an internal note) are collected in one place: **see
 `../meta/shared-guardrails.md` — read that first.** This file only contains
 what's genuinely specific to this pack.
 
 ---
-
-## Maturity in this pack
-
-This pack's skills are currently at `maturity: scaffold` (see
-`../skills_index.json` and `../meta/maturity_levels.md`) — the structure and
-research anchoring are solid, but the owner's own validated experience
-hasn't been attached yet.
 
 ## Pack-specific note
 

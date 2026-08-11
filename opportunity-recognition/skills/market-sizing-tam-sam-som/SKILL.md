@@ -5,8 +5,6 @@ description: "Quantitatively sizes the market and the genuinely reachable share 
 
 # Market Sizing (TAM/SAM/SOM)
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Quantitatively sizes the market and the genuinely reachable share of it —
@@ -26,7 +24,7 @@ conversation can actually stand on.
 - Business Opportunity Scout (buYoung) (a public reference implementation of
   opportunity scouting and sizing)
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Define TAM (Total Addressable Market) using two independent
    approaches, not one.**
@@ -84,10 +82,9 @@ conversation can actually stand on.
   until cross-checked by the other method or by
   `../agents/market-sizing-cross-validator.md`.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into `../../references/`)

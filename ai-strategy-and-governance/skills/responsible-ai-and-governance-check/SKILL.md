@@ -5,8 +5,6 @@ description: "Checks the regulatory, risk, and ethics dimensions of an AI initia
 
 # Responsible AI & Governance Check
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Checks the regulatory, risk, and ethics dimensions of an AI initiative
@@ -19,7 +17,7 @@ check, not a legal opinion.
 - EU AI Act (Regulation (EU) 2024/1689)
 - LinkedIn 2026 — Risk & Compliance Management
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Classify the system's risk tier under the EU AI Act's risk
    pyramid**, as a first-pass, non-binding read:
@@ -102,11 +100,9 @@ check, not a legal opinion.
   distinct, complementary check; this skill only flags when one is
   needed.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique — e.g.
   which initiative types most often turn out higher-risk than they

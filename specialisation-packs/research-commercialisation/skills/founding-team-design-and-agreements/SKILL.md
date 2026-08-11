@@ -5,10 +5,6 @@ description: "Build a balanced founding team and agree the rules of engagement (
 
 # Founding Team Design & Agreements
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Build a balanced founding team and agree the rules of engagement (Founders'

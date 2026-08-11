@@ -5,8 +5,6 @@ description: "Anticipates the second- and third-order effects of a strategic dec
 
 # Second- & Third-Order Effects Mapping
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Surfaces the effects of a decision or solution that are easy to miss because
@@ -30,7 +28,7 @@ first-order effect — this skill forces the view further out.
   customer behavior over the long run, and what new competitors it might
   attract into the market.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Name the decision or solution under review** (e.g. a new AI feature, a
    pricing change, automation, a new business model).
@@ -62,10 +60,9 @@ first-order effect — this skill forces the view further out.
 - Doesn't make the decision for you — it surfaces effects that would
   otherwise go unnoticed; the decision itself stays with the human.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb for how far down the effect chain it's worth going
   before it turns too speculative to be useful
@@ -75,9 +72,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

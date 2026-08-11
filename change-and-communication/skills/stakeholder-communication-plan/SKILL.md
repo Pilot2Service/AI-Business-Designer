@@ -5,8 +5,6 @@ description: "Builds a communication plan for different stakeholders during a ch
 
 # Stakeholder Communication Plan
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Builds a communication plan for different stakeholders during a change.
@@ -21,7 +19,7 @@ Builds a communication plan for different stakeholders during a change.
 - Mendelow (1991) — the Power/Interest stakeholder grid, used to decide the
   intensity and directness of communication for each stakeholder segment.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Segment stakeholders by power and interest** (Mendelow) — this
    determines communication intensity and directness per group, not just who
@@ -55,10 +53,9 @@ Builds a communication plan for different stakeholders during a change.
 - Doesn't execute the communication for you — it produces the plan and the
   message framework.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -66,9 +63,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

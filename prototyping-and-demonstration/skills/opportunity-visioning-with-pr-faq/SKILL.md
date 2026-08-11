@@ -5,8 +5,6 @@ description: "Communicates and shows an AI opportunity using Amazon's Working Ba
 
 # Opportunity Visioning with PR-FAQ
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Make an AI opportunity concrete and evaluable **without anything having been
@@ -30,7 +28,7 @@ expensive prototyping round begins.
   question-and-answer section that works through the customer problem,
   the solution, the risks, and the success metrics.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Write a one-page mock press release**, dated in the future
    (e.g. "released [date], when the solution is in use"), as if
@@ -84,10 +82,9 @@ expensive prototyping round begins.
   convincingly — the point of the FAQ section's honest, hard questions is
   precisely to stress-test the vision, not to dress it up.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own PR-FAQ template with an exact structure (into
   [`../../references/`](../../references/))
@@ -96,9 +93,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - rules of thumb for when a PR-FAQ is enough and when you need to move
   straight to prototyping
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

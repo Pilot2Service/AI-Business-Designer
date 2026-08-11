@@ -5,9 +5,6 @@ description: "Writes a PRD (Product Requirements Document) as a work order for a
 
 # AI-Buildable PRD Writing
 
-*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Write a PRD (Product Requirements Document) that serves as a clear work

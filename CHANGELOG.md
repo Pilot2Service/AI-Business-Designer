@@ -1,5 +1,52 @@
 # Changelog
 
+## 0.19.0 — 2026-08-11
+
+**Maturity is now a private tracking tool, not a public status label.**
+Reviewing `pattern-and-analogy-connector` surfaced an inconsistency: its
+`OWNER INPUT` section used noticeably stricter, more self-deprecating
+language ("structural draft," "hasn't been attached yet") than the same
+section in other skills at the identical `maturity: scaffold` level —
+and on inspection, this wording implied a bar for "finished" that no
+skill in the repo, at any maturity level, actually needs to clear to be
+genuinely useful. A skill anchored in a named professional framework and
+one enriched with the owner's own field-tested experience are both real
+and usable; the difference between them is not "done vs. not done."
+
+Before changing anything, every one of the 51 `scaffold`-level skills'
+`## Method` sections was read in full (not sampled) to check for the one
+thing that would have been a real problem: a skill with no actual
+technique in it, just a heading. None were found — every skill in the
+repo has a substantive, workable method.
+
+With that confirmed, all public-facing scaffold/draft-status disclosure
+was removed repo-wide (109 files): the `*Status: scaffold/draft/...*`
+line in every `SKILL.md`, the `## Method (draft — to be expanded)`
+heading (now just `## Method`), the `[OWNER INPUT — to be completed]`
+section (renamed `## Refinement notes` — same purpose, framed as an
+ongoing note rather than an unfinished-work disclosure), and the
+generic "this skill is a structural draft" intro/closing boilerplate.
+`AGENT_GUIDE.md` and `meta/shared-guardrails.md` no longer instruct an
+agent to state a skill's maturity level out loud when using it — an
+agent answers honestly if asked directly, but doesn't volunteer an
+unprompted disclaimer. Per-pack `README.md`/`CLAUDE.md` maturity
+breakdown tables and sections were removed (10 pack `CLAUDE.md` files,
+9 pack `README.md` files); the root `README.md`'s "How maturity is
+tracked" section and `docs/index.html`'s trust-section card were
+rewritten to match. Two more live external-repo references missed by
+the v0.15.0 anonymization pass were also found and fixed in this sweep:
+`scripts/validate.py`'s docstring and `meta/shared-guardrails.md`'s
+design-principle callout.
+
+What's unchanged: `skills_index.json` still tracks `maturity`
+(`scaffold` → `draft` → `validated` → `canonical`) and `source_layer`
+(`research` vs. `owner`) for every skill, exactly as before — it's now
+explicitly framed as the owner's own private refinement and backlog
+tool rather than a completeness rating the pack shows the person using
+it. The underlying guardrail against fabricating owner experience or
+case examples that don't actually exist in a skill file is unchanged
+and restated in the new language.
+
 ## Unreleased
 
 **GitHub Pages landing site.** Added `docs/index.html` — a single-page,

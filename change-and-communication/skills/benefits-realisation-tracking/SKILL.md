@@ -5,8 +5,6 @@ description: "Tracks and reports on the realisation of promised benefits after i
 
 # Benefits Realisation Tracking
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Tracks and reports on the realisation of promised benefits after implementation.
@@ -20,7 +18,7 @@ Tracks and reports on the realisation of promised benefits after implementation.
   and enabling changes required to actually deliver it, and assigning a
   named benefit owner accountable for realisation.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Pull every promised benefit from the business case, verbatim.** Don't
    paraphrase — a vague benefit ("improved efficiency") can't be tracked; if
@@ -56,10 +54,9 @@ Tracks and reports on the realisation of promised benefits after implementation.
 - Doesn't collect tracking data automatically — it structures the metrics and
   the reporting framework.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -67,9 +64,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

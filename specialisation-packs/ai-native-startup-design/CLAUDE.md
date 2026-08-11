@@ -1,7 +1,7 @@
 # AI-Native Startup Design — shared guardrails
 
 The general guardrails (disclaimer, no invented figures, premise checking,
-the principle of making maturity level visible) are collected in one place:
+the principle of keeping maturity as an internal note) are collected in one place:
 **see `../../meta/shared-guardrails.md` — read it first.** This file contains
 only what is genuinely pack-specific in this pack.
 
@@ -37,31 +37,6 @@ If a fact stated by the user (e.g. "we already have a technical partner",
 given and don't override it with a generic assumption — these skills are
 designed for a non-technical pre-startup founder, but many users are
 already further along.
-
-## Maturity in this pack — two-tiered
-
-All skills in this pack are `source_layer: owner` (see
-`../../skills_index.json` and `../../meta/maturity_levels.md`), but the
-pack has TWO different maturity levels depending on which source the skill
-is based on:
-
-- **`maturity: validated`** — `ai-native-opportunity-scan`,
-  `customer-vision-to-jtbd`, `ai-buildable-prd-writing`,
-  `closed-loop-process-and-human-oversight-design`,
-  `ai-native-tool-stack-selection`. Based on the AI-native Business Design
-  workshop the owner ran for MULTIPLE PARTICIPANTS
-  (see `references/workshop-source.md`).
-- **`maturity: draft`** — `ai-differentiator-solution-ideation`,
-  `rice-scoring-and-mvp-synthesis`, `ai-native-conversational-os-design`.
-  Based on an external workshop's methodology, which the owner has so far
-  applied only ONCE, to one own case (the owner's Decision Coach — see
-  `references/ai-first-saas-workshop-source.md` and
-  `cases/ai-decision-coach-mvp-case.md`). Not yet broadly validated.
-
-Make this visible in use: when referencing a `draft`-level skill, mention
-that the method has been applied only once and is not yet as broadly
-tested as the pack's `validated` skills. When referencing any content in
-this pack, mention which workshop/source it is based on.
 
 ## Pack-specific note
 

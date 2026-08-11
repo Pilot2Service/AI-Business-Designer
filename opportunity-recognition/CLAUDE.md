@@ -1,26 +1,10 @@
 # Opportunity Recognition — shared guardrails
 
-General guardrails (disclaimer, no fabricated numbers, premise-checking, making
-maturity visible) are collected in one place: **see
+General guardrails (disclaimer, no fabricated numbers, premise-checking, keeping maturity as an internal note) are collected in one place: **see
 `../meta/shared-guardrails.md` — read that first.** This file only contains
 what's genuinely specific to this pack.
 
 ---
-
-## Maturity in this pack
-
-This pack's maturity is **mixed** (see `../skills_index.json` and
-`../meta/maturity_levels.md`):
-
-- `market-and-signal-scanning`, `pattern-and-analogy-connector`,
-  `opportunity-evaluation-and-judgment`, `market-sizing-tam-sam-som`,
-  `competitive-and-five-forces-mapping` are `maturity: scaffold` — the
-  structure and research anchoring are solid, but the owner's own validated
-  field experience hasn't been attached yet.
-- `opportunity-intake-elicitation`, `opportunity-value-assessment`, and
-  `opportunity-brief-writing` are `maturity: validated`,
-  `source_layer: owner` — converted directly from the owner's own productized
-  Opportunity Value Assessment methodology, used in real client work.
 
 ## Pack-specific note
 

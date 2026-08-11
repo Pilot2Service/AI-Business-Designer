@@ -5,8 +5,6 @@ description: "Systematic environmental scanning (market, technology, regulation,
 
 # Market & Signal Scanning
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Systematic environmental scanning — market, technology, regulation,
@@ -31,7 +29,7 @@ they've become obvious to everyone else.
   scanning doesn't stay confined to the one or two categories that happen to
   be top of mind.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Set the scanning aperture.** Define the industry, geography, or
    customer segment the scan is centered on, and how far out from that
@@ -87,10 +85,9 @@ they've become obvious to everyone else.
   actually profitable to close) is not the same as an overlooked
   opportunity.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into `../../references/`)

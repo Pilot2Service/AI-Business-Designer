@@ -1,7 +1,6 @@
 # Data Strategy & Literacy — shared guardrails
 
-General guardrails (disclaimer, no fabricated numbers, premise-checking, making
-maturity visible) are collected in one place: **see
+General guardrails (disclaimer, no fabricated numbers, premise-checking, keeping maturity as an internal note) are collected in one place: **see
 [`../meta/shared-guardrails.md`](../meta/shared-guardrails.md) — read that first.**
 This file only contains what's genuinely specific to this pack.
 
@@ -50,16 +49,6 @@ In addition to the general disclaimer (`shared-guardrails.md`): privacy and
 regulatory questions related to data monetization and processing (e.g.
 GDPR) require separate data-protection expertise — this pack does not
 substitute for it.
-
-## Maturity in this pack
-
-This pack's skills are currently at `maturity: scaffold` (see
-[`../skills_index.json`](../skills_index.json) and
-[`../meta/maturity_levels.md`](../meta/maturity_levels.md)) — the structure
-and research anchoring are solid (data literacy frameworks, the data value
-chain and Data & AI strategy literature, a synthesis of monetization
-models), but the owner's own validated consulting experience hasn't been
-attached yet.
 
 ## Shared standards
 

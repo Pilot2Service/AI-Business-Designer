@@ -5,9 +5,6 @@ description: "Ideates 3 distinct AI-native solution directions for the chosen AI
 
 # AI Differentiator Solution Ideation
 
-*Status: `draft`, `source_layer: owner` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Prevent the most common ideation mistake: latching onto the first
@@ -75,7 +72,7 @@ same idea in different words.
   it deliberately also produces weaker/riskier options, so the comparison
   is genuine rather than artificial.
 
-## [OWNER INPUT — to be filled in]
+## Refinement notes
 
 This skill has so far been applied to one case (the owner's own case).
 As you apply it to more businesses, add:

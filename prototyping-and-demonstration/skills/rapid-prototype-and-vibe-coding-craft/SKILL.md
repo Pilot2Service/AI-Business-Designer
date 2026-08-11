@@ -5,8 +5,6 @@ description: "Builds a fast, working, credible-enough prototype to prove an AI o
 
 # Rapid Prototype & Vibe Coding Craft
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Build a prototype as fast as possible that is **just credible enough to
@@ -27,7 +25,7 @@ skill helps you pick the right fidelity level and use AI-assisted coding
   prototypes identify a large share of structural problems at a fraction of
   the cost of high fidelity — see References.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Define EXACTLY one hypothesis the prototype has to prove** before you
    open any tool. Example of a good hypothesis: "AI can extract the correct
@@ -105,10 +103,9 @@ skill helps you pick the right fidelity level and use AI-assisted coding
 - Doesn't measure or calculate ROI from the prototype's results — that's the
   job of [`../demo-to-business-case-bridge/SKILL.md`](../demo-to-business-case-bridge/SKILL.md).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own favorite tools and when to use each (which tool for which task
   type in your own practice)
@@ -117,9 +114,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - your own PRD template for a short prototype (into
   [`../../references/`](../../references/))
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

@@ -5,8 +5,6 @@ description: "Builds alternative future scenarios and stress-tests a strategy ag
 
 # Scenario & Foresight Thinking
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Builds alternative future scenarios and stress-tests a strategy against them
@@ -22,7 +20,7 @@ survives more than one plausible version of it.
   internally consistent, divergent scenarios around the two most critical
   uncertainties (commonly structured as a 2×2 matrix).
 
-## Method (draft — to be expanded)
+## Method
 
 1. **List the driving forces relevant to the strategic question** — trends,
    technologies, regulatory shifts, competitor moves, customer behavior
@@ -56,10 +54,9 @@ survives more than one plausible version of it.
 - Doesn't predict the future — it builds plausible alternatives for a stress
   test, not probabilities.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -67,9 +64,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

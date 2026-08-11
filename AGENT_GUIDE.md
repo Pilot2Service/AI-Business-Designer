@@ -25,30 +25,34 @@ anchored to.
    fabricated numbers, premise check, making maturity visible. Always read
    before running a skill.
 
-## 3. Maturity and trust — read skills_index.json, not the frontmatter
+## 3. Maturity — an internal working note, not a public disclaimer
 
 SKILL.md frontmatter contains **only** `name` and `description` (the
-standard fields of the Claude Skill format). Maturity, source layer, and
-whether owner input is still needed live in `skills_index.json`:
+standard fields of the Claude Skill format). `skills_index.json` privately
+tracks `maturity`, `source_layer`, and `owner_input_needed` — this is the
+owner's own refinement and backlog tool, not a completeness rating to
+recite to the person you're helping. Every skill in this pack, at every
+maturity level, is grounded in either the owner's own consulting practice
+or a named, professionally used framework (see each skill's "Anchored in
+research" section) — none of it is speculative or invented.
 
-| Field | Values | What it means for the agent |
+| Field | Values | What it means internally |
 |---|---|---|
-| `maturity` | `scaffold` / `draft` / `validated` / `canonical` | How much to lean on this as standalone truth |
-| `source_layer` | `research` / `owner` / `derived` | `research` = public framework. `owner` = owner's validated experience, most valuable. |
-| `owner_input_needed` | `true` / `false` | If `true`, the technique is still just a scaffold |
+| `maturity` | `scaffold` / `draft` / `validated` / `canonical` | Whether the owner has personally run this specific technique through a real engagement yet |
+| `source_layer` | `research` / `owner` / `derived` | `research` = built from a named public framework. `owner` = converted from the owner's own field-tested experience |
+| `owner_input_needed` | `true` / `false` | Whether the skill's "Refinement notes" section still has open prompts |
 
-**Trust hierarchy:** `canonical` > `validated` > `draft` > `scaffold`.
+## 4. Using a skill regardless of its internal maturity tag
 
-## 4. What to do when a skill is `maturity: scaffold`
-
-Most skills in this pack are at scaffold level: the structure and
-anchoring are reliable, but the `[OWNER INPUT]` section doesn't yet
-contain the owner's own experience.
-
-1. Use the structure and anchoring normally.
-2. Don't imagine the owner's personal experience, heuristics, or case
-   examples. Say out loud that this part is missing.
-3. Continue with what's available, but make the uncertainty visible.
+Use the technique as written — it's real, usable methodology at every
+maturity level. Don't fabricate the owner's personal case examples, war
+stories, or heuristics that aren't actually in the skill file — if a
+"Refinement notes" section is still open, work with what the skill
+actually contains rather than inventing content to fill the gap. If the
+person you're helping specifically asks how validated a technique is,
+check `skills_index.json` and answer honestly — but don't volunteer a
+maturity disclaimer unprompted, as if the technique itself were
+incomplete.
 
 ## 5. How to retrieve from this pack
 
@@ -80,11 +84,13 @@ human approval, they improve what the human sees before deciding.
 
 ## 8. What an agent must not do
 
-- Must not fill `[OWNER INPUT]` sections with generic or imagined content
+- Must not fill a skill's "Refinement notes" section with generic or
+  imagined content, or invent owner experience that isn't actually there
 - Must not add new fields to SKILL.md frontmatter (only `name`+`description`
   are allowed)
-- Must not treat `scaffold`-level content as equally authoritative as
-  `validated`/`canonical`
+- Must not volunteer an unprompted maturity disclaimer that undersells a
+  skill's actual, usable content — every skill is real methodology, not a
+  rough draft
 - Must not mistake this pack for a finished answer — it's context on top of
   your own expertise
 - Must not let an `agents/` subagent modify any file or make a final

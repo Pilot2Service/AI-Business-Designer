@@ -5,8 +5,6 @@ description: "Tests assumptions and identifies evidence gaps before a recommenda
 
 # Assumption & Evidence Audit
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Tests assumptions and identifies evidence gaps before a recommendation is locked in.
@@ -16,7 +14,7 @@ Tests assumptions and identifies evidence gaps before a recommendation is locked
 - 45ck — assumption-extractor / evidence-gap-review
 - WEF Future of Jobs 2025 — analytical thinking #1
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Extract every load-bearing assumption from the analysis or
    recommendation** — not just the numeric ones. An assumption is
@@ -52,10 +50,9 @@ Tests assumptions and identifies evidence gaps before a recommendation is locked
 - Doesn't produce new evidence — it reveals what evidence is missing and what
   needs to be obtained.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -63,9 +60,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

@@ -58,9 +58,9 @@ The `AI-training-P6` workshop was **held for multiple participants**
 `validated`. This external methodology has so far been **applied once,
 to one case** (the owner's own case), by the owner personally — not yet
 tested on a different business or by an external team. This matches
-exactly the `maturity_levels.md` definition of `draft`:
-"[OWNER INPUT] filled in, used once in practice, not yet validated more
-broadly." Once the methodology has been applied to multiple different
+exactly the `maturity_levels.md` definition of `draft`: refinement notes
+filled in, used once in practice, not yet validated more broadly. Once the
+methodology has been applied to multiple different
 cases, raise the `maturity` value of the relevant skills to `validated`
 in `skills_index.json`.
 

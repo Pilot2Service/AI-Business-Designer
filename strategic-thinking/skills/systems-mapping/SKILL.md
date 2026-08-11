@@ -5,8 +5,6 @@ description: "Maps the full value-creating system and its dependencies before yo
 
 # Systems Mapping
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Maps the full value-creating system and its dependencies before you design a
@@ -23,7 +21,7 @@ not by an implicit, unexamined picture of "the customer" and "us."
   complementors arranged around a focal actor, with value flowing between all
   of them, not just from supplier to customer.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Name the focal value-creating activity.** What specific value exchange
    are you mapping the system around (a product, a service, a decision)?
@@ -61,10 +59,9 @@ not by an implicit, unexamined picture of "the customer" and "us."
 - Doesn't produce an org chart or a process diagram — it maps value-creation
   logic, not formal structure.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -72,9 +69,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

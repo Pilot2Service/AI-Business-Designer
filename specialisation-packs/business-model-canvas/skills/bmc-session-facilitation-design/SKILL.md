@@ -5,9 +5,6 @@ description: "Designs the structure of a BMC workshop using research-based heuri
 
 # BMC Session Facilitation Design
 
-*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Provides a research-based framework for designing a BMC workshop/session
@@ -29,7 +26,7 @@ unattributed "YouTube synthesis" source. These files contain
 `[EXPERT INPUT]`-tagged sections the owner has not yet filled in — see
 "What this skill does NOT do".
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Choose the starting point deliberately — it isn't a neutral
    choice.** Alexander Osterwalder and Yves Pigneur's original BMC
@@ -103,7 +100,7 @@ unattributed "YouTube synthesis" source. These files contain
 - Doesn't give a fixed rule for edge cases — the research layer provides
   general guidelines, not a decision tree covering every situation.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
 These questions don't yet have an answer in the owner's research notes
 (session 1/2 is marked "pending" in the repo's `SESSION_GUIDE.md`):

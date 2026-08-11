@@ -5,10 +5,6 @@ description: "Assess whether a research result has real commercial potential bef
 
 # Research Opportunity Recognition
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Assess whether a research result has real commercial potential before

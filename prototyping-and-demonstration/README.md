@@ -18,10 +18,6 @@ question.
 | `demo-delivery-and-storytelling` | Builds and delivers the demo using the Great Demo! methodology (Situation Slide, critical business issue, "do the last thing first"). |
 | `demo-to-business-case-bridge` | Translates demo/PoC results into business-case-ready ROI inputs — technical performance vs. business impact, making the assumption chain visible, checking that the ROI mechanism fits the customer's organization. |
 
-All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
-for current maturity (maturity isn't tracked in the frontmatter — see
-[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
-
 ## Logical flow through the skills
 
 ```

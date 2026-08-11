@@ -5,8 +5,6 @@ description: "Designs and productizes AI opportunity identification (the discove
 
 # AI Discovery Engagement Design
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Helps an AI Business Designer (as an internal actor or an external
@@ -26,7 +24,7 @@ STRUCTURES the process during which the pack's other skills are run.
   publicly known AI-discovery practice, not an exact copy of any single
   firm.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Choose the product form based on scope.** Two typical fixed-price
    service products:
@@ -107,11 +105,9 @@ STRUCTURES the process during which the pack's other skills are run.
   engagement), use the individual skills directly without this
   framework around them.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own pricing models and principles (fixed-price vs. time-based,
   what's included in which product form)

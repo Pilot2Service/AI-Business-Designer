@@ -5,11 +5,6 @@ description: "Places an identified opportunity in an attractiveness × feasibili
 
 # Opportunity Value Assessment
 
-*Status: `validated` — content anchored in the assessment framework at the
-core of the owner's own Opportunity Value Assessment product, not a
-research-level scaffold. See `../../../skills_index.json` and
-`../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Places an identified opportunity in a two-dimensional attractiveness ×

@@ -5,9 +5,6 @@ description: "Identifies and justifies 3-5 compatible business model innovation 
 
 # BMC Innovation Pattern Matching
 
-*Status: `validated`, `source_layer: owner` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Helps find a genuinely distinctive, non-trivial innovation direction for a

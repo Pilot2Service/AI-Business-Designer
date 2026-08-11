@@ -5,8 +5,6 @@ description: "Frames a demo/prototype/PoC for the customer before presenting it 
 
 # Demo Framing & Expectation Setting
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Prevent the most common, expensive-to-fix mistake in demo delivery: **the
@@ -38,7 +36,7 @@ scoping first, then this communication frame.
   commitment, workflow redesign, scale-up investment) — not the technical
   success or failure of the demo/PoC stage.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Name precisely what's being shown today, with the right term, and
    don't use the terms as synonyms** (see the pack's
@@ -97,10 +95,9 @@ scoping first, then this communication frame.
 - Doesn't calculate ROI or build a business case — see
   [`../demo-to-business-case-bridge/SKILL.md`](../demo-to-business-case-bridge/SKILL.md).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own examples of how you've framed a demo successfully (or
   unsuccessfully) with a specific customer
@@ -109,9 +106,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - rules of thumb for when a customer typically over-interprets a demo —
   which signals predict this
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

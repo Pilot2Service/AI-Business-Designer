@@ -5,9 +5,6 @@ description: "Interprets typical client statements about BMC work ('we need to u
 
 # BMC Client Language Translation
 
-*Status: `scaffold`, `source_layer: research` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Provides a vocabulary for what a client MEANS when they say typical
@@ -30,7 +27,7 @@ files (`bmc_client_misunderstandings.md`,
 CONCEPTS, that skill covers misunderstandings about the BMC's ROLE. Use
 both alongside each other; they don't overlap.
 
-## Method (draft — to be expanded)
+## Method
 
 ### A. Interpreting client statements
 
@@ -93,7 +90,7 @@ both alongside each other; they don't overlap.
   "the BMC defines everything at once"), this skill covers the content
   of INDIVIDUAL CONCEPTS (value proposition, segment, revenue stream).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
 - What does a "business model update" request usually mean in your
   experience? Is it usually a genuine strategic need or a symptom of

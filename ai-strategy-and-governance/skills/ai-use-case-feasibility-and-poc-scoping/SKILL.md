@@ -5,8 +5,6 @@ description: "Determines the technical boundary conditions of an AI use case and
 
 # AI Use Case Feasibility & PoC Scoping
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Determines the technical boundary conditions of an AI use case and scopes
@@ -19,7 +17,7 @@ answers no real question.
 
 - Perplexity research — PoC scoping through to productionization
 
-## Method (draft — to be expanded)
+## Method
 
 1. **State the hypothesis the PoC is meant to test, as a single
    falsifiable sentence** — not "test whether AI can help with X," but
@@ -98,11 +96,9 @@ answers no real question.
   PoC deliberately excludes scale, security-hardening, and full
   integration; passing it reduces risk, it doesn't eliminate it.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique — e.g.
   typical timebox lengths and golden-test-set sizes by use-case type

@@ -5,9 +5,6 @@ description: "Selects the smallest workable AI-native tool stack using a 12-cate
 
 # AI-Native Tool Stack Selection
 
-*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Help a pre-startup founder or small team choose the smallest workable

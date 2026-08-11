@@ -5,8 +5,6 @@ description: "Structures a business, service concept, or business model into dis
 
 # Layer-Based Business Structuring
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Structures a business, service concept, or business model into distinct
@@ -36,7 +34,7 @@ through a partner.
   interfaces allows each part to be developed, replaced, or outsourced
   independently, without having to redesign the whole system.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Pick a layer perspective that fits the situation.** Examples: a
    **technical/functional stack** (infrastructure → operations → product/
@@ -85,10 +83,9 @@ through a partner.
 - Doesn't replace in-depth supplier or partner due diligence for an
   individual layer's outsourcing decision.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own standard layer breakdowns that you reuse repeatedly in specific
   industries/situations

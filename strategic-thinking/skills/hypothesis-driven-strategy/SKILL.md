@@ -5,8 +5,6 @@ description: "Structures a strategic problem with MECE and an issue tree, then t
 
 # Hypothesis-Driven Strategy
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Structures a strategic problem with MECE and an issue tree, then tests the
@@ -22,7 +20,7 @@ trying to analyze everything before forming a point of view.
   MECE issue tree, and prioritize the branches by how cheaply and decisively
   they can be tested.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **State an initial hypothesis** — your best current answer to the strategic
    question, stated specifically enough to be provably wrong. "We should grow"
@@ -56,10 +54,9 @@ trying to analyze everything before forming a point of view.
 - Doesn't collect or analyze data on your own behalf — it structures the
   questions the data needs to answer.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique
 - concrete templates (into [`../../references/`](../../references/))
@@ -67,9 +64,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - what this skill deliberately does *not* do (guardrails, common mistakes) —
   add to the list above
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

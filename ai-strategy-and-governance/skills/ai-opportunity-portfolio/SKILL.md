@@ -5,8 +5,6 @@ description: "Identifies, scores (5-dimensional model: Business Impact, Technica
 
 # AI Opportunity Portfolio
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Turns a raw list of AI use-case candidates (typically 20–100 items) into
@@ -32,7 +30,7 @@ partly against different criteria.
   reports), the 2x2 prioritization matrix, the Value Play taxonomy for
   transformative opportunities, the Deploy-Reshape-Invent taxonomy
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Assemble the raw list of candidates.** Start from existing friction
    points and value-chain bottlenecks — not from technology. Two
@@ -162,11 +160,9 @@ partly against different criteria.
 - Doesn't replace `../ai-capability-roadmap/SKILL.md` for scheduling —
   it produces a prioritized list, not a scheduled roadmap.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique — e.g.
   which dimensions carry the most practical weight in different

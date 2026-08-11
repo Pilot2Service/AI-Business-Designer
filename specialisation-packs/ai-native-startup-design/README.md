@@ -12,37 +12,30 @@ customer understanding, need-theme scoring, and solution ideation to a
 RICE-selected MVP, a buildable PRD, a conversational UI architecture,
 closed-loop process design, and choosing the right AI tool stack.
 
-## Status
+## Sources
 
 This pack combines two sources the owner has applied in practice:
 
-1. The **AI-native Business Design** workshop for pre-startup founders
-   (the owner's own service, run for multiple participants
-   1–2 June 2026,
-   [owner's private material](https://owner's private material))
-   — see `references/workshop-source.md`. Skills built on this are
-   `maturity: validated` (multi-participant session).
+1. The **AI-native Business Design** workshop for pre-startup founders —
+   the owner's own service, run for multiple participants 1–2 June 2026 —
+   see `references/workshop-source.md`.
 2. The **external "AI-first SaaS Product" workshop** — a methodology the
-   owner has applied to one own case (the owner's own "Decision Coach" MVP
-   service) — see `references/ai-first-saas-workshop-source.md` and the
-   worked example `cases/ai-decision-coach-mvp-case.md`. Skills built and
-   deepened on this basis are `maturity: draft` (applied once, not yet
-   broadly validated across multiple cases) — see the table below.
-
-All skills are `source_layer: owner` (see `../../skills_index.json`).
+   owner has applied to their own case (the "Decision Coach" MVP) — see
+   `references/ai-first-saas-workshop-source.md` and the worked example
+   `cases/ai-decision-coach-mvp-case.md`.
 
 ## Skills in this pack
 
-| Skill | Level | Description |
-|---|---|---|
-| `ai-native-opportunity-scan` | `validated` | Finds and prioritizes agentic/closed-loop-level AI opportunities in your own startup case via a prompt chain. |
-| `customer-vision-to-jtbd` | `validated` | Structures a free-form vision into an ICP, a verb-driven Jobs-To-Be-Done analysis, 5+2 need themes, a 5-criteria NMB+AI-advantage score, and selects an AI differentiator need (AI wedge). |
-| `ai-differentiator-solution-ideation` | `draft` | Ideates 3 distinct AI-native solution directions for the chosen AI wedge through three lenses. |
-| `rice-scoring-and-mvp-synthesis` | `draft` | Scores solution directions with the RICE model, selects the MVP, and writes the MVP definition, a positioning statement, and "why we win" claims. |
-| `ai-buildable-prd-writing` | `validated` | Writes the PRD as a work order for an AI build agent, plus supporting documents and a build plan. |
-| `ai-native-conversational-os-design` | `draft` | Designs the conversational UI architecture for an AI-native product (Intent → Strategy Cards → Clarification → Output Cards → Mission → Agent Execution) and 5 AI-first product principles. |
-| `closed-loop-process-and-human-oversight-design` | `validated` | Structures processes as open/closed loops and decides the level of human oversight (in/on/outside-the-loop). |
-| `ai-native-tool-stack-selection` | `validated` | Selects the smallest workable AI-native tool stack using a 12-category decision tree. |
+| Skill | Description |
+|---|---|
+| `ai-native-opportunity-scan` | Finds and prioritizes agentic/closed-loop-level AI opportunities in your own startup case via a prompt chain. |
+| `customer-vision-to-jtbd` | Structures a free-form vision into an ICP, a verb-driven Jobs-To-Be-Done analysis, 5+2 need themes, a 5-criteria NMB+AI-advantage score, and selects an AI differentiator need (AI wedge). |
+| `ai-differentiator-solution-ideation` | Ideates 3 distinct AI-native solution directions for the chosen AI wedge through three lenses. |
+| `rice-scoring-and-mvp-synthesis` | Scores solution directions with the RICE model, selects the MVP, and writes the MVP definition, a positioning statement, and "why we win" claims. |
+| `ai-buildable-prd-writing` | Writes the PRD as a work order for an AI build agent, plus supporting documents and a build plan. |
+| `ai-native-conversational-os-design` | Designs the conversational UI architecture for an AI-native product (Intent → Strategy Cards → Clarification → Output Cards → Mission → Agent Execution) and 5 AI-first product principles. |
+| `closed-loop-process-and-human-oversight-design` | Structures processes as open/closed loops and decides the level of human oversight (in/on/outside-the-loop). |
+| `ai-native-tool-stack-selection` | Selects the smallest workable AI-native tool stack using a 12-category decision tree. |
 
 ## Anchored in
 

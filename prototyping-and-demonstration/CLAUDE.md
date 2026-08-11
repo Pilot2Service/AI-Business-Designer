@@ -1,7 +1,6 @@
 # Prototyping & Demonstration — shared guardrails
 
-General guardrails (disclaimer, no fabricated numbers, premise-checking, making
-maturity visible) are collected in one place: **see
+General guardrails (disclaimer, no fabricated numbers, premise-checking, keeping maturity as an internal note) are collected in one place: **see
 [`../meta/shared-guardrails.md`](../meta/shared-guardrails.md) — read that first.**
 This file only contains what's genuinely specific to this pack.
 
@@ -61,16 +60,6 @@ In addition to the general principle (`shared-guardrails.md`): a PoC-scale
 result (e.g. "saved 2 hours across 10 cases") does not extrapolate in a
 straight line to production scale without an explicit, clearly marked
 assumption about why the scale-up would be linear.
-
-## Maturity in this pack
-
-This pack's skills are currently at `maturity: scaffold` (see
-[`../skills_index.json`](../skills_index.json) and
-[`../meta/maturity_levels.md`](../meta/maturity_levels.md)) — the structure
-and research anchoring are solid (Great Demo! methodology, vibe coding
-practices, PoC/Pilot/MVP literature, Amazon Working Backwards, prototype
-fidelity research), but the owner's own validated consulting experience
-hasn't been attached yet.
 
 ## Shared standards
 

@@ -5,9 +5,6 @@ description: "Structures a preliminary, free-form business vision into a custome
 
 # Customer Vision to JTBD
 
-*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Turn a free-form, even unstructured vision of a product and customer into

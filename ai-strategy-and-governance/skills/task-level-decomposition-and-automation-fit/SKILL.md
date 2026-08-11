@@ -5,8 +5,6 @@ description: "Breaks roles and processes down to task level (People Path + Proce
 
 # Task-Level Decomposition & Automation Fit
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Prevents the most common mistake in identifying AI opportunities: assessing
@@ -34,7 +32,7 @@ best ones.
 - Nuvepro (2026) — *The Dual Decomposition Framework: People Path +
   Process Path*.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Choose the scope of the review.** One role/team (People Path) or
    one value-chain/process stage (Process Path) — don't try to do both
@@ -119,10 +117,9 @@ best ones.
   criteria the source material itemized. Don't present the other five
   criteria as established without a more precise source.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb about which task types most often surprise
   you (assumed Human-Only but turns out Augment-eligible, or vice

@@ -5,9 +5,6 @@ description: "Uses an agentic/closed-loop lens to find genuinely new AI-enabled 
 
 # AI-Native Opportunity Scan
 
-*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Find areas within your own startup case where AI enables something

@@ -5,10 +5,6 @@ description: "Collects sufficient structured input on an identified opportunity 
 
 # Opportunity Intake Elicitation
 
-*Status: `validated` — content anchored in the Input Wizard of the owner's own
-Opportunity Value Assessment product and its supporting background research.
-See `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Collects sufficient structured input on an identified opportunity through

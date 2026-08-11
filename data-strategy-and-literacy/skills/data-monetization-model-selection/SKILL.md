@@ -5,8 +5,6 @@ description: "Selects and justifies a suitable data monetization model (direct: 
 
 # Data Monetization Model Selection
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Once data has been diagnosed as a strategic asset (see
@@ -38,7 +36,7 @@ thinking.
   `operating.resources.leverage_customer_data`) — this skill deepens one
   pattern family with data-specific detail.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Walk through the direct-monetization decision tree first, since it
    rules out options quickly:**
@@ -110,10 +108,9 @@ thinking.
   memory — uses the inputs you provide, or marks an assumption clearly
   (`[assumption — verify]`).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own examples of when a direct vs. indirect model turned out to be
   the right choice (and why the wrong choice would have failed)

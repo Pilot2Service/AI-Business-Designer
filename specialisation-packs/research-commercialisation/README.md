@@ -10,14 +10,12 @@ How to turn a research result or IP into a commercialisable product, service,
 or company: from opportunity recognition to IP strategy, TTO collaboration,
 funding, team building, and the founder's readiness self-assessment.
 
-## Status
+## Sources
 
-This pack is built directly from the owner's published **owner's published
-commercialisation guide** handbook (the owner's own service, 2025, 75 pages)
-and its AFCA self-assessment tool. It is not a research-level scaffold but
-content anchored in the owner's validated methodology, based on experience
-from approximately 500 commercialisation projects — `source_layer: owner`,
-`maturity: validated` for all skills (see `../../skills_index.json`).
+This pack is built directly from the owner's published commercialisation
+guide (the owner's own handbook, 2025, 75 pages) and its AFCA
+self-assessment tool — content anchored in the owner's own methodology,
+based on experience from approximately 500 commercialisation projects.
 
 ## Skills in this pack
 

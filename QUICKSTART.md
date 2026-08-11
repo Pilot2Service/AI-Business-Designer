@@ -67,16 +67,12 @@ Every skill produces a **structured draft**, not a finished answer:
 - A structured analysis / score / framework — not a free-form essay.
 - Visible assumptions — anything unknown is marked `[assumption —
   verify]`, not silently filled in.
-- Visible maturity — Claude states whether the skill used is `scaffold`
-  (structure in place, no own validated experience yet) or
-  `validated`/`canonical` (tested in practice). Check `skills_index.json`
-  if you need to confirm.
 - **No final decision.** The output is always for a human to review and
   approve — see `meta/shared-guardrails.md`.
 
 If the result doesn't look like this (e.g. Claude presents a number without
-a source note, or claims a skill's content is your own validated
-experience when it's at `scaffold` level), something went wrong — check
+a source note, or invents case examples that aren't actually in the skill),
+something went wrong — check
 that the right pack's `CLAUDE.md` was read.
 
 ## 5. Next step
@@ -86,5 +82,5 @@ that the right pack's `CLAUDE.md` was read.
 - Want to challenge/cross-check a result before it moves forward? Four
   packs include a delegatable agent for this (`agents/` folder) — see the
   "Delegatable agents" table in the README.
-- Want to add your own skill or fill in an `[OWNER INPUT]` section? See
+- Want to add your own skill or fill in a `Refinement notes` section? See
   `CONTRIBUTING.md`.

@@ -14,10 +14,6 @@ issue trees).
 | `strategic-options-evaluation` | Compares strategic options in a structured way (impact/effort, risk, resources) to support a decision. |
 | `second-and-third-order-effects-mapping` | Anticipates the second- and third-order effects of a decision or AI solution on customer behavior, competition, and the organization. |
 
-All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
-for current maturity (maturity isn't tracked in the frontmatter — see
-[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
-
 ## Anchored in
 
 - Liedtka (1998) — hypothesis-driven

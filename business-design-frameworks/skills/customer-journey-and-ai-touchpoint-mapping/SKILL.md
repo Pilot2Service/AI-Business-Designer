@@ -5,8 +5,6 @@ description: "Maps the stages and friction points of a customer's service journe
 
 # Customer Journey & AI Touchpoint Mapping
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Maps the customer's service journey stage by stage from the customer's own
@@ -24,7 +22,7 @@ creates new value, not everywhere it's technically possible.
   translated into service journeys and prototypes, and AI is placed on the
   journey in a way that adds value.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Choose the customer journey to examine** (e.g. the purchase process,
    onboarding, a support process) and set its start and end points.
@@ -72,10 +70,9 @@ creates new value, not everywhere it's technically possible.
   chain looks at the company's internal activities; this skill looks at the
   customer's experience from the outside in.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb for when an AI touchpoint is worth adding to the
   journey vs. when it isn't

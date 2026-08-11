@@ -5,8 +5,6 @@ description: "Assesses an organization's or team's data literacy with a four-qua
 
 # Data Literacy Competency Assessment
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Data literacy doesn't mean everyone needs to know how to write SQL
@@ -32,7 +30,7 @@ effort is aimed correctly instead of "training everyone on everything."
   professional-body standard in the same vein as BABOK/PMI/SFIA
   elsewhere in this repo).
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Assess the four areas separately** — don't produce a single overall
    score, because an organization is typically uneven across areas:
@@ -99,10 +97,9 @@ effort is aimed correctly instead of "training everyone on everything."
   assessment on observations you provide (interviews, surveys,
   observation) or marks an assumption clearly (`[assumption — verify]`).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - a concrete interview/survey template for assessing the level of each
   area (A-D) (into `../../references/`)

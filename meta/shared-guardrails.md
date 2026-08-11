@@ -8,9 +8,7 @@ instead of repeating the text — if these need to change, they're changed
 > **Design principle:** correct behavior belongs in the SKILL.md, not in
 > guardrails. If a skill's correct outcome depends on a guardrail in this
 > file catching a mistake, the fault is in the skill — fix it there. These
-> guardrails are a safety net, not the primary mechanism. (Principle
-> borrowed and adapted from the claude-for-legal-finland repo's
-> CONTRIBUTING.md.)
+> guardrails are a safety net, not the primary mechanism.
 
 ---
 
@@ -50,21 +48,18 @@ internal process) is material to the outcome but uncertain, raise it before
 building the analysis on top of it. Don't quietly continue on a possibly
 wrong assumption.
 
-## 4. Make maturity visible (general principle)
+## 4. Maturity is an internal note, not a public disclaimer
 
 Maturity and source layer live in `skills_index.json`, not in the SKILL.md
-frontmatter (see `frontmatter_schema.md` and `maturity_levels.md`). When
-using any skill in this repo:
-
-- Check `maturity` before presenting a result as authoritative.
-- `scaffold`: the structure and anchoring are research-grounded, but no own
-  validated experience has been added yet — say this out loud, don't
-  imagine the content of the `[OWNER INPUT]` section.
-- `draft`/`validated`/`canonical`: lean on it more, but still don't present
-  it as final truth (see item 1).
-
-The pack's own `CLAUDE.md` states the exact maturity distribution for that
-pack.
+frontmatter (see `frontmatter_schema.md` and `maturity_levels.md`) — it's
+the owner's own private refinement backlog, not a completeness rating to
+recite while using a skill. Every skill in this repo is real, usable
+methodology regardless of its internal maturity tag. Don't invent the
+owner's personal case examples or heuristics that aren't actually in a
+skill's "Refinement notes" section — but don't volunteer an unprompted
+maturity disclaimer either, as if the technique itself were unfinished
+(see `AGENT_GUIDE.md` section 3-4). Still don't present any output as
+final truth (see item 1).
 
 ## 5. Additional guardrail for agents (applies to `agents/*.md`)
 

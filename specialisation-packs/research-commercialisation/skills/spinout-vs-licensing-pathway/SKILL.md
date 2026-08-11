@@ -5,10 +5,6 @@ description: "Choose the right commercialisation pathway for a research result: 
 
 # Spin-out vs. Licensing Pathway
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Choose the right commercialisation pathway for a research result: spin-out

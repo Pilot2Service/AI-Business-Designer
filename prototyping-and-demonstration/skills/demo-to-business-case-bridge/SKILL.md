@@ -5,8 +5,6 @@ description: "Translates demo/PoC results into business-case-ready ROI inputs: s
 
 # Demo-to-Business-Case Bridge
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Prevent the most common mistake made right after a demo: **extrapolating a
@@ -36,7 +34,7 @@ and
   ROI based on labor savings won't materialize even if technical
   performance has been proven.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Return to the original hypothesis and success criteria** (see
    [`../rapid-prototype-and-vibe-coding-craft/SKILL.md`](../rapid-prototype-and-vibe-coding-craft/SKILL.md)
@@ -101,10 +99,9 @@ and
   and
   [`../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md`](../../../ai-strategy-and-governance/skills/build-vs-buy-vs-partner-ai/SKILL.md).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own examples of assumption chains that turned out wrong when
   scaling from PoC to production — and what you learned from that
@@ -113,9 +110,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - rules of thumb for which types of ROI mechanism most often collide with
   a customer's organizational structure
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

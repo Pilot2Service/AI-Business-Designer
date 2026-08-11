@@ -5,9 +5,6 @@ description: "Identifies five of the expert's own BMC-work antipatterns (e.g. to
 
 # BMC Antipattern and Misunderstanding Correction
 
-*Status: `validated`, `source_layer: owner` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Quickly recognizes when BMC work is going wrong — either in how the work

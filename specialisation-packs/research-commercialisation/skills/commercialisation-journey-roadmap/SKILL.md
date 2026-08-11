@@ -5,10 +5,6 @@ description: "Structure the entire commercialisation journey into five stages an
 
 # Commercialisation Journey Roadmap
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Structure the entire commercialisation journey into five stages and build an

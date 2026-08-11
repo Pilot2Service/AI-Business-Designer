@@ -1,7 +1,7 @@
 # Research Commercialisation — shared guardrails
 
 The general guardrails (disclaimer, no invented figures, premise checking, the
-principle of making maturity level visible) are collected in one place: **see
+principle of keeping maturity as an internal note) are collected in one place: **see
 `../../meta/shared-guardrails.md` — read it first.** This file contains only
 what is genuinely pack-specific here.
 
@@ -39,15 +39,6 @@ disclosure," "we don't have a TTO") is material to the outcome but deviates
 from the handbook's general model, surface it instead of quietly continuing on
 an assumption — institutional practices vary significantly (see
 `skills/ip-disclosure-and-ownership-check/SKILL.md`).
-
-## Maturity in this pack
-
-This pack's skills are at `maturity: validated` level (see
-`../../skills_index.json` and `../../meta/maturity_levels.md`) — the content
-is anchored in the owner's published, practically validated methodology, not a
-generic research review. Make this visible: when referencing this pack's
-content, mention that it's based on the commercialisation guide rather than,
-say, an academic literature review as such.
 
 ## Pack-specific note
 

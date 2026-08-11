@@ -5,8 +5,6 @@ description: "Designs a Data & AI strategy holistically (not in silos) using a D
 
 # Data & AI Strategy Design and Prioritization
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Prevents two common data strategy mistakes: (1) AI/data investments are
@@ -38,7 +36,7 @@ data readiness.
   investment is typically longer than the lead time for building the
   model.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Build a Driver Tree from the business goal down to data points.**
    Start from the top-level business goal (e.g. "increase customer
@@ -109,10 +107,9 @@ data readiness.
   memory — uses the inputs you provide, or marks an assumption clearly
   (`[assumption — verify]`).
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own Driver Tree examples from different industries
 - a concrete facilitation template for a Driver Tree workshop (into

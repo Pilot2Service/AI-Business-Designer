@@ -5,8 +5,6 @@ description: "Connects loose observations into a meaningful opportunity by ident
 
 # Pattern & Analogy Connector
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Connects loose observations into a meaningful opportunity by identifying
@@ -53,7 +51,7 @@ This skill here is the GENERAL method; the AI-strategy pack's pattern
 library is one concrete implementation of it, applied to one domain (AI
 solutions).
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Collect 3+ superficially different observations/cases** in which you
    suspect a similar underlying structure. They can come from different
@@ -124,13 +122,10 @@ solutions).
 - Doesn't replace in-depth industry research — the pattern is meant to speed
   up hypothesis generation, not to substitute for industry expertise.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). The method and the
-invoice/customs/CV example are described by the user, but a broader base of
-your own practical experience — other validated patterns of your own, failed
-generalizations, rules of thumb for when an abstraction has gone too far —
-hasn't been attached yet. Fill in here:
+The method and the invoice/customs/CV example are the owner's own worked
+technique. Areas to keep expanding as more of it is put into practice:
 
 - your own validated patterns from opportunity-recognition work (not just
   from the AI context)

@@ -5,9 +5,6 @@ description: "Structures business processes as open or closed loops and decides 
 
 # Closed-Loop Process & Human Oversight Design
 
-*Status: `validated`, `source_layer: owner` — see `../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Help you see the business as a collection of processes, some of which are

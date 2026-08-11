@@ -5,8 +5,6 @@ description: "Builds the organization's AI capability map and roadmap from the c
 
 # AI Capability Roadmap
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Builds the organization's AI capability map and a scheduled roadmap from
@@ -24,7 +22,7 @@ and WHAT TYPE of change is it."
   Readiness Scorecard concept, part of the deliverable material of
   large consulting firms' discovery engagements.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Take the prioritized portfolio as input** from
    `../ai-opportunity-portfolio/SKILL.md`: the selected items with their
@@ -90,11 +88,9 @@ and WHAT TYPE of change is it."
   Readiness Scorecard here is a rough, roadmap-supporting description,
   not a separate maturity audit.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in
-here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb and heuristics for this technique — e.g.
   how many Horizon 1 items an organization can typically run in

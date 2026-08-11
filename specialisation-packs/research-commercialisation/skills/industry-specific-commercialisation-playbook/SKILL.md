@@ -5,10 +5,6 @@ description: "Tailor the commercialisation strategy and expectations by industry
 
 # Industry-Specific Commercialisation Playbook
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Tailor the commercialisation strategy and expectations by industry: life

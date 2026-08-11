@@ -5,10 +5,6 @@ description: "Help a researcher or team assess whether the idea and team are rea
 
 # Commercialisation Readiness Check
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Help a researcher or team assess whether the idea and team are ready to begin

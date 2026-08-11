@@ -5,8 +5,6 @@ description: "Builds and delivers a demo following the Great Demo! methodology (
 
 # Demo Delivery & Storytelling
 
-*Status: `scaffold` — see [`../../../skills_index.json`](../../../skills_index.json) and [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md).*
-
 ## Purpose
 
 Turn a working prototype into a convincing demo. A working prototype and a
@@ -28,7 +26,7 @@ to an AI consultant's demo situation.
   pyramid** (show first the thing that produces the "wow" effect — don't
   build the demo chronologically as a product walkthrough).
 
-## Method (draft — to be expanded)
+## Method
 
 Applied Great Demo! Five Imperatives structure:
 
@@ -91,10 +89,9 @@ Applied Great Demo! Five Imperatives structure:
 - Doesn't guarantee that a good demo leads to a deal or advancement — a
   good demo removes obstacles, but the decision is always the customer's.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own Situation Slide templates (into
   [`../../references/`](../../references/))
@@ -103,9 +100,9 @@ contain your own experience, heuristics, or case examples. Fill in here:
 - rules of thumb for how to react when a demo goes wrong live (e.g. the AI
   gives a wrong answer mid-demo)
 
-Once this section is filled in and validated in practice, update the
-`maturity` field in `skills_index.json` to `draft`, `validated`, or
-`canonical` (see
+This is an internal working note, not a claim about the skill's current
+usability. Track depth privately via the `maturity` field in
+`skills_index.json` (see
 [`../../../meta/maturity_levels.md`](../../../meta/maturity_levels.md)).
 **Don't add new fields to the frontmatter** — `name` and `description` are
 the only ones allowed (see

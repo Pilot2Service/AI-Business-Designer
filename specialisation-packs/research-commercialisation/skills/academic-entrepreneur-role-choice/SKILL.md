@@ -5,10 +5,6 @@ description: "Choose your own role in a spin-out (full-time founder, scientific 
 
 # Academic Entrepreneur Role Choice
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Choose your own role in a spin-out (full-time founder, scientific advisor,

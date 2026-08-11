@@ -5,9 +5,6 @@ description: "Guides BMC work with a variation logic aimed at clarity over depth
 
 # BMC Canvas Clarity and Iteration
 
-*Status: `validated`, `source_layer: owner` — see `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Prevents the most common pitfall in BMC work: polishing a single canvas

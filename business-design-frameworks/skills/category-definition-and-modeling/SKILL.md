@@ -5,8 +5,6 @@ description: "Models a product or business relative to market categories: associ
 
 # Category Definition & Modeling
 
-*Status: `scaffold` — see `../../../skills_index.json` and `../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Models a product or business relative to market categories: either
@@ -32,7 +30,7 @@ how large a share of the market's value can accrue to the category leader.
   customer's mental image and frame of comparison before the product's
   features are even evaluated.
 
-## Method (draft — to be expanded)
+## Method
 
 1. **Map the existing categories** the product or business could plausibly
    be associated with — what would the customer already intuitively
@@ -99,10 +97,9 @@ how large a share of the market's value can accrue to the category leader.
   associations — the decision needs to be validated with real customer
   understanding, not internal deliberation alone.
 
-## [OWNER INPUT — to be completed]
+## Refinement notes
 
-This skill is a structural draft (`maturity: scaffold`). It doesn't yet
-contain your own experience, heuristics, or case examples. Fill in here:
+Areas to keep deepening with real practice:
 
 - your own rules of thumb for when creating a new category is worthwhile
   for research-based/deep-tech opportunities vs. when it isn't

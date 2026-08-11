@@ -5,10 +5,6 @@ description: "Build a funding strategy that combines non-dilutive and dilutive f
 
 # Funding Pathway Design
 
-*Status: `validated` — content anchored in the owner's published handbook, not
-a research-level scaffold. See `../../../../skills_index.json` and
-`../../../../meta/maturity_levels.md`.*
-
 ## Purpose
 
 Build a funding strategy that combines non-dilutive and dilutive funding in

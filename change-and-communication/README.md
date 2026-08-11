@@ -11,10 +11,6 @@ Change management, facilitation, and executive communication amid uncertainty.
 | `executive-narrative-and-storyline` | Turns analysis into a narrative and storyline that serves executive decision-making. |
 | `benefits-realisation-tracking` | Tracks and reports on the realisation of promised benefits after implementation. |
 
-All `maturity: scaffold` — see [`../skills_index.json`](../skills_index.json)
-for current maturity (maturity isn't tracked in the frontmatter — see
-[`../meta/frontmatter_schema.md`](../meta/frontmatter_schema.md)).
-
 ## Anchored in
 
 - Well-known design-/business-design-consultancy storytelling competency models
