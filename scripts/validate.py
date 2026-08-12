@@ -5,6 +5,11 @@ validate.py — structural + frontmatter gate for the AI Business Designer skill
 Run before every commit (and wired into CI). Exit code 1 on any failure — this must
 be green before push.
 
+Also drift-checks README.md and docs/index.html against skills_index.json (see
+check_docs_sync): if either doc's stated pack/skill/agent counts, or a pack's
+stated skill count in its table row, stops matching the index, this fails
+instead of silently going stale.
+
 Usage:
     python3 scripts/validate.py
 """
@@ -236,11 +241,153 @@ def check_skills_index():
             check_agent_orphans_in(os.path.join(spec_base, name, "agents"))
 
 
+def _pack_skill_counts(idx):
+    """Ground truth: how many skills each pack actually has, keyed by folder
+    name (the same slug used in README.md's `dir/README.md` links and
+    docs/index.html's `.../blob/main/dir/README.md` hrefs)."""
+    skills = idx.get("skills", [])
+    core = {}
+    for p in idx.get("packs", []):
+        core[p["dir"]] = sum(1 for s in skills if s.get("pack") == p["name"])
+    spec = {}
+    for sp in idx.get("specialisation_packs", []):
+        pack_key = f"specialisation-packs/{sp['dir']}"
+        spec[sp["dir"]] = sum(1 for s in skills if s.get("pack") == pack_key)
+    return core, spec
+
+
+def _index_truth(idx):
+    core_counts, spec_counts = _pack_skill_counts(idx)
+    populated_spec = {d for d, c in spec_counts.items() if c > 0}
+    return {
+        "core_packs": len(idx.get("packs", [])),
+        "populated_spec_packs": len(populated_spec),
+        "skills": len(idx.get("skills", [])),
+        "agents": len(idx.get("agents", [])),
+    }, core_counts, spec_counts, populated_spec
+
+
+def _check_stat_numbers(source_label, text, pattern, truth):
+    """Compares a (core packs, spec packs, skills, agents) 4-tuple stated in
+    text against the true counts from skills_index.json."""
+    m = re.search(pattern, text, re.DOTALL)
+    if not m:
+        warnings.append(f"{source_label}: could not locate the stats line to drift-check "
+                         f"(wording may have changed — update the pattern in validate.py)")
+        return
+    stated_core, stated_spec, stated_skills, stated_agents = (int(g) for g in m.groups())
+    if stated_core != truth["core_packs"]:
+        errors.append(f"{source_label}: says {stated_core} core packs, "
+                       f"skills_index.json has {truth['core_packs']}")
+    if stated_spec != truth["populated_spec_packs"]:
+        errors.append(f"{source_label}: says {stated_spec} specialisation packs, "
+                       f"skills_index.json has {truth['populated_spec_packs']} populated")
+    if stated_skills != truth["skills"]:
+        errors.append(f"{source_label}: says {stated_skills} skills, "
+                       f"skills_index.json has {truth['skills']}")
+    if stated_agents != truth["agents"]:
+        errors.append(f"{source_label}: says {stated_agents} audit agents, "
+                       f"skills_index.json has {truth['agents']}")
+
+
+def _rows_from_readme(text):
+    """Each core/specialisation pack row in README.md's markdown tables:
+    | [`dir`](maybe-specialisation-packs/dir/README.md) | description | N |
+    The code-span dir and the path dir are always identical by convention,
+    so only the code-span capture is used."""
+    rows = []
+    for pack_dir, prefix, count in re.findall(
+        r"\|\s*\[`([a-z0-9-]+)`\]\((specialisation-packs/)?[a-z0-9-]+/README\.md\)[^|]*\|[^|]*\|\s*(\d+)\s*\|",
+        text,
+    ):
+        rows.append((bool(prefix), pack_dir, count))
+    return rows
+
+
+def _rows_from_pages(text):
+    """Each core/specialisation pack row in docs/index.html's compact tables:
+    <td class="pack-name"><a href=".../blob/main/maybe-specialisation-packs/dir/README.md">...
+      ...<span class="skill-count">N</span>"""
+    rows = []
+    for prefix, pack_dir, count in re.findall(
+        r'<td class="pack-name"><a href="[^"]*/blob/main/(specialisation-packs/)?([a-z0-9-]+)/README\.md">'
+        r'.*?<span class="skill-count">(\d+)</span>',
+        text, re.DOTALL,
+    ):
+        rows.append((bool(prefix), pack_dir, count))
+    return rows
+
+
+def _check_pack_row_counts(source_label, rows, core_counts, spec_counts):
+    """Compares each (is_spec, pack_dir, count) row against the true
+    per-pack skill count from skills_index.json."""
+    seen = set()
+    for is_spec, pack_dir, count_str in rows:
+        seen.add((is_spec, pack_dir))
+        truth_map = spec_counts if is_spec else core_counts
+        truth_count = truth_map.get(pack_dir)
+        if truth_count is None:
+            errors.append(f"{source_label}: lists pack '{pack_dir}' not found in skills_index.json")
+            continue
+        if int(count_str) != truth_count:
+            errors.append(f"{source_label}: pack '{pack_dir}' shown with {count_str} skills, "
+                           f"skills_index.json has {truth_count}")
+    for pack_dir in core_counts:
+        if (False, pack_dir) not in seen:
+            warnings.append(f"{source_label}: core pack '{pack_dir}' not found in the pack table "
+                             f"(drift-check skipped it)")
+    for pack_dir, count in spec_counts.items():
+        if count > 0 and (True, pack_dir) not in seen:
+            warnings.append(f"{source_label}: populated specialisation pack '{pack_dir}' not found "
+                             f"in the pack table (drift-check skipped it)")
+
+
+def check_docs_sync():
+    """Drift check: the skill/pack counts advertised in README.md and
+    docs/index.html must match skills_index.json — the single source of
+    truth generated by scripts/generate_index.py. Catches exactly the kind
+    of staleness that otherwise only gets caught when a person happens to
+    notice (see CHANGELOG 0.24.x)."""
+    idx_path = os.path.join(ROOT, "skills_index.json")
+    if not os.path.exists(idx_path):
+        return  # already reported by check_skills_index()
+    with open(idx_path, encoding="utf-8") as f:
+        try:
+            idx = json.load(f)
+        except json.JSONDecodeError:
+            return  # already reported by check_skills_index()
+
+    truth, core_counts, spec_counts, _ = _index_truth(idx)
+
+    readme_path = os.path.join(ROOT, "README.md")
+    if os.path.exists(readme_path):
+        with open(readme_path, encoding="utf-8") as f:
+            readme = f.read()
+        _check_stat_numbers(
+            "README.md", readme,
+            r"(\d+)\s+core packs\s*·\s*(\d+)\s+populated specialisation packs\s*·\s*(\d+)\s+skills\s*·\s*(\d+)\s+audit agents",
+            truth,
+        )
+        _check_pack_row_counts("README.md", _rows_from_readme(readme), core_counts, spec_counts)
+
+    pages_path = os.path.join(ROOT, "docs", "index.html")
+    if os.path.exists(pages_path):
+        with open(pages_path, encoding="utf-8") as f:
+            pages = f.read()
+        _check_stat_numbers(
+            "docs/index.html", pages,
+            r"<b>(\d+)</b>\s*core packs.*?<b>(\d+)</b>\s*specialisation packs.*?<b>(\d+)</b>\s*skills.*?<b>(\d+)</b>\s*audit agents",
+            truth,
+        )
+        _check_pack_row_counts("docs/index.html", _rows_from_pages(pages), core_counts, spec_counts)
+
+
 def main():
     packs = check_packs()
     check_specialisation_pack_skills()
     check_marketplace(packs)
     check_skills_index()
+    check_docs_sync()
 
     if warnings:
         print(f"Warnings ({len(warnings)}):")

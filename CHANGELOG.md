@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.25.0 — 2026-08-12
+
+**Documentation-architecture fix: README.md and docs/index.html were too
+close to duplicates of each other, and nothing caught it when they drifted
+out of sync (the v0.23.0 → v0.24.0 gap, where the Pages site sat stale at
+99 skills for a full release cycle, was only caught because the owner
+noticed and asked).** Fixed with two changes:
+
+1. **Differentiated the two docs' roles.** `docs/index.html`'s "Browse the
+   packs" tables no longer repeat README.md's full pack descriptions —
+   they're now a compact name + skill-count directory that links to
+   [`README.md#whats-inside`](https://github.com/Pilot2Service/AI-Business-Designer#whats-inside)
+   for the actual skill-by-skill breakdown. README.md stays the single
+   detailed technical reference; the Pages site leans into its own role
+   (narrative, use cases, "why this exists") instead of mirroring it.
+2. **Added an automated drift check** (`scripts/validate.py`,
+   `check_docs_sync`): parses the pack/skill/agent counts stated in
+   README.md's stats line and per-pack table rows, and in docs/index.html's
+   stats row and per-pack table rows, and fails validation if either stops
+   matching the true counts in `skills_index.json`. Already wired into CI
+   via `.github/workflows/validate.yml` (which runs `validate.py` on every
+   push/PR) — no workflow changes needed.
+
 ## 0.24.0 — 2026-08-12
 
 **5 new skills + 1 enrichment, selected from a 10-capability report the
