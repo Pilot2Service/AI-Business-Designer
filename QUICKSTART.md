@@ -36,7 +36,7 @@ Cowork's UI isn't documented there in the same detail as the CLI.
 
 ## 2. Pick one pack
 
-You don't need all 8 core packs at once. Pick one based on the task:
+You don't need all 9 core packs at once. Pick one based on the task:
 
 | Situation | Pack |
 |---|---|
