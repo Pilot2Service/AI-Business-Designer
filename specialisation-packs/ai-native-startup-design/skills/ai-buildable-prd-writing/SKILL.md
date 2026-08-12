@@ -44,7 +44,12 @@ the AI to guess.
      as a technical implementation.
    - **Scope boundaries / Out of scope** — what is DELIBERATELY not being
      built in this version. As important a section as the feature list.
-   - **Success criteria** — how we'll know the prototype works.
+   - **Success criteria** — how we'll know the prototype works. If the
+     core feature involves an LLM or AI agent (not just conventional
+     code), write this as a small set of scored input/expected-output
+     examples rather than a qualitative description — see
+     `../../../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`
+     step 3 for how to build that set from real failure cases.
 3. **Apply MVP discipline.** Cut scope ruthlessly: one customer, one core
    job, the fewest features that prove the idea. An MVP spec is the same
    PRD, with scope mercilessly trimmed.

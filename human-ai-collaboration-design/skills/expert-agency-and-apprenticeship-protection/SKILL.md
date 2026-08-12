@@ -139,6 +139,11 @@ allowed (see `../../../meta/frontmatter_schema.md`).
 
 ## Continue from here
 
+- Individual-practitioner complement in this pack: `../self-efficacy-and-cognitive-rot-shielding/SKILL.md`
+  — this skill protects an organization's junior-expertise pipeline;
+  that skill protects an individual practitioner's own judgment in
+  their day-to-day work with AI. Use both — organizational design
+  doesn't fix individual offloading, and vice versa.
 - Related skill in this pack: `../hitl-maturity-and-confidence-routing/SKILL.md`
   — where this skill's named "never autonomous" decisions become hard
   escalation triggers.

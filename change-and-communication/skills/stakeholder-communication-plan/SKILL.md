@@ -74,6 +74,10 @@ the only ones allowed (see
 ## Continue from here
 
 - Next in this pack: [`../workshop-and-facilitation-design/SKILL.md`](../workshop-and-facilitation-design/SKILL.md) — Designs the structure of a cross-functional workshop or design-thinking session.
+- Before this, for a single high-stakes decision-maker: [`../stakeholder-pressure-and-information-gap-mapping/SKILL.md`](../stakeholder-pressure-and-information-gap-mapping/SKILL.md)
+  — this skill segments and sequences messaging across a change
+  timeline; that skill closes the information gap with one specific
+  decision-maker before a pitch or business case is written.
 - A ready-made skill chain for this situation: see [`../../../playbooks/`](../../../playbooks/)
 - This pack's shared guardrails: [`../../CLAUDE.md`](../../CLAUDE.md)
 

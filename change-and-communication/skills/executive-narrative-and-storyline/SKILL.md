@@ -74,6 +74,13 @@ the only ones allowed (see
 
 ## Continue from here
 
+- Before this: [`../stakeholder-pressure-and-information-gap-mapping/SKILL.md`](../stakeholder-pressure-and-information-gap-mapping/SKILL.md)
+  — maps the specific decision-maker's pressures and information gaps
+  that should shape the SCQA's Complication and the governing thought's
+  hook, before the storyline is drafted.
+- After this, for register and clarity: [`../whiteboard-clarity-and-jargon-stripping/SKILL.md`](../whiteboard-clarity-and-jargon-stripping/SKILL.md)
+  — a structurally sound storyline can still read as jargon-heavy; run
+  this pass once the logic is right.
 - Next in this pack: [`../benefits-realisation-tracking/SKILL.md`](../benefits-realisation-tracking/SKILL.md) — Tracks and reports on the realisation of promised benefits after implementation.
 - More specialized applications for demo/visioning situations:
   [`../../../prototyping-and-demonstration/skills/opportunity-visioning-with-pr-faq/SKILL.md`](../../../prototyping-and-demonstration/skills/opportunity-visioning-with-pr-faq/SKILL.md)

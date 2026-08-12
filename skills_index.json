@@ -1,6 +1,6 @@
 {
   "repo": "ai-business-designer-skills",
-  "version": "0.23.0",
+  "version": "0.24.0",
   "generated": "auto",
   "generated_by": "scripts/generate_index.py — do not hand-edit",
   "packs": [
@@ -397,6 +397,17 @@
       "path": "business-design-frameworks/skills/strategy-canvas-and-value-curve/SKILL.md"
     },
     {
+      "id": "taste-emulation-heuristic",
+      "pack": "business-design-frameworks",
+      "title": "Taste Emulation Heuristic",
+      "description": "Predicts how a specific, narrowly-defined in-group will emotionally and aesthetically react to a concept, without slow or misleading market research — by deliberately building 'exposure hours' to world-class examples, running a mental simulation before asking anyone, and validating the prediction against real feedback in a backpropagation-style loop. Use when a concept, design direction, or positioning needs a fast, defensible taste judgment before committing to build or test it.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "business-design-frameworks/skills/taste-emulation-heuristic/SKILL.md"
+    },
+    {
       "id": "value-chain-mapping",
       "pack": "business-design-frameworks",
       "title": "Value Chain Mapping",
@@ -446,6 +457,28 @@
       ],
       "owner_input_needed": true,
       "path": "change-and-communication/skills/stakeholder-communication-plan/SKILL.md"
+    },
+    {
+      "id": "stakeholder-pressure-and-information-gap-mapping",
+      "pack": "change-and-communication",
+      "title": "Stakeholder Pressure And Information Gap Mapping",
+      "description": "Maps the information asymmetry between a team and a decision-maker before a pitch is written: what pressures, metrics, and constraints the decision-maker is actually operating under that the team can't see, surfaced through pointed diagnostic questions rather than generic stakeholder interviews. Use before writing a pitch, business case, or executive narrative for a specific leader — not after a proposal has already been drafted around assumptions about what they care about.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "change-and-communication/skills/stakeholder-pressure-and-information-gap-mapping/SKILL.md"
+    },
+    {
+      "id": "whiteboard-clarity-and-jargon-stripping",
+      "pack": "change-and-communication",
+      "title": "Whiteboard Clarity And Jargon Stripping",
+      "description": "Strips AI-generated corporate jargon and marketing-speak ('AI slop') out of a text or pitch and replaces it with plain, concrete, human language, using a slop-strip test, a whiteboard test (explain it as if drawing for a friend in 45 seconds), and Steve-Jobs-style one-line compression. Use as a pass over any AI-drafted or AI-assisted document, deck, or pitch before it goes to a real audience — a different register from executive-narrative-and-storyline's logical structuring.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "change-and-communication/skills/whiteboard-clarity-and-jargon-stripping/SKILL.md"
     },
     {
       "id": "workshop-and-facilitation-design",
@@ -580,6 +613,17 @@
       "grounded_in": [],
       "owner_input_needed": true,
       "path": "human-ai-collaboration-design/skills/hitl-override-metrics-and-feedback-audit/SKILL.md"
+    },
+    {
+      "id": "self-efficacy-and-cognitive-rot-shielding",
+      "pack": "human-ai-collaboration-design",
+      "title": "Self Efficacy And Cognitive Rot Shielding",
+      "description": "Protects the individual practitioner's own judgment and self-efficacy when working with an AI thinking partner: a Think-First rule (form your own hypothesis before consulting AI), an adversarial-sparring instruction pattern (ask the AI to find gaps, not agree), and voice ownership (keep authorship of your own argument). Use at the start of any analysis or working session with AI, before the first prompt is written — this is a discipline for how the human works, distinct from the rest of this pack's organizational HITL design skills.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "human-ai-collaboration-design/skills/self-efficacy-and-cognitive-rot-shielding/SKILL.md"
     },
     {
       "id": "competitive-and-five-forces-mapping",
@@ -955,6 +999,17 @@
       ],
       "owner_input_needed": false,
       "path": "specialisation-packs/ai-native-startup-design/skills/rice-scoring-and-mvp-synthesis/SKILL.md"
+    },
+    {
+      "id": "tiny-core-identification-and-feature-freeze",
+      "pack": "specialisation-packs/ai-native-startup-design",
+      "title": "Tiny Core Identification And Feature Freeze",
+      "description": "Isolates the one tiny interaction that is a product's actual superpower, stress-tests whether it's good enough to carry the product on its own, and enforces a 'no more features' veto until that core is obviously, unmistakably good. Use after an MVP direction is chosen and before or during scoping, as a discipline against the 'just one more feature' trap that AI-cheap building makes especially tempting.",
+      "maturity": "scaffold",
+      "source_layer": "research",
+      "grounded_in": [],
+      "owner_input_needed": true,
+      "path": "specialisation-packs/ai-native-startup-design/skills/tiny-core-identification-and-feature-freeze/SKILL.md"
     },
     {
       "id": "bmc-ai-assisted-draft-starting",

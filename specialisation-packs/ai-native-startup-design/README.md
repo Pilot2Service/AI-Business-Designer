@@ -26,6 +26,7 @@ This pack combines two sources the owner has applied in practice:
 | `customer-vision-to-jtbd` | Structures a free-form vision into an ICP, a verb-driven Jobs-To-Be-Done analysis, 5+2 need themes, a 5-criteria NMB+AI-advantage score, and selects an AI differentiator need (AI wedge). |
 | `ai-differentiator-solution-ideation` | Ideates 3 distinct AI-native solution directions for the chosen AI wedge through three lenses. |
 | `rice-scoring-and-mvp-synthesis` | Scores solution directions with the RICE model, selects the MVP, and writes the MVP definition, a positioning statement, and "why we win" claims. |
+| `tiny-core-identification-and-feature-freeze` | Isolates the one tiny interaction that is the product's actual superpower, stress-tests whether it's good enough to stand alone, and enforces a "no more features" veto until it is. |
 | `ai-buildable-prd-writing` | Writes the PRD as a work order for an AI build agent, plus supporting documents and a build plan. |
 | `ai-native-conversational-os-design` | Designs the conversational UI architecture for an AI-native product (Intent → Strategy Cards → Clarification → Output Cards → Mission → Agent Execution) and 5 AI-first product principles. |
 | `closed-loop-process-and-human-oversight-design` | Structures processes as open/closed loops and decides the level of human oversight (in/on/outside-the-loop). |
@@ -45,6 +46,13 @@ This pack combines two sources the owner has applied in practice:
 - Open loop / closed loop systems thinking and the human-in/on/
   outside-the-loop model, as presented by the workshop in the AI agent
   context
+- Notion product lead Max Schoening — the "tiny core" concept behind
+  `tiny-core-identification-and-feature-freeze` (source video transcript
+  supplied by the user)
+- Anthropic product lead Dianne Penn — the eval-set/golden-answer
+  practice referenced in `ai-buildable-prd-writing`'s success-criteria
+  step (source video transcript supplied by the user; the fuller method
+  lives in `../../ai-strategy-and-governance/skills/ai-use-case-feasibility-and-poc-scoping/SKILL.md`)
 
 ## Logical flow of the skills
 
@@ -59,6 +67,11 @@ ai-differentiator-solution-ideation  (3 solution directions for the chosen wedge
         │
         ▼
 rice-scoring-and-mvp-synthesis  (RICE selection → MVP definition → positioning)
+        │
+        ▼
+tiny-core-identification-and-feature-freeze
+   (isolate the one interaction the product can't exist
+    without, before scope is written into the PRD)
         │
         ▼
 ai-buildable-prd-writing ──► ai-native-tool-stack-selection

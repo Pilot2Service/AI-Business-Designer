@@ -16,6 +16,15 @@ answers no real question.
 ## Anchored in research
 
 - Perplexity research — PoC scoping through to productionization
+- The "evals are the new PRDs" framing and the failing-transcript
+  translation technique in step 3 — Anthropic product lead Dianne
+  Penn, describing how her team turns vague AI-quality feedback into
+  scored test sets ("evals are the new PRDs... it's basically
+  test-driven development for PMs... where you write the test first"),
+  supplied by the user from a source video transcript. Applied here to
+  PoC/use-case scoping specifically, which the source material does
+  not itself cover — the source describes an internal product-team
+  practice, not a PoC-scoping method.
 
 ## Method
 
@@ -43,6 +52,24 @@ answers no real question.
    easy majority case. Reusing this same set for evaluation prevents
    the common failure of quietly redefining "good enough" once actual
    outputs are seen.
+   - **Build it from real failing transcripts, not a hypothetical
+     list.** Vague quality complaints ("the model hallucinates," "it
+     doesn't follow instructions") aren't testable — they need to be
+     translated into specific input/expected-output pairs before
+     they're useful. Practice: collect the exact prompt, system
+     context, and actual (wrong) output for each real complaint; from
+     roughly 30-40 of these, the pattern of what "good" actually means
+     usually becomes clear enough to write as a scored test set. This
+     translation step — vague complaint → concrete failing transcript →
+     testable example — is the actual bottleneck in building a useful
+     golden set, more often than the number of examples.
+   - **Treat the resulting eval set as a living regression suite, not
+     a one-time PoC gate.** Re-run it every time the underlying model
+     changes (a version upgrade, a prompt change, a new tool added to
+     the agent), and set an explicit pass-rate bar the new version has
+     to clear (e.g. ≥99%) before it replaces the old one in production.
+     A golden set built once for the PoC and never run again silently
+     stops protecting anything the moment the model behind it changes.
 4. **Separate what the PoC must prove from what it deliberately does
    not.** Explicitly out of scope for a PoC, unless the use case
    specifically requires it: production-grade security hardening,

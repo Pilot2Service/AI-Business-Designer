@@ -14,6 +14,7 @@ added over time as they're identified and refined.
 | `category-definition-and-modeling` | Models a product or business relative to market categories: associating with one, expanding one, or creating an entirely new one. |
 | `strategy-canvas-and-value-curve` | Structures competitors/alternatives on shared competitive factors (Blue Ocean Strategy Canvas), identifies the industry's "as-is curve," and looks for ways to break away from it using the ERRC grid. |
 | `customer-journey-and-ai-touchpoint-mapping` | Maps the customer's service journey and its friction points, and places AI on the journey only where it genuinely creates value. |
+| `taste-emulation-heuristic` | Predicts a specific, narrowly-defined in-group's emotional/aesthetic reaction to a concept — a trainable judgment skill built through deliberate exposure hours, mental simulation, and correction against real feedback. |
 
 `strategy-canvas-and-value-curve` is additionally anchored in the owner's
 own 360 Comparison Factors tool, used in real client work.
@@ -31,6 +32,11 @@ strategy-canvas-and-value-curve ────────────────
 customer-journey-and-ai-touchpoint-mapping
    (a complementary, outside-in customer perspective —
     can be used together with any of the above)
+
+taste-emulation-heuristic
+   (a different question — predicted in-group reaction, not
+    structural positioning — usable alongside any of the above,
+    especially before committing to build or test a concept)
 ```
 
 All can also be used independently (see
@@ -49,6 +55,8 @@ alternative, partly complementary lenses on the same business.
   Curve, Four Actions Framework/ERRC, Six Paths Framework)
 - Ries & Trout — positioning theory
 - The owner's 360 Comparison Factors comparison tool (the owner's own product)
+- Notion product lead Max Schoening — taste as a trainable prediction
+  skill (source video transcript supplied by the user)
 
 ## Structure
 

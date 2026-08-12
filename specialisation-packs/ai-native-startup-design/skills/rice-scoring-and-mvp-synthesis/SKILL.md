@@ -97,6 +97,10 @@ Once this section has been filled in with multiple cases, raise
 - Preceding skill in this pack:
   `../ai-differentiator-solution-ideation/SKILL.md` — produces the three
   alternatives scored here.
+- Next skill in this pack: `../tiny-core-identification-and-feature-freeze/SKILL.md`
+  — once a direction is chosen here, isolates the one interaction that
+  is its actual reason to exist and blocks feature creep before the PRD
+  is written.
 - Next skill in this pack: `../ai-buildable-prd-writing/SKILL.md`
   — writes the PRD for the chosen MVP.
 - Related skill in this pack, if the chosen MVP is a conversational/

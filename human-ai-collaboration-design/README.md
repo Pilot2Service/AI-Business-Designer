@@ -22,6 +22,7 @@ designed in `specialisation-packs/ai-native-startup-design`.
 | `ai-accuracy-guardrails-and-grounding-design` | Designs absolute guardrails and grounds AI outputs against a named source of truth to counter sycophancy, weighed against "tokonomics" — the cost/latency price of every added guardrail instruction. |
 | `hitl-override-metrics-and-feedback-audit` | Audits a human-AI partnership's health with override-rate and override-accuracy metrics, and designs the feedback loop that turns human corrections into model improvement (the AI Flywheel). |
 | `expert-agency-and-apprenticeship-protection` | Draws the boundary around decisions AI may never make autonomously, and protects the pipeline that trains junior experts against being silently automated away. |
+| `self-efficacy-and-cognitive-rot-shielding` | The individual-practitioner layer: a Think-First rule, an adversarial-sparring instruction pattern, and voice ownership — protects one person's own judgment and self-efficacy in day-to-day work with AI, distinct from this pack's other five organizational-design skills. |
 
 ## Logical flow of the skills
 
@@ -50,6 +51,13 @@ maturity model and design its routing, then specify how the AI behaves and
 stays grounded, then draw the hard boundary around what it may never
 decide, and throughout — audit whether it's actually working with real
 usage data rather than a one-time design decision.
+
+`self-efficacy-and-cognitive-rot-shielding` sits outside this flow
+deliberately — the other five skills design oversight of an AI
+*process* at the organizational level; this one is a standing personal
+discipline for whoever (consultant, analyst, the AI Business Designer
+themselves) is working with AI directly, day to day, regardless of
+which process-level maturity stage applies.
 
 ## Relationship to other packs
 
@@ -106,6 +114,10 @@ usage data rather than a one-time design decision.
 - The human-in/on/outside-the-loop model already used elsewhere in this
   repo (see "Relationship to other packs" above) as this pack's simpler
   predecessor layer.
+- Anthropic practitioners Noam Segal and Dianne Penn — the "cognitive
+  rot" mechanism and the Think-First/adversarial-sparring practice in
+  `self-efficacy-and-cognitive-rot-shielding` (source video transcripts
+  supplied by the user).
 
 Full sourcing and grounding-strength notes, including everything that was
 excluded from this pack and why:

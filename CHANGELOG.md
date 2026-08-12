@@ -1,5 +1,70 @@
 # Changelog
 
+## 0.24.0 — 2026-08-12
+
+**5 new skills + 1 enrichment, selected from a 10-capability report the
+owner supplied ("AI Business Designer skills map 2026"), grounded in
+source video transcripts from Anthropic, Notion, OpenAI, Whatnot,
+Webflow, and Khosla Ventures practitioners.** Every one of the 10
+reported capabilities was checked against this repo's existing skills
+before deciding whether to add anything — the goal was avoiding bloat,
+not maximizing coverage of the report. Verdict: 5 capabilities were
+genuine, checked gaps; 1 enriched an existing skill instead of
+duplicating it; 4 were rejected as already covered or out of scope
+(full reasoning for the rejections was presented to and confirmed by
+the owner before implementation, not re-derived here).
+
+Added:
+- `taste-emulation-heuristic` (`business-design-frameworks`) — predicts
+  a defined in-group's reaction to a concept via exposure hours, mental
+  simulation, and feedback-driven correction (Max Schoening/Notion).
+- `self-efficacy-and-cognitive-rot-shielding` (`human-ai-collaboration-design`,
+  6th skill) — the individual-practitioner layer this pack was missing:
+  a Think-First rule, an explicit adversarial-sparring instruction
+  pattern, and voice ownership, distinct from the pack's five
+  organizational-design skills (Noam Segal, Dianne Penn/Anthropic).
+- `whiteboard-clarity-and-jargon-stripping` (`change-and-communication`)
+  — a slop-strip test, a whiteboard test, and Steve-Jobs-style
+  one-line compression, complementing `executive-narrative-and-storyline`'s
+  logical structuring with a plain-clarity register pass (Max Schoening,
+  Keith Rabois, Jessica Fain).
+- `stakeholder-pressure-and-information-gap-mapping` (`change-and-communication`)
+  — closes the information gap between a team and a decision-maker
+  before a pitch is drafted, via pointed diagnostic questions rather
+  than generic stakeholder interviews (Jessica Fain/Webflow).
+- `tiny-core-identification-and-feature-freeze` (`specialisation-packs/ai-native-startup-design`)
+  — isolates the one interaction that is a product's actual superpower
+  and enforces a no-more-features veto until it's obviously good,
+  sequenced between `rice-scoring-and-mvp-synthesis` and
+  `ai-buildable-prd-writing` (Max Schoening/Notion).
+
+Enriched (not duplicated): `ai-use-case-feasibility-and-poc-scoping`'s
+golden-test-set step now includes the "evals are the new PRDs"
+technique — translating vague AI-quality complaints into concrete
+failing-transcript-derived test cases, and treating the resulting set
+as a living regression suite re-run on every model upgrade rather than
+a one-time PoC gate (Dianne Penn/Anthropic). `ai-buildable-prd-writing`
+cross-references the same method for its Success Criteria section.
+
+Rejected, with reasoning (not implemented): context-window/rules.md
+engineering for coding agents (out of scope — an engineering-agent
+operational practice, not a business-design skill); parallel-prototype
+portfolio curation and team-burnout management (the triage mechanism
+duplicates `ai-opportunity-portfolio`'s 2x2 scoring, and burnout
+management doesn't change any deliverable this repo produces);
+"reaction-readiness" playground prototyping (already thoroughly covered
+by `rapid-prototype-and-vibe-coding-craft` + `demo-delivery-and-storytelling`);
+"zone defense" dynamic team staffing (a plausible but soft org-design
+opinion without a sharp, deliverable-changing technique).
+
+Cross-linked all 5 new skills into their nearest existing neighbors
+(`opportunity-value-assessment`, `executive-narrative-and-storyline`,
+`stakeholder-communication-plan`, `rice-scoring-and-mvp-synthesis`,
+`expert-agency-and-apprenticeship-protection`).
+
+Bumped to 0.24.0, regenerated skills_index.json (111 skills, 9 packs),
+updated pack READMEs and root README skill counts/tables/tree.
+
 ## 0.23.0 — 2026-08-11
 
 **New specialisation pack: `public-sector-ai-service-design` (7 skills).**

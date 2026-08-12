@@ -102,6 +102,11 @@ information gathered another way).
 - Related skill in another pack (research-based opportunity identification
   before this stage):
   `../../../specialisation-packs/research-commercialisation/skills/research-opportunity-recognition/SKILL.md`
+- Complementary, not overlapping: `../../../business-design-frameworks/skills/taste-emulation-heuristic/SKILL.md`
+  predicts a specific in-group's emotional/aesthetic reaction to a
+  concept — a different question from this skill's commercial
+  attractiveness × feasibility scoring; use both together for a fuller
+  picture of an opportunity.
 - This pack's shared guardrails: `../../CLAUDE.md`
 
 ## References

@@ -29,6 +29,10 @@ business.
 - LinkedIn 2026 — Risk & Compliance Management
 - LinkedIn Skills on the Rise 2026 — AI Business Strategy
 - Perplexity research — PoC scoping through to productionization
+- Anthropic product lead Dianne Penn — the "evals are the new PRDs"
+  failing-transcript-to-eval-set technique, added to
+  `ai-use-case-feasibility-and-poc-scoping`'s golden-test-set step
+  (source video transcript supplied by the user)
 - Perplexity research — roadmaps and business capability maps
 - Market research: open "Senior AI Business Designer"-type job postings
 - `strategic-options-evaluation` logic applied to AI decisions

@@ -11,7 +11,7 @@ pack also works as a map of the competence field around AI-assisted business
 design: what the discipline actually consists of, broken into named,
 independently usable pieces.
 
-`9 core packs · 4 populated specialisation packs · 106 skills · 4 audit agents
+`9 core packs · 4 populated specialisation packs · 111 skills · 4 audit agents
 · self-contained (no required external services) · CI-validated · MIT license`
 
 New here? [`QUICKSTART.md`](QUICKSTART.md) gets you from zero to your first
@@ -89,18 +89,18 @@ just a number).
 | [`opportunity-recognition`](opportunity-recognition/README.md) | scan, evaluate, size, and write up a business opportunity | 8 |
 | [`business-case-and-analysis`](business-case-and-analysis/README.md) | build an ROI/NPV business case with risks and assumptions made explicit | 6 |
 | [`ai-strategy-and-governance`](ai-strategy-and-governance/README.md) | prioritize AI use cases, scope a PoC, and check responsible-AI readiness — including a premise check for whether an idea is real reshuffle or just automation | 15 |
-| [`change-and-communication`](change-and-communication/README.md) | plan change management and executive communication | 4 |
-| [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | 5 |
+| [`change-and-communication`](change-and-communication/README.md) | plan change management and executive communication — including closing the information gap with a decision-maker before pitching, and stripping AI jargon before it ships | 6 |
+| [`business-design-frameworks`](business-design-frameworks/README.md) | apply classic business/value-modeling frameworks (value chain, strategy canvas, category design) — an intentionally growing collection | 6 |
 | [`prototyping-and-demonstration`](prototyping-and-demonstration/README.md) | frame and deliver a credible demo or PoC without creating false expectations of production-readiness | 5 |
 | [`data-strategy-and-literacy`](data-strategy-and-literacy/README.md) | diagnose data's role in a business and read data critically before trusting it | 6 |
-| [`human-ai-collaboration-design`](human-ai-collaboration-design/README.md) | design and audit intentional human-AI oversight — HITL maturity and confidence routing, AI behavioral/accuracy specification, override-rate auditing, and protecting expert agency | 5 |
+| [`human-ai-collaboration-design`](human-ai-collaboration-design/README.md) | design and audit intentional human-AI oversight — HITL maturity and confidence routing, AI behavioral/accuracy specification, override-rate auditing, protecting expert agency, and the individual practitioner's own judgment discipline | 6 |
 
 ### Specialisation packs
 
 | Pack | What it gives you | Skills |
 |---|---|---|
 | [`research-commercialisation`](specialisation-packs/research-commercialisation/README.md) | A structured path from a research result to a commercialisation decision: IP disclosure and ownership checks, route selection (licensing vs. spin-out), funding-option mapping, and team/equity questions, plus a working self-assessment tool | 12 |
-| [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | 8 |
+| [`ai-native-startup-design`](specialisation-packs/ai-native-startup-design/README.md) | A founder-facing path from a raw AI opportunity to a buildable spec: customer understanding (ICP/JTBD), RICE-scored MVP selection, tiny-core feature-freeze discipline, a PRD an AI coding agent can act on, human-oversight design for the resulting product, and a tool-stack decision | 9 |
 | [`business-model-canvas`](specialisation-packs/business-model-canvas/README.md) | Facilitation-grade Business Model Canvas work: running the session, diagnosing a finished canvas for weak spots, correcting common misunderstandings about what a canvas is, matching a model against a library of known innovation patterns, a set of resilience/risk heuristics (economics prototyping, organizational-resistance mapping, channel economics, operational risk scanning), and two AI-native facilitation techniques (AI-drafted starting canvas, AI-scaled customer interviewing) | 19 |
 | [`public-sector-ai-service-design`](specialisation-packs/public-sector-ai-service-design/README.md) | A public-sector lens on top of the core AI-strategy, business-case, and stakeholder skills: screening AI ideas for public value and mandate fit, mapping the distinct stakeholder types and veto points in public organizations, navigating procurement and public funding, regulatory and equity guardrails for citizen-facing AI, and a six-element decision-readiness model for public decision bodies | 7 |
 
@@ -203,13 +203,13 @@ ai-business-designer-skills/
 ├── opportunity-recognition/           [plugin] 8 skills + agents/market-sizing-cross-validator.md
 ├── business-case-and-analysis/        [plugin] 6 skills + agents/assumption-stress-tester.md
 ├── ai-strategy-and-governance/        [plugin] 15 skills + agents/ai-initiative-readiness-auditor.md
-├── change-and-communication/          [plugin] 4 skills
-├── business-design-frameworks/        [plugin] 5 skills + agents/competitive-blind-spot-scanner.md
+├── change-and-communication/          [plugin] 6 skills
+├── business-design-frameworks/        [plugin] 6 skills + agents/competitive-blind-spot-scanner.md
 ├── prototyping-and-demonstration/     [plugin] 5 skills
 ├── data-strategy-and-literacy/        [plugin] 6 skills
-├── human-ai-collaboration-design/     [plugin] 5 skills
+├── human-ai-collaboration-design/     [plugin] 6 skills
 ├── specialisation-packs/
-│   ├── ai-native-startup-design/       8 skills
+│   ├── ai-native-startup-design/       9 skills
 │   ├── business-model-canvas/          19 skills
 │   ├── public-sector-ai-service-design/ 7 skills
 │   └── research-commercialisation/     12 skills
