@@ -27,6 +27,15 @@ from a structural analysis of another Claude plugin marketplace.)
    from disk and frontmatter. Don't edit `skills_index.json` by hand.
 8. **Run `python3 scripts/validate.py` before committing.** It must pass.
 
+## Adding a new Task Card (playbook)
+
+Write one `.md` file in `playbooks/` with the five fields (When to use /
+What to provide / Start with this / What you get / What happens next),
+following the existing cards as the template, then add a matching card to
+the "Ready-to-run task starters" section in `docs/index.html`. Keep the
+website card short (one prompt variant + a link to the full file); the full
+`.md` file is the canonical source with all prompt variants.
+
 ## Adding a new specialisation pack
 
 Use the `templates/specialisation-pack-template/README.md` template and add

@@ -145,6 +145,21 @@
   }
   .step p{margin:0;font-size:13.5px;color:var(--text-muted);max-width:none;}
 
+  .taskcard-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:8px;}
+  .taskcard{
+    background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+    padding:20px;
+  }
+  .taskcard h4{margin:0 0 12px;font-size:15px;font-weight:700;color:var(--text);}
+  .taskcard .tc-label{
+    margin:14px 0 4px;font-size:11px;font-weight:700;text-transform:uppercase;
+    letter-spacing:0.04em;color:var(--text-faint);
+  }
+  .taskcard .tc-label:first-of-type{margin-top:0;}
+  .taskcard p{margin:0;font-size:13.5px;color:var(--text-muted);max-width:none;}
+  .taskcard pre.install{padding:14px 16px;margin:0;font-size:12.5px;white-space:pre-wrap;}
+  .taskcard code{background:none;}
+
   .callout{
     background:var(--bg-alt);border:1px solid var(--border);border-left:3px solid var(--accent);
     border-radius:var(--radius);padding:18px 20px;margin:0 0 28px;font-size:14.5px;color:var(--text-muted);
@@ -191,6 +206,7 @@
   @media (max-width:820px){
     .grid-4{grid-template-columns:repeat(2,1fr);}
     .step-grid{grid-template-columns:1fr;}
+    .taskcard-grid{grid-template-columns:1fr;}
     nav.topbar .links{display:none;}
     table{font-size:13.5px;}
   }
@@ -207,6 +223,7 @@
     <div class="links">
       <a href="#intro">Who it's for</a>
       <a href="#usecases">Use cases</a>
+      <a href="#taskstarters">Task starters</a>
       <a href="#how">How it works</a>
       <a href="#packs">Packs</a>
       <a href="#agents">Agents</a>
@@ -219,7 +236,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <span class="badge-line">Built by Tommi Järvinen · v0.25.0 · MIT</span>
+    <span class="badge-line">Built by Tommi Järvinen · v0.26.0 · MIT</span>
     <h1>An open-source AI business design skills collection for Claude Code &amp; Cowork</h1>
     <p class="lead">
       I use techniques like these in my own client work — opportunity
@@ -321,6 +338,73 @@
         <span class="step-pack"><a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/specialisation-packs/public-sector-ai-service-design/README.md">public-sector-ai-service-design</a> → <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/ai-strategy-and-governance/README.md">ai-strategy-and-governance</a></span>
         <p>You're scoping an AI idea for a city, agency, or non-profit, where "who's the sponsor" isn't one clean answer and ROI isn't the whole case. Screen the idea for public value and mandate fit, map the stakeholder types and veto points, navigate procurement, and build a decision-readiness case a public board can actually approve.</p>
       </div>
+    </div>
+  </div>
+</section>
+
+<section id="taskstarters">
+  <div class="wrap">
+    <h2>Ready-to-run task starters</h2>
+    <p class="section-sub">Four situations from the list above, taken one step further: a prompt you can copy, paste, and adapt — not just a description of what the pack would do.</p>
+    <div class="taskcard-grid">
+
+      <div class="taskcard">
+        <h4>Business Case Review &amp; Stress-Test</h4>
+        <p class="tc-label">When to use</p>
+        <p>You already have a draft business case — yours or someone else's — and need a second pass before it goes to a decision-maker.</p>
+        <p class="tc-label">Start with this</p>
+        <pre class="install"><code>Review the attached business case using the
+business-case-builder skill. Check whether the problem
+statement, options considered (including "do nothing"),
+economics, risks, and recommendation are all present and
+internally consistent. Flag anything that's missing or
+unclear before this goes to a decision-maker.</code></pre>
+        <p class="tc-label">What happens next</p>
+        <p>If the case holds up, continue into <code>roi-npv-sensitivity-model</code> or <code>executive-narrative-and-storyline</code>. Full card, with two more prompt variants: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/playbooks/business-case-review.md">playbooks/business-case-review.md</a>.</p>
+      </div>
+
+      <div class="taskcard">
+        <h4>AI Idea Portfolio Scoring</h4>
+        <p class="tc-label">When to use</p>
+        <p>You have a pile of AI ideas and no reliable way to say which deserve real investment versus which are a quick win or not worth it.</p>
+        <p class="tc-label">Start with this</p>
+        <pre class="install"><code>Use the ai-opportunity-portfolio skill to score these AI
+ideas: [paste your list]. Score each on the 5-dimension
+model (business impact, technical feasibility, data
+readiness, strategic alignment, speed to value/risk) and
+place them on the Quick Wins / Strategic Bets /
+Deprioritize / Hard-Low Value matrix.</code></pre>
+        <p class="tc-label">What happens next</p>
+        <p>Take the top Quick Wins into <code>ai-use-case-feasibility-and-poc-scoping</code>. Full card, with two more prompt variants: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/playbooks/ai-idea-scoring.md">playbooks/ai-idea-scoring.md</a>.</p>
+      </div>
+
+      <div class="taskcard">
+        <h4>Business Model Canvas Diagnostic</h4>
+        <p class="tc-label">When to use</p>
+        <p>You (or a client) have a filled-in Business Model Canvas and need to know honestly whether it's sound — not just that all nine boxes have something written in them.</p>
+        <p class="tc-label">Start with this</p>
+        <pre class="install"><code>Use the bmc-canvas-diagnostic-reading skill to review this
+canvas: [paste canvas]. Check it against the known failure
+patterns and tell me the 2-3 weakest boxes and why.</code></pre>
+        <p class="tc-label">What happens next</p>
+        <p>Fix the weak boxes, or use <code>bmc-session-facilitation-design</code> if you're facilitating a live session next. Full card, with two more prompt variants: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/playbooks/bmc-diagnostic.md">playbooks/bmc-diagnostic.md</a>.</p>
+      </div>
+
+      <div class="taskcard">
+        <h4>Task-Level Automation Fit</h4>
+        <p class="tc-label">When to use</p>
+        <p>You're looking at a role, team, or process and want to know specifically which parts of it actually suit AI — task by task, not as a blanket verdict.</p>
+        <p class="tc-label">Start with this</p>
+        <pre class="install"><code>Use the task-level-decomposition-and-automation-fit skill
+to break this down into individual tasks and classify each
+one as Automate, Augment, or Human-Only using the four SML
+criteria (input/output clarity, cognitive nature, error
+tolerance, time scale): [paste the role, team, or process
+description].</code></pre>
+        <p class="tc-label">What happens next</p>
+        <p>Feed the Automate- and Augment-classified tasks into the AI Idea Portfolio Scoring starter above for 5-dimension scoring. Full card, with two more prompt variants: <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/playbooks/task-level-automation-fit.md">playbooks/task-level-automation-fit.md</a>.</p>
+      </div>
+
     </div>
   </div>
 </section>
@@ -585,7 +669,7 @@
     <div>
       <a href="https://github.com/Pilot2Service/AI-Business-Designer">GitHub</a> ·
       <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/CHANGELOG.md">Changelog</a> ·
-      <a href="https://github.com/Pilot2Service/AI-Business-Designer/releases/tag/v0.25.0">v0.25.0</a> ·
+      <a href="https://github.com/Pilot2Service/AI-Business-Designer/releases/tag/v0.26.0">v0.26.0</a> ·
       <a href="https://github.com/Pilot2Service/AI-Business-Designer/blob/main/LICENSE">License</a>
     </div>
   </div>

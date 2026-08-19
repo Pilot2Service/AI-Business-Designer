@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.26.0 — 2026-08-19
+
+**Two fixes from an agentskills.io standard/best-practice audit dated
+2026-08-19** (owner-requested "quick wins" from that audit's prioritized
+plan):
+
+1. **Rewrote 24 generic skill descriptions.** 24 `SKILL.md` files across
+   `ai-strategy-and-governance`, `business-case-and-analysis`,
+   `change-and-communication`, `opportunity-recognition`, and
+   `strategic-thinking` used a boilerplate description tail ("Use when you
+   need X-level support for a comparable task") that named the pack instead
+   of the skill's actual method and the user's actual situation — the exact
+   antipattern agentskills.io's own "poor example" warns against
+   (`description: Helps with PDFs.`). All 24 rewritten to lead with the
+   specific method and close with a concrete trigger situation, per
+   agentskills.io's description-optimization guidance. `skills_index.json`
+   regenerated; `validate.py` passes.
+2. **Shipped the "Ready-to-run task starters" concept.** Four Task Card
+   playbooks (`playbooks/business-case-review.md`,
+   `playbooks/ai-idea-scoring.md`, `playbooks/bmc-diagnostic.md`,
+   `playbooks/task-level-automation-fit.md`) — each with When to
+   use / What to provide / Start with this (copy-paste prompt) / What you
+   get / What happens next — were designed but never implemented in the
+   prior analysis (`task-starters-ja-verkkosivu-suositus-2026-08.md`,
+   2026-08-18). Now written and linked from a new "Ready-to-run task
+   starters" section on `docs/index.html`, right after the existing "When
+   to use this pack" section.
+
 ## 0.25.0 — 2026-08-12
 
 **Documentation-architecture fix: README.md and docs/index.html were too
