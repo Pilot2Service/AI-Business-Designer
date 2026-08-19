@@ -41,6 +41,30 @@ self-assessment tool (the owner's own). Full data:
 7. Repeat the assessment every 3-6 months to track progress — this is a
    development tool, not a one-time verdict.
 
+## Gotchas
+
+- Self-scoring bias is the failure mode the Method names directly (step
+  2): over- or under-estimating on the 1-7 scale is likely with a single
+  scorer, but the output (a normalised percentage) can look precise enough
+  to mask that unreliability. Have a second team member score in parallel
+  when possible.
+- The normalisation formula is (raw score - 1)/6*100, not raw/7*100 — using
+  the wrong denominator shifts an area's placement across a maturity
+  boundary (e.g., Foundational vs. Intermediate) near the edges of the
+  scale.
+- The overall score is an average of area averages, not a minimum, so a
+  strong overall percentage can hide one critically weak area (e.g., IP &
+  Evidence). Step 6 requires looking at the 2-3 weakest areas separately —
+  the topline number alone isn't enough to plan action from.
+- Treating this as a one-off test defeats its purpose: the Method calls
+  for repeating every "3-6 months" specifically so progress on prior
+  action items can be checked. A single snapshot can't show whether a
+  weak-area action plan actually worked.
+- This tool is explicitly not psychometrically validated (see "What this
+  skill does NOT do") — presenting its 0-100% output as a certified
+  competency score (e.g. in an investor deck) overstates its rigor beyond
+  what the framework supports.
+
 ## What this skill does NOT do
 
 - Is not a psychometrically validated clinical test — a self-assessment

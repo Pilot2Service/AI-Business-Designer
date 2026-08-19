@@ -1,0 +1,50 @@
+[
+  {
+    "query": "My invention is a new biotech diagnostic — what commercialisation timeline and equity structure should I realistically expect?",
+    "should_trigger": true
+  },
+  {
+    "query": "is a software startup way faster to spin out than a biotech one?",
+    "should_trigger": true
+  },
+  {
+    "query": "I've developed a new materials-science manufacturing process in a university lab. What's different about commercializing deep tech compared to, say, a software product?",
+    "should_trigger": true
+  },
+  {
+    "query": "life sciences vs software spinout playbook",
+    "should_trigger": true
+  },
+  {
+    "query": "What should I expect differently if my research is in the humanities and I want to start a consulting-based venture versus if it were a hardware invention?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please outline the sector-specific commercialisation expectations (timeline, capital, IP strategy) for a deep-tech engineering innovation.",
+    "should_trigger": true
+  },
+  {
+    "query": "Is a spin-out or a licensing deal the better fit for my invention?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I check whether my AI diagnostic tool needs FDA or EMA regulatory clearance?",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the exact timeline and budget I should put in my business plan for getting through Phase 1 trials?",
+    "should_trigger": false
+  },
+  {
+    "query": "Who owns the IP on my invention — me or the university?",
+    "should_trigger": false
+  },
+  {
+    "query": "How should I engage industry partners early in my research to validate the prototype?",
+    "should_trigger": false
+  },
+  {
+    "query": "What kind of support should I expect from our TTO for a biotech spinout?",
+    "should_trigger": false
+  }
+]

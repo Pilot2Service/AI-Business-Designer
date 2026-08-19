@@ -43,6 +43,34 @@ of TTOs" (pp. 26-29).
 7. Complement the TTO proactively: mentors, incubator programmes, specialist
    consultants in areas where the TTO lacks deep expertise.
 
+## Gotchas
+
+- Step 3 (assess the TTO's limits, e.g. medtech regulation or software
+  business-model experience) needs to be checked per industry via
+  `industry-specific-commercialisation-playbook`, not assumed from general
+  reputation — a TTO strong in biotech may have no relevant network for a
+  software venture, and that gap only shows up if step 3 is actually done.
+- Step 5 ("if the process feels slow, don't assume ill intent") can be
+  misapplied to a genuinely under-resourced or out-of-depth TTO —
+  communicating openly is the right first move, but this skill doesn't
+  tell you when slowness is really a limits problem (step 3) that needs
+  complementary outside support (step 7) rather than more patience.
+- Step 6 warns that opting out of the TTO often means needing support
+  later on worse terms, but weighing that trade-off requires reading your
+  institution's actual IP policy and benchmarks, which this skill doesn't
+  interpret for you (see `ip-disclosure-and-ownership-check`) — deciding to
+  opt out from this skill's general caution alone is the same ungrounded
+  move it warns against.
+- This skill explicitly does not assess your own TTO's performance
+  objectively (see "does NOT do") — concluding "our TTO is bad" from one
+  slow interaction, instead of using the skill to structure what to ask
+  and expect, overstates what the method supports.
+- Step 2 surfaces the TTO's proposed equity split as one of the things it
+  offers, but judging whether that split is reasonable isn't this skill's
+  job — cross-check it against the benchmark ranges in
+  `ip-disclosure-and-ownership-check` before treating an opening number as
+  fixed.
+
 ## What this skill does NOT do
 
 - Does not assess your own TTO's performance objectively — it helps structure

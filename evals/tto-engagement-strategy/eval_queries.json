@@ -1,0 +1,50 @@
+[
+  {
+    "query": "How do I get the most out of my university's TTO during commercialisation?",
+    "should_trigger": true
+  },
+  {
+    "query": "is my tto actually any good or should i get outside help too",
+    "should_trigger": true
+  },
+  {
+    "query": "Our university's tech transfer office has been fairly hands-off so far, and I'm not sure whether that's normal or whether we should be pushing harder or bringing in outside advisors.",
+    "should_trigger": true
+  },
+  {
+    "query": "TTO engagement strategy",
+    "should_trigger": true
+  },
+  {
+    "query": "I keep hearing the office handling my invention is slow — is that just how these things work, or should I be worried?",
+    "should_trigger": true
+  },
+  {
+    "query": "What is an effective strategy for engaging with a Technology Transfer Office throughout the commercialisation process, and when should external support be sought in addition?",
+    "should_trigger": true
+  },
+  {
+    "query": "Should I formally disclose my invention to the TTO before I publish my paper?",
+    "should_trigger": false
+  },
+  {
+    "query": "What equity terms are typical for university spin-outs in software vs biotech?",
+    "should_trigger": false
+  },
+  {
+    "query": "Should we go the spin-out or licensing route for this technology?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I recruit an experienced industry advisor for my venture?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you objectively rate how good our TTO's performance has been this year?",
+    "should_trigger": false
+  },
+  {
+    "query": "What funding programmes should we pursue after the TTO connects us to a proof-of-concept fund?",
+    "should_trigger": false
+  }
+]

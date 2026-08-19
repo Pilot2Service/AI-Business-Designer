@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I've got my ICP and JTBD nailed down — can you help me write a PRD I can hand to Lovable to build the MVP?",
+    "should_trigger": true
+  },
+  {
+    "query": "We need a proper work order for the build agent: problem, vision, core features, what's out of scope, and success criteria.",
+    "should_trigger": true
+  },
+  {
+    "query": "Please draft a Product Requirements Document for our AI wedge, including scope boundaries and a build plan, so we can hand it to our coding agent.",
+    "should_trigger": true
+  },
+  {
+    "query": "help me write a PRD for this idea",
+    "should_trigger": true
+  },
+  {
+    "query": "We validated the opportunity and picked our MVP direction after RICE scoring. Now I need to turn that into something Bolt can actually build from — features, what NOT to build, success criteria, the works.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you also write the brand style guide and design system doc that should go along with the PRD before I hand it to the build agent?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me figure out who my ideal customer is and what jobs they're trying to get done?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need a full business case with ROI and NPV for this project to get funding approval from the board.",
+    "should_trigger": false
+  },
+  {
+    "query": "What tools should I use to actually build this app — Lovable, v0, or a custom coding agent?",
+    "should_trigger": false
+  },
+  {
+    "query": "We have three different solution directions for our AI wedge — can you help me score and pick one with RICE?",
+    "should_trigger": false
+  },
+  {
+    "query": "Write a press release and FAQ describing what this product will look like once it launches.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write the technical architecture and database schema for this feature?",
+    "should_trigger": false
+  }
+]

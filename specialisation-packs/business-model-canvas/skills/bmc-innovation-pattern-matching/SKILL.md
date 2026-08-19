@@ -78,6 +78,32 @@ customer experience.
    `../bmc-canvas-clarity-and-iteration/SKILL.md` for the next step
    (building a variant based on the selected patterns).
 
+## Gotchas
+
+- Step 2 requires committing to ONE primary taxonomy direction before
+  browsing patterns. Browsing the library first and rationalizing a
+  direction afterward is exactly the "pick everything that sounds good"
+  failure mode step 2 exists to prevent.
+- Step 4's contradiction check (e.g. cost-leadership vs. premium-pricing) is
+  only a violation when it's unjustified — segmented pricing for different
+  customer groups is a valid exception. Treating the rule as an absolute
+  "never combine these two" will wrongly reject legitimate multi-segment
+  strategies.
+- Step 1's four context inputs (ICP, solution category, market nature, cost
+  structure) are prerequisites, not optional color. Selecting patterns
+  against an incomplete context without recording it in `assumptions` (step
+  7) produces a recommendation that looks justified but can't be traced
+  back to what was actually known about the business.
+- The library is closed at 159 patterns — per "What this skill does NOT
+  do," a context that calls for something the library doesn't cover must be
+  named as an explicit gap, not silently mapped onto the nearest existing
+  `pattern_id`.
+- This skill stops at pattern selection and hands off to
+  `../bmc-canvas-clarity-and-iteration/SKILL.md` to actually build a canvas
+  variant — treating the `pattern_id` list plus justifications as a
+  finished recommendation, without that handoff, skips the step where the
+  pattern gets tested against a real canvas.
+
 ## What this skill does NOT do
 
 - Doesn't choose a pattern for you as a final decision — it produces a

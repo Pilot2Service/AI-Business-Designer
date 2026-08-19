@@ -45,6 +45,29 @@ the owner's published commercialisation guide (owner, 2025). Chapter
    workshops, market research help, business concept training) if your
    organisation offers them.
 
+## Gotchas
+
+- The five stages read as sequential, but the Method explicitly builds in
+  loops back (pivot at Stage 1, refine/pivot at Stage 3) — treating the
+  roadmap as a one-way waterfall contradicts step 5's instruction to keep
+  it "agile and updatable, not a static document."
+- Stage 4 ("choose the pathway... using validated data") assumes Stage 3
+  validation is actually done — picking spinout vs. licensing before
+  technical/commercial validation exists inverts the intended order and
+  bases the pathway decision on assumptions instead of evidence.
+- Milestones in Stage 5 only work as stage gates if they're concrete and
+  time-boxed (e.g., "10 pilot customers Q4"); vague milestones like "get
+  funding" or "build product" don't give the roadmap anything to check
+  against.
+- Step 6 (multi-perspective validation with customers, mentors, TTO,
+  investors) is called out as a distinct failure mode when skipped — a
+  roadmap validated only inside the founding team can look complete while
+  missing blind spots those outside groups would have caught.
+- This is a top-level overview: each stage links out to a deeper skill
+  (readiness check, funding pathway, team design, etc.). Treating this
+  skill's five-stage sketch as sufficient on its own for a stage-specific
+  decision under-specifies that decision.
+
 ## What this skill does NOT do
 
 - Does not replace a deep dive into individual stages — each stage links to

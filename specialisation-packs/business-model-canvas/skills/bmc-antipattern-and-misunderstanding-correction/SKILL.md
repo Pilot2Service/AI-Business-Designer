@@ -79,6 +79,29 @@ it mid-session, when something feels stuck.
    canvas → one business model. Value emerges once there are 2-3
    variants → they can be analyzed, scenario-tested, synthesized.
 
+## Gotchas
+
+- Antipatterns 2 and 5 (too deep too early, one canvas is enough) are named
+  here but actually fixed by `../bmc-canvas-clarity-and-iteration/SKILL.md`'s
+  variation mechanics — diagnosing the antipattern without switching to that
+  skill's sprint structure and 2-3 variant minimum just re-describes the
+  problem instead of solving it.
+- Antipattern 3 ("canvas as a strategy document") and misunderstanding 1
+  ("this could define everything at once") sound almost identical but target
+  different audiences — the working team's behavior vs. the client's belief
+  about what the BMC delivers. Misreading which one you're facing means
+  offering a facilitation nudge when a role explanation was needed, or vice
+  versa.
+- Misunderstanding 3 (canvas = complete planning tool) points the fix to
+  `../bmc-tool-switching-decisions/SKILL.md`, but this skill doesn't itself
+  say WHEN that handoff should happen — naming the misunderstanding without
+  pairing it with the actual switching criteria leaves the client's real
+  question ("what do I do next?") unanswered.
+- This is explicitly a 5+4 list from the expert's own practice, not an
+  exhaustive taxonomy — a session that's stuck for a reason that doesn't
+  match any of these nine patterns needs a different diagnosis, not a forced
+  fit into the nearest-sounding antipattern.
+
 ## What this skill does NOT do
 
 - Doesn't replace the actual variation process — see

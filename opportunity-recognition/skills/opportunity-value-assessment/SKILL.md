@@ -77,6 +77,36 @@ information gathered another way).
    the assessment too early on the basis of assumptions that later turn out
    to be wrong.
 
+## Gotchas
+
+- Step 9 frames the whole assessment as a "living hypothesis" that should
+  be updated as new evidence arrives — treating the matrix placement and
+  7-lens scores as a one-time output rather than revisiting them when
+  `opportunity-intake-elicitation` answers get corrected or enriched is the
+  most common way this framework goes stale.
+- Step 7's License vs. Startup output is explicitly a *preliminary
+  direction*, based on only three criteria (market size/revenue potential,
+  IP protectability, resources/risk tolerance) — reporting it downstream
+  (e.g. in `opportunity-brief-writing`) as a final recommendation skips the
+  deeper analysis the skill itself says is required
+  (`spinout-vs-licensing-pathway`).
+- This skill must not confirm market size, TRL, or other figures from
+  memory or general knowledge — every input has to trace back to
+  `opportunity-intake-elicitation`'s answers or be marked as an assumption;
+  scoring the "market size & growth" lens from an analyst's own market
+  intuition instead of the intake answers (or a flagged assumption) breaks
+  the traceability the framework depends on.
+- The 1–5 scores on the seven commercialization angles are simplifications
+  standing in for real analysis that "still needs to be done carefully
+  before the scoring is justified" — assigning a score without first doing
+  (or at least sketching) the underlying market/competitor/cost work behind
+  it produces a number that looks rigorous but isn't.
+- The 2D matrix placement (Step 3) requires a narrative interpretation of
+  the specific cell, not just plotting a dot — two opportunities that land
+  in the same "high attractiveness / medium readiness" cell can mean very
+  different things depending on which of the four factors drove each axis,
+  and skipping the narrative loses that distinction.
+
 ## What this skill does NOT do
 
 - Doesn't hand down a final investment or go/no-go decision — it produces a

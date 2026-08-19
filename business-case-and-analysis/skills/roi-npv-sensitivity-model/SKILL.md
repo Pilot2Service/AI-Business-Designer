@@ -41,6 +41,26 @@ Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios.
    "adoption has to exceed X% for NPV to stay positive") so the
    decision-maker sees exactly which assumption they're betting on.
 
+## Available scripts
+
+- **`scripts/roi_npv_model.py`** -- calculates NPV, IRR (bisection search),
+  payback period, and ROI from a list of incremental net cash flows
+  (already vs. the do-nothing baseline, per Method step 1), then runs the
+  one-at-a-time sensitivity analysis from step 4, an upside/downside
+  scenario pair from step 5, and the breakeven estimate from step 6. Run it
+  once cash flows and a discount rate are known, instead of computing NPV/
+  IRR by hand -- it also catches the sign-flip cases (no IRR in a sane
+  range) that are easy to get wrong manually.
+
+  ```bash
+  python3 scripts/roi_npv_model.py --example > input.json   # see the input shape
+  python3 scripts/roi_npv_model.py input.json                # or: ... - <<< '{...}'
+  ```
+
+  Stdlib only (json, argparse, math) -- no install needed. Exit code 1 on
+  invalid input (missing discount_rate, fewer than 2 cash-flow periods),
+  with a specific error on stderr.
+
 ## What this skill does NOT do
 
 - Doesn't make the final decision for you — it produces a structured draft to

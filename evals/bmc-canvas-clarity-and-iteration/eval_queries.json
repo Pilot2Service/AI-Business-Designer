@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Help us build 2-3 alternative business model canvas variants for this new venture idea.",
+    "should_trigger": true
+  },
+  {
+    "query": "We only have one canvas so far — how do we know if it's actually ready or if we're missing something?",
+    "should_trigger": true
+  },
+  {
+    "query": "walk me through building a second BMC variant, we already have block 1 filled",
+    "should_trigger": true
+  },
+  {
+    "query": "Is our canvas at 'high clarity' yet? We have one segment and one channel picked but the revenue streams still feel open-ended.",
+    "should_trigger": true
+  },
+  {
+    "query": "Our founding team keeps drifting toward operations-heavy blocks and neglecting customer segments — is that a known bias worth balancing?",
+    "should_trigger": true
+  },
+  {
+    "query": "assess whether this business model canvas is done or if we need to go deeper",
+    "should_trigger": true
+  },
+  {
+    "query": "What are the 159 innovation patterns we could apply to differentiate our business model?",
+    "should_trigger": false
+  },
+  {
+    "query": "Read this finished canvas and check for internal contradictions or missing evidence.",
+    "should_trigger": false
+  },
+  {
+    "query": "We're stuck because the team doesn't understand what the canvas is even for — how do I explain its role to them?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I run an A/B test to validate our pricing hypothesis?",
+    "should_trigger": false
+  },
+  {
+    "query": "Design a sprint retrospective format for our two-week engineering iterations.",
+    "should_trigger": false
+  },
+  {
+    "query": "Our canvas is finished and validated — what tool should we move to next for GTM planning?",
+    "should_trigger": false
+  }
+]

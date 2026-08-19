@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I have my business plan and customer notes loaded — help me find 5 genuinely new AI-enabled opportunities in my startup, not just faster versions of what I already do.",
+    "should_trigger": true
+  },
+  {
+    "query": "not sure where AI could actually change my business, not just speed stuff up — can you dig into that with me?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please run the two-stage prompt chain to identify and prioritize agentic-level AI opportunities within our startup case.",
+    "should_trigger": true
+  },
+  {
+    "query": "scan my startup for AI opportunities",
+    "should_trigger": true
+  },
+  {
+    "query": "We're a small logistics startup and I keep hearing 'automate customer service' as the only AI idea. I want to find something more fundamentally new that closed-loop AI enables, then rank it by feasibility and what I could prototype this week.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me score and rank the five AI opportunity ideas I brainstormed, by business potential, customer value, and feasibility?",
+    "should_trigger": true
+  },
+  {
+    "query": "We're an established company with a big product portfolio — help us systematically prioritize our AI use cases across the whole business.",
+    "should_trigger": false
+  },
+  {
+    "query": "Once we pick our top AI opportunity, help me map it into a customer profile and JTBD analysis.",
+    "should_trigger": false
+  },
+  {
+    "query": "Is this process we run today an open loop or could it be redesigned as a closed loop with human oversight?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me map out five industries where AI is creating disruption using pattern-matching from other sectors.",
+    "should_trigger": false
+  },
+  {
+    "query": "We already picked our opportunity — now write the PRD for the build agent.",
+    "should_trigger": false
+  },
+  {
+    "query": "Give me a market sizing (TAM/SAM/SOM) for this AI product idea.",
+    "should_trigger": false
+  }
+]

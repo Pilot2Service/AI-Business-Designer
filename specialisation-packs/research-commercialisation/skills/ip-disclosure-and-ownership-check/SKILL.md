@@ -43,6 +43,31 @@ the owner's published commercialisation guide (owner, 2025). Chapter
    ownership), weigh the pros/cons carefully — freedom also brings costs and
    the responsibility for patenting.
 
+## Gotchas
+
+- Step 2's "before public disclosure" deadline is absolute in most
+  jurisdictions and triggers on more than journal publication — a
+  conference poster, preprint, thesis defense, or a detailed social media
+  post all count; the common failure is treating only formal publication
+  as the deadline and disclosing to the TTO too late.
+- The Bayh-Dole default and "professor's privilege" exception (see "Based
+  on") are cited as historical models, not a claim about your institution
+  — step 1 has to be answered from your own policy document, not inferred
+  from which example sounds closer to your situation.
+- Step 5 (students aren't automatically employees) is easy to skip when a
+  student is "just helping informally" — without a signed IP assignment,
+  that student can retain a real ownership stake that only surfaces later
+  as a title problem during TTO or investor diligence.
+- Step 6 warns against a university taking high equity *and* royalties
+  *and* fees simultaneously, but this skill only tells you to watch for
+  that pattern — it doesn't judge whether a specific term sheet crosses
+  the line; confirm with the TTO (`tto-engagement-strategy`) and IP
+  counsel before accepting or rejecting an offer on this skill's say-so.
+- This is a prerequisite gate, not a parallel activity — running
+  `industry-partner-engagement` (e.g. showing a prototype to an advisory
+  panel) or other outward-facing steps before completing step 2 here can
+  itself be the public disclosure that forecloses patentability.
+
 ## What this skill does NOT do
 
 - Does not replace IP counsel or the TTO's formal assessment.

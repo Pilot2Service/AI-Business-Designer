@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Should I start a company around my invention or just license it to an existing manufacturer?",
+    "should_trigger": true
+  },
+  {
+    "query": "spin out or license, which one",
+    "should_trigger": true
+  },
+  {
+    "query": "I have a platform technology with applications across several industries, and a couple of larger firms have already expressed interest in just licensing it outright. I'm not sure if I should build a company myself instead.",
+    "should_trigger": true
+  },
+  {
+    "query": "spinout vs licensing decision framework",
+    "should_trigger": true
+  },
+  {
+    "query": "I don't want to spend the next five years running a startup, but I also don't want to give away all the upside — is there a middle path?",
+    "should_trigger": true
+  },
+  {
+    "query": "What criteria should inform the choice between an equity-based spin-out and a royalty-based licensing arrangement for a university invention?",
+    "should_trigger": true
+  },
+  {
+    "query": "Does my invention actually have commercial potential in the first place?",
+    "should_trigger": false
+  },
+  {
+    "query": "Who owns this invention — me, my co-founder, or the university?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you review the actual licence agreement clauses our lawyer sent over?",
+    "should_trigger": false
+  },
+  {
+    "query": "What equity split should the founding team use once we decide to spin out?",
+    "should_trigger": false
+  },
+  {
+    "query": "What funding sources should we pursue first for our spin-out?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do biotech commercialisation timelines differ from software ones?",
+    "should_trigger": false
+  }
+]

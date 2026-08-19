@@ -1,0 +1,50 @@
+[
+  {
+    "query": "We're a mid-size logistics company with high fixed capital costs — what business model innovation patterns should we consider?",
+    "should_trigger": true
+  },
+  {
+    "query": "give me 3-5 innovation patterns that fit a B2B SaaS company targeting enterprise IT buyers",
+    "should_trigger": true
+  },
+  {
+    "query": "How can we innovate our revenue model without just bolting on a subscription tier?",
+    "should_trigger": true
+  },
+  {
+    "query": "We want to find a financial-model innovation direction for our manufacturing business — what patterns from the library fit?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our customer experience feels commoditized — is there a channel or relationship innovation pattern that could differentiate us?",
+    "should_trigger": true
+  },
+  {
+    "query": "match our business context to some proven innovation patterns, we're targeting SMBs in retail with a lean team",
+    "should_trigger": true
+  },
+  {
+    "query": "Build a canvas variant using the two patterns we already picked.",
+    "should_trigger": false
+  },
+  {
+    "query": "Run the numbers — what's the ROI and NPV if we adopt this pricing pattern?",
+    "should_trigger": false
+  },
+  {
+    "query": "Score our AI use cases on business impact, technical feasibility, and strategic alignment.",
+    "should_trigger": false
+  },
+  {
+    "query": "We invented a totally novel monetization mechanism nobody's seen before — validate it for us.",
+    "should_trigger": false
+  },
+  {
+    "query": "What are some general innovation management best practices for our R&D team?",
+    "should_trigger": false
+  },
+  {
+    "query": "Check whether our finished canvas has internal contradictions between blocks.",
+    "should_trigger": false
+  }
+]

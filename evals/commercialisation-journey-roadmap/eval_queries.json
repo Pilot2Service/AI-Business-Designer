@@ -1,0 +1,50 @@
+[
+  {
+    "query": "We just found a promising use case for our research — can you help us map out the whole path from here to market as a staged roadmap?",
+    "should_trigger": true
+  },
+  {
+    "query": "give me a five-stage plan for commercializing this technology with milestones per quarter",
+    "should_trigger": true
+  },
+  {
+    "query": "How do we structure our journey from opportunity recognition through to execution, keeping it agile?",
+    "should_trigger": true
+  },
+  {
+    "query": "We have a rough idea and no plan. What are the big stages we need to go through to commercialize it, and how do we turn that into a roadmap with dates?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you build us a stage-gated roadmap that ties into our sprint/agile process?",
+    "should_trigger": true
+  },
+  {
+    "query": "We're at the concept stage of our spinout — what comes next and how do the stage gates work?",
+    "should_trigger": true
+  },
+  {
+    "query": "Should I go full-time on this spinout or stay in my academic post part-time?",
+    "should_trigger": false
+  },
+  {
+    "query": "We need to size the total addressable market for this opportunity.",
+    "should_trigger": false
+  },
+  {
+    "query": "Is our team actually ready to start commercializing, from a readiness perspective?",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the right funding mix and order — grants first, then investors?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me draft a founders' agreement covering equity and decision rights.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you run a hypothesis-driven issue tree on this strategic problem?",
+    "should_trigger": false
+  }
+]

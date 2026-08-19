@@ -50,6 +50,29 @@ Spin-outs Are Funded?" (pp. 34-45) — the handbook's longest chapter.
 9. Build relationships with funders and investors BEFORE you need money —
    early engagement significantly strengthens an application/pitch.
 
+## Gotchas
+
+- The non-dilutive-before-dilutive ordering (steps 1-3) is a sequencing
+  principle, not optional colour — approaching angels or VCs before
+  exhausting proof-of-concept/non-dilutive sources dilutes equity earlier
+  than necessary for validation work grants could have funded instead.
+- Step 3's move to dilutive funding is gated on "once technical/commercial
+  proof exists" — pitching investors before that proof exists is a common
+  way applications get rejected or come back with worse terms.
+- Runway management (step 7) explicitly names spending on offices or other
+  non-critical costs as the failure mode to avoid — a well-funded round
+  can still fail the "spend on value-creating things" test if burn goes to
+  overhead instead of IP, prototypes, approvals, or customer traction.
+- Investor selection isn't just about check size: step 4 warns that an
+  inexperienced investor (no track record in the sector/deep tech) can
+  stall a deal with non-standard terms — track record matters as much as
+  the amount offered.
+- Figures like the EIC Accelerator's "up to €2.5M grant + €15M equity" are
+  the programme's terms at time of writing, not guaranteed constants — this
+  skill explicitly does not guarantee current programme availability or
+  terms (see "What this skill does NOT do"), so verify directly with the
+  funder before relying on a specific number.
+
 ## What this skill does NOT do
 
 - Does not calculate a precise ROI/NPV model for you — see

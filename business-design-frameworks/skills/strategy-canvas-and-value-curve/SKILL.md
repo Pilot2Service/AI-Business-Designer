@@ -90,6 +90,53 @@ happen if we didn't?"
    some respects, at lower cost in others), and is it differentiated enough
    from competitors' curves to be defensible over time?
 
+## Available scripts
+
+- **`scripts/value_curve.py`** -- once every player is scored on every
+  factor (Method step 3), renders the strategy map as an SVG line chart
+  (step 4) and computes a factor-by-factor spread analysis that surfaces
+  the as-is curve automatically (step 5): factors where players cluster
+  within 1 point of each other are flagged as `as_is_curve_candidates`,
+  sorted first -- these are the highest-leverage places to run the ERRC
+  grid (step 6). Missing scores are reported as errors, not silently
+  defaulted, matching this skill's "don't invent competitor data" rule.
+
+  ```bash
+  python3 scripts/value_curve.py --example > input.json         # see the input shape
+  python3 scripts/value_curve.py input.json --output curve.svg
+  ```
+
+  Stdlib only (json, argparse) -- no install needed, no external charting
+  library required.
+
+## Gotchas
+
+- Keep the scale consistent across every player. The 360 model's 0-2 scale
+  (0 = weak/not offered, 1 = industry mid-level, 2 = strong/distinctive) is
+  what `scripts/value_curve.py` assumes by default -- mixing in a 1-5 scale
+  for some players, or forgetting to pass a different `scale_max`, produces
+  a chart and an as-is-curve analysis that both look precise but compare
+  incompatible numbers.
+- The "do nothing" / status quo option (Method step 1) is the easiest
+  player to skip because it doesn't feel like a real competitor -- but when
+  the customer's actual alternative is inaction, leaving it out hides the
+  truest as-is curve, not just one extra data point.
+- A factor where every player scores 2 (all strong) is still an as-is-curve
+  factor -- industry table stakes, not a differentiator -- even though the
+  raw numbers look good. As-is-curve detection (step 5, and the script's
+  `as_is_curve_candidate` flag) is about low SPREAD across players, not
+  about low absolute scores.
+- The 360 model's 10 example factors are an explicit starting point, not a
+  checklist to fill in mechanically (see "What this skill does NOT do") --
+  a canvas that just plugs in the generic factors without dropping the
+  irrelevant ones and adding the industry's own looks rigorous but rarely
+  surfaces anything the team didn't already know.
+- A redesigned value curve has to pass all three Blue Ocean quality tests
+  together (focused, divergent, a compelling one-sentence tagline) -- a
+  curve built by raising several factors and eliminating none usually fails
+  "focused" even when each individual ERRC decision seemed reasonable on
+  its own.
+
 ## What this skill does NOT do
 
 - Doesn't score competitors for you without user-provided information or a

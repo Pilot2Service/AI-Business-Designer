@@ -56,6 +56,35 @@ example content).
     replace the IP procedures required by the organization's innovation
     policy, and a confidentiality notice.
 
+## Gotchas
+
+- Step 2 (Evaluation Matrix) asks for a *narrative interpretation* of the
+  placement, not just a redrawn 2x2 grid — restating "attractiveness: high,
+  readiness: medium" without explaining what that combination means for this
+  specific opportunity is the most common way this step turns into a wasted
+  diagram.
+- Step 3 explicitly bans generic phrases for Strengths & Gaps — if the
+  underlying `opportunity-value-assessment` didn't attach numbers or named
+  observations to a factor, don't paraphrase it into a stronger-sounding
+  claim; keep the same level of specificity the source assessment actually
+  had.
+- The License vs. Startup view (Step 8) is only ever a *preliminary
+  direction* inherited from `opportunity-value-assessment` — presenting it
+  in the brief as a settled recommendation, rather than flagging it as
+  directional, misleads the decision-maker into thinking a real
+  make/license decision has already been made.
+- Step 10's disclaimer, "not an invention disclosure" note, and
+  confidentiality notice are not optional boilerplate — because this skill
+  explicitly does not replace an organization's IP procedures, dropping any
+  one of the three when a report gets trimmed to fit "1 page" reintroduces
+  the exact risk the skill exists to avoid.
+- This skill cannot be run standalone: without a completed
+  `opportunity-value-assessment` (2D placement + 7-lens scores) as input,
+  filling in the Evaluation Matrix or Evaluation Lenses table from general
+  impressions instead of that skill's actual output produces a brief that
+  looks authoritative but isn't grounded in the assessment it claims to
+  summarize.
+
 ## What this skill does NOT do
 
 - Isn't an official invention disclosure and doesn't replace the IP

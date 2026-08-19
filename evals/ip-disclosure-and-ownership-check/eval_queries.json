@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I just got promising results — do I need to disclose this to my university before I submit the paper?",
+    "should_trigger": true
+  },
+  {
+    "query": "who actually owns my invention, me or the uni?",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm a PhD student and my supervisor and I built something together with an outside collaborator from another university. We're not sure who owns what before we talk to anyone about funding.",
+    "should_trigger": true
+  },
+  {
+    "query": "invention disclosure process before publication",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to present my results at a conference next month but a colleague warned me that could mess up our ability to protect it later — what should I check first?",
+    "should_trigger": true
+  },
+  {
+    "query": "What is the correct sequence of steps to establish IP ownership and file an invention disclosure prior to public disclosure of a research result?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you draft the actual patent application claims for my invention?",
+    "should_trigger": false
+  },
+  {
+    "query": "Should we spin out a company or license this technology to an existing player?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I get the TTO to move faster on reviewing our commercialisation plan?",
+    "should_trigger": false
+  },
+  {
+    "query": "Is this actually a real commercial opportunity or just an interesting research result?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you review this specific clause in our licence agreement with the industry partner?",
+    "should_trigger": false
+  },
+  {
+    "query": "What kind of equity structure should our founding team use once we incorporate?",
+    "should_trigger": false
+  }
+]

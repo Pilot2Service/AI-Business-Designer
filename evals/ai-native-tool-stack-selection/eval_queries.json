@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I'm a solo founder just starting out — what tools do I actually need, and which ones can I skip for now?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please walk me through the 12-category tool stack decision tree and recommend the minimum viable stack for our pre-startup team.",
+    "should_trigger": true
+  },
+  {
+    "query": "what should my AI tool stack look like",
+    "should_trigger": true
+  },
+  {
+    "query": "there's like a million AI tools out there and I have no idea what I actually need, help",
+    "should_trigger": true
+  },
+  {
+    "query": "We're two people, pre-revenue, building an MVP with an app builder. We don't have a project management tool or a coding agent yet — do we need them now or can that wait?",
+    "should_trigger": true
+  },
+  {
+    "query": "Should I move from a no-code agent platform to something like LangGraph for my automation, or is that overkill right now?",
+    "should_trigger": true
+  },
+  {
+    "query": "Should we build this feature in-house, buy an off-the-shelf platform, or partner with a vendor?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you help me write the PRD so I know what to hand to my build agent?",
+    "should_trigger": false
+  },
+  {
+    "query": "Is this workflow genuinely closed-loop shaped, and where should the human sit relative to it?",
+    "should_trigger": false
+  },
+  {
+    "query": "Which developer framework — LangGraph, CrewAI, or the Claude Agent SDK — should our engineering team standardize on for production?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you check the security posture and contract terms of this SaaS tool before we sign?",
+    "should_trigger": false
+  },
+  {
+    "query": "We're a 200-person company evaluating enterprise software vendors for a new department — can you help run the vendor selection process?",
+    "should_trigger": false
+  }
+]

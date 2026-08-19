@@ -70,6 +70,31 @@ this market.
    before committing — don't treat the named examples in
    `../../references/tool-category-map.md` as an up-to-date truth.
 
+## Gotchas
+
+- Adopting two tools in the same category "just to compare" is
+  explicitly against step 2's rule of thumb — it fragments context and
+  slows things down rather than speeding them up, even though it feels
+  like hedging risk.
+- Adding project management or meeting-notes tooling before multiple
+  people are actually working on the same thing regularly (step 4) is
+  premature scaffolding for a stack that's supposed to start at 3-6
+  tools, not 30.
+- The named tools in `../../references/tool-category-map.md` are a
+  time-stamped snapshot, not a current recommendation — step 7 warns
+  that pricing, features, and free tiers in this market shift weekly,
+  so re-verify a tool's status before committing rather than trusting
+  the reference file as-is.
+- Jumping straight to an open-source runtime or developer framework
+  (LangGraph, CrewAI, etc.) for agent-building skips the required
+  progression in step 5: start with a no-code platform, and only move
+  up once a workflow has proven genuinely closed-loop-shaped and real
+  technical need exists — not by default enthusiasm.
+- Skipping the lock-in check (step 6) is low-risk for a throwaway
+  prototype but becomes a real liability if the product is meant to
+  scale — the skill only flags this as optional for prototypes, not for
+  anything intended to grow past MVP.
+
 ## What this skill does NOT do
 
 - Does not recommend specific product names as a permanent truth —

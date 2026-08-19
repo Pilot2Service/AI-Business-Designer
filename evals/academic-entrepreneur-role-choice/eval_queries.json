@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I'm a postdoc and my research group wants to spin out a company — should I go full-time, stay as an advisor, or do something in between?",
+    "should_trigger": true
+  },
+  {
+    "query": "How much time can I actually spend consulting for my own startup while still holding my professorship?",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm torn between resigning from my faculty position to run the startup full-time or keeping my job and just advising. Help me think through it.",
+    "should_trigger": true
+  },
+  {
+    "query": "what happens to my chances of going back to academia if I leave to run this spinout full time",
+    "should_trigger": true
+  },
+  {
+    "query": "Our TTO wants to know what role I'll take in the spin-out — founder, advisor, or part-time hybrid. Can you help me structure the tradeoffs?",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to keep teaching but also help commercialize my invention — is there a part-time or advisory model that works for that?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you draft the actual leave-of-absence agreement text for me to send to HR?",
+    "should_trigger": false
+  },
+  {
+    "query": "We need to design the founding team's equity split and decision rights before incorporation.",
+    "should_trigger": false
+  },
+  {
+    "query": "Is our idea and team actually ready to start commercializing this research?",
+    "should_trigger": false
+  },
+  {
+    "query": "What funding programmes should we apply for first — grants or angel investors?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need to score my own entrepreneurial competencies across the ten AFCA areas.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you map out the five stages of our commercialisation journey from idea to market?",
+    "should_trigger": false
+  }
+]

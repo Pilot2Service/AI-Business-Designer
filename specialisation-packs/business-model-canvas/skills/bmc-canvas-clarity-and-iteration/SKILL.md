@@ -79,6 +79,35 @@ and clarity always beats depth.
    this point: either go deeper or move to more precise tools (see
    `../bmc-tool-switching-decisions/SKILL.md`).
 
+## Gotchas
+
+- Step 6's readiness criteria are the expert's own simplified rubric,
+  deliberately different from `bmc-canvas-diagnostic-reading`'s broader
+  four-dimension rubric (see "Continue from here"). Passing "High clarity"
+  here does NOT mean the canvas is internally consistent or evidence-backed
+  — the two checks answer different questions and neither substitutes for
+  the other.
+- Step 4 (background bias) only works if you actually know the team's
+  professional background before judging which blocks look
+  over/underdeveloped — without that context, a legitimately customer-led
+  business can be misread as "unbalanced" when the imbalance is intentional.
+- The "2-3 variants" floor in steps 2 and 7 is a hard minimum, not a
+  suggestion. Synthesizing from one canvas plus "the user's own
+  alternatives" without ever producing a genuine second and third canvas
+  breaks the core premise this skill exists to enforce: value from
+  comparison, not from polishing one model.
+- Step 5's four analysis perspectives (margin, competitor, novelty,
+  scenario) are meant to be run against every variant, not just the one
+  the team already prefers — applying only the perspective that flatters a
+  favored variant defeats the point of building alternatives in the first
+  place.
+- The "Stuck" readiness state (one canvas worked too deep) and "Low
+  clarity" (multiple options per block) need opposite fixes — force
+  variant-building vs. force choices — so misclassifying which state a
+  team is in sends them down the wrong corrective path; see
+  `../bmc-antipattern-and-misunderstanding-correction/SKILL.md` for the
+  fuller set of corrective moves.
+
 ## What this skill does NOT do
 
 - Doesn't produce patterns or innovation directions itself — it uses the

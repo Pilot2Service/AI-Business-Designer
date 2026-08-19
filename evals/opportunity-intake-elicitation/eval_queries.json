@@ -1,0 +1,50 @@
+[
+  {
+    "query": "A researcher just came to me with a new idea but she can't articulate it in business terms at all — help me figure out what questions to ask her.",
+    "should_trigger": true
+  },
+  {
+    "query": "Please design a structured intake process to collect sufficient information about this newly identified opportunity from the inventor.",
+    "should_trigger": true
+  },
+  {
+    "query": "so this guy has some cool tech but no clue how to talk about it as a business, what should I even ask him?",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me interview the inventor about this opportunity.",
+    "should_trigger": true
+  },
+  {
+    "query": "We're kicking off an Opportunity Value Assessment for a new material science discovery. The lead researcher has never done a commercialization interview before and doesn't know what 'market size' even means in this context — I need a question set that walks her through it.",
+    "should_trigger": true
+  },
+  {
+    "query": "What questions should I ask to gather the info I need before evaluating this opportunity?",
+    "should_trigger": true
+  },
+  {
+    "query": "Now that we have the inventor's answers, can you score this opportunity on attractiveness and feasibility?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you draft general stakeholder interview questions to map power and interest for this change initiative?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need a requirements and scope document based on what the client told us about this software project.",
+    "should_trigger": false
+  },
+  {
+    "query": "Design a customer satisfaction survey for our existing product line.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write the elicitation questions to test our AI use case ideas across the five-dimensional scoring model?",
+    "should_trigger": false
+  },
+  {
+    "query": "The founder already has a clear structured business plan — can you review it for gaps and missing evidence?",
+    "should_trigger": false
+  }
+]

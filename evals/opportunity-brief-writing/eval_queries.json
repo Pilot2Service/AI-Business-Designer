@@ -1,0 +1,50 @@
+[
+  {
+    "query": "We just finished scoring this opportunity on attractiveness and feasibility — can you turn that into a one-page brief I can send to the investment committee?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you write up the opportunity assessment into something my grad-student inventor and the dean's office can both actually read?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please produce a concise Opportunity Brief report summarizing the attractiveness x readiness placement and the seven-lens scoring for this technology.",
+    "should_trigger": true
+  },
+  {
+    "query": "ok we've got all the scores and matrix stuff for this idea, can you just make it into a nice 2-pager?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our TTO evaluated a new biosensor technology last week using the attractiveness/feasibility matrix, and now I need a report that's understandable to both the professor who invented it and the licensing officer deciding on next steps.",
+    "should_trigger": true
+  },
+  {
+    "query": "Draft the opportunity brief for this assessment.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you run the attractiveness x feasibility assessment on this new opportunity and place it in the matrix?",
+    "should_trigger": false
+  },
+  {
+    "query": "I need a full business case with ROI, NPV, and risk analysis for this project, not just a short summary.",
+    "should_trigger": false
+  },
+  {
+    "query": "The client hasn't figured out how to describe their idea in business terms yet — can you ask them the right questions to get started?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write a press release and FAQ describing what this product will look like once it's built?",
+    "should_trigger": false
+  },
+  {
+    "query": "We need an investor-ready pitch deck with slides for our Series A round.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write up a market sizing analysis with TAM, SAM, and SOM figures for this opportunity?",
+    "should_trigger": false
+  }
+]

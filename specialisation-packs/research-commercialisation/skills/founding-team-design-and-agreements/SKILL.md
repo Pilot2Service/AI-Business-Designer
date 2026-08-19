@@ -42,6 +42,31 @@ the owner's published commercialisation guide (owner, 2025). Chapter
    converts into ownership, the team withstands uncertainty and conflict
    better.
 
+## Gotchas
+
+- The Founders' Agreement and the later Shareholders' Agreement are
+  explicitly different documents (step 6) covering different scopes —
+  drafting only the Founders' Agreement and assuming it also governs
+  future investors/partners leaves a real gap once outside capital enters.
+- Equity splits agreed on "gut feel" instead of the documented
+  contribution log from step 4 (idea/IP, time invested, seed capital) are
+  hard to defend later — the documentation exists specifically so an
+  uneven split can be justified after the fact, not just accepted at
+  signing.
+- Skipping vesting or a dynamic equity model (e.g. Slicing Pie, step 5)
+  because "we trust each other" removes the exact mechanism the Method
+  relies on to keep the split fair if a founder's contribution changes or
+  drops over time.
+- For a solo founder, the Method's mitigation is specifically "a strong
+  advisor and support network" (step 2) — treating "find a co-founder
+  eventually" as the fix, rather than compensating now, skips the
+  near-term action the skill actually recommends.
+- This skill does not produce a legally binding agreement (see "What this
+  skill does NOT do") — treating its output (roles, decision rights,
+  contribution log) as sufficient without routing to actual contract/
+  corporate-law expertise risks an agreement that isn't enforceable when
+  it's tested.
+
 ## What this skill does NOT do
 
 - Does not draft a legally binding Founders' or Shareholders' Agreement — it

@@ -65,6 +65,34 @@ supporting background research "S1 — Opportunity Package".
    assumption. A partial answer is enough as a starting point — don't demand
    a complete business plan before you can proceed.
 
+## Gotchas
+
+- Step 7 permits filling gaps with expert estimates, but only when tagged
+  `[assumption — verify]` — an estimated market size or TRL that loses this
+  tag as the answers get cleaned up into a report is indistinguishable from
+  a client-confirmed fact, which is exactly what the "does NOT do" section
+  warns against.
+- Step 2 asks for the problem "without your solution," but respondents
+  (especially technical inventors) reflexively describe their invention
+  instead of the pain it addresses — if the answer to "what's going wrong"
+  already names a product or mechanism, it hasn't actually answered the
+  question and needs to be re-asked.
+- Step 5's TRL and IP questions are meant to stay at plain-language,
+  general level ("idea → PoC → prototype…"; "has this been protected, in
+  general terms?") — pushing for a detailed legal description of IP status
+  or a precise TRL number contradicts the skill's own "partial answer is
+  enough" principle and can make a client stall entirely.
+- Step 4's market figures are explicitly optional ("an impression is a fine
+  starting point too") — treating a vague answer like "probably a big
+  market" as insufficient and blocking progress until a number appears
+  defeats the purpose of an intake stage that exists to work with partial
+  information.
+- This skill only collects structured input; it does not itself judge
+  whether the opportunity is viable. Slipping viability judgments ("this
+  doesn't sound big enough") into the elicitation questions can bias what
+  the client is willing to disclose — that judgment belongs to
+  `opportunity-value-assessment`, not here.
+
 ## What this skill does NOT do
 
 - Doesn't require the client to have a finished business plan — collects

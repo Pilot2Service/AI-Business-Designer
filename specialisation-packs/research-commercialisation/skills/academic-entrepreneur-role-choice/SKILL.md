@@ -44,6 +44,29 @@ Academic Entrepreneur's Path" (pp. 59-63).
    before publication, manage conflicts of interest transparently (e.g. an
    objective third party runs the clinical trial for your own invention).
 
+## Gotchas
+
+- The c. 20%/year consulting-time figure is a policy ceiling, not a time
+  budget for entrepreneurship — the Method explicitly warns that
+  entrepreneurship "often exceeds this in practice," so planning around the
+  20% number as if it were sufficient sets up burnout, not a red flag to
+  avoid it.
+- Picking the advisor/shareholder model (b) without formalising lab space,
+  student work, and IP use through agreements (step 5) leaves the exact
+  ambiguity this skill is meant to prevent — the risk isn't in which model
+  you choose, it's in skipping step 5 after choosing it.
+- Patent-before-publication timing (step 7) can be violated unintentionally:
+  a conference abstract, poster, or casual talk can count as public
+  disclosure and kill patentability before the TTO conversation even
+  starts.
+- The consultant/freelancer route (step 6) is easy to overlook if you
+  default to "spin-out means forming a company" — check first whether the
+  commercial value is really a piece of IP or just your expertise.
+- This skill doesn't make the personal career call or give a binding
+  employment-law reading — stopping at "here are the three models" without
+  routing tenure-clock and leave-of-absence questions to the department/TTO
+  or a specialist leaves the real risk (career return) unaddressed.
+
 ## What this skill does NOT do
 
 - Does not give a final employment-law or contractual interpretation — check

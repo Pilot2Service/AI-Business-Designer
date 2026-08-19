@@ -73,6 +73,33 @@ the AI to guess.
    build plan and the main structural choices with the agent before
    building begins in earnest.
 
+## Gotchas
+
+- Writing "Success criteria" as a qualitative description when the core
+  feature involves an LLM or agent is the most common way this PRD
+  format quietly fails — the method requires a small set of scored
+  input/expected-output examples instead (see
+  `ai-use-case-feasibility-and-poc-scoping/SKILL.md` step 3), and a
+  vague description leaves the build agent to guess what "working"
+  means.
+- "Scope boundaries / Out of scope" is easy to skip because it doesn't
+  feel like forward progress, but it's called out as being as important
+  as the feature list — leaving it out is exactly what turns the PRD
+  back into a wish list.
+- Core features described as technical implementation ("integrate
+  Stripe", "add a Postgres table") instead of an outcome the user
+  achieves ("the user can pay for a subscription") defeats the PRD's
+  purpose of stating WHAT and WHY and leaving HOW to the build phase.
+- Skipping step 1's input assembly (ICP/JTBD/Need Themes/AI wedge from
+  `customer-vision-to-jtbd`, or the chosen MVP direction from
+  `rice-scoring-and-mvp-synthesis`) and drafting the PRD straight from a
+  raw idea produces a PRD that isn't grounded in real customer
+  understanding, even if it looks complete.
+- Using this skill's output as the justification document for funding
+  or formal organizational approval is a category error — it's a
+  lightweight, week-timeline build spec, not a substitute for
+  `business-case-builder` or `requirements-and-scope-framing`.
+
 ## What this skill does NOT do
 
 - Does not include technical architecture decisions or specific

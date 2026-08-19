@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Run me through the AFCA self-assessment — I want to score myself across all ten competence areas.",
+    "should_trigger": true
+  },
+  {
+    "query": "I want a structured way to evaluate my own readiness as a founder before we spin out. Something with actual scoring, not just a chat.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can we do the 76-item founder competence assessment for me and my co-founder separately and compare?",
+    "should_trigger": true
+  },
+  {
+    "query": "score my venture-building and IP competence 1-7 across all the categories in that founder framework you use",
+    "should_trigger": true
+  },
+  {
+    "query": "We want to identify our weakest areas as a founding team so we know what to work on first, with a formal scoring tool.",
+    "should_trigger": true
+  },
+  {
+    "query": "Is there a formal self-assessment tool I can use to check my entrepreneurial skills before going all-in on this spinout?",
+    "should_trigger": true
+  },
+  {
+    "query": "Is our idea and team ready to begin commercialising, in general terms?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me design a founding team with the right skill mix and draft the founders' agreement.",
+    "should_trigger": false
+  },
+  {
+    "query": "What role should I take in the spin-out — founder or advisor?",
+    "should_trigger": false
+  },
+  {
+    "query": "Assess our organization's data literacy across the four quadrants.",
+    "should_trigger": false
+  },
+  {
+    "query": "What funding sources should we pursue first for this venture?",
+    "should_trigger": false
+  },
+  {
+    "query": "Build a roadmap of the five stages of our commercialisation journey.",
+    "should_trigger": false
+  }
+]

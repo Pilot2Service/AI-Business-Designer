@@ -39,6 +39,31 @@ Real Opportunities" (pp. 18-20).
    (enthusiastic industry partners, positive user feedback, clear market gaps)
    → move forward aggressively; weak signals → redirect or preserve resources.
 
+## Gotchas
+
+- Step 5 deliberately pairs TRL with freedom-to-operate — a high-TRL
+  prototype blocked by someone else's patent is not "ready," and this
+  skill doesn't perform that legal FTO analysis itself (see
+  `ip-disclosure-and-ownership-check` and TTO/IP counsel); treating step 5
+  as satisfied because TRL alone is high skips half the check.
+- Step 7's "strong signals → move forward aggressively" is easy to
+  over-read from a thin sample — one enthusiastic industry contact (see
+  `industry-partner-engagement`) is not the interview/survey/landing-page
+  evidence step 4 asks for, and shouldn't single-handedly upgrade the
+  signal strength.
+- Step 1 asks for the problem in one sentence, but researchers tend to
+  describe the technology's capability instead of the pain point — if the
+  sentence names a technique rather than a problem for a named "who," that
+  is the technology-push pattern this skill exists to catch.
+- This skill explicitly does not make the go/no-go call — a "weak signal"
+  result should route to redirecting or preserving resources per step 7,
+  not get silently escalated into `spinout-vs-licensing-pathway` without
+  first re-testing.
+- Step 6's "sweet spot" timing judgment is a point-in-time hypothesis (step
+  7), not a one-time verdict — an opportunity assessed as well-timed months
+  ago shouldn't be treated as still valid without re-scanning the
+  competitive landscape.
+
 ## What this skill does NOT do
 
 - Does not make the final go/no-go decision for you.

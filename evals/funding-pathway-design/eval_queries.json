@@ -1,0 +1,50 @@
+[
+  {
+    "query": "What order should we pursue funding in — grants, then angels, then VC? And how do we manage runway between rounds?",
+    "should_trigger": true
+  },
+  {
+    "query": "We got an EIC Pathfinder grant, what's next in the funding pathway before we go for Series A?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do we build a funding strategy that mixes non-dilutive grants with equity investment without diluting too early?",
+    "should_trigger": true
+  },
+  {
+    "query": "Give me a staged funding plan from seed money for a prototype through to Series A.",
+    "should_trigger": true
+  },
+  {
+    "query": "We're burning cash faster than expected — how should we think about runway and when to start the next round?",
+    "should_trigger": true
+  },
+  {
+    "query": "What non-dilutive funding programmes exist for a deep-tech spinout before we go to VCs?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you calculate the ROI and NPV for this investment with a sensitivity analysis?",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the total addressable market size for this opportunity?",
+    "should_trigger": false
+  },
+  {
+    "query": "Is our idea and team ready to start commercialising in the first place?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me draft the founders' agreement and equity split for my co-founders.",
+    "should_trigger": false
+  },
+  {
+    "query": "Should I go full-time on this or stay part-time in academia while raising money?",
+    "should_trigger": false
+  },
+  {
+    "query": "Give me the overall five-stage roadmap for our commercialisation journey.",
+    "should_trigger": false
+  }
+]

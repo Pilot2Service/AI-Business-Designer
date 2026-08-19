@@ -1,0 +1,50 @@
+[
+  {
+    "query": "We're two technical co-founders and need a business/commercial person — how do we think about team composition and what should go in a founders' agreement?",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me outline what a founders' agreement should cover — roles, equity, decision rights — before we incorporate.",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm going solo on this spinout — how do I compensate for not having a co-founder?",
+    "should_trigger": true
+  },
+  {
+    "query": "We want to use a vesting or dynamic equity model like Slicing Pie to keep the split fair over time — how do we set that up?",
+    "should_trigger": true
+  },
+  {
+    "query": "What should we agree with my co-founders, in terms of IP contribution and equity, before we sign anything?",
+    "should_trigger": true
+  },
+  {
+    "query": "Our team skews all-technical — what gaps do we need to fill and how do we structure the founding team agreement around that?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you draft the actual legally binding founders' agreement text for us to sign?",
+    "should_trigger": false
+  },
+  {
+    "query": "We need to negotiate terms for our first VC round's shareholders' agreement with new investors.",
+    "should_trigger": false
+  },
+  {
+    "query": "What role should I personally take — full founder or advisor — while I finish my PhD?",
+    "should_trigger": false
+  },
+  {
+    "query": "How should we score our team's competencies across the ten AFCA areas?",
+    "should_trigger": false
+  },
+  {
+    "query": "What funding pathway should we pursue first?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help us bring an industry partner into the project early.",
+    "should_trigger": false
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I have a new algorithm from my PhD — how do I figure out if there's an actual market for it before I invest years building a company?",
+    "should_trigger": true
+  },
+  {
+    "query": "is this just a cool tech thing or does anyone actually need it?",
+    "should_trigger": true
+  },
+  {
+    "query": "We've developed a novel battery chemistry in the lab. Colleagues are excited about the science, but I'm not sure anyone outside academia would pay for it. How do I test that?",
+    "should_trigger": true
+  },
+  {
+    "query": "market pull vs technology push assessment",
+    "should_trigger": true
+  },
+  {
+    "query": "Before I write a business plan, I want to make sure I'm not just falling in love with the technology — what should I actually check?",
+    "should_trigger": true
+  },
+  {
+    "query": "What is a structured method to evaluate whether a research output has genuine commercial demand prior to committing to a commercialisation pathway?",
+    "should_trigger": true
+  },
+  {
+    "query": "Should this go the spin-out route or the licensing route?",
+    "should_trigger": false
+  },
+  {
+    "query": "How big is the total addressable market for this product, in dollar terms?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write up our opportunity assessment as a polished 2-page brief for the dean?",
+    "should_trigger": false
+  },
+  {
+    "query": "Is our invention patentable, legally speaking?",
+    "should_trigger": false
+  },
+  {
+    "query": "Who should we bring in as an early industry advisor to validate this?",
+    "should_trigger": false
+  },
+  {
+    "query": "Should I just go ahead and make the go/no-go call myself for the board meeting tomorrow?",
+    "should_trigger": false
+  }
+]

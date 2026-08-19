@@ -103,6 +103,31 @@ the technology — a spec never starts from a technical description.
    `../ai-buildable-prd-writing/SKILL.md` if the solution direction is
    already clear and the ideation stage isn't needed.
 
+## Gotchas
+
+- Phrasing a JTBD around the product instead of the customer's progress
+  ("gets a dashboard", "uses feature X") fails the method's own test: a
+  JTBD should stay true even if the whole product changed into a
+  completely different solution — if it doesn't, it's not verb-driven
+  and solution-independent yet.
+- A need theme can score well overall and still not be the AI wedge —
+  step 7 requires it to SIMULTANEOUSLY hit high Need Depth, high
+  Frequency, high own Business Strength, high AI Advantage, AND weak
+  Market Coverage among competitors. A need with four strong criteria
+  but a market competitors already cover well is a Table Stake, not a
+  wedge.
+- Deep research output (step 8) is a research draft, not verified fact
+  — carrying its claims straight into the PRD without checking primary
+  sources contradicts the skill's own "does NOT do" caveat.
+- The 5-criteria NMB+AI-advantage scoring and AI wedge selection logic
+  (steps 5-7) come from an external workshop the owner has so far
+  applied to only one case — treat that part as less battle-tested than
+  the ICP/JTBD backbone, which rests on a multi-participant workshop.
+- Skipping the free-form vision step (step 1) and starting straight from
+  a structured ICP/JTBD template reintroduces a technology-first
+  framing — the whole point of step 1 is to get unstructured customer
+  thinking down before any structure is imposed.
+
 ## What this skill does NOT do
 
 - Does not replace real customer research or interviews — the AI

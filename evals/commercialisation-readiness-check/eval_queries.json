@@ -1,0 +1,50 @@
+[
+  {
+    "query": "We have a research finding but I'm not sure if we're actually ready to start trying to commercialize it — how do I know?",
+    "should_trigger": true
+  },
+  {
+    "query": "is our idea 'good enough' to start, or should we keep refining it in the lab first?",
+    "should_trigger": true
+  },
+  {
+    "query": "My team keeps debating whether we're disruptive or just incremental — and whether that means we're ready to move.",
+    "should_trigger": true
+  },
+  {
+    "query": "We're stuck between over-analysing forever and just jumping in blind. Help us figure out if we're actually ready to begin commercializing.",
+    "should_trigger": true
+  },
+  {
+    "query": "Assess whether our mission and team are solid enough to start commercialising this research, even without full technical readiness.",
+    "should_trigger": true
+  },
+  {
+    "query": "How do we know if we've done enough thinking to call ourselves 'ready' to start this journey?",
+    "should_trigger": true
+  },
+  {
+    "query": "Score my team across the 10 AFCA competence areas with the 76-item assessment.",
+    "should_trigger": false
+  },
+  {
+    "query": "Map out the five-stage roadmap for our whole commercialisation journey.",
+    "should_trigger": false
+  },
+  {
+    "query": "What's the size of the addressable market for this idea?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help us decide whether to license the IP or spin out a company.",
+    "should_trigger": false
+  },
+  {
+    "query": "We need a funding strategy — grants first or investors first?",
+    "should_trigger": false
+  },
+  {
+    "query": "Should I quit my academic post to run this full time?",
+    "should_trigger": false
+  }
+]

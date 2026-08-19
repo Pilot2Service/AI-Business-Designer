@@ -1,0 +1,50 @@
+[
+  {
+    "query": "I have a messy, unstructured idea of what my product should do — can you help me turn it into a real customer profile and figure out the actual jobs they're hiring us for?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please structure my business vision into an ICP, a JTBD analysis, and need themes, and score them for an AI wedge.",
+    "should_trigger": true
+  },
+  {
+    "query": "help me figure out my JTBD and ICP",
+    "should_trigger": true
+  },
+  {
+    "query": "i have a bunch of half-formed thoughts about my product and customer, can we turn this into something structured",
+    "should_trigger": true
+  },
+  {
+    "query": "I wrote three paragraphs of rambling notes about who I think my customer is and what they need. I want to turn that into a proper ICP, JTBD list, and figure out where AI actually gives me an edge versus competitors.",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me score my need themes on need depth, frequency, market coverage, business strength, and AI advantage to find my AI wedge?",
+    "should_trigger": true
+  },
+  {
+    "query": "Now that I know my AI wedge, can you help me write the PRD for the build agent?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you help me run actual customer interviews and collect real research data on this problem?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me size the market — what's the TAM, SAM, and SOM for this customer segment?",
+    "should_trigger": false
+  },
+  {
+    "query": "I already know my ICP and JTBD — now help me ideate three different solution directions to serve this need.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you map the stages of my customer's journey and figure out where AI adds value along it?",
+    "should_trigger": false
+  },
+  {
+    "query": "Help me assess whether this opportunity is worth pursuing, on an attractiveness and feasibility matrix.",
+    "should_trigger": false
+  }
+]

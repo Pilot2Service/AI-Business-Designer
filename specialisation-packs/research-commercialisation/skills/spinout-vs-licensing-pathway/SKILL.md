@@ -41,6 +41,32 @@ the owner's published commercialisation guide (owner, 2025). Chapters
 7. Involve the TTO in the assessment early — it can see whether the invention
    has the makings of a VC-fundable venture or is better suited to licensing.
 
+## Gotchas
+
+- Step 3 (the team's willingness to commit) is often answered
+  aspirationally under the pull of step 2's platform-technology logic — a
+  founder who says yes to "build a company for years" without that being
+  genuinely true sets up the costly pivot-to-licensing scenario step 6 is
+  meant to absorb, at a higher cost than choosing licensing upfront.
+- Step 4's industry dynamics (e.g. pharma increasingly acquiring proven
+  spin-outs rather than licensing raw IP) are sector-specific — applying
+  the pharma pattern to a software or deep-tech case without checking
+  `industry-specific-commercialisation-playbook` first can bias the choice
+  toward "spin-out then get acquired" in a sector where that trend doesn't
+  hold.
+- Step 2's "platform vs. narrow" framing is a heuristic, not a determinate
+  rule — a narrow-seeming improvement can still favour spin-out if steps
+  3-4 (commitment, industry dynamics) point that way; don't let step 2
+  decide alone before the later steps are actually answered.
+- This skill's output is explicitly not the legal/financial decision (see
+  "does NOT do") — presenting its pros/cons list to a TTO or investor as
+  the final answer, rather than as an input to that negotiation, skips the
+  step where actual licence terms and university policy get checked.
+- Step 7 (involve the TTO early) only works if it happens before a
+  pathway is informally committed to elsewhere — e.g. telling an industry
+  partner (per `industry-partner-engagement`) "we're spinning out" before
+  the TTO has weighed in removes its ability to correct course cheaply.
+
 ## What this skill does NOT do
 
 - Does not make the legal or financial decision for you.

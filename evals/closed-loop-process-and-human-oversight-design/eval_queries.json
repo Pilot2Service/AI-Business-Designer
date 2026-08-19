@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Is our order processing just running open-loop right now, or could we redesign it with feedback and adjustment so it improves itself?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please help me structure our customer support process as a closed loop and determine the appropriate human oversight tier.",
+    "should_trigger": true
+  },
+  {
+    "query": "should this process be human-in-the-loop or on-the-loop?",
+    "should_trigger": true
+  },
+  {
+    "query": "we built this AI agent for content review but idk how much a human should actually be watching it",
+    "should_trigger": true
+  },
+  {
+    "query": "We have a quality assurance workflow that currently just runs and nobody looks at the results afterward. I want to turn it into a proper closed loop and figure out whether a human needs to approve every case or just spot-check it.",
+    "should_trigger": true
+  },
+  {
+    "query": "Help me decide which of our processes are worth turning into agent-run closed loops, and start a registry of which agents do what.",
+    "should_trigger": true
+  },
+  {
+    "query": "Our closed loop has been running in production for months with real usage data — how do we calibrate the confidence-score routing and reduce false overrides?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you do a responsible-AI risk and compliance check on this automated decision process?",
+    "should_trigger": false
+  },
+  {
+    "query": "Map our business as a value chain of primary and support activities to see where margin comes from.",
+    "should_trigger": false
+  },
+  {
+    "query": "Is this specific AI tool technically capable of doing what we need for this workflow?",
+    "should_trigger": false
+  },
+  {
+    "query": "We found five opportunities where agentic AI could create new value — help us score and rank them.",
+    "should_trigger": false
+  },
+  {
+    "query": "Should we build this AI capability ourselves, buy a platform, or partner with a vendor?",
+    "should_trigger": false
+  }
+]

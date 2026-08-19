@@ -1,0 +1,50 @@
+[
+  {
+    "query": "We've collected the intake answers for this opportunity — can you place it in the attractiveness/feasibility matrix and score it on the seven angles?",
+    "should_trigger": true
+  },
+  {
+    "query": "Please conduct a commercialization assessment of this technology using the attractiveness x feasibility framework and the seven-lens scoring.",
+    "should_trigger": true
+  },
+  {
+    "query": "can you rate this idea on the 2x2 grid thing and give me the 7 scores?",
+    "should_trigger": true
+  },
+  {
+    "query": "Assess this opportunity — attractiveness, feasibility, seven lenses.",
+    "should_trigger": true
+  },
+  {
+    "query": "This spin-out candidate has a working prototype and some early customer interviews done. I need the full attractiveness/readiness placement plus the license-vs-startup direction before we take it to the review committee.",
+    "should_trigger": true
+  },
+  {
+    "query": "Where does this opportunity land on the attractiveness vs. readiness matrix, and what are the top strengths and weaknesses?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you value this company for an upcoming acquisition — what's a fair purchase price?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you calculate the ROI and NPV for this project under three different scenarios?",
+    "should_trigger": false
+  },
+  {
+    "query": "We need a TAM/SAM/SOM sizing for this market before we go further.",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you write the opportunity up into a 2-page brief now that it's been scored?",
+    "should_trigger": false
+  },
+  {
+    "query": "We haven't gathered any information about this idea yet — can you interview the founder to get the basics?",
+    "should_trigger": false
+  },
+  {
+    "query": "Can you map the five competitive forces in this industry for us?",
+    "should_trigger": false
+  }
+]

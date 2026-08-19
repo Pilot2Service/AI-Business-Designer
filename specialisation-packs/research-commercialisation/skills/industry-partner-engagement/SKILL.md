@@ -42,6 +42,31 @@ the owner's published commercialisation guide (owner, 2025). Chapter
 7. Remember: an early industry connection builds credibility with investors
    and creates a network of advocates even before market entry.
 
+## Gotchas
+
+- Step 4 (shared IP/patents with an industry partner) correlates with a
+  higher spin-out formation rate, but it also creates a shared-ownership
+  question this skill doesn't resolve — align on IP ownership via
+  `ip-disclosure-and-ownership-check` before committing a partner to shared
+  IP, not after.
+- Step 5 rolls "pilot customer," "distribution partner," and "investor"
+  into one relationship — treating a single industry contact as all three
+  at once can create an undisclosed conflict of interest; each role needs
+  to be made explicit, not assumed from general goodwill.
+- Step 1's advisory panel/focus group happens "as early as the research
+  stage," which can mean showing a prototype to outsiders before the formal
+  invention disclosure required by `ip-disclosure-and-ownership-check` —
+  use an NDA and confirm disclosure status first, or the feedback session
+  itself can jeopardize patentability.
+- This skill explicitly does not assess a partner's reliability or fit
+  (see "does NOT do") — one enthusiastic industry advisor should not be
+  read as market validation; that requires the broader testing in
+  `research-opportunity-recognition`.
+- Step 6 frames bringing in an interim CEO/board member as something to
+  "weigh," not a default move — doing it before the founding team has
+  settled roles can preempt decisions that belong in
+  `academic-entrepreneur-role-choice` and `founding-team-design-and-agreements`.
+
 ## What this skill does NOT do
 
 - Does not find or contact partners on your behalf.

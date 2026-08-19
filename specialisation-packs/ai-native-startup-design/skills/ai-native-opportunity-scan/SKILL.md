@@ -59,6 +59,33 @@ the next stages of design.
    `../customer-vision-to-jtbd/SKILL.md` and
    `../ai-buildable-prd-writing/SKILL.md`.
 
+## Gotchas
+
+- Running the discovery prompt without the AI thinking partner having
+  your actual business context loaded (pitch, business plan, customer
+  notes) produces generic "automate customer service with an AI
+  agent"-type findings that only look like real opportunities — the
+  method calls this out directly as the default failure mode.
+- Skipping step 4 (writing your own preliminary assessment before the
+  pressure-test prompt) silently defeats the point of that step: the
+  workshop's principle is to think for yourself first, not let the AI's
+  scoring become the only judgment in the room.
+- The five findings from the discovery prompt can end up being
+  faster/cheaper versions of existing work rather than genuinely
+  agentic/closed-loop opportunities unless prompt 1's requirement is
+  enforced — cross-check candidates against
+  `closed-loop-process-and-human-oversight-design/SKILL.md`'s open-loop
+  vs. closed-loop distinction before treating them as valid.
+- Treating the AI's 1-5 ranking and "prototype first" recommendation as
+  the answer rather than an input is the mistake the "does NOT do"
+  section warns about explicitly — the human still has to make the
+  final call.
+- This is a lightweight, single-founder prompt chain, not the
+  systematic portfolio process for an existing company's broader AI
+  initiatives — reach for `ai-opportunity-portfolio` instead when the
+  case is a running business with multiple candidate use cases, not a
+  pre-startup idea.
+
 ## What this skill does NOT do
 
 - Does not make the choice for you — the scoring and ranking are an AI

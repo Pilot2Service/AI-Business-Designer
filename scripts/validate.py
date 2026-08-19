@@ -45,6 +45,27 @@ def parse_frontmatter_keys(text, path):
     return keys
 
 
+# Regression guard: substrings that flag a low-effort, boilerplate description.
+# Added 2026-08-19 after an agentskills.io audit found 24 skills using a generic
+# "Use when you need <pack>-level support for a comparable task" tail that named
+# the pack instead of the skill's actual method and trigger situation — the exact
+# antipattern agentskills.io's own spec warns against ("Poor example: Helps with
+# PDFs."). This list is deliberately narrow (known-bad phrases only) rather than a
+# broad heuristic, to avoid false positives on legitimately concise descriptions.
+BANNED_DESCRIPTION_PATTERNS = [
+    "level support for a comparable task",
+    "helps with",
+]
+
+
+def _extract_description(text):
+    m = re.match(r"^---\n(.*?)\n---\n", text, re.DOTALL)
+    if not m:
+        return None
+    dm = re.search(r'^description:\s*"?(.*?)"?\s*$', m.group(1), re.MULTILINE)
+    return dm.group(1) if dm else None
+
+
 def _check_skill_frontmatter(name, skill_id, skill_md):
     if not os.path.exists(skill_md):
         errors.append(f"pack '{name}': {skill_id}/ has no SKILL.md")
@@ -58,6 +79,18 @@ def _check_skill_frontmatter(name, skill_id, skill_md):
         errors.append(f"{skill_md}: forbidden frontmatter keys {extra} (only name+description allowed)")
     if missing:
         errors.append(f"{skill_md}: missing required frontmatter keys {missing}")
+        return
+    description = _extract_description(text)
+    if description:
+        desc_lower = description.lower()
+        for pattern in BANNED_DESCRIPTION_PATTERNS:
+            if pattern in desc_lower:
+                errors.append(
+                    f"{skill_md}: description contains a generic/boilerplate phrase "
+                    f"('{pattern}') — rewrite to describe what the skill does and the "
+                    f"user's actual trigger situation (see agentskills.io's "
+                    f"description-optimization guide), not a pack-name filler."
+                )
 
 
 AGENT_ALLOWED_KEYS = ("name", "description", "tools", "model")

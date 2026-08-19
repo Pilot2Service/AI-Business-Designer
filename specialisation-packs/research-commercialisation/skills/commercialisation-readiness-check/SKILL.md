@@ -42,6 +42,27 @@ Ready to Begin?" (pp. 63-67).
    ready to learn, and the mission feels real — you're already ready enough
    to begin. You don't need complete certainty, you need momentum.
 
+## Gotchas
+
+- The "is the idea good enough" test (step 2) is explicitly NOT a proxy for
+  "will the idea succeed" — it only tests learning velocity and small-scale
+  friction reduction. Treating a pass on this test as validation of idea
+  quality contradicts the skill's own point that idea quality is "revealed
+  only by the market test."
+- The four readiness dimensions (technical, commercial, financial,
+  managerial) are stated to NOT be prerequisites — waiting until all four
+  are strong before starting inverts the Method, which says they "build up
+  along the way."
+- Misclassifying the innovation's type in step 3 (disruptive vs. sustaining
+  vs. incremental) sets the wrong funding pace and expectations downstream
+  — e.g. treating an incremental refinement as disruptive invites
+  premature large-scale funding pursuit (see `funding-pathway-design`).
+- This skill deliberately withholds a go/no-go verdict (see "What this
+  skill does NOT do"). Reading its output as a stop/go decision rather
+  than a structured self-assessment misuses it — the actual criterion
+  ("genuine problem + team ready to learn + mission feels real") is a
+  judgment call the skill only helps structure, not make.
+
 ## What this skill does NOT do
 
 - Does not give a final go/no-go recommendation for you — it structures the

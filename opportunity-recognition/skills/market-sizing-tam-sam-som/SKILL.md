@@ -70,6 +70,25 @@ conversation can actually stand on.
    re-derives the number using a second method and reports a confidence
    level.
 
+## Available scripts
+
+- **`scripts/market_sizing.py`** -- computes TAM from top-down and/or
+  bottom-up inputs (Method step 1), flags a divergence when the two methods
+  disagree by more than a configurable ratio (default 3x), then narrows to
+  SAM and SOM using explicitly named filters/constraints (steps 2-3) --
+  from EACH available TAM basis, so you see a range instead of one
+  arbitrarily-picked number. Run it once you have at least one TAM input;
+  supplying both top-down and bottom-up is strongly preferred, since the
+  cross-check is the point.
+
+  ```bash
+  python3 scripts/market_sizing.py --example > input.json   # see the input shape
+  python3 scripts/market_sizing.py input.json
+  ```
+
+  Stdlib only (json, argparse) -- no install needed. Warns (not errors) if
+  a divergence is detected; errors only on missing/invalid required fields.
+
 ## What this skill does NOT do
 
 - Doesn't make the final decision for you — it produces a structured draft

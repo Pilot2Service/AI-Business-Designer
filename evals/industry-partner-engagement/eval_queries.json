@@ -1,0 +1,50 @@
+[
+  {
+    "query": "How do I get industry partners involved early in my spin-out, before the product is even fully built?",
+    "should_trigger": true
+  },
+  {
+    "query": "should i be talking to companies in my industry now or wait til i have a real product?",
+    "should_trigger": true
+  },
+  {
+    "query": "I'm a materials science professor with a promising catalyst technology. I keep hearing that investors want to see industry validation before I even file for funding — how do I actually go about bringing industry players in at this early stage?",
+    "should_trigger": true
+  },
+  {
+    "query": "how to build an industry advisory panel for my research prototype",
+    "should_trigger": true
+  },
+  {
+    "query": "I want potential customers to help shape my product before I've built it — what's the right way to structure that involvement?",
+    "should_trigger": true
+  },
+  {
+    "query": "What is the recommended approach for engaging industry stakeholders during the pre-commercialisation phase of a university spin-out?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me draft an NDA for sharing prototype details with a company that wants to test it?",
+    "should_trigger": false
+  },
+  {
+    "query": "Should I license my technology to an existing industry player instead of starting a company?",
+    "should_trigger": false
+  },
+  {
+    "query": "Do you think this specific industrial partner is trustworthy enough to work with?",
+    "should_trigger": false
+  },
+  {
+    "query": "How do I find companies in the semiconductor industry who might want to test my prototype?",
+    "should_trigger": false
+  },
+  {
+    "query": "What equity split should I negotiate with our TTO before agreeing to bring in an industry co-investor?",
+    "should_trigger": false
+  },
+  {
+    "query": "Which commercialisation approach works best for a life sciences invention vs a software one?",
+    "should_trigger": false
+  }
+]

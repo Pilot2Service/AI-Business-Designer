@@ -1,0 +1,14 @@
+[
+  {"query": "Can you map our product against our 4 main competitors on a strategy canvas and tell me where we're just doing the same thing as everyone else?", "should_trigger": true},
+  {"query": "I want a value curve comparing us to competitors so I can figure out what to eliminate or reduce.", "should_trigger": true},
+  {"query": "help me apply the ERRC grid (blue ocean) to my saas product vs our 3 biggest rivals", "should_trigger": true},
+  {"query": "We keep competing on price and features exactly like everyone else in our industry. Help me see that visually and find a way to break out of it.", "should_trigger": true},
+  {"query": "Build a strategy canvas for the online grocery delivery industry, scoring us and 3 competitors 0-2 on the usual comparison factors.", "should_trigger": true},
+  {"query": "i have a spreadsheet of how we and 3 competitors score on 8 factors, can you turn it into a value curve chart", "should_trigger": true},
+  {"query": "Do a full Porter's Five Forces analysis of our industry before we decide whether to enter.", "should_trigger": false},
+  {"query": "Score these 12 AI opportunities on a 2x2 impact/feasibility matrix and tell me the quick wins.", "should_trigger": false},
+  {"query": "Which of these three strategic options should we pick, based on impact, effort, and risk?", "should_trigger": false},
+  {"query": "Map our stakeholders on a power/interest grid for this change program.", "should_trigger": false},
+  {"query": "What's our TAM/SAM/SOM for this new product line?", "should_trigger": false},
+  {"query": "Draw a value chain diagram of our primary and support activities so we can see where the margin comes from.", "should_trigger": false}
+]

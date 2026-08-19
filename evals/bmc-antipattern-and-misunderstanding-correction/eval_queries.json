@@ -1,0 +1,50 @@
+[
+  {
+    "query": "Our team's Business Model Canvas session feels stuck — every block is packed with options and nobody wants to cut anything down. What's going wrong?",
+    "should_trigger": true
+  },
+  {
+    "query": "Can you help me spot BMC facilitation antipatterns in how my team is running this workshop?",
+    "should_trigger": true
+  },
+  {
+    "query": "The client keeps saying 'once we finish this canvas we'll have our whole business plan' — how do I correct that expectation?",
+    "should_trigger": true
+  },
+  {
+    "query": "We've been polishing one canvas for three weeks and nobody wants to start a second variant. Is that a known mistake?",
+    "should_trigger": true
+  },
+  {
+    "query": "give me the common client misunderstandings about what a business model canvas actually does",
+    "should_trigger": true
+  },
+  {
+    "query": "My client treats the canvas like a final strategy document they'll hand to investors — what's the corrective move here?",
+    "should_trigger": true
+  },
+  {
+    "query": "How do I actually build a second and third canvas variant from our current one?",
+    "should_trigger": false
+  },
+  {
+    "query": "What innovation patterns should we apply to our subscription-based SaaS business model?",
+    "should_trigger": false
+  },
+  {
+    "query": "Read our finished canvas and tell me if it's internally consistent — check the Hook Rule and evidence grade.",
+    "should_trigger": false
+  },
+  {
+    "query": "We're done innovating the business model — what tool should we switch to next for financial planning?",
+    "should_trigger": false
+  },
+  {
+    "query": "What are common antipatterns in agile sprint retrospectives?",
+    "should_trigger": false
+  },
+  {
+    "query": "My client doesn't understand our pricing tiers — can you help me explain the SaaS pricing model to them?",
+    "should_trigger": false
+  }
+]

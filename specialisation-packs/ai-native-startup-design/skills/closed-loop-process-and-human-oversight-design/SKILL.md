@@ -69,6 +69,34 @@ in-the-loop/on-the-loop/outside-the-loop model.
    is routed to the right place. Think about orchestration: how the
    separate loops coordinate into a bigger, coherent whole.
 
+## Gotchas
+
+- Calling a process "closed loop" just because it has some occasional
+  feedback is not the same as it having explicit Feedback and
+  Adjustment stages that actually change the next cycle's behavior —
+  step 2 notes most companies run as open loops where learned
+  information leaks away each cycle, and it's easy to mistake ad hoc
+  feedback for a real loop.
+- Defaulting to human-outside-the-loop because it's fastest, without the
+  loop having actually proven reliable, contradicts the method: that
+  tier is suited only to a trusted loop where the cost of error is
+  already known to be low, not to a newly designed one.
+- Forcing a process into the closed-loop framework when it's mostly
+  quiet human judgment without a clear goal, machine-readable inputs,
+  well-defined tools, and a measurable success signal is exactly what
+  step 6 warns against — document it manually first instead of
+  automating it prematurely.
+- This skill is the initial design choice, not the ongoing governance
+  layer — once a loop is live with real usage data to calibrate
+  against, the deeper model (confidence-score routing, override-rate
+  diagnostics) lives in
+  `../../../../human-ai-collaboration-design/skills/hitl-maturity-and-confidence-routing/SKILL.md`,
+  not here.
+- The goal is removing the *bottleneck* of human judgment only where
+  it isn't genuinely needed — treating "closed loop" as a mandate to
+  automate everything and remove judgment entirely is the opposite of
+  what the method intends.
+
 ## What this skill does NOT do
 
 - Does not recommend automating everything — the main message is the
