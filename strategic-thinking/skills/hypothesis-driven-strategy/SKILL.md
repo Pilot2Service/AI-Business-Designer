@@ -1,6 +1,6 @@
 ---
 name: hypothesis-driven-strategy
-description: "Structures a strategic problem with MECE and an issue tree, then tests the hypotheses against data. Use when you need strategic-thinking-level support for a comparable task."
+description: "Structures a strategic question into an initial, provably-wrong hypothesis and a MECE issue tree, then prioritizes testing the branch most likely to kill the hypothesis first. Use when a strategic question needs a defensible, decision-ready point of view quickly, instead of either guessing an answer or trying to analyze everything before forming one."
 ---
 
 # Hypothesis-Driven Strategy

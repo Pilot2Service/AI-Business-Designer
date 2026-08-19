@@ -1,6 +1,6 @@
 ---
 name: risk-matrix-and-mitigation
-description: "Identifies and scores risks (probability × impact) and designs mitigations. Use when you need business-case-and-analysis-level support for a comparable task."
+description: "Identifies risks systematically across project phases, stakeholders, and dependencies, scores each on probability x impact, and assigns a PMI response strategy (avoid, mitigate, transfer, accept) with an owner and trigger condition. Use when a project or initiative needs a real risk register and mitigation plan instead of an informal list of worries."
 ---
 
 # Risk Matrix & Mitigation

@@ -1,6 +1,6 @@
 ---
 name: market-and-signal-scanning
-description: "Systematic environmental scanning (market, technology, regulation, competition) to identify opportunities. Use when you need opportunity-recognition-level support for a comparable task."
+description: "Systematically scans the market, technology, regulatory, and competitive environment across the six PESTLE categories to surface disequilibria — mismatches between what's supplied and what's genuinely wanted — before they're obvious to everyone else. Use when looking for early opportunity signals, not when validating an idea you've already committed to."
 ---
 
 # Market & Signal Scanning

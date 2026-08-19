@@ -1,6 +1,6 @@
 ---
 name: assumption-and-evidence-audit
-description: "Tests assumptions and identifies evidence gaps before a recommendation is locked in. Use when you need business-case-and-analysis-level support for a comparable task."
+description: "Extracts every load-bearing assumption behind a recommendation, traces each to its source, grades the strength of the evidence, and ranks the gaps by leverage times weakness. Use before a business case, analysis, or recommendation is locked in, to see which unverified claims could actually change the conclusion if they turned out false."
 ---
 
 # Assumption & Evidence Audit

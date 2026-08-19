@@ -1,6 +1,6 @@
 ---
 name: responsible-ai-and-governance-check
-description: "Checks the regulatory, risk, and ethics dimensions of an AI initiative. Deeper EU AI Act compliance analysis requires separate regulatory expertise. Use when you need ai strategy & governance-level support for a comparable task."
+description: "Classifies an AI initiative's EU AI Act risk tier and surfaces the regulatory, data-governance, and ethics obligations that follow from it, as a first-pass structuring check rather than a legal opinion. Use before an AI initiative goes to approval, especially one touching employment, credit, biometric, or other high-risk decisions about individuals."
 ---
 
 # Responsible AI & Governance Check

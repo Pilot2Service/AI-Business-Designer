@@ -1,6 +1,6 @@
 ---
 name: opportunity-evaluation-and-judgment
-description: "Structurally assesses the viability of an identified opportunity before committing resources. Use when you need opportunity-recognition-level support for a comparable task."
+description: "Restates an identified opportunity as a falsifiable claim and structurally evaluates it against fixed criteria — market viability, feasibility, resource fit, strategic fit, risk — before resources are committed. Use once an opportunity has already been noticed and needs a deliberate go/no-go judgment, not another round of scanning for more ideas."
 ---
 
 # Opportunity Evaluation & Judgment

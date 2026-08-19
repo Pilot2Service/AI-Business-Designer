@@ -1,6 +1,6 @@
 ---
 name: strategic-intent-framing
-description: "Frames a clear strategic intent that focuses energy and cuts out noise. Use when you need strategic-thinking-level support for a comparable task."
+description: "Frames a strategic intent as a single, contestable claim about the leadership position an organization wants to reach — deliberately ambitious relative to current resources — with a concrete win criterion and capability milestones. Use when a mission statement is too vague to rule anything out and a full plan would be premature."
 ---
 
 # Strategic Intent Framing

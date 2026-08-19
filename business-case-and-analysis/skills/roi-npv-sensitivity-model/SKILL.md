@@ -1,6 +1,6 @@
 ---
 name: roi-npv-sensitivity-model
-description: "Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios. Use when you need business-case-and-analysis-level support for a comparable task."
+description: "Calculates ROI, NPV, IRR, and payback period against a credible do-nothing baseline, then runs a one-at-a-time sensitivity analysis to rank which two or three assumptions actually drive the result, plus upside/downside scenarios. Use when a business case's financial numbers need to survive scrutiny, not just look attractive under the base case."
 ---
 
 # ROI / NPV Sensitivity Model

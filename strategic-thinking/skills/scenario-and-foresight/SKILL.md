@@ -1,6 +1,6 @@
 ---
 name: scenario-and-foresight
-description: "Builds alternative future scenarios and stress-tests a strategy against them. Use when you need strategic-thinking-level support for a comparable task."
+description: "Builds a 2x2 grid of internally consistent future scenarios from the two most critical uncertainties facing a strategy, then stress-tests the strategy against all four to surface no-regret moves and early-warning indicators. Use when a strategy needs to survive more than one plausible future, not just the one everyone is already assuming."
 ---
 
 # Scenario & Foresight Thinking

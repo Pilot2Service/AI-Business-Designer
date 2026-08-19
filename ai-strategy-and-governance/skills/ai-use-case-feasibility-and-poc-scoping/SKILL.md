@@ -1,6 +1,6 @@
 ---
 name: ai-use-case-feasibility-and-poc-scoping
-description: "Determines the technical boundary conditions of an AI use case and scopes the PoC phase. Use when you need ai strategy & governance-level support for a comparable task."
+description: "Scopes an AI proof-of-concept around a single falsifiable hypothesis, sets a quantitative success bar and kill criterion against a named human baseline, and builds a golden test set before development starts. Use when a PoC needs to answer a real feasibility question rather than produce an impressive demo that proves nothing about production readiness."
 ---
 
 # AI Use Case Feasibility & PoC Scoping

@@ -1,6 +1,6 @@
 ---
 name: requirements-and-scope-framing
-description: "Frames the problem and requirements into a clear, testable whole. Use when you need business-case-and-analysis-level support for a comparable task."
+description: "Classifies requirements using BABOK's four types (business, stakeholder, functional, non-functional, transition), checks each against the IEEE 830 quality bar (correct, unambiguous, verifiable), and separates in-scope from explicitly out-of-scope items. Use before requirements are locked in, when scope keeps drifting or vague requirements like \"the system should be fast\" are passing unchallenged."
 ---
 
 # Requirements & Scope Framing

@@ -1,6 +1,6 @@
 ---
 name: systems-mapping
-description: "Maps the full value-creating system and its dependencies before you design a solution. Use when you need strategic-thinking-level support for a comparable task."
+description: "Maps the full value-creating system around a focal activity using the Value Net (customers, suppliers, competitors, complementors) and the flows of money, product, information, and trust between them, to surface load-bearing dependencies. Use before designing a solution that implicitly assumes only \"the customer\" and \"us\" exist in the system."
 ---
 
 # Systems Mapping

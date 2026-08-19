@@ -1,6 +1,6 @@
 ---
 name: stakeholder-analysis-and-raci
-description: "Maps stakeholders on a power/interest matrix and assigns responsibilities with RACI. Use when you need business-case-and-analysis-level support for a comparable task."
+description: "Maps every stakeholder or stakeholder group on a power/interest grid, assigns RACI roles per activity with exactly one Accountable each, and cross-checks the map against the RACI for gaps. Use when an initiative needs clarity on who to engage, how intensively, and who is actually accountable for each deliverable."
 ---
 
 # Stakeholder Analysis & RACI

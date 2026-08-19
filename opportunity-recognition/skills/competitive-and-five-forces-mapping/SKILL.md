@@ -1,6 +1,6 @@
 ---
 name: competitive-and-five-forces-mapping
-description: "Maps the competitive dynamics and structural forces of an industry. Use when you need opportunity-recognition-level support for a comparable task."
+description: "Maps an industry's competitive dynamics using Porter's Five Forces — rivalry, threat of new entrants, substitutes, supplier power, buyer power — to explain why the industry is structurally attractive or not, not just who the named competitors are. Use when assessing whether a market or industry segment is worth entering, defending, or exiting."
 ---
 
 # Competitive & Five Forces Mapping

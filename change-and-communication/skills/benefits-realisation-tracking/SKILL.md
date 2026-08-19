@@ -1,6 +1,6 @@
 ---
 name: benefits-realisation-tracking
-description: "Tracks and reports on the realisation of promised benefits after implementation. Use when you need change & communication-level support for a comparable task."
+description: "Tracks promised benefits after go-live using a Benefits Dependency Network that traces each benefit back to the business and enabling changes required to deliver it, with a named owner, baseline, and target per benefit. Use once a project has moved past approval and the question shifts from \"was it approved\" to \"is the promised value actually landing\"."
 ---
 
 # Benefits Realisation Tracking

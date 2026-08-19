@@ -1,6 +1,6 @@
 ---
 name: strategic-options-evaluation
-description: "Compares strategic options in a structured way (impact/effort, risk, resources) to support a decision. Use when you need strategic-thinking-level support for a comparable task."
+description: "Compares strategic options, including \"do nothing\", on a fixed set of dimensions (impact, effort, risk, reversibility, resource fit), scored independently per option and plotted on at least two views rather than collapsed into one number. Use when a decision needs a legible trade-off comparison instead of the most persuasively argued option winning by default."
 ---
 
 # Strategic Options Evaluation

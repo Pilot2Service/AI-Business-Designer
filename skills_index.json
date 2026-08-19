@@ -120,7 +120,7 @@
       "id": "ai-native-business-model-canvas",
       "pack": "ai-strategy-and-governance",
       "title": "Ai Native Business Model Canvas",
-      "description": "Designs the transition from an AI-enhanced business to an AI-native business model using an extended, AI-specific Business Model Canvas. Use when you need ai strategy & governance-level support for a comparable task.",
+      "description": "Designs the shift from an AI-enhanced business (AI bolted onto existing operations) to an AI-native one, using an extended Business Model Canvas with four AI-specific lenses: value proposition, data moat, human-AI interaction model, and cost of compute vs. revenue. Use when deciding whether AI is an add-on to the current business model or whether the model itself needs to be rebuilt around AI.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [],
@@ -167,7 +167,7 @@
       "id": "ai-use-case-feasibility-and-poc-scoping",
       "pack": "ai-strategy-and-governance",
       "title": "AI Use Case Feasibility & PoC Scoping",
-      "description": "Determines the technical boundary conditions of an AI use case and scopes the PoC phase. Use when you need ai strategy & governance-level support for a comparable task.",
+      "description": "Scopes an AI proof-of-concept around a single falsifiable hypothesis, sets a quantitative success bar and kill criterion against a named human baseline, and builds a golden test set before development starts. Use when a PoC needs to answer a real feasibility question rather than produce an impressive demo that proves nothing about production readiness.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -180,7 +180,7 @@
       "id": "build-vs-buy-vs-partner-ai",
       "pack": "ai-strategy-and-governance",
       "title": "Build vs. Buy vs. Partner (AI)",
-      "description": "Structures the decision to build in-house, buy off a platform, or partner on an AI solution. Use when you need ai strategy & governance-level support for a comparable task.",
+      "description": "Structures the build/buy/partner decision for an AI capability, including hybrid options, scored on differentiation value, time to value, and total cost of ownership (inference, retraining, ML-ops talent, not just license cost). Use when an AI capability decision needs a defensible comparison instead of defaulting to \\\"build\\\" or \\\"buy\\\" by habit.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -215,7 +215,7 @@
       "id": "responsible-ai-and-governance-check",
       "pack": "ai-strategy-and-governance",
       "title": "Responsible AI & Governance Check",
-      "description": "Checks the regulatory, risk, and ethics dimensions of an AI initiative. Deeper EU AI Act compliance analysis requires separate regulatory expertise. Use when you need ai strategy & governance-level support for a comparable task.",
+      "description": "Classifies an AI initiative's EU AI Act risk tier and surfaces the regulatory, data-governance, and ethics obligations that follow from it, as a first-pass structuring check rather than a legal opinion. Use before an AI initiative goes to approval, especially one touching employment, credit, biometric, or other high-risk decisions about individuals.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -262,7 +262,7 @@
       "id": "assumption-and-evidence-audit",
       "pack": "business-case-and-analysis",
       "title": "Assumption & Evidence Audit",
-      "description": "Tests assumptions and identifies evidence gaps before a recommendation is locked in. Use when you need business-case-and-analysis-level support for a comparable task.",
+      "description": "Extracts every load-bearing assumption behind a recommendation, traces each to its source, grades the strength of the evidence, and ranks the gaps by leverage times weakness. Use before a business case, analysis, or recommendation is locked in, to see which unverified claims could actually change the conclusion if they turned out false.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -276,7 +276,7 @@
       "id": "business-case-builder",
       "pack": "business-case-and-analysis",
       "title": "Business Case Builder",
-      "description": "Builds a full business case: problem, solution, economics (ROI/NPV/IRR), risks, timeline, stakeholders, recommendation. Use when you need business-case-and-analysis-level support for a comparable task.",
+      "description": "Builds a full business case — problem, options considered (including \\\"do nothing\\\"), economics (ROI/NPV/IRR), risk, stakeholders, milestone-level timeline, and recommendation — following BABOK/PMI structure. Use when a proposal needs to reach a decision-maker as a structured business case, not a pitch with only one option on the table.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -291,7 +291,7 @@
       "id": "requirements-and-scope-framing",
       "pack": "business-case-and-analysis",
       "title": "Requirements & Scope Framing",
-      "description": "Frames the problem and requirements into a clear, testable whole. Use when you need business-case-and-analysis-level support for a comparable task.",
+      "description": "Classifies requirements using BABOK's four types (business, stakeholder, functional, non-functional, transition), checks each against the IEEE 830 quality bar (correct, unambiguous, verifiable), and separates in-scope from explicitly out-of-scope items. Use before requirements are locked in, when scope keeps drifting or vague requirements like \\\"the system should be fast\\\" are passing unchallenged.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -305,7 +305,7 @@
       "id": "risk-matrix-and-mitigation",
       "pack": "business-case-and-analysis",
       "title": "Risk Matrix & Mitigation",
-      "description": "Identifies and scores risks (probability × impact) and designs mitigations. Use when you need business-case-and-analysis-level support for a comparable task.",
+      "description": "Identifies risks systematically across project phases, stakeholders, and dependencies, scores each on probability x impact, and assigns a PMI response strategy (avoid, mitigate, transfer, accept) with an owner and trigger condition. Use when a project or initiative needs a real risk register and mitigation plan instead of an informal list of worries.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -319,7 +319,7 @@
       "id": "roi-npv-sensitivity-model",
       "pack": "business-case-and-analysis",
       "title": "ROI / NPV Sensitivity Model",
-      "description": "Calculates ROI, NPV, and IRR plus a sensitivity analysis across scenarios. Use when you need business-case-and-analysis-level support for a comparable task.",
+      "description": "Calculates ROI, NPV, IRR, and payback period against a credible do-nothing baseline, then runs a one-at-a-time sensitivity analysis to rank which two or three assumptions actually drive the result, plus upside/downside scenarios. Use when a business case's financial numbers need to survive scrutiny, not just look attractive under the base case.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -333,7 +333,7 @@
       "id": "stakeholder-analysis-and-raci",
       "pack": "business-case-and-analysis",
       "title": "Stakeholder Analysis & RACI",
-      "description": "Maps stakeholders on a power/interest matrix and assigns responsibilities with RACI. Use when you need business-case-and-analysis-level support for a comparable task.",
+      "description": "Maps every stakeholder or stakeholder group on a power/interest grid, assigns RACI roles per activity with exactly one Accountable each, and cross-checks the map against the RACI for gaps. Use when an initiative needs clarity on who to engage, how intensively, and who is actually accountable for each deliverable.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -416,7 +416,7 @@
       "id": "benefits-realisation-tracking",
       "pack": "change-and-communication",
       "title": "Benefits Realisation Tracking",
-      "description": "Tracks and reports on the realisation of promised benefits after implementation. Use when you need change & communication-level support for a comparable task.",
+      "description": "Tracks promised benefits after go-live using a Benefits Dependency Network that traces each benefit back to the business and enabling changes required to deliver it, with a named owner, baseline, and target per benefit. Use once a project has moved past approval and the question shifts from \\\"was it approved\\\" to \\\"is the promised value actually landing\\\".",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -429,7 +429,7 @@
       "id": "executive-narrative-and-storyline",
       "pack": "change-and-communication",
       "title": "Executive Narrative & Storyline",
-      "description": "Turns analysis into a narrative and storyline that serves executive decision-making. Use when you need change & communication-level support for a comparable task.",
+      "description": "Turns a finished analysis into an executive-ready storyline using the Pyramid Principle: governing thought stated first, an SCQA opening, and MECE supporting arguments each traced down to specific evidence. Use when the analysis is done but still needs to become a narrative someone can act on, instead of a slide deck assembled section by section.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -443,7 +443,7 @@
       "id": "stakeholder-communication-plan",
       "pack": "change-and-communication",
       "title": "Stakeholder Communication Plan",
-      "description": "Builds a communication plan for different stakeholders during a change. Use when you need change & communication-level support for a comparable task.",
+      "description": "Builds a stakeholder communication plan by segmenting audiences on the power/interest grid and mapping each segment's position on the ADKAR change curve, defining objective, message, channel, cadence, and owner per segment. Use when a change effort needs more than a generic \\\"keep stakeholders informed\\\" line and different groups actually need different messages.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -478,7 +478,7 @@
       "id": "workshop-and-facilitation-design",
       "pack": "change-and-communication",
       "title": "Workshop & Facilitation Design",
-      "description": "Designs the structure of a cross-functional workshop or design-thinking session. Use when you need change & communication-level support for a comparable task.",
+      "description": "Designs the structure of a cross-functional workshop or design-thinking session using the Double Diamond and the Diamond of Participation, with explicit divergent, groan-zone, and convergent phases and a stated decision rule. Use when planning a workshop that has to both generate ideas and actually reach a decision, not just produce \\\"great discussion\\\".",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -623,7 +623,7 @@
       "id": "competitive-and-five-forces-mapping",
       "pack": "opportunity-recognition",
       "title": "Competitive & Five Forces Mapping",
-      "description": "Maps the competitive dynamics and structural forces of an industry. Use when you need opportunity-recognition-level support for a comparable task.",
+      "description": "Maps an industry's competitive dynamics using Porter's Five Forces — rivalry, threat of new entrants, substitutes, supplier power, buyer power — to explain why the industry is structurally attractive or not, not just who the named competitors are. Use when assessing whether a market or industry segment is worth entering, defending, or exiting.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -636,7 +636,7 @@
       "id": "market-and-signal-scanning",
       "pack": "opportunity-recognition",
       "title": "Market & Signal Scanning",
-      "description": "Systematic environmental scanning (market, technology, regulation, competition) to identify opportunities. Use when you need opportunity-recognition-level support for a comparable task.",
+      "description": "Systematically scans the market, technology, regulatory, and competitive environment across the six PESTLE categories to surface disequilibria — mismatches between what's supplied and what's genuinely wanted — before they're obvious to everyone else. Use when looking for early opportunity signals, not when validating an idea you've already committed to.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -650,7 +650,7 @@
       "id": "market-sizing-tam-sam-som",
       "pack": "opportunity-recognition",
       "title": "Market Sizing (TAM/SAM/SOM)",
-      "description": "Quantitatively sizes the market and the genuinely reachable share of it. Use when you need opportunity-recognition-level support for a comparable task.",
+      "description": "Sizes TAM, SAM, and SOM using independent top-down and bottom-up methods, narrowing each step with explicitly named constraints (geography, segment, go-to-market capacity) rather than an arbitrary percentage. Use when a market-size figure has to hold up under scrutiny in a business case or investor conversation, not just sound impressively large.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -677,7 +677,7 @@
       "id": "opportunity-evaluation-and-judgment",
       "pack": "opportunity-recognition",
       "title": "Opportunity Evaluation & Judgment",
-      "description": "Structurally assesses the viability of an identified opportunity before committing resources. Use when you need opportunity-recognition-level support for a comparable task.",
+      "description": "Restates an identified opportunity as a falsifiable claim and structurally evaluates it against fixed criteria — market viability, feasibility, resource fit, strategic fit, risk — before resources are committed. Use once an opportunity has already been noticed and needs a deliberate go/no-go judgment, not another round of scanning for more ideas.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -724,7 +724,7 @@
       "id": "pattern-and-analogy-connector",
       "pack": "opportunity-recognition",
       "title": "Pattern & Analogy Connector",
-      "description": "Connects loose observations into a meaningful opportunity by identifying analogies across industries/situations using the Capability Pattern Mapping abstraction method: many superficially different cases are compressed into one named capability pattern, which then serves as a diagnostic question in a new context. Use when you need opportunity-recognition-level support for a comparable task.",
+      "description": "Connects loose observations into a meaningful opportunity by identifying analogies across industries and situations using the Capability Pattern Mapping method: superficially different cases are abstracted into one named capability pattern, which then serves as a diagnostic question in a new context. Use when an opportunity has no obvious precedent in your own industry and a same-industry case search comes up empty.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -807,7 +807,7 @@
       "id": "hypothesis-driven-strategy",
       "pack": "strategic-thinking",
       "title": "Hypothesis-Driven Strategy",
-      "description": "Structures a strategic problem with MECE and an issue tree, then tests the hypotheses against data. Use when you need strategic-thinking-level support for a comparable task.",
+      "description": "Structures a strategic question into an initial, provably-wrong hypothesis and a MECE issue tree, then prioritizes testing the branch most likely to kill the hypothesis first. Use when a strategic question needs a defensible, decision-ready point of view quickly, instead of either guessing an answer or trying to analyze everything before forming one.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -821,7 +821,7 @@
       "id": "scenario-and-foresight",
       "pack": "strategic-thinking",
       "title": "Scenario & Foresight Thinking",
-      "description": "Builds alternative future scenarios and stress-tests a strategy against them. Use when you need strategic-thinking-level support for a comparable task.",
+      "description": "Builds a 2x2 grid of internally consistent future scenarios from the two most critical uncertainties facing a strategy, then stress-tests the strategy against all four to surface no-regret moves and early-warning indicators. Use when a strategy needs to survive more than one plausible future, not just the one everyone is already assuming.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -845,7 +845,7 @@
       "id": "strategic-intent-framing",
       "pack": "strategic-thinking",
       "title": "Strategic Intent Framing",
-      "description": "Frames a clear strategic intent that focuses energy and cuts out noise. Use when you need strategic-thinking-level support for a comparable task.",
+      "description": "Frames a strategic intent as a single, contestable claim about the leadership position an organization wants to reach — deliberately ambitious relative to current resources — with a concrete win criterion and capability milestones. Use when a mission statement is too vague to rule anything out and a full plan would be premature.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -858,7 +858,7 @@
       "id": "strategic-options-evaluation",
       "pack": "strategic-thinking",
       "title": "Strategic Options Evaluation",
-      "description": "Compares strategic options in a structured way (impact/effort, risk, resources) to support a decision. Use when you need strategic-thinking-level support for a comparable task.",
+      "description": "Compares strategic options, including \\\"do nothing\\\", on a fixed set of dimensions (impact, effort, risk, reversibility, resource fit), scored independently per option and plotted on at least two views rather than collapsed into one number. Use when a decision needs a legible trade-off comparison instead of the most persuasively argued option winning by default.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [
@@ -872,7 +872,7 @@
       "id": "systems-mapping",
       "pack": "strategic-thinking",
       "title": "Systems Mapping",
-      "description": "Maps the full value-creating system and its dependencies before you design a solution. Use when you need strategic-thinking-level support for a comparable task.",
+      "description": "Maps the full value-creating system around a focal activity using the Value Net (customers, suppliers, competitors, complementors) and the flows of money, product, information, and trust between them, to surface load-bearing dependencies. Use before designing a solution that implicitly assumes only \\\"the customer\\\" and \\\"us\\\" exist in the system.",
       "maturity": "scaffold",
       "source_layer": "research",
       "grounded_in": [

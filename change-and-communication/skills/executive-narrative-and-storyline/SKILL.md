@@ -1,6 +1,6 @@
 ---
 name: executive-narrative-and-storyline
-description: "Turns analysis into a narrative and storyline that serves executive decision-making. Use when you need change & communication-level support for a comparable task."
+description: "Turns a finished analysis into an executive-ready storyline using the Pyramid Principle: governing thought stated first, an SCQA opening, and MECE supporting arguments each traced down to specific evidence. Use when the analysis is done but still needs to become a narrative someone can act on, instead of a slide deck assembled section by section."
 ---
 
 # Executive Narrative & Storyline

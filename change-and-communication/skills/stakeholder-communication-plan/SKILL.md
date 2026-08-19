@@ -1,6 +1,6 @@
 ---
 name: stakeholder-communication-plan
-description: "Builds a communication plan for different stakeholders during a change. Use when you need change & communication-level support for a comparable task."
+description: "Builds a stakeholder communication plan by segmenting audiences on the power/interest grid and mapping each segment's position on the ADKAR change curve, defining objective, message, channel, cadence, and owner per segment. Use when a change effort needs more than a generic \"keep stakeholders informed\" line and different groups actually need different messages."
 ---
 
 # Stakeholder Communication Plan

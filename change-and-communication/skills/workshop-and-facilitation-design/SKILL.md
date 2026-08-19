@@ -1,6 +1,6 @@
 ---
 name: workshop-and-facilitation-design
-description: "Designs the structure of a cross-functional workshop or design-thinking session. Use when you need change & communication-level support for a comparable task."
+description: "Designs the structure of a cross-functional workshop or design-thinking session using the Double Diamond and the Diamond of Participation, with explicit divergent, groan-zone, and convergent phases and a stated decision rule. Use when planning a workshop that has to both generate ideas and actually reach a decision, not just produce \"great discussion\"."
 ---
 
 # Workshop & Facilitation Design

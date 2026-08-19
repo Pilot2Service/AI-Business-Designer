@@ -1,6 +1,6 @@
 ---
 name: pattern-and-analogy-connector
-description: "Connects loose observations into a meaningful opportunity by identifying analogies across industries/situations using the Capability Pattern Mapping abstraction method: many superficially different cases are compressed into one named capability pattern, which then serves as a diagnostic question in a new context. Use when you need opportunity-recognition-level support for a comparable task."
+description: "Connects loose observations into a meaningful opportunity by identifying analogies across industries and situations using the Capability Pattern Mapping method: superficially different cases are abstracted into one named capability pattern, which then serves as a diagnostic question in a new context. Use when an opportunity has no obvious precedent in your own industry and a same-industry case search comes up empty."
 ---
 
 # Pattern & Analogy Connector

@@ -1,6 +1,6 @@
 ---
 name: ai-native-business-model-canvas
-description: "Designs the transition from an AI-enhanced business to an AI-native business model using an extended, AI-specific Business Model Canvas. Use when you need ai strategy & governance-level support for a comparable task."
+description: "Designs the shift from an AI-enhanced business (AI bolted onto existing operations) to an AI-native one, using an extended Business Model Canvas with four AI-specific lenses: value proposition, data moat, human-AI interaction model, and cost of compute vs. revenue. Use when deciding whether AI is an add-on to the current business model or whether the model itself needs to be rebuilt around AI."
 ---
 
 # AI-Native Business Model Canvas

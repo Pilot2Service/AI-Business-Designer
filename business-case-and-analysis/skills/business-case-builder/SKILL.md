@@ -1,6 +1,6 @@
 ---
 name: business-case-builder
-description: "Builds a full business case: problem, solution, economics (ROI/NPV/IRR), risks, timeline, stakeholders, recommendation. Use when you need business-case-and-analysis-level support for a comparable task."
+description: "Builds a full business case — problem, options considered (including \"do nothing\"), economics (ROI/NPV/IRR), risk, stakeholders, milestone-level timeline, and recommendation — following BABOK/PMI structure. Use when a proposal needs to reach a decision-maker as a structured business case, not a pitch with only one option on the table."
 ---
 
 # Business Case Builder

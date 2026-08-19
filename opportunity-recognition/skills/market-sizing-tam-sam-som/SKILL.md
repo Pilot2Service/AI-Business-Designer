@@ -1,6 +1,6 @@
 ---
 name: market-sizing-tam-sam-som
-description: "Quantitatively sizes the market and the genuinely reachable share of it. Use when you need opportunity-recognition-level support for a comparable task."
+description: "Sizes TAM, SAM, and SOM using independent top-down and bottom-up methods, narrowing each step with explicitly named constraints (geography, segment, go-to-market capacity) rather than an arbitrary percentage. Use when a market-size figure has to hold up under scrutiny in a business case or investor conversation, not just sound impressively large."
 ---
 
 # Market Sizing (TAM/SAM/SOM)

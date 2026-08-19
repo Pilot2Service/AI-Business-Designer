@@ -1,6 +1,6 @@
 ---
 name: build-vs-buy-vs-partner-ai
-description: "Structures the decision to build in-house, buy off a platform, or partner on an AI solution. Use when you need ai strategy & governance-level support for a comparable task."
+description: "Structures the build/buy/partner decision for an AI capability, including hybrid options, scored on differentiation value, time to value, and total cost of ownership (inference, retraining, ML-ops talent, not just license cost). Use when an AI capability decision needs a defensible comparison instead of defaulting to \"build\" or \"buy\" by habit."
 ---
 
 # Build vs. Buy vs. Partner (AI)
